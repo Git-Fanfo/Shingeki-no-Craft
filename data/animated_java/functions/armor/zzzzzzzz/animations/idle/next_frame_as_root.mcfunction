@@ -1,0 +1,1 @@
+function animated_java:armor/zzzzzzzz/animations/idle/tick_animation

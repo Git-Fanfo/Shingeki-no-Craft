@@ -7,6 +7,7 @@ execute if score @s cart_vars matches 1.. run tag @s add shifter
 execute if score @s colossal_vars matches 1.. run tag @s add shifter
 execute if score @s attack_vars matches 1.. run tag @s add shifter
 execute if score @s beast_vars matches 1.. run tag @s add shifter
+execute if score @s armor_vars matches 1.. run tag @s add shifter
 # Timer
 execute if score @s shifter_vars matches 1 run \
     function snc:shifters/human/timer/main with storage minecraft:cart
@@ -16,6 +17,8 @@ execute if score @s shifter_vars matches 3 run \
     function snc:shifters/human/timer/main with storage minecraft:attack
 execute if score @s shifter_vars matches 4 run \
     function snc:shifters/human/timer/main with storage minecraft:beast
+execute if score @s shifter_vars matches 5 run \
+    function snc:shifters/human/timer/main with storage minecraft:armor
     
 ## Removes shifter and kills the user, generally used when the player used cheats, was offline during the Curse of Ymir
 execute as @s[tag=!shifter] run function snc:shifters/human/remove

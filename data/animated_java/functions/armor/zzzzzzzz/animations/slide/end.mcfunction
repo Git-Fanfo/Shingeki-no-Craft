@@ -1,0 +1,3 @@
+execute if score @s aj.armor.animation.slide.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:armor/zzzzzzzz/animations/slide/end_loop
+execute if score @s aj.armor.animation.slide.loop_mode = $aj.loop_mode.once aj.i run function animated_java:armor/animations/slide/stop
+execute if score @s aj.armor.animation.slide.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:armor/animations/slide/pause

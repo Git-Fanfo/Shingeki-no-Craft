@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.armor.root] run function animated_java:armor/zzzzzzzz/tick_as_root

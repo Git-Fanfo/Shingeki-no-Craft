@@ -4,5 +4,6 @@ execute if entity @s[scores={cart_vars=1}] as @p[distance=.1..20,tag=consume] ru
 execute if entity @s[scores={colossal_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:colossal
 execute if entity @s[scores={attack_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:attack
 execute if entity @s[scores={beast_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:beast
+execute if entity @s[scores={armor_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:armor
 
 execute as @p[distance=..20,tag=consume] run function snc:titans/remove_tags

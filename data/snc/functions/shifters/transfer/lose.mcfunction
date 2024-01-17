@@ -34,11 +34,5 @@ $execute unless score prevent $(shifter)_vars matches 1 if score $$(shifter).doe
 # Reset "prevent"
 $scoreboard players reset prevent $(shifter)_vars
 
-##### HOW TO CREATE A SHIFTER #####
-# scoreboard players reset @s attack_vars
-# scoreboard players reset @s beast_vars
-# scoreboard players reset @s colossal_vars
-# scoreboard players reset @s cart_vars
-
 $scoreboard players set minutes $(shifter)_vars $(time)
 $scoreboard players set seconds $(shifter)_vars 1

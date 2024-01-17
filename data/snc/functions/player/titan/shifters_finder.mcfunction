@@ -11,4 +11,7 @@ execute if score $attack.doesnt.exists shifter_vars matches 0 run tellraw @s [""
 execute if score $attack.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.attack","color":"dark_red"}," ",{"translate":"aot.shifters.not_born"}]    
 
 execute if score $beast.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"text":"Beast x: ","color":"green"},{"score":{"name":"#x_beast", "objective": "shifter_vars"}},{"text":" z: ","color":"green"},{"score":{"name":"#z_beast", "objective": "shifter_vars"}}]
-execute if score $beast.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.beast","color":"green"}," ",{"translate":"aot.shifters.not_born"}]    
+execute if score $beast.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.beast","color":"green"}," ",{"translate":"aot.shifters.not_born"}]
+
+execute if score $armor.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"text":"Armor x: ","color":"green"},{"score":{"name":"#x_armor", "objective": "shifter_vars"}},{"text":" z: ","color":"green"},{"score":{"name":"#z_armor", "objective": "shifter_vars"}}]
+execute if score $armor.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.armor","color":"green"}," ",{"translate":"aot.shifters.not_born"}]

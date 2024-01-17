@@ -20,6 +20,7 @@ execute if score @s shifter_vars matches ..-1 run scoreboard players operation @
 execute if entity @s[tag=cart] run execute as @e[tag=head,tag=eldian,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:cart
 execute if entity @s[tag=colossal] run execute as @e[tag=head,tag=eldian,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:colossal
 execute if entity @s[tag=attack] run execute as @e[tag=head,tag=eldian,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:attack
+execute if entity @s[tag=armor] run execute as @e[tag=head,tag=eldian,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:armor
 execute if entity @s[tag=beast] run execute as @e[tag=head,tag=eldian,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:beast
 
 ## INHERIT

@@ -9,3 +9,4 @@ execute as @s[tag=inherit,scores={cart_vars=1}] run function snc:shifters/transf
 execute as @s[tag=inherit,scores={colossal_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:colossal
 execute as @s[tag=inherit,scores={attack_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:attack
 execute as @s[tag=inherit,scores={beast_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:beast
+execute as @s[tag=inherit,scores={armor_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:armor

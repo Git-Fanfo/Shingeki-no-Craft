@@ -88,3 +88,25 @@ data merge storage minecraft:beast {\
     dmg4:20, \
     jaw_dmg:15 \
 }
+
+data merge storage minecraft:armor {\
+    id:5, \
+    shifter:armor, \
+    color:gold, \
+    bossbar_display:uFFF1, \
+    bossbar_color:red, \
+    time:15, \
+    cd_time:-10, \
+    cd_time_hurt:-29, \
+    hp:40, \
+    walk_speed:0.13d, \
+    run_speed:0.36d, \
+    jump:2d, \
+    resistance:2, \
+    parry:attack, \
+    regen_ticks:80, \
+    dmg2:36, \
+    dmg3:24, \
+    jaw_dmg:20, \
+    footstep_dmg:6 \
+}

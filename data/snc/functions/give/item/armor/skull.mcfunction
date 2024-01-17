@@ -1,0 +1,1 @@
+give @s carved_pumpkin{display:{Name:'[{"translate":"aot.titan.attack","color":"white","italic":false}," ",{"translate":"aot.skull"}," ",{"translate":"aot.replica"}]',Lore:['{"translate":"Decoration","color":"blue","italic":false}']},CustomModelData:40} 1

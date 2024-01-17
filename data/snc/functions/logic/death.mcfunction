@@ -4,6 +4,7 @@ execute as @s[scores={cart_vars=1}] run function snc:shifters/transfer/lose with
 execute as @s[scores={colossal_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:colossal
 execute as @s[scores={attack_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:attack
 execute as @s[scores={beast_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:beast
+execute as @s[scores={armor_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:armor
 execute if score @s shifter_vars matches 1.. run function snc:shifters/human/remove
 
 ## Reset children

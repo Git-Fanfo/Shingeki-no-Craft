@@ -165,24 +165,26 @@ scoreboard objectives add shifter_vars dummy
 ## Shifters
 function snc:shifters/mobs/arguments
 
+scoreboard objectives add armor_vars dummy
+execute unless score minutes armor_vars matches 0.. run scoreboard players set minutes armor_vars 0
+execute unless score seconds armor_vars matches 0.. run scoreboard players set seconds armor_vars 0
+execute unless score $armor.doesnt.exists shifter_vars matches 0 run scoreboard players set $armor.doesnt.exists shifter_vars 1
+
 scoreboard objectives add cart_vars dummy
 execute unless score minutes cart_vars matches 0.. run scoreboard players set minutes cart_vars 0
 execute unless score seconds cart_vars matches 0.. run scoreboard players set seconds cart_vars 0
 execute unless score $cart.doesnt.exists shifter_vars matches 0 run scoreboard players set $cart.doesnt.exists shifter_vars 1
-
 
 scoreboard objectives add colossal_vars dummy
 execute unless score minutes colossal_vars matches 0.. run scoreboard players set minutes colossal_vars 0
 execute unless score seconds colossal_vars matches 0.. run scoreboard players set seconds colossal_vars 0
 execute unless score $colossal.doesnt.exists shifter_vars matches 0 run scoreboard players set $colossal.doesnt.exists shifter_vars 1
 
-
 scoreboard objectives add koniglich dummy
 scoreboard objectives add attack_vars dummy
 execute unless score minutes attack_vars matches 0.. run scoreboard players set minutes attack_vars 0
 execute unless score seconds attack_vars matches 0.. run scoreboard players set seconds attack_vars 0
 execute unless score $attack.doesnt.exists shifter_vars matches 0 run scoreboard players set $attack.doesnt.exists shifter_vars 1
-
 
 scoreboard objectives add beast_vars dummy
 execute unless score minutes beast_vars matches 0.. run scoreboard players set minutes beast_vars 0
@@ -211,6 +213,9 @@ team modify attack seeFriendlyInvisibles false
 team add beast
 team modify beast nametagVisibility never
 team modify beast seeFriendlyInvisibles false
+team add armor
+team modify armor nametagVisibility never
+team modify armor seeFriendlyInvisibles false
 
 team add soldier
 team modify soldier seeFriendlyInvisibles false
