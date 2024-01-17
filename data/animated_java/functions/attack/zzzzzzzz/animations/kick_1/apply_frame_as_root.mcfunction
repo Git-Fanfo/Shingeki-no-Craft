@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..27 run function animated_java:attack/zzzzzzzz/animations/kick_1/tree/branch_0_27

@@ -1,0 +1,1 @@
+function snc:eldia/villager/summon_npc {"tags":"\"alma\",\"happy\",\"woman\"","name":"Alma","head":23}

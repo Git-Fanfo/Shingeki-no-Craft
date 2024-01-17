@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+			"translate": "aot.adv.shifter2",
+            "color": "aqua"
+        },
+        "description": {
+			"translate": "aot.adv.shifter2.desc",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:9}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters"
+}

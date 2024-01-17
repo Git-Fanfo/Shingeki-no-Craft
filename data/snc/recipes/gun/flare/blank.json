@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "   ",
+      " #X",
+      "  L"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:andesite"
+      },
+      "X": {
+        "tag": "logs"
+      },
+      "L": {
+        "item": "minecraft:lever"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

@@ -1,0 +1,1 @@
+scale set pehkui:third_person 3

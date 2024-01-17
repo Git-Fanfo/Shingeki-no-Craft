@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:blade"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/blade"
+    },
+    "parent": "snc:survey/odm/blade"
+}

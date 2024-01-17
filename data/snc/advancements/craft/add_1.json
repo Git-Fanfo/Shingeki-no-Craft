@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:add_1"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/add_1"
+    },
+    "parent": "snc:shifters"
+}

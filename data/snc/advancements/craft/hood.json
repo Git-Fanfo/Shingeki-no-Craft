@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:hood"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/hood"
+    },
+    "parent": "snc:survey/equip"
+}

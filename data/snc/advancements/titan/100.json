@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "Vice Captain",
+            "color": "yellow"
+        },
+        "description": {
+			"translate": "aot.adv.100",
+            "color": "dark_purple",
+            "strikethrough": true
+        },
+        "icon": {
+            "item": "minecraft:feather",
+            "nbt": "{CustomModelData:11}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:titan/70"
+}

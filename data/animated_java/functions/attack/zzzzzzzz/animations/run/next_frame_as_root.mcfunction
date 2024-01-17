@@ -1,0 +1,1 @@
+function animated_java:attack/zzzzzzzz/animations/run/tick_animation

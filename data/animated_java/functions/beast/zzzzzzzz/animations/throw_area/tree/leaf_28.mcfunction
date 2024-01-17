@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:beast/zzzzzzzz/animations/throw_area/tree/leaf_28_as_bone

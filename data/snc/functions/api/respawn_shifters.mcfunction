@@ -1,0 +1,10 @@
+scoreboard players enable @s manual
+
+tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n░░░░░▒▒▒▓▓█","color":"blue"},{"text":"【","color":"yellow"},{"translate":"aot.respawn","color":"gold","bold": true},{"text":"】","color":"yellow"},{"text":"█▓▓▒▒▒░░░░░","color":"blue"}]
+tellraw @s [{"translate":"aot.warning","color":"dark_red","bold":true},{"translate":"aot.warning.respawn","color":"yellow","bold": false},"\n",{"translate":"aot.warning.respawn2","color":"red","bold": true},"\n",{"translate":"aot.warning.respawn3","color":"yellow","bold": false},"\n"]
+
+##### HOW TO CREATE A SHIFTER #####
+tellraw @s [{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.titan.attack","color":"dark_red"},{"text": " [","color": "green"},{"text":"■","color": "yellow","clickEvent":{"action":"run_command","value":"/trigger manual set 11"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.select","color":"yellow"}]}},{"text": "]","color": "green"}]
+tellraw @s [{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.titan.beast","color":"dark_green"},{"text": " [","color": "green"},{"text":"■","color": "yellow","clickEvent":{"action":"run_command","value":"/trigger manual set 12"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.select","color":"yellow"}]}},{"text": "]","color": "green"}]
+tellraw @s [{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.titan.cart","color":"light_purple"},{"text": " [","color": "green"},{"text":"■","color": "yellow","clickEvent":{"action":"run_command","value":"/trigger manual set 13"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.select","color":"yellow"}]}},{"text": "]","color": "green"}]
+tellraw @s [{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.titan.colossal","color":"aqua"},{"text": " [","color": "green"},{"text":"■","color": "yellow","clickEvent":{"action":"run_command","value":"/trigger manual set 14"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.select","color":"yellow"}]}},{"text": "]","color": "green"}]

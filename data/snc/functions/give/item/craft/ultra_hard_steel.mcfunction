@@ -1,0 +1,1 @@
+give @s poisonous_potato{display:{Name:'{"translate":"aot.steel","color":"light_purple","bold":true,"italic":true}',Lore:['{"translate":"aot.steel.craft"}']},HideFlags:32,CustomModelData:4} 1

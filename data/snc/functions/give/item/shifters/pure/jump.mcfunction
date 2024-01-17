@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:'{"translate":"aot.pure.jump","color":"aqua","italic":false}'},HideFlags:5,CustomModelData:9,jump:1b,atk_shifter:1b,pure_titan:1b,Enchantments:[{}]} 1

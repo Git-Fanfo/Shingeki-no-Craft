@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "slots": {
+            "empty": 3
+          },
+          "player": {
+            "nbt": "{Tags:[\"handcuffs\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "snc:interact/handcuffs/reset"
+    }
+  }
+  

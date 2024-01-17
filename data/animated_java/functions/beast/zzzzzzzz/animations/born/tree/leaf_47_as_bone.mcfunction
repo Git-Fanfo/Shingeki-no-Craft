@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.beast.locator_origin.right_hand] at @s on origin run tp @s ^-3.875 ^-13.6875 ^-2.5625 ~0 ~0

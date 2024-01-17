@@ -1,0 +1,8 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:survey/odm/odm_weapon_2"
+}

@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:beast/zzzzzzzz/animations/throw_big/tree/leaf_90_as_bone

@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:'{"translate":"aot.pure.eat","color":"aqua","italic":false}'},HideFlags:5,CustomModelData:44,eat:1b,atk_shifter:1b,pure_titan:1b,Enchantments:[{}]} 1

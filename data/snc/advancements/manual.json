@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+			"translate": "aot.guide",
+            "color": "gold"
+        },
+        "description": {
+			"translate": "aot.guide.desc",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:manual"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "snc:root"
+}

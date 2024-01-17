@@ -1,0 +1,31 @@
+{
+    "parent": "snc:survey/equip",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:34}"
+        },
+        "title": {
+			"translate": "aot.adv.flare",
+            "color": "aqua"
+        },
+        "description": {
+			"translate": "aot.adv.flare.desc",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "flare_gun": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "flare_gun"
+      ]
+    ]
+  }

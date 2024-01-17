@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+			"translate": "aot.steel",
+            "color": "gray"
+        },
+        "description": {
+			"translate": "aot.steel.desc",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot",
+            "nbt": "{CustomModelData:1}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Craft Ultra Hard Steel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:blade"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 40
+    },
+    "parent": "snc:survey/odm/odm_gear"
+}

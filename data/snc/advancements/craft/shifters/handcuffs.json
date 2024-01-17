@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:shifters/handcuffs"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/shifters/handcuffs"
+    },
+    "parent": "snc:shifters"
+}

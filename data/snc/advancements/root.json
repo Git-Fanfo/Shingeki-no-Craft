@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+			"translate": "aot",
+            "color": "dark_red",
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+			"translate": "aot.credit",
+            "color": "gray",
+            "underlined": true
+        },
+        "icon": {
+            "item": "minecraft:arrow",
+            "nbt": "{CustomModelData:2}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/grass_block.png"
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

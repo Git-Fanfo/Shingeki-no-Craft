@@ -1,0 +1,8 @@
+function animated_java:beast/zzzzzzzz/animations/idle/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/walk/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/throw_big/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/throw_area/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/born/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/death/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/grab/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/sneak/pause_as_root

@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+			"translate": "aot.adv.gas",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Seid ihr das Essen?",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:minecart",
+            "nbt": "{CustomModelData:2}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Craft Odm Blade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:odm_gear_blade"
+            }
+        },
+        "Craft Trigger Blade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:gas_trigger_blade"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "snc:survey/odm/blade"
+}

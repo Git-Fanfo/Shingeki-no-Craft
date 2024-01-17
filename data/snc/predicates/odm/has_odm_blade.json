@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{SelectedItem:{tag:{trigger:1b,blade:1b}},Inventory:[{Slot:-106b,tag:{odm_gear:1b,blade:1b}}]}"
+    }
+  }
+  

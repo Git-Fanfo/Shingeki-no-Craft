@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "air",
+          "dirt",
+          "cobblestone",
+          "gravel",
+          "sand",
+          "red_sand",
+          "poisonous_potato",
+          "carrot_on_a_stick"
+        ]
+      }
+    }
+  }
+}

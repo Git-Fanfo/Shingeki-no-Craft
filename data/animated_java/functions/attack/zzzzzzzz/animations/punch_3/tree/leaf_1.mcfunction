@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:attack/zzzzzzzz/animations/punch_3/tree/leaf_1_as_bone

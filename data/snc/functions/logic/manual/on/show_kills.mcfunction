@@ -1,0 +1,3 @@
+scoreboard players set show_kills config 1
+scoreboard objectives setdisplay sidebar Visib_Kill_Count
+scoreboard objectives setdisplay below_name Visib_Kill_Count

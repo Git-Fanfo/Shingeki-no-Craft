@@ -1,0 +1,1 @@
+function animated_java:attack/zzzzzzzz/animations/kick_2/tick_animation

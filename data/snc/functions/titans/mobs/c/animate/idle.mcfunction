@@ -1,0 +1,1 @@
+execute if score @s idle matches 40 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:74}}}

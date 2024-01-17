@@ -1,0 +1,1 @@
+function snc:give/item/shifters/syringe/full

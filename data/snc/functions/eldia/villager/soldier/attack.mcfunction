@@ -1,0 +1,2 @@
+data merge entity @s {Particle:"explosion",ReapplicationDelay:0,Radius:3f,Duration:60,Effects:[{Id:13,Amplifier:1b,Duration:20,ShowParticles:0b}]}
+ride @s mount @e[tag=head,tag=soldier,sort=nearest,limit=1]

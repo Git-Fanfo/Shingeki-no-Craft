@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:wrench"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/wrench"
+    },
+    "parent": "snc:survey/canon/get"
+}

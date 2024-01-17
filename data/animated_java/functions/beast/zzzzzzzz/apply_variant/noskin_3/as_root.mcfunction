@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:beast/zzzzzzzz/apply_variant/noskin_3/as_bone

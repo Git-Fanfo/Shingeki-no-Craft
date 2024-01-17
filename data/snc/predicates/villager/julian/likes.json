@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "azure_bluet",
+          "white_tulip",
+          "book",
+          "painting",
+          "spyglass",
+          "ink_sac"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:'{"translate":"aot.finder","color":"light_purple","italic":false}',Lore:['{"translate":"aot.used","color":"gray","italic":false}','{"translate":"aot.finder.desc","color":"blue","bold":false,"italic":false}']},HideFlags:5,Unbreakable:1b,CustomModelData:16,shifters_finder:1b} 1

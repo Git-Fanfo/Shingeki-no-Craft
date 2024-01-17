@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:gas_trigger_sp3"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/gas_trigger_sp3"
+    },
+    "parent": "snc:survey/odm/odm_weapon_2"
+}

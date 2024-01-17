@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.titan.cart",
+            "color": "light_purple"
+        },
+        "description": {
+            "translate": "aot.adv.cart.desc",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:4}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters/aura"
+}

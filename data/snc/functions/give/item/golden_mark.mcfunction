@@ -1,0 +1,1 @@
+give @s flint{display:{Name:'{"translate":"aot.villager.currency","color":"gold","italic":false}'},CustomModelData:216,coin:1b,Enchantments:[{}]} 3

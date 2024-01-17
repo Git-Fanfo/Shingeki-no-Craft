@@ -1,0 +1,3 @@
+execute if score $hold beast_vars matches 1 unless score $area beast_vars matches 1 positioned ^-5 ^-14 ^ rotated ~ 0 run function snc:shifters/mobs/beast/action/grab/ride
+execute if score $area beast_vars matches 1 if score $rock beast_vars matches 1 positioned ^.5 ^ ^1 rotated ~ 0 run particle block deepslate ~ ~ ~ 0 0 0 0 10 force
+execute if score $area beast_vars matches 1 if score $rock beast_vars matches 1 positioned ^-.5 ^ ^1 rotated ~ 0 run particle block deepslate ~ ~ ~ 0 0 0 0 10 force

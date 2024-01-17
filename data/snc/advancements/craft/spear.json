@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:gun/spear"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/spear"
+    },
+    "parent": "snc:survey/odm/spear"
+}

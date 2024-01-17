@@ -1,0 +1,2 @@
+execute positioned ~ ~4 ~ if entity @e[tag=village,distance=..2] run function snc:player/build/bell/rename/true
+execute positioned ~ ~4 ~ unless entity @e[tag=village,distance=..2] run function snc:player/build/bell/rename/false

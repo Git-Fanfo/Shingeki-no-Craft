@@ -1,0 +1,2 @@
+execute on passengers run function animated_java:beast/zzzzzzzz/animations/death/tree/leaf_0_as_bone
+execute unless entity @s[tag=aj.beast.disable_command_keyframes] at @s run function snc:shifters/mobs/beast/action/death/fall

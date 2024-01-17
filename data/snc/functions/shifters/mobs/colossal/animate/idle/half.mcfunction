@@ -1,0 +1,9 @@
+execute if score idle colossal_vars matches 89 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:475}}}
+execute if score idle colossal_vars matches 79 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:476}}}
+execute if score idle colossal_vars matches 69 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:477}}}
+execute if score idle colossal_vars matches 59 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:478}}}
+execute if score idle colossal_vars matches 49 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:479}}}
+execute if score idle colossal_vars matches 39 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:478}}}
+execute if score idle colossal_vars matches 29 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:477}}}
+execute if score idle colossal_vars matches 19 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:476}}}
+execute if score idle colossal_vars matches 9 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:475}}}

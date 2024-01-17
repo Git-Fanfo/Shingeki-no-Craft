@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:cape"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/cape"
+    },
+    "parent": "snc:survey/equip"
+}

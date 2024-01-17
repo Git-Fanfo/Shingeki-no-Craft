@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:gun/flare/black"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/flare/black"
+    },
+    "parent": "snc:survey/flare/shoot"
+}

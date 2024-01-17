@@ -1,0 +1,57 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Hange\\'s field notes \",\"color\":\"dark_green\",\"italic\":false},{\"text\":\"(1/4)\",\"color\":\"yellow\",\"italic\":false}]',Lore:['{\"text\":\"\\\\\"What are they? They look like us, they walk\"}','{\"text\":\"like us, Why do they need to eat us If they don\\'t\"}','{\"text\":\"a digestive system? There must be a connection...\\\\\"\"}','{\"text\":\"___\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','[{\"text\":\"| \",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"| |\",\"color\":\"gold\",\"italic\":false},{\"text\":\" |\",\"color\":\"blue\",\"italic\":false}]','[{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"   Iron Nugget\",\"color\":\"gray\",\"italic\":false,\"underlined\":false}]','{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}']},notes:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Hange\\'s field notes \",\"color\":\"dark_green\",\"italic\":false},{\"text\":\"(2/4)\",\"color\":\"yellow\",\"italic\":false}]',Lore:['{\"text\":\"\\\\\"Light as a feather, the body just evaporates\"}','{\"text\":\"when the die. Must be the air? I need to be\"}','{\"text\":\"closer, maybe at night when nobody sees me.\"}','{\"text\":\"Do them blood can give me a hint?\\\\\"\"}','{\"text\":\"___\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','[{\"text\":\"| \",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"| |\",\"color\":\"gold\"},{\"text\":\" |\",\"color\":\"blue\",\"italic\":false},{\"text\":\"   Glass Pane\",\"color\":\"white\",\"italic\":false,\"underlined\":false}]','{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}']},notes:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Hange\\'s field notes \",\"color\":\"dark_green\",\"italic\":false},{\"text\":\"(3/4)\",\"color\":\"yellow\",\"italic\":false}]',Lore:['{\"text\":\"\\\\\"Ymir... Ymir... What even is that...? Who?\"}','{\"text\":\"Is it even a word? The diary described it\"}','{\"text\":\"as a human language, intelligence?\\\\\"\"}','{\"text\":\"___\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','[{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"   Iron Ingot\",\"color\":\"gray\",\"italic\":false,\"underlined\":false}]','[{\"text\":\"| |\",\"color\":\"gold\",\"italic\":false,\"underlined\":true},{\"text\":\" \",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"| |\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}]']},notes:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Hange\\'s field notes \",\"color\":\"dark_green\",\"italic\":false},{\"text\":\"(4/4)\",\"color\":\"yellow\",\"italic\":false}]',Lore:['{\"text\":\"\\\\\"The neck, the neck is the key. The only known\"}','{\"text\":\"weakness of the Titans. Why? Recently I realized\"}','{\"text\":\"that a strange liquid doesn\\'t evaporate even\"}','{\"text\":\"when they are dead! I need to study without\"}','{\"text\":\"damaging it. I may need to build something.\\\\\"\"}','{\"text\":\"___\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}','[{\"text\":\"| | | |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"   Stone Button\",\"color\":\"gray\",\"italic\":false,\"underlined\":false}]','[{\"text\":\"| \",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\"| |\",\"color\":\"gold\",\"italic\":false,\"underlined\":true},{\"text\":\" |\",\"color\":\"blue\",\"italic\":false,\"underlined\":true}]']},notes:1b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 1
+          }
+        ]
+      }
+    ]
+  }
+  

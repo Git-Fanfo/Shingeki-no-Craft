@@ -1,0 +1,5 @@
+title @s times 10t 3s 10t
+title @s actionbar [{"text": "❤ ","bold": true,"color": "red"},{"translate":"aot.inv.desc11","color": "yellow"}," ❤"]
+execute if score @s alma matches 30.. if entity @e[tag=alma,sort=nearest,limit=1,distance=.1..3] run function snc:eldia/gene/bee
+scoreboard players enable @p[distance=.1..3] messages
+execute as @p[distance=.1..3] run tellraw @s ["<",{"selector":"@p"},"> ",{"translate":"aot.inv.desc8"},"\n",{"translate":"aot.inv.desc9","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger messages set 10000"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.select","color":"aqua"}]}},"\n",{"translate":"aot.inv.desc10","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger messages set 10001"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.select","color":"aqua"}]}}]

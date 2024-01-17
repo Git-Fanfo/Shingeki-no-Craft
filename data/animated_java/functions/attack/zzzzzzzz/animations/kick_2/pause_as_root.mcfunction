@@ -1,0 +1,1 @@
+tag @s remove aj.attack.animation.kick_2

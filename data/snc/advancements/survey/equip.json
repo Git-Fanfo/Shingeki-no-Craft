@@ -1,0 +1,75 @@
+{
+    "parent": "snc:manual",
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{display:{color:16777215}}"
+        },
+        "title": {
+			"translate": "aot.adv.survey",
+            "color": "dark_green"
+        },
+        "description": {
+			"translate": "aot.adv.survey.desc",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "Hood": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carved_pumpkin",
+                        "nbt": "{survey_cops:1b}"
+                    }
+                ]
+            }
+      },
+      "Cape": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "nbt": "{survey_cops:1b}"
+                    }
+                ]
+            }
+      },
+      "Harness": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "nbt": "{survey_cops:1b}"
+                    }
+                ]
+            }
+      },
+      "Boots": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "nbt": "{survey_cops:1b}"
+                    }
+                ]
+            }
+      }
+    },
+    "requirements": [
+      [
+        "Hood",
+        "Cape",
+        "Harness",
+        "Boots"
+      ]
+    ]
+  }

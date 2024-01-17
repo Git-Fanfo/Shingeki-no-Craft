@@ -1,0 +1,1 @@
+function animated_java:beast/zzzzzzzz/animations/grab/tick_animation

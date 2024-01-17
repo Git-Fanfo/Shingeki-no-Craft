@@ -1,0 +1,1 @@
+function snc:eldia/villager/summon_npc {"tags":"\"bob\",\"wise\"","name":"Bobby Whitewood","head":17}

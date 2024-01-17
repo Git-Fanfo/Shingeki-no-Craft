@@ -1,0 +1,40 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:1}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:2}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:3}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:4}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:5}}}"
+      }
+    }
+  ]
+}

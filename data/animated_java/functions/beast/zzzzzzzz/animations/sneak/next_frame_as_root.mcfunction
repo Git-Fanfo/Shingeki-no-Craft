@@ -1,0 +1,1 @@
+function animated_java:beast/zzzzzzzz/animations/sneak/tick_animation

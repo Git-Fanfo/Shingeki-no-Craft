@@ -1,0 +1,1 @@
+function snc:give/item/survey_corps/blade/blade

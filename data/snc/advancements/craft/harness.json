@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:harness"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "snc:craft/harness"
+    },
+    "parent": "snc:survey/equip"
+}

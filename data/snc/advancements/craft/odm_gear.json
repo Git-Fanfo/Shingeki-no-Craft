@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:odm_gear"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/odm_gear"
+    },
+    "parent": "snc:survey/odm/odm_gear"
+}

@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:attack/zzzzzzzz/animations/death/tree/leaf_14_as_bone

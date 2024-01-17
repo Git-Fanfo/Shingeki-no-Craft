@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:manual"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/manual"
+    },
+    "parent": "snc:manual"
+}

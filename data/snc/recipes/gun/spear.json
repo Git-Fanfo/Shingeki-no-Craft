@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "i",
+      "i",
+      "t"
+  ],
+  "key": {
+      "i": {
+          "item": "minecraft:iron_ingot"
+      },
+      "t": {
+          "item": "minecraft:quartz"
+      }
+  },
+  "result": {
+      "item": "minecraft:knowledge_book",
+      "count": 1
+  }
+}

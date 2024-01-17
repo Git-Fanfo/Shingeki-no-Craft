@@ -1,0 +1,2 @@
+execute if predicate snc:odm/has_spear_r run scoreboard players set @s odm_action -30
+execute if score @s odm_action matches 0.. if predicate snc:odm/has_spear_l run scoreboard players set @s odm_action -30

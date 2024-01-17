@@ -1,0 +1,1 @@
+give @s quartz{display:{Name:'{"translate":"aot.gun.jar","color":"white","italic":false}'},HideFlags:5,CustomModelData:1} 1

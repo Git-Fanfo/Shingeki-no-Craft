@@ -1,0 +1,3 @@
+execute if score @s aj.beast.animation.throw_area.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:beast/zzzzzzzz/animations/throw_area/end_loop
+execute if score @s aj.beast.animation.throw_area.loop_mode = $aj.loop_mode.once aj.i run function animated_java:beast/animations/throw_area/stop
+execute if score @s aj.beast.animation.throw_area.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:beast/animations/throw_area/pause

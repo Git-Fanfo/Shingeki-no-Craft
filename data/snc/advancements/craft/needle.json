@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:needle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/needle"
+    },
+    "parent": "snc:shifters"
+}

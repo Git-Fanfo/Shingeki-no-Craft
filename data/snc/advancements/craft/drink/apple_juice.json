@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:drink/apple_juice"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/drink/apple_juice"
+    }
+}

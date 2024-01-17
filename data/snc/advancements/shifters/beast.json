@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.titan.beast",
+            "color": "green"
+        },
+        "description": {
+            "translate": "aot.adv.beast",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:60}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters/aura"
+}

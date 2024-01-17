@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "Squad Leader",
+            "color": "light_purple"
+        },
+        "description": {
+			"translate": "aot.adv.70",
+            "color": "dark_purple",
+            "underlined": false,
+            "strikethrough": true
+        },
+        "icon": {
+            "item": "minecraft:feather",
+            "nbt": "{CustomModelData:11}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:titan/40"
+}

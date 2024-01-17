@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:chicken",
+    "minecraft:donkey",
+    "minecraft:llama",
+    "minecraft:mule",
+    "minecraft:pig",
+    "minecraft:ravager",
+    "minecraft:spider",
+    "minecraft:strider",
+    "minecraft:trader_llama",
+    "minecraft:zombie_horse"
+  ]
+}

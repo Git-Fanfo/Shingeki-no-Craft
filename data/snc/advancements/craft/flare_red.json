@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:gun/flare/red"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/flare/red"
+    },
+    "parent": "snc:survey/flare/shoot"
+}

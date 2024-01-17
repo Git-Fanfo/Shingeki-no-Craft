@@ -1,0 +1,26 @@
+execute if entity @s[tag=aj.beast.bone.right_thumb] run data modify entity @s item.tag.CustomModelData set value 152
+execute if entity @s[tag=aj.beast.bone.right_fingers_2] run data modify entity @s item.tag.CustomModelData set value 153
+execute if entity @s[tag=aj.beast.bone.right_fingers] run data modify entity @s item.tag.CustomModelData set value 154
+
+execute if entity @s[tag=aj.beast.bone.right_hand] run data modify entity @s item.tag.CustomModelData set value 155
+execute if entity @s[tag=aj.beast.bone.right_forearm] run data modify entity @s item.tag.CustomModelData set value 156
+execute if entity @s[tag=aj.beast.bone.right_bicep] run data modify entity @s item.tag.CustomModelData set value 157
+execute if entity @s[tag=aj.beast.bone.right_arm] run data modify entity @s item.tag.CustomModelData set value 158
+execute if entity @s[tag=aj.beast.bone.left_thumb] run data modify entity @s item.tag.CustomModelData set value 159
+execute if entity @s[tag=aj.beast.bone.left_fingers_2] run data modify entity @s item.tag.CustomModelData set value 160
+execute if entity @s[tag=aj.beast.bone.left_fingers] run data modify entity @s item.tag.CustomModelData set value 161
+execute if entity @s[tag=aj.beast.bone.left_hand] run data modify entity @s item.tag.CustomModelData set value 162
+execute if entity @s[tag=aj.beast.bone.left_forearm] run data modify entity @s item.tag.CustomModelData set value 163
+execute if entity @s[tag=aj.beast.bone.left_bicep] run data modify entity @s item.tag.CustomModelData set value 164
+execute if entity @s[tag=aj.beast.bone.left_arm] run data modify entity @s item.tag.CustomModelData set value 165
+execute if entity @s[tag=aj.beast.bone.chest] run data modify entity @s item.tag.CustomModelData set value 166
+execute if entity @s[tag=aj.beast.bone.waist] run data modify entity @s item.tag.CustomModelData set value 167
+execute if entity @s[tag=aj.beast.bone.hip] run data modify entity @s item.tag.CustomModelData set value 168
+execute if entity @s[tag=aj.beast.bone.right_foot] run data modify entity @s item.tag.CustomModelData set value 169
+execute if entity @s[tag=aj.beast.bone.right_knee] run data modify entity @s item.tag.CustomModelData set value 170
+execute if entity @s[tag=aj.beast.bone.right_thigh] run data modify entity @s item.tag.CustomModelData set value 171
+execute if entity @s[tag=aj.beast.bone.right_leg] run data modify entity @s item.tag.CustomModelData set value 172
+execute if entity @s[tag=aj.beast.bone.left_foot] run data modify entity @s item.tag.CustomModelData set value 173
+execute if entity @s[tag=aj.beast.bone.left_knee] run data modify entity @s item.tag.CustomModelData set value 174
+execute if entity @s[tag=aj.beast.bone.left_thigh] run data modify entity @s item.tag.CustomModelData set value 175
+execute if entity @s[tag=aj.beast.bone.left_leg] run data modify entity @s item.tag.CustomModelData set value 176

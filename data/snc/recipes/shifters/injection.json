@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " # ",
+      " O ",
+      "@X@"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_nugget"
+      },
+      "X": {
+        "item": "minecraft:stone_button"
+      },
+      "O": {
+        "item": "minecraft:glass_pane"
+      },
+      "@": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

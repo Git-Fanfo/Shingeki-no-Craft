@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snc:shifters/injection"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snc:craft/shifters/injection"
+    },
+    "parent": "snc:shifters"
+}

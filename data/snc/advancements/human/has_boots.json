@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement" : {
+            "trigger" : "minecraft:tick",
+            "conditions" : {
+                "player" : {
+                    "nbt": "{Inventory:[{Slot:100b,tag:{survey_cops:1b}}]}"
+                }
+            }
+        }
+    },
+    "rewards" : {
+        "function" : "snc:player/odm/fall_damage"
+    }
+}
