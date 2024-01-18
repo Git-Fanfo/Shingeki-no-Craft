@@ -9,10 +9,10 @@ execute if score @s colossal_vars matches 3600 run bossbar remove minecraft:colo
 
 particle campfire_signal_smoke ~ ~-10 ~ 2 2 2 .01 2 force
 
-execute if score @s[tag=half] colossal_vars matches 3600 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:502}}}
+execute if score @s[tag=half] colossal_vars matches 3600 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:502}}}
 
-execute if score @s[tag=!half] colossal_vars matches 3600 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:454}}}
-execute if score @s[tag=!half] colossal_vars matches 3590 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:455}}}
-execute if score @s[tag=!half] colossal_vars matches 3580 run data merge entity @s {item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:456}}}
+execute if score @s[tag=!half] colossal_vars matches 3600 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:454}}}
+execute if score @s[tag=!half] colossal_vars matches 3590 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:455}}}
+execute if score @s[tag=!half] colossal_vars matches 3580 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:456}}}
 
 execute if score @s colossal_vars matches 2 run function snc:shifters/mobs/kill_old

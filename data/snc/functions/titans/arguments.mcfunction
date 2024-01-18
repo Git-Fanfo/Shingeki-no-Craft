@@ -5,14 +5,15 @@ data merge storage minecraft:titan_1 {\
     height: "8m ", \
     type: "Titan", \
     name: "Zick", \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,Invulnerable:1b,NoAI:1b,Size:4,Tags:["collision","titan","mob1"],Passengers: \
-          [{id:"minecraft:slime",Fire:20,Silent:1b,Invulnerable:1b,NoAI:1b,Size:4,Tags:["collision","titan","mob1"],Passengers: \
-            [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan","mob1"]}]}]}], \
+    scale: 2.65, \
+    step_height: 1.6 \
+    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan","mob1"]}], \
     speed: 0.5, \
     dmg_footstep: 8, \
     dmg_1: 0, \
     dmg_2: 14 \
 }
+# body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan","mob1"]}], \
 
 # Run
 # Bite
@@ -35,6 +36,7 @@ data merge storage minecraft:titan_3 {\
     height: "12m ", \
     type: "Titan", \
     name: "Michelle", \
+    scale: 1, \
     body: [{id:"minecraft:slime",Fire:20,Silent:1b,Invulnerable:1b,NoAI:1b,Size:8,Tags:["collision","titan","mob3"],Passengers: \
           [{id:"minecraft:slime",Fire:20,Silent:1b,Invulnerable:1b,NoAI:1b,Size:7,Tags:["collision","titan","mob3"],Passengers: \
             [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan","mob3"]}]}]}], \

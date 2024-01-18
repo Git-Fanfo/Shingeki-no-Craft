@@ -13,10 +13,10 @@ execute if score action colossal_vars matches 46 run playsound minecraft:item.tr
 execute if score action colossal_vars matches 55 run function snc:shifters/mobs/colossal/spawn/explosion
 
 # Full
-execute if score action colossal_vars matches 55 unless score state_sp colossal_vars matches 1 run data merge entity @s {view_range:50f,item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:454}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
+execute if score action colossal_vars matches 55 unless score state_sp colossal_vars matches 1 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:454}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
 
 # Half
-execute if score action colossal_vars matches 55 if score state_sp colossal_vars matches 1 run data merge entity @s {view_range:50f,item:{id:'minecraft:scute',Count:1b,tag:{CustomModelData:502}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
+execute if score action colossal_vars matches 55 if score state_sp colossal_vars matches 1 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:502}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
 
 
 execute if score action colossal_vars matches ..48 if score state_sp colossal_vars matches 2 run gamerule mobGriefing false

@@ -10,7 +10,7 @@ scoreboard players remove @s atk 1
 # Walk: 0..58
 scoreboard players remove @s walk 1
 
-# Craft
+# Zick
 execute if entity @s[tag=mob1,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/1/animate/attack
 execute if entity @s[tag=mob1,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/1/animate/attack_2
 execute if entity @s[tag=mob1,tag=!attack,tag=walk] run function snc:titans/mobs/1/animate/walk
