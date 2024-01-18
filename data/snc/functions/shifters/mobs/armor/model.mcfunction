@@ -36,6 +36,7 @@ execute if score state armor_vars matches 1 if entity @s[tag=!aj.armor.animation
 execute if score state armor_vars matches 3 if entity @s[tag=!aj.armor.animation.idle] run function snc:shifters/mobs/armor/animate/idle
 execute if score state armor_vars matches 4 if entity @s[tag=!aj.armor.animation.walk] run function snc:shifters/mobs/armor/animate/walk
 execute if score state armor_vars matches 5 if entity @s[tag=!aj.armor.animation.run] run function snc:shifters/mobs/armor/animate/run
+execute if score state armor_vars matches 5 run fill ~4 ~1.5 ~4 ~-4 ~15 ~-4 air replace
 execute if score state armor_vars matches 9 if entity @s[tag=!aj.armor.animation.death] run function snc:shifters/mobs/armor/animate/death
 execute if score state attack_vars matches 12 if entity @s[tag=!aj.attack.animation.punch_1] run function snc:shifters/mobs/attack/animate/punch_1
 execute if score state attack_vars matches 13 if entity @s[tag=!aj.attack.animation.punch_2] run function snc:shifters/mobs/attack/animate/punch_2
