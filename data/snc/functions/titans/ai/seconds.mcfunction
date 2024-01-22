@@ -7,7 +7,7 @@ execute if entity @e[tag=ai,distance=0.1..3] run function snc:titans/ai/jump
 
 ## Effects
 effect give @s resistance infinite 5 true
-##effect give @s invisibility infinite 0 true
+effect give @s invisibility infinite 0 true
 
 ## Speed
 # Sunrise

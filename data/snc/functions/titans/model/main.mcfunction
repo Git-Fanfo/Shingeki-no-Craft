@@ -1,3 +1,5 @@
+##execute if entity @s[tag=c] on passengers store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
+## Delete
 execute unless score @s idle matches 0.. run function snc:titans/model/add_scores
 
 ## Glowing
