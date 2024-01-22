@@ -1,2 +1,2 @@
 ## coords for the hitboxes
-tp @s ^ ^-5 ^-.1
+tp @s ^ ^3 ^-.1
