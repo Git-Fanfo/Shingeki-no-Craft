@@ -11,6 +11,7 @@ data merge storage minecraft:cart {\
     walk_speed:0.55d, \
     run_speed:0.55d, \
     jump:1.2d, \
+    step_height:3.6d, \
     resistance:2, \
     parry:false, \
     regen_ticks:100 \
@@ -23,6 +24,7 @@ data merge storage minecraft:colossal {\
     bossbar:uFFF1, \
     hp:72, \
     time:5, \
+    step_height:3.6d, \
     cd_time:-14, \
     cd_time_hurt:-39, \
     resistance:2, \
@@ -59,6 +61,7 @@ data merge storage minecraft:attack {\
     walk_speed:0.13d, \
     run_speed:0.36d, \
     jump:2d, \
+    step_height:3.6d, \
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \
@@ -81,6 +84,7 @@ data merge storage minecraft:beast {\
     walk_speed:0.14d, \
     run_speed:0.20d, \
     jump:1.3d, \
+    step_height:3.6d, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
@@ -102,6 +106,7 @@ data merge storage minecraft:armor {\
     walk_speed:0.13d, \
     run_speed:0.36d, \
     jump:2d, \
+    step_height:3.6d, \
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \

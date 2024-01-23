@@ -41,14 +41,14 @@ execute if score state armor_vars matches 5 if entity @s[tag=!aj.armor.animation
 execute if score state armor_vars matches 3 on vehicle run attribute @s generic.scale base set 5
 execute if score state armor_vars matches 5 run fill ~4 ~1.5 ~4 ~-4 ~15 ~-4 air destroy
 execute if score state armor_vars matches 9 if entity @s[tag=!aj.armor.animation.death] run function snc:shifters/mobs/armor/animate/death
-execute if score state attack_vars matches 12 if entity @s[tag=!aj.attack.animation.punch_1] run function snc:shifters/mobs/attack/animate/punch_1
-execute if score state attack_vars matches 13 if entity @s[tag=!aj.attack.animation.punch_2] run function snc:shifters/mobs/attack/animate/punch_2
-execute if score state attack_vars matches 14 if entity @s[tag=!aj.attack.animation.punch_3] run function snc:shifters/mobs/attack/animate/punch_3
-## function snc:shifters/mobs/attack/animate/grab is handled by ../action/jaw
-execute if score state attack_vars matches 16 if entity @s[tag=!aj.attack.animation.kick_1] run function snc:shifters/mobs/attack/animate/kick_1
-execute if score state attack_vars matches 17 if entity @s[tag=!aj.attack.animation.kick_2] run function snc:shifters/mobs/attack/animate/kick_2
-execute if score state attack_vars matches 18 if entity @s[tag=!aj.attack.animation.kick_3] run function snc:shifters/mobs/attack/animate/kick_3
-execute if score state attack_vars matches 19 if entity @s[tag=!aj.attack.animation.block] run function snc:shifters/mobs/attack/animate/block
+#execute if score state armor_vars matches 12 if entity @s[tag=!aj.armor.animation.punch_1] run function snc:shifters/mobs/armor/animate/punch_1
+#execute if score state armor_vars matches 13 if entity @s[tag=!aj.armor.animation.punch_2] run function snc:shifters/mobs/armor/animate/punch_2
+#execute if score state armor_vars matches 14 if entity @s[tag=!aj.armor.animation.punch_3] run function snc:shifters/mobs/armor/animate/punch_3
+## function snc:shifters/mobs/armor/animate/grab is handled by ../action/jaw
+#execute if score state armor_vars matches 16 if entity @s[tag=!aj.armor.animation.kick_1] run function snc:shifters/mobs/armor/animate/kick_1
+#execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.kick_2] run function snc:shifters/mobs/armor/animate/kick_2
+#execute if score state armor_vars matches 18 if entity @s[tag=!aj.armor.animation.kick_3] run function snc:shifters/mobs/armor/animate/kick_3
+#execute if score state armor_vars matches 19 if entity @s[tag=!aj.armor.animation.block] run function snc:shifters/mobs/armor/animate/block
 
 # [X] Born
 # [X] Death
@@ -63,14 +63,14 @@ execute if score state attack_vars matches 19 if entity @s[tag=!aj.attack.animat
 # [X] Block
 
 ## Variants
-execute if score health attack_vars matches 33..40 run scoreboard players set @s attack_vars 0
-execute if score health attack_vars matches 25..32 run scoreboard players set @s attack_vars 1
-execute if score health attack_vars matches 17..24 run scoreboard players set @s attack_vars 2
-execute if score health attack_vars matches 9..16 run scoreboard players set @s attack_vars 3
-execute if score health attack_vars matches 0..8 run scoreboard players set @s attack_vars 4
+execute if score health armor_vars matches 33..40 run scoreboard players set @s armor_vars 0
+execute if score health armor_vars matches 25..32 run scoreboard players set @s armor_vars 1
+execute if score health armor_vars matches 17..24 run scoreboard players set @s armor_vars 2
+execute if score health armor_vars matches 9..16 run scoreboard players set @s armor_vars 3
+execute if score health armor_vars matches 0..8 run scoreboard players set @s armor_vars 4
 
-execute if entity @s[tag=!aj.attack.animation.born] if score @s attack_vars matches 0 run function animated_java:attack/apply_variant/default
-execute if entity @s[tag=!aj.attack.animation.born] if score @s attack_vars matches 1 run function animated_java:attack/apply_variant/noskin_1
-execute if entity @s[tag=!aj.attack.animation.born] if score @s attack_vars matches 2 run function animated_java:attack/apply_variant/noskin_2
-execute if entity @s[tag=!aj.attack.animation.born] if score @s attack_vars matches 3 run function animated_java:attack/apply_variant/noskin_3
-execute if entity @s[tag=!aj.attack.animation.born] if score @s attack_vars matches 4 run function animated_java:attack/apply_variant/noskin_4
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 0 run function animated_java:armor/apply_variant/default
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 1 run function animated_java:armor/apply_variant/noskin_1
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 2 run function animated_java:armor/apply_variant/noskin_2
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 3 run function animated_java:armor/apply_variant/noskin_3
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 4 run function animated_java:armor/apply_variant/noskin_4

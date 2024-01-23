@@ -6,7 +6,8 @@ $execute unless score state $(shifter)_vars matches 1.. run \
         "bossbar_color":$(bossbar_color), \
         "hp":$(hp), \
         "walk_speed":$(walk_speed), \
-        "jump":$(jump) \
+        "jump":$(jump), \
+        "step_height":$(step_height) \
         }
 ## Health system
 # When doesn't have absortion then add tag 'injured'

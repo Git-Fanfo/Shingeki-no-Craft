@@ -4,7 +4,8 @@ $execute store result score #posy0 $(shifter)_vars run data get entity @s Pos[1]
 $execute summon skeleton_horse run function snc:shifters/mobs/spawn {\
     "shifter":"$(shifter)", \
     "walk_speed":$(walk_speed), \
-    "jump":$(jump) \
+    "jump":$(jump), \
+    "step_height":$(step_height) \
     }
 
 $bossbar add $(shifter)_health {"text":"\$(bossbar_display)"}

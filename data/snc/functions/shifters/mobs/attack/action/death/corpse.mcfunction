@@ -1,11 +1,14 @@
-execute unless block ~ ~-7.5 ~ #snc:filter_shifter run data merge entity @s {NoGravity:1b}
+#execute unless block ~ ~-7.5 ~ #snc:filter_shifter run data merge entity @s {NoGravity:1b}
 
 execute unless score @s attack_vars matches ..7200 run scoreboard players set @s attack_vars 7200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses attack_vars 0
 execute if score @s attack_vars matches 7200 as @e[tag=shifter,tag=attack,tag=dead] run scoreboard players add $corpses attack_vars 1
 execute if score $corpses attack_vars matches 2.. as @e[tag=shifter,tag=attack,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill
-
+attribute @s generic.scale base set 4.5
+##DELETE
+attribute @p[scores={attack_vars=1}] minecraft:generic.scale base set 1
+##DELETE
 
 ## Reset
 execute if score @s attack_vars matches 7200 run bossbar remove minecraft:attack_health

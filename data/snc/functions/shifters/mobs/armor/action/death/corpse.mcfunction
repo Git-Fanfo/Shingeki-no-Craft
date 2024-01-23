@@ -6,7 +6,7 @@ scoreboard players set $corpses armor_vars 0
 execute if score @s armor_vars matches 7200 as @e[tag=shifter,tag=armor,tag=dead] run scoreboard players add $corpses armor_vars 1
 
 ##DELETE
-attribute @p minecraft:generic.scale base set 1
+attribute @p[scores={armor_vars=1}] minecraft:generic.scale base set 1
 ##DELETE
 
 execute if score $corpses armor_vars matches 2.. as @e[tag=shifter,tag=armor,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill

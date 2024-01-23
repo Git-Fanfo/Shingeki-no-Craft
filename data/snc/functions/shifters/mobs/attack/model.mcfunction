@@ -37,7 +37,6 @@ execute if score state attack_vars matches 2 on vehicle run attribute @s minecra
 execute if score state attack_vars matches 3 if entity @s[tag=!aj.attack.animation.idle] run function snc:shifters/mobs/attack/animate/idle
 execute if score state attack_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 6.3
 execute if score state attack_vars matches 4 if entity @s[tag=!aj.attack.animation.walk] run function snc:shifters/mobs/attack/animate/walk
-execute if score state attack_vars matches 4 on vehicle run attribute @s minecraft:generic.scale base set 6.3
 execute if score state attack_vars matches 5 if entity @s[tag=!aj.attack.animation.run] run function snc:shifters/mobs/attack/animate/run
 
 execute if score state attack_vars matches 9 if entity @s[tag=!aj.attack.animation.death] run function snc:shifters/mobs/attack/animate/death
