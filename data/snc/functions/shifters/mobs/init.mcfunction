@@ -15,6 +15,7 @@ $bossbar set minecraft:$(shifter)_health style notched_6
 
 $scoreboard players set state $(shifter)_vars 1
 effect give @s resistance 5 4 true
+attribute @s generic.scale base set 4.5
 
 execute store result score @s gamemode run data get entity @s playerGameType
-gamemode adventure
+gamemode survival

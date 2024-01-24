@@ -13,4 +13,4 @@ scoreboard players set state colossal_vars 100
 effect give @s resistance 5 4 true
 
 execute store result score @s gamemode run data get entity @s playerGameType
-gamemode adventure
+gamemode survival
