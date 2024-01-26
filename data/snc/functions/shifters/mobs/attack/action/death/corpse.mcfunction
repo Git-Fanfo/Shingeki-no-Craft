@@ -1,5 +1,3 @@
-#execute unless block ~ ~-7.5 ~ #snc:filter_shifter run data merge entity @s {NoGravity:1b}
-
 execute unless score @s attack_vars matches ..1200 run scoreboard players set @s attack_vars 1200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses attack_vars 0

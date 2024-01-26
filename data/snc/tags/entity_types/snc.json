@@ -9,6 +9,7 @@
 		"minecraft:bat",
 		"minecraft:creeper",
 		"minecraft:skeleton_horse",
+		"minecraft:camel",
 		"minecraft:area_effect_cloud",
 		"minecraft:giant",
 		"minecraft:pig",
@@ -18,6 +19,7 @@
 		"minecraft:minecart",
 		"minecraft:chest_minecart",
 		"minecraft:arrow",
+		"minecraft:shulker",
 
 		"minecraft:text_display",
 		"minecraft:interaction",

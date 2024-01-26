@@ -1,1 +1,0 @@
-$give @s carrot_on_a_stick{display:{Name:'{"translate":"aot.ability.crouch","color":"white","italic":false}'},HideFlags:5,Unbreakable:1b,CustomModelData:10,crouch:1b,atk_shifter:1b,$(id)_titan:1b,Enchantments:[{}]} 1

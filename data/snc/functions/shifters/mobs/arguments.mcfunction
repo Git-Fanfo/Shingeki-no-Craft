@@ -2,20 +2,24 @@ data merge storage minecraft:cart {\
     id:1, \
     shifter:cart, \
     color:light_purple, \
-    bossbar_display:uFFF1, \
+    bossbar_display:uFFF3, \
     bossbar_color:pink, \
     time:59, \
     cd_time:-5, \
     cd_time_hurt:-9, \
     hp:20, \
-    walk_speed:0.55d, \
-    run_speed:0.55d, \
-    jump:1.2d, \
+    walk_speed:0.35d, \
+    run_speed:0.35d, \
+    type:camel, \
+    jump:.8d, \
     step_height:3.6d, \
     resistance:2, \
     parry:false, \
-    regen_ticks:100 \
+    regen_ticks:100, \
+    scale_vehicle:2, \
+    scale_player:2.4 \
 }
+## Fanfo from the future says: jump:1d works pretty good for Jaw!
 
 data merge storage minecraft:colossal {\
     id:2, \
@@ -29,7 +33,9 @@ data merge storage minecraft:colossal {\
     cd_time_hurt:-39, \
     resistance:2, \
     parry:false, \
-    regen_ticks:140 \
+    regen_ticks:140, \
+    scale_vehicle:6.3, \
+    scale_player:4.5 \
 }
 
 ## id : identifier of the shifter, never change.
@@ -60,11 +66,14 @@ data merge storage minecraft:attack {\
     hp:40, \
     walk_speed:0.13d, \
     run_speed:0.36d, \
+    type:skeleton_horse, \
     jump:2d, \
     step_height:3.6d, \
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \
+    scale_vehicle:6.3, \
+    scale_player:4.5, \
     dmg2:36, \
     dmg3:24, \
     jaw_dmg:20, \
@@ -83,11 +92,14 @@ data merge storage minecraft:beast {\
     hp:50, \
     walk_speed:0.14d, \
     run_speed:0.20d, \
+    type:skeleton_horse, \
     jump:1.3d, \
     step_height:3.6d, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
+    scale_vehicle:6.3, \
+    scale_player:4.5, \
     dmg3:60, \
     dmg4:20, \
     jaw_dmg:15 \
@@ -106,10 +118,13 @@ data merge storage minecraft:armor {\
     walk_speed:0.13d, \
     run_speed:0.36d, \
     jump:2d, \
+    type:skeleton_horse, \
     step_height:3.6d, \
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \
+    scale_vehicle:6.3, \
+    scale_player:4.5, \
     dmg2:36, \
     dmg3:24, \
     jaw_dmg:20, \

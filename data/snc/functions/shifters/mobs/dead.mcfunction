@@ -14,7 +14,7 @@ execute if score @s armor_vars matches 1.. run scoreboard players remove @s armo
 execute if score @s attack_vars matches 1.. run scoreboard players remove @s attack_vars 1
 execute if score @s beast_vars matches 1.. run scoreboard players remove @s beast_vars 1
 
-execute as @s[tag=cart,type=item_display] run function snc:shifters/mobs/cart/animate/die
+execute as @s[tag=cart] run function snc:shifters/mobs/cart/action/death/corpse
 
 execute as @s[tag=colossal,type=item_display] run function snc:shifters/mobs/colossal/animate/die
 

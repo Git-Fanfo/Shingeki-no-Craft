@@ -4,7 +4,7 @@ $execute as @s[tag=body] run \
 $execute as @s[tag=collision] run \
     function snc:shifters/mobs/collision {"shifter":"$(shifter)","parry":"$(parry)"}
 
-# Grab
+## UNIQUE: ATTACK
 execute \
     if entity @s[tag=aj.attack.locator.right_hand] \
     if score consume attack_vars matches 20..60 run \

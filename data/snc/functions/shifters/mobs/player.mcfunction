@@ -6,8 +6,11 @@ $execute unless score state $(shifter)_vars matches 1.. run \
         "bossbar_color":$(bossbar_color), \
         "hp":$(hp), \
         "walk_speed":$(walk_speed), \
+        "type":$(type), \
         "jump":$(jump), \
-        "step_height":$(step_height) \
+        "step_height":$(step_height), \
+        "scale_vehicle":$(scale_vehicle), \   
+        "scale_player":$(scale_player) \   
         }
 ## Health system
 # When doesn't have absortion then add tag 'injured'
@@ -27,7 +30,7 @@ effect give @s invisibility 2 0 true
 $effect give @s resistance 3 $(resistance) true
 effect give @s saturation 1 0 true
 
-## Detect Attack If is not attacking
+## Detect If is not attacking
 $execute \
     unless score state $(shifter)_vars matches 10.. \
     if score @s using_carrot matches 1.. run \

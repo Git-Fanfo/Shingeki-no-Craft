@@ -1,6 +1,7 @@
 ##### HOW TO CREATE A SHIFTER #####
 execute if score @s shifter_vars matches 1 run \
-    function snc:shifters/mobs/cart/player with storage minecraft:cart
+    function snc:shifters/mobs/player with storage minecraft:cart
+#    function snc:shifters/mobs/cart/player with storage minecraft:cart
 execute if score @s shifter_vars matches 2 run \
     function snc:shifters/mobs/colossal/player with storage minecraft:colossal
 execute if score @s shifter_vars matches 3 run \

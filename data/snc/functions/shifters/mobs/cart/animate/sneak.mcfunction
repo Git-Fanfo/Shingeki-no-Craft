@@ -1,3 +1,3 @@
-execute if score action cart_vars matches 10 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:28}}, transformation:{scale:[5.3f,5.3f,5.3f]}}
-execute if score action cart_vars matches 7 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:29}}, transformation:{scale:[5.3f,5.3f,5.3f]}}
-execute if score action cart_vars matches 5 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:30}}, transformation:{scale:[5.3f,5.3f,5.3f]}}
+ride @s mount @e[type=camel,tag=cart,limit=1,sort=nearest]
+execute if score state cart_vars matches 3..5 run scoreboard players set state cart_vars 2
+scoreboard players set action cart_vars 10

@@ -1,2 +1,0 @@
-execute if predicate snc:has_effect_resistance run function snc:shifters/mobs/cart/animate/bite {"f1":4,"f2":5,"f3":6}
-execute unless predicate snc:has_effect_resistance run function snc:shifters/mobs/cart/animate/bite {"f1":7,"f2":8,"f3":9}

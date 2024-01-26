@@ -17,7 +17,7 @@ execute as @s[predicate=snc:has_colossal_atk_4] run function snc:shifters/mobs/c
 
 ## Cart
 # Slam
-execute as @s[predicate=snc:cart/has_atk_3] run function snc:shifters/mobs/cart/action/slam/add_tags
+execute as @s[predicate=snc:cart/has_atk_3] run function snc:shifters/mobs/cart/action/slam/init
 
 # Jaw
 execute as @s[predicate=snc:cart/has_atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/add_tags
@@ -37,15 +37,15 @@ execute as @s[predicate=snc:attack/has_atk_3] run scoreboard players set state a
 
 # Jaw
 execute as @s[predicate=snc:attack/has_atk_4] unless score consume attack_vars matches 0.. run function snc:shifters/mobs/attack/action/jaw/add_tags
-execute as @s[predicate=snc:attack/has_atk_4] unless score consume attack_vars matches 0.. run say a
 
 ## Beast
+# Grab
 execute as @s[predicate=snc:beast/has_atk_1] run scoreboard players set state beast_vars 12
-
+# Release Grab
 execute as @s[predicate=snc:beast/has_atk_2] run function snc:shifters/mobs/beast/action/grab/end
-
+# Big
 execute as @s[predicate=snc:beast/has_atk_3] run scoreboard players set state beast_vars 13
-
+# Area
 execute as @s[predicate=snc:beast/has_atk_4] run scoreboard players set state beast_vars 14
-
+# Jaw
 execute as @s[predicate=snc:beast/has_atk_5] unless score consume beast_vars matches 0.. run function snc:shifters/mobs/beast/action/jaw/add_tags
