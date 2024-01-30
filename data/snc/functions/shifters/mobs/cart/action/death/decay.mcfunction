@@ -1,23 +1,21 @@
-scoreboard players add @s attack_vars 1
-particle minecraft:cloud ~ ~4 ~ 1 2 1 .15 200 force
+particle minecraft:cloud ~ ~2 ~ 1.3 1 1.3 .15 200 force
 playsound minecraft:aot.steam player @a ~ ~ ~ 2 1
-execute if score @s attack_vars matches 1 run function animated_java:attack/apply_variant/noskin_1
-execute if score @s attack_vars matches 1 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:31}
-execute if score @s attack_vars matches 2 run function animated_java:attack/apply_variant/noskin_2
-execute if score @s attack_vars matches 2 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:32}
-execute if score @s attack_vars matches 3 run function animated_java:attack/apply_variant/noskin_3
-execute if score @s attack_vars matches 3 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:33}
-execute if score @s attack_vars matches 4 run function animated_java:attack/apply_variant/noskin_4
-execute if score @s attack_vars matches 4 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:34}
-execute if score @s attack_vars matches 5 run function animated_java:attack/apply_variant/noskin_5
-execute if score @s attack_vars matches 5 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:35}
-execute if score @s attack_vars matches 6 run function animated_java:attack/apply_variant/noskin_6
-execute if score @s attack_vars matches 6 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:36}
-execute if score @s attack_vars matches 7 run function animated_java:attack/apply_variant/noskin_7
-execute if score @s attack_vars matches 7 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:37}
-execute if score @s attack_vars matches 8 run function animated_java:attack/apply_variant/noskin_8
-execute if score @s attack_vars matches 8 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:38}
-execute if score @s attack_vars matches 9 run function animated_java:attack/apply_variant/noskin_9
-execute if score @s attack_vars matches 9 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:39}
-execute if score @s attack_vars matches 10 run function animated_java:attack/apply_variant/noskin_10
-execute if score @s attack_vars matches 10 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:40}
+
+execute if score @s cart_vars matches 1100 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:56}}}
+execute if score @s cart_vars matches 1050 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:57}}}
+execute if score @s cart_vars matches 1000 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:58}}}
+execute if score @s cart_vars matches 950 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:59}}}
+execute if score @s cart_vars matches 900 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:60}}}
+execute if score @s cart_vars matches 850 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:61}}}
+execute if score @s cart_vars matches 800 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:62}}}
+execute if score @s cart_vars matches 750 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:63}}}
+execute if score @s cart_vars matches 700 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:64}}}
+execute if score @s cart_vars matches 650 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:65}}}
+execute if score @s cart_vars matches 600 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:66}}}
+execute if score @s cart_vars matches 550 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:67}}}
+execute if score @s cart_vars matches 450 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:68}}}
+execute if score @s cart_vars matches 400 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:69}}}
+execute if score @s cart_vars matches 350 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:70}}}
+execute if score @s cart_vars matches 300 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:71}}}
+execute if score @s cart_vars matches 250 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:72}}}
+execute if score @s cart_vars matches 200 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:73}}}

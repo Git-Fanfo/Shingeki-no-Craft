@@ -19,9 +19,9 @@ execute store result bossbar colossal_health value run scoreboard players get he
 execute if score terrain colossal_vars matches 9.. run damage @s 20 minecraft:outside_border
 execute if score terrain colossal_vars matches 9.. if score ticks clock matches 19 run tellraw @s [{"translate":"aot.warning","color":"yellow"},{"translate":"aot.warning.narrow","color":"white"}]
 # Kill when life goes to 0
-$execute if score health colossal_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter),"cd_time_hurt":$(cd_time_hurt)}
+$execute if score health colossal_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
 # Kill when time runs out
-$execute if score minutes colossal_vars matches ..0 if score seconds colossal_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":$(shifter),"cd_time":$(cd_time)}
+$execute if score $energy colossal_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":$(shifter)}
 execute unless predicate snc:is_riding run ride @s mount @e[type=skeleton_horse,tag=colossal,limit=1,sort=nearest]
 #execute if predicate snc:is_sneaking run say a
 

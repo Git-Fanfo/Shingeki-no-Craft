@@ -16,7 +16,7 @@ execute if score destroy config matches 1 if score col_exp config matches 2.. ru
 # execute as @e[tag=!colossal,tag=!transform,distance=..500] run damage @s 500 explosion
 
 # Down time
-scoreboard players set minutes colossal_vars 3
+# scoreboard players set minutes colossal_vars 3
 
 ## Push players
 playsound minecraft:aot.huge_explosion player @a ~ ~ ~ 5 .9

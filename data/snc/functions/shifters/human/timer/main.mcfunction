@@ -7,9 +7,14 @@
 # @Output:
 #   Based on the action triggers other functions.
 
-$execute as @s[tag=!transform] run \
-    function snc:shifters/human/timer/time_up {"shifter":$(shifter),"time":$(time)}
-$execute as @s[tag=transform] run function snc:shifters/human/timer/time_down {"shifter":$(shifter),"color":$(color)}
+## Is not transformed
+$execute as @s[tag=!transform] unless score @s shifter_vars matches 2 run scoreboard players set state $(shifter)_vars 0
+# Increase energy when not transformed
+$execute as @s[tag=!transform] if score ticks clock matches 19 run function snc:shifters/human/timer/time_up {"shifter":$(shifter)}
+# Decrease energy when transformed
+$execute as @s[tag=transform] if score ticks clock matches 19 run function snc:shifters/human/timer/time_down {"shifter":$(shifter),"color":$(color)}
+# Show
+$function snc:shifters/human/timer/display {"shifter":"$(shifter)"}
 
 ## Remove transform
 execute if entity @s[tag=injured] if predicate snc:is_hurt run function snc:shifters/transfer/hit

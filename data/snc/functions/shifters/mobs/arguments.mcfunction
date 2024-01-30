@@ -5,8 +5,6 @@ data merge storage minecraft:cart {\
     bossbar_display:uFFF3, \
     bossbar_color:pink, \
     time:59, \
-    cd_time:-5, \
-    cd_time_hurt:-9, \
     hp:20, \
     walk_speed:0.35d, \
     run_speed:0.35d, \
@@ -29,8 +27,6 @@ data merge storage minecraft:colossal {\
     hp:72, \
     time:5, \
     step_height:3.6d, \
-    cd_time:-14, \
-    cd_time_hurt:-39, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
@@ -44,8 +40,6 @@ data merge storage minecraft:colossal {\
 ## bossbar_display : texture of the bossbar.
 ## bossbar_color : color of the bossbar.
 ## time : how much time the shifter can be transformed.
-## cd_time : how much time has to pass until shift again.
-## cd_time_hurt : how much time has to pass until shift again after being hurt.
 ## hp : how many hp the shifter has when transformed.
 ## walk_speed : speed of the titan when walking.
 ## run_speed : speed of the titan when running.
@@ -61,8 +55,6 @@ data merge storage minecraft:attack {\
     bossbar_display:uFFF1, \
     bossbar_color:red, \
     time:15, \
-    cd_time:-10, \
-    cd_time_hurt:-29, \
     hp:40, \
     walk_speed:0.13d, \
     run_speed:0.36d, \
@@ -87,8 +79,6 @@ data merge storage minecraft:beast {\
     bossbar_display:uFFF2, \
     bossbar_color:green, \
     time:25, \
-    cd_time:-10, \
-    cd_time_hurt:-29, \
     hp:50, \
     walk_speed:0.14d, \
     run_speed:0.20d, \
@@ -112,8 +102,6 @@ data merge storage minecraft:armor {\
     bossbar_display:uFFF1, \
     bossbar_color:red, \
     time:15, \
-    cd_time:-10, \
-    cd_time_hurt:-29, \
     hp:40, \
     walk_speed:0.13d, \
     run_speed:0.36d, \

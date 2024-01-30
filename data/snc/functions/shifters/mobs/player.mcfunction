@@ -17,9 +17,9 @@ $execute unless score state $(shifter)_vars matches 1.. run \
 $execute store result score health $(shifter)_vars run data get entity @s AbsorptionAmount
 $execute store result bossbar $(shifter)_health value run scoreboard players get health $(shifter)_vars
 # Kill when life is 0
-$execute if score health $(shifter)_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter),"cd_time_hurt":$(cd_time_hurt)}
+$execute if score health $(shifter)_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
 # Kill when time runs out
-$execute if score minutes $(shifter)_vars matches ..0 if score seconds $(shifter)_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":"$(shifter)","cd_time":$(cd_time)}
+$execute if score $energy $(shifter)_vars matches ..0 if entity @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
 # Ride when is not dead
 $execute unless score state $(shifter)_vars matches 9 unless predicate snc:is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak
 

@@ -6,7 +6,7 @@
 #
 # @output
 #   Entity is killed and the shifter is given to an entity or the world
-$function snc:shifters/human/timer/cd {"shifter":$(shifter),"cd_time_hurt":$(cd_time_hurt)}
+$function snc:shifters/human/timer/cd {"shifter":$(shifter)}
 
 ## Display who killed
 # Fanfo
@@ -34,5 +34,4 @@ $execute unless score prevent $(shifter)_vars matches 1 if score $$(shifter).doe
 # Reset "prevent"
 $scoreboard players reset prevent $(shifter)_vars
 
-$scoreboard players set minutes $(shifter)_vars $(time)
-$scoreboard players set seconds $(shifter)_vars 1
+$scoreboard players set $energy $(shifter)_vars 3600

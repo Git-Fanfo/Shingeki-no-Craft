@@ -10,7 +10,6 @@ execute if score $corpses armor_vars matches 2.. as @e[tag=shifter,tag=armor,tag
 
 ## Reset
 execute if score @s armor_vars matches 7200 run bossbar remove minecraft:armor_health
-execute if score @s armor_vars matches 7200 run scoreboard players set state armor_vars 0
 
 execute if score @s armor_vars matches 1000.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force
 execute if score @s armor_vars matches 1000.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 minecraft:air replace barrier

@@ -7,7 +7,6 @@ attribute @s generic.scale base set 4.5
 
 ## Reset
 execute if score @s attack_vars matches 1200 run bossbar remove minecraft:attack_health
-execute if score @s attack_vars matches 1200 run scoreboard players set state attack_vars 0
 
 execute if score @s attack_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force
 execute if score @s attack_vars matches 200.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 minecraft:air replace barrier
