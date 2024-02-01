@@ -56,7 +56,7 @@ effect give @s saturation 1 0 true
 tag @s add near
 
 # Select Attack If is not attacking
-execute unless score state colossal_vars matches 10.. if score action colossal_vars matches ..0 if score @s using_carrot matches 1.. run function snc:shifters/human/action
+execute unless score state colossal_vars matches 10.. if score action colossal_vars matches ..0 if score @s using_carrot matches 1.. run function snc:shifters/human/check_action
 
 ## Depends on the Shifter
 execute if score ticks clock matches 19 rotated ~ 0 run particle campfire_signal_smoke ^1.5 ^1 ^1.1 ^ ^1000000 ^ 0.00000002 0 force

@@ -1,6 +1,5 @@
-effect give @s levitation 2 255 true
 effect give @s invisibility 2 0 true
-effect give @s resistance 10 255 true
+effect give @s resistance 10 127 true
 #effect give @s blindness 2 0 true
 title @s title {"text":"\uE000"}
 title @s subtitle ""

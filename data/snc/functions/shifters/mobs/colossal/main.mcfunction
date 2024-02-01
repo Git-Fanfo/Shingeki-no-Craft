@@ -9,7 +9,8 @@ execute as @s[tag=pivot] run function snc:shifters/mobs/colossal/body/pivot
 execute as @s[tag=model] run function snc:shifters/mobs/colossal/body/model
 
 ## Explosions
-execute as @s[type=armor_stand,tag=!pivot] run function snc:shifters/mobs/colossal/action/explosion/particles
+#execute as @s[type=armor_stand,tag=!pivot] run function snc:shifters/mobs/colossal/action/explosion/particles
+execute as @s[type=armor_stand,tag=!pivot] unless predicate snc:is_riding if data entity @s {OnGround:1b} run function snc:shifters/human/explosion/radiation
 execute as @s[tag=explosion] run function snc:shifters/mobs/colossal/action/explosion/particles_expansive
 
 return 0

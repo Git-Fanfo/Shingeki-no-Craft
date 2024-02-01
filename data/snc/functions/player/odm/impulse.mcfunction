@@ -6,11 +6,10 @@ execute as @s[scores={odm_state=2..,rot_impulse_x=-90..90}] run function snc:pla
 # Effects if its outside
 execute unless score @s rot_impulse_x matches -90..90 run function snc:player/odm/break
 
-# execute as @s[scores={odm_state=2..}] run effect give @s levitation 
-title @s actionbar {"text":"/     \\","bold":true,"color":"green"}
+#title @s actionbar {"text":"/     \\","bold":true,"color":"green"}
 
 # Prevent taking damage
-execute as @s[scores={odm_state=1..}] run effect give @a[distance=..3] resistance 2 255 true
+execute as @s[scores={odm_state=1..}] run effect give @a[distance=..3] resistance 2 127 true
 
 # Restart shooter
 execute as @e[tag=shooter,limit=2, sort=nearest,distance=0..2] run function snc:logic/kill_mob

@@ -34,7 +34,7 @@ effect give @s saturation 1 0 true
 $execute \
     unless score state $(shifter)_vars matches 10.. \
     if score @s using_carrot matches 1.. run \
-        function snc:shifters/human/action
+        function snc:shifters/human/check_action
 ## Detect Roar
 $execute \
     if score consume $(shifter)_vars matches ..20 \

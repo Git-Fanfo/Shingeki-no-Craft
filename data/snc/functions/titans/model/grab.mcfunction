@@ -1,2 +1,2 @@
 tp @s ~ ~ ~
-effect give @s levitation 1 255 true
+effect give @s levitation 1 0 true

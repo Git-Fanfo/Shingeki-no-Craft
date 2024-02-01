@@ -2,10 +2,7 @@
 execute unless predicate snc:has_remove run playsound block.beacon.power_select player @s ~ ~ ~ 1 2
 execute if predicate snc:has_remove run playsound block.beacon.deactivate player @s ~ ~ ~ 1 2
 
-scoreboard players remove $energy attack_vars 100
-
-## Crouch
-execute as @s[predicate=snc:has_crouch] run function snc:shifters/select_crouch
+$scoreboard players remove $energy $(shifter)_vars $(energy_attack)
 
 ## Colossal
 # Wallbreaker

@@ -10,9 +10,9 @@
 ## Is not transformed
 $execute as @s[tag=!transform] unless score @s shifter_vars matches 2 run scoreboard players set state $(shifter)_vars 0
 # Increase energy when not transformed
-$execute as @s[tag=!transform] if score ticks clock matches 19 run function snc:shifters/human/timer/time_up {"shifter":$(shifter)}
+$execute as @s[tag=!transform] if score ticks clock matches 19 unless score $energy $(shifter)_vars matches 3600.. run scoreboard players add $energy $(shifter)_vars 8
 # Decrease energy when transformed
-$execute as @s[tag=transform] if score ticks clock matches 19 run function snc:shifters/human/timer/time_down {"shifter":$(shifter),"color":$(color)}
+$execute as @s[tag=transform] if score ticks clock matches 19 run function snc:shifters/human/timer/time_down {"shifter":$(shifter),"energy_decrease":$(energy_decrease)}
 # Show
 $function snc:shifters/human/timer/display {"shifter":"$(shifter)"}
 

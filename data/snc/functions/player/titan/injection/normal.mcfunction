@@ -10,7 +10,7 @@ tellraw @s ["",{"translate":"aot.you"},{"translate":"aot.titan.pure","bold":true
 execute if entity @s[type=player] run function snc:give/item/shifters/pure/main
 tag @s[type=player] add titan
 tag @s[type=player] add consume
-execute if entity @s[type=player] run effect give @a[distance=..5,sort=nearest,limit=3] resistance 5 255 true
+execute if entity @s[type=player] run effect give @a[distance=..5,sort=nearest,limit=3] resistance 5 127 true
 #execute if entity @s[type=player] run team join titan
 
 function snc:titans/select_titan

@@ -15,7 +15,9 @@ data merge storage minecraft:cart {\
     parry:false, \
     regen_ticks:100, \
     scale_vehicle:2, \
-    scale_player:2.4 \
+    scale_player:2.4, \
+    energy_decrease: 1,\
+    energy_attack: 30\
 }
 ## Fanfo from the future says: jump:1d works pretty good for Jaw!
 
@@ -31,7 +33,9 @@ data merge storage minecraft:colossal {\
     parry:false, \
     regen_ticks:140, \
     scale_vehicle:6.3, \
-    scale_player:4.5 \
+    scale_player:4.5, \
+    energy_decrease: 5,\
+    energy_attack: 110\
 }
 
 ## id : identifier of the shifter, never change.
@@ -66,6 +70,8 @@ data merge storage minecraft:attack {\
     regen_ticks:80, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
+    energy_decrease: 2,\
+    energy_attack: 45,\
     dmg2:36, \
     dmg3:24, \
     jaw_dmg:20, \
@@ -90,6 +96,8 @@ data merge storage minecraft:beast {\
     regen_ticks:140, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
+    energy_decrease: 2,\
+    energy_attack: 45,\
     dmg3:60, \
     dmg4:20, \
     jaw_dmg:15 \
@@ -113,6 +121,8 @@ data merge storage minecraft:armor {\
     regen_ticks:80, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
+    energy_decrease: 2,\
+    energy_attack: 45,\
     dmg2:36, \
     dmg3:24, \
     jaw_dmg:20, \

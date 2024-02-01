@@ -1,7 +1,7 @@
 # Effects
 effect give @s invisibility infinite 0 true
 effect give @s fire_resistance infinite 0 true
-effect give @s resistance infinite 255 true
+effect give @s resistance infinite 127 true
 
 # Health System
 execute if score $bossbar config matches 1 positioned ~ ~-60 ~ run bossbar set minecraft:colossal_health players @a[distance=..100]

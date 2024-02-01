@@ -1,6 +1,6 @@
 execute at @s run playsound minecraft:aot.shoot player @a[distance=..8] ~ ~ ~ 1 1
 ## Effects
-title @s actionbar {"text":"<   >","bold":true,"color":"gold"}
+# title @s actionbar {"text":"<   >","bold":true,"color":"gold"}
 execute rotated ~ 0 positioned ^.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
 execute rotated ~ 0 positioned ^-.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
 
