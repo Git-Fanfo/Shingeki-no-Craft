@@ -11,10 +11,7 @@ $advancement grant @s only snc:shifters/$(shifter)
 effect give @s absorption 20 8 true
 $scoreboard players set health $(shifter)_vars 20
 
-## Third Person
-$function snc:shifters/mobs/$(shifter)/third_person
-
-## UNIQUE: COLOSSAL
-# 2 is for explosion
-execute if score @s shifter_vars matches 2 unless predicate snc:is_sneaking run scoreboard players set state_sp colossal_vars 0
-execute if score @s shifter_vars matches 2 if score state_sp colossal_vars matches 2 run function snc:shifters/mobs/colossal/action/explosion/explosion
+## Explosion
+$execute if score $destroy_when_spawn $(shifter)_vars matches 1 run scoreboard players remove $energy $(shifter)_vars 700
+$execute if score $destroy_when_spawn $(shifter)_vars matches 1 run summon fireball ~ ~ ~ {ExplosionPower:10b,Motion:[0.0d,-10.0d,0.0d],Item:{id:"minecraft:air",Count:1b},Passengers:[{id:"minecraft:armor_stand",NoGravity:0b,Invulnerable:1b,Invisible:1b,Tags:["colossal","shifter"]}]}
+$execute if score $destroy_when_spawn $(shifter)_vars matches 1 run summon fireball ~ ~5 ~ {ExplosionPower:10b,Motion:[0.0d,-10.0d,0.0d],Item:{id:"minecraft:air",Count:1b},Passengers:[{id:"minecraft:armor_stand",NoGravity:0b,Invulnerable:1b,Invisible:1b,Tags:["colossal","shifter"]}]}

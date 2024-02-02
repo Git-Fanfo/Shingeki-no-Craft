@@ -10,6 +10,5 @@ scoreboard players reset @s shifter_vars
 
 # Advancement
 function snc:shifters/human/revoke_adv
-function snc:shifters/third_person
 # tellraw @a ["Warning: ",{"text":"Server found shifter but not type!","color":"yellow"}]
 execute unless score @s death matches 1.. run kill
