@@ -1,0 +1,2 @@
+$execute unless predicate snc:is_sneaking run function snc:shifters/human/check_transform {"shifter":$(shifter)}
+$execute if predicate snc:is_sneaking run function snc:shifters/human/toggle_explosion {"shifter":$(shifter)}

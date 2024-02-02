@@ -12,6 +12,7 @@ execute if score @s shifter_vars matches ..-1 run scoreboard players operation @
 $execute unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars $(id)
 $scoreboard players set @s $(shifter)_vars 1
 
+
 ## Set previous curse
 $function snc:shifters/mobs/curse {"shifter" : $(shifter)}
 

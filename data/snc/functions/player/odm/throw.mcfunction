@@ -18,8 +18,8 @@ summon snowball ^-1 ^.2 ^3 {Tags:["odm","not_mov","motion_odm","projectile"],Pas
 summon snowball ^1 ^.2 ^3 {Tags:["odm","not_mov", "motion_odm","projectile"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["odm","hook","L"]}],Item:{id:"minecraft:arrow",Count:1b,tag:{CustomModelData:1}}}
 
 # Summon ropes
-summon bat ^-.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["odm","rope","R"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
-summon bat ^.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["odm","rope","L"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
+summon bat ^-.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["odm","rope","R"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:2}]}
+summon bat ^.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["odm","rope","L"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:2}]}
 
 # Summon shooters
 summon bat ^-.3 ^1 ^-.3 {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["odm","shooter","R"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
