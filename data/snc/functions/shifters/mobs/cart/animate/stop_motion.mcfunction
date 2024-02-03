@@ -4,8 +4,6 @@ execute if score idle cart_vars matches 0 run scoreboard players set idle cart_v
 
 # Born
 execute if score state cart_vars matches 1 run function snc:shifters/mobs/cart/animate/born
-# If doesn't find player then die
-# execute as @s[tag=!dead] unless entity @a[scores={cart_vars=1},tag=transform] run tag @s add dead
 # Idle
 execute if score state cart_vars matches 3 run function snc:shifters/mobs/cart/animate/idle
 execute if score state cart_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 1.3

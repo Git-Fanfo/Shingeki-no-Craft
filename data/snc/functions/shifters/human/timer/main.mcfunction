@@ -8,7 +8,7 @@
 #   Based on the action triggers other functions.
 
 ## Is not transformed
-$execute as @s[tag=!transform] unless score @s shifter_vars matches 2 run scoreboard players set state $(shifter)_vars 0
+$execute as @s[tag=!transform] run scoreboard players set state $(shifter)_vars 0
 # Increase energy when not transformed
 $execute as @s[tag=!transform] if score ticks clock matches 19 unless score $energy $(shifter)_vars matches 3600.. run scoreboard players add $energy $(shifter)_vars 8
 # Decrease energy when transformed
@@ -52,10 +52,6 @@ $execute if score curse config matches 2 run function snc:shifters/sick/normal {
 ## UNIQUE: ATTACK
 execute if score @s[tag=!transform] attack_vars matches 1.. if predicate snc:is_sneaking if entity @e[type=#snc:eldian,scores={koniglich=1},sort=nearest,limit=1,distance=.5..2] unless score koniglich attack_vars matches 1.. run scoreboard players set koniglich attack_vars 300
 execute if score @s attack_vars matches 1.. if score koniglich attack_vars matches 1.. run function snc:shifters/mobs/attack/action/koniglich
-
-## UNIQUE: COLOSSAL
-execute if score @s shifter_vars matches 2 as @s[tag=!transform] if score ticks clock matches 1 if predicate snc:has_add if predicate snc:is_sneaking run function snc:shifters/mobs/colossal/display_trigger
-execute if score @s shifter_vars matches 2 as @s[tag=!transform] if score ticks clock matches 11 if predicate snc:has_add if predicate snc:is_sneaking run function snc:shifters/mobs/colossal/display_trigger
 
 ## UNIQUE: BEAST
 execute if entity @s[tag=transform] if predicate snc:beast/has_atk_6 at @e[type=#snc:target] rotated ~ 0 run function snc:shifters/mobs/beast/action/sense/particle

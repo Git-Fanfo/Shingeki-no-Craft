@@ -27,15 +27,20 @@ data merge storage minecraft:colossal {\
     shifter:colossal, \
     name:"Colossal Titan", \
     color:aqua, \
-    bossbar:uFFF1, \
-    hp:72, \
+    bossbar_display:uFFF0, \
+    bossbar_color:blue, \
     time:5, \
-    step_height:3.6d, \
+    hp:72, \
+    walk_speed:0.35d, \
+    run_speed:0.35d, \
+    type:skeleton_horse, \
+    jump:0d, \
+    step_height:7d, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
-    scale_vehicle:6.3, \
-    scale_player:4.5, \
+    scale_vehicle:12, \
+    scale_player:12, \
     energy_decrease: 5,\
     energy_attack: 110\
 }

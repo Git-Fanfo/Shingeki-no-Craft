@@ -1,8 +1,8 @@
-function snc:shifters/mobs/colossal/action/movement/check_height
-execute unless score terrain colossal_vars matches 9.. unless block ~ ~-59 ~ #snc:filter_shifter on passengers if entity @s[type=player] run function snc:shifters/mobs/colossal/action/movement/mojang
-execute unless score terrain colossal_vars matches 9.. unless block ~ ~-59 ~ #snc:filter_shifter on passengers if entity @s[type=player] run tp @s ~ ~.5 ~
-execute unless score terrain colossal_vars matches 9.. unless block ~ ~-59 ~ #snc:filter_shifter run tp @s ~ ~.5 ~
+## Detect floor
+# Is on floor?
+execute if block ~ ~-13 ~ #snc:filter_shifter run scoreboard players set on_floor colossal_vars 0
+execute unless block ~ ~-13 ~ #snc:filter_shifter run scoreboard players set on_floor colossal_vars 1
 
-execute unless score terrain colossal_vars matches 9.. rotated ~ 0 positioned ^ ^-60 ^2 unless block ~ ~ ~ #snc:filter_shifter run fill ~ ~60 ~ ~ ~60 ~ barrier replace air
-execute unless score terrain colossal_vars matches 9.. rotated ~ 0 positioned ^2 ^-60 ^ unless block ~ ~ ~ #snc:filter_shifter run fill ~ ~60 ~ ~ ~60 ~ barrier replace air
-execute unless score terrain colossal_vars matches 9.. rotated ~ 0 positioned ^-2 ^-60 ^ unless block ~ ~ ~ #snc:filter_shifter run fill ~ ~60 ~ ~ ~60 ~ barrier replace air
+## Prevent clipping ground
+# On surface
+execute if score state colossal_vars matches 2.. run function snc:shifters/mobs/step {"floor":36, "air":35}

@@ -16,7 +16,7 @@ execute if score @s beast_vars matches 1.. run scoreboard players remove @s beas
 
 execute as @s[tag=cart] run function snc:shifters/mobs/cart/action/death/corpse
 
-execute as @s[tag=colossal,type=item_display] run function snc:shifters/mobs/colossal/animate/die
+execute as @s[tag=colossal] run function snc:shifters/mobs/colossal/action/death/corpse
 
 execute as @s[tag=attack] run function snc:shifters/mobs/attack/action/death/corpse
 

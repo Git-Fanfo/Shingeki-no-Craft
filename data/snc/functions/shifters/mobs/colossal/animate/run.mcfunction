@@ -1,2 +1,2 @@
 function animated_java:attack/animations/pause_all
-function animated_java:attack/animations/block/play
+function animated_java:attack/animations/run/play
