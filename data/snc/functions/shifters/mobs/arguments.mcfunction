@@ -31,15 +31,15 @@ data merge storage minecraft:colossal {\
     bossbar_color:blue, \
     time:5, \
     hp:72, \
-    walk_speed:0.35d, \
-    run_speed:0.35d, \
+    walk_speed:0.13d, \
+    run_speed:0.13d, \
     type:skeleton_horse, \
     jump:0d, \
     step_height:7d, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
-    scale_vehicle:12, \
+    scale_vehicle:6, \
     scale_player:12, \
     energy_decrease: 5,\
     energy_attack: 110\

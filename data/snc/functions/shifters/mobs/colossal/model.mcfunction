@@ -5,17 +5,8 @@
 # 3 : Idle
 # 4 : Walk
 # 5 : Run
-# 6 : Jump
 # 9 : Die
 ###############
-# 12 : punch_1
-# 13 : punch_2
-# 14 : punch_3
-# 15 : Jaw
-# 16 : kick_1
-# 17 : kick_2
-# 18 : kick_3
-# 19 : block
 
 ## Rotate model
 execute store result score rotation colossal_vars run data get entity @s Rotation[0]

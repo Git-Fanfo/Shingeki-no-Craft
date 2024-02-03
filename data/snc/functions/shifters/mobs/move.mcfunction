@@ -47,6 +47,6 @@ $execute if score mov $(shifter)_vars matches 77.. run \
 
 ## Change speed
 $execute if score state $(shifter)_vars matches 4 run \
-    data merge entity @s {Attributes:[{Name:generic.movement_speed,Base:$(walk_speed)}]}
+    data merge entity @s {Fire:0,Attributes:[{Name:generic.movement_speed,Base:$(walk_speed)}]}
 $execute if score state $(shifter)_vars matches 5 run \
-    data merge entity @s {Attributes:[{Name:generic.movement_speed,Base:$(run_speed)}]}
+    data merge entity @s {Fire:0,Attributes:[{Name:generic.movement_speed,Base:$(run_speed)}]}

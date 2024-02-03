@@ -2,7 +2,6 @@
 effect give @s invisibility infinite 0 true
 effect give @s fire_resistance infinite 0 true
 effect give @s resistance infinite 5 true
-$execute unless score state $(shifter)_vars matches 0 run data merge entity @s {Fire:0b}
 
 # Health System
 $execute if score $bossbar config matches 1 run bossbar set minecraft:$(shifter)_health players @a[distance=..50]
