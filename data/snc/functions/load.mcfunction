@@ -8,13 +8,7 @@ tellraw @a ["",{"translate": "aot.collab"},{"translate":"aot.collab2","color":"l
 tellraw @a ["",{"translate":"aot.patreon"},{"text":" Patreon ","bold":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}},{"translate":"aot.patreon2"},{"translate":"aot.patreon3","underlined": true,"bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}},{"text":")\n"}]
 
 execute as @a at @s run playsound minecraft:ambient.nether_wastes.mood player @s ~ ~ ~ 1 .1
-#execute as @a at @s run playsound minecraft:ambient.basalt_deltas.mood player @s ~ ~ ~ 1 .1
-#execute as @a at @s run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 1 .1
-#execute at @a run playsound minecraft:aot.load player @a ~ ~ ~ 1 1
-#say check left hand
-#say /data get entity @s Inventory[{Slot:-106b}]
 #Rules
-gamerule mobGriefing false
 gamerule doFireTick false
 # gamerule showDeathMessages false
 gamerule doImmediateRespawn true
@@ -29,7 +23,7 @@ scoreboard players set #1000 constant 1000
 scoreboard players set #10000 constant 10000
 scoreboard players set #lcg constant 1103515245
 scoreboard objectives add earthquake dummy
-scoreboard objectives add push_back dummy
+# scoreboard objectives add push_back dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add random dummy
 

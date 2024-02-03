@@ -6,7 +6,7 @@ execute if score @s earthquake matches 0.. run function snc:logic/earthquake/sco
 execute if score @s messages matches 1.. run function snc:player/messages
 execute if score @s manual matches 1.. run function snc:logic/manual/trigger
 execute if score @s manual matches ..-1 run function snc:logic/manual/config
-execute if score @s push_back matches 1.. run function snc:logic/push/back/main
+# execute if score @s push_back matches 1.. run function snc:logic/push/back/main
 ## Team
 function snc:logic/team/main
 

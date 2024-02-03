@@ -1,6 +1,7 @@
 data merge storage minecraft:cart {\
     id:1, \
     shifter:cart, \
+    name:"Cart Titan", \
     color:light_purple, \
     bossbar_display:uFFF3, \
     bossbar_color:pink, \
@@ -24,6 +25,7 @@ data merge storage minecraft:cart {\
 data merge storage minecraft:colossal {\
     id:2, \
     shifter:colossal, \
+    name:"Colossal Titan", \
     color:aqua, \
     bossbar:uFFF1, \
     hp:72, \
@@ -55,6 +57,7 @@ data merge storage minecraft:colossal {\
 data merge storage minecraft:attack {\
     id:3, \
     shifter:attack, \
+    name:"Attack Titan", \
     color:dark_red, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
@@ -81,6 +84,7 @@ data merge storage minecraft:attack {\
 data merge storage minecraft:beast {\
     id:4, \
     shifter:beast, \
+    name:"Beast Titan", \
     color:green, \
     bossbar_display:uFFF2, \
     bossbar_color:green, \
@@ -106,6 +110,7 @@ data merge storage minecraft:beast {\
 data merge storage minecraft:armor {\
     id:5, \
     shifter:armor, \
+    name:"Colossal Titan", \
     color:gold, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \

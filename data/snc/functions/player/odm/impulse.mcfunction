@@ -3,7 +3,7 @@ scoreboard players operation @s rot_impulse_x -= @s rot_throw
 
 # Prevent taking damage
 #execute as @s[scores={odm_state=1..}] run effect give @a[distance=..3] resistance 2 127 true
-execute as @s[scores={odm_state=2..,rot_impulse_x=-90..90}] run function snc:player/odm/impulse/y_direction
+execute as @s[scores={odm_state=2..,rot_impulse_x=-90..90}] run function snc:player/odm/select_impulse
 
 # Effects if its outside
 execute unless score @s rot_impulse_x matches -90..90 run function snc:player/odm/break

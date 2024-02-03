@@ -9,6 +9,7 @@ damage @s[distance=31..60] 12 on_fire
 damage @s[distance=61..] 6 on_fire
 effect give @s[tag=hurtbox] water_breathing 1 0 true
 
-scoreboard players set @s[type=player,distance=.5..30] push_back 3
-scoreboard players set @s[type=player,distance=31..60] push_back 2
-scoreboard players set @s[type=player,distance=61..] push_back 1
+execute facing ^ ^ ^-1 run function delta:api/launch_looking
+# scoreboard players set @s[type=player,distance=.5..30] push_back 3
+# scoreboard players set @s[type=player,distance=31..60] push_back 2
+# scoreboard players set @s[type=player,distance=61..] push_back 1

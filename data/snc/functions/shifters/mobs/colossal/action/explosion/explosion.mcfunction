@@ -8,7 +8,6 @@ execute if score destroy config matches 1 run setblock ~ ~-3 ~ redstone_block
 # If massive explosion is on
 function snc:shifters/mobs/colossal/spawn/cloud
 
-gamerule mobGriefing true
 execute if score destroy config matches 1 if score col_exp config matches 1.. run function snc:shifters/mobs/colossal/action/explosion/big
 execute if score destroy config matches 1 if score col_exp config matches 2.. run function snc:shifters/mobs/colossal/action/explosion/massive
 

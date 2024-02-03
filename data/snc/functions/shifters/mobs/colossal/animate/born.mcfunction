@@ -18,9 +18,6 @@ execute if score action colossal_vars matches 55 unless score state_sp colossal_
 # Half
 execute if score action colossal_vars matches 55 if score state_sp colossal_vars matches 1 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:502}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
 
-
-execute if score action colossal_vars matches ..48 if score state_sp colossal_vars matches 2 run gamerule mobGriefing false
-
 #Health
 execute if score action colossal_vars matches 42 run effect give @a[scores={colossal_vars=1}] absorption 20 9 true
 execute if score action colossal_vars matches 27 run effect give @a[scores={colossal_vars=1}] absorption 20 12 true
