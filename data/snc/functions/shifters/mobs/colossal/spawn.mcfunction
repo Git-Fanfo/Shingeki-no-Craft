@@ -3,3 +3,4 @@
 summon item_display ~ ~ ~ {item_display:"head",Tags:["aj.colossal.root"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5.3f,5.3f,5.3f]},item:{id:"minecraft:turtle_scute",Count:1b,tag:{CustomModelData:454}}}
 ## Delete?
 scoreboard players set action colossal_vars 55
+scoreboard players set $form colossal_vars 1

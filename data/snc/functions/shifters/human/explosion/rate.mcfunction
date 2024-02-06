@@ -1,1 +1,0 @@
-$execute rotated ~19 0 positioned ^ ^ ^$(rate) run function snc:shifters/human/explosion/boom with storage minecraft:attack

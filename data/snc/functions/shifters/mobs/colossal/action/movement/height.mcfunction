@@ -5,4 +5,5 @@ execute unless block ~ ~-13 ~ #snc:filter_shifter run scoreboard players set on_
 
 ## Prevent clipping ground
 # On surface
-execute if score state colossal_vars matches 2.. run function snc:shifters/mobs/step {"floor":36, "air":35}
+execute rotated ~ 0 run fill ^-6 ^-3 ^-6 ^6 ^-1 ^6 air replace barrier
+execute if score $form colossal_vars matches 1 if score state colossal_vars matches 2.. run function snc:shifters/mobs/step {"floor":36, "air":35}

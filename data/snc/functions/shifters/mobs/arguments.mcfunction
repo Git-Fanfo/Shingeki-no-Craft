@@ -12,6 +12,7 @@ data merge storage minecraft:cart {\
     type:camel, \
     jump:.8d, \
     step_height:3.6d, \
+    explosion:15, \
     resistance:2, \
     parry:false, \
     regen_ticks:100, \
@@ -36,6 +37,7 @@ data merge storage minecraft:colossal {\
     type:skeleton_horse, \
     jump:0d, \
     step_height:7d, \
+    explosion:47, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
@@ -73,6 +75,7 @@ data merge storage minecraft:attack {\
     type:skeleton_horse, \
     jump:2d, \
     step_height:3.6d, \
+    explosion:15, \
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \
@@ -100,6 +103,7 @@ data merge storage minecraft:beast {\
     type:skeleton_horse, \
     jump:1.3d, \
     step_height:3.6d, \
+    explosion:15, \
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
@@ -126,6 +130,7 @@ data merge storage minecraft:armor {\
     jump:2d, \
     type:skeleton_horse, \
     step_height:3.6d, \
+    explosion:15, \
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \
