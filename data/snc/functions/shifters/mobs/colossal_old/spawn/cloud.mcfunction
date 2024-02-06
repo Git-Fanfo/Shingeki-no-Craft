@@ -1,1 +1,0 @@
-summon armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Invisible:1b,Tags:["colossal","shifter"]}

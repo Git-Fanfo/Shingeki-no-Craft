@@ -15,5 +15,8 @@ $execute rotated 270 0 run function snc:shifters/human/explosion/boom with stora
 $execute rotated 300 0 run function snc:shifters/human/explosion/boom with storage minecraft:$(shifter)
 $execute rotated 330 0 run function snc:shifters/human/explosion/boom with storage minecraft:$(shifter)
 
-execute if score @s shifter_vars matches 2 run function snc:shifters/mobs/colossal/action/explosion/spawn
 execute as @a[distance=..100] run function snc:shifters/human/explosion/flash
+execute as @e[type=!item,tag=!colossal,distance=..100] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/explosion/damage
+
+
+execute if score @s shifter_vars matches 2 run function snc:shifters/mobs/colossal/action/explosion/spawn

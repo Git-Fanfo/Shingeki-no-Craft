@@ -17,13 +17,6 @@ $execute if score state $(shifter)_vars matches 2..5 run \
         "run_speed":$(run_speed) \
     }
 
-## Jump (unused atmoment)
-# IF Sneak or Idle or Walk or Run AND is on floor THEN jump
-$execute \
-    if score state $(shifter)_vars matches 2..5 \
-    if score on_floor $(shifter)_vars matches 1 run \
-        function snc:shifters/mobs/jump {"shifter":"$(shifter)"}
-
 ## Height
 $function snc:shifters/mobs/$(shifter)/action/movement/height
 

@@ -1,1 +1,0 @@
-summon item_display ~ ~ ~ {item_display:"head",Tags:["colossal","shifter","explosion"],item:{id:"minecraft:turtle_scute",Count:1b,tag:{CustomModelData:457}}}

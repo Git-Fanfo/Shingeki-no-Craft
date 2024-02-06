@@ -1,2 +1,0 @@
-execute unless score state_sp colossal_vars matches 1 run function snc:shifters/mobs/colossal/animate/idle/full
-execute if score state_sp colossal_vars matches 1 run function snc:shifters/mobs/colossal/animate/idle/half
