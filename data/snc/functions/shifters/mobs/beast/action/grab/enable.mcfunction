@@ -1,2 +1,2 @@
 scoreboard players set $hold beast_vars 1
-effect give @s levitation 1 1 true
+attribute @s minecraft:generic.scale base set 6.3

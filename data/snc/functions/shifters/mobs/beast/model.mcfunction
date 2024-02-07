@@ -20,6 +20,8 @@
 ## Rotate model
 execute store result score rotation beast_vars run data get entity @s Rotation[0]
 scoreboard players operation rotation beast_vars -= player_rotation beast_vars
+# Closer
+# execute on vehicle on passengers if entity @s[type=player] run effect give @s minecraft:slowness infinite 6 true 
 
 # Rotate pivot
 execute unless score rotation beast_vars matches -20..20 store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
@@ -30,16 +32,18 @@ data modify entity @s Rotation[1] set value 0f
 ## 2 types: Strong(S) and Weak(W)
 # S: Can't be combined with a S animation.
 # W: Can be combined with a S Animation.
-
 execute if score state beast_vars matches 1 if entity @s[tag=!aj.beast.animation.born] run function snc:shifters/mobs/beast/animate/born
 ## function snc:shifters/mobs/beast/animate/sneak is handled by ../player
+execute if score state beast_vars matches 2 on vehicle run attribute @s minecraft:generic.scale base set 2.7
 execute if score state beast_vars matches 3 unless score $hold beast_vars matches 1 if entity @s[tag=!aj.beast.animation.idle] run function snc:shifters/mobs/beast/animate/idle
+execute if score state beast_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 6.8
 execute if score state beast_vars matches 4 if entity @s[tag=!aj.beast.animation.walk] run function snc:shifters/mobs/beast/animate/walk
 ##execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.run] run function snc:shifters/mobs/beast/animate/run
 execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.walk] run function snc:shifters/mobs/beast/animate/walk
+execute if score state beast_vars matches 4..5 on vehicle run attribute @s minecraft:generic.scale base set 6.8
 execute if score state beast_vars matches 9 if entity @s[tag=!aj.beast.animation.death] run function snc:shifters/mobs/beast/animate/death
-execute if score state beast_vars matches 12 if entity @s[tag=!aj.beast.animation.grab] run function snc:shifters/mobs/beast/animate/grab
 
+execute if score state beast_vars matches 12 if entity @s[tag=!aj.beast.animation.grab] run function snc:shifters/mobs/beast/animate/grab
 execute if score state beast_vars matches 13 if entity @s[tag=!aj.beast.animation.throw_big] run function snc:shifters/mobs/beast/animate/throw_big
 execute if score state beast_vars matches 14 if entity @s[tag=!aj.beast.animation.throw_area] run function snc:shifters/mobs/beast/animate/throw_area
 

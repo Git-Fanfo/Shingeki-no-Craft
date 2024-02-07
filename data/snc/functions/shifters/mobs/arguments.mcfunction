@@ -107,8 +107,8 @@ data merge storage minecraft:beast {\
     resistance:2, \
     parry:false, \
     regen_ticks:140, \
-    scale_vehicle:6.3, \
-    scale_player:4.5, \
+    scale_vehicle:6.8, \
+    scale_player:10, \
     energy_decrease: 2,\
     energy_attack: 45,\
     dmg3:60, \

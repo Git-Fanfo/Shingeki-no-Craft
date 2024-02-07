@@ -18,7 +18,7 @@ $execute if score state $(shifter)_vars matches 2..5 run \
     }
 
 ## Height
-$function snc:shifters/mobs/$(shifter)/action/movement/height
+$execute if score @s colossal_vars matches 1 run function snc:shifters/mobs/$(shifter)/action/movement/height
 
 ## If nothing is riding then kill
 $execute \

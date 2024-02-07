@@ -1,1 +1,1 @@
-effect give @s levitation 3 0 true
+effect give @s levitation 2 0 true

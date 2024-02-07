@@ -54,4 +54,4 @@ execute if score @s[tag=!transform] attack_vars matches 1.. if predicate snc:is_
 execute if score @s attack_vars matches 1.. if score koniglich attack_vars matches 1.. run function snc:shifters/mobs/attack/action/koniglich
 
 ## UNIQUE: BEAST
-execute if entity @s[tag=transform] if predicate snc:beast/has_atk_6 at @e[type=#snc:target] rotated ~ 0 run function snc:shifters/mobs/beast/action/sense/particle
+execute if entity @s[tag=transform] if predicate snc:beast/has_atk_6 at @e[type=#snc:target,distance=.1..] rotated ~ 0 run function snc:shifters/mobs/beast/action/sense/particle

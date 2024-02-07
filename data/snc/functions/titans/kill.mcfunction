@@ -1,9 +1,9 @@
-summon experience_orb ~.2 ~ ~ {Value:7}
-summon experience_orb ~ ~ ~ {Value:3}
-summon experience_orb ~ ~ ~.2 {Value:5}
+summon experience_orb ~.2 ~4 ~ {Value:7}
+summon experience_orb ~ ~4 ~ {Value:3}
+summon experience_orb ~ ~4 ~.2 {Value:5}
 
-particle minecraft:cloud ~ ~-1 ~ 2 2 2 .2 500 force
-playsound minecraft:aot.steam player @a ~ ~ ~ 2 1
+particle minecraft:cloud ~ ~4 ~ 2 2 2 .2 500 force
+playsound minecraft:aot.steam player @a ~ ~4 ~ 2 1
 effect clear @s water_breathing
 tag @p[tag=wrap,distance=..8] remove wrap
 

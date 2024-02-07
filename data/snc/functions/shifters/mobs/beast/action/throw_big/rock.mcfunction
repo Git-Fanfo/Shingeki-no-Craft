@@ -1,5 +1,5 @@
 execute on passengers if entity @s[type=item_display,tag=!beast_wrap] on passengers if entity @s[type=player] on vehicle run tag @s add sticky
-execute on passengers if entity @s[type=item_display,tag=!beast_wrap] run ride @e[type=#snc:baseball,sort=nearest,limit=1] mount @s
+execute on passengers if entity @s[type=item_display,tag=!beast_wrap] run ride @e[type=#snc:baseball,tag=beast_wrap,sort=nearest,limit=1] mount @s
 
 execute if score destroy config matches 1 on vehicle \
     if score $rock beast_vars matches 1 \

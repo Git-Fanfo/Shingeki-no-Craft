@@ -2,8 +2,8 @@
 	"values": [
 		"snc:load",
 		"delta:internal/technical/load",
-		"animated_java:beast/zzzzzzzz/load",
 		"animated_java:armor/zzzzzzzz/load",
-		"animated_java:attack/zzzzzzzz/load"
+		"animated_java:attack/zzzzzzzz/load",
+		"animated_java:beast/zzzzzzzz/load"
 	]
 }
