@@ -2,7 +2,7 @@ execute unless score @s cart_vars matches ..1200 run scoreboard players set @s c
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses cart_vars 0
 execute if score @s cart_vars matches 1200 as @e[tag=shifter,tag=cart,tag=dead] run scoreboard players add $corpses cart_vars 1
-execute if score $corpses cart_vars matches 2.. as @e[tag=shifter,tag=cart,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill
+execute if score $corpses cart_vars matches 2.. as @e[tag=shifter,tag=cart,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"cart"}
 attribute @s generic.scale base set 1.3
 
 ## Reset
@@ -45,4 +45,4 @@ execute if score @s cart_vars matches 200 run function snc:shifters/mobs/cart/ac
 
 execute if score @s cart_vars matches 0 run particle minecraft:cloud ~ ~4 ~ 2 2 2 .2 500 force
 execute if score @s cart_vars matches 0 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 .9
-execute if score @s cart_vars matches 0 run function snc:shifters/mobs/kill
+execute if score @s cart_vars matches 0 run function snc:shifters/mobs/kill {"shifter":"cart"}

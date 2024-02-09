@@ -2,7 +2,7 @@ execute unless score @s colossal_vars matches ..1200 run scoreboard players set 
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses colossal_vars 0
 execute if score @s colossal_vars matches 1200 as @e[tag=shifter,tag=colossal,tag=dead] run scoreboard players add $corpses colossal_vars 1
-execute if score $corpses colossal_vars matches 2.. as @e[tag=shifter,tag=colossal,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill
+execute if score $corpses colossal_vars matches 2.. as @e[tag=shifter,tag=colossal,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"colossal"}
 
 ## Reset
 execute if score @s colossal_vars matches 1200 run bossbar remove minecraft:colossal_health
@@ -54,4 +54,4 @@ execute if score @s colossal_vars matches 200 run function snc:shifters/mobs/col
 
 execute if score @s colossal_vars matches 0 run particle minecraft:cloud ^ ^ ^40 2 2 2 .2 500 force
 execute if score @s colossal_vars matches 0 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 .9
-execute if score @s colossal_vars matches 0 run function snc:shifters/mobs/kill
+execute if score @s colossal_vars matches 0 run function snc:shifters/mobs/kill {"shifter":"colossal"}

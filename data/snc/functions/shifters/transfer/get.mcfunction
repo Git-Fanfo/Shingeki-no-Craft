@@ -12,7 +12,7 @@ execute if score @s shifter_vars matches ..-1 run scoreboard players operation @
 $execute unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars $(id)
 $scoreboard players set @s $(shifter)_vars 1
 
-
+$scoreboard players set $energy $(shifter)_vars 3600
 ## Set previous curse
 $function snc:shifters/mobs/curse {"shifter" : $(shifter)}
 
@@ -20,6 +20,9 @@ $function snc:shifters/mobs/curse {"shifter" : $(shifter)}
 $execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 0 run scoreboard players set curse $(shifter)_vars 48
 $execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 1 run scoreboard players set curse $(shifter)_vars 312
 $execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 2 run scoreboard players set curse $(shifter)_vars 1560
+
+# Energy
+$scoreboard players set $energy $(shifter)_vars 3600
 
 # Advancement
 $advancement grant @s[tag=!first] only snc:shifters/$(shifter)

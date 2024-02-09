@@ -11,7 +11,8 @@ execute if score action cart_vars matches 24 run data merge entity @s {item:{id:
 execute if score action cart_vars matches 23 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:21}}, transformation:{scale:[5.3f,5.3f,5.3f]}}
 #PISO
 execute if score action cart_vars matches 30 run playsound minecraft:aot.footsteps hostile @a ~ ~ ~ 2 .1
-execute if score action cart_vars matches 21 as @p[scores={cart_vars=1}] at @s rotated ~ 0 positioned ^3 ^-3 ^2 as @e[distance=..3] run function snc:shifters/mobs/cart/action/slam/damage
+execute if score action cart_vars matches 21 on vehicle on passengers if entity @s[type=player] rotated ~ 0 positioned ^ ^1 ^4 as @e[distance=..3] run function snc:shifters/mobs/cart/action/slam/damage
+execute if score action cart_vars matches 21 on vehicle on passengers if entity @s[type=player] rotated ~ 0 positioned ^ ^1 ^4 run summon creeper ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ExplosionRadius:1b,Fuse:0,Tags:["motion"]}
 
 execute if score action cart_vars matches 22 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:22}}, transformation:{scale:[5.3f,5.3f,5.3f]}}
 #7

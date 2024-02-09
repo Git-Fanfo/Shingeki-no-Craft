@@ -8,7 +8,7 @@ $execute as @s[tag=collision] run \
 execute \
     if entity @s[tag=aj.attack.locator.right_hand] \
     if score consume attack_vars matches 20..60 run \
-        ride @e[type=#snc:eldian,tag=!transform,sort=nearest,limit=1] mount @s
+        ride @e[type=#snc:eldian,tag=!transform,distance=..5,sort=nearest,limit=1] mount @s
 
 execute \
     if entity @s[tag=aj.attack.locator.right_hand] \

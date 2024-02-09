@@ -33,5 +33,3 @@ $execute if score prevent $(shifter)_vars matches 1 run tellraw @a ["Warning: ",
 $execute unless score prevent $(shifter)_vars matches 1 if score $$(shifter).doesnt.exists shifter_vars matches ..0 run scoreboard players add $$(shifter).doesnt.exists shifter_vars 1
 # Reset "prevent"
 $scoreboard players reset prevent $(shifter)_vars
-
-$scoreboard players set $energy $(shifter)_vars 3600

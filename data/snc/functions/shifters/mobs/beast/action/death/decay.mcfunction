@@ -1,4 +1,6 @@
 scoreboard players add @s beast_vars 1
+particle minecraft:cloud ~ ~9 ~ 2 3 2 .15 300 force
+playsound minecraft:aot.steam player @a ~ ~9 ~ 2 1
 execute if score @s beast_vars matches 1 run function animated_java:beast/apply_variant/noskin_1
 execute if score @s beast_vars matches 1 on vehicle if entity @s[type=armor_stand] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:57}
 execute if score @s beast_vars matches 2 run function animated_java:beast/apply_variant/noskin_2

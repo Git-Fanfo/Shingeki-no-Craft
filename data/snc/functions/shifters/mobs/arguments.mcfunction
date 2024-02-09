@@ -18,6 +18,8 @@ data merge storage minecraft:cart {\
     regen_ticks:100, \
     scale_vehicle:2, \
     scale_player:2.4, \
+    block_range:7, \
+    entity_range:7, \
     energy_decrease: 1,\
     energy_attack: 30\
 }
@@ -43,6 +45,8 @@ data merge storage minecraft:colossal {\
     regen_ticks:140, \
     scale_vehicle:6, \
     scale_player:12, \
+    block_range:0, \
+    entity_range:0, \
     energy_decrease: 5,\
     energy_attack: 110\
 }
@@ -81,6 +85,8 @@ data merge storage minecraft:attack {\
     regen_ticks:80, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
+    block_range:10, \
+    entity_range:0, \
     energy_decrease: 2,\
     energy_attack: 45,\
     dmg2:36, \
@@ -109,6 +115,8 @@ data merge storage minecraft:beast {\
     regen_ticks:140, \
     scale_vehicle:6.8, \
     scale_player:10, \
+    block_range:11, \
+    entity_range:0, \
     energy_decrease: 2,\
     energy_attack: 45,\
     dmg3:60, \
@@ -136,6 +144,8 @@ data merge storage minecraft:armor {\
     regen_ticks:80, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
+    block_range:10, \
+    entity_range:0, \
     energy_decrease: 2,\
     energy_attack: 45,\
     dmg2:36, \

@@ -9,7 +9,7 @@ $scoreboard players remove $energy $(shifter)_vars $(energy_attack)
 execute as @s[predicate=snc:has_colossal_atk_2] run function snc:shifters/mobs/colossal/action/wallbreaker/init
 
 # Heatwave
-execute as @s[predicate=snc:has_colossal_atk_3] run function snc:shifters/mobs/colossal/action/steam/select_shifter
+execute as @s[predicate=snc:has_colossal_atk_3] run function snc:shifters/mobs/colossal/action/steam/init
 
 # Jaw
 execute as @s[predicate=snc:has_colossal_atk_4] run function snc:shifters/mobs/colossal/action/jaw/init
@@ -22,7 +22,7 @@ execute as @s[predicate=snc:cart/has_atk_3] run function snc:shifters/mobs/cart/
 execute as @s[predicate=snc:cart/has_atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/init
 
 # Metal
-execute as @s[predicate=snc:cart/has_atk_6] run function snc:shifters/mobs/cart/action/metal/select_shifter
+# execute as @s[predicate=snc:cart/has_atk_6] run function snc:shifters/mobs/cart/action/metal/select_shifter
 
 ## Attack
 # Block

@@ -27,5 +27,4 @@ execute if score action cart_vars matches 5 run effect give @a[scores={cart_vars
 
 execute if score action cart_vars matches 1 run execute as @a[scores={cart_vars=1}] run function snc:give/item/cart/primary
 
-execute if score action cart_vars matches 1 run scoreboard players set consume cart_vars 20
 execute if score action cart_vars matches 1 run scoreboard players set state cart_vars 3

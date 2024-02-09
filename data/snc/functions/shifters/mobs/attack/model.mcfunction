@@ -34,6 +34,8 @@ data modify entity @s Rotation[1] set value 0f
 execute if score state attack_vars matches 1 if entity @s[tag=!aj.attack.animation.born] run function snc:shifters/mobs/attack/animate/born
 ## function snc:shifters/mobs/attack/animate/sneak is handled by ../player
 execute if score state attack_vars matches 2 on vehicle run attribute @s minecraft:generic.scale base set 2.7
+execute if score state attack_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^1 ^4 run particle glow_squid_ink ~ ~ ~ 0 0 0 0 20 force
+execute if score state attack_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^1 ^4 run effect give @e[type=#snc:eldian,tag=!transform,distance=..5,sort=nearest,limit=1] glowing 1 0 true
 execute if score state attack_vars matches 3 if entity @s[tag=!aj.attack.animation.idle] run function snc:shifters/mobs/attack/animate/idle
 execute if score state attack_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 6.3
 execute if score state attack_vars matches 4 if entity @s[tag=!aj.attack.animation.walk] run function snc:shifters/mobs/attack/animate/walk

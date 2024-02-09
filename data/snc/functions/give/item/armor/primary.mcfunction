@@ -1,4 +1,4 @@
-clear @s
+clear @s carrot_on_a_stick{atk_shifter:1b}
 #function snc:give/item/attack/atk_1 with storage minecraft:attack
 #function snc:give/item/attack/atk_2 with storage minecraft:attack
 #function snc:give/item/attack/atk_3 with storage minecraft:attack

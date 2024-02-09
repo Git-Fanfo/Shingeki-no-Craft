@@ -1,3 +1,7 @@
+## Attributes
+attribute @s minecraft:player.block_interaction_range base set 4.5
+attribute @s minecraft:player.entity_interaction_range base set 4
+
 ##### HOW TO CREATE A SHIFTER #####
 #Shifters
 execute as @s[scores={cart_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:cart

@@ -9,8 +9,10 @@ $execute unless score state $(shifter)_vars matches 1.. run \
         "type":$(type), \
         "jump":$(jump), \
         "step_height":$(step_height), \
-        "scale_vehicle":$(scale_vehicle), \   
-        "scale_player":$(scale_player) \   
+        "scale_vehicle":$(scale_vehicle), \
+        "scale_player":$(scale_player), \
+        "block_range":$(block_range), \
+        "entity_range":$(entity_range) \
         }
 ## Health system
 # When doesn't have absortion then add tag 'injured'

@@ -17,6 +17,12 @@ $bossbar set minecraft:$(shifter)_health style notched_6
 $scoreboard players set state $(shifter)_vars 1
 effect give @s resistance 5 4 true
 $attribute @s generic.scale base set $(scale_player)
+$attribute @s player.block_interaction_range base set $(block_range)
+$attribute @s player.entity_interaction_range base set $(entity_range)
+attribute @s player.block_break_speed base set 2.5
+
+## UNIQUE: CART
+$execute unless score @s cart_vars matches 1.. run scoreboard players remove $energy $(shifter)_vars 360
 
 execute store result score @s gamemode run data get entity @s playerGameType
 gamemode survival

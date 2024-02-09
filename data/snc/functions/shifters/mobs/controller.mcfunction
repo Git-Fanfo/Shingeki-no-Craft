@@ -18,7 +18,7 @@ $execute if score state $(shifter)_vars matches 2..5 run \
     }
 
 ## Height
-$execute if score @s colossal_vars matches 1 run function snc:shifters/mobs/$(shifter)/action/movement/height
+execute on passengers if entity @s[type=player] if score @s shifter_vars matches 2 run function snc:shifters/mobs/colossal/action/movement/height
 
 ## If nothing is riding then kill
 $execute \
