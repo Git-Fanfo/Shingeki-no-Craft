@@ -7,10 +7,11 @@ execute as @s[tag=!wrap,scores={odm_state=0,man_cool=0},predicate=snc:has_gas_tr
 # Impulse
 execute as @s[tag=!wrap,scores={odm_state=1..},predicate=snc:has_gas_trigger,predicate=snc:has_odm] run function snc:player/odm/impulse
 
-# Turn Titan
+## Turn Titan
 execute as @s[predicate=snc:has_add] run function snc:shifters/trigger
 execute as @s[predicate=snc:has_shifters_finder] run function snc:player/titan/shifters_finder
 execute as @s[predicate=snc:has_remove] run function snc:shifters/human/check_untransform
+execute if predicate snc:cart/has_module run function snc:shifters/mobs/cart/action/shipload/module
 
 ## Give liquid
 # Get Spinal from titan

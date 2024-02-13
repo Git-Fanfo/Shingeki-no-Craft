@@ -10,4 +10,4 @@ $execute \
 $execute at @p[scores={$(shifter)_vars=1},tag=transform] rotated ~ 0 run \
     function snc:shifters/mobs/$(shifter)/hitbox
 
-$execute if score state $(shifter)_vars matches 0 run function snc:logic/kill_mob
+$execute if score state $(shifter)_vars matches 0 run function snc:shifters/mobs/check_shipload

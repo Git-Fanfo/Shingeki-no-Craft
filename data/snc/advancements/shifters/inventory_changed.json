@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{atk_shifter:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "snc:give/item/shifters/primary"
+  }
+}

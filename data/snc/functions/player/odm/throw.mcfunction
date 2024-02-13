@@ -32,7 +32,9 @@ execute store result score @e[tag=hook,tag=L,sort=nearest,limit=1] id_hook_L run
 execute store result score @e[tag=shooter,tag=L,sort=nearest,limit=1] id_shooter_L run data get entity @s UUID[0]
 
 # Wrap bats
-execute as @e[tag=rope,type=bat,sort=nearest,limit=2] at @s run data modify entity @s Leash set from entity @e[tag=shooter,sort=nearest,limit=1] {}
+## execute as @e[tag=rope,type=bat,sort=nearest,limit=2] at @s run data modify entity @s Leash set from entity @e[tag=shooter,sort=nearest,limit=1] {}
+execute as @e[tag=rope,type=bat,sort=nearest,limit=2] at @s run data modify entity @s leash.UUID set from entity @e[tag=shooter,sort=nearest,limit=1] UUID
+
 
 # ODM status -> 1 = threw
 scoreboard players set @s odm_state -1

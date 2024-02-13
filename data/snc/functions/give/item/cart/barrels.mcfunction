@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"translate":"aot.ability.shipload","italic":false},": ",{"translate":"aot.ability.shipload.barrels"}]'},CustomModelData:56,module:1b,barrels:1b}}}
