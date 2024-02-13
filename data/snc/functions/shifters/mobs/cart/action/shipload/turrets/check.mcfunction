@@ -1,0 +1,2 @@
+execute if entity @a[scores={cart_vars=1},tag=transform,distance=..10] run function snc:shifters/mobs/cart/action/shipload/turrets/spawn
+execute unless entity @a[scores={cart_vars=1},tag=transform,distance=..10] run function snc:shifters/mobs/cart/action/shipload/not_found

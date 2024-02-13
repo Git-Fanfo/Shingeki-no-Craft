@@ -1,1 +1,2 @@
 execute if predicate snc:cart/has_barrels run function snc:shifters/mobs/cart/action/shipload/barrels/check
+execute if predicate snc:cart/has_turrets run function snc:shifters/mobs/cart/action/shipload/turrets/check

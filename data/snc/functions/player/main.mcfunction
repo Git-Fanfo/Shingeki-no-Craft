@@ -22,8 +22,6 @@ execute if score @s idle matches 1.. unless predicate snc:shifters/has_injection
 # Pure Titan
 execute if entity @s[tag=titan] run function snc:player/titan/effects/pure
 execute if entity @s[tag=handcuffs] unless predicate snc:is_riding run ride @s mount @e[tag=handcuffs,type=!#snc:eldian,sort=nearest,limit=1]
-# Remove turret if is not Cart
-execute if entity @s[tag=gun] unless predicate snc:is_riding_turret run function snc:shifters/mobs/cart/action/turret/clear_gun
 
 ## Using right click
 execute if score @s using_carrot matches 1.. run function snc:player/using_carrot
