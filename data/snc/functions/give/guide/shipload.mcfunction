@@ -5,8 +5,7 @@
 give @s written_book{CustomModelData:1,generation:2,title:"Cart's Shipload",author:"Marvin Mallmeister",pages:["{\"text\":\"\\uE311\",\"color\":\"white\"}",\
 "[{\"text\":\"\\uE301\",\"color\":\"white\"},\
 {\"text\":\"1. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Barrels\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"}},\"\\n\",\
-{\"text\":\"2. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Turrets\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"9\"}},\"\\n\",\
-{\"text\":\"3. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Cannon\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"9\"}}]",\
+{\"text\":\"2. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Turrets\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"9\"}}]",\
 "[{\"text\":\"\\uE312\",\"color\":\"white\"},{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n \\uE300\",\"bold\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"}}]",\
 "[{\"text\":\"\\uE313\",\"color\":\"white\"},{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n \\uE300\",\"bold\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"}}]",\
 "[{\"text\":\"\\uE314\",\"color\":\"white\"},{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n \\uE300\",\"bold\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"}}]",\
