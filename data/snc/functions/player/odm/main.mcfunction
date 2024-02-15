@@ -8,7 +8,7 @@ execute as @e[tag=rope] unless data entity @s leash run function snc:logic/kill_
 execute as @s[tag=hook,tag=R] unless predicate snc:is_riding_projectile run function snc:player/odm/ground/main
 execute as @s[tag=hook,tag=L] unless predicate snc:is_riding_projectile run function snc:player/odm/ground/main
 
-execute if score @s[tag=shooter,tag=R] id_shooter_R = @p id_player at @p rotated ~ 0 run tp @s ^-.3 ^.5 ^
-execute if score @s[tag=shooter,tag=L] id_shooter_L = @p id_player at @p rotated ~ 0 run tp @s ^.3 ^.5 ^
+execute if score @s[tag=shooter,tag=R] id_shooter_R = @p id_player at @p rotated ~ 0 run tp @s ^-.25 ^.75 ^.1
+execute if score @s[tag=shooter,tag=L] id_shooter_L = @p id_player at @p rotated ~ 0 run tp @s ^.25 ^.75 ^.1
 
 return 0

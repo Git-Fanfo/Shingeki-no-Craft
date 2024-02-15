@@ -23,6 +23,7 @@
         "#minecraft:crops",
         "farmland",
         "moss_carpet",
-        "dead_bush"
+        "dead_bush",
+        "light"
     ]
 }

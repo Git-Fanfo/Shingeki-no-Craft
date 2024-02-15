@@ -34,8 +34,8 @@ data merge storage minecraft:colossal {\
     bossbar_color:blue, \
     time:5, \
     hp:72, \
-    walk_speed:0.13d, \
-    run_speed:0.13d, \
+    walk_speed:0.1d, \
+    run_speed:0.1d, \
     type:skeleton_horse, \
     jump:0d, \
     step_height:7d, \

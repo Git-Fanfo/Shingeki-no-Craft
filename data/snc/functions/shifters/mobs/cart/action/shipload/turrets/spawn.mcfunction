@@ -12,6 +12,6 @@ clear @s carrot_on_a_stick{turrets:1b} 1
 
 ## Set Mask
 scoreboard players set $mask cart_vars 1
-execute if score @s shifter_vars matches 1 run function snc:give/item/cart/primary
+function snc:give/item/cart/primary
 
 return 0

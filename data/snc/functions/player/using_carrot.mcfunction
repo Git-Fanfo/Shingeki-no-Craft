@@ -11,7 +11,6 @@ execute as @s[tag=!wrap,scores={odm_state=1..},predicate=snc:has_gas_trigger,pre
 execute as @s[predicate=snc:has_add] run function snc:shifters/trigger
 execute as @s[predicate=snc:has_shifters_finder] run function snc:player/titan/shifters_finder
 execute as @s[predicate=snc:has_remove] run function snc:shifters/human/check_untransform
-execute if predicate snc:cart/has_module run function snc:shifters/mobs/cart/action/shipload/module
 
 ## Give liquid
 # Get Spinal from titan

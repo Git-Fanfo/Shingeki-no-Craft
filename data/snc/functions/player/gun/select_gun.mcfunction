@@ -1,4 +1,3 @@
-execute as @s[predicate=snc:gun/has_machine_gun] if predicate snc:is_riding_turret run function snc:shifters/mobs/cart/action/turret/shoot
 execute as @s[predicate=snc:gun/has_red] run function snc:player/gun/flare/shoot_red
 execute as @s[predicate=snc:gun/has_green] run function snc:player/gun/flare/shoot_green
 execute as @s[predicate=snc:gun/has_black] run function snc:player/gun/flare/shoot_black

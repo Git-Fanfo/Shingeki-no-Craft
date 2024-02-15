@@ -21,7 +21,8 @@
         "#minecraft:leaves",
         "#minecraft:crops",
         "farmland",
-        "moss_carpet"
+        "moss_carpet",
+        "light"
 
     ]
 }

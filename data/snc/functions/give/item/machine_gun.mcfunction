@@ -1,4 +1,0 @@
-item replace entity @s armor.head with carved_pumpkin{display:{Name:'[{"translate":"aot.macgun","italic":false,"color":"light_purple"},{"translate":"aot.model","color":"light_purple"}]'},CustomModelData:3,machine_gun:1b} 1
-give @s carrot_on_a_stick{display:{Name:'{"translate":"aot.macgun","color":"light_purple","italic":false}',Lore:['{"translate":"aot.macgun.desc","color":"gray","italic":false}','{"translate":"aot.macgun.desc2","color":"gray","italic":false}','{"text":" ","color":"gray","italic":false}','{"translate":"aot.active","color":"gray","italic":false}','{"translate":"aot.macgun.desc3","color":"blue","italic":false}','[{"text":"12 ","color":"gold","italic":false,"bold":true},{"translate":"attribute.name.generic.attack_damage","color":"blue","italic":false,"bold":false}]']},HideFlags:5,CustomModelData:3,gun:1b,machine_gun:1b} 1
-
-tag @s add clear

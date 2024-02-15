@@ -21,8 +21,8 @@ execute as @s[predicate=snc:cart/has_atk_3] run function snc:shifters/mobs/cart/
 # Jaw
 execute as @s[predicate=snc:cart/has_atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/init
 
-# Metal
-# execute as @s[predicate=snc:cart/has_atk_6] run function snc:shifters/mobs/cart/action/metal/select_shifter
+# Shipload
+execute if predicate snc:cart/has_shipload run function snc:shifters/mobs/cart/action/shipload/module
 
 ## Attack
 # Block
