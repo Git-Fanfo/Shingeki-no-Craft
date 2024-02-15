@@ -6,7 +6,7 @@
 #
 # @output
 #   Entity is killed and the shifter is given to an entity or the world
-$function snc:shifters/human/timer/cd {"shifter":$(shifter)}
+$execute as @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":$(shifter)}
 
 ## Display who killed
 # Fanfo
@@ -22,9 +22,11 @@ team leave @s
 ## If detected 2 shifters then remove one from the vars
 $execute if score prevent $(shifter)_vars matches 1 run scoreboard players reset @s $(shifter)_vars
 
-$execute if entity @s[tag=inherit] run scoreboard players reset @s $(shifter)_vars
+#$execute if entity @s[tag=snc.inherit] run 
+$scoreboard players reset @s $(shifter)_vars
 
-$execute unless entity @s[tag=inherit] unless score prevent $(shifter)_vars matches 1 run scoreboard players reset * $(shifter)_vars
+#$execute unless entity @s[tag=snc.inherit] 
+$execute unless score prevent $(shifter)_vars matches 1 run scoreboard players reset * $(shifter)_vars
 
 $advancement revoke @s only snc:shifters/$(shifter)
 

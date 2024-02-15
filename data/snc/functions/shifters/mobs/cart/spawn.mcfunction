@@ -4,3 +4,5 @@ summon item_display ~ ~ ~ {item_display:"head",Tags:["aj.cart.root"],transformat
 ## Delete?
 scoreboard players set action cart_vars 40
 scoreboard players set $mask cart_vars 0
+scoreboard players set walk cart_vars 20
+scoreboard players set idle cart_vars 40

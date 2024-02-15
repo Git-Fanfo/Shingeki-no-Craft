@@ -1,9 +1,16 @@
-tag @s add inherit
+tag @s add snc.inherit
 ##### HOW TO CREATE A SHIFTER #####
-execute if entity @s[scores={cart_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:cart
-execute if entity @s[scores={colossal_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:colossal
-execute if entity @s[scores={attack_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:attack
-execute if entity @s[scores={beast_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:beast
-execute if entity @s[scores={armor_vars=1}] as @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/get with storage minecraft:armor
+# Transfer Main
+execute if score @s shifter_vars matches 1 as @p[distance=.1..20,tag=consume] unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars 1
+execute if score @s shifter_vars matches 2 as @p[distance=.1..20,tag=consume] unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars 2
+execute if score @s shifter_vars matches 3 as @p[distance=.1..20,tag=consume] unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars 3
+execute if score @s shifter_vars matches 4 as @p[distance=.1..20,tag=consume] unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars 4
+execute if score @s shifter_vars matches 5 as @p[distance=.1..20,tag=consume] unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars 5
+# Transfer Passives
+execute if score @s cart_vars matches 1 run function snc:shifters/transfer/remove/player {"shifter":"cart"}
+execute if score @s colossal_vars matches 1 run function snc:shifters/transfer/remove/player {"shifter":"colossal"}
+execute if score @s attack_vars matches 1 run function snc:shifters/transfer/remove/player {"shifter":"attack"}
+execute if score @s beast_vars matches 1 run function snc:shifters/transfer/remove/player {"shifter":"beast"}
+execute if score @s armor_vars matches 1 run function snc:shifters/transfer/remove/player {"shifter":"armor"}
 
 execute as @p[distance=..20,tag=consume] run function snc:titans/remove_tags

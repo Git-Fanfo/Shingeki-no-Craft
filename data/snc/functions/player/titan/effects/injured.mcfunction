@@ -1,5 +1,5 @@
 effect give @s blindness 2 1 true
-effect give @s resistance 2 4 true
+# effect give @s resistance 2 4 true
 #effect give @s jump_boost 5 128 true
 effect give @s slowness 2 5 true
 
