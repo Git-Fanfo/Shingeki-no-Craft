@@ -1,4 +1,3 @@
-effect give @s resistance 10 127 true
 effect give @s slowness 1 0 true
 execute run advancement grant @p[distance=0..5] only snc:shifters/aura
 

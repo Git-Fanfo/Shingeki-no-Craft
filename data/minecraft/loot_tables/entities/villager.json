@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {"rolls": 1,"entries": [
+      {"type": "minecraft:item","name": "minecraft:barrier",
+        "functions": [{"function": "minecraft:set_nbt","tag": "{atk_shifter:1b,restart_cart:1b,CustomModelData:1}"}]}],
+    "conditions": [
+      {"condition": "minecraft:entity_scores","entity": "this",
+        "scores": {"cart_vars": {"min": 1,"max": 1}}}]},
+    {"rolls": 1,"entries": [
+      {"type": "minecraft:item","name": "minecraft:barrier",
+        "functions": [{"function": "minecraft:set_nbt","tag": "{atk_shifter:1b,restart_colossal:1b,CustomModelData:1}"}]}],
+    "conditions": [
+      {"condition": "minecraft:entity_scores","entity": "this",
+        "scores": {"colossal_vars": {"min": 1,"max": 1}}}]},
+    {"rolls": 1,"entries": [
+      {"type": "minecraft:item","name": "minecraft:barrier",
+        "functions": [{"function": "minecraft:set_nbt","tag": "{atk_shifter:1b,restart_attack:1b,CustomModelData:1}"}]}],
+    "conditions": [
+      {"condition": "minecraft:entity_scores","entity": "this",
+        "scores": {"attack_vars": {"min": 1,"max": 1}}}]},
+    {"rolls": 1,"entries": [
+      {"type": "minecraft:item","name": "minecraft:barrier",
+        "functions": [{"function": "minecraft:set_nbt","tag": "{atk_shifter:1b,restart_beast:1b,CustomModelData:1}"}]}],
+    "conditions": [
+      {"condition": "minecraft:entity_scores","entity": "this",
+        "scores": {"beast_vars": {"min": 1,"max": 1}}}]},
+        {"rolls": 1,"entries": [
+          {"type": "minecraft:item","name": "minecraft:barrier",
+            "functions": [{"function": "minecraft:set_nbt","tag": "{atk_shifter:1b,restart_armor:1b,CustomModelData:1}"}]}],
+        "conditions": [
+          {"condition": "minecraft:entity_scores","entity": "this",
+            "scores": {"armor_vars": {"min": 1,"max": 1}}}]}
+  ],
+  "random_sequence": "minecraft:entities/villager"
+}

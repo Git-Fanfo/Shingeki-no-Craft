@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick{display:{Name:'{"translate":"aot.pure.stop","color":"aqua","italic":false}'},HideFlags:5,CustomModelData:45,stop:1b,atk_shifter:1b,pure_titan:1b,Enchantments:[{}]} 1
+item replace entity @s hotbar.2 with carrot_on_a_stick{display:{Name:'{"translate":"aot.pure.stop","color":"aqua","italic":false}'},HideFlags:5,CustomModelData:45,stop:1b,atk_shifter:1b,pure_titan:1b,Enchantments:[{}]} 1
