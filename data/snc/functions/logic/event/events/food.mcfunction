@@ -1,5 +1,5 @@
 tag @s add event
-tellraw @s [{"text":"Your villagers have decided to give you a gift from the last harvest!","color":"green"}]
+tellraw @s [{"text":"The villagers have decided to give you a gift from the last harvest!","color":"green"}]
 particle totem_of_undying ~ ~5 ~ 0 0 0 1 500 force
 give @s baked_potato 6
 execute if predicate snc:chance/10 run give @s golden_carrot 2

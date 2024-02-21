@@ -1,5 +1,6 @@
 clear @s carrot_on_a_stick{atk_shifter:1b}
 clear @s spyglass{atk_shifter:1b}
+
 function snc:give/item/cart/atk_3 with storage minecraft:cart
 function snc:give/item/cart/atk_5 with storage minecraft:cart
 

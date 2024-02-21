@@ -1,5 +1,5 @@
 tag @s add event
-tellraw @s [{"text":"Your village is under attack!","color":"red"}]
+tellraw @s [{"text":"The village is under attack!","color":"red"}]
 function snc:ent/pill/summon/1
 function snc:ent/pill/summon/1
 function snc:ent/pill/summon/1

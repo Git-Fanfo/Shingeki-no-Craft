@@ -1,0 +1,37 @@
+{
+    "criteria": {
+      "remove_armor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "leather_boots",
+                "leather_leggings",
+                "leather_chestplate",
+                "chainmail_boots",
+                "chainmail_leggings",
+                "chainmail_chestplate",
+                "iron_boots",
+                "iron_leggings",
+                "iron_chestplate",
+                "golden_boots",
+                "golden_leggings",
+                "golden_chestplate",
+                "diamond_boots",
+                "diamond_leggings",
+                "diamond_chestplate",
+                "netherite_boots",
+                "netherite_leggings",
+                "netherite_chestplate"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "snc:give/item/shifters/primary"
+    }
+  }
+  

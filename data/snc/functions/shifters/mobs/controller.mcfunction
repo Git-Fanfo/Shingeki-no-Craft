@@ -1,12 +1,16 @@
 ## Effects
 effect give @s invisibility infinite 0 true
 effect give @s fire_resistance infinite 0 true
-effect give @s resistance infinite 5 true
 
 # Health System
 $execute if score $bossbar config matches 1 run bossbar set minecraft:$(shifter)_health players @a[distance=..50]
+# Collision
+$execute \
+    if predicate snc:is_hurt \
+    unless score state $(shifter)_vars matches 9 run \
+        function snc:shifters/mobs/check_parry {"shifter":"$(shifter)","parry":"$(parry)"}
 
-# Stop when $(shifter)
+# Stop when is using an ability
 $execute if score state $(shifter)_vars matches 10.. run effect give @s slowness 1 6 true
 
 ## Move!

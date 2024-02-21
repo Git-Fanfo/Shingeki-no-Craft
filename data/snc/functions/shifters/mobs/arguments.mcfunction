@@ -5,8 +5,7 @@ data merge storage minecraft:cart {\
     color:light_purple, \
     bossbar_display:uFFF3, \
     bossbar_color:pink, \
-    time:59, \
-    hp:20, \
+    hp:32, \
     walk_speed:0.35d, \
     run_speed:0.35d, \
     type:camel, \
@@ -23,7 +22,7 @@ data merge storage minecraft:cart {\
     energy_decrease: 1,\
     energy_attack: 30\
 }
-## Fanfo from the future says: jump:1d works pretty good for Jaw!
+## Note: Fanfo from the future says: Argument "jump:1d" works pretty good for Jaw!
 
 data merge storage minecraft:colossal {\
     id:2, \
@@ -32,7 +31,6 @@ data merge storage minecraft:colossal {\
     color:aqua, \
     bossbar_display:uFFF0, \
     bossbar_color:blue, \
-    time:5, \
     hp:72, \
     walk_speed:0.1d, \
     run_speed:0.1d, \
@@ -56,7 +54,6 @@ data merge storage minecraft:colossal {\
 ## color : color of the shifter.
 ## bossbar_display : texture of the bossbar.
 ## bossbar_color : color of the bossbar.
-## time : how much time the shifter can be transformed.
 ## hp : how many hp the shifter has when transformed.
 ## walk_speed : speed of the titan when walking.
 ## run_speed : speed of the titan when running.
@@ -72,7 +69,6 @@ data merge storage minecraft:attack {\
     color:dark_red, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
-    time:15, \
     hp:40, \
     walk_speed:0.13d, \
     run_speed:0.36d, \
@@ -102,8 +98,7 @@ data merge storage minecraft:beast {\
     color:green, \
     bossbar_display:uFFF2, \
     bossbar_color:green, \
-    time:25, \
-    hp:50, \
+    hp:52, \
     walk_speed:0.14d, \
     run_speed:0.20d, \
     type:skeleton_horse, \
@@ -131,7 +126,6 @@ data merge storage minecraft:armor {\
     color:gold, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
-    time:15, \
     hp:40, \
     walk_speed:0.13d, \
     run_speed:0.36d, \

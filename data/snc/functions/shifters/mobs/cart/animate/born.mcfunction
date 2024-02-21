@@ -20,10 +20,10 @@ execute if score action cart_vars matches 8 run data merge entity @s {item:{id:'
 execute if score action cart_vars matches 4 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:47}}}
 execute if score action cart_vars matches 1 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:48}}}
 
-execute if score action cart_vars matches 35 run effect give @a[scores={cart_vars=1}] absorption 10 6 true
-execute if score action cart_vars matches 25 run effect give @a[scores={cart_vars=1}] absorption 10 8 true
-execute if score action cart_vars matches 15 run effect give @a[scores={cart_vars=1}] absorption 10 10 true
-execute if score action cart_vars matches 5 run effect give @a[scores={cart_vars=1}] absorption 10 11 true
+execute if score action cart_vars matches 35 run effect give @a[scores={cart_vars=1}] absorption 10 4 true
+execute if score action cart_vars matches 25 run effect give @a[scores={cart_vars=1}] absorption 10 5 true
+execute if score action cart_vars matches 15 run effect give @a[scores={cart_vars=1}] absorption 10 6 true
+execute if score action cart_vars matches 5 run effect give @a[scores={cart_vars=1}] absorption 10 7 true
 
 execute if score action cart_vars matches 1 run execute as @a[scores={cart_vars=1}] run function snc:give/item/cart/primary
 

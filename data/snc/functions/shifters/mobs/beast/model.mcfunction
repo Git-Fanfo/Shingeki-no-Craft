@@ -34,7 +34,7 @@ data modify entity @s Rotation[1] set value 0f
 # W: Can be combined with a S Animation.
 execute if score state beast_vars matches 1 if entity @s[tag=!aj.beast.animation.born] run function snc:shifters/mobs/beast/animate/born
 ## function snc:shifters/mobs/beast/animate/sneak is handled by ../player
-execute if score state beast_vars matches 2 on vehicle run attribute @s minecraft:generic.scale base set 2.7
+execute if score state beast_vars matches 2 on vehicle run attribute @s minecraft:generic.scale base set 2.15
 execute if score state beast_vars matches 3 unless score $hold beast_vars matches 1 if entity @s[tag=!aj.beast.animation.idle] run function snc:shifters/mobs/beast/animate/idle
 execute if score state beast_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 6.8
 execute if score state beast_vars matches 4 if entity @s[tag=!aj.beast.animation.walk] run function snc:shifters/mobs/beast/animate/walk
