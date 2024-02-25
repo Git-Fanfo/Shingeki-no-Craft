@@ -9,24 +9,39 @@
                 "leather_boots",
                 "leather_leggings",
                 "leather_chestplate",
+                "leather_helmet",
                 "chainmail_boots",
                 "chainmail_leggings",
                 "chainmail_chestplate",
+                "chainmail_helmet",
                 "iron_boots",
                 "iron_leggings",
                 "iron_chestplate",
+                "iron_helmet",
                 "golden_boots",
                 "golden_leggings",
                 "golden_chestplate",
+                "golden_helmet",
                 "diamond_boots",
                 "diamond_leggings",
                 "diamond_chestplate",
+                "diamond_helmet",
                 "netherite_boots",
                 "netherite_leggings",
-                "netherite_chestplate"
+                "netherite_chestplate",
+                "netherite_helmet"
               ]
             }
-          ]
+          ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"transform\"]}"
+            }
+          }
+        ]
         }
       }
     },

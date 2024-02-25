@@ -1,1 +1,0 @@
-give @s poisonous_potato{display:{Name:'{"translate":"aot.ecology","color":"light_purple","bold":true,"italic":true}',Lore:['{"translate":"aot.ecology.desc"}']},HideFlags:32,CustomModelData:6} 1

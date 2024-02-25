@@ -1,26 +1,26 @@
 {
     "display": {
         "title": {
-            "translate": "aot.titan.colossal",
-            "color": "aqua"
+            "translate": "aot.adv.barrels",
+            "color": "light_purple"
         },
         "description": {
-            "translate": "aot.adv.colossal.desc",
+            "translate": "aot.adv.barrels.desc",
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:carved_pumpkin",
-            "nbt": "{CustomModelData:15}"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:56}"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "criteria": {
         "unlock": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "snc:shifters/aura"
+    "parent": "snc:shifters/cart"
 }

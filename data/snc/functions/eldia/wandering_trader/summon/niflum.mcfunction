@@ -1,1 +1,1 @@
-function snc:eldia/wandering_trader/summon {"tags":"\"surv\",\"niflum\"","name":"Niflum","title":"Toy Maker","head":31,"body":32}
+function snc:eldia/wandering_trader/summon {"tags":"\"surv\",\"niflum\"","name":"Niflum","title":"Guide Seller","head":31,"body":32}

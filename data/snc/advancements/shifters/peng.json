@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
 			"translate": "aot.adv.shifters",
@@ -10,7 +9,8 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:6}"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,13 +22,18 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-                    {
-                        "item": "minecraft:paper",
-                        "nbt": "{notes:1b}"
-                    }
+                    {"item": "minecraft:paper","nbt": "{peng:0}"},
+                    {"item": "minecraft:paper","nbt": "{peng:1}"},
+                    {"item": "minecraft:paper","nbt": "{peng:2}"},
+                    {"item": "minecraft:paper","nbt": "{peng:3}"},
+                    {"item": "minecraft:paper","nbt": "{peng:4}"},
+                    {"item": "minecraft:paper","nbt": "{peng:5}"}
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "snc:give/diary/peng"
     },
     "parent": "snc:titan"
 }

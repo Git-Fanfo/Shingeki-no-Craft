@@ -1,8 +1,7 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Is that what you saw... Bertolt?",
+            "text": "Is that what you saw...?",
             "color": "dark_purple"
         },
         "description": {
@@ -13,7 +12,7 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:17}"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
@@ -23,5 +22,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "snc:colossal"
+    "parent": "snc:shifters/colossal"
 }

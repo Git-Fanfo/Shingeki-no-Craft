@@ -97,4 +97,5 @@ scoreboard players reset @s random
 
 ## Init
 execute unless score @s julian matches -2147483648..2147483647 run tellraw @s ["<Julian> ","Oh hey, I have never seen you before, are you new on the village?"]
+execute unless score @s julian matches -2147483648..2147483647 run function snc:give/guide/love
 execute unless score @s julian matches -2147483648..2147483647 run scoreboard players set @s julian 0

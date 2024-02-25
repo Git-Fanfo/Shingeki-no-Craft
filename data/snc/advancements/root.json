@@ -27,5 +27,8 @@
         "unlock": {
             "trigger": "minecraft:tick"
         }
+    },
+    "rewards": {
+        "function": "snc:logic/manual/init"
     }
 }

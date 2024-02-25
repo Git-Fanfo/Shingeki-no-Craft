@@ -9,6 +9,5 @@
     },
     "rewards": {
         "function": "snc:craft/flare/yellow"
-    },
-    "parent": "snc:survey/flare/shoot"
+    }
 }

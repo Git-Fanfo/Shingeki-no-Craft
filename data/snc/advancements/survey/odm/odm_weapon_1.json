@@ -19,18 +19,15 @@
         "hidden": false
     },
     "criteria": {
-        "Craft Odm Blade": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "snc:odm_gear_blade"
-            }
-        },
-        "Craft Trigger Blade": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "snc:gas_trigger_blade"
-            }
+        "unlock": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {"item": "minecraft:warped_fungus_on_a_stick","nbt": "{blade:1b}"},
+                {"item": "minecraft:carrot_on_a_stick","nbt": "{blade:1b}"}
+            ]
         }
+    }
     },
     "rewards": {
         "experience": 100

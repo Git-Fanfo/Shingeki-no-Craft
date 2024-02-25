@@ -1,1 +1,0 @@
-give @s poisonous_potato{display:{Name:'{"translate":"aot.odmmech","color":"aqua","bold":true,"italic":true}',Lore:['{"translate":"aot.odmmech.desc"}','{"translate":"aot.odmmech.desc2"}']},HideFlags:32,CustomModelData:1} 1

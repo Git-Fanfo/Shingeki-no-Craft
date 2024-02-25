@@ -1,3 +1,4 @@
+playsound minecraft:item.goat_horn.sound.7 master @s ~ ~ ~ 2 1.4
 give @s written_book{CustomModelData:7,generation:2,title:"Villages",author:"Trasty Jones",pages:["{\"text\":\"\\uE335\",\"color\":\"white\"}",\
 "[{\"text\":\"\\uE301\",\"color\":\"white\"},\
 {\"text\":\"1. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Mayorship\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"}},\"\\n\",\

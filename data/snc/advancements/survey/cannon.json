@@ -25,5 +25,5 @@
     "rewards": {
         "experience": 20
     },
-    "parent": "snc:survey/equip"
+    "parent": "snc:survey/red_sand"
 }

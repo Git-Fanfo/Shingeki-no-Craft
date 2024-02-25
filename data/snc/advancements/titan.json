@@ -23,5 +23,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "snc:manual"
+    "parent": "snc:root"
 }

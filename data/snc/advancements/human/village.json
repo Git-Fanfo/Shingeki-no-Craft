@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+			"translate": "Welcome to the Village!",
+            "color": "light_purple"
+        },
+        "description": {
+			"translate": "It's nice to see you around here!",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:7}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "snc:root",
+    "criteria": {
+      "snc:village": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "snc:village"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "snc:give/guide/village"
+    }
+  }
+  

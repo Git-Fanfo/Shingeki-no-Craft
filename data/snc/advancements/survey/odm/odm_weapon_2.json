@@ -19,15 +19,18 @@
         "hidden": false
     },
     "criteria": {
-        "Craft Odm Thunder": {
-            "trigger": "minecraft:impossible"
-        },
-        "Craft Trigger Thunder": {
-            "trigger": "minecraft:impossible"
+        "spear": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {"item": "minecraft:warped_fungus_on_a_stick","nbt": "{spear:1b}"},
+                {"item": "minecraft:carrot_on_a_stick","nbt": "{spear:1b}"}
+            ]
+        }
         }
     },
     "rewards": {
         "experience": 100
     },
-    "parent": "snc:survey/odm/spear"
+    "parent": "snc:survey/odm/odm_gear"
 }

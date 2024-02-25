@@ -1,34 +1,33 @@
 {
+    "parent": "snc:survey/equip",
     "display": {
+        "icon": {
+            "item": "minecraft:red_sand"
+        },
         "title": {
-            "translate": "aot.odm",
-            "color": "dark_green"
+			"translate": "C KNO3 S!",
+            "color": "red"
         },
         "description": {
-            "translate": "aot.odm.desc",
+			"translate": "75% 15% 10% In that order!",
             "color": "white"
-        },
-        "icon": {
-            "item": "minecraft:minecart",
-            "nbt": "{CustomModelData:1}"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "criteria": {
+    "criteria": {        
         "unlock": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-                    {"item": "minecraft:warped_fungus_on_a_stick","nbt": "{odm_gear:1b}"}
+                    {"item": "minecraft:red_sand"}
                 ]
             }
         }
     },
     "rewards": {
-        "experience": 20
-    },
-    "parent": "snc:survey/equip"
-}
+        "function": "snc:give/guide/titan_war"
+    }
+  }

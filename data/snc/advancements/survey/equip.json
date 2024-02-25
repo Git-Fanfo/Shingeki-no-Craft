@@ -1,5 +1,5 @@
 {
-    "parent": "snc:manual",
+    "parent": "snc:root",
     "display": {
         "icon": {
             "item": "minecraft:leather_chestplate",

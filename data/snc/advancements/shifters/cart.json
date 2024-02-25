@@ -12,15 +12,18 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{CustomModelData:4}"
         },
-        "frame": "goal",
+        "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": true
     },
     "criteria": {
         "unlock": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "snc:give/guide/shipload"
     },
     "parent": "snc:shifters/aura"
 }
