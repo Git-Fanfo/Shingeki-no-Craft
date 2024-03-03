@@ -1,0 +1,1 @@
+function animated_java:armor/zzzzzzzz/animations/punch_1/tick_animation

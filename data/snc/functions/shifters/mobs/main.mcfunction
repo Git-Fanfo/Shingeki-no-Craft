@@ -20,7 +20,6 @@ $execute on passengers \
     if entity @s[tag=aj.$(shifter).root] \
         run function snc:shifters/mobs/$(shifter)/model
 
-
 ## UNIQUE: BEAST
 execute if entity @s[tag=aj.beast.locator.right_hand] run function snc:shifters/mobs/beast/action/grab/pivot
 

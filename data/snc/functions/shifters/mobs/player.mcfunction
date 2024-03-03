@@ -55,15 +55,15 @@ $execute \
 ## UNIQUE: ATTACK
 # Combo!
 # combo_punch: 1 = enabled, 2 = trigger, 3 = enabled, 4 = trigger
-execute \
-    if score @s shifter_vars matches 3 if score combo_punch attack_vars matches 1 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:attack/has_atk_2] run \
-        scoreboard players set combo_punch attack_vars 2
+$execute \
+    if score combo_punch $(shifter)_vars matches 1 \
+    if score @s using_carrot matches 1.. if entity @s[predicate=snc:$(shifter)/has_atk_2] run \
+        scoreboard players set combo_punch $(shifter)_vars 2
 
-execute \
-    if score @s shifter_vars matches 3 if score combo_punch attack_vars matches 3 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:attack/has_atk_2] run \
-        scoreboard players set combo_punch attack_vars 4
+$execute \
+    if score combo_punch $(shifter)_vars matches 3 \
+    if score @s using_carrot matches 1.. if entity @s[predicate=snc:$(shifter)/has_atk_2] run \
+        scoreboard players set combo_punch $(shifter)_vars 4
 
 # combo_kick: 1 = enabled, 2 = trigger, 3 = enabled, 4 = trigger
 execute \

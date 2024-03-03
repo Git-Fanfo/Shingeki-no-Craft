@@ -21,6 +21,14 @@ execute if score #animation aj.i = $aj.armor.animation.run aj.id run function an
 execute if score #animation aj.i = $aj.armor.animation.run aj.id run scoreboard players operation @s aj.armor.animation.run.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.slide aj.id run function animated_java:armor/zzzzzzzz/animations/slide/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.slide aj.id run scoreboard players operation @s aj.armor.animation.slide.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.punch_1 aj.id run function animated_java:armor/zzzzzzzz/animations/punch_1/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.punch_1 aj.id run scoreboard players operation @s aj.armor.animation.punch_1.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.punch_2 aj.id run function animated_java:armor/zzzzzzzz/animations/punch_2/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.punch_2 aj.id run scoreboard players operation @s aj.armor.animation.punch_2.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.punch_3 aj.id run function animated_java:armor/zzzzzzzz/animations/punch_3/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.punch_3 aj.id run scoreboard players operation @s aj.armor.animation.punch_3.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.init_charge aj.id run function animated_java:armor/zzzzzzzz/animations/init_charge/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.init_charge aj.id run scoreboard players operation @s aj.armor.animation.init_charge.local_anim_time = #frame aj.i
 execute at @s run function #animated_java:armor/on_summon/as_root
 tag @s remove aj.new
 scoreboard players reset #frame aj.i

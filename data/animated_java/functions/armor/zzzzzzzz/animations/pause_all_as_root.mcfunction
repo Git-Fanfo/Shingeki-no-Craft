@@ -4,3 +4,7 @@ function animated_java:armor/zzzzzzzz/animations/born/pause_as_root
 function animated_java:armor/zzzzzzzz/animations/death/pause_as_root
 function animated_java:armor/zzzzzzzz/animations/run/pause_as_root
 function animated_java:armor/zzzzzzzz/animations/slide/pause_as_root
+function animated_java:armor/zzzzzzzz/animations/punch_1/pause_as_root
+function animated_java:armor/zzzzzzzz/animations/punch_2/pause_as_root
+function animated_java:armor/zzzzzzzz/animations/punch_3/pause_as_root
+function animated_java:armor/zzzzzzzz/animations/init_charge/pause_as_root

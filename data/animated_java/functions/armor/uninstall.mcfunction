@@ -11,10 +11,18 @@ scoreboard objectives remove aj.armor.animation.born.local_anim_time
 scoreboard objectives remove aj.armor.animation.death.local_anim_time
 scoreboard objectives remove aj.armor.animation.run.local_anim_time
 scoreboard objectives remove aj.armor.animation.slide.local_anim_time
+scoreboard objectives remove aj.armor.animation.punch_1.local_anim_time
+scoreboard objectives remove aj.armor.animation.punch_2.local_anim_time
+scoreboard objectives remove aj.armor.animation.punch_3.local_anim_time
+scoreboard objectives remove aj.armor.animation.init_charge.local_anim_time
 scoreboard objectives remove aj.armor.animation.idle.loop_mode
 scoreboard objectives remove aj.armor.animation.walk.loop_mode
 scoreboard objectives remove aj.armor.animation.born.loop_mode
 scoreboard objectives remove aj.armor.animation.death.loop_mode
 scoreboard objectives remove aj.armor.animation.run.loop_mode
 scoreboard objectives remove aj.armor.animation.slide.loop_mode
+scoreboard objectives remove aj.armor.animation.punch_1.loop_mode
+scoreboard objectives remove aj.armor.animation.punch_2.loop_mode
+scoreboard objectives remove aj.armor.animation.punch_3.loop_mode
+scoreboard objectives remove aj.armor.animation.init_charge.loop_mode
 tellraw @a ["",{"text":"["},{"text":"Animated Java","color":"aqua"},{"text":"] "},[{"text":"INFO ℹ","color":"green"},{"text":" > ","color":"gray"},{"text":"The armor Rig has been uninstalled successfully.\n"},{"text":"Please remove the Rig's functions from the datapack before reloading.","color":"gray"}]]

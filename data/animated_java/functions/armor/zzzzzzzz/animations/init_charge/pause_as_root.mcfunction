@@ -1,0 +1,1 @@
+tag @s remove aj.armor.animation.init_charge

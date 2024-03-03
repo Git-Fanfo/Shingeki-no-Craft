@@ -122,13 +122,13 @@ data merge storage minecraft:beast {\
 data merge storage minecraft:armor {\
     id:5, \
     shifter:armor, \
-    name:"Colossal Titan", \
+    name:"Armored Titan", \
     color:gold, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
     hp:40, \
     walk_speed:0.13d, \
-    run_speed:0.36d, \
+    run_speed:0.6d, \
     jump:2d, \
     type:skeleton_horse, \
     step_height:3.6d, \
@@ -136,8 +136,8 @@ data merge storage minecraft:armor {\
     resistance:2, \
     parry:attack, \
     regen_ticks:80, \
-    scale_vehicle:6.3, \
-    scale_player:4.5, \
+    scale_vehicle:6.8, \
+    scale_player:4.7, \
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\

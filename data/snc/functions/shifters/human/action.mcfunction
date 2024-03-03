@@ -48,3 +48,8 @@ execute as @s[predicate=snc:beast/has_atk_3] run scoreboard players set state be
 execute as @s[predicate=snc:beast/has_atk_4] run scoreboard players set state beast_vars 14
 # Jaw
 execute as @s[predicate=snc:beast/has_atk_5] unless score consume beast_vars matches 0.. run function snc:shifters/mobs/beast/action/jaw/add_tags
+
+## Armor
+# Charge
+execute as @s[predicate=snc:armor/has_atk_1] run scoreboard players set state armor_vars 11
+execute as @s[predicate=snc:armor/has_atk_2] run scoreboard players set state armor_vars 13

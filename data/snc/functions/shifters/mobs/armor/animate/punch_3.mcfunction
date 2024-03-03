@@ -1,2 +1,2 @@
-function animated_java:attack/animations/pause_all
-function animated_java:attack/animations/punch_3/play
+function animated_java:armor/animations/pause_all
+function animated_java:armor/animations/punch_3/play

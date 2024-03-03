@@ -1,0 +1,2 @@
+execute if score @s aj.anim_time matches 0 run function animated_java:armor/zzzzzzzz/animations/slide/tree/leaf_0
+execute if score @s aj.anim_time matches 20 run function animated_java:armor/zzzzzzzz/animations/slide/tree/leaf_20
