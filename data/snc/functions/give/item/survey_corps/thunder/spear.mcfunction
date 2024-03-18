@@ -1,1 +1,0 @@
-give @s minecart{display:{Name:'{"translate":"aot.thunder","color":"dark_red","italic":false}',Lore:['{"translate":"aot.thunder.spear.desc1","color":"gray","italic":false}','{"translate":"aot.thunder.spear.desc2","color":"gray","italic":false}','{"translate":"aot.thunder.spear.desc3","color":"gray","italic":false}']},CustomModelData:4} 1

@@ -12,7 +12,8 @@
         }
     ],
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "id": "minecraft:quartz",
+        "count": 1,
+        "components": { "custom_data":{"snc_item":1}, "minecraft:custom_model_data": 1, "minecraft:custom_name":"{\"translate\":\"aot.gun.jar\",\"color\":\"white\",\"italic\":false}"}
     }
   }
