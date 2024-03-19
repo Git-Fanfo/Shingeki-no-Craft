@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "count": 3,
+    "id": "minecraft:iron_ingot",
+    "components": { "custom_data":{"snc_item":1}, "minecraft:custom_model_data": 1,"minecraft:custom_name":"{\"translate\":\"aot.steel\",\"color\":\"dark_red\",\"italic\":false}", "minecraft:lore":["{\"translate\":\"aot.steelblade.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.steelblade.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.steelblade.desc3\",\"color\":\"gray\",\"italic\":false}"]}
+  }
+}
