@@ -10,7 +10,7 @@
       }
   ],
   "result": {
-    "count": 1,
+    "count": 3,
     "id": "flint",
     "components": {
         "custom_data":{"coin":1,"snc_item":1},
