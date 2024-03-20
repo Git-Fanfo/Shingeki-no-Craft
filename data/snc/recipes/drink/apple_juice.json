@@ -1,14 +1,51 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-      {
-        "item": "minecraft:potion"
-      },
-      {
-        "item": "minecraft:apple"
-      }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "minecraft:potion"},
+    {"item": "minecraft:apple"}
     ],
     "result": {
-      "item": "minecraft:knowledge_book"
+      "count": 1,"id": "minecraft:potion",
+      "components": {
+        "custom_data":{"snc_item":1},
+        "custom_model_data": 3,
+        "custom_name" : "{\"translate\":\"Apple Juice\",\"italic\":false}",
+        "potion_contents": {
+          "custom_color": 16777215,
+          "custom_effects": [
+            {
+              "id": "minecraft:speed",
+              "amplifier": 0,
+              "duration": 2400,
+              "ambient": false,"show_particles": false,"show_icon": false
+            },
+            {
+              "id":"minecraft:instant_health",
+              "amplifier":0,
+              "duration":40,
+              "ambient": false,"show_particles": false,"show_icon": false
+            },
+            {
+              "id":"minecraft:jump_boost",
+              "amplifier":0,
+              "duration":2400,
+              "ambient": false,"show_particles": false,"show_icon": false
+            },
+            {
+              "id":"minecraft:weakness",
+              "amplifier":0,
+              "duration":600,
+              "ambient": false,"show_particles": false,"show_icon": false
+            },
+            {
+              "id":"minecraft:saturation",
+              "amplifier":3,
+              "duration":40,
+              "ambient": false,"show_particles": false,"show_icon": false
+            }
+          ]
+        }
     }
   }
+}
