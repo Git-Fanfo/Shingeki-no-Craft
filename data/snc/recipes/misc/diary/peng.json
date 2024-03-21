@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "barrier"}
+    ],
+    "result": {
+        "id": "minecraft:written_book",
+        "count": 1,
+        "components": {
+        "minecraft:custom_data": {"snc_item":1},
+        "minecraft:written_book_content": {
+            "title": "Field Diary",
+            "author": "Pengelli Zarra",
+            "generation": 3,
+            "pages": [
+                "{\"text\":\"\\uE372\",\"color\":\"white\"}",
+                "{\"text\":\"\\uE373\",\"color\":\"white\"}",
+                "{\"text\":\"\\uE374\",\"color\":\"white\"}",
+                "{\"text\":\"\\uE375\",\"color\":\"white\"}",
+                "{\"text\":\"\\uE376\",\"color\":\"white\"}",
+                "{\"text\":\"\\uE377\",\"color\":\"white\"}"
+                ]
+            }
+        }
+    }
+}

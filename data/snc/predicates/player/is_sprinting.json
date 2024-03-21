@@ -2,6 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{Inventory:[{Slot:-106b,tag:{odm_gear:1b}}]}"
+    "flags": {
+      "is_sprinting": true
+    }
   }
 }

@@ -4,7 +4,13 @@
             "trigger" : "minecraft:tick",
             "conditions" : {
                 "player" : {
-                    "nbt": "{SelectedItem:{tag:{trigger:1b}}}"
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "minecraft:custom_data": "{trigger:1}"
+                              }
+                        }
+                    }
                 }
             }
         }

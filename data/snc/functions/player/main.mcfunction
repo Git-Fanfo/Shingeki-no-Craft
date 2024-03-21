@@ -28,11 +28,11 @@ execute if score @s using_carrot matches 1.. run function snc:player/using_carro
 execute if score @s hold_carrot matches 1.. run scoreboard players remove @s hold_carrot 1
 
 ## ODM
-#execute if predicate snc:has_gas_trigger run function snc:player/odm/has_trigger
+#execute if predicate snc:odm/has_gas_trigger run function snc:player/odm/has_trigger
 
 ## Reset scan
 execute if score @s man_cool matches 1.. run scoreboard players remove @s man_cool 1
-execute as @s[predicate=!snc:has_gas_trigger] run function snc:player/odm/reset
+execute as @s[predicate=!snc:odm/has_gas_trigger] run function snc:player/odm/reset
 
 ## Second functions
 execute if score ticks clock matches 9 run function snc:player/seconds_0

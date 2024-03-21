@@ -51,8 +51,8 @@ $execute if score curse config matches 1 run function snc:shifters/sick/large {"
 $execute if score curse config matches 2 run function snc:shifters/sick/normal {"shifter":"$(shifter)"}
 
 ## UNIQUE: ATTACK
-execute if score @s[tag=!transform] attack_vars matches 1.. if predicate snc:is_sneaking if entity @e[type=#snc:eldian,scores={koniglich=1},sort=nearest,limit=1,distance=.5..2] unless score koniglich attack_vars matches 1.. run scoreboard players set koniglich attack_vars 300
+execute if score @s[tag=!transform] attack_vars matches 1.. if predicate snc:player/is_sneaking if entity @e[type=#snc:eldian,scores={koniglich=1},sort=nearest,limit=1,distance=.5..2] unless score koniglich attack_vars matches 1.. run scoreboard players set koniglich attack_vars 300
 execute if score @s attack_vars matches 1.. if score koniglich attack_vars matches 1.. run function snc:shifters/mobs/attack/action/koniglich
 
 ## UNIQUE: BEAST
-execute if entity @s[tag=transform] if predicate snc:beast/has_atk_6 at @e[type=#snc:target,distance=.1..] rotated ~ 0 run function snc:shifters/mobs/beast/action/sense/particle
+execute if entity @s[tag=transform] if predicate snc:shifters/beast/atk_6 at @e[type=#snc:target,distance=.1..] rotated ~ 0 run function snc:shifters/mobs/beast/action/sense/particle

@@ -1,8 +1,7 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{SelectedItem:{tag:{handcuffs:1b}}}"
-    }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{SelectedItem:{tag:{handcuffs:1b}}}"
   }
-  
+}

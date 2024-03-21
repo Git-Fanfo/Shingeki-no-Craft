@@ -1,5 +1,5 @@
 effect give @s levitation 3 1 true
-execute if predicate snc:riding/sticky run function snc:logic/sticky/kill
+execute if predicate snc:titan/is_riding_sticky run function snc:logic/sticky/kill
 
 ## Save inv
 $function snc:shifters/human/inventory/save {"shifter":$(shifter)}

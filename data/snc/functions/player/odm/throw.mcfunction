@@ -14,8 +14,8 @@ execute store result score @s id_detect_L run data get entity @s UUID[0]
 ## M [shooter] -> tps to player
 
 # Summon hooks
-summon snowball ^-1.5 ^.2 ^3 {Tags:["odm","not_mov","motion_odm","projectile"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["odm","hook","R"]}],Item:{id:"minecraft:arrow",Count:1b,tag:{CustomModelData:1}}}
-summon snowball ^1.5 ^.2 ^3 {Tags:["odm","not_mov", "motion_odm","projectile"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["odm","hook","L"]}],Item:{id:"minecraft:arrow",Count:1b,tag:{CustomModelData:1}}}
+summon snowball ^-1.5 ^.2 ^3 {Tags:["odm","not_mov","motion_odm","projectile"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["odm","hook","R"]}],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
+summon snowball ^1.5 ^.2 ^3 {Tags:["odm","not_mov", "motion_odm","projectile"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["odm","hook","L"]}],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
 
 # Summon ropes
 summon bat ^-.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["odm","rope","R"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:2}]}

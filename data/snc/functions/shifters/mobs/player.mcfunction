@@ -68,12 +68,12 @@ $execute \
 # combo_kick: 1 = enabled, 2 = trigger, 3 = enabled, 4 = trigger
 execute \
     if score @s shifter_vars matches 3 if score combo_kick attack_vars matches 1 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:attack/has_atk_3] run \
+    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/attack/atk_3] run \
         scoreboard players set combo_kick attack_vars 2
 
 execute \
     if score @s shifter_vars matches 3 if score combo_kick attack_vars matches 3 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:attack/has_atk_3] run \
+    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/attack/atk_3] run \
         scoreboard players set combo_kick attack_vars 4
 
 ## if shifter_vars[@s] == 3 and attack_vars[combo_kick] == 3 and \

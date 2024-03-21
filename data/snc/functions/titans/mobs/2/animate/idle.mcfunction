@@ -1,4 +1,4 @@
-execute if entity @s[scores={idle=40}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,tag:{CustomModelData:28}}}
-execute if entity @s[scores={idle=35}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,tag:{CustomModelData:29}}}
-execute if entity @s[scores={idle=23}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,tag:{CustomModelData:30}}}
-execute if entity @s[scores={idle=15}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,tag:{CustomModelData:29}}}
+execute if score @s atk matches 40 run data modify entity @s item.components.minecraft:custom_model_data set value 28
+execute if score @s atk matches 35 run data modify entity @s item.components.minecraft:custom_model_data set value 29
+execute if score @s atk matches 23 run data modify entity @s item.components.minecraft:custom_model_data set value 30
+execute if score @s atk matches 15 run data modify entity @s item.components.minecraft:custom_model_data set value 29

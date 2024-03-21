@@ -3,19 +3,17 @@
         "title": {
 			"translate": "aot",
             "color": "dark_red",
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "obfuscated": false
+            "bold": true
         },
         "description": {
 			"translate": "aot.credit",
-            "color": "gray",
-            "underlined": true
+            "color": "gray"
         },
         "icon": {
-            "item": "minecraft:arrow",
-            "nbt": "{CustomModelData:2}"
+            "id": "minecraft:arrow",
+            "components": {
+                "minecraft:custom_model_data": 2
+            }
         },
         "frame": "task",
         "show_toast": false,

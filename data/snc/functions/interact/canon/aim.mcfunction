@@ -16,4 +16,4 @@ execute on vehicle on target run particle dust 1 0.122 0.122 1.4 ^ ^2.5 ^21 0 0 
 execute if score @s projectile matches 1.. run scoreboard players remove @s projectile 1
 execute if score @s projectile matches ..0 run scoreboard players reset @s projectile
 
-execute unless score @s projectile matches 1.. if entity @p[predicate=snc:is_sneaking] anchored eyes run function snc:interact/canon/shoot
+execute unless score @s projectile matches 1.. if entity @p[predicate=snc:player/is_sneaking] anchored eyes run function snc:interact/canon/shoot
