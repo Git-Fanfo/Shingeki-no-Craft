@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+			"translate": "aot.adv.syringe",
+            "color": "light_purple"
+        },
+        "description": {
+			"translate": "aot.adv.syringe.desc",
+            "color": "white"
+        },
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 13
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"predicates": {"minecraft:custom_data": "{inj:1}"}}]
+            }
+        }
+    },
+    "parent": "snc:shifters/peng"
+}

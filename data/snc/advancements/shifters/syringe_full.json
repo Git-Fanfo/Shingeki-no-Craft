@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+			"translate": "aot.adv.syringe2",
+            "color": "dark_purple"
+        },
+        "description": {
+			"translate": "aot.adv.syringe2.desc",
+            "color": "white"
+        },
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 7
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters/syringe"
+}

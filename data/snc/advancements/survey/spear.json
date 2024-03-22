@@ -9,8 +9,10 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:minecart",
-            "nbt": "{CustomModelData:4}"
+            "id": "minecraft:minecart",
+            "components": {
+                "minecraft:custom_model_data": 4
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -19,9 +21,9 @@
     },
     "criteria": {
         "Craft Thunder Spear": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "snc:gun/spear"
+                "items": [{"predicates": {"minecraft:custom_data": "{spear:1}"}}]
             }
         }
     },

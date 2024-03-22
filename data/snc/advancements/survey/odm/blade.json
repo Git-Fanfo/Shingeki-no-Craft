@@ -9,8 +9,10 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:iron_ingot",
-            "nbt": "{CustomModelData:1}"
+            "id": "minecraft:iron_ingot",
+            "components": {
+                "minecraft:custom_model_data": 1
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +23,7 @@
         "Craft Ultra Hard Steel": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "snc:blade"
+                "recipe": "snc:survey_corps/odm/blade"
             }
         }
     },

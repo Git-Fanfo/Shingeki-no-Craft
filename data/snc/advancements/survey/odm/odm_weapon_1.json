@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
 			"translate": "aot.adv.gas",
@@ -10,8 +9,10 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:minecart",
-            "nbt": "{CustomModelData:2}"
+            "id": "minecraft:minecart",
+            "components": {
+                "minecraft:custom_model_data": 2
+            }
         },
         "frame": "goal",
         "show_toast": true,
@@ -23,8 +24,14 @@
         "trigger": "minecraft:inventory_changed",
         "conditions": {
             "items": [
-                {"item": "minecraft:warped_fungus_on_a_stick","nbt": "{blade:1b}"},
-                {"item": "minecraft:carrot_on_a_stick","nbt": "{blade:1b}"}
+                {
+                    "id":"warped_fungus_on_a_stick",
+                    "predicates": {"minecraft:custom_data": "{blade:1}"}
+                },
+                {
+                    "id":"carrot_on_a_stick",
+                    "predicates": {"minecraft:custom_data": "{blade:1}"}
+                }
             ]
         }
     }

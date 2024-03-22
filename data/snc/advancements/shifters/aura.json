@@ -9,7 +9,7 @@
             "color": "white"
         },
         "icon": {
-            "item": "bell"
+            "id": "bell"
         },
         "frame": "task",
         "show_toast": true,

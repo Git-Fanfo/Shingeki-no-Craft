@@ -9,8 +9,10 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:written_book",
-            "nbt": "{CustomModelData:6}"
+            "id": "minecraft:written_book",
+            "components": {
+                "minecraft:custom_model_data": 6
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -22,18 +24,18 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-                    {"item": "minecraft:paper","nbt": "{peng:0}"},
-                    {"item": "minecraft:paper","nbt": "{peng:1}"},
-                    {"item": "minecraft:paper","nbt": "{peng:2}"},
-                    {"item": "minecraft:paper","nbt": "{peng:3}"},
-                    {"item": "minecraft:paper","nbt": "{peng:4}"},
-                    {"item": "minecraft:paper","nbt": "{peng:5}"}
+                    {"predicates": {"minecraft:custom_data": "{peng:1b}"}},
+                    {"predicates": {"minecraft:custom_data": "{peng:2b}"}},
+                    {"predicates": {"minecraft:custom_data": "{peng:3b}"}},
+                    {"predicates": {"minecraft:custom_data": "{peng:4b}"}},
+                    {"predicates": {"minecraft:custom_data": "{peng:5b}"}},
+                    {"predicates": {"minecraft:custom_data": "{peng:6b}"}}
                 ]
             }
         }
     },
     "rewards": {
-        "function": "snc:give/diary/peng"
+        "function": "snc:titans/tangible/field_notes"
     },
-    "parent": "snc:titan"
+    "parent": "snc:titan/close"
 }

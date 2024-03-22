@@ -5,12 +5,7 @@ execute if data entity @s Item.tag.gene unless data entity @s Item.tag.inv run f
 execute if data entity @s Item.tag.handcuffs_inv run kill
 
 execute if data entity @s Item.tag.atk_shifter run function snc:item/return/atk_shifter
-execute if data entity @s Item.tag.red if entity @p[distance=1.5..2] run function snc:item/return/red
-execute if data entity @s Item.tag.black if entity @p[distance=1.5..2] run function snc:item/return/black
-execute if data entity @s Item.tag.yellow if entity @p[distance=1.5..2] run function snc:item/return/yellow
-execute if data entity @s Item.tag.green if entity @p[distance=1.5..2] run function snc:item/return/green
-execute if data entity @s Item.tag.blue if entity @p[distance=1.5..2] run function snc:item/return/blue
-execute if data entity @s Item.tag.purple if entity @p[distance=1.5..2] run function snc:item/return/purple
+execute if data entity @s Item.components."minecraft:custom_data".gun run function snc:item/return/flare
 
 ## If is infected
 execute if score @s atk matches 240 run function snc:player/titan/infect/food

@@ -1,9 +1,13 @@
 {
-    "parent": "snc:root",
     "display": {
         "icon": {
-            "item": "minecraft:leather_chestplate",
-            "nbt": "{display:{color:16777215}}"
+            "id": "minecraft:leather_chestplate",
+            "components": {
+                "minecraft:dyed_color":{
+                    "rgb":16777215,
+                    "show_in_tooltip":false
+                }
+            }
         },
         "title": {
 			"translate": "aot.adv.survey",
@@ -21,47 +25,51 @@
     "criteria": {
       "Hood": {
         "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
+        "conditions": {
+            "items": 
+                [
                     {
-                        "item": "minecraft:carved_pumpkin",
-                        "nbt": "{survey_cops:1b}"
+                        "id":"minecraft:carved_pumpkin",
+                        "predicates": {"minecraft:custom_data": "{survey_cops:1}"}
                     }
                 ]
-            }
+        }
       },
       "Cape": {
         "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
+        "conditions": {
+            "items": 
+                [
                     {
-                        "item": "minecraft:leather_chestplate",
-                        "nbt": "{survey_cops:1b}"
+                        "id":"minecraft:leather_chestplate",
+                        "predicates": {"minecraft:custom_data": "{survey_cops:1}"}
                     }
                 ]
-            }
+        }
       },
       "Harness": {
         "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
+        "conditions": {
+            "items": 
+                [
                     {
-                        "item": "minecraft:leather_leggings",
-                        "nbt": "{survey_cops:1b}"
+                        "id":"minecraft:leather_leggings",
+                        "predicates": {"minecraft:custom_data": "{survey_cops:1}"}
                     }
                 ]
-            }
+        }
       },
       "Boots": {
         "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
+        "conditions": {
+            "items": 
+                [
                     {
-                        "item": "minecraft:leather_boots",
-                        "nbt": "{survey_cops:1b}"
+                        "id":"minecraft:leather_boots",
+                        "predicates": {"minecraft:custom_data": "{survey_cops:1}"}
                     }
                 ]
-            }
+        }
       }
     },
     "requirements": [
@@ -71,5 +79,6 @@
         "Harness",
         "Boots"
       ]
-    ]
+    ],
+    "parent": "snc:root"
   }

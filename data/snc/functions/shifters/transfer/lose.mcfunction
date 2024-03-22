@@ -28,7 +28,7 @@ $scoreboard players reset @s $(shifter)_vars
 #$execute unless entity @s[tag=snc.inherit] 
 $execute unless score prevent $(shifter)_vars matches 1 run scoreboard players reset * $(shifter)_vars
 
-$advancement revoke @s only snc:shifters/$(shifter)
+$advancement revoke @s only snc:shifters/$(shifter)/get
 
 $execute if score prevent $(shifter)_vars matches 1 run tellraw @a ["Warning: ",{"text":"Server count 2 shifters of the same type!","color":"yellow"}]
 ## Enable shifter spawning unless the shifter was counted 2 times

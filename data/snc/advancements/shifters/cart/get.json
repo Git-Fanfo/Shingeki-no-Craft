@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.titan.cart",
+            "color": "light_purple"
+        },
+        "description": {
+            "translate": "aot.adv.cart.desc",
+            "color": "white"
+        },
+        "icon": {
+            "id": "minecraft:carved_pumpkin",
+            "components": {
+                "minecraft:custom_model_data": 4
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "snc:give/guide/shipload"
+    },
+    "parent": "snc:shifters/aura"
+}

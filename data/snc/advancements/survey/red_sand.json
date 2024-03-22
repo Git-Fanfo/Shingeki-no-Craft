@@ -1,8 +1,7 @@
 {
-    "parent": "snc:survey/equip",
     "display": {
         "icon": {
-            "item": "minecraft:red_sand"
+            "id": "minecraft:red_sand"
         },
         "title": {
 			"translate": "C KNO3 S!",
@@ -22,12 +21,13 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-                    {"item": "minecraft:red_sand"}
+                    {"id": "minecraft:red_sand"}
                 ]
             }
         }
     },
     "rewards": {
-        "function": "snc:give/guide/titan_war"
-    }
+        "function": "snc:api/give/misc/guide/titan_war"
+    },
+    "parent": "snc:survey/equip"
   }

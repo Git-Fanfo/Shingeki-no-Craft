@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.adv.majesty",
+            "color": "gold"
+        },
+        "description": {
+            "translate": "aot.adv.koniglich",
+            "color": "white"
+        },
+        "icon": {
+            "id": "minecraft:carved_pumpkin",
+            "components": {
+                "minecraft:custom_model_data": 42
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters/attack/get"
+}

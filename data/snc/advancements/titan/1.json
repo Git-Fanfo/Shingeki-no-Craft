@@ -11,8 +11,10 @@
             "strikethrough": true
         },
         "icon": {
-            "item": "minecraft:feather",
-            "nbt": "{CustomModelData:1}"
+            "id": "minecraft:feather",
+            "components": {
+                "minecraft:custom_model_data": 1
+            }
         },
         "frame": "challenge",
         "show_toast": true,
@@ -24,5 +26,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "snc:titan"
+    "parent": "snc:titan/close"
 }

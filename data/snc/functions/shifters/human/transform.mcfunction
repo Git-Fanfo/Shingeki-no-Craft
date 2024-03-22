@@ -7,7 +7,7 @@ $function snc:shifters/human/inventory/save {"shifter":$(shifter)}
 clear @s
 tag @s add transform
 tag @s remove first
-$advancement grant @s only snc:shifters/$(shifter)
+$advancement grant @s only snc:shifters/$(shifter)/get
 effect give @s absorption 20 5 true
 $scoreboard players set health $(shifter)_vars 20
 

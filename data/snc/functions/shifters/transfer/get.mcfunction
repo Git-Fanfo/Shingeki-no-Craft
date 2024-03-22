@@ -25,7 +25,7 @@ $execute unless score curse $(shifter)_vars matches 1.. if score curse config ma
 $scoreboard players set $energy $(shifter)_vars 3600
 
 # Advancement
-$advancement grant @s[tag=!first] only snc:shifters/$(shifter)
+$advancement grant @s[tag=!first] only snc:shifters/$(shifter)/get
 ## Kill previous owner
 $execute store result score count $(shifter)_vars run execute if entity @e[type=#snc:eldian,scores={$(shifter)_vars=1}]
 $execute if score count $(shifter)_vars matches 2.. run execute as @e[type=#snc:eldian,scores={$(shifter)_vars=1},tag=!transform,limit=1,sort=furthest] run function snc:shifters/transfer/cheat with storage minecraft:$(shifter)

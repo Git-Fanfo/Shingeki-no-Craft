@@ -9,8 +9,10 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:minecart",
-            "nbt": "{CustomModelData:6}"
+            "id": "minecraft:minecart",
+            "components": {
+                "minecraft:custom_model_data": 6
+            }
         },
         "frame": "goal",
         "show_toast": true,

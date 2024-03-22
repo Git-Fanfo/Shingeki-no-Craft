@@ -9,8 +9,10 @@
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:written_book",
-            "nbt": "{CustomModelData:7}"
+            "id": "minecraft:written_book",
+            "components": {
+                "minecraft:custom_model_data": 7
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -37,7 +39,7 @@
       }
     },
     "rewards": {
-      "function": "snc:give/guide/village"
+      "function": "snc:player/enter_village"
     }
   }
   

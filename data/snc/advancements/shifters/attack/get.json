@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.titan.attack",
+            "color": "dark_red"
+        },
+        "description": {
+            "translate": "aot.adv.attack",
+            "color": "white"
+        },
+        "icon": {
+            "id": "minecraft:carved_pumpkin",
+            "components": {
+                "minecraft:custom_model_data": 27
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters/aura"
+}

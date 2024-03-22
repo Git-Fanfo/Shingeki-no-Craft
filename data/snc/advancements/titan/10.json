@@ -11,8 +11,10 @@
             "strikethrough": true
         },
         "icon": {
-            "item": "minecraft:feather",
-            "nbt": "{CustomModelData:5}"
+            "id": "minecraft:feather",
+            "components": {
+                "minecraft:custom_model_data": 5
+            }            
         },
         "frame": "challenge",
         "show_toast": true,

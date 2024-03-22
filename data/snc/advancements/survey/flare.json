@@ -2,8 +2,10 @@
     "parent": "snc:survey/red_sand",
     "display": {
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:34}"
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 34
+            }
         },
         "title": {
 			"translate": "aot.adv.flare",
