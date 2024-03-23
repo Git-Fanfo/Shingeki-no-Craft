@@ -8,17 +8,17 @@
         "description": {
             "translate": "aot.adv.200",
             "color": "dark_purple",
-            "strikethrough": true,
             "obfuscated": true
         },
         "icon": {
-            "item": "minecraft:feather",
-            "nbt": "{CustomModelData:13}"
+            "id": "minecraft:feather",
+            "components": {
+                "minecraft:custom_model_data": 13
+            }
         },
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": true
+        "announce_to_chat": true
     },
     "criteria": {
         "unlock": {

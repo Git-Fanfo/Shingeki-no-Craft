@@ -9,6 +9,8 @@
         "components": {
             "minecraft:custom_data": {"snc_item":1},
             "custom_model_data":6,
+            "enchantment_glint_override":false,
+            "max_stack_size":1,
             "minecraft:written_book_content": {
                 "title": "Field Diary",
                 "author": "Pengelli Zarra",

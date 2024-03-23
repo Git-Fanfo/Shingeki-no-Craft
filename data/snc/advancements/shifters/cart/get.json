@@ -25,7 +25,7 @@
         }
     },
     "rewards": {
-        "function": "snc:give/guide/shipload"
+        "function": "snc:api/give/misc/guide/shipload"
     },
     "parent": "snc:shifters/aura"
 }

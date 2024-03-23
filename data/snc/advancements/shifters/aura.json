@@ -22,7 +22,7 @@
         }
     },
     "rewards": {
-        "function": "snc:give/guide/shifters"
+        "function": "snc:api/give/misc/guide/shifters"
     },
     "parent": "snc:shifters/peng"
 }

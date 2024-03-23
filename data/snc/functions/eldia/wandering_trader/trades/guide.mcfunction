@@ -1,6 +1,4 @@
 ## Book 1
-# function snc:give/guide/shipload
-
 data merge entity @s {Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:written_book",Count:1b,components:{"custom_model_data":7,generation:2,title:"Villages",author:"Trasty Jones",pages:["{\"text\":\"\\uE335\",\"color\":\"white\"}",\
 "[{\"text\":\"\\uE301\",\"color\":\"white\"},\
 {\"text\":\"1. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Mayorship\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"}},\"\\n\",\

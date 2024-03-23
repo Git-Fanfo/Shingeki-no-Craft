@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "translate": "Soldier",
@@ -7,8 +6,7 @@
         },
         "description": {
 			"translate": "aot.adv.1",
-            "color": "dark_purple",
-            "strikethrough": true
+            "color": "dark_purple"
         },
         "icon": {
             "id": "minecraft:feather",

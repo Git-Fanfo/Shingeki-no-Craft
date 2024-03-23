@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "translate": "Officer",
@@ -7,18 +6,17 @@
         },
         "description": {
 			"translate": "aot.adv.40",
-            "color": "dark_purple",
-            "underlined": false,
-            "strikethrough": true
+            "color": "dark_purple"
         },
         "icon": {
-            "item": "minecraft:feather",
-            "nbt": "{CustomModelData:9}"
+            "id": "minecraft:feather",
+            "components": {
+                "minecraft:custom_model_data": 9
+            }
         },
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": true
+        "announce_to_chat": true
     },
     "criteria": {
         "unlock": {

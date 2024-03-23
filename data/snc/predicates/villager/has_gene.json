@@ -1,8 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{SelectedItem:{tag:{gene:1b}}}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{gene:1}"
+        }
+      }
     }
   }
-  
+}
