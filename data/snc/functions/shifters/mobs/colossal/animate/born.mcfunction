@@ -11,7 +11,7 @@ execute if score action colossal_vars matches 46 run function snc:titans/volt/sp
 execute if score action colossal_vars matches 46 run playsound minecraft:item.trident.thunder master @a
 
 # Full
-execute if score action colossal_vars matches 55 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:454}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
+execute if score action colossal_vars matches 55 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":454}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
 
 # Health
 execute if score action colossal_vars matches 55 on vehicle run effect give @s levitation 3 15 true

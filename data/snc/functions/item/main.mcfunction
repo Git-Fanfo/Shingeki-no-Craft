@@ -4,7 +4,7 @@ execute if data entity @s {Item:{id:"minecraft:barrier"}} run kill
 execute if data entity @s Item.tag.gene unless data entity @s Item.tag.inv run function snc:item/return/gene
 execute if data entity @s Item.tag.handcuffs_inv run kill
 
-execute if data entity @s Item.tag.atk_shifter run function snc:item/return/atk_shifter
+execute if data entity @s Item.components."minecraft:custom_data".atk_shifter run function snc:item/return/atk_shifter
 execute if data entity @s Item.components."minecraft:custom_data".gun run function snc:item/return/flare
 
 ## If is infected

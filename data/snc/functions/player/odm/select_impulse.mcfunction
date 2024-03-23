@@ -14,7 +14,7 @@ scoreboard players set $strength delta.api.launch 20000
 effect give @s speed 1 4 true
 function delta:api/launch_looking
 
-execute if score odm_legacy config matches 0 run summon snowball ^ ^1 ^1 {Item:{id:"minecraft:arrow",Count:1b,tag:{CustomModelData:1}},Tags:["not_mov","motion_pla"]}
+execute if score odm_legacy config matches 0 run summon snowball ^ ^1 ^1 {Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}},Tags:["not_mov","motion_pla"]}
 # execute if score odm_legacy config matches 0 run summon skeleton_horse ^ ^1 ^1 {Attributes:[{Name:"generic.scale",Base:.1}],Tags:["not_mov","motion_pla"]}
 
 #PETITION 2.. -> 1..

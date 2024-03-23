@@ -1,9 +1,9 @@
-clear @s carrot_on_a_stick{atk_shifter:1b}
-clear @s spyglass{atk_shifter:1b}
+clear @s carrot_on_a_stick[custom_data~{atk_shifter:1}]
+clear @s spyglass[custom_data~{atk_shifter:1}]
 function snc:give/item/attack/atk_1 with storage minecraft:attack
-function snc:give/item/attack/atk_2 with storage minecraft:attack
-function snc:give/item/attack/atk_3 with storage minecraft:attack
-function snc:give/item/attack/atk_4 with storage minecraft:attack
+# function snc:give/item/attack/atk_2 with storage minecraft:attack
+# function snc:give/item/attack/atk_3 with storage minecraft:attack
+# function snc:give/item/attack/atk_4 with storage minecraft:attack
 
-item replace entity @s armor.head with carved_pumpkin{CustomModelData:28,atk_shifter:1b}
+# item replace entity @s armor.head with carved_pumpkin{CustomModelData:28,atk_shifter:1b}
 function snc:shifters/transfer/actions with storage minecraft:attack

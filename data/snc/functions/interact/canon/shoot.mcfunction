@@ -5,7 +5,7 @@ effect give @a[distance=..5] speed 1 3 true
 
 playsound minecraft:item.totem.use player @a ~ ~ ~ 2 0
 
-summon snowball ^ ^.7 ^2.7 {Tags:["not_mov","motion_can","projectile"],Passengers:[{id:"minecraft:item_display",Tags:["bullet","canon"],item_display:"thirdperson_righthand",item:{id:"minecraft:player_head", Count:1b, tag:{CustomModelData:2, SkullOwner:{Id: [I;1,1,1,1]}}}}],Item:{id:"minecraft:arrow", Count:1b, tag:{CustomModelData:1}}}
+summon snowball ^ ^.7 ^2.7 {Tags:["not_mov","motion_can","projectile"],Passengers:[{id:"minecraft:item_display",Tags:["bullet","canon"],item_display:"thirdperson_righthand",item:{id:"minecraft:player_head", Count:1b, components:{"custom_model_data":2, SkullOwner:{Id: [I;1,1,1,1]}}}}],Item:{id:"minecraft:arrow", Count:1b, components:{"custom_model_data":1}}}
 
 ## Spawn armor stand with a player's head initialized with id and CustomModelData:1
 ## Copy ID from @s

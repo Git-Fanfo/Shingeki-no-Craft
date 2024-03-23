@@ -1,1 +1,1 @@
-summon snowball ^ ^ ^ {Tags:["not_mov","motion_vom","sticky"],Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:nether_wart_block"}, Tags: ["bullet","vomit"]}],Item:{id:"minecraft:arrow",Count:1b,tag:{CustomModelData:1}}}
+summon snowball ^ ^ ^ {Tags:["not_mov","motion_vom","sticky"],Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:nether_wart_block"}, Tags: ["bullet","vomit"]}],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}

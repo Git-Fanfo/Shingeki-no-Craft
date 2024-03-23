@@ -135,7 +135,7 @@ data merge storage minecraft:p_col {\
     name: "Creepy", \
     scale: 16, \
     step_height: 1.6, \
-    body: [{id:"minecraft:zombie_villager",Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan","mob5"],ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b,tag:{CustomModelData:1000}}],Attributes:[{Name:generic.scale,Base:16}]}], \
+    body: [{id:"minecraft:zombie_villager",Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan","mob5"],ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b,components:{"custom_model_data":1000}}],Attributes:[{Name:generic.scale,Base:16}]}], \
     speed: 0.6, \
     dmg_footstep: 9, \
     dmg_1: 10, \

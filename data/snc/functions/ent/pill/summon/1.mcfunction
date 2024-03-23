@@ -1,1 +1,1 @@
-summon pillager ~ ~ ~ {Tags:["marleyan","soldier_dmg"],HandItems:[{id:"minecraft:crossbow",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:feather",Count:1b,tag:{CustomModelData:1}}]}
+summon pillager ~ ~ ~ {Tags:["marleyan","soldier_dmg"],HandItems:[{id:"minecraft:crossbow",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:feather",Count:1b,components:{"custom_model_data":1}}]}

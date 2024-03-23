@@ -1,7 +1,7 @@
 ##### HOW TO CREATE A SHIFTER #####
-clear @s[tag=!titan] carrot_on_a_stick{atk_shifter:1b}
-clear @s spyglass{atk_shifter:1b}
-clear @s carved_pumpkin{atk_shifter:1b}
+clear @s[tag=!titan] carrot_on_a_stick[custom_data~{atk_shifter:1}]
+clear @s spyglass[custom_data~{atk_shifter:1}]
+clear @s carved_pumpkin[custom_data~{atk_shifter:1}]
 item replace entity @s armor.chest with air
 item replace entity @s armor.legs with air
 item replace entity @s armor.feet with air

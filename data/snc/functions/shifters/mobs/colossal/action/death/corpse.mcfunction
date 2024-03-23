@@ -18,20 +18,20 @@ execute if score @s colossal_vars matches 200.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 m
 execute if score @s colossal_vars matches 1200 store result entity @s Rotation[0] float 1 on passengers run data get entity @s Rotation[0]
 effect give @s slow_falling infinite 2 true
 
-execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 0 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:502}}}
+execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 0 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":502}}}
 execute if score $form colossal_vars matches 0 run attribute @s generic.scale base set 10
-execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:460}},start_interpolation:0,interpolation_duration:116,transformation:{translation:[0f,0f,53f],left_rotation:[0.722f,0f,0f,0.692f],right_rotation:[0f,0f,0f,1f]}}
+execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":460}},start_interpolation:0,interpolation_duration:116,transformation:{translation:[0f,0f,53f],left_rotation:[0.722f,0f,0f,0.692f],right_rotation:[0f,0f,0f,1f]}}
 
 execute if score @s colossal_vars matches 1086 if score $form colossal_vars matches 1 positioned ^ ^ ^40 run scoreboard players add @a[distance=..120] earthquake 15
 execute if score @s colossal_vars matches 1086 if score $form colossal_vars matches 1 run playsound aot.rock_smash master @a ^ ^ ^40 6 .1
-execute if score @s colossal_vars matches 1082 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:459}}}
-execute if score @s colossal_vars matches 1080 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:458}}}
-execute if score @s colossal_vars matches 1078 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:457}}}
-execute if score @s colossal_vars matches 1076 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:456}}}
-execute if score @s colossal_vars matches 1074 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:455}}}
-execute if score @s colossal_vars matches 1073 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:454}}}
-execute if score @s colossal_vars matches 1070 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:455}}}
-execute if score @s colossal_vars matches 1068 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:454}}}
+execute if score @s colossal_vars matches 1082 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":459}}}
+execute if score @s colossal_vars matches 1080 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":458}}}
+execute if score @s colossal_vars matches 1078 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":457}}}
+execute if score @s colossal_vars matches 1076 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":456}}}
+execute if score @s colossal_vars matches 1074 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":455}}}
+execute if score @s colossal_vars matches 1073 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":454}}}
+execute if score @s colossal_vars matches 1070 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":455}}}
+execute if score @s colossal_vars matches 1068 if score $form colossal_vars matches 1 on passengers run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":454}}}
 
 execute if score @s colossal_vars matches 1100 run function snc:shifters/mobs/colossal/action/death/decay
 execute if score @s colossal_vars matches 1050 run function snc:shifters/mobs/colossal/action/death/decay

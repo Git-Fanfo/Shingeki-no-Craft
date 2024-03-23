@@ -15,4 +15,4 @@ execute if score @s movz matches -11..-8 run function snc:player/gun/spear/rot/7
 execute if score @s movz matches -15..-12 run function snc:player/gun/spear/rot/8
 
 
-execute if score @s projectile matches 3 run data modify entity @e[tag=spear,sort=nearest,limit=1] ArmorItems[3] set value {id:'minecraft:minecart',Count:1b,tag:{CustomModelData:4}}
+execute if score @s projectile matches 3 run data modify entity @e[tag=spear,sort=nearest,limit=1] ArmorItems[3] set value {id:'minecraft:minecart',Count:1b,components:{"custom_model_data":4}}

@@ -1,7 +1,7 @@
 # Full
-execute if score $form colossal_vars matches 1 unless score action colossal_vars matches 1 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:452}}}
+execute if score $form colossal_vars matches 1 unless score action colossal_vars matches 1 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":452}}}
 # Half
-execute if score $form colossal_vars matches 0 unless score action colossal_vars matches 1 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,tag:{CustomModelData:453}}}
+execute if score $form colossal_vars matches 0 unless score action colossal_vars matches 1 run data merge entity @s {item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":453}}}
 
 particle minecraft:campfire_cosy_smoke ^ ^ ^ 0 0 0 1 40 force
 

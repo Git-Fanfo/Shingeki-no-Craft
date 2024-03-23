@@ -5,35 +5,35 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:1}}}"
+        "nbt": "{Item:{id:\"minecraft:potion\",components:{"custom_model_data":1}}}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:2}}}"
+        "nbt": "{Item:{id:\"minecraft:potion\",components:{"custom_model_data":2}}}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:3}}}"
+        "nbt": "{Item:{id:\"minecraft:potion\",components:{"custom_model_data":3}}}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:4}}}"
+        "nbt": "{Item:{id:\"minecraft:potion\",components:{"custom_model_data":4}}}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{id:\"minecraft:potion\",tag:{CustomModelData:5}}}"
+        "nbt": "{Item:{id:\"minecraft:potion\",components:{"custom_model_data":5}}}"
       }
     }
   ]
