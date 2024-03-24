@@ -31,7 +31,7 @@ execute if score @s idle matches 60 run playsound entity.zombie_villager.cure pl
 #execute if score @s idle matches 60 run playsound block.end_portal.spawn player @a ~ ~ ~ 1 1.2
 $execute if score @s idle matches 60 if predicate snc:shifters/has_injection_kon run scoreboard players set @e[type=#snc:$(sryinge),distance=1..3,sort=nearest,limit=1] atk 240
 $execute if score @s idle matches 60 unless predicate snc:shifters/has_injection_kon run scoreboard players set @e[type=#snc:$(sryinge),distance=1..3,sort=nearest,limit=1] atk 120
-execute if score @s idle matches 60 run clear @s carrot_on_a_stick{inj_full:1b} 1
-execute if score @s idle matches 60 run function snc:give/item/shifters/syringe/empty
+execute if score @s idle matches 60 run clear @s carrot_on_a_stick[custom_data~{inj_full:1}] 1
+execute if score @s idle matches 60 run function snc:api/give/shifters/syringe/empty
 execute if score @s idle matches 60.. run scoreboard players set @s idle 0
 execute unless predicate snc:player/is_sneaking if score @s hold_carrot matches 1.. run function snc:player/titan/injection/itself

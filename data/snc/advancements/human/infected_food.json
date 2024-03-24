@@ -1,16 +1,16 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "nbt": "{infected:1b}"
-          }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {"minecraft:custom_data": "{infected:1}"}
         }
       }
-    },
-    "rewards": {
-      "function": "snc:player/titan/infect/human"
     }
+  },
+  "rewards": {
+    "function": "snc:player/titan/infect/human"
   }
+}
   

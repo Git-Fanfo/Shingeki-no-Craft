@@ -1,4 +1,7 @@
 scoreboard players reset @s atk
-execute unless data entity @s {Item:{tag:{infected:0b}}} if predicate snc:titan/infect_food if predicate snc:chance/50 run data merge entity @s {Item:{tag:{infected:1b}}}
-execute unless data entity @s {Item:{tag:{infected:0b}}} if predicate snc:titan/infect_liquid run data merge entity @s {Item:{tag:{infected:1b}}}
-execute unless data entity @s {Item:{tag:{infected:1b}}} run data merge entity @s {Item:{tag:{infected:0b}}}
+
+execute unless data entity @s {Item:{components:{"minecraft:custom_data":{infected:0}}}} if items entity @s container.* #snc:food if predicate snc:chance/50 run data merge entity @s {Item:{components:{"minecraft:custom_data":{infected:1}}}}
+
+execute unless data entity @s {Item:{components:{"minecraft:custom_data":{infected:0}}}} if items entity @s container.* potion[minecraft:custom_data~{liquid:1}] run data merge entity @s {Item:{components:{"minecraft:custom_data":{infected:1}}}}
+
+execute unless data entity @s {Item:{components:{"minecraft:custom_data":{infected:1}}}} run data merge entity @s {Item:{components:{"minecraft:custom_data":{infected:0}}}}

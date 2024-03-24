@@ -8,7 +8,7 @@
     "result": {
       "count": 1,"id": "minecraft:potion",
       "components": {
-        "custom_data":{"snc_item":1},
+        "custom_data":{"liquid":1,"snc_item":1},
         "custom_model_data": 3,
         "custom_name" : "{\"translate\":\"Apple Juice\",\"italic\":false}",
         "potion_contents": {
