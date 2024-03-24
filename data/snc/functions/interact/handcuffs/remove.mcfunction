@@ -1,3 +1,3 @@
 clear @s
 tag @s remove handcuffs
-execute if entity @s[type=player] run function snc:logic/return_gamemode
+attribute @s minecraft:player.entity_interaction_range base set 4

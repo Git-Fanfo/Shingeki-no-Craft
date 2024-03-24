@@ -2,6 +2,13 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItem:{tag:{handcuffs:1b}}}"
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{handcuffs:1}"
+        }
+      }
+    }
   }
 }
+  

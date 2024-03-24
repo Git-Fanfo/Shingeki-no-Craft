@@ -1,6 +1,6 @@
 clear @s
 
-function snc:give/item/shifters/handcuffs_inv
+function snc:interact/handcuffs/add/inv
 
-advancement revoke @s only snc:utility/inventory_full
-advancement revoke @s only snc:utility/inventory_full_1
+advancement revoke @s only snc:human/chained
+advancement revoke @s only snc:human/chained_1
