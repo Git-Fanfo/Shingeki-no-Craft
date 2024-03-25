@@ -1,8 +1,14 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{SelectedItem:{tag:{inj:1b}}}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{inj:1}"
+        }
+      }
     }
   }
+}
   

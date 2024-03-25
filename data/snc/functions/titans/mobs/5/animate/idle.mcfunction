@@ -1,6 +1,6 @@
-execute if entity @s[scores={idle=40}] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":115}}}
-execute if entity @s[scores={idle=33}] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":116}}}
-execute if entity @s[scores={idle=27}] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":117}}}
-execute if entity @s[scores={idle=21}] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":118}}}
-execute if entity @s[scores={idle=14}] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":115}}}
-execute if entity @s[scores={idle=7}] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":116}}}
+execute if score @s atk matches 40 run data modify entity @s item.components.minecraft:custom_model_data set value 115
+execute if score @s atk matches 33 run data modify entity @s item.components.minecraft:custom_model_data set value 116
+execute if score @s atk matches 27 run data modify entity @s item.components.minecraft:custom_model_data set value 117
+execute if score @s atk matches 21 run data modify entity @s item.components.minecraft:custom_model_data set value 118
+execute if score @s atk matches 14 run data modify entity @s item.components.minecraft:custom_model_data set value 115
+execute if score @s atk matches 7 run data modify entity @s item.components.minecraft:custom_model_data set value 116

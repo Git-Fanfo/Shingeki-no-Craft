@@ -1,4 +1,4 @@
-clear @s carrot_on_a_stick{inj_full:1b}
+clear @s carrot_on_a_stick[custom_data~{inj_full:1}]
 playsound minecraft:item.trident.thunder master @a ~ ~ ~ 2
 playsound aot.rock_smash player @a ~ ~ ~ 2
 particle minecraft:firework ~ ~2 ~ 1 1 1 .7 100
