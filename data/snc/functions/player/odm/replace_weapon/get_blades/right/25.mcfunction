@@ -1,4 +1,0 @@
-item replace entity @s weapon.mainhand with carrot_on_a_stick{display:{Name:'{"translate":"aot.gas","color":"white","italic":false}',Lore:['{"translate":"aot.gas.desc2","color":"gray","italic":false}','{"translate":"aot.gas.desc3","color":"gray","italic":false}','{"text":" ","color":"gray","italic":false}','[{"translate":"aot.odmstatus","color":"gray","italic":false}]','[{"text":""},{"translate":"aot.odmstatus.swing","color":"blue","italic":false}]']},HideFlags:5,Damage:25,CustomModelData:2,trigger:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-.3,Operation:0,UUID:[I;1671476577,-1623307731,-1514617349,-510885499],Slot:"mainhand"}]} 1
-particle minecraft:item iron_ingot ^ ^1.7 ^.3 0 0 0 .15 15
-playsound minecraft:item.shield.break player @a ~ ~ ~ 1 1.3
-scoreboard players set @s odm_atk_R 25

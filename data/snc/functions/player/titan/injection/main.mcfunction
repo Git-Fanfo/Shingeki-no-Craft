@@ -17,14 +17,14 @@ execute if score @s idle matches 1.. unless predicate snc:player/is_sneaking run
 $execute if score @s idle matches 1.. unless entity @e[type=#snc:$(sryinge),distance=1..3,sort=nearest,limit=1] run scoreboard players set @s idle -1
 
 execute if score @s idle matches -1 run playsound minecraft:block.lava.extinguish player @s ~ ~ ~
-execute if score @s idle matches -1 run item modify entity @s weapon.mainhand snc:damage/100
+execute if score @s idle matches -1 run item modify entity @s weapon.mainhand snc:durability/100
 execute if score @s idle matches -1 run scoreboard players set @s idle 0
 
-execute if score @s idle matches 1 run item modify entity @s weapon.mainhand snc:damage/70
+execute if score @s idle matches 1 run item modify entity @s weapon.mainhand snc:durability/70
 execute if score @s idle matches 1 run playsound minecraft:entity.witch.drink player @a ~ ~ ~ 1 1.7
-execute if score @s idle matches 20 run item modify entity @s weapon.mainhand snc:damage/40
+execute if score @s idle matches 20 run item modify entity @s weapon.mainhand snc:durability/40
 execute if score @s idle matches 20 run playsound minecraft:entity.witch.drink player @a ~ ~ ~ 1 1.7
-execute if score @s idle matches 40 run item modify entity @s weapon.mainhand snc:damage/10
+execute if score @s idle matches 40 run item modify entity @s weapon.mainhand snc:durability/10
 execute if score @s idle matches 40 run playsound minecraft:entity.witch.drink player @a ~ ~ ~ 1 1.7
 
 execute if score @s idle matches 60 run playsound entity.zombie_villager.cure player @a ~ ~ ~ 1 1.7

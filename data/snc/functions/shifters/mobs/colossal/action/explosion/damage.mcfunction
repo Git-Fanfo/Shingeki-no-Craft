@@ -5,4 +5,4 @@ damage @s[distance=66..80] 12 on_fire
 damage @s[distance=81..] 6 on_fire
 effect give @s[tag=hurtbox] water_breathing 1 0 true
 
-execute facing ^ ^ ^-1 run function delta:api/launch_looking
+execute facing ^ ^ ^-1 run function player_motion:api/launch_looking

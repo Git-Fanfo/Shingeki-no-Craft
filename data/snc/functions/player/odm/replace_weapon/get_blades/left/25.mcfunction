@@ -1,4 +1,0 @@
-item replace entity @s weapon.offhand with minecraft:warped_fungus_on_a_stick{display:{Name:'[{"translate":"aot.odm","color":"dark_red","italic":false},{"text":" (","color":"dark_red"},{"translate":"aot.steel","color":"dark_red"},{"text":")","color":"dark_red"}]',Lore:['{"translate":"aot.gas2.desc","color":"gray","italic":false}','{"translate":"aot.gas2.desc2","color":"gray","italic":false}','{"translate":"aot.gas2.desc3","color":"gray","italic":false}','{"text":" ","color":"gray","italic":false}','{"translate":"aot.odmstatus2","color":"gray","italic":false}','[{"text":""},{"translate":"aot.odmstatus.swing","color":"blue","italic":false}]']},CustomModelData:3,Damage:100,odm_gear:1b} 1
-particle minecraft:item iron_ingot ^ ^1.7 ^-.3 0 0 0 .15 15
-playsound minecraft:item.shield.break player @a ~ ~ ~ 1 1.3
-scoreboard players set @s odm_atk_L 100
