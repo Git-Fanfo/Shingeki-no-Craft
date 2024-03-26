@@ -1,4 +1,4 @@
-# Can spin
+# Can spinn?
 tag @s add spin
 
 # Old haha
