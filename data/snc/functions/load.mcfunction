@@ -54,8 +54,8 @@ scoreboard objectives add man_cool dummy
 #   2 -> landed on left
 #   3 -> landed on right
 scoreboard objectives add odm_state dummy
-scoreboard objectives add odm_atk_R dummy
-scoreboard objectives add odm_atk_L dummy
+scoreboard objectives add odm_dmg_R dummy
+scoreboard objectives add odm_dmg_L dummy
 # Time to push the player, the bigger it is the stronger it gets
 scoreboard objectives add odm_push dummy
 # odm actions

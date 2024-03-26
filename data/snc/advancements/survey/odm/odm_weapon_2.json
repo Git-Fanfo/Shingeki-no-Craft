@@ -26,11 +26,11 @@
             "items": [
                 {
                     "id":"warped_fungus_on_a_stick",
-                    "predicates": {"minecraft:custom_data": "{spear:1}"}
+                    "predicates": {"minecraft:custom_data": "{spear:1b}"}
                 },
                 {
                     "id":"carrot_on_a_stick",
-                    "predicates": {"minecraft:custom_data": "{spear:1}"}
+                    "predicates": {"minecraft:custom_data": "{spear:1b}"}
                 }
             ]
         }

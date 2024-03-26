@@ -23,7 +23,7 @@
         "unlock": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"predicates": {"minecraft:custom_data": "{odm_gear:1}"}}]
+                "items": [{"predicates": {"minecraft:custom_data": "{odm_gear:1b}"}}]
             }
         }
     },

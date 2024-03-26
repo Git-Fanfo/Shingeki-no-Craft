@@ -5,7 +5,7 @@
     "slots": {
       "weapon.offhand": {
         "predicates": {
-          "minecraft:custom_data": "{odm_gear:1}"
+          "minecraft:custom_data": "{odm_gear:1b}"
         }
       }
     }

@@ -5,7 +5,7 @@
     "slots": {
       "weapon.mainhand": {
         "predicates": {
-          "minecraft:custom_data": "{gene:1}"
+          "minecraft:custom_data": "{gene:1b}"
         }
       }
     }

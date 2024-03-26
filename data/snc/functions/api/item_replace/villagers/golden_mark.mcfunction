@@ -1,1 +1,1 @@
-$item replace entity @s $(slot) with flint[custom_data={coin:1, snc_item:1},custom_model_data=216,enchantment_glint_override=True,custom_name='{"translate":"aot.villager.currency","color":"gold","italic":false}'] 3
+$item replace entity @s $(slot) with flint[custom_data={coin:True, snc_item:1},custom_model_data=216,enchantment_glint_override=True,custom_name='{"translate":"aot.villager.currency","color":"gold","italic":false}'] 3

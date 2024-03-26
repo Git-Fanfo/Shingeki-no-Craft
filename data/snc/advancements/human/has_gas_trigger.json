@@ -7,7 +7,7 @@
                     "equipment": {
                         "mainhand": {
                             "predicates": {
-                                "minecraft:custom_data": "{trigger:1}"
+                                "minecraft:custom_data": "{trigger:1b}"
                               }
                         }
                     }

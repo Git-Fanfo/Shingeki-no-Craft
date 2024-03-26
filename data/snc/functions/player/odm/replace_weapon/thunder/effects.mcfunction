@@ -1,0 +1,2 @@
+$execute if score @s odm_dmg_$(side) matches 0 run function snc:player/odm/replace_weapon/thunder/effects_sp3
+$execute if score @s odm_dmg_$(side) matches 33 run function snc:player/odm/replace_weapon/thunder/effects_sp2

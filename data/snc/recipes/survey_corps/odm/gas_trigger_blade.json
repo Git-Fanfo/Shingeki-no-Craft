@@ -13,7 +13,7 @@
     "count": 1,
     "id": "minecraft:carrot_on_a_stick",
     "components": {
-      "custom_data":{"blade":1, "trigger":1, "snc_item":1},
+      "custom_data":{"blade":true, "trigger":true, "snc_item":1},
       "damage":0,
       "max_damage":100,
       "minecraft:custom_model_data": 1,

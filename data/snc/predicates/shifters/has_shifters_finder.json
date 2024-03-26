@@ -5,7 +5,7 @@
     "slots": {
       "weapon.mainhand": {
         "predicates": {
-          "minecraft:custom_data": "{shifters_finder:1}"
+          "minecraft:custom_data": "{shifters_finder:1b}"
         }
       }
     }

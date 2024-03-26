@@ -5,7 +5,7 @@
   "slots": {
     "weapon.mainhand": {
       "predicates": {
-        "minecraft:custom_data": "{atk_atk_4:1}"
+        "minecraft:custom_data": "{atk_atk_4:1b}"
       }
     }
   }

@@ -5,7 +5,7 @@
     "slots": {
       "weapon.mainhand": {
         "predicates": {
-          "minecraft:custom_data": "{girl:1}"
+          "minecraft:custom_data": "{girl:1b}"
         }
       }
     }

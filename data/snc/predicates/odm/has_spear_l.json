@@ -1,8 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Inventory:[{Slot:-106b,tag:{odm_gear:1b,spear:1b,load:1b}}]}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.offhand": {
+        "predicates": {
+          "minecraft:custom_data": "{odm_gear:1b,spear:1b,load:1b}"
+        }
+      }
     }
   }
-  
+}

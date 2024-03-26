@@ -10,12 +10,15 @@ execute if score @s odm_action matches 0.. if block ~ ~-.5 ~ air if predicate sn
 
 execute store result score @s rot_impulse_x run data get entity @s Rotation[0]
 execute store result score @s rot_impulse_y run data get entity @s Rotation[1]
+
 execute unless predicate snc:odm/has_odm_blade run tag @s remove spin
-scoreboard players set @s[tag=!spin] odm_atk_R 25
-scoreboard players set @s[tag=!spin] odm_atk_L 100
-execute as @s[predicate=snc:odm/has_odm_blade] run function snc:player/odm/replace_weapon/store_damage
-execute as @s[predicate=snc:odm/has_spear_r] run function snc:player/odm/replace_weapon/store_right
-execute as @s[predicate=snc:odm/has_spear_l] run function snc:player/odm/replace_weapon/store_left
+
+## DAMAGE
+execute store result score @s odm_dmg_R run data get entity @s SelectedItem.components."minecraft:damage"
+execute store result score @s odm_dmg_L run data get entity @s Inventory[{Slot:-106b}].components."minecraft:damage"
+
+execute as @s[predicate=snc:odm/has_spear_r] run function snc:player/odm/replace_weapon/thunder/effects {"side":"R"}
+execute as @s[predicate=snc:odm/has_spear_l] run function snc:player/odm/replace_weapon/thunder/effects {"side":"L"}
 
 # Aux impulse
 execute as @s[scores={odm_state=-1}] run scoreboard players set @s odm_state 1

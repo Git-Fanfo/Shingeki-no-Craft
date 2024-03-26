@@ -18,7 +18,7 @@
       "count": 1,
       "id": "minecraft:carrot_on_a_stick",
       "components": {
-          "custom_data":{"handcuffs_inv":1},
+          "custom_data":{"handcuffs_inv":true},
           "minecraft:custom_model_data": 42,
           "minecraft:custom_name":"{\"translate\":\"aot.handcuffs\",\"color\":\"white\",\"italic\":false}",
           "minecraft:lore":["[{\"translate\":\"aot.handcuffs.desc\",\"color\":\"gray\",\"italic\":false},\" \",{\"translate\":\"aot.handcuffs.desc2\",\"color\":\"aqua\",\"italic\":false}]","[{\"translate\":\"aot.handcuffs.desc3\",\"color\":\"dark_red\",\"italic\":false},\" \",{\"translate\":\"aot.handcuffs.desc4\",\"color\":\"gray\",\"italic\":false},\" \",{\"translate\":\"villagers\",\"italic\":false}]"]

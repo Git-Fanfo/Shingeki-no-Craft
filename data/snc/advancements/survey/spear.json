@@ -23,7 +23,7 @@
         "Craft Thunder Spear": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"predicates": {"minecraft:custom_data": "{spear:1}"}}]
+                "items": [{"predicates": {"minecraft:custom_data": "{spear:1b}"}}]
             }
         }
     },
