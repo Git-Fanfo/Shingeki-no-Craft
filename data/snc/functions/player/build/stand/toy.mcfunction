@@ -38,4 +38,4 @@ setblock ~-2 ~3 ~ black_wall_banner[facing=west]{Patterns:[{Color:10,Pattern:"bs
 
 playsound minecraft:block.anvil.use player @a ~ ~ ~ 1 .7
 
-function snc:eldia/wandering_trader/trades/main
+function snc:eldia/wandering_trader/trades

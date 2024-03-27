@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {"item": "barrier"}
+  ],
+  "result": {
+      "id": "ghast_tear",
+      "count": 1,
+      "components" : {
+        "custom_name": "[{\"translate\":\"aot.titan.zwei\",\"color\":\"white\",\"italic\":false},\" \",{\"translate\":\"aot.toy\"}]",
+        "lore": [
+          "{\"translate\":\"Decoration\",\"color\":\"blue\",\"italic\":false}"
+        ],
+        "custom_model_data": 22
+      }
+  }
+}
