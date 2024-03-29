@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {"item": "barrier"}
+  ],
+  "result": {
+      "id": "minecraft:totem_of_undying",
+      "count": 1,
+      "components": {
+          "custom_data": {"snc_item":1},
+          "custom_model_data":0
+      }
+  }
+}

@@ -9,10 +9,10 @@ summon chest_minecart ~ ~4 ~ {CustomDisplayTile:1b,Tags:["collision","shifter","
 summon chest_minecart ~ ~4 ~ {CustomDisplayTile:1b,Tags:["collision","shifter","cart","cart.shipload","cart.barrels","cart.barrel.3"],DisplayState:{Name:"minecraft:structure_block",Properties:{mode:"corner"}}}
 summon chest_minecart ~ ~4 ~ {CustomDisplayTile:1b,Tags:["collision","shifter","cart","cart.shipload","cart.barrels","cart.barrel.4"],DisplayState:{Name:"minecraft:structure_block",Properties:{mode:"corner"}}}
 
-clear @s carrot_on_a_stick{barrels:1b} 1
+clear @s carrot_on_a_stick[custom_data~{barrels:1b}]
 
 ## Set Mask
 scoreboard players set $mask cart_vars 0
-function snc:give/item/cart/primary
+function snc:shifters/mobs/cart/abilities/give
 
 return 0

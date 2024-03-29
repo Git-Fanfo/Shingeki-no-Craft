@@ -1,2 +1,2 @@
-execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin{CustomModelData:50}
+execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[custom_model_data=50]
 execute on vehicle on passengers if entity @s[type=player] run effect give @s absorption 20 7

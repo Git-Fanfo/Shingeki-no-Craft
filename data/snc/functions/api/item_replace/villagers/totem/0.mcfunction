@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:totem_of_undying[custom_data={snc_item:1},custom_model_data=0] 1

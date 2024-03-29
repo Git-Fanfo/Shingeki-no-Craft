@@ -3,7 +3,7 @@
 
 data modify entity @e[tag=spear,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
-## Spawn armor stand with a player's head initialized with id and CustomModelData:1
+## Spawn armor stand with a player's head initialized with id and custom_model_data=1
 ## Copy ID from @s
 ## Transfer the ID from @s
 

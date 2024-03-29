@@ -1,1 +1,0 @@
-item replace entity @s hotbar.1 with carrot_on_a_stick{display:{Name:'{"translate":"aot.pure.sprint","color":"aqua","italic":false}'},HideFlags:5,CustomModelData:43,sprint:1b,atk_shifter:1b,pure_titan:1b,Enchantments:[{}]} 1

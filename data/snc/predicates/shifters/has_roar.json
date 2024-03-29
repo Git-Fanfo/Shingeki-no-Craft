@@ -5,7 +5,7 @@
     "slots": {
       "weapon.offhand": {
         "predicates": {
-          "minecraft:custom_data": "{roar_shifter:1}"
+          "minecraft:custom_data": "{roar_shifter:1b}"
         }
       }
     }

@@ -1,0 +1,1 @@
+give @s minecraft:totem_of_undying[custom_data={snc_item:1},custom_model_data=2,rarity='epic'] 1

@@ -1,1 +1,1 @@
-execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin{CustomModelData:30}
+execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin{custom_model_data:30}

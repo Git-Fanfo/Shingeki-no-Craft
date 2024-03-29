@@ -3,8 +3,8 @@ function snc:logic/return_gamemode
 tag @s remove transform
 tag @s remove consume
 
-clear @s carrot_on_a_stick[custom_data~{atk_shifter:1}]
-clear @s spyglass[custom_data~{atk_shifter:1}]
+clear @s carrot_on_a_stick[custom_data~{atk_shifter:1b}]
+clear @s spyglass[custom_data~{atk_shifter:1b}]
 clear @s carved_pumpkin
 
 effect clear @s

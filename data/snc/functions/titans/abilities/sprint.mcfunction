@@ -1,0 +1,1 @@
+item replace entity @s container.1 with carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=43,custom_data={sprint:1b,atk_shifter:1b,pure_titan:1b},custom_name='{"translate":"aot.pure.sprint","color":"aqua","italic":false}']

@@ -21,6 +21,6 @@ execute if score action colossal_vars matches 15 run effect give @a[scores={colo
 execute if score action colossal_vars matches 2 run effect give @a[scores={colossal_vars=1}] absorption 20 17 true
 
 execute if score action colossal_vars matches 1 on vehicle run attribute @s minecraft:generic.scale base set 12
-execute if score action colossal_vars matches 1 run execute as @a[scores={colossal_vars=1}] run function snc:give/item/colossal/primary
+execute if score action colossal_vars matches 1 run execute as @a[scores={colossal_vars=1}] run function snc:shifters/mobs/colossal/abilities/give
 execute if score action colossal_vars matches 1 run scoreboard players set consume colossal_vars 20
 execute if score action colossal_vars matches 1 run scoreboard players set state colossal_vars 3

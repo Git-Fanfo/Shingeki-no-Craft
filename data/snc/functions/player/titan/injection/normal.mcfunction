@@ -15,4 +15,4 @@ execute if entity @s[type=player] run effect give @a[distance=..5,sort=nearest,l
 function snc:titans/select_titan
 execute if entity @s[type=!player] run kill
 ride @s mount @e[tag=hurtbox,sort=nearest,limit=1]
-execute if entity @s[type=player] run function snc:give/item/shifters/pure/main
+execute if entity @s[type=player] run function snc:titans/abilities/give

@@ -6,4 +6,4 @@ execute if score $form colossal_vars matches 1 run scoreboard players set state 
 execute if score $form colossal_vars matches 1 run scoreboard players set action colossal_vars 10
 scoreboard players set $form colossal_vars 0
 
-function snc:give/item/colossal/primary
+function snc:shifters/mobs/colossal/abilities/give

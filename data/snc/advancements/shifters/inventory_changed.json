@@ -4,7 +4,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          {"predicates": {"minecraft:custom_data": "{atk_shifter:1}"}}
+          {"predicates": {"minecraft:custom_data": "{atk_shifter:1b}"}}
         ]
       }
     }

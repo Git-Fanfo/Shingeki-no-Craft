@@ -1,2 +1,2 @@
 tag @s add totem
-give @s totem_of_undying{display:{Name:'{"translate":"aot.undying","italic":false}',Lore:['{"translate":"aot.undying.desc1","color":"gray","italic":false}','{"translate":"aot.undying.desc2","color":"gray","italic":false}','{"text":" ","color":"gray","italic":false}','{"translate":"aot.undying.desc3","italic":false}','{"translate":"aot.undying.desc4","italic":false}']},CustomModelData:1,Enchantments:[{}]} 1
+function snc:api/give/villagers/totem/1
