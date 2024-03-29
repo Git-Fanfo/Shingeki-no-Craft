@@ -2,6 +2,12 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItem:{tag:{trigger:1b,spear:1b}}}"
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{trigger:1b,spear:1b}"
+        }
+      }
+    }
   }
 }

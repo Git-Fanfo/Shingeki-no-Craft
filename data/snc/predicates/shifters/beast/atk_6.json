@@ -2,6 +2,12 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItem:{id:\"minecraft:spyglass\",tag:{beast_atk_6:1b}}}"
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{beast_atk_6:1b}"
+        }
+      }
+    }
   }
 }

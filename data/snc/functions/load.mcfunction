@@ -19,17 +19,20 @@ scoreboard objectives add death deathCount
 scoreboard objectives add random dummy
 scoreboard objectives add snc.leave minecraft.custom:minecraft.leave_game
 
-execute unless score #reload constant matches 1 run effect give @a minecraft:blindness 14 0 true
-execute unless score #reload constant matches 1 run effect give @a minecraft:night_vision 14 0 true
-execute unless score #reload constant matches 1 run effect give @a minecraft:slowness 14 128 true
-execute unless score #reload constant matches 1 run title @a times 20 240 10
-execute unless score #reload constant matches 1 run title @a subtitle {"translate":"aot","color":"dark_red"}
-execute unless score #reload constant matches 1 run title @a title {"text":"\uE003"}
-execute unless score #reload constant matches 1 as @a at @s run playsound minecraft:ambient.nether_wastes.mood player @s ~ ~ ~ 1 .1
+execute unless score #reload constant matches 2.. run effect give @a minecraft:blindness 14 0 true
+execute unless score #reload constant matches 2.. run effect give @a minecraft:night_vision 14 0 true
+execute unless score #reload constant matches 2.. run effect give @a minecraft:slowness 14 128 true
+execute unless score #reload constant matches 2.. run effect give @a minecraft:slow_falling 14 0 true
+execute unless score #reload constant matches 2.. as @a at @s run tp ~ ~70 ~ 
+execute unless score #reload constant matches 2.. run title @a times 20 240 10
+execute unless score #reload constant matches 2.. run title @a subtitle {"translate":"aot","color":"dark_red"}
+execute unless score #reload constant matches 2.. run title @a title {"text":"\uE003"}
+execute unless score #reload constant matches 2.. as @a at @s run playsound minecraft:ambient.nether_wastes.mood player @s ~ ~ ~ 1 .1
 
-execute if score #reload constant matches 1 run tellraw @a ["\n\n\n\n\n",{"text":"\uE003"}," ",{"text": "Shingeki no Craft","color": "dark_red","bold": true},"\n\n",{"translate": "aot.credit","color":"gold"},{"text":" Fanfo","bold": true},"\n",{"translate": "aot.collab","color":"yellow"},{"text":" Zabat", "bold": true},"\n",{"translate": "aot.support"}," ",{"translate": "aot.sp0","color":"red","bold": true},{"translate": "aot.sp1","color":"gold","bold": true},{"translate": "aot.sp2","color":"yellow","bold": true},{"translate": "aot.sp3","color":"green","bold": true},{"translate": "aot.sp4","color":"aqua","bold": true},{"translate": "aot.sp5","color":"red","bold": true},{"translate": "aot.sp6","color":"gold","bold": true},{"translate": "aot.sp7","color":"yellow","bold": true},{"translate": "aot.sp8","color":"green","bold": true},{"translate": "aot.sp9","color":"aqua","bold": true},{"translate": "aot.sp10","color":"red","bold": true},{"translate": "aot.sp11","color":"gold","bold": true},{"translate": "aot.sp12","color":"yellow","bold": true},{"translate": "aot.sp13","color":"green","bold": true},{"translate": "aot.sp14","color":"aqua","bold": true},{"text": " ✮"}]
-execute if score #reload constant matches 1 as @a at @s run playsound minecraft:block.amethyst_block.hit master @s ~ ~ ~ 1 1.3
-scoreboard players set #reload constant 1
+execute if score #reload constant matches 2.. run tellraw @a ["\n\n\n\n\n",{"text":"\uE003"}," ",{"text": "Shingeki no Craft","color": "dark_red","bold": true},"\n\n",{"translate": "aot.credit","color":"gold"},{"text":" Fanfo","bold": true},"\n",{"translate": "aot.collab","color":"yellow"},{"text":" Zabat", "bold": true},"\n",{"translate": "aot.support"}," ",{"translate": "aot.sp0","color":"red","bold": true},{"translate": "aot.sp1","color":"gold","bold": true},{"translate": "aot.sp2","color":"yellow","bold": true},{"translate": "aot.sp3","color":"green","bold": true},{"translate": "aot.sp4","color":"aqua","bold": true},{"translate": "aot.sp5","color":"red","bold": true},{"translate": "aot.sp6","color":"gold","bold": true},{"translate": "aot.sp7","color":"yellow","bold": true},{"translate": "aot.sp8","color":"green","bold": true},{"translate": "aot.sp9","color":"aqua","bold": true},{"translate": "aot.sp10","color":"red","bold": true},{"translate": "aot.sp11","color":"gold","bold": true},{"translate": "aot.sp12","color":"yellow","bold": true},{"translate": "aot.sp13","color":"green","bold": true},{"translate": "aot.sp14","color":"aqua","bold": true},{"text": " ❤","color":"red"}]
+execute if score #reload constant matches 2.. as @a at @s run playsound minecraft:block.amethyst_block.hit master @s ~ ~ ~ 1 1.3
+
+scoreboard players add #reload constant 1
 
 ## Titans
 function snc:titans/arguments
