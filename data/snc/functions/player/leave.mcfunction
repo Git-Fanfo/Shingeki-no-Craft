@@ -1,0 +1,2 @@
+scoreboard players set @s snc.leave 0
+tellraw @s ["",{"translate":"aot.patreon","bold":true,"color":"green","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}},{"text":" "},{"translate":"aot.patreon2","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}},{"text":" "},{"translate":"aot.patreon3","underlined": true,"bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}}]

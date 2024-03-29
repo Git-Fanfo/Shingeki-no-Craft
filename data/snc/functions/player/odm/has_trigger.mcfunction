@@ -8,8 +8,8 @@ execute if score odm_legacy config matches 0 run function snc:player/odm/impulse
 # Spear They can have any
 execute if score @s odm_action matches 0.. if block ~ ~-.5 ~ air if predicate snc:player/is_sneaking run function snc:player/odm/replace_weapon/thunder/trigger
 
-execute store result score @s rot_impulse_x run data get entity @s Rotation[0]
-execute store result score @s rot_impulse_y run data get entity @s Rotation[1]
+execute store result score @s snc.rotation_x run data get entity @s Rotation[0]
+execute store result score @s snc.rotation_y run data get entity @s Rotation[1]
 
 execute unless predicate snc:odm/has_odm_blade run tag @s remove spin
 

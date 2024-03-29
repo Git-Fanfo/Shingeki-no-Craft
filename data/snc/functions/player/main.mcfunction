@@ -10,6 +10,7 @@ execute if score @s manual matches ..-1 run function snc:logic/manual/config
 execute if score @s odm_action matches -20..-1 run function snc:player/odm/gyro/dash/main
 execute if score @s odm_action matches -25..-21 run function snc:player/odm/gyro/slash/main
 execute if score @s odm_action matches -30..-26 run function snc:player/gun/spear/main
+execute if score @s snc.leave matches 1.. run function snc:player/leave
 
 ## Team
 function snc:logic/team/main

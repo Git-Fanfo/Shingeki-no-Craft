@@ -38,6 +38,7 @@ execute if entity @s[tag=mob4,tag=!attack,tag=walk] run function snc:titans/mobs
 execute if entity @s[tag=mob4,tag=!attack,tag=!walk] run function snc:titans/mobs/4/animate/idle
 
 # Vladlen
+execute if entity @s[tag=mob5] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]}}
 execute if entity @s[tag=mob5,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/5/animate/attack
 execute if entity @s[tag=mob5,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/5/animate/attack_2
 execute if entity @s[tag=mob5,tag=!attack,tag=!walk] run function snc:titans/mobs/5/animate/idle

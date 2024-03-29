@@ -1,13 +1,3 @@
-title @a times 20 240 10
-title @a subtitle {"translate":"aot","color":"dark_red"}
-#title @a title {"text":"進撃の工人","bold":true,"color":"gray"}
-title @a title {"text":"\uE003"}
-
-tellraw @a ["",{"text":"\n\n\n\n\n\n\n\n\n\n---------------------------------\n","color":"dark_red"},{"translate": "aot.credit","color":"gold"},{"text":"\n---------------------------------\n","color":"dark_red"},{"text":"\n "}]
-tellraw @a ["",{"translate": "aot.collab"},{"translate":"aot.collab2","color":"light_purple"}]
-tellraw @a ["",{"translate":"aot.patreon"},{"text":" Patreon ","bold":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}},{"translate":"aot.patreon2"},{"translate":"aot.patreon3","underlined": true,"bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://www.patreon.com/Fanfo"}},{"text":")\n"}]
-
-execute as @a at @s run playsound minecraft:ambient.nether_wastes.mood player @s ~ ~ ~ 1 .1
 #Rules
 gamerule doFireTick false
 # gamerule showDeathMessages false
@@ -17,6 +7,7 @@ gamerule doImmediateRespawn true
 scoreboard objectives add constant dummy
 scoreboard players set #-1 constant -1
 scoreboard players set #100 constant 100
+scoreboard players set #361 constant 361
 scoreboard players set #4 constant 4
 scoreboard players set #2 constant 2
 scoreboard players set #1000 constant 1000
@@ -26,6 +17,19 @@ scoreboard objectives add earthquake dummy
 # scoreboard objectives add push_back dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add random dummy
+scoreboard objectives add snc.leave minecraft.custom:minecraft.leave_game
+
+execute unless score #reload constant matches 1 run effect give @a minecraft:blindness 14 0 true
+execute unless score #reload constant matches 1 run effect give @a minecraft:night_vision 14 0 true
+execute unless score #reload constant matches 1 run effect give @a minecraft:slowness 14 128 true
+execute unless score #reload constant matches 1 run title @a times 20 240 10
+execute unless score #reload constant matches 1 run title @a subtitle {"translate":"aot","color":"dark_red"}
+execute unless score #reload constant matches 1 run title @a title {"text":"\uE003"}
+execute unless score #reload constant matches 1 as @a at @s run playsound minecraft:ambient.nether_wastes.mood player @s ~ ~ ~ 1 .1
+
+execute if score #reload constant matches 1 run tellraw @a ["\n\n\n\n\n",{"text":"\uE003"}," ",{"text": "Shingeki no Craft","color": "dark_red","bold": true},"\n\n",{"translate": "aot.credit","color":"gold"},{"text":" Fanfo","bold": true},"\n",{"translate": "aot.collab","color":"yellow"},{"text":" Zabat", "bold": true},"\n",{"translate": "aot.support"}," ",{"translate": "aot.sp0","color":"red","bold": true},{"translate": "aot.sp1","color":"gold","bold": true},{"translate": "aot.sp2","color":"yellow","bold": true},{"translate": "aot.sp3","color":"green","bold": true},{"translate": "aot.sp4","color":"aqua","bold": true},{"translate": "aot.sp5","color":"red","bold": true},{"translate": "aot.sp6","color":"gold","bold": true},{"translate": "aot.sp7","color":"yellow","bold": true},{"translate": "aot.sp8","color":"green","bold": true},{"translate": "aot.sp9","color":"aqua","bold": true},{"translate": "aot.sp10","color":"red","bold": true},{"translate": "aot.sp11","color":"gold","bold": true},{"translate": "aot.sp12","color":"yellow","bold": true},{"translate": "aot.sp13","color":"green","bold": true},{"translate": "aot.sp14","color":"aqua","bold": true},{"text": " ✮"}]
+execute if score #reload constant matches 1 as @a at @s run playsound minecraft:block.amethyst_block.hit master @s ~ ~ ~ 1 1.3
+scoreboard players set #reload constant 1
 
 ## Titans
 function snc:titans/arguments
@@ -62,8 +66,8 @@ scoreboard objectives add odm_push dummy
 scoreboard objectives add odm_action dummy
 
 scoreboard objectives add rot_throw dummy
-scoreboard objectives add rot_impulse_x dummy
-scoreboard objectives add rot_impulse_y dummy
+scoreboard objectives add snc.rotation_x dummy
+scoreboard objectives add snc.rotation_y dummy
 
 scoreboard objectives add id_detect_R dummy
 scoreboard objectives add id_detect_L dummy

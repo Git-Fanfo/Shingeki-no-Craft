@@ -1,12 +1,11 @@
-# ATTACK
-execute if entity @s[scores={atk=70}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":189}}}
-execute if entity @s[scores={atk=68}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":190}}}
-execute if entity @s[scores={atk=66}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":191}}}
-execute if entity @s[scores={atk=64}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":192}}}
-execute if entity @s[scores={atk=62}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":193}}}
-execute if entity @s[scores={atk=60}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":194}}}
-execute if entity @s[scores={atk=58}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":195}}}
-execute if entity @s[scores={atk=56}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":196}}}
-execute if entity @s[scores={atk=54}] run data merge entity @s {item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":197}}}
+execute if score @s atk matches 70 run data modify entity @s item.components.minecraft:custom_model_data set value 189
+execute if score @s atk matches 68 run data modify entity @s item.components.minecraft:custom_model_data set value 190
+execute if score @s atk matches 66 run data modify entity @s item.components.minecraft:custom_model_data set value 191
+execute if score @s atk matches 64 run data modify entity @s item.components.minecraft:custom_model_data set value 192
+execute if score @s atk matches 62 run data modify entity @s item.components.minecraft:custom_model_data set value 193
+execute if score @s atk matches 60 run data modify entity @s item.components.minecraft:custom_model_data set value 194
+execute if score @s atk matches 58 run data modify entity @s item.components.minecraft:custom_model_data set value 195
+execute if score @s atk matches 56 run data modify entity @s item.components.minecraft:custom_model_data set value 196
+execute if score @s atk matches 54 run data modify entity @s item.components.minecraft:custom_model_data set value 197
 
-execute if entity @s[scores={atk=1..44}] run tag @s remove attack_2
+execute if score @s atk matches ..54 run tag @s remove attack

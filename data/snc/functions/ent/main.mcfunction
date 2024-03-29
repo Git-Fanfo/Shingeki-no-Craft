@@ -16,7 +16,7 @@ execute if score ticks clock matches 19 run function snc:ent/seconds
 
 ## Titans
 # Pure
-execute if entity @s[tag=titan,type=!player] run function snc:titans/main
+execute if entity @s[tag=titan] run function snc:titans/main
 ## This second part handle pure titans
 execute if entity @s[type=pig] run function snc:titans/trigger
 
@@ -30,7 +30,7 @@ execute if entity @s[tag=bullet] run function snc:player/gun/select_bullet
 execute if entity @s[tag=odm] run function snc:player/odm/main
 
 ## Shifter
-execute if entity @s[tag=shifter,type=!player,type=!villager] run function snc:shifters/mobs/check_dead
+execute if entity @s[tag=shifter,type=!villager] run function snc:shifters/mobs/check_dead
 
 ## Village
 # Show blood
