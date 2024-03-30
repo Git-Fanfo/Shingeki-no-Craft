@@ -23,10 +23,10 @@
     },
     "criteria": {
         "unlock": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {
-        "function": "snc:logic/manual/init"
+        "function": "snc:api/give/misc/guide/shingeki"
     }
 }

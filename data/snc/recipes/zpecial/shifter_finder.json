@@ -14,9 +14,10 @@
     "id": "minecraft:carrot_on_a_stick",
     "components": {
         "custom_data":{"shifters_finder":true,"snc_item":1},
-        "minecraft:custom_model_data": 16,
-        "minecraft:custom_name":"{\"translate\":\"aot.finder\",\"color\":\"light_purple\",\"italic\":false}",
-        "minecraft:lore":["{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.finder.desc\",\"color\":\"blue\",\"bold\":false,\"italic\":false}"]
+        "custom_model_data": 16,
+        "item_name":"{\"translate\":\"aot.finder\"}",
+        "lore":["{\"text\":\"  \"}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.finder.desc\",\"color\":\"blue\",\"bold\":false,\"italic\":false}"],
+        "rarity":"epic"
     }
   }
 }

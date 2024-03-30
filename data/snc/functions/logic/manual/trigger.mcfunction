@@ -1,6 +1,5 @@
 ## Available ID's
 
-execute as @s[scores={manual=8}] run function snc:logic/first/main
 execute as @s[scores={manual=9}] run function snc:api/config
 execute as @s[scores={manual=11}] run function snc:logic/manual/shifters/attack
 execute as @s[scores={manual=12}] run function snc:logic/manual/shifters/beast

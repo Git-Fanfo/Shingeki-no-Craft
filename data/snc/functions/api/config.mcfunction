@@ -1,4 +1,5 @@
 scoreboard players enable @s manual
+playsound minecraft:block.iron_door.close master @s ~ ~ ~ 1 1.3
 
 tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n░░░░░▒▒▒▓▓█","color":"blue"},{"text":"【","color":"yellow"},{"translate":"aot.config","color":"gold","bold": true},{"text":"】","color":"yellow"},{"text":"█▓▓▒▒▒░░░░░","color":"blue"}]
 ## Survey Corps

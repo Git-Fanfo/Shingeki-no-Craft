@@ -19,23 +19,13 @@ scoreboard objectives add death deathCount
 scoreboard objectives add random dummy
 scoreboard objectives add snc.leave minecraft.custom:minecraft.leave_game
 
-execute unless score #reload constant matches 2.. run effect give @a minecraft:blindness 14 0 true
-execute unless score #reload constant matches 2.. run effect give @a minecraft:night_vision 14 0 true
-execute unless score #reload constant matches 2.. run effect give @a minecraft:slowness 14 128 true
-execute unless score #reload constant matches 2.. run effect give @a minecraft:slow_falling 14 0 true
-execute unless score #reload constant matches 2.. as @a at @s run tp ~ ~70 ~ 
-execute unless score #reload constant matches 2.. run title @a times 20 240 10
-execute unless score #reload constant matches 2.. run title @a subtitle {"translate":"aot","color":"dark_red"}
-execute unless score #reload constant matches 2.. run title @a title {"text":"\uE003"}
-execute unless score #reload constant matches 2.. as @a at @s run playsound minecraft:ambient.nether_wastes.mood player @s ~ ~ ~ 1 .1
-
-execute if score #reload constant matches 2.. run tellraw @a ["\n\n\n\n\n",{"text":"\uE003"}," ",{"text": "Shingeki no Craft","color": "dark_red","bold": true},"\n\n",{"translate": "aot.credit","color":"gold"},{"text":" Fanfo","bold": true},"\n",{"translate": "aot.collab","color":"yellow"},{"text":" Zabat", "bold": true},"\n",{"translate": "aot.support"}," ",{"translate": "aot.sp0","color":"red","bold": true},{"translate": "aot.sp1","color":"gold","bold": true},{"translate": "aot.sp2","color":"yellow","bold": true},{"translate": "aot.sp3","color":"green","bold": true},{"translate": "aot.sp4","color":"aqua","bold": true},{"translate": "aot.sp5","color":"red","bold": true},{"translate": "aot.sp6","color":"gold","bold": true},{"translate": "aot.sp7","color":"yellow","bold": true},{"translate": "aot.sp8","color":"green","bold": true},{"translate": "aot.sp9","color":"aqua","bold": true},{"translate": "aot.sp10","color":"red","bold": true},{"translate": "aot.sp11","color":"gold","bold": true},{"translate": "aot.sp12","color":"yellow","bold": true},{"translate": "aot.sp13","color":"green","bold": true},{"translate": "aot.sp14","color":"aqua","bold": true},{"text": " ❤","color":"red"}]
-execute if score #reload constant matches 2.. as @a at @s run playsound minecraft:block.amethyst_block.hit master @s ~ ~ ~ 1 1.3
-
-scoreboard players add #reload constant 1
+tellraw @a ["\n\n\n\n\n",{"text":"\uE003"}," ",{"text": "Shingeki no Craft","color": "dark_red","bold": true},"\n\n",{"translate": "aot.credit","color":"gold"},{"text":" Fanfo","bold": true},"\n",{"translate": "aot.collab","color":"yellow"},{"text":" Zabat", "bold": true},"\n",{"translate": "aot.support"}," ",{"translate": "aot.sp0","color":"red","bold": true},{"translate": "aot.sp1","color":"gold","bold": true},{"translate": "aot.sp2","color":"yellow","bold": true},{"translate": "aot.sp3","color":"green","bold": true},{"translate": "aot.sp4","color":"aqua","bold": true},{"translate": "aot.sp5","color":"red","bold": true},{"translate": "aot.sp6","color":"gold","bold": true},{"translate": "aot.sp7","color":"yellow","bold": true},{"translate": "aot.sp8","color":"green","bold": true},{"translate": "aot.sp9","color":"aqua","bold": true},{"translate": "aot.sp10","color":"red","bold": true},{"translate": "aot.sp11","color":"gold","bold": true},{"translate": "aot.sp12","color":"yellow","bold": true},{"translate": "aot.sp13","color":"green","bold": true},{"translate": "aot.sp14","color":"aqua","bold": true},{"text": " ❤","color":"red"}]
+execute as @a at @s run playsound minecraft:block.amethyst_block.hit master @s ~ ~ ~ 1 1.3
 
 ## Titans
 function snc:titans/arguments
+
+scoreboard objectives add snc.time dummy
 
 scoreboard objectives add kill_cool dummy
 scoreboard objectives add idle dummy
@@ -45,7 +35,6 @@ scoreboard objectives add movx dummy
 scoreboard objectives add movz dummy
 scoreboard objectives add volt_range dummy
 scoreboard objectives add volt_spread dummy
-
 
 # Execute each second
 scoreboard objectives add clock dummy
@@ -60,6 +49,7 @@ scoreboard objectives add man_cool dummy
 #   1 -> waiting to be pulled
 #   2 -> landed on left
 #   3 -> landed on right
+function player_motion:api/launch_looking
 scoreboard objectives add odm_state dummy
 scoreboard objectives add odm_dmg_R dummy
 scoreboard objectives add odm_dmg_L dummy

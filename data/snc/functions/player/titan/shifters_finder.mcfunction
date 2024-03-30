@@ -1,3 +1,5 @@
+playsound minecraft:block.iron_door.close master @s ~ ~ ~ 1 1.3
+
 ##### HOW TO CREATE A SHIFTER #####
 tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n░░░░░▒▒▒▓▓█","color":"blue"},{"text":"【","color":"yellow"},{"translate":"SHIFTERS","color":"gold","bold": true},{"text":"】","color":"yellow"},{"text":"█▓▓▒▒▒░░░░░","color":"blue"}]
 
@@ -14,4 +16,4 @@ execute if score $beast.doesnt.exists shifter_vars matches 0 run tellraw @s ["",
 execute if score $beast.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.beast","color":"green"}," ",{"translate":"aot.shifters.not_born"}]
 
 execute if score $armor.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"text":"Armor x: ","color":"green"},{"score":{"name":"#x_armor", "objective": "shifter_vars"}},{"text":" z: ","color":"green"},{"score":{"name":"#z_armor", "objective": "shifter_vars"}}]
-execute if score $armor.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.armor","color":"green"}," ",{"translate":"aot.shifters.not_born"}]
+execute if score $armor.doesnt.exists shifter_vars matches 1 run tellraw @s ["",{"translate":"aot.titan.armor","color":"gold"}," ",{"translate":"aot.shifters.not_born"}]

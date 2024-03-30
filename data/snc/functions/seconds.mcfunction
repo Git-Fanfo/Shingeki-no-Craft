@@ -15,8 +15,3 @@ execute if score 15m clock matches 900.. run function snc:logic/schedule/15m/mai
 ## 1m : test
 scoreboard players add 1m clock 1
 execute if score 1m clock matches 60.. run scoreboard players set 1m clock 0
-
-# Summon villagers
-execute unless score init config matches 11.. run scoreboard players add init config 1
-#start function
-execute if score init config matches 1..10 run function snc:logic/first/init

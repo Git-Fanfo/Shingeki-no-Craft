@@ -1,0 +1,4 @@
+execute if entity @s[tag=!transform] store result score @s gamemode run data get entity @s playerGameType
+
+execute if score @s gamemode matches 1 run playsound minecraft:block.iron_door.close master @s ~ ~ ~ 1 1.3
+execute if score @s gamemode matches 1 run tellraw @s ["\n",{"translate":"aot.bdcst.creat.1"}," ",{"translate":"aot.bdcst.creat.2","bold": true,"color": "gold"}," (",{"text":"/function snc:api/...","color": "yellow"},") ",{"translate":"aot.bdcst.creat.3"},"\n\n",{"translate":"aot.bdcst.creat.4","color":"green","bold": true},"\n",{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.bdcst.creat.5"}," ",{"translate":"/function snc:api/all_items","color": "yellow"},"\n",{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.bdcst.creat.6"}," ",{"translate":"/function snc:api/config","color": "yellow"}]

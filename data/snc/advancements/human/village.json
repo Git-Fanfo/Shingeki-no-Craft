@@ -30,7 +30,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "biome": "snc:village"
+                  "biomes": "snc:village"
                 }
               }
             }

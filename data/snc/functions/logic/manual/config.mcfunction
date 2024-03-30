@@ -79,5 +79,5 @@ execute if score @s manual matches -1008 run scoreboard players set $special con
 execute if score @s manual matches -1009 run scoreboard players set $special config 0
 
 execute unless score @s manual matches -100 run function snc:api/config
-execute as @s[scores={manual=-100}] run function snc:logic/first/reload
+execute as @s[scores={manual=-100}] run function snc:logic/broadcast/reload
 scoreboard players set @s manual 0
