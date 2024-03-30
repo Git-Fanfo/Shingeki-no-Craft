@@ -1,11 +1,11 @@
-execute unless score @s kill_cool matches 0.. run scoreboard players set @s kill_cool 600
+execute unless score @s snc.despawn matches 0.. run scoreboard players set @s snc.despawn 600
 
 # If is near 6 chunks keep alive
-execute if score @s kill_cool matches 1.. if entity @a[distance=..96] run scoreboard players set @s kill_cool 600
-execute if score @s kill_cool matches 1.. run scoreboard players remove @s kill_cool 1
+execute if score @s snc.despawn matches 1.. if entity @a[distance=..96] run scoreboard players set @s snc.despawn 600
+execute if score @s snc.despawn matches 1.. run scoreboard players remove @s snc.despawn 1
 
-# If exceded kill_cool time
-execute unless score @s kill_cool matches 1.. run function snc:logic/kill_mob
+# If exceded snc.despawn time
+execute unless score @s snc.despawn matches 1.. run function snc:logic/kill_mob
 
 # kill chest
 execute unless data entity @s Passengers run function snc:logic/kill_mob

@@ -17,8 +17,6 @@ execute if score ticks clock matches 19 run function snc:ent/seconds
 ## Titans
 # Pure
 execute if entity @s[tag=titan] run function snc:titans/main
-## This second part handle pure titans
-execute if entity @s[type=pig] run function snc:titans/trigger
 
 ## Apply Motion to not moving projectiles
 execute if entity @s[tag=not_mov] rotated as @p run function snc:logic/apply_motion/main

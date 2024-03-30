@@ -27,7 +27,7 @@ function snc:titans/arguments
 
 scoreboard objectives add snc.time dummy
 
-scoreboard objectives add kill_cool dummy
+scoreboard objectives add snc.despawn dummy
 scoreboard objectives add idle dummy
 scoreboard objectives add atk dummy
 scoreboard objectives add walk dummy

@@ -12,4 +12,6 @@ execute as @s[tag=send] run function snc:titans/send_tags
 
 execute as @s[tag=snc.hall] run function snc:titans/hallucigenia/main
 
+execute as @s[tag=snc.titan.spawn] run function snc:titans/spawn/trigger
+
 return 0

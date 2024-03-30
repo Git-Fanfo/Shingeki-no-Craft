@@ -12,7 +12,7 @@ tag @s[type=player] add consume
 execute if entity @s[type=player] run effect give @a[distance=..5,sort=nearest,limit=3] resistance 5 127 true
 #execute if entity @s[type=player] run team join titan
 
-function snc:titans/select_titan
+function snc:titans/spawn/titan
 execute if entity @s[type=!player] run kill
 ride @s mount @e[tag=hurtbox,sort=nearest,limit=1]
 execute if entity @s[type=player] run function snc:titans/abilities/give

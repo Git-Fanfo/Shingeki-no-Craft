@@ -13,9 +13,10 @@ execute if score titan spawn matches 4 if entity @s[tag=!abnormal] run function 
 execute if score titan spawn matches 5 run function snc:titans/ai/join_leader {"titan":"titan_7"}
 
 tag @s remove abnormal
-execute unless entity @s[type=player] run function snc:titans/kill_spawn
 
-# Incrementar scoreboard
+## Add scoreboad
 scoreboard players add titan spawn 1
-#Reset
-execute if score titan spawn matches 6 run scoreboard players set titan spawn 0
+## Reset
+execute if score titan spawn matches 6.. run scoreboard players set titan spawn 0
+
+execute unless entity @s[type=player] run function snc:titans/spawn/remove
