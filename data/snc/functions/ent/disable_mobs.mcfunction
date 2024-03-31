@@ -10,6 +10,7 @@ execute as @s[type=phantom] run function snc:logic/disable {"mob":"phantom"}
 execute as @s[type=enderman] run function snc:logic/disable {"mob":"enderman"}
 
 ### DON'T TOUCH THIS ###
+execute as @s[type=bat,tag=!odm] run return 0
 execute as @s[type=zombie_villager,tag=!titan] run function snc:logic/kill_mob
 execute as @s[type=wandering_trader,tag=!eldian] run function snc:logic/kill_mob
 execute as @s[type=creeper,tag=!motion] run function snc:logic/kill_mob

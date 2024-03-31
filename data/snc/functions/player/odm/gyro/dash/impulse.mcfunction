@@ -1,4 +1,3 @@
 effect give @s speed 1 4 true
-# scoreboard players set $strength player_motion.api.launch 15000
-function player_motion:api/launch_looking
+function snc:player/odm/impulse/push {"power":2, "x":"^", "y":"^", "z":"^-1"}
 effect give @s invisibility 1 0 true
