@@ -13,9 +13,9 @@ function snc:titans/hallucigenia/part {"part":"p11"}
 function snc:titans/hallucigenia/part {"part":"p12"}
 function snc:titans/hallucigenia/part {"part":"p13"}
 function snc:titans/hallucigenia/part {"part":"p14"}
-function snc:titans/hallucigenia/part {"part":"p15"}
-function snc:titans/hallucigenia/part {"part":"p16"}
-function snc:titans/hallucigenia/part {"part":"p17"}
-function snc:titans/hallucigenia/part {"part":"p18"}
-function snc:titans/hallucigenia/part {"part":"p19"}
-function snc:titans/hallucigenia/part {"part":"p20"}
+#function snc:titans/hallucigenia/part {"part":"p15"}
+#function snc:titans/hallucigenia/part {"part":"p16"}
+#function snc:titans/hallucigenia/part {"part":"p17"}
+#function snc:titans/hallucigenia/part {"part":"p18"}
+#function snc:titans/hallucigenia/part {"part":"p19"}
+#function snc:titans/hallucigenia/part {"part":"p20"}

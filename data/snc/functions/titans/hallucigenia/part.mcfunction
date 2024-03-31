@@ -1,1 +1,1 @@
-$summon item_display ~ ~ ~ {teleport_duration:15,Tags:["titan","snc.hall","snc.hall.$(part)"],item:{id:"minecraft:turtle_scute",count:1,components:{"minecraft:custom_model_data":900}}}
+$summon item_display ~ ~ ~ {teleport_duration:3,Tags:["titan","snc.hall","snc.hall.$(part)"],item:{id:"minecraft:turtle_scute",count:1,components:{"minecraft:custom_model_data":900}}}

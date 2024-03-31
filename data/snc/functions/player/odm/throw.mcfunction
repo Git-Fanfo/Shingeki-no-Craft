@@ -3,7 +3,7 @@ execute at @s run playsound minecraft:aot.shoot player @a[distance=..8] ~ ~ ~ 1 
 # title @s actionbar {"text":"<   >","bold":true,"color":"gold"}
 execute rotated ~ 0 positioned ^.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
 execute rotated ~ 0 positioned ^-.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
-
+ride @s dismount
 # Save player ID to detect when ground
 execute store result score @s id_player run data get entity @s UUID[0]
 execute store result score @s id_detect_R run data get entity @s UUID[0]

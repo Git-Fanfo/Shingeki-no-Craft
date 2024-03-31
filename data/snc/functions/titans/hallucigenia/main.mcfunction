@@ -1,10 +1,12 @@
+## Dont uncomment this (joke)
 #execute if entity @s[tag=snc.hall.p0] at @p rotated ~ 0 positioned over world_surface run tp @s ~ ~1 ~ ~ ~
+## Dont uncomment this (joke)
 
 #execute if score ticks clock matches 0..9 if entity @s[tag=snc.hall.p0] run tp @s ^ ^ ^.05 ~6 ~
 #execute if score ticks clock matches 10.. if entity @s[tag=snc.hall.p0] run tp @s ^ ^ ^.05 ~-6 ~
-#execute if score turn clock matches 0 if entity @s[tag=snc.hall.p0] run tp @s ^-.2 ^ ^.4 ~8 -5
-#execute if score turn clock matches 1 if entity @s[tag=snc.hall.p0] run tp @s ^.2 ^ ^.4 ~-8 5
-execute if entity @s[tag=snc.hall.p0] run tp @s ^.1 ^-.27 ^.3 ~8 -45
+execute if entity @s[tag=snc.hall.p0] run tp @s ^ ^-.1 ^.05 ~8 -70
+# particle bubble ^-2.2 ^-1 ^-2 0 0 0 .1 1 force
+particle bubble_pop ~ ~-.2 ~ .1 .1 .1 .1 1 force
 
 function snc:titans/hallucigenia/rotate {"head":"p0", "tail": "p1"}
 function snc:titans/hallucigenia/rotate {"head":"p1", "tail": "p2"}
@@ -26,6 +28,9 @@ function snc:titans/hallucigenia/rotate {"head":"p16", "tail": "p17"}
 function snc:titans/hallucigenia/rotate {"head":"p17", "tail": "p18"}
 function snc:titans/hallucigenia/rotate {"head":"p18", "tail": "p19"}
 function snc:titans/hallucigenia/rotate {"head":"p19", "tail": "p20"}
+
+scoreboard players add @s snc.despawn 1
+execute if score @s snc.despawn matches 800 run kill
 
 # execute if entity @s[tag=snc.hall.p1] run tellraw @a ["",{"text":"Titans: "},{"score":{"name":"$snc.hall.p1","objective":"snc.rotation_x"}}]
 
