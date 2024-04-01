@@ -140,10 +140,10 @@ execute if score walk colossal_vars matches 50 rotated ~ 0 positioned ^8 ^-34 ^ 
 execute if score walk colossal_vars matches 30 rotated ~ 0 positioned ^8 ^-36 ^ run function snc:shifters/mobs/colossal/action/footstep/5 {"side":"-"}
 
 # Thights
-execute if score ticks clock matches 7 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:air replace #snc:building
-execute if score ticks clock matches 7 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:air replace #snc:building
-execute if score ticks clock matches 14 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:fire replace #snc:building
-execute if score ticks clock matches 14 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:fire replace #snc:building
+execute if score ticks clock matches 7 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:air replace #snc:destroy/building
+execute if score ticks clock matches 7 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:air replace #snc:destroy/building
+execute if score ticks clock matches 14 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:fire replace #snc:destroy/building
+execute if score ticks clock matches 14 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:fire replace #snc:destroy/building
 
 # SHAKE GROUND
 execute if score walk colossal_vars matches 110 run playsound minecraft:aot.footsteps player @a ~ ~ ~ 4.5 0

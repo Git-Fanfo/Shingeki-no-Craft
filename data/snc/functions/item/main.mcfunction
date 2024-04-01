@@ -11,4 +11,7 @@ execute if data entity @s Item.components."minecraft:custom_data".gun run functi
 execute if score @s atk matches 240 run function snc:player/titan/infect/food
 ## Replace name with custom name
 # Comment this line if everything starts lagging. Bomb's fault
-execute if score ticks clock matches 3 run data modify entity @s CustomName set from entity @s Item.components."minecraft:custom_name"
+data modify entity @s CustomName set from entity @s Item.components."minecraft:custom_name"
+
+# Read just once
+tag @s add snc.item

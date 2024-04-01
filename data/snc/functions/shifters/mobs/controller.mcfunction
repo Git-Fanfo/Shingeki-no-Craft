@@ -23,11 +23,3 @@ $execute if score state $(shifter)_vars matches 2..5 run \
 
 ## Height
 execute on passengers if entity @s[type=player] if score @s shifter_vars matches 2 on vehicle run function snc:shifters/mobs/colossal/action/movement/height
-
-## If nothing is riding then kill
-$execute \
-    if score state $(shifter)_vars matches 9 \
-    on passengers if entity @s[type=player] run \
-        ride @s dismount
-        
-execute unless data entity @s Passengers run function snc:logic/kill_mob

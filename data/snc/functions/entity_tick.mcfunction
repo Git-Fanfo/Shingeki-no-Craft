@@ -8,7 +8,7 @@ execute if score $van_vill config matches 1 as @e[type=player] at @s run functio
 # Hostile (Included Titans and Shifters)
 execute as @e[type=#snc:snc,tag=!aj.attack.bone,tag=!aj.beast.bone] at @s run function snc:ent/disable_mobs
 # Items
-execute as @e[type=item] at @s run function snc:item/main
+execute as @e[type=item,tag=!snc.item] at @s run function snc:item/main
 
 ## LIMITS
 execute if score #villager_c spawn matches 60.. as @e[type=villager,predicate=snc:villager/is_adult,sort=random,limit=5] run function snc:logic/kill_mob

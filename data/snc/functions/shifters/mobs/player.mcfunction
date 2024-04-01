@@ -11,7 +11,6 @@ $execute unless score state $(shifter)_vars matches 1.. run \
         "step_height":$(step_height), \
         "scale_vehicle":$(scale_vehicle), \
         "scale_player":$(scale_player), \
-        "block_range":$(block_range), \
         "entity_range":$(entity_range) \
         }
 ## Health system
@@ -36,49 +35,6 @@ $execute \
     unless score state $(shifter)_vars matches 10.. \
     if score @s using_carrot matches 1.. run \
         function snc:shifters/human/check_action
-## Detect Roar
-$execute \
-    if score consume $(shifter)_vars matches ..20 \
-    if predicate snc:shifters/has_roar run \
-        function snc:shifters/mobs/roar {"shifter":"$(shifter)"}
-## Bite and Roar
-$execute \
-    if score consume $(shifter)_vars matches 0..20 run \
-        function snc:shifters/mobs/$(shifter)/animate/bite
-$execute \
-    if score consume $(shifter)_vars matches 61..220 run \
-        function snc:shifters/mobs/$(shifter)/animate/roar
-$execute \
-    if score consume $(shifter)_vars matches 0.. run \
-        scoreboard players remove consume $(shifter)_vars 1
 
-## UNIQUE: ATTACK
-# Combo!
-# combo_punch: 1 = enabled, 2 = trigger, 3 = enabled, 4 = trigger
-$execute \
-    if score combo_punch $(shifter)_vars matches 1 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/$(shifter)/atk_2] run \
-        scoreboard players set combo_punch $(shifter)_vars 2
-
-$execute \
-    if score combo_punch $(shifter)_vars matches 3 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/$(shifter)/atk_2] run \
-        scoreboard players set combo_punch $(shifter)_vars 4
-
-# combo_kick: 1 = enabled, 2 = trigger, 3 = enabled, 4 = trigger
-execute \
-    if score @s shifter_vars matches 3 if score combo_kick attack_vars matches 1 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/attack/atk_3] run \
-        scoreboard players set combo_kick attack_vars 2
-
-execute \
-    if score @s shifter_vars matches 3 if score combo_kick attack_vars matches 3 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/attack/atk_3] run \
-        scoreboard players set combo_kick attack_vars 4
-
-## if shifter_vars[@s] == 3 and attack_vars[combo_kick] == 3 and \
-##    using_carrot[@s] >= 1 and has_atk_4?(@s) :
-##         attack_vars[combo_kick] = 4
-
-## UNIQUE: BEAST
-execute if score @s shifter_vars matches 4 positioned ^ ^ ^13 positioned over world_surface as @e[type=#snc:baseball,tag=!transform] run function snc:shifters/mobs/beast/action/grab/highlight
+$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/mobs/combat {"shifter":$(shifter)}
+$execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/mobs/utility {"shifter":$(shifter), "block_range":$(block_range)}

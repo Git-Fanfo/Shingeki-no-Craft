@@ -1,3 +1,3 @@
-tp @s ~ ~1000 ~
-execute at @s positioned ^ ^ ^-1 summon end_crystal run damage @s 0
-tp @s ~ ~ ~
+item replace entity @s container.0 from entity @p weapon.mainhand
+damage @s 0
+kill @s

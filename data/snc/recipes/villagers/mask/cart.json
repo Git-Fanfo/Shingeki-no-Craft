@@ -7,6 +7,7 @@
       "id": "carved_pumpkin",
       "count": 1,
       "components" : {
+        "custom_data":{"snc_item":1},
         "custom_name": "[{\"translate\":\"aot.titan.cart\",\"color\":\"white\",\"italic\":false},\" \",{\"translate\":\"aot.mask\"}]",
         "lore": [
           "{\"translate\":\"Decoration\",\"color\":\"blue\",\"italic\":false}"

@@ -2,7 +2,10 @@
 # execute unless predicate snc:shifters/has_remove run playsound block.beacon.power_select player @s ~ ~ ~ 1 2
 execute if predicate snc:shifters/has_remove run playsound block.beacon.deactivate player @s ~ ~ ~ 1 2
 
-$scoreboard players remove $energy $(shifter)_vars $(energy_attack)
+$execute if predicate snc:shifters/has_gamemode run scoreboard players operation $gamemode $(shifter)_vars *= #-1 constant
+
+# Dont use energy while sneaking
+$execute unless score state $(shifter)_vars matches 2 run scoreboard players remove $energy $(shifter)_vars $(energy_attack)
 
 ## Colossal
 # Wallbreaker
@@ -53,3 +56,6 @@ execute as @s[predicate=snc:shifters/beast/atk_5] unless score consume beast_var
 # Charge
 execute as @s[predicate=snc:shifters/armor/atk_1] run scoreboard players set state armor_vars 11
 execute as @s[predicate=snc:shifters/armor/atk_2] run scoreboard players set state armor_vars 13
+
+## Update Abilities
+$function snc:shifters/mobs/$(shifter)/abilities/give
