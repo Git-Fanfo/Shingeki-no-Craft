@@ -1,3 +1,0 @@
-# execute unless items entity @s container.1 *[custom_data~{atk_shifter:1b}|count~{max:0}] summon minecraft:item_frame run function snc:shifters/human/inventory/drop
-execute unless items entity @s container.1 *[custom_data~{atk_shifter:1b}|count~{max:0}] run function snc:shifters/human/inventory/item
-execute unless items entity @s container.1 *[custom_data~{atk_shifter:1b}|count~{max:0}] run item replace entity @s container.1 with air

@@ -1,2 +1,0 @@
-summon item ~ ~ ~ {PickupDelay:100,Tags:["snc.item.drop"],Item:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_model_data":1}}}
-execute as @e[tag=snc.item.drop,sort=nearest,limit=1] run function snc:shifters/human/inventory/drop

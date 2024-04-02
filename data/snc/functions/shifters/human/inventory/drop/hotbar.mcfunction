@@ -1,0 +1,6 @@
+execute unless items entity @s container.1 *[custom_data~{atk_shifter:1b}|count~{max:0}] positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/container_1
+execute unless items entity @s container.2 *[custom_data~{atk_shifter:1b}|count~{max:0}] positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/container_2
+execute unless items entity @s container.3 *[custom_data~{atk_shifter:1b}|count~{max:0}] positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/container_3
+execute unless items entity @s container.4 *[custom_data~{atk_shifter:1b}|count~{max:0}] positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/container_4
+execute unless items entity @s container.5 *[custom_data~{atk_shifter:1b}|count~{max:0}] positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/container_5
+execute unless items entity @s container.6 *[custom_data~{atk_shifter:1b}|count~{max:0}] positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/container_6

@@ -11,7 +11,7 @@ execute if score entities config matches 400..549 run tellraw @s ["",{"translate
 
 execute if score entities config matches 550.. run tellraw @s ["",{"translate":"aot.status.entity","color":"white"},{"score":{"name":"entities","objective":"config"}},{"translate":"aot.status.entity.desc3","color":"dark_red"}]
 
-broken
+broke
 
 tellraw @s [""]
 # Count entities

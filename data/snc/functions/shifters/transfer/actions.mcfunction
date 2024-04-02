@@ -1,9 +1,21 @@
 item replace entity @s container.9 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
-# ...
+item replace entity @s container.10 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.11 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.12 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.13 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.14 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.15 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.16 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
 item replace entity @s container.17 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
 
 item replace entity @s container.18 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
-# ...
+item replace entity @s container.19 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.20 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.21 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.22 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.23 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.24 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
+item replace entity @s container.25 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
 item replace entity @s container.26 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},custom_name="{text:\" \"}"]
 
 

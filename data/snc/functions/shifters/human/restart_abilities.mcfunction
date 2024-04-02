@@ -12,5 +12,5 @@ execute if score @s[tag=transform] shifter_vars matches 3 run function snc:shift
 execute if score @s[tag=transform] shifter_vars matches 4 run function snc:shifters/mobs/beast/abilities/give
 execute if score @s[tag=transform] shifter_vars matches 5 run function snc:shifters/mobs/armor/abilities/give
 
-advancement revoke @s only snc:shifters/inventory_changed
+# advancement revoke @s only snc:shifters/inventory_changed
 advancement revoke @s only snc:shifters/player_armor

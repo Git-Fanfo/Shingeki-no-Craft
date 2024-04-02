@@ -1,5 +1,4 @@
-clear @s carrot_on_a_stick[custom_data~{atk_shifter:1b}]
-clear @s spyglass[custom_data~{atk_shifter:1b}]
+function snc:shifters/abilities/clear
 
 function snc:shifters/mobs/cart/abilities/atk_3 with storage minecraft:cart
 function snc:shifters/mobs/cart/abilities/atk_5 with storage minecraft:cart

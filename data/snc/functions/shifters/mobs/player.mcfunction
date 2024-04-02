@@ -26,6 +26,9 @@ $execute unless score state $(shifter)_vars matches 9 unless predicate snc:shift
 # Rotation
 $execute store result score player_rotation $(shifter)_vars run data get entity @s Rotation[0]
 
+## Prevent Moving Inventory (Almost)
+$execute if items entity @s player.cursor *[minecraft:custom_data~{atk_shifter:1b}] run function snc:shifters/mobs/$(shifter)/abilities/give
+
 effect give @s invisibility 2 0 true
 $effect give @s resistance 3 $(resistance) true
 effect give @s saturation 1 0 true

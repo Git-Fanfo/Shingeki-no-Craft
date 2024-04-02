@@ -20,6 +20,7 @@ $scoreboard players operation #posx1 $(shifter)_vars += #posz1 $(shifter)_vars
 
 ## Running
 $execute \
+    if score $gamemode $(shifter)_vars matches 1 \
     if score #posx1 $(shifter)_vars matches 1.. \
     unless score mov $(shifter)_vars matches 80.. run \
         scoreboard players add mov $(shifter)_vars 2

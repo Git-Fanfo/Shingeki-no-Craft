@@ -1,5 +1,5 @@
-clear @s carrot_on_a_stick[custom_data~{atk_shifter:1b}]
-clear @s spyglass[custom_data~{atk_shifter:1b}]
+function snc:shifters/abilities/clear
+
 function snc:shifters/mobs/beast/abilities/atk_5 with storage minecraft:beast
 execute unless score $hold beast_vars matches 1 run function snc:shifters/mobs/beast/abilities/atk_1 with storage minecraft:beast
 execute if score $hold beast_vars matches 1 run function snc:shifters/mobs/beast/abilities/atk_2 with storage minecraft:beast

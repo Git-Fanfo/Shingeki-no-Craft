@@ -181,6 +181,13 @@ execute unless score $beast.doesnt.exists shifter_vars matches 0 run scoreboard 
 scoreboard objectives add apply_damage dummy
 scoreboard players set base apply_damage 1024
 
+## Chests
+scoreboard objectives add snc.ender minecraft.custom:minecraft.open_enderchest
+scoreboard objectives add snc.chest minecraft.custom:minecraft.open_chest
+scoreboard objectives add snc.barrel minecraft.custom:minecraft.open_barrel
+scoreboard objectives add snc.shulker minecraft.custom:minecraft.open_shulker_box
+scoreboard objectives add snc.trap minecraft.custom:minecraft.trigger_trapped_chest
+
 # teams
 team add titan
 team modify titan seeFriendlyInvisibles false

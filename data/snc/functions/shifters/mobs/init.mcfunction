@@ -17,6 +17,12 @@ $bossbar set minecraft:$(shifter)_health style notched_6
 $scoreboard players set state $(shifter)_vars 1
 $scoreboard players set $gamemode $(shifter)_vars 1
 
+scoreboard players reset @s snc.ender
+scoreboard players reset @s snc.chest
+scoreboard players reset @s snc.barrel
+scoreboard players reset @s snc.shulker
+scoreboard players reset @s snc.trap
+
 effect give @s resistance 5 4 true
 $attribute @s generic.scale base set $(scale_player)
 $attribute @s player.entity_interaction_range base set $(entity_range)
