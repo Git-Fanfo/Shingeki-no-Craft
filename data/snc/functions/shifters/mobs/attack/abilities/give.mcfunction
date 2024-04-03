@@ -1,5 +1,6 @@
 ## Drop current items before replace
 function snc:shifters/human/inventory/drop/hotbar
+function snc:shifters/human/inventory/drop/armor
 
 function snc:shifters/abilities/clear
 

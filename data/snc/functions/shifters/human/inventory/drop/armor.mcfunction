@@ -1,0 +1,4 @@
+execute unless items entity @s armor.head minecraft:carved_pumpkin positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/armor_head
+execute if items entity @s armor.chest #minecraft:chest_armor positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/armor_chest
+execute if items entity @s armor.legs #minecraft:leg_armor positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/armor_legs
+execute if items entity @s armor.feet #minecraft:foot_armor positioned ~ ~2 ~ summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/armor_feet

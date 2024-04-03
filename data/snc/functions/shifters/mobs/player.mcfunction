@@ -28,6 +28,11 @@ $execute store result score player_rotation $(shifter)_vars run data get entity 
 
 ## Prevent Moving Inventory (Almost)
 $execute if items entity @s player.cursor *[minecraft:custom_data~{atk_shifter:1b}] run function snc:shifters/mobs/$(shifter)/abilities/give
+# Prevent using armor
+execute unless items entity @s armor.head minecraft:carved_pumpkin run function snc:shifters/human/restart_abilities
+execute if items entity @s armor.chest #minecraft:chest_armor run function snc:shifters/human/restart_abilities
+execute if items entity @s armor.legs #minecraft:leg_armor run function snc:shifters/human/restart_abilities
+execute if items entity @s armor.feet #minecraft:foot_armor run function snc:shifters/human/restart_abilities
 
 effect give @s invisibility 2 0 true
 $effect give @s resistance 3 $(resistance) true
@@ -40,4 +45,4 @@ $execute \
         function snc:shifters/human/check_action
 
 $execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/mobs/combat {"shifter":$(shifter)}
-$execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/mobs/utility {"shifter":$(shifter), "block_range":$(block_range)}
+$execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}

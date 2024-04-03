@@ -1,402 +1,402 @@
-execute if block ^-5 ^0 ^-5 #snc:destroy/nature run setblock ^-5 ^0 ^-5 air destroy
-execute if block ^-5 ^5 ^-5 #snc:destroy/nature run setblock ^-5 ^5 ^-5 air destroy
-execute if block ^-5 ^0 ^-4 #snc:destroy/nature run setblock ^-5 ^0 ^-4 air destroy
-execute if block ^-5 ^5 ^-4 #snc:destroy/nature run setblock ^-5 ^5 ^-4 air destroy
-execute if block ^-5 ^0 ^-3 #snc:destroy/nature run setblock ^-5 ^0 ^-3 air destroy
-execute if block ^-5 ^5 ^-3 #snc:destroy/nature run setblock ^-5 ^5 ^-3 air destroy
-execute if block ^-5 ^0 ^-2 #snc:destroy/nature run setblock ^-5 ^0 ^-2 air destroy
-execute if block ^-5 ^5 ^-2 #snc:destroy/nature run setblock ^-5 ^5 ^-2 air destroy
-execute if block ^-5 ^0 ^-1 #snc:destroy/nature run setblock ^-5 ^0 ^-1 air destroy
-execute if block ^-5 ^5 ^-1 #snc:destroy/nature run setblock ^-5 ^5 ^-1 air destroy
-execute if block ^-5 ^0 ^0 #snc:destroy/nature run setblock ^-5 ^0 ^0 air destroy
-execute if block ^-5 ^5 ^0 #snc:destroy/nature run setblock ^-5 ^5 ^0 air destroy
-execute if block ^-5 ^0 ^1 #snc:destroy/nature run setblock ^-5 ^0 ^1 air destroy
-execute if block ^-5 ^5 ^1 #snc:destroy/nature run setblock ^-5 ^5 ^1 air destroy
-execute if block ^-5 ^0 ^2 #snc:destroy/nature run setblock ^-5 ^0 ^2 air destroy
-execute if block ^-5 ^5 ^2 #snc:destroy/nature run setblock ^-5 ^5 ^2 air destroy
-execute if block ^-5 ^0 ^3 #snc:destroy/nature run setblock ^-5 ^0 ^3 air destroy
-execute if block ^-5 ^5 ^3 #snc:destroy/nature run setblock ^-5 ^5 ^3 air destroy
-execute if block ^-5 ^0 ^4 #snc:destroy/nature run setblock ^-5 ^0 ^4 air destroy
-execute if block ^-5 ^5 ^4 #snc:destroy/nature run setblock ^-5 ^5 ^4 air destroy
-execute if block ^-5 ^0 ^5 #snc:destroy/nature run setblock ^-5 ^0 ^5 air destroy
-execute if block ^-5 ^5 ^5 #snc:destroy/nature run setblock ^-5 ^5 ^5 air destroy
-execute if block ^-4 ^0 ^-5 #snc:destroy/nature run setblock ^-4 ^0 ^-5 air destroy
-execute if block ^-4 ^5 ^-5 #snc:destroy/nature run setblock ^-4 ^5 ^-5 air destroy
-execute if block ^-4 ^0 ^-4 #snc:destroy/nature run setblock ^-4 ^0 ^-4 air destroy
-execute if block ^-4 ^5 ^-4 #snc:destroy/nature run setblock ^-4 ^5 ^-4 air destroy
-execute if block ^-4 ^0 ^-3 #snc:destroy/nature run setblock ^-4 ^0 ^-3 air destroy
-execute if block ^-4 ^5 ^-3 #snc:destroy/nature run setblock ^-4 ^5 ^-3 air destroy
-execute if block ^-4 ^0 ^-2 #snc:destroy/nature run setblock ^-4 ^0 ^-2 air destroy
-execute if block ^-4 ^5 ^-2 #snc:destroy/nature run setblock ^-4 ^5 ^-2 air destroy
-execute if block ^-4 ^0 ^-1 #snc:destroy/nature run setblock ^-4 ^0 ^-1 air destroy
-execute if block ^-4 ^5 ^-1 #snc:destroy/nature run setblock ^-4 ^5 ^-1 air destroy
-execute if block ^-4 ^0 ^0 #snc:destroy/nature run setblock ^-4 ^0 ^0 air destroy
-execute if block ^-4 ^5 ^0 #snc:destroy/nature run setblock ^-4 ^5 ^0 air destroy
-execute if block ^-4 ^0 ^1 #snc:destroy/nature run setblock ^-4 ^0 ^1 air destroy
-execute if block ^-4 ^5 ^1 #snc:destroy/nature run setblock ^-4 ^5 ^1 air destroy
-execute if block ^-4 ^0 ^2 #snc:destroy/nature run setblock ^-4 ^0 ^2 air destroy
-execute if block ^-4 ^5 ^2 #snc:destroy/nature run setblock ^-4 ^5 ^2 air destroy
-execute if block ^-4 ^0 ^3 #snc:destroy/nature run setblock ^-4 ^0 ^3 air destroy
-execute if block ^-4 ^5 ^3 #snc:destroy/nature run setblock ^-4 ^5 ^3 air destroy
-execute if block ^-4 ^0 ^4 #snc:destroy/nature run setblock ^-4 ^0 ^4 air destroy
-execute if block ^-4 ^5 ^4 #snc:destroy/nature run setblock ^-4 ^5 ^4 air destroy
-execute if block ^-4 ^0 ^5 #snc:destroy/nature run setblock ^-4 ^0 ^5 air destroy
-execute if block ^-4 ^5 ^5 #snc:destroy/nature run setblock ^-4 ^5 ^5 air destroy
-execute if block ^-3 ^0 ^-5 #snc:destroy/nature run setblock ^-3 ^0 ^-5 air destroy
-execute if block ^-3 ^5 ^-5 #snc:destroy/nature run setblock ^-3 ^5 ^-5 air destroy
-execute if block ^-3 ^0 ^-4 #snc:destroy/nature run setblock ^-3 ^0 ^-4 air destroy
-execute if block ^-3 ^5 ^-4 #snc:destroy/nature run setblock ^-3 ^5 ^-4 air destroy
-execute if block ^-3 ^0 ^-3 #snc:destroy/nature run setblock ^-3 ^0 ^-3 air destroy
-execute if block ^-3 ^5 ^-3 #snc:destroy/nature run setblock ^-3 ^5 ^-3 air destroy
-execute if block ^-3 ^0 ^-2 #snc:destroy/nature run setblock ^-3 ^0 ^-2 air destroy
-execute if block ^-3 ^5 ^-2 #snc:destroy/nature run setblock ^-3 ^5 ^-2 air destroy
-execute if block ^-3 ^0 ^-1 #snc:destroy/nature run setblock ^-3 ^0 ^-1 air destroy
-execute if block ^-3 ^5 ^-1 #snc:destroy/nature run setblock ^-3 ^5 ^-1 air destroy
-execute if block ^-3 ^0 ^0 #snc:destroy/nature run setblock ^-3 ^0 ^0 air destroy
-execute if block ^-3 ^5 ^0 #snc:destroy/nature run setblock ^-3 ^5 ^0 air destroy
-execute if block ^-3 ^0 ^1 #snc:destroy/nature run setblock ^-3 ^0 ^1 air destroy
-execute if block ^-3 ^5 ^1 #snc:destroy/nature run setblock ^-3 ^5 ^1 air destroy
-execute if block ^-3 ^0 ^2 #snc:destroy/nature run setblock ^-3 ^0 ^2 air destroy
-execute if block ^-3 ^5 ^2 #snc:destroy/nature run setblock ^-3 ^5 ^2 air destroy
-execute if block ^-3 ^0 ^3 #snc:destroy/nature run setblock ^-3 ^0 ^3 air destroy
-execute if block ^-3 ^5 ^3 #snc:destroy/nature run setblock ^-3 ^5 ^3 air destroy
-execute if block ^-3 ^0 ^4 #snc:destroy/nature run setblock ^-3 ^0 ^4 air destroy
-execute if block ^-3 ^5 ^4 #snc:destroy/nature run setblock ^-3 ^5 ^4 air destroy
-execute if block ^-3 ^0 ^5 #snc:destroy/nature run setblock ^-3 ^0 ^5 air destroy
-execute if block ^-3 ^5 ^5 #snc:destroy/nature run setblock ^-3 ^5 ^5 air destroy
-execute if block ^-2 ^0 ^-5 #snc:destroy/nature run setblock ^-2 ^0 ^-5 air destroy
-execute if block ^-2 ^5 ^-5 #snc:destroy/nature run setblock ^-2 ^5 ^-5 air destroy
-execute if block ^-2 ^0 ^-4 #snc:destroy/nature run setblock ^-2 ^0 ^-4 air destroy
-execute if block ^-2 ^5 ^-4 #snc:destroy/nature run setblock ^-2 ^5 ^-4 air destroy
-execute if block ^-2 ^0 ^-3 #snc:destroy/nature run setblock ^-2 ^0 ^-3 air destroy
-execute if block ^-2 ^5 ^-3 #snc:destroy/nature run setblock ^-2 ^5 ^-3 air destroy
-execute if block ^-2 ^0 ^-2 #snc:destroy/nature run setblock ^-2 ^0 ^-2 air destroy
-execute if block ^-2 ^5 ^-2 #snc:destroy/nature run setblock ^-2 ^5 ^-2 air destroy
-execute if block ^-2 ^0 ^-1 #snc:destroy/nature run setblock ^-2 ^0 ^-1 air destroy
-execute if block ^-2 ^5 ^-1 #snc:destroy/nature run setblock ^-2 ^5 ^-1 air destroy
-execute if block ^-2 ^0 ^0 #snc:destroy/nature run setblock ^-2 ^0 ^0 air destroy
-execute if block ^-2 ^5 ^0 #snc:destroy/nature run setblock ^-2 ^5 ^0 air destroy
-execute if block ^-2 ^0 ^1 #snc:destroy/nature run setblock ^-2 ^0 ^1 air destroy
-execute if block ^-2 ^5 ^1 #snc:destroy/nature run setblock ^-2 ^5 ^1 air destroy
-execute if block ^-2 ^0 ^2 #snc:destroy/nature run setblock ^-2 ^0 ^2 air destroy
-execute if block ^-2 ^5 ^2 #snc:destroy/nature run setblock ^-2 ^5 ^2 air destroy
-execute if block ^-2 ^0 ^3 #snc:destroy/nature run setblock ^-2 ^0 ^3 air destroy
-execute if block ^-2 ^5 ^3 #snc:destroy/nature run setblock ^-2 ^5 ^3 air destroy
-execute if block ^-2 ^0 ^4 #snc:destroy/nature run setblock ^-2 ^0 ^4 air destroy
-execute if block ^-2 ^5 ^4 #snc:destroy/nature run setblock ^-2 ^5 ^4 air destroy
-execute if block ^-2 ^0 ^5 #snc:destroy/nature run setblock ^-2 ^0 ^5 air destroy
-execute if block ^-2 ^5 ^5 #snc:destroy/nature run setblock ^-2 ^5 ^5 air destroy
-execute if block ^-1 ^0 ^-5 #snc:destroy/nature run setblock ^-1 ^0 ^-5 air destroy
-execute if block ^-1 ^5 ^-5 #snc:destroy/nature run setblock ^-1 ^5 ^-5 air destroy
-execute if block ^-1 ^0 ^-4 #snc:destroy/nature run setblock ^-1 ^0 ^-4 air destroy
-execute if block ^-1 ^5 ^-4 #snc:destroy/nature run setblock ^-1 ^5 ^-4 air destroy
-execute if block ^-1 ^0 ^-3 #snc:destroy/nature run setblock ^-1 ^0 ^-3 air destroy
-execute if block ^-1 ^5 ^-3 #snc:destroy/nature run setblock ^-1 ^5 ^-3 air destroy
-execute if block ^-1 ^0 ^-2 #snc:destroy/nature run setblock ^-1 ^0 ^-2 air destroy
-execute if block ^-1 ^5 ^-2 #snc:destroy/nature run setblock ^-1 ^5 ^-2 air destroy
-execute if block ^-1 ^0 ^-1 #snc:destroy/nature run setblock ^-1 ^0 ^-1 air destroy
-execute if block ^-1 ^5 ^-1 #snc:destroy/nature run setblock ^-1 ^5 ^-1 air destroy
-execute if block ^-1 ^0 ^0 #snc:destroy/nature run setblock ^-1 ^0 ^0 air destroy
-execute if block ^-1 ^5 ^0 #snc:destroy/nature run setblock ^-1 ^5 ^0 air destroy
-execute if block ^-1 ^0 ^1 #snc:destroy/nature run setblock ^-1 ^0 ^1 air destroy
-execute if block ^-1 ^5 ^1 #snc:destroy/nature run setblock ^-1 ^5 ^1 air destroy
-execute if block ^-1 ^0 ^2 #snc:destroy/nature run setblock ^-1 ^0 ^2 air destroy
-execute if block ^-1 ^5 ^2 #snc:destroy/nature run setblock ^-1 ^5 ^2 air destroy
-execute if block ^-1 ^0 ^3 #snc:destroy/nature run setblock ^-1 ^0 ^3 air destroy
-execute if block ^-1 ^5 ^3 #snc:destroy/nature run setblock ^-1 ^5 ^3 air destroy
-execute if block ^-1 ^0 ^4 #snc:destroy/nature run setblock ^-1 ^0 ^4 air destroy
-execute if block ^-1 ^5 ^4 #snc:destroy/nature run setblock ^-1 ^5 ^4 air destroy
-execute if block ^-1 ^0 ^5 #snc:destroy/nature run setblock ^-1 ^0 ^5 air destroy
-execute if block ^-1 ^5 ^5 #snc:destroy/nature run setblock ^-1 ^5 ^5 air destroy
-execute if block ^0 ^0 ^-5 #snc:destroy/nature run setblock ^0 ^0 ^-5 air destroy
-execute if block ^0 ^5 ^-5 #snc:destroy/nature run setblock ^0 ^5 ^-5 air destroy
-execute if block ^0 ^0 ^-4 #snc:destroy/nature run setblock ^0 ^0 ^-4 air destroy
-execute if block ^0 ^5 ^-4 #snc:destroy/nature run setblock ^0 ^5 ^-4 air destroy
-execute if block ^0 ^0 ^-3 #snc:destroy/nature run setblock ^0 ^0 ^-3 air destroy
-execute if block ^0 ^5 ^-3 #snc:destroy/nature run setblock ^0 ^5 ^-3 air destroy
-execute if block ^0 ^0 ^-2 #snc:destroy/nature run setblock ^0 ^0 ^-2 air destroy
-execute if block ^0 ^5 ^-2 #snc:destroy/nature run setblock ^0 ^5 ^-2 air destroy
-execute if block ^0 ^0 ^-1 #snc:destroy/nature run setblock ^0 ^0 ^-1 air destroy
-execute if block ^0 ^5 ^-1 #snc:destroy/nature run setblock ^0 ^5 ^-1 air destroy
-execute if block ^0 ^0 ^0 #snc:destroy/nature run setblock ^0 ^0 ^0 air destroy
-execute if block ^0 ^5 ^0 #snc:destroy/nature run setblock ^0 ^5 ^0 air destroy
-execute if block ^0 ^0 ^1 #snc:destroy/nature run setblock ^0 ^0 ^1 air destroy
-execute if block ^0 ^5 ^1 #snc:destroy/nature run setblock ^0 ^5 ^1 air destroy
-execute if block ^0 ^0 ^2 #snc:destroy/nature run setblock ^0 ^0 ^2 air destroy
-execute if block ^0 ^5 ^2 #snc:destroy/nature run setblock ^0 ^5 ^2 air destroy
-execute if block ^0 ^0 ^3 #snc:destroy/nature run setblock ^0 ^0 ^3 air destroy
-execute if block ^0 ^5 ^3 #snc:destroy/nature run setblock ^0 ^5 ^3 air destroy
-execute if block ^0 ^0 ^4 #snc:destroy/nature run setblock ^0 ^0 ^4 air destroy
-execute if block ^0 ^5 ^4 #snc:destroy/nature run setblock ^0 ^5 ^4 air destroy
-execute if block ^0 ^0 ^5 #snc:destroy/nature run setblock ^0 ^0 ^5 air destroy
-execute if block ^0 ^5 ^5 #snc:destroy/nature run setblock ^0 ^5 ^5 air destroy
-execute if block ^1 ^0 ^-5 #snc:destroy/nature run setblock ^1 ^0 ^-5 air destroy
-execute if block ^1 ^5 ^-5 #snc:destroy/nature run setblock ^1 ^5 ^-5 air destroy
-execute if block ^1 ^0 ^-4 #snc:destroy/nature run setblock ^1 ^0 ^-4 air destroy
-execute if block ^1 ^5 ^-4 #snc:destroy/nature run setblock ^1 ^5 ^-4 air destroy
-execute if block ^1 ^0 ^-3 #snc:destroy/nature run setblock ^1 ^0 ^-3 air destroy
-execute if block ^1 ^5 ^-3 #snc:destroy/nature run setblock ^1 ^5 ^-3 air destroy
-execute if block ^1 ^0 ^-2 #snc:destroy/nature run setblock ^1 ^0 ^-2 air destroy
-execute if block ^1 ^5 ^-2 #snc:destroy/nature run setblock ^1 ^5 ^-2 air destroy
-execute if block ^1 ^0 ^-1 #snc:destroy/nature run setblock ^1 ^0 ^-1 air destroy
-execute if block ^1 ^5 ^-1 #snc:destroy/nature run setblock ^1 ^5 ^-1 air destroy
-execute if block ^1 ^0 ^0 #snc:destroy/nature run setblock ^1 ^0 ^0 air destroy
-execute if block ^1 ^5 ^0 #snc:destroy/nature run setblock ^1 ^5 ^0 air destroy
-execute if block ^1 ^0 ^1 #snc:destroy/nature run setblock ^1 ^0 ^1 air destroy
-execute if block ^1 ^5 ^1 #snc:destroy/nature run setblock ^1 ^5 ^1 air destroy
-execute if block ^1 ^0 ^2 #snc:destroy/nature run setblock ^1 ^0 ^2 air destroy
-execute if block ^1 ^5 ^2 #snc:destroy/nature run setblock ^1 ^5 ^2 air destroy
-execute if block ^1 ^0 ^3 #snc:destroy/nature run setblock ^1 ^0 ^3 air destroy
-execute if block ^1 ^5 ^3 #snc:destroy/nature run setblock ^1 ^5 ^3 air destroy
-execute if block ^1 ^0 ^4 #snc:destroy/nature run setblock ^1 ^0 ^4 air destroy
-execute if block ^1 ^5 ^4 #snc:destroy/nature run setblock ^1 ^5 ^4 air destroy
-execute if block ^1 ^0 ^5 #snc:destroy/nature run setblock ^1 ^0 ^5 air destroy
-execute if block ^1 ^5 ^5 #snc:destroy/nature run setblock ^1 ^5 ^5 air destroy
-execute if block ^2 ^0 ^-5 #snc:destroy/nature run setblock ^2 ^0 ^-5 air destroy
-execute if block ^2 ^5 ^-5 #snc:destroy/nature run setblock ^2 ^5 ^-5 air destroy
-execute if block ^2 ^0 ^-4 #snc:destroy/nature run setblock ^2 ^0 ^-4 air destroy
-execute if block ^2 ^5 ^-4 #snc:destroy/nature run setblock ^2 ^5 ^-4 air destroy
-execute if block ^2 ^0 ^-3 #snc:destroy/nature run setblock ^2 ^0 ^-3 air destroy
-execute if block ^2 ^5 ^-3 #snc:destroy/nature run setblock ^2 ^5 ^-3 air destroy
-execute if block ^2 ^0 ^-2 #snc:destroy/nature run setblock ^2 ^0 ^-2 air destroy
-execute if block ^2 ^5 ^-2 #snc:destroy/nature run setblock ^2 ^5 ^-2 air destroy
-execute if block ^2 ^0 ^-1 #snc:destroy/nature run setblock ^2 ^0 ^-1 air destroy
-execute if block ^2 ^5 ^-1 #snc:destroy/nature run setblock ^2 ^5 ^-1 air destroy
-execute if block ^2 ^0 ^0 #snc:destroy/nature run setblock ^2 ^0 ^0 air destroy
-execute if block ^2 ^5 ^0 #snc:destroy/nature run setblock ^2 ^5 ^0 air destroy
-execute if block ^2 ^0 ^1 #snc:destroy/nature run setblock ^2 ^0 ^1 air destroy
-execute if block ^2 ^5 ^1 #snc:destroy/nature run setblock ^2 ^5 ^1 air destroy
-execute if block ^2 ^0 ^2 #snc:destroy/nature run setblock ^2 ^0 ^2 air destroy
-execute if block ^2 ^5 ^2 #snc:destroy/nature run setblock ^2 ^5 ^2 air destroy
-execute if block ^2 ^0 ^3 #snc:destroy/nature run setblock ^2 ^0 ^3 air destroy
-execute if block ^2 ^5 ^3 #snc:destroy/nature run setblock ^2 ^5 ^3 air destroy
-execute if block ^2 ^0 ^4 #snc:destroy/nature run setblock ^2 ^0 ^4 air destroy
-execute if block ^2 ^5 ^4 #snc:destroy/nature run setblock ^2 ^5 ^4 air destroy
-execute if block ^2 ^0 ^5 #snc:destroy/nature run setblock ^2 ^0 ^5 air destroy
-execute if block ^2 ^5 ^5 #snc:destroy/nature run setblock ^2 ^5 ^5 air destroy
-execute if block ^3 ^0 ^-5 #snc:destroy/nature run setblock ^3 ^0 ^-5 air destroy
-execute if block ^3 ^5 ^-5 #snc:destroy/nature run setblock ^3 ^5 ^-5 air destroy
-execute if block ^3 ^0 ^-4 #snc:destroy/nature run setblock ^3 ^0 ^-4 air destroy
-execute if block ^3 ^5 ^-4 #snc:destroy/nature run setblock ^3 ^5 ^-4 air destroy
-execute if block ^3 ^0 ^-3 #snc:destroy/nature run setblock ^3 ^0 ^-3 air destroy
-execute if block ^3 ^5 ^-3 #snc:destroy/nature run setblock ^3 ^5 ^-3 air destroy
-execute if block ^3 ^0 ^-2 #snc:destroy/nature run setblock ^3 ^0 ^-2 air destroy
-execute if block ^3 ^5 ^-2 #snc:destroy/nature run setblock ^3 ^5 ^-2 air destroy
-execute if block ^3 ^0 ^-1 #snc:destroy/nature run setblock ^3 ^0 ^-1 air destroy
-execute if block ^3 ^5 ^-1 #snc:destroy/nature run setblock ^3 ^5 ^-1 air destroy
-execute if block ^3 ^0 ^0 #snc:destroy/nature run setblock ^3 ^0 ^0 air destroy
-execute if block ^3 ^5 ^0 #snc:destroy/nature run setblock ^3 ^5 ^0 air destroy
-execute if block ^3 ^0 ^1 #snc:destroy/nature run setblock ^3 ^0 ^1 air destroy
-execute if block ^3 ^5 ^1 #snc:destroy/nature run setblock ^3 ^5 ^1 air destroy
-execute if block ^3 ^0 ^2 #snc:destroy/nature run setblock ^3 ^0 ^2 air destroy
-execute if block ^3 ^5 ^2 #snc:destroy/nature run setblock ^3 ^5 ^2 air destroy
-execute if block ^3 ^0 ^3 #snc:destroy/nature run setblock ^3 ^0 ^3 air destroy
-execute if block ^3 ^5 ^3 #snc:destroy/nature run setblock ^3 ^5 ^3 air destroy
-execute if block ^3 ^0 ^4 #snc:destroy/nature run setblock ^3 ^0 ^4 air destroy
-execute if block ^3 ^5 ^4 #snc:destroy/nature run setblock ^3 ^5 ^4 air destroy
-execute if block ^3 ^0 ^5 #snc:destroy/nature run setblock ^3 ^0 ^5 air destroy
-execute if block ^3 ^5 ^5 #snc:destroy/nature run setblock ^3 ^5 ^5 air destroy
-execute if block ^4 ^0 ^-5 #snc:destroy/nature run setblock ^4 ^0 ^-5 air destroy
-execute if block ^4 ^5 ^-5 #snc:destroy/nature run setblock ^4 ^5 ^-5 air destroy
-execute if block ^4 ^0 ^-4 #snc:destroy/nature run setblock ^4 ^0 ^-4 air destroy
-execute if block ^4 ^5 ^-4 #snc:destroy/nature run setblock ^4 ^5 ^-4 air destroy
-execute if block ^4 ^0 ^-3 #snc:destroy/nature run setblock ^4 ^0 ^-3 air destroy
-execute if block ^4 ^5 ^-3 #snc:destroy/nature run setblock ^4 ^5 ^-3 air destroy
-execute if block ^4 ^0 ^-2 #snc:destroy/nature run setblock ^4 ^0 ^-2 air destroy
-execute if block ^4 ^5 ^-2 #snc:destroy/nature run setblock ^4 ^5 ^-2 air destroy
-execute if block ^4 ^0 ^-1 #snc:destroy/nature run setblock ^4 ^0 ^-1 air destroy
-execute if block ^4 ^5 ^-1 #snc:destroy/nature run setblock ^4 ^5 ^-1 air destroy
-execute if block ^4 ^0 ^0 #snc:destroy/nature run setblock ^4 ^0 ^0 air destroy
-execute if block ^4 ^5 ^0 #snc:destroy/nature run setblock ^4 ^5 ^0 air destroy
-execute if block ^4 ^0 ^1 #snc:destroy/nature run setblock ^4 ^0 ^1 air destroy
-execute if block ^4 ^5 ^1 #snc:destroy/nature run setblock ^4 ^5 ^1 air destroy
-execute if block ^4 ^0 ^2 #snc:destroy/nature run setblock ^4 ^0 ^2 air destroy
-execute if block ^4 ^5 ^2 #snc:destroy/nature run setblock ^4 ^5 ^2 air destroy
-execute if block ^4 ^0 ^3 #snc:destroy/nature run setblock ^4 ^0 ^3 air destroy
-execute if block ^4 ^5 ^3 #snc:destroy/nature run setblock ^4 ^5 ^3 air destroy
-execute if block ^4 ^0 ^4 #snc:destroy/nature run setblock ^4 ^0 ^4 air destroy
-execute if block ^4 ^5 ^4 #snc:destroy/nature run setblock ^4 ^5 ^4 air destroy
-execute if block ^4 ^0 ^5 #snc:destroy/nature run setblock ^4 ^0 ^5 air destroy
-execute if block ^4 ^5 ^5 #snc:destroy/nature run setblock ^4 ^5 ^5 air destroy
-execute if block ^5 ^0 ^-5 #snc:destroy/nature run setblock ^5 ^0 ^-5 air destroy
-execute if block ^5 ^5 ^-5 #snc:destroy/nature run setblock ^5 ^5 ^-5 air destroy
-execute if block ^5 ^0 ^-4 #snc:destroy/nature run setblock ^5 ^0 ^-4 air destroy
-execute if block ^5 ^5 ^-4 #snc:destroy/nature run setblock ^5 ^5 ^-4 air destroy
-execute if block ^5 ^0 ^-3 #snc:destroy/nature run setblock ^5 ^0 ^-3 air destroy
-execute if block ^5 ^5 ^-3 #snc:destroy/nature run setblock ^5 ^5 ^-3 air destroy
-execute if block ^5 ^0 ^-2 #snc:destroy/nature run setblock ^5 ^0 ^-2 air destroy
-execute if block ^5 ^5 ^-2 #snc:destroy/nature run setblock ^5 ^5 ^-2 air destroy
-execute if block ^5 ^0 ^-1 #snc:destroy/nature run setblock ^5 ^0 ^-1 air destroy
-execute if block ^5 ^5 ^-1 #snc:destroy/nature run setblock ^5 ^5 ^-1 air destroy
-execute if block ^5 ^0 ^0 #snc:destroy/nature run setblock ^5 ^0 ^0 air destroy
-execute if block ^5 ^5 ^0 #snc:destroy/nature run setblock ^5 ^5 ^0 air destroy
-execute if block ^5 ^0 ^1 #snc:destroy/nature run setblock ^5 ^0 ^1 air destroy
-execute if block ^5 ^5 ^1 #snc:destroy/nature run setblock ^5 ^5 ^1 air destroy
-execute if block ^5 ^0 ^2 #snc:destroy/nature run setblock ^5 ^0 ^2 air destroy
-execute if block ^5 ^5 ^2 #snc:destroy/nature run setblock ^5 ^5 ^2 air destroy
-execute if block ^5 ^0 ^3 #snc:destroy/nature run setblock ^5 ^0 ^3 air destroy
-execute if block ^5 ^5 ^3 #snc:destroy/nature run setblock ^5 ^5 ^3 air destroy
-execute if block ^5 ^0 ^4 #snc:destroy/nature run setblock ^5 ^0 ^4 air destroy
-execute if block ^5 ^5 ^4 #snc:destroy/nature run setblock ^5 ^5 ^4 air destroy
-execute if block ^5 ^0 ^5 #snc:destroy/nature run setblock ^5 ^0 ^5 air destroy
-execute if block ^5 ^5 ^5 #snc:destroy/nature run setblock ^5 ^5 ^5 air destroy
-execute if block ^-5 ^1 ^-5 #snc:destroy/nature run setblock ^-5 ^1 ^-5 air destroy
-execute if block ^5 ^1 ^-5 #snc:destroy/nature run setblock ^5 ^1 ^-5 air destroy
-execute if block ^-5 ^1 ^-4 #snc:destroy/nature run setblock ^-5 ^1 ^-4 air destroy
-execute if block ^5 ^1 ^-4 #snc:destroy/nature run setblock ^5 ^1 ^-4 air destroy
-execute if block ^-5 ^1 ^-3 #snc:destroy/nature run setblock ^-5 ^1 ^-3 air destroy
-execute if block ^5 ^1 ^-3 #snc:destroy/nature run setblock ^5 ^1 ^-3 air destroy
-execute if block ^-5 ^1 ^-2 #snc:destroy/nature run setblock ^-5 ^1 ^-2 air destroy
-execute if block ^5 ^1 ^-2 #snc:destroy/nature run setblock ^5 ^1 ^-2 air destroy
-execute if block ^-5 ^1 ^-1 #snc:destroy/nature run setblock ^-5 ^1 ^-1 air destroy
-execute if block ^5 ^1 ^-1 #snc:destroy/nature run setblock ^5 ^1 ^-1 air destroy
-execute if block ^-5 ^1 ^0 #snc:destroy/nature run setblock ^-5 ^1 ^0 air destroy
-execute if block ^5 ^1 ^0 #snc:destroy/nature run setblock ^5 ^1 ^0 air destroy
-execute if block ^-5 ^1 ^1 #snc:destroy/nature run setblock ^-5 ^1 ^1 air destroy
-execute if block ^5 ^1 ^1 #snc:destroy/nature run setblock ^5 ^1 ^1 air destroy
-execute if block ^-5 ^1 ^2 #snc:destroy/nature run setblock ^-5 ^1 ^2 air destroy
-execute if block ^5 ^1 ^2 #snc:destroy/nature run setblock ^5 ^1 ^2 air destroy
-execute if block ^-5 ^1 ^3 #snc:destroy/nature run setblock ^-5 ^1 ^3 air destroy
-execute if block ^5 ^1 ^3 #snc:destroy/nature run setblock ^5 ^1 ^3 air destroy
-execute if block ^-5 ^1 ^4 #snc:destroy/nature run setblock ^-5 ^1 ^4 air destroy
-execute if block ^5 ^1 ^4 #snc:destroy/nature run setblock ^5 ^1 ^4 air destroy
-execute if block ^-5 ^1 ^5 #snc:destroy/nature run setblock ^-5 ^1 ^5 air destroy
-execute if block ^5 ^1 ^5 #snc:destroy/nature run setblock ^5 ^1 ^5 air destroy
-execute if block ^-5 ^2 ^-5 #snc:destroy/nature run setblock ^-5 ^2 ^-5 air destroy
-execute if block ^5 ^2 ^-5 #snc:destroy/nature run setblock ^5 ^2 ^-5 air destroy
-execute if block ^-5 ^2 ^-4 #snc:destroy/nature run setblock ^-5 ^2 ^-4 air destroy
-execute if block ^5 ^2 ^-4 #snc:destroy/nature run setblock ^5 ^2 ^-4 air destroy
-execute if block ^-5 ^2 ^-3 #snc:destroy/nature run setblock ^-5 ^2 ^-3 air destroy
-execute if block ^5 ^2 ^-3 #snc:destroy/nature run setblock ^5 ^2 ^-3 air destroy
-execute if block ^-5 ^2 ^-2 #snc:destroy/nature run setblock ^-5 ^2 ^-2 air destroy
-execute if block ^5 ^2 ^-2 #snc:destroy/nature run setblock ^5 ^2 ^-2 air destroy
-execute if block ^-5 ^2 ^-1 #snc:destroy/nature run setblock ^-5 ^2 ^-1 air destroy
-execute if block ^5 ^2 ^-1 #snc:destroy/nature run setblock ^5 ^2 ^-1 air destroy
-execute if block ^-5 ^2 ^0 #snc:destroy/nature run setblock ^-5 ^2 ^0 air destroy
-execute if block ^5 ^2 ^0 #snc:destroy/nature run setblock ^5 ^2 ^0 air destroy
-execute if block ^-5 ^2 ^1 #snc:destroy/nature run setblock ^-5 ^2 ^1 air destroy
-execute if block ^5 ^2 ^1 #snc:destroy/nature run setblock ^5 ^2 ^1 air destroy
-execute if block ^-5 ^2 ^2 #snc:destroy/nature run setblock ^-5 ^2 ^2 air destroy
-execute if block ^5 ^2 ^2 #snc:destroy/nature run setblock ^5 ^2 ^2 air destroy
-execute if block ^-5 ^2 ^3 #snc:destroy/nature run setblock ^-5 ^2 ^3 air destroy
-execute if block ^5 ^2 ^3 #snc:destroy/nature run setblock ^5 ^2 ^3 air destroy
-execute if block ^-5 ^2 ^4 #snc:destroy/nature run setblock ^-5 ^2 ^4 air destroy
-execute if block ^5 ^2 ^4 #snc:destroy/nature run setblock ^5 ^2 ^4 air destroy
-execute if block ^-5 ^2 ^5 #snc:destroy/nature run setblock ^-5 ^2 ^5 air destroy
-execute if block ^5 ^2 ^5 #snc:destroy/nature run setblock ^5 ^2 ^5 air destroy
-execute if block ^-5 ^3 ^-5 #snc:destroy/nature run setblock ^-5 ^3 ^-5 air destroy
-execute if block ^5 ^3 ^-5 #snc:destroy/nature run setblock ^5 ^3 ^-5 air destroy
-execute if block ^-5 ^3 ^-4 #snc:destroy/nature run setblock ^-5 ^3 ^-4 air destroy
-execute if block ^5 ^3 ^-4 #snc:destroy/nature run setblock ^5 ^3 ^-4 air destroy
-execute if block ^-5 ^3 ^-3 #snc:destroy/nature run setblock ^-5 ^3 ^-3 air destroy
-execute if block ^5 ^3 ^-3 #snc:destroy/nature run setblock ^5 ^3 ^-3 air destroy
-execute if block ^-5 ^3 ^-2 #snc:destroy/nature run setblock ^-5 ^3 ^-2 air destroy
-execute if block ^5 ^3 ^-2 #snc:destroy/nature run setblock ^5 ^3 ^-2 air destroy
-execute if block ^-5 ^3 ^-1 #snc:destroy/nature run setblock ^-5 ^3 ^-1 air destroy
-execute if block ^5 ^3 ^-1 #snc:destroy/nature run setblock ^5 ^3 ^-1 air destroy
-execute if block ^-5 ^3 ^0 #snc:destroy/nature run setblock ^-5 ^3 ^0 air destroy
-execute if block ^5 ^3 ^0 #snc:destroy/nature run setblock ^5 ^3 ^0 air destroy
-execute if block ^-5 ^3 ^1 #snc:destroy/nature run setblock ^-5 ^3 ^1 air destroy
-execute if block ^5 ^3 ^1 #snc:destroy/nature run setblock ^5 ^3 ^1 air destroy
-execute if block ^-5 ^3 ^2 #snc:destroy/nature run setblock ^-5 ^3 ^2 air destroy
-execute if block ^5 ^3 ^2 #snc:destroy/nature run setblock ^5 ^3 ^2 air destroy
-execute if block ^-5 ^3 ^3 #snc:destroy/nature run setblock ^-5 ^3 ^3 air destroy
-execute if block ^5 ^3 ^3 #snc:destroy/nature run setblock ^5 ^3 ^3 air destroy
-execute if block ^-5 ^3 ^4 #snc:destroy/nature run setblock ^-5 ^3 ^4 air destroy
-execute if block ^5 ^3 ^4 #snc:destroy/nature run setblock ^5 ^3 ^4 air destroy
-execute if block ^-5 ^3 ^5 #snc:destroy/nature run setblock ^-5 ^3 ^5 air destroy
-execute if block ^5 ^3 ^5 #snc:destroy/nature run setblock ^5 ^3 ^5 air destroy
-execute if block ^-5 ^4 ^-5 #snc:destroy/nature run setblock ^-5 ^4 ^-5 air destroy
-execute if block ^5 ^4 ^-5 #snc:destroy/nature run setblock ^5 ^4 ^-5 air destroy
-execute if block ^-5 ^4 ^-4 #snc:destroy/nature run setblock ^-5 ^4 ^-4 air destroy
-execute if block ^5 ^4 ^-4 #snc:destroy/nature run setblock ^5 ^4 ^-4 air destroy
-execute if block ^-5 ^4 ^-3 #snc:destroy/nature run setblock ^-5 ^4 ^-3 air destroy
-execute if block ^5 ^4 ^-3 #snc:destroy/nature run setblock ^5 ^4 ^-3 air destroy
-execute if block ^-5 ^4 ^-2 #snc:destroy/nature run setblock ^-5 ^4 ^-2 air destroy
-execute if block ^5 ^4 ^-2 #snc:destroy/nature run setblock ^5 ^4 ^-2 air destroy
-execute if block ^-5 ^4 ^-1 #snc:destroy/nature run setblock ^-5 ^4 ^-1 air destroy
-execute if block ^5 ^4 ^-1 #snc:destroy/nature run setblock ^5 ^4 ^-1 air destroy
-execute if block ^-5 ^4 ^0 #snc:destroy/nature run setblock ^-5 ^4 ^0 air destroy
-execute if block ^5 ^4 ^0 #snc:destroy/nature run setblock ^5 ^4 ^0 air destroy
-execute if block ^-5 ^4 ^1 #snc:destroy/nature run setblock ^-5 ^4 ^1 air destroy
-execute if block ^5 ^4 ^1 #snc:destroy/nature run setblock ^5 ^4 ^1 air destroy
-execute if block ^-5 ^4 ^2 #snc:destroy/nature run setblock ^-5 ^4 ^2 air destroy
-execute if block ^5 ^4 ^2 #snc:destroy/nature run setblock ^5 ^4 ^2 air destroy
-execute if block ^-5 ^4 ^3 #snc:destroy/nature run setblock ^-5 ^4 ^3 air destroy
-execute if block ^5 ^4 ^3 #snc:destroy/nature run setblock ^5 ^4 ^3 air destroy
-execute if block ^-5 ^4 ^4 #snc:destroy/nature run setblock ^-5 ^4 ^4 air destroy
-execute if block ^5 ^4 ^4 #snc:destroy/nature run setblock ^5 ^4 ^4 air destroy
-execute if block ^-5 ^4 ^5 #snc:destroy/nature run setblock ^-5 ^4 ^5 air destroy
-execute if block ^5 ^4 ^5 #snc:destroy/nature run setblock ^5 ^4 ^5 air destroy
-execute if block ^-4 ^1 ^-5 #snc:destroy/nature run setblock ^-4 ^1 ^-5 air destroy
-execute if block ^-4 ^1 ^5 #snc:destroy/nature run setblock ^-4 ^1 ^5 air destroy
-execute if block ^-3 ^1 ^-5 #snc:destroy/nature run setblock ^-3 ^1 ^-5 air destroy
-execute if block ^-3 ^1 ^5 #snc:destroy/nature run setblock ^-3 ^1 ^5 air destroy
-execute if block ^-2 ^1 ^-5 #snc:destroy/nature run setblock ^-2 ^1 ^-5 air destroy
-execute if block ^-2 ^1 ^5 #snc:destroy/nature run setblock ^-2 ^1 ^5 air destroy
-execute if block ^-1 ^1 ^-5 #snc:destroy/nature run setblock ^-1 ^1 ^-5 air destroy
-execute if block ^-1 ^1 ^5 #snc:destroy/nature run setblock ^-1 ^1 ^5 air destroy
-execute if block ^0 ^1 ^-5 #snc:destroy/nature run setblock ^0 ^1 ^-5 air destroy
-execute if block ^0 ^1 ^5 #snc:destroy/nature run setblock ^0 ^1 ^5 air destroy
-execute if block ^1 ^1 ^-5 #snc:destroy/nature run setblock ^1 ^1 ^-5 air destroy
-execute if block ^1 ^1 ^5 #snc:destroy/nature run setblock ^1 ^1 ^5 air destroy
-execute if block ^2 ^1 ^-5 #snc:destroy/nature run setblock ^2 ^1 ^-5 air destroy
-execute if block ^2 ^1 ^5 #snc:destroy/nature run setblock ^2 ^1 ^5 air destroy
-execute if block ^3 ^1 ^-5 #snc:destroy/nature run setblock ^3 ^1 ^-5 air destroy
-execute if block ^3 ^1 ^5 #snc:destroy/nature run setblock ^3 ^1 ^5 air destroy
-execute if block ^4 ^1 ^-5 #snc:destroy/nature run setblock ^4 ^1 ^-5 air destroy
-execute if block ^4 ^1 ^5 #snc:destroy/nature run setblock ^4 ^1 ^5 air destroy
-execute if block ^-4 ^2 ^-5 #snc:destroy/nature run setblock ^-4 ^2 ^-5 air destroy
-execute if block ^-4 ^2 ^5 #snc:destroy/nature run setblock ^-4 ^2 ^5 air destroy
-execute if block ^-3 ^2 ^-5 #snc:destroy/nature run setblock ^-3 ^2 ^-5 air destroy
-execute if block ^-3 ^2 ^5 #snc:destroy/nature run setblock ^-3 ^2 ^5 air destroy
-execute if block ^-2 ^2 ^-5 #snc:destroy/nature run setblock ^-2 ^2 ^-5 air destroy
-execute if block ^-2 ^2 ^5 #snc:destroy/nature run setblock ^-2 ^2 ^5 air destroy
-execute if block ^-1 ^2 ^-5 #snc:destroy/nature run setblock ^-1 ^2 ^-5 air destroy
-execute if block ^-1 ^2 ^5 #snc:destroy/nature run setblock ^-1 ^2 ^5 air destroy
-execute if block ^0 ^2 ^-5 #snc:destroy/nature run setblock ^0 ^2 ^-5 air destroy
-execute if block ^0 ^2 ^5 #snc:destroy/nature run setblock ^0 ^2 ^5 air destroy
-execute if block ^1 ^2 ^-5 #snc:destroy/nature run setblock ^1 ^2 ^-5 air destroy
-execute if block ^1 ^2 ^5 #snc:destroy/nature run setblock ^1 ^2 ^5 air destroy
-execute if block ^2 ^2 ^-5 #snc:destroy/nature run setblock ^2 ^2 ^-5 air destroy
-execute if block ^2 ^2 ^5 #snc:destroy/nature run setblock ^2 ^2 ^5 air destroy
-execute if block ^3 ^2 ^-5 #snc:destroy/nature run setblock ^3 ^2 ^-5 air destroy
-execute if block ^3 ^2 ^5 #snc:destroy/nature run setblock ^3 ^2 ^5 air destroy
-execute if block ^4 ^2 ^-5 #snc:destroy/nature run setblock ^4 ^2 ^-5 air destroy
-execute if block ^4 ^2 ^5 #snc:destroy/nature run setblock ^4 ^2 ^5 air destroy
-execute if block ^-4 ^3 ^-5 #snc:destroy/nature run setblock ^-4 ^3 ^-5 air destroy
-execute if block ^-4 ^3 ^5 #snc:destroy/nature run setblock ^-4 ^3 ^5 air destroy
-execute if block ^-3 ^3 ^-5 #snc:destroy/nature run setblock ^-3 ^3 ^-5 air destroy
-execute if block ^-3 ^3 ^5 #snc:destroy/nature run setblock ^-3 ^3 ^5 air destroy
-execute if block ^-2 ^3 ^-5 #snc:destroy/nature run setblock ^-2 ^3 ^-5 air destroy
-execute if block ^-2 ^3 ^5 #snc:destroy/nature run setblock ^-2 ^3 ^5 air destroy
-execute if block ^-1 ^3 ^-5 #snc:destroy/nature run setblock ^-1 ^3 ^-5 air destroy
-execute if block ^-1 ^3 ^5 #snc:destroy/nature run setblock ^-1 ^3 ^5 air destroy
-execute if block ^0 ^3 ^-5 #snc:destroy/nature run setblock ^0 ^3 ^-5 air destroy
-execute if block ^0 ^3 ^5 #snc:destroy/nature run setblock ^0 ^3 ^5 air destroy
-execute if block ^1 ^3 ^-5 #snc:destroy/nature run setblock ^1 ^3 ^-5 air destroy
-execute if block ^1 ^3 ^5 #snc:destroy/nature run setblock ^1 ^3 ^5 air destroy
-execute if block ^2 ^3 ^-5 #snc:destroy/nature run setblock ^2 ^3 ^-5 air destroy
-execute if block ^2 ^3 ^5 #snc:destroy/nature run setblock ^2 ^3 ^5 air destroy
-execute if block ^3 ^3 ^-5 #snc:destroy/nature run setblock ^3 ^3 ^-5 air destroy
-execute if block ^3 ^3 ^5 #snc:destroy/nature run setblock ^3 ^3 ^5 air destroy
-execute if block ^4 ^3 ^-5 #snc:destroy/nature run setblock ^4 ^3 ^-5 air destroy
-execute if block ^4 ^3 ^5 #snc:destroy/nature run setblock ^4 ^3 ^5 air destroy
-execute if block ^-4 ^4 ^-5 #snc:destroy/nature run setblock ^-4 ^4 ^-5 air destroy
-execute if block ^-4 ^4 ^5 #snc:destroy/nature run setblock ^-4 ^4 ^5 air destroy
-execute if block ^-3 ^4 ^-5 #snc:destroy/nature run setblock ^-3 ^4 ^-5 air destroy
-execute if block ^-3 ^4 ^5 #snc:destroy/nature run setblock ^-3 ^4 ^5 air destroy
-execute if block ^-2 ^4 ^-5 #snc:destroy/nature run setblock ^-2 ^4 ^-5 air destroy
-execute if block ^-2 ^4 ^5 #snc:destroy/nature run setblock ^-2 ^4 ^5 air destroy
-execute if block ^-1 ^4 ^-5 #snc:destroy/nature run setblock ^-1 ^4 ^-5 air destroy
-execute if block ^-1 ^4 ^5 #snc:destroy/nature run setblock ^-1 ^4 ^5 air destroy
-execute if block ^0 ^4 ^-5 #snc:destroy/nature run setblock ^0 ^4 ^-5 air destroy
-execute if block ^0 ^4 ^5 #snc:destroy/nature run setblock ^0 ^4 ^5 air destroy
-execute if block ^1 ^4 ^-5 #snc:destroy/nature run setblock ^1 ^4 ^-5 air destroy
-execute if block ^1 ^4 ^5 #snc:destroy/nature run setblock ^1 ^4 ^5 air destroy
-execute if block ^2 ^4 ^-5 #snc:destroy/nature run setblock ^2 ^4 ^-5 air destroy
-execute if block ^2 ^4 ^5 #snc:destroy/nature run setblock ^2 ^4 ^5 air destroy
-execute if block ^3 ^4 ^-5 #snc:destroy/nature run setblock ^3 ^4 ^-5 air destroy
-execute if block ^3 ^4 ^5 #snc:destroy/nature run setblock ^3 ^4 ^5 air destroy
-execute if block ^4 ^4 ^-5 #snc:destroy/nature run setblock ^4 ^4 ^-5 air destroy
-execute if block ^4 ^4 ^5 #snc:destroy/nature run setblock ^4 ^4 ^5 air destroy
+execute positioned ^-5 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^0 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^5 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^-4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^-3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^-2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^-1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^0 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^1 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^2 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^3 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^4 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-5 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^5 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^1 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^1 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^2 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^2 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^3 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^3 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-4 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-3 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-2 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^-1 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^0 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^1 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^2 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^3 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^4 ^-5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
+execute positioned ^4 ^4 ^5 if block ~ ~ ~ #snc:destroy/nature run function snc:shifters/utility/destroy {"shifter":"attack"}
