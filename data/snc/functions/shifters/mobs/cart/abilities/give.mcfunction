@@ -11,6 +11,7 @@ execute if score $gamemode cart_vars matches 1 run function snc:shifters/mobs/ca
 
 # Utility
 execute if score $gamemode cart_vars matches -1 run function snc:shifters/abilities/farm with storage minecraft:cart
+execute if score $gamemode cart_vars matches -1 run function snc:shifters/abilities/harvest with storage minecraft:cart
 
 execute if score $mask cart_vars matches 1 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[custom_model_data=4]
 execute if score $mask cart_vars matches 0 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[custom_model_data=7]

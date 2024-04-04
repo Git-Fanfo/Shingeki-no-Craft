@@ -1,5 +1,6 @@
 execute if data entity @s Item.components."minecraft:custom_data".pure_titan as @a[distance=..5,tag=titan] unless score @s shifter_vars matches 1.. run function snc:titans/abilities/give
 ##### HOW TO CREATE A SHIFTER #####
+# tellraw @a {"selector":"@s"}
 execute if data entity @s Item.components."minecraft:custom_data".1_titan as @p[scores={cart_vars=1},tag=transform] run function snc:shifters/mobs/cart/abilities/give
 execute if data entity @s Item.components."minecraft:custom_data".2_titan as @p[scores={colossal_vars=1},tag=transform] run function snc:shifters/mobs/colossal/abilities/give
 execute if data entity @s Item.components."minecraft:custom_data".3_titan as @p[scores={attack_vars=1},tag=transform] run function snc:shifters/mobs/attack/abilities/give

@@ -1,5 +1,4 @@
 execute if block ~ ~4 ~ air run tp ~ ~-.3 ~
-
 execute unless score @s beast_vars matches ..1200 run scoreboard players set @s beast_vars 1200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses beast_vars 0
