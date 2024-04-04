@@ -1,6 +1,3 @@
-# Show kills
-scoreboard players operation @s Visib_Kill_Count = @s Titan_Kill_Count
-
 # Spread Titans
 execute if entity @s[tag=near] unless entity @e[distance=..64,tag=titan] run tag @s remove near
 execute if entity @s[tag=!near] if predicate snc:chance/5 run function snc:titans/spawn/wave

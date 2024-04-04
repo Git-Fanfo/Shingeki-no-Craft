@@ -41,4 +41,6 @@ execute as @s[predicate=!snc:odm/has_gas_trigger] run function snc:player/odm/re
 
 ## Second functions
 execute if score ticks clock matches 9 run function snc:player/seconds_0
+# Show kills
+scoreboard players operation @s Visib_Kill_Count = @s Titan_Kill_Count
 execute if score ticks clock matches 19 run function snc:player/seconds_1

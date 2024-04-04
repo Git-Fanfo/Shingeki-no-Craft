@@ -12,7 +12,7 @@ execute if score action cart_vars matches 23 run data modify entity @s item.comp
 #PISO
 execute if score action cart_vars matches 30 run playsound minecraft:aot.footsteps hostile @a ~ ~ ~ 2 .1
 execute if score action cart_vars matches 21 on vehicle on passengers if entity @s[type=player] rotated ~ 0 positioned ^ ^1 ^4 as @e[distance=..3] run function snc:shifters/mobs/cart/action/slam/damage
-execute if score action cart_vars matches 21 on vehicle on passengers if entity @s[type=player] rotated ~ 0 positioned ^ ^1 ^4 run summon creeper ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ExplosionRadius:1b,Fuse:0,Tags:["motion"]}
+execute if score action cart_vars matches 21 on vehicle on passengers if entity @s[type=player] rotated ~ 0 positioned ^ ^1 ^4 run summon creeper ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ExplosionRadius:1b,Fuse:0}
 
 execute if score action cart_vars matches 22 run data modify entity @s item.components.minecraft:custom_model_data set value 22
 #7

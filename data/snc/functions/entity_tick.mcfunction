@@ -1,4 +1,5 @@
 scoreboard players set #villager_c spawn 0
+execute if score ticks clock matches 14 run scoreboard players reset * Visib_Kill_Count
 
 ## Detect entity: This is the MOST IMPORTANT function of the DP
 # Server: execute in minecraft:sncraft_surv run 

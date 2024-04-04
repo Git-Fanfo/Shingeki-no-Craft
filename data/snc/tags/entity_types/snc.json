@@ -7,7 +7,6 @@
 		"minecraft:item_display",
 		"minecraft:block_display",
 		"minecraft:bat",
-		"minecraft:creeper",
 		"minecraft:skeleton_horse",
 		"minecraft:camel",
 		"minecraft:area_effect_cloud",
@@ -26,16 +25,8 @@
 		"minecraft:ravager",
 		"minecraft:pillager",
 		"minecraft:vindicator",
-
-		"minecraft:enderman",
-		"minecraft:zombie",
-		"minecraft:drowned",
-		"minecraft:husk",
-		"minecraft:skeleton",
-		"minecraft:stray",
-		"minecraft:spider",
-		"minecraft:phantom",
-		"witch"
+		
+		"minecraft:phantom"
 		
 		
 	]
