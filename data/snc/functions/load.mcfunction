@@ -127,6 +127,7 @@ execute unless score $talk_vill config matches 0.. run scoreboard players set $t
 execute unless score $name_vill config matches 0.. run scoreboard players set $name_vill config 1
 execute unless score $birth_rate config matches 0.. run scoreboard players set $birth_rate config 1
 execute unless score $destroy config matches 0.. run scoreboard players set $destroy config 1
+execute unless score $pure_destroy config matches 0.. run scoreboard players set $pure_destroy config 1
 execute unless score $can_p_spwn_as_shift config matches 0.. run scoreboard players set $can_p_spwn_as_shift config 1
 execute unless score $shift_spwn_rate config matches 0.. run scoreboard players set $shift_spwn_rate config 2
 execute unless score $anonymity config matches 0.. run function snc:logic/manual/off/anonymity

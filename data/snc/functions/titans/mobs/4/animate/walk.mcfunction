@@ -19,4 +19,3 @@ execute if score @s walk matches 8 run playsound minecraft:aot.footsteps hostile
 execute if score @s walk matches 6 run data modify entity @s item.components.minecraft:custom_model_data set value 95
 
 execute if score @s walk matches 1 run tag @s remove walk
-

@@ -91,6 +91,7 @@
         "pitcher_plant",
         "rose_bush",
         "sunflower",
-        "warped_roots"
+        "warped_roots",
+        "#impermeable"
     ]
 }

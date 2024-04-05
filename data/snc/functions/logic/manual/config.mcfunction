@@ -34,6 +34,10 @@ execute as @s[scores={manual=-30}] run scoreboard players set $bossbar config 1
 execute as @s[scores={manual=-31}] run scoreboard players set $bossbar config 0
 execute as @s[scores={manual=-32}] run function snc:logic/manual/on/vanilla_villagers
 execute as @s[scores={manual=-33}] run scoreboard players set $van_vill config 0
+
+execute as @s[scores={manual=-34}] run scoreboard players set $pure_destroy config 1
+execute as @s[scores={manual=-35}] run scoreboard players set $pure_destroy config 0
+
 execute as @s[scores={manual=-52}] run scoreboard players set $talk_vill config 1
 execute as @s[scores={manual=-53}] run scoreboard players set $talk_vill config 0
 execute as @s[scores={manual=-54}] run function snc:logic/manual/on/name_vill

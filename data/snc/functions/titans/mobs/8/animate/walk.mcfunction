@@ -74,3 +74,7 @@ execute if score @s walk matches 1 run data modify entity @s item.components.min
 execute if score @s walk matches 0 run data modify entity @s item.components.minecraft:custom_model_data set value 229
 
 execute if score @s walk matches 0 run tag @s remove walk
+
+## PURE_DESTROY
+execute if score $pure_destroy config matches 1 on vehicle at @s rotated ~ 0 positioned ^ ^.5 ^1.5 run function snc:titans/ai/destroy/check
+execute if score $pure_destroy config matches 1 rotated ~ 0 positioned ^ ^-2.5 ^1.5 run function snc:titans/ai/destroy/check
