@@ -3,5 +3,6 @@ execute if score consume attack_vars matches 20 at @s run playsound minecraft:ao
 execute if score consume attack_vars matches 18 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=30]
 execute if score consume attack_vars matches 16 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=27]
 execute if score consume attack_vars matches 14 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=28]
-execute if score consume attack_vars matches 12 at @s positioned ^ ^1.5 ^4 as @e[distance=..4,tag=!attack] run function snc:shifters/mobs/attack/action/jaw/damage with storage minecraft:attack
+execute if score consume attack_vars matches 12 anchored eyes positioned ^ ^ ^3.5 as @e[distance=..4.5,tag=!armor,type=!item_display] run function snc:shifters/mobs/attack/action/jaw/damage with storage minecraft:attack
+
 execute if score consume attack_vars matches 1 run tag @s remove consume

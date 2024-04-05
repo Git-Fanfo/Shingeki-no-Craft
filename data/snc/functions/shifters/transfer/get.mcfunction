@@ -10,6 +10,8 @@ effect give @s[tag=!transform] instant_health 1 10 true
 execute if score @s shifter_vars matches ..-1 run scoreboard players operation @s shifter_vars *= #-1 constant
 # ID from first shifter it gets
 $execute unless score @s shifter_vars matches 1.. run scoreboard players set @s shifter_vars $(id)
+# Reset scoreboard
+$scoreboard players reset * $(shifter)_vars
 $scoreboard players set @s $(shifter)_vars 1
 
 $scoreboard players set $energy $(shifter)_vars 3600

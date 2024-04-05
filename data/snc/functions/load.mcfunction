@@ -126,7 +126,7 @@ execute unless score $van_vill config matches 0.. run scoreboard players set $va
 execute unless score $talk_vill config matches 0.. run scoreboard players set $talk_vill config 1
 execute unless score $name_vill config matches 0.. run scoreboard players set $name_vill config 1
 execute unless score $birth_rate config matches 0.. run scoreboard players set $birth_rate config 1
-execute unless score destroy config matches 0.. run scoreboard players set destroy config 1
+execute unless score $destroy config matches 0.. run scoreboard players set $destroy config 1
 execute unless score $can_p_spwn_as_shift config matches 0.. run scoreboard players set $can_p_spwn_as_shift config 1
 execute unless score $shift_spwn_rate config matches 0.. run scoreboard players set $shift_spwn_rate config 2
 execute unless score $anonymity config matches 0.. run function snc:logic/manual/off/anonymity
@@ -139,15 +139,6 @@ execute unless score comm_feed config matches 0.. run function snc:logic/manual/
 execute unless score col_exp config matches 0.. run scoreboard players set col_exp config 1
 execute unless score curse config matches 0.. run scoreboard players set curse config 1
 execute unless score odm_legacy config matches 0 run scoreboard players set odm_legacy config 1
-execute unless score $zombie config matches 0.. run scoreboard players set $zombie config 0
-execute unless score $drowned config matches 0.. run scoreboard players set $drowned config 0
-execute unless score $husk config matches 0.. run scoreboard players set $husk config 0
-execute unless score $skeleton config matches 0.. run scoreboard players set $skeleton config 0
-execute unless score $stray config matches 0.. run scoreboard players set $stray config 0
-execute unless score $spider config matches 0.. run scoreboard players set $spider config 0
-execute unless score $phantom config matches 0.. run scoreboard players set $phantom config 0
-execute unless score $witch config matches 0.. run scoreboard players set $witch config 0
-execute unless score $enderman config matches 0.. run scoreboard players set $enderman config 0
 
 #gamerule fallDamage false
 

@@ -23,3 +23,8 @@ $execute if score state $(shifter)_vars matches 2..5 run \
 
 ## Height
 execute on passengers if entity @s[type=player] if score @s shifter_vars matches 2 on vehicle run function snc:shifters/mobs/colossal/action/movement/height
+
+## Prevent shifter leaved the world
+$execute on passengers if entity @s[tag=transform] on vehicle run scoreboard players set @s $(shifter)_vars 20
+$scoreboard players remove @s $(shifter)_vars 1
+$execute if score @s $(shifter)_vars matches ..0 on passengers if entity @s[tag=aj.$(shifter).root] run function snc:shifters/mobs/$(shifter)/animate/death

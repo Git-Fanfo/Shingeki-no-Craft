@@ -12,18 +12,11 @@ execute if score @s movx matches 1.. on passengers run tag @s add walk
 scoreboard players reset @s movx
 scoreboard players reset @s movz
 
-#  Clipped
-##execute unless block ~ ~1 ~ air run tp ~ ~1 ~
-
 ## Despawn
 function snc:titans/ai/despawn
 
 ## Attack
 execute rotated ~ 0 positioned ^ ^ ^2 on passengers run function snc:titans/ai/attack
-
-# Dont enter in houses
-# execute unless block ^ ^2.5 ^.5 air if block ^ ^2.5 ^-.5 air run tp @s ^ ^ ^-1.5
-# execute unless block ^ ^3.5 ^.5 air if block ^ ^3.5 ^-.5 air run tp @s ^ ^ ^-1.5
 
 # Running in water (This is concerning)
 execute if block ^ ^1 ^.5 water run function snc:titans/water

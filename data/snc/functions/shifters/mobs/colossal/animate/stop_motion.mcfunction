@@ -3,6 +3,8 @@ execute if score walk colossal_vars matches ..0 run scoreboard players set walk 
 execute if score idle colossal_vars matches ..0 run scoreboard players set idle colossal_vars 90
 execute on vehicle on passengers if entity @s[type=player] run effect give @s minecraft:slowness infinite 0 true 
 
+execute rotated ~ 0 run function snc:shifters/mobs/colossal/action/movement/particles
+
 # Born
 execute if score state colossal_vars matches 1 run function snc:shifters/mobs/colossal/animate/born
 # Idle
@@ -23,7 +25,7 @@ execute if score $form colossal_vars matches 0 unless score state colossal_vars 
 execute if score $form colossal_vars matches 0 unless score state colossal_vars matches 14 on vehicle rotated ~ 0 positioned ^5 ^1 ^13.5 run effect give @e[distance=..8] glowing 1 0 true
 execute if score state colossal_vars matches 14 run function snc:shifters/mobs/colossal/animate/consume
 
-execute if score state colossal_vars matches 9 run function snc:shifters/mobs/colossal/action/death/fall
+execute if score state colossal_vars matches 9 run function snc:shifters/mobs/colossal/animate/death
 
 scoreboard players remove idle colossal_vars 1
 scoreboard players remove walk colossal_vars 1

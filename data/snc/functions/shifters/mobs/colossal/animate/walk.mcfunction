@@ -121,11 +121,11 @@ execute if score walk colossal_vars matches 1 run data modify entity @s item.com
 
 
 # DESTROY
-# execute if score walk colossal_vars matches 125 if score destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/1
-# execute if score walk colossal_vars matches 120 if score destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/2
-# execute if score walk colossal_vars matches 135 if score destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/3
-# execute if score walk colossal_vars matches 115 if score destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/4
-# execute if score walk colossal_vars matches 95 if score destroy config matches 1 at @a[scores={colossal_vars=1}] run function snc:shifters/mobs/colossal/action/explosion/right/5
+# execute if score walk colossal_vars matches 125 if score $destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/1
+# execute if score walk colossal_vars matches 120 if score $destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/2
+# execute if score walk colossal_vars matches 135 if score $destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/3
+# execute if score walk colossal_vars matches 115 if score $destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/4
+# execute if score walk colossal_vars matches 95 if score $destroy config matches 1 at @a[scores={colossal_vars=1}] run function snc:shifters/mobs/colossal/action/explosion/right/5
 # Right
 execute if score walk colossal_vars matches 120 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/1 {"side":""}
 execute if score walk colossal_vars matches 120 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/2 {"side":""}

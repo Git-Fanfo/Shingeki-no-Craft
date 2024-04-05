@@ -1,5 +1,5 @@
 # Tp player to neck
-execute as @p[scores={colossal_vars=1}] rotated ~ 0 run tp ^ ^7 ^-1
+execute as @p[scores={colossal_vars=1},tag=!transform,distance=..30] rotated ~ 0 run tp ^ ^7 ^-1
 
 # Start riding armor_stand instead of horse
 execute on vehicle run kill

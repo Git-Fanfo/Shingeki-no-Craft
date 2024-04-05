@@ -1,3 +1,5 @@
+execute as @s[type=phantom] run function snc:logic/kill_mob
+
 execute as @s[type=bat,tag=!odm] run return 0
 execute as @s[type=zombie_villager,tag=!titan] run function snc:logic/kill_mob
 execute as @s[type=wandering_trader,tag=!eldian] run function snc:logic/kill_mob

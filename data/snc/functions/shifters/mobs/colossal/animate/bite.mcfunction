@@ -7,5 +7,6 @@ execute if score consume colossal_vars matches 11 run item replace entity @s arm
 execute if score consume colossal_vars matches 9 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=18]
 execute if score consume colossal_vars matches 8 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=16]
 
-execute if score consume colossal_vars matches 8 at @s positioned ^ ^1.5 ^3 as @e[distance=..3] run function snc:shifters/mobs/colossal/action/jaw/damage
+execute if score consume colossal_vars matches 8 anchored eyes positioned ^ ^ ^3 as @e[distance=..4,tag=!colossal,type=!item_display] run function snc:shifters/mobs/colossal/action/jaw/damage
+
 execute if score consume colossal_vars matches 1 run tag @s remove consume

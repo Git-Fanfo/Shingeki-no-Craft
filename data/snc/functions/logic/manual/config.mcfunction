@@ -1,8 +1,8 @@
 playsound ui.button.click player @s ~ ~ ~ 1 1.2
 playsound ui.button.click player @s ~ ~ ~ 1 1.2
 playsound ui.button.click player @s ~ ~ ~ 1 1.2
-execute as @s[scores={manual=-1}] run scoreboard players set destroy config 1
-execute as @s[scores={manual=-2}] run scoreboard players set destroy config 0
+execute as @s[scores={manual=-1}] run scoreboard players set $destroy config 1
+execute as @s[scores={manual=-2}] run scoreboard players set $destroy config 0
 execute as @s[scores={manual=-3}] run scoreboard players set hard config 1
 execute as @s[scores={manual=-4}] run scoreboard players set hard config 0
 execute as @s[scores={manual=-5}] run function snc:logic/manual/on/show_kills
@@ -34,24 +34,6 @@ execute as @s[scores={manual=-30}] run scoreboard players set $bossbar config 1
 execute as @s[scores={manual=-31}] run scoreboard players set $bossbar config 0
 execute as @s[scores={manual=-32}] run function snc:logic/manual/on/vanilla_villagers
 execute as @s[scores={manual=-33}] run scoreboard players set $van_vill config 0
-execute as @s[scores={manual=-34}] run scoreboard players set $zombie config 1
-execute as @s[scores={manual=-35}] run scoreboard players set $zombie config 0
-execute as @s[scores={manual=-36}] run scoreboard players set $drowned config 1
-execute as @s[scores={manual=-37}] run scoreboard players set $drowned config 0
-execute as @s[scores={manual=-38}] run scoreboard players set $husk config 1
-execute as @s[scores={manual=-39}] run scoreboard players set $husk config 0
-execute as @s[scores={manual=-40}] run scoreboard players set $skeleton config 1
-execute as @s[scores={manual=-41}] run scoreboard players set $skeleton config 0
-execute as @s[scores={manual=-42}] run scoreboard players set $stray config 1
-execute as @s[scores={manual=-43}] run scoreboard players set $stray config 0
-execute as @s[scores={manual=-44}] run scoreboard players set $spider config 1
-execute as @s[scores={manual=-45}] run scoreboard players set $spider config 0
-execute as @s[scores={manual=-46}] run scoreboard players set $phantom config 1
-execute as @s[scores={manual=-47}] run scoreboard players set $phantom config 0
-execute as @s[scores={manual=-48}] run scoreboard players set $enderman config 1
-execute as @s[scores={manual=-49}] run scoreboard players set $enderman config 0
-execute as @s[scores={manual=-51}] run scoreboard players set $witch config 1
-execute as @s[scores={manual=-50}] run scoreboard players set $witch config 0
 execute as @s[scores={manual=-52}] run scoreboard players set $talk_vill config 1
 execute as @s[scores={manual=-53}] run scoreboard players set $talk_vill config 0
 execute as @s[scores={manual=-54}] run function snc:logic/manual/on/name_vill

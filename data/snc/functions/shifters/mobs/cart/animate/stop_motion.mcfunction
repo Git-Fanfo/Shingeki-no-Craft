@@ -20,7 +20,7 @@ execute if score state cart_vars matches 11 run function snc:shifters/mobs/cart/
 # Walk
 #execute if score state cart_vars matches 4 run function snc:shifters/mobs/cart/animate/walk
 
-execute if score state cart_vars matches 9 run function snc:shifters/mobs/cart/action/death/fall
+execute if score state cart_vars matches 9 run function snc:shifters/mobs/cart/animate/death
 
 execute if score idle cart_vars matches 1.. run scoreboard players remove idle cart_vars 1
 execute if score action cart_vars matches 1.. run scoreboard players remove action cart_vars 1

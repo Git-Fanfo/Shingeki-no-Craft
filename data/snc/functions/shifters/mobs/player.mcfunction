@@ -13,6 +13,20 @@ $execute unless score state $(shifter)_vars matches 1.. run \
         "scale_player":$(scale_player), \
         "entity_range":$(entity_range) \
         }
+
+effect give @s invisibility 2 0 true
+$effect give @s resistance 3 $(resistance) true
+effect give @s saturation 1 0 true
+
+## Detect If is not attacking
+$execute \
+    unless score state $(shifter)_vars matches 10.. \
+    if score @s using_carrot matches 1.. run \
+        function snc:shifters/human/check_action
+
+$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/mobs/combat {"shifter":$(shifter)}
+$execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
+
 ## Health system
 # When doesn't have absortion then add tag 'injured'
 $execute store result score health $(shifter)_vars run data get entity @s AbsorptionAmount
@@ -33,16 +47,3 @@ execute unless items entity @s armor.head minecraft:carved_pumpkin run function 
 execute if items entity @s armor.chest #minecraft:chest_armor run function snc:shifters/human/restart_abilities
 execute if items entity @s armor.legs #minecraft:leg_armor run function snc:shifters/human/restart_abilities
 execute if items entity @s armor.feet #minecraft:foot_armor run function snc:shifters/human/restart_abilities
-
-effect give @s invisibility 2 0 true
-$effect give @s resistance 3 $(resistance) true
-effect give @s saturation 1 0 true
-
-## Detect If is not attacking
-$execute \
-    unless score state $(shifter)_vars matches 10.. \
-    if score @s using_carrot matches 1.. run \
-        function snc:shifters/human/check_action
-
-$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/mobs/combat {"shifter":$(shifter)}
-$execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
