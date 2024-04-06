@@ -105,7 +105,7 @@ data merge storage minecraft:titan_7 {\
     scale: 3.2, \
     step_height: 1.6, \
     body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan","mob7"],Attributes:[{Name:generic.scale,Base:0.6}]}], \
-    speed: 0.6, \
+    speed: 0.55, \
     dmg_footstep: 10, \
     dmg_1: 0, \
     dmg_2: 0 \

@@ -7,4 +7,4 @@ execute if entity @s[tag=wrap] unless entity @e[tag=titan,distance=0..5,limit=1,
 
 # start function
 execute unless score @s snc.time matches 0.. run scoreboard players set @s snc.time 1
-execute if score @s snc.time matches ..59 run function snc:logic/broadcast/welcome
+execute if score @s snc.time matches ..79 run function snc:logic/broadcast/welcome
