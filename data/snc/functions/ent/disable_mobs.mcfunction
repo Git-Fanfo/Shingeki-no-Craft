@@ -10,4 +10,3 @@ execute as @s[type=arrow,tag=!motion_tur] run return 0
 execute as @s[type=slime,tag=!collision,tag=!hurtbox,tag=!body,tag=!motion,tag=!nape] run function snc:logic/kill_mob
 
 function snc:ent/main
-### DON'T TOUCH THIS ###

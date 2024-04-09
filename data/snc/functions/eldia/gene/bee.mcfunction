@@ -1,4 +1,4 @@
-clear @s carrot_on_a_stick{inv:1b} 1
+clear @s carrot_on_a_stick[custom_data~{inv:1b}] 1
 particle minecraft:happy_villager ~ ~1.5 ~ .3 .3 .3 1 10 force
 playsound minecraft:entity.villager.yes player @a ~ ~ ~ 1 1.1
 

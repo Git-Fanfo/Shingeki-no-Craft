@@ -6,6 +6,7 @@ gamerule doImmediateRespawn true
 ## Logic
 scoreboard objectives add constant dummy
 scoreboard players set #-1 constant -1
+scoreboard players set #15 constant 15
 scoreboard players set #100 constant 100
 scoreboard players set #361 constant 361
 scoreboard players set #4 constant 4

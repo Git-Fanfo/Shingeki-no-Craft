@@ -1,0 +1,1 @@
+execute align xzy positioned ~.5 ~ ~.5 run summon interaction ~ ~ ~ {Tags:["snc.wall"]}
