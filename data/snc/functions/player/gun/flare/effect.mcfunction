@@ -7,7 +7,6 @@ execute if entity @s[tag=black] run summon area_effect_cloud ~ ~ ~ {Duration:250
 execute if entity @s[tag=purple] run summon area_effect_cloud ~ ~ ~ {Duration:250,Tags:["flare","purple"]}
 execute if entity @s[tag=blue] run summon area_effect_cloud ~ ~ ~ {Duration:250,Tags:["flare","blue"]}
 execute if entity @s[tag=yellow] run summon area_effect_cloud ~ ~ ~ {Duration:250,Tags:["flare","yellow"]}
-#execute if predicate snc:chance/20 run particle dust_color_transition 0.741 0 0 10 0.741 0 0 ~ ~ ~ 0 0 0 0 10 force
 
 execute if score @s projectile matches 70 run kill
 

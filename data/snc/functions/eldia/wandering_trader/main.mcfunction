@@ -1,4 +1,5 @@
-execute if score ticks clock matches 4 unless entity @s[tag=eldian] run function snc:eldia/wandering_trader/spawn
+# Scan when a mob spawns
+execute unless entity @s[tag=eldian] run function snc:eldia/wandering_trader/spawn
 
 execute unless block ~ ~-1 ~ smithing_table run data merge entity @s {Offers:{Recipes:[]}}
 

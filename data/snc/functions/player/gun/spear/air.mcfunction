@@ -1,7 +1,7 @@
 #particle cloud ~ ~ ~ 0 0 0 .1 5 force
 
 particle soul_fire_flame ~ ~.5 ~ 0 0 0 .05 10 force
-particle dust 0.255 0.949 1 1 ~ ~.5 ~ 0 0 0 0 10 force
+particle minecraft:dust{color:[0.255f, 0.949f, 1f], scale:1f} ~ ~.5 ~ 0 0 0 0 10 force
 
 execute if predicate snc:odm/is_riding_rot_1 run data modify entity @s Pose.Head[0] set value -45f
 execute if predicate snc:odm/is_riding_rot_2 run data modify entity @s Pose.Head[0] set value -20f

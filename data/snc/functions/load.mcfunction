@@ -131,7 +131,6 @@ execute unless score $destroy config matches 0.. run scoreboard players set $des
 execute unless score $pure_destroy config matches 0.. run scoreboard players set $pure_destroy config 1
 execute unless score $can_p_spwn_as_shift config matches 0.. run scoreboard players set $can_p_spwn_as_shift config 1
 execute unless score $shift_spwn_rate config matches 0.. run scoreboard players set $shift_spwn_rate config 2
-execute unless score $anonymity config matches 0.. run function snc:logic/manual/off/anonymity
 execute unless score #lightning config matches 0.. run scoreboard players set #lightning config 1
 execute unless score hard config matches 0.. run scoreboard players set hard config 1
 execute unless score $titn_spwn_rate config matches 0.. run scoreboard players set $titn_spwn_rate config 2
@@ -227,6 +226,8 @@ team modify captain seeFriendlyInvisibles false
 
 team add commander
 team modify commander seeFriendlyInvisibles false
+
+execute unless score $anonymity config matches 0.. run function snc:logic/manual/off/anonymity
 
 # Remember 
 # add_<name> -> tag add @s <name>

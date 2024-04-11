@@ -27,11 +27,10 @@ execute if entity @s[tag=beast] run execute as @e[tag=head,tag=eldian,sort=neare
 ride @s mount @e[tag=head,tag=!snc.init,sort=nearest,limit=1]
 function snc:eldia/gene/inherit/main
 
-# Add tag
-tag @s add not_eldian
 scoreboard players add eldian spawn 1
 # Reset
 execute if score eldian spawn matches 7 run scoreboard players set eldian spawn 0
 
 # Kill villager
 function snc:logic/kill_mob
+return 0
