@@ -1,0 +1,41 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "minecraft:village/taiga/streets/joint_l",
+          "processors": "minecraft:street_snowy_or_taiga",
+          "projection": "terrain_matching"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "minecraft:village/taiga/streets/straight",
+          "processors": "minecraft:street_snowy_or_taiga",
+          "projection": "terrain_matching"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "minecraft:village/taiga/streets/joint_t",
+          "processors": "minecraft:street_snowy_or_taiga",
+          "projection": "terrain_matching"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "minecraft:village/taiga/streets/joint_x",
+          "processors": "minecraft:street_snowy_or_taiga",
+          "projection": "terrain_matching"
+        },
+        "weight": 3
+      }
+    ],
+    "fallback": "minecraft:village/taiga/terminators"
+  }
