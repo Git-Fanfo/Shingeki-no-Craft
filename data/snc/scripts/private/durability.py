@@ -8,7 +8,7 @@ increment = 0.01
 # Loop to create and write the 100 files
 for i in range(100):
     # Define the filename based on the current index
-    filename = f"../item_modifiers/durability/{i}.json"
+    filename = f"../../item_modifiers/durability/{i}.json"
     # Create the dictionary structure for the JSON content
     content = [
         {

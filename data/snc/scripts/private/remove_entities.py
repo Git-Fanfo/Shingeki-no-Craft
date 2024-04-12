@@ -20,11 +20,11 @@ banned_monsters = [
                 ] 
 ### EDIT THIS ### 
 def remove_monster(banned_monsters):
-    directory_path = './biomes' 
+    directory_path = '../public/add_or_remove_hostile_mobs/biomes' 
     namespaces = [d for d in os.listdir(directory_path) if os.path.isdir(os.path.join(directory_path, d))] 
     
     for namespace in namespaces: 
-        worldgen_path = '../../'+namespace+'/worldgen/biome' 
+        worldgen_path = '../../../'+namespace+'/worldgen/biome' 
         # Check if the folder exists and deletes it 
         if os.path.exists(worldgen_path) and os.path.isdir(worldgen_path): 
             shutil.rmtree(worldgen_path) # print("Folder deleted 🗑️") 
@@ -33,14 +33,14 @@ def remove_monster(banned_monsters):
         print(worldgen_path) 
 
         # Check all biomes 
-        biomes = [f for f in os.listdir('./biomes/'+namespace) if os.path.isfile(os.path.join('./biomes/'+namespace, f))] 
+        biomes = [f for f in os.listdir(directory_path+'/'+namespace) if os.path.isfile(os.path.join(directory_path+'/'+namespace, f))] 
         for biome in biomes: 
             
             # Get json 
-            with open('./biomes/'+namespace+'/'+biome, 'r') as f: 
+            with open(directory_path+'/'+namespace+'/'+biome, 'r') as f: 
                 conditions = json.loads(f.read()) 
             # Compress original biomes 
-            with open('./biomes/'+namespace+'/'+biome, 'w') as file: 
+            with open(directory_path+'/'+namespace+'/'+biome, 'w') as file: 
                 json.dump(conditions, file) 
                 # Check if the biome doesn't have monsters 
                 if(len(conditions['spawners']['monster']) >= 1): 
@@ -56,7 +56,7 @@ def remove_monster(banned_monsters):
                 else: 
                     print('Monsters not found on',namespace+':'+biome[:-5]) 
                 # Write file 
-                with open('../../'+namespace+'/worldgen/biome/'+biome, 'w') as file: 
+                with open('../../../'+namespace+'/worldgen/biome/'+biome, 'w') as file: 
                     # json.dump(conditions, file, indent=4) 
                     json.dump(conditions, file) 
  
