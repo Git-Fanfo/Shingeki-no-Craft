@@ -1,3 +1,7 @@
+execute if score $vanish armor_vars matches 1 run particle minecraft:cloud ~ ~4 ~ 2 2 2 .2 500 force
+execute if score $vanish armor_vars matches 1 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 1
+execute if score $vanish armor_vars matches 1 run function snc:shifters/mobs/kill {"shifter":"armor"}
+
 execute unless block ~ ~-7.5 ~ #snc:filter_shifter run data merge entity @s {NoGravity:1b}
 
 execute unless score @s armor_vars matches ..7200 run scoreboard players set @s armor_vars 7200
@@ -26,4 +30,6 @@ execute if score @s armor_vars matches 1000.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 min
 #execute if score @s armor_vars matches 6300 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
 #execute if score @s armor_vars matches 6200 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
 
+execute if score @s armor_vars matches 7100 run particle minecraft:cloud ~ ~4 ~ 2 2 2 .2 500 force
+execute if score @s armor_vars matches 7100 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 1
 execute if score @s armor_vars matches 7100 run function snc:shifters/mobs/kill {"shifter":"armor"}

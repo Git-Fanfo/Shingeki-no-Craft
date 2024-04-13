@@ -1,0 +1,1 @@
+give @s minecraft:allay_spawn_egg[custom_data={snc_item:1},item_name='{"translate":"aot.titan.colossal","color":"aqua"}',entity_data={'id': 'minecraft:villager', 'Tags': ['colossal']},enchantment_glint_override=True] 1

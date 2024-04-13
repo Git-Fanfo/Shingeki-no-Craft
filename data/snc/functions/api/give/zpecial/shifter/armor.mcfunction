@@ -1,0 +1,1 @@
+give @s minecraft:camel_spawn_egg[custom_data={snc_item:1},item_name='{"translate":"aot.titan.armor","color":"gold"}',entity_data={'id': 'minecraft:villager', 'Tags': ['armor']},enchantment_glint_override=True] 1

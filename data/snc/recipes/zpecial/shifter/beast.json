@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{"item": "minecraft:green_dye"},{"item": "minecraft:bedrock"}],
+  "result": {
+    "count": 1,
+    "id": "minecraft:slime_spawn_egg",
+    "components": {
+        "custom_data":{"snc_item":1},
+        "item_name":"{\"translate\":\"aot.titan.beast\",\"color\":\"green\"}",
+        "entity_data":{"id":"minecraft:villager","Tags":["beast"]},
+        "enchantment_glint_override":true
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:strider_spawn_egg[custom_data={snc_item:1},item_name='{"translate":"aot.titan.attack","color":"dark_red"}',entity_data={'id': 'minecraft:villager', 'Tags': ['attack']},enchantment_glint_override=True] 1

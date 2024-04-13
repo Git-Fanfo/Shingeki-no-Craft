@@ -1,7 +1,12 @@
 function snc:logic/return_gamemode
 
+$execute if entity @s[tag=snc.shifter.vanish] run scoreboard players set $vanish $(shifter)_vars 1
+$execute if entity @s[tag=snc.shifter.vanish] on vehicle run scoreboard players set @s $(shifter)_vars 1
+$execute if entity @s[tag=snc.shifter.vanish] run scoreboard players remove $energy $(shifter)_vars 180
+
 tag @s remove transform
 tag @s remove consume
+tag @s remove snc.shifter.vanish
 
 clear @s *[custom_data~{atk_shifter:1b}]
 clear @s carved_pumpkin

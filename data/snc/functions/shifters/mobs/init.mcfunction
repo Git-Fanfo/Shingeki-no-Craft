@@ -16,6 +16,7 @@ $bossbar set minecraft:$(shifter)_health style notched_6
 
 $scoreboard players set state $(shifter)_vars 1
 $scoreboard players set $gamemode $(shifter)_vars 1
+$scoreboard players set $vanish $(shifter)_vars 0
 
 scoreboard players reset @s snc.ender
 scoreboard players reset @s snc.chest

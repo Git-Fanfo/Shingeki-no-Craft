@@ -150,7 +150,7 @@ function snc:shifters/mobs/arguments
 
 scoreboard objectives add armor_vars dummy
 execute unless score $energy armor_vars matches 0.. run scoreboard players set $energy armor_vars 0
-execute unless score $armor.doesnt.exists shifter_vars matches 0 run scoreboard players set $armor.doesnt.exists shifter_vars 1
+execute unless score $armor.doesnt.exists shifter_vars matches 0 run scoreboard players set $armor.doesnt.exists shifter_vars 0
 
 scoreboard objectives add cart_vars dummy
 execute unless score $energy cart_vars matches 0.. run scoreboard players set $energy cart_vars 0

@@ -1,3 +1,7 @@
+execute if score $vanish colossal_vars matches 1 run particle minecraft:cloud ^ ^ ^40 2 2 2 .2 500 force
+execute if score $vanish colossal_vars matches 1 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 .9
+execute if score $vanish colossal_vars matches 1 run function snc:shifters/mobs/kill {"shifter":"colossal"}
+
 execute unless score @s colossal_vars matches ..1200 run scoreboard players set @s colossal_vars 1200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses colossal_vars 0

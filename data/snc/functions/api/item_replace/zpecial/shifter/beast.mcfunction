@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:slime_spawn_egg[custom_data={snc_item:1},item_name='{"translate":"aot.titan.beast","color":"green"}',entity_data={'id': 'minecraft:villager', 'Tags': ['beast']},enchantment_glint_override=True] 1
