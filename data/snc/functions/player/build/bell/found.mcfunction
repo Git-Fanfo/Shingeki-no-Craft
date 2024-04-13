@@ -22,6 +22,6 @@ setblock ~ ~2 ~ bell[attachment=ceiling]
 setblock ~ ~3 ~ spruce_wood
 
 ## Summon
-summon text_display ~ ~4 ~ {CustomNameVisible:1b,width:2f,height:2f,billboard:"vertical",Tags:["village"],CustomName:'{"text":"Village","color":"gold"}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]}}
+execute positioned ~ ~4 ~ summon text_display run function snc:player/build/bell/rename/init
 
 execute as @e[distance=..30] run function snc:player/build/bell/spawn

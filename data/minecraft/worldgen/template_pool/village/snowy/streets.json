@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "minecraft:village/taiga/streets/joint_l",
+        "location": "minecraft:village/snowy/streets/joint_l",
         "processors": "minecraft:street_snowy_or_taiga",
         "projection": "terrain_matching"
       },
@@ -12,7 +12,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "minecraft:village/taiga/streets/straight",
+        "location": "minecraft:village/snowy/streets/straight",
         "processors": "minecraft:street_snowy_or_taiga",
         "projection": "terrain_matching"
       },
@@ -21,7 +21,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "minecraft:village/taiga/streets/joint_t",
+        "location": "minecraft:village/snowy/streets/joint_t",
         "processors": "minecraft:street_snowy_or_taiga",
         "projection": "terrain_matching"
       },
@@ -30,12 +30,12 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "minecraft:village/taiga/streets/joint_x",
+        "location": "minecraft:village/snowy/streets/joint_x",
         "processors": "minecraft:street_snowy_or_taiga",
         "projection": "terrain_matching"
       },
       "weight": 1
     }
   ],
-  "fallback": "minecraft:village/taiga/terminators"
+  "fallback": "minecraft:village/snowy/terminators"
 }

@@ -16,5 +16,3 @@ scoreboard players reset @s motion_z0
 scoreboard players reset @s motion_x1
 scoreboard players reset @s motion_y1
 scoreboard players reset @s motion_z1
-
-tag @s remove not_mov
