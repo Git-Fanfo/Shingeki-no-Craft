@@ -69,7 +69,7 @@ data merge storage minecraft:attack {\
     color:dark_red, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
-    hp:40, \
+    hp:44, \
     walk_speed:0.13d, \
     run_speed:0.36d, \
     type:skeleton_horse, \
@@ -126,7 +126,7 @@ data merge storage minecraft:armor {\
     color:gold, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
-    hp:40, \
+    hp:44, \
     walk_speed:0.13d, \
     run_speed:0.6d, \
     jump:2d, \

@@ -2,7 +2,8 @@
 $execute as @s[tag=body] run \
     function snc:shifters/mobs/controller with storage minecraft:$(shifter)
 $execute as @s[tag=collision] run \
-    function snc:shifters/mobs/collision {"shifter":"$(shifter)","parry":"$(parry)"}
+    function snc:shifters/mobs/collision {"shifter":"$(shifter)"}
+#    function snc:shifters/mobs/collision {"shifter":"$(shifter)","parry":"$(parry)"}
 
 ## UNIQUE: ATTACK
 execute \

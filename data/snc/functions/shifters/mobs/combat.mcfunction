@@ -41,4 +41,4 @@ execute \
         scoreboard players set combo_kick attack_vars 4
 
 ## UNIQUE: BEAST
-execute if score @s shifter_vars matches 4 positioned ^ ^ ^13 positioned over world_surface as @e[type=#snc:baseball,tag=!transform] run function snc:shifters/mobs/beast/action/grab/highlight
+execute if score @s shifter_vars matches 4 positioned ^ ^ ^13 positioned over world_surface as @e[type=#snc:baseball] run function snc:shifters/mobs/beast/action/grab/highlight

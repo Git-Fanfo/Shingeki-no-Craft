@@ -1,5 +1,5 @@
 {
-	"version": "0.4.6",
+	"version": "0.4.8",
 	"projects": {
 		"83584c0d-e87e-6d06-1840-91247e2257e4": {
 			"project_name": "attack",
@@ -4952,8 +4952,8 @@
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\next_frame_as_root.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\leaf_0.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\leaf_0_as_bone.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\leaf_19.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\leaf_19_as_bone.mcfunction",
+				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\leaf_40.mcfunction",
+				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\leaf_40_as_bone.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\tree\\branch_0_40.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\born\\apply_frame_as_root.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\death\\play_as_root.mcfunction",
@@ -5066,9 +5066,6 @@
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\next_frame_as_root.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\tree\\leaf_0.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\tree\\leaf_0_as_bone.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\tree\\leaf_20.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\tree\\leaf_20_as_bone.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\tree\\branch_0_20.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\slide\\apply_frame_as_root.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\punch_1\\play_as_root.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\punch_1\\resume_as_root.mcfunction",
@@ -5316,8 +5313,6 @@
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\tree\\leaf_25.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\tree\\leaf_25_as_bone.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\tree\\branch_24_31.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\tree\\leaf_40.mcfunction",
-				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\tree\\leaf_40_as_bone.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\tree\\branch_0_40.mcfunction",
 				"data\\animated_java\\functions\\armor\\zzzzzzzz\\animations\\init_charge\\apply_frame_as_root.mcfunction",
 				"data\\animated_java\\functions\\armor\\uninstall.mcfunction",

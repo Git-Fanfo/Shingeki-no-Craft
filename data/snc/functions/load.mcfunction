@@ -15,7 +15,7 @@ scoreboard players set #1000 constant 1000
 scoreboard players set #10000 constant 10000
 scoreboard players set #lcg constant 1103515245
 scoreboard objectives add earthquake dummy
-# scoreboard objectives add push_back dummy
+scoreboard objectives add snc.knockback dummy
 scoreboard objectives add snc.push dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add random dummy
@@ -170,8 +170,8 @@ execute unless score $energy beast_vars matches 0.. run scoreboard players set $
 execute unless score $beast.doesnt.exists shifter_vars matches 0 run scoreboard players set $beast.doesnt.exists shifter_vars 1
 
 
-scoreboard objectives add apply_damage dummy
-scoreboard players set base apply_damage 1024
+# scoreboard objectives add apply_damage dummy
+# scoreboard players set base apply_damage 1024
 
 ## Chests
 scoreboard objectives add snc.ender minecraft.custom:minecraft.open_enderchest
@@ -184,6 +184,9 @@ scoreboard objectives add snc.trap minecraft.custom:minecraft.trigger_trapped_ch
 team add titan
 team modify titan seeFriendlyInvisibles false
 team modify titan collisionRule pushOtherTeams
+
+team add nocol
+team modify nocol collisionRule never
 
 team add cart
 team modify cart nametagVisibility never

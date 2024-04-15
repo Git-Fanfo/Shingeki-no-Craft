@@ -27,6 +27,10 @@ $execute \
 $execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/mobs/combat {"shifter":$(shifter)}
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
 
+## Check health
+# Apply damage then carrier is hurt
+$execute if predicate snc:is_hurt unless score state $(shifter)_vars matches 9 run function snc:shifters/mobs/check_parry {"shifter":"$(shifter)","parry":"$(parry)"}
+
 ## Health system
 # When doesn't have absortion then add tag 'injured'
 $execute store result score health $(shifter)_vars run data get entity @s AbsorptionAmount
