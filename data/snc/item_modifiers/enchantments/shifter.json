@@ -1,0 +1,13 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+        "minecraft:enchantments": {
+            "minecraft:projectile_protection": 127,
+            "minecraft:protection": 10
+        },
+        "minecraft:enchantment_glint_override": false
+        }
+    }
+]
+  

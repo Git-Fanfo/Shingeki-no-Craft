@@ -45,3 +45,6 @@ $execute if score @s beast_vars matches 1 run give @s spyglass[enchantment_glint
 
 
 $item replace entity @s container.8 with carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=8, custom_data={remove:1b,atk_shifter:1b,$(id)_titan:1b},custom_name="{translate:aot.ability.release,color:white,italic:false}", lore=["{translate:aot.ability.release.desc,color:yellow}","{translate:aot.ability.release.desc2,color:yellow}","{text:\" \",color:gray,italic:false}","{translate:aot.active,color:gray,italic:false}","{translate:aot.ability.release.desc3,color:blue,italic:false}"]] 1
+
+## Resistance!
+item modify entity @s armor.head snc:enchantments/shifter

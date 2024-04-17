@@ -30,7 +30,7 @@ $execute if score titan.health.bar $(shifter)_vars matches 20.. run tag @s remov
 ## Regeneration
 # Human
 $scoreboard players add human.regen $(shifter)_vars 1
-$execute if score human.regen $(shifter)_vars matches 40.. run scoreboard players set human.regen $(shifter)_vars 0
+$execute if score human.regen $(shifter)_vars matches 80.. run scoreboard players set human.regen $(shifter)_vars 0
 $execute if entity @s[tag=!first,tag=!transform] if score human.regen $(shifter)_vars matches 0 run function snc:shifters/human/regeneration {"shifter":$(shifter)}
 # Shifter
 $scoreboard players add shift.regen $(shifter)_vars 1

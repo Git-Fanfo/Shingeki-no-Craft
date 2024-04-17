@@ -49,7 +49,7 @@ execute if score state armor_vars matches 15 if entity @s[tag=!aj.armor.animatio
 #execute if score state armor_vars matches 16 if entity @s[tag=!aj.armor.animation.kick_1] run function snc:shifters/mobs/armor/animate/kick_1
 #execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.kick_2] run function snc:shifters/mobs/armor/animate/kick_2
 #execute if score state armor_vars matches 18 if entity @s[tag=!aj.armor.animation.kick_3] run function snc:shifters/mobs/armor/animate/kick_3
-#execute if score state armor_vars matches 19 if entity @s[tag=!aj.armor.animation.block] run function snc:shifters/mobs/armor/animate/block
+#execute if score state armor_vars matches 10 if entity @s[tag=!aj.armor.animation.block] run function snc:shifters/mobs/armor/animate/block
 
 # [X] Born
 # [X] Death

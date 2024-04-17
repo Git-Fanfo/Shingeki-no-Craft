@@ -1,4 +1,1 @@
-#particle heart ^ ^2 ^5 0 0 0 0 200 force
-$execute positioned ^ ^2 ^4 as @e[distance=..5.5,tag=!attack] unless score @s attack_vars matches 1 run damage @s $(dmg2) player_attack by @p[scores={attack_vars=1}]
-execute positioned ^ ^2 ^4 as @e[tag=hurtbox,distance=..5.5] run effect give @s water_breathing 1 0 true
-playsound aot.punch player @a ~ ~2 ~ 2 .8
+$execute positioned ^ ^ ^3 run function snc:shifters/combat/damage {"distance":8,"half_minus_zero_point_five":3,"shifter":"attack","sound":"aot.punch","id":$(id),"damage":$(damage_punch_3),"knockback":$(knockback_punch_3),"energy":$(energy_punch_3)}

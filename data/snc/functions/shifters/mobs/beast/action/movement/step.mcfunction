@@ -1,3 +1,5 @@
-playsound minecraft:aot.footsteps player @a ~ ~ ~ 2 1
-execute positioned ~ ~-2 ~ as @a[distance=..12] unless score @s beast_vars matches 1 unless score @s earthquake matches 16.. run scoreboard players add @s earthquake 6
-particle block{block_state:"dirt"} ~ ~-2 ~ 1 0 1 0 30 force
+playsound minecraft:aot.footsteps player @a ~ ~-9 ~ 2 1
+
+execute positioned ~ ~-9 ~ as @e[distance=..12] run function snc:shifters/combat/step with storage minecraft:beast
+
+particle block{block_state:"dirt"} ~ ~-9 ~ 1 0 1 0 30 force

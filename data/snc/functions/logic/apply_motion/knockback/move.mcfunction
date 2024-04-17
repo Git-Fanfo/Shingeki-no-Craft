@@ -4,4 +4,4 @@ execute store result entity @s Motion[1] double 0.01 run scoreboard players get 
 execute store result entity @s Motion[2] double 0.03 run scoreboard players get #motion_z shifter_vars
 data merge entity @s {NoGravity:0b}
 
-scoreboard players reset @s snc.shifter.knockback
+scoreboard players reset @s snc.knockback

@@ -13,14 +13,14 @@ data merge storage minecraft:cart {\
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    parry:false, \
     regen_ticks:100, \
     scale_vehicle:2, \
     scale_player:2.4, \
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    energy_attack: 30\
+    damage_jaw: 30, knockback_jaw: 8, energy_jaw: 40, \
+    damage_step: 2 \
 }
 ## Note: Fanfo from the future says: Argument "jump:1d" works pretty good for Jaw!
 
@@ -39,14 +39,14 @@ data merge storage minecraft:colossal {\
     step_height:7d, \
     explosion:47, \
     resistance:2, \
-    parry:false, \
     regen_ticks:140, \
     scale_vehicle:6, \
     scale_player:12, \
     block_range:0, \
     entity_range:0, \
     energy_decrease: 5,\
-    energy_attack: 110\
+    energy_attack: 110, \
+    damage_step: 15 \
 }
 
 ## id : identifier of the shifter, never change.
@@ -59,7 +59,6 @@ data merge storage minecraft:colossal {\
 ## run_speed : speed of the titan when running.
 ## jump : jump strength.
 ## resistance : resistance of the shifter to scale HP.
-## parry : Can the shifter parry? If true then is equal to "shifter", false otherwise.
 ## regen_ticks : How much time in ticks takes the shifter to regen HP, the less value the stronger.
 
 data merge storage minecraft:attack {\
@@ -69,26 +68,28 @@ data merge storage minecraft:attack {\
     color:dark_red, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
+    type:skeleton_horse, \
     hp:44, \
     walk_speed:0.13d, \
     run_speed:0.36d, \
-    type:skeleton_horse, \
     jump:2d, \
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    parry:attack, \
     regen_ticks:80, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
     block_range:10, \
     entity_range:0, \
-    energy_decrease: 2,\
-    energy_attack: 45,\
-    dmg2:36, \
-    dmg3:24, \
-    jaw_dmg:20, \
-    footstep_dmg:6 \
+    energy_decrease:2,\
+    damage_punch_1:20, knockback_punch_1:2, energy_punch_1:50, \
+    damage_punch_2:24, knockback_punch_2:4, energy_punch_2:40, \
+    damage_punch_3:30, knockback_punch_3:10, energy_punch_3:35, \
+    damage_kick_1:20, knockback_kick_1:2, energy_kick_1:40, \
+    damage_kick_2:24, knockback_kick_2:4, energy_kick_2:30, \
+    damage_kick_3:28, knockback_kick_3:6, energy_kick_3:20, \
+    damage_jaw: 10, knockback_jaw: 2, energy_jaw: 10, \
+    damage_step: 3 \
 }
 
 data merge storage minecraft:beast {\
@@ -106,17 +107,16 @@ data merge storage minecraft:beast {\
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    parry:false, \
     regen_ticks:140, \
     scale_vehicle:6.8, \
     scale_player:10, \
     block_range:11, \
     entity_range:0, \
     energy_decrease: 2,\
-    energy_attack: 45,\
-    dmg3:60, \
-    dmg4:20, \
-    jaw_dmg:15 \
+    damage_focus: 60, knockback_focus: 10, energy_focus: 80, \
+    damage_area: 20, knockback_area: 3, energy_area: 27, \
+    damage_jaw: 8, knockback_jaw: 2, energy_jaw: 10, \
+    damage_step: 4 \
 }
 
 data merge storage minecraft:armor {\
@@ -134,7 +134,6 @@ data merge storage minecraft:armor {\
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    parry:attack, \
     regen_ticks:80, \
     scale_vehicle:6.8, \
     scale_player:4.7, \
@@ -145,5 +144,5 @@ data merge storage minecraft:armor {\
     dmg2:36, \
     dmg3:24, \
     jaw_dmg:20, \
-    footstep_dmg:6 \
+    damage_step: 3 \
 }

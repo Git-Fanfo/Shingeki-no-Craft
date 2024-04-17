@@ -146,13 +146,8 @@ execute if score ticks clock matches 14 rotated ~ 0 positioned ^-6 ^-26 ^ run fi
 execute if score ticks clock matches 14 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:fire replace #snc:destroy/building
 
 # SHAKE GROUND
-execute if score walk colossal_vars matches 110 run playsound minecraft:aot.footsteps player @a ~ ~ ~ 4.5 0
-execute if score walk colossal_vars matches 95 positioned ~ ~-60 ~ run execute as @a[distance=..100,tag=!colossal] unless score @s earthquake matches 16.. run function snc:shifters/mobs/colossal/action/explosion/select_earthquake
-execute if score walk colossal_vars matches 90 positioned ~ ~-60 ~ as @e[distance=..15,tag=!colossal] run function snc:shifters/mobs/colossal/action/walk/damage
+execute if score walk colossal_vars matches 110 run function snc:shifters/mobs/colossal/action/movement/step
 
-
-execute if score walk colossal_vars matches 45 run playsound minecraft:aot.footsteps player @a ~ ~ ~ 4.5 0
-execute if score walk colossal_vars matches 30 positioned ~ ~-60 ~ run execute as @a[distance=..100,tag=!colossal] unless score @s earthquake matches 16.. run function snc:shifters/mobs/colossal/action/explosion/select_earthquake
-execute if score walk colossal_vars matches 25 positioned ~ ~-60 ~ as @e[distance=..15,tag=!colossal] run function snc:shifters/mobs/colossal/action/walk/damage
+execute if score walk colossal_vars matches 45 run function snc:shifters/mobs/colossal/action/movement/step
 
 execute if score walk colossal_vars matches 1 run scoreboard players set state colossal_vars 3

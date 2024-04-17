@@ -1,4 +1,1 @@
-##execute positioned ^ ^-4 ^5 run function snc:logic/distance {"distance":5,"half_minus_zero_point_five":2}
-$execute positioned ^ ^-4 ^5 as @e[distance=..5] run damage @s $(dmg3) player_attack by @p[scores={attack_vars=1}]
-execute positioned ^ ^-4 ^5 as @e[tag=hurtbox,distance=..5] run effect give @s water_breathing 1 0 true
-playsound aot.punch player @a ^ ^-4 ^5 2 .8
+$execute positioned ^ ^-4 ^5 run function snc:shifters/combat/damage {"distance":5.5,"half_minus_zero_point_five":2.25,"shifter":"attack","sound":"aot.punch","id":$(id),"damage":$(damage_kick_2),"knockback":$(knockback_kick_2),"energy":$(energy_kick_2)}

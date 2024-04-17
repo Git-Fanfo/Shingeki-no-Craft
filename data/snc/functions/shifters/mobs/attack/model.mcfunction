@@ -8,6 +8,7 @@
 # 6 : Jump
 # 9 : Die
 ###############
+# 10 : Parry
 # 12 : punch_1
 # 13 : punch_2
 # 14 : punch_3
@@ -15,7 +16,7 @@
 # 16 : kick_1
 # 17 : kick_2
 # 18 : kick_3
-# 19 : block
+
 
 ## Rotate model
 execute store result score rotation attack_vars run data get entity @s Rotation[0]
@@ -45,6 +46,9 @@ execute if score state attack_vars matches 5 on vehicle run attribute @s minecra
 
 execute if score state attack_vars matches 9 if entity @s[tag=!aj.attack.animation.death] run function snc:shifters/mobs/attack/animate/death
 
+execute if score state attack_vars matches 10 if entity @s[tag=!aj.attack.animation.block] run function snc:shifters/mobs/attack/animate/block
+execute if score state attack_vars matches 10 on vehicle run attribute @s minecraft:generic.scale base set 6.9
+
 execute if score state attack_vars matches 12 if entity @s[tag=!aj.attack.animation.punch_1] run function snc:shifters/mobs/attack/animate/punch_1
 execute if score state attack_vars matches 12 on vehicle run attribute @s minecraft:generic.scale base set 5.5
 execute if score state attack_vars matches 13 if entity @s[tag=!aj.attack.animation.punch_2] run function snc:shifters/mobs/attack/animate/punch_2
@@ -58,8 +62,7 @@ execute if score state attack_vars matches 17 if entity @s[tag=!aj.attack.animat
 execute if score state attack_vars matches 17 on vehicle run attribute @s minecraft:generic.scale base set 5.6
 execute if score state attack_vars matches 18 if entity @s[tag=!aj.attack.animation.kick_3] run function snc:shifters/mobs/attack/animate/kick_3
 execute if score state attack_vars matches 18 on vehicle run attribute @s minecraft:generic.scale base set 5.5
-execute if score state attack_vars matches 19 if entity @s[tag=!aj.attack.animation.block] run function snc:shifters/mobs/attack/animate/block
-execute if score state attack_vars matches 19 on vehicle run attribute @s minecraft:generic.scale base set 6.9
+
 
 # [X] Born
 # [X] Death

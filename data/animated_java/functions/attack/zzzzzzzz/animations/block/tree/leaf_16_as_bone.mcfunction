@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.attack.locator_origin.right_hand] at @s on origin run tp @s ^-0.92533 ^4.56338 ^1.28499 ~177.86806 ~6.33004

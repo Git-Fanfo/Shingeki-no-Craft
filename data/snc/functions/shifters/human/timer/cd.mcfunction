@@ -19,3 +19,5 @@ execute unless score @s shifter_vars matches 2 run effect give @s slow_falling 3
 effect give @s levitation 1 0 true
 
 $function snc:shifters/human/untransform {"shifter":"$(shifter)"}
+
+return 0

@@ -17,6 +17,7 @@ $execute unless score state $(shifter)_vars matches 1.. run \
 effect give @s invisibility 2 0 true
 $effect give @s resistance 3 $(resistance) true
 effect give @s saturation 1 0 true
+effect clear @s darkness
 
 ## Detect If is not attacking
 $execute \
@@ -29,16 +30,16 @@ $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters
 
 ## Check health
 # Apply damage then carrier is hurt
-$execute if predicate snc:is_hurt unless score state $(shifter)_vars matches 9 run function snc:shifters/mobs/check_parry {"shifter":"$(shifter)","parry":"$(parry)"}
+$execute if predicate snc:is_hurt unless score state $(shifter)_vars matches 9 run function snc:shifters/mobs/parry {"shifter":$(shifter)}
 
 ## Health system
 # When doesn't have absortion then add tag 'injured'
 $execute store result score health $(shifter)_vars run data get entity @s AbsorptionAmount
 $execute store result bossbar $(shifter)_health value run scoreboard players get health $(shifter)_vars
+# Kill when energy runs out
+$execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
 # Kill when life is 0
 $execute if score health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
-# Kill when time runs out
-$execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
 # Ride when is not dead
 $execute unless score state $(shifter)_vars matches 9 unless predicate snc:shifters/is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak
 # Rotation
