@@ -22,7 +22,7 @@ execute if score state colossal_vars matches 12 run function snc:shifters/mobs/c
 execute if score state colossal_vars matches 13 run function snc:shifters/mobs/colossal/animate/fall
 # Consume
 execute if score $form colossal_vars matches 0 unless score state colossal_vars matches 14 on vehicle rotated ~ 0 positioned ^5 ^1 ^13.5 run particle glow_squid_ink ~ ~ ~ 0 0 0 0 20 force
-execute if score $form colossal_vars matches 0 unless score state colossal_vars matches 14 on vehicle rotated ~ 0 positioned ^5 ^1 ^13.5 run effect give @e[distance=..8] glowing 1 0 true
+execute if score $form colossal_vars matches 0 unless score state colossal_vars matches 14 on vehicle rotated ~ 0 positioned ^5 ^1 ^13.5 run effect give @e[distance=..8,tag=!shifter,tag=!transform] glowing 1 0 true
 execute if score state colossal_vars matches 14 run function snc:shifters/mobs/colossal/animate/consume
 
 execute if score state colossal_vars matches 9 run function snc:shifters/mobs/colossal/animate/death

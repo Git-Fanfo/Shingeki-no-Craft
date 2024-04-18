@@ -45,7 +45,8 @@ data merge storage minecraft:colossal {\
     block_range:0, \
     entity_range:0, \
     energy_decrease: 5,\
-    energy_attack: 110, \
+    damage_kick_1:60, knockback_kick_1:10, energy_kick_1:110, \
+    damage_jaw: 30, knockback_jaw: 8, energy_jaw: 40, \
     damage_step: 15 \
 }
 

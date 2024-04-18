@@ -147,7 +147,9 @@ execute if score ticks clock matches 14 rotated ~ 0 positioned ^6 ^-26 ^ run fil
 
 # SHAKE GROUND
 execute if score walk colossal_vars matches 110 run function snc:shifters/mobs/colossal/action/movement/step
+execute if score walk colossal_vars matches 110 run scoreboard players remove $energy colossal_vars 5
 
 execute if score walk colossal_vars matches 45 run function snc:shifters/mobs/colossal/action/movement/step
+execute if score walk colossal_vars matches 45 run scoreboard players remove $energy colossal_vars 5
 
 execute if score walk colossal_vars matches 1 run scoreboard players set state colossal_vars 3
