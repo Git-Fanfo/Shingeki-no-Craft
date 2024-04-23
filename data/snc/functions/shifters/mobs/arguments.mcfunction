@@ -5,6 +5,7 @@ data merge storage minecraft:cart {\
     color:light_purple, \
     bossbar_display:uFFF3, \
     bossbar_color:pink, \
+    bossbar_style: notched_6, \
     hp:32, \
     walk_speed:0.35d, \
     run_speed:0.35d, \
@@ -31,6 +32,7 @@ data merge storage minecraft:colossal {\
     color:aqua, \
     bossbar_display:uFFF0, \
     bossbar_color:blue, \
+    bossbar_style: notched_12, \
     hp:72, \
     walk_speed:0.1d, \
     run_speed:0.1d, \
@@ -69,6 +71,7 @@ data merge storage minecraft:attack {\
     color:dark_red, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
+    bossbar_style: notched_10, \
     type:skeleton_horse, \
     hp:44, \
     walk_speed:0.13d, \
@@ -100,6 +103,7 @@ data merge storage minecraft:beast {\
     color:green, \
     bossbar_display:uFFF2, \
     bossbar_color:green, \
+    bossbar_style: notched_10, \
     hp:52, \
     walk_speed:0.14d, \
     run_speed:0.20d, \
@@ -127,6 +131,7 @@ data merge storage minecraft:armor {\
     color:gold, \
     bossbar_display:uFFF1, \
     bossbar_color:red, \
+    bossbar_style: notched_10, \
     hp:44, \
     walk_speed:0.13d, \
     run_speed:0.6d, \

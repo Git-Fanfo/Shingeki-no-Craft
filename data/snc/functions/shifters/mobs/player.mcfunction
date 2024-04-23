@@ -4,6 +4,7 @@ $execute unless score state $(shifter)_vars matches 1.. run \
         "shifter":"$(shifter)", \
         "bossbar_display":"$(bossbar_display)", \
         "bossbar_color":$(bossbar_color), \
+        "bossbar_style":$(bossbar_style), \
         "hp":$(hp), \
         "walk_speed":$(walk_speed), \
         "type":$(type), \

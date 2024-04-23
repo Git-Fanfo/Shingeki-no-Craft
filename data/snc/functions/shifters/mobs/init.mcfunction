@@ -12,9 +12,10 @@ $execute summon $(type) run function snc:shifters/mobs/spawn {\
 $bossbar add $(shifter)_health {"text":"\$(bossbar_display)"}
 $bossbar set minecraft:$(shifter)_health color $(bossbar_color)
 $bossbar set minecraft:$(shifter)_health max $(hp)
-$bossbar set minecraft:$(shifter)_health style notched_6
+$bossbar set minecraft:$(shifter)_health style $(bossbar_style)
 
 $scoreboard players set state $(shifter)_vars 1
+$scoreboard players set consume $(shifter)_vars 0
 $scoreboard players set $gamemode $(shifter)_vars 1
 $scoreboard players set $vanish $(shifter)_vars 0
 
