@@ -7,7 +7,7 @@ function snc:shifters/abilities/clear
 ## Gamemode
 # Combat
 execute if score $gamemode armor_vars matches 1 run function snc:shifters/mobs/armor/abilities/atk_1 with storage minecraft:armor
-# execute if score $gamemode armor_vars matches 1 run function snc:shifters/mobs/armor/abilities/atk_2 with storage minecraft:armor
+execute if score $gamemode armor_vars matches 1 run function snc:shifters/mobs/armor/abilities/atk_2 with storage minecraft:armor
 
 # Utility
 execute if score $gamemode armor_vars matches -1 run function snc:shifters/abilities/destroy with storage minecraft:armor

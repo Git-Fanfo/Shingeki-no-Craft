@@ -26,7 +26,7 @@ $execute \
     if score @s using_carrot matches 1.. run \
         function snc:shifters/human/check_action
 
-$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/mobs/combat {"shifter":$(shifter)}
+$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/combat/main {"shifter":$(shifter)}
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
 
 ## Check health

@@ -5,4 +5,5 @@ $execute if score state $(shifter)_vars matches 10 run effect clear @s resistanc
 # Reduce Energy
 $execute if score state $(shifter)_vars matches 10 run scoreboard players add $energy $(shifter)_vars 40
 ## If is not using parry
-$execute unless score state $(shifter)_vars matches 10 run function snc:shifters/human/damage
+$execute unless score state $(shifter)_vars matches 10 run function snc:shifters/combat/hurt
+$execute unless score state $(shifter)_vars matches 10 if score $op.hardening $(shifter)_vars matches 1.. run scoreboard players remove $op.hardening $(shifter)_vars 1

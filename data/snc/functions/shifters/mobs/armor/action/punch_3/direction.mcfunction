@@ -1,6 +1,4 @@
-execute as @p[scores={attack_vars=1}] anchored eyes positioned ^ ^ ^ rotated ~ 0 run summon snowball ^ ^ ^1 {Tags:["not_mov","motion_punch_up","attack"],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
-
-execute on vehicle run attribute @s generic.scale base set 4.5
+execute at @p[scores={armor_vars=1}] anchored eyes positioned ^ ^ ^1 run summon snowball ~ ~ ~ {Tags:["not_mov","snc.shifter","armor","snc.strong.punch"],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
 
 # Start combo
 scoreboard players set combo_punch armor_vars 3

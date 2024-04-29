@@ -129,8 +129,8 @@ data merge storage minecraft:armor {\
     shifter:armor, \
     name:"Armored Titan", \
     color:gold, \
-    bossbar_display:uFFF1, \
-    bossbar_color:red, \
+    bossbar_display:uFFF4, \
+    bossbar_color:yellow, \
     bossbar_style: notched_10, \
     hp:44, \
     walk_speed:0.13d, \
@@ -146,9 +146,9 @@ data merge storage minecraft:armor {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    energy_attack: 45,\
-    dmg2:36, \
-    dmg3:24, \
+    damage_punch_1:20, knockback_punch_1:2, energy_punch_1:50, \
+    damage_punch_2:24, knockback_punch_2:4, energy_punch_2:40, \
+    damage_punch_3:30, knockback_punch_3:10, energy_punch_3:35, \
     jaw_dmg:20, \
     damage_step: 3 \
 }
