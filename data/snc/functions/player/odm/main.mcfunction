@@ -1,4 +1,4 @@
-# Tp ropse to hooks
+# Tp rope to hooks
 execute as @s[tag=rope,tag=R,tag=!buried] run tp @s @e[tag=hook,tag=R,sort=nearest,limit=1]
 # execute if entity @s[tag=rope,tag=R,tag=!buried] run tp @e[tag=hook,tag=R,sort=nearest,limit=1] ~ ~ ~
 execute as @s[tag=rope,tag=L,tag=!buried] run tp @s @e[tag=hook,tag=L,sort=nearest,limit=1]

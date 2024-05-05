@@ -1,4 +1,4 @@
-tag @s remove bullet
+tag @s remove snc.projectile
 # snowball < pivot < item_dislay
 execute on vehicle on vehicle run kill @s
 # pivot < item_dislay

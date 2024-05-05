@@ -14,8 +14,9 @@ execute store result score rotation armor_vars run data get entity @s Rotation[0
 scoreboard players operation rotation armor_vars -= player_rotation armor_vars
 
 ## Rotate pivot
-execute unless score rotation armor_vars matches -20..20 store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
-data modify entity @s Rotation[1] set value 0f
+#execute unless score rotation armor_vars matches -20..20 store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
+execute unless score rotation armor_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0
+#data modify entity @s Rotation[1] set value 0f
 
 ## Animations
 ## 2 types: Strong(S) and Weak(W)
@@ -32,14 +33,13 @@ execute if score state armor_vars matches 4 on vehicle run attribute @s generic.
 
 execute if score state armor_vars matches 5 if entity @s[tag=!aj.armor.animation.run] run function snc:shifters/mobs/armor/animate/run
 execute if score state armor_vars matches 5 on vehicle run attribute @s generic.scale base set 5.4
-## Charge
-execute if score state armor_vars matches 5 if entity @s[tag=snc.armor.charge] run function snc:shifters/mobs/armor/action/charge/damage
 
 execute if score state armor_vars matches 9 if entity @s[tag=!aj.armor.animation.death] run function snc:shifters/mobs/armor/animate/death
 
 execute if score state armor_vars matches 11 if entity @s[tag=!aj.armor.animation.init_charge] run function snc:shifters/mobs/armor/animate/init_charge
-execute if score state armor_vars matches 12 if entity @s[tag=!aj.armor.animation.slide] run function snc:shifters/mobs/armor/animate/slide
-execute if score state armor_vars matches 12 on vehicle run attribute @s generic.scale base set 4.8
+execute if score state armor_vars matches 12 run function snc:shifters/mobs/armor/action/charge/damage
+execute if score state armor_vars matches 16 if entity @s[tag=!aj.armor.animation.slide] run function snc:shifters/mobs/armor/animate/slide
+execute if score state armor_vars matches 16 on vehicle run attribute @s generic.scale base set 4.8
 
 execute if score state armor_vars matches 13 if entity @s[tag=!aj.armor.animation.punch_1] run function snc:shifters/mobs/armor/animate/punch_1
 execute if score state armor_vars matches 14 if entity @s[tag=!aj.armor.animation.punch_2] run function snc:shifters/mobs/armor/animate/punch_2

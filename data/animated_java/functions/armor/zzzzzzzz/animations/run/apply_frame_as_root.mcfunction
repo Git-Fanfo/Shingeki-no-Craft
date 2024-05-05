@@ -1,1 +1,1 @@
-execute if score @s aj.anim_time matches 0..29 run function animated_java:armor/zzzzzzzz/animations/run/tree/branch_0_29
+execute if score @s aj.anim_time matches 0..35 run function animated_java:armor/zzzzzzzz/animations/run/tree/branch_0_35

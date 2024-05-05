@@ -26,7 +26,7 @@ $execute \
 
 $execute \
     if score combo_punch $(shifter)_vars matches 3 \
-    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/c/atk_2] run \
+    if score @s using_carrot matches 1.. if entity @s[predicate=snc:shifters/$(shifter)/atk_2] run \
         scoreboard players set combo_punch $(shifter)_vars 4
 
 # combo_kick: 1 = enabled, 2 = trigger, 3 = enabled, 4 = trigger

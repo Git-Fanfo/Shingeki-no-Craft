@@ -5,4 +5,6 @@ $function snc:shifters/mobs/$(shifter)/spawn
 $scoreboard players set @s $(shifter)_vars 20
 
 $ride @p[scores={$(shifter)_vars=1},tag=transform,limit=1] mount @s
+
 $ride @e[tag=aj.$(shifter).root,limit=1,sort=nearest] mount @s
+execute on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0

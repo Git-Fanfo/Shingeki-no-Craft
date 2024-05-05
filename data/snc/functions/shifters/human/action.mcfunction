@@ -1,7 +1,4 @@
 ## add_tags -> Only applies this shifter / select_shifter is a shared ability
-# execute unless predicate snc:shifters/has_remove run playsound block.beacon.power_select player @s ~ ~ ~ 1 2
-execute if predicate snc:shifters/has_remove run playsound block.beacon.deactivate player @s ~ ~ ~ 1 2
-
 $execute if predicate snc:shifters/has_gamemode run scoreboard players operation $gamemode $(shifter)_vars *= #-1 constant
 
 ## Colossal

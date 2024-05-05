@@ -1,4 +1,4 @@
-tag @s remove bullet
+tag @s remove snc.projectile
 # snowball < item_display
 execute on vehicle run kill @s
 # item_display > item_display

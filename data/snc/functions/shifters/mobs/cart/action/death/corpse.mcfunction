@@ -2,6 +2,7 @@ execute if score $vanish cart_vars matches 1 run particle minecraft:cloud ~ ~4 ~
 execute if score $vanish cart_vars matches 1 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 .9
 execute if score $vanish cart_vars matches 1 run function snc:shifters/mobs/kill {"shifter":"cart"}
 
+
 execute unless score @s cart_vars matches ..1200 run scoreboard players set @s cart_vars 1200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses cart_vars 0

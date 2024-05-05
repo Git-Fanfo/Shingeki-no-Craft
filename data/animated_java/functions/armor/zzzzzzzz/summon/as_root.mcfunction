@@ -17,6 +17,8 @@ execute if score #animation aj.i = $aj.armor.animation.born aj.id run function a
 execute if score #animation aj.i = $aj.armor.animation.born aj.id run scoreboard players operation @s aj.armor.animation.born.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.death aj.id run function animated_java:armor/zzzzzzzz/animations/death/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.death aj.id run scoreboard players operation @s aj.armor.animation.death.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.charge aj.id run function animated_java:armor/zzzzzzzz/animations/charge/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.charge aj.id run scoreboard players operation @s aj.armor.animation.charge.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.run aj.id run function animated_java:armor/zzzzzzzz/animations/run/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.run aj.id run scoreboard players operation @s aj.armor.animation.run.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.slide aj.id run function animated_java:armor/zzzzzzzz/animations/slide/apply_frame_as_root

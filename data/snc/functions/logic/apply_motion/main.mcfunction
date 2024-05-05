@@ -2,7 +2,7 @@ execute as @s[tag=motion_odm] run function snc:logic/apply_motion/odm
 
 execute as @s[tag=motion_pla] run function snc:logic/apply_motion/player
 execute as @s[tag=motion_pure] run function snc:logic/apply_motion/pure
-execute as @s[tag=motion_tur] run function snc:logic/apply_motion/turret
+execute as @s[tag=motion_bullet] run function snc:logic/apply_motion/turret
 execute as @s[tag=motion_can] run function snc:logic/apply_motion/canon
 
 execute as @s[tag=motion_vom] run function snc:logic/apply_motion/vomit

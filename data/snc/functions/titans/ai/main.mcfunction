@@ -1,5 +1,5 @@
-# Rotate model
-execute on passengers store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
+## Rotate model
+execute on passengers if entity @s[type=item_display] run tp @s ~ ~ ~ ~ 0
 # Is moving?
 execute store result score @s movx run data get entity @s Motion[0] 10000
 execute store result score @s movz run data get entity @s Motion[2] 10000

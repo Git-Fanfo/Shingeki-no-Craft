@@ -8,7 +8,7 @@
 #   Behavior for each entity
 
 ## This first section handle almost everything related with players and shifters
-## For this datapack, villagers are almost the same as a player
+## For Shingeki no Craft, villagers are almost the same as a player
 # execute if entity @s[type=#snc:eldian] run function snc:ent/human
 
 ## Seconds functions
@@ -20,13 +20,8 @@ execute if entity @s[tag=titan] run function snc:titans/main
 
 ## Apply Motion to not moving projectiles
 execute if entity @s[tag=not_mov] rotated as @p run function snc:logic/apply_motion/main
-# Projectile Effects
-execute if entity @s[tag=projectile] run function snc:player/gun/select_effect
-# Bullet Effects (If has bullet Ex: Spears, Canons, etc...)
-execute if entity @s[tag=bullet] run function snc:player/gun/select_bullet
-# ODM
-execute if entity @s[tag=odm] run function snc:player/odm/main
-
+## Projectiles
+execute if entity @s[tag=snc.projectile] run function snc:player/gun/main
 ## Shifter
 execute if entity @s[tag=shifter,type=!villager] run function snc:shifters/mobs/check_dead
 

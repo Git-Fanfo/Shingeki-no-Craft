@@ -21,10 +21,8 @@
 execute store result score rotation cart_vars run data get entity @s Rotation[0]
 scoreboard players operation rotation cart_vars -= player_rotation cart_vars
 
-# Rotate pivot
-execute unless score rotation cart_vars matches -20..20 store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
-# execute store result entity @s Rotation[0] float 1 run execute on vehicle run data get entity @s Rotation[0]
-data modify entity @s Rotation[1] set value 0f
+## Rotate pivot
+execute on vehicle at @s on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0
 
 ## Animations
 ## 2 types: Strong(S) and Weak(W)
