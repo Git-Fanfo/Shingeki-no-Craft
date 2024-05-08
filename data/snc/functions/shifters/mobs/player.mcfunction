@@ -30,8 +30,13 @@ $execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
 
 ## Check health
-# Apply damage then carrier is hurt
 $execute if predicate snc:is_hurt unless score state $(shifter)_vars matches 9 run function snc:shifters/mobs/parry {"shifter":$(shifter)}
+
+## Is moving?
+$execute if score @s snc.vehicle_move matches 0 run scoreboard players set $moving $(shifter)_vars 0
+$execute if score @s snc.vehicle_move matches 1.. run scoreboard players set $moving $(shifter)_vars 1
+# execute unless entity @s[type=player] run function snc:shifters/mobs/brain
+
 
 ## Health system
 # When doesn't have absortion then add tag 'injured'

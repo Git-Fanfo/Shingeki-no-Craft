@@ -21,7 +21,6 @@ team leave @s
 
 ## If detected 2 shifters then remove one from the vars
 $execute if score prevent $(shifter)_vars matches 1 run scoreboard players reset @s $(shifter)_vars
-
 $scoreboard players reset @s $(shifter)_vars
 
 $execute unless score prevent $(shifter)_vars matches 1 run scoreboard players reset * $(shifter)_vars

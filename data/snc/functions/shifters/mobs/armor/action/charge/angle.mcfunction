@@ -1,3 +1,4 @@
+say cjamge
 execute if score $charge.angle armor_vars matches 0 run tp @s ~ ~ ~ 0 ~
 execute if score $charge.angle armor_vars matches 1 run tp @s ~ ~ ~ 1 ~
 execute if score $charge.angle armor_vars matches 2 run tp @s ~ ~ ~ 2 ~
@@ -359,5 +360,3 @@ execute if score $charge.angle armor_vars matches -4 run tp @s ~ ~ ~ -4 ~
 execute if score $charge.angle armor_vars matches -3 run tp @s ~ ~ ~ -3 ~
 execute if score $charge.angle armor_vars matches -2 run tp @s ~ ~ ~ -2 ~
 execute if score $charge.angle armor_vars matches -1 run tp @s ~ ~ ~ -1 ~
-
-ride @s mount @e[type=skeleton_horse,tag=armor,limit=1,sort=nearest]

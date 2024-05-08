@@ -20,6 +20,7 @@ $scoreboard players set $gamemode $(shifter)_vars 1
 $scoreboard players set $vanish $(shifter)_vars 0
 $scoreboard players set $hardening $(shifter)_vars 0
 $scoreboard players set $op.hardening $(shifter)_vars 20
+$scoreboard players set $mov $(shifter)_vars 80
 
 scoreboard players reset @s snc.ender
 scoreboard players reset @s snc.chest

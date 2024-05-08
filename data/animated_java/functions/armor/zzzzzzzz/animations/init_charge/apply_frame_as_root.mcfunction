@@ -1,1 +1,1 @@
-execute if score @s aj.anim_time matches 0..40 run function animated_java:armor/zzzzzzzz/animations/init_charge/tree/branch_0_40
+execute if score @s aj.anim_time matches 0..20 run function animated_java:armor/zzzzzzzz/animations/init_charge/tree/branch_0_20

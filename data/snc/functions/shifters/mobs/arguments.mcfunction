@@ -151,5 +151,5 @@ data merge storage minecraft:armor {\
     damage_punch_2:24, knockback_punch_2:5, energy_punch_2:40, \
     damage_punch_3:30, knockback_punch_3:10, energy_punch_3:35, \
     jaw_dmg:20, \
-    damage_step: 3 \
+    damage_step: 3.5 \
 }

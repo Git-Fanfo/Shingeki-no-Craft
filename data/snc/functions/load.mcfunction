@@ -143,6 +143,7 @@ execute unless score odm_legacy config matches 0 run scoreboard players set odm_
 
 #gamerule fallDamage false
 
+scoreboard objectives setdisplay sidebar snc.vehicle_move
 ##### HOW TO CREATE A SHIFTER #####
 scoreboard objectives add shifter_vars dummy
 ## Shifters

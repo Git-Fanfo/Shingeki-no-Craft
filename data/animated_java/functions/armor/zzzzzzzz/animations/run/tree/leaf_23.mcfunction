@@ -1,2 +1,2 @@
 execute on passengers run function animated_java:armor/zzzzzzzz/animations/run/tree/leaf_23_as_bone
-execute unless entity @s[tag=aj.armor.disable_command_keyframes] at @s run execute on vehicle at @s run function snc:shifters/mobs/armor/action/movement/step
+execute unless entity @s[tag=aj.armor.disable_command_keyframes] at @s run execute on vehicle at @s anchored feet run function snc:shifters/mobs/armor/action/movement/step
