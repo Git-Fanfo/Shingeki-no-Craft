@@ -1,6 +1,6 @@
-execute if score action colossal_vars matches 34 if score $destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/1
-execute if score action colossal_vars matches 28 if score $destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/2
-execute if score action colossal_vars matches 22 if score $destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/3
+execute if score action colossal_vars matches 34 if score $shifter_destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/1
+execute if score action colossal_vars matches 28 if score $shifter_destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/2
+execute if score action colossal_vars matches 22 if score $shifter_destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/3
 
 ##+7 +12 -24
 execute if score action colossal_vars matches 15 run summon creeper ^ ^8 ^-9 {ExplosionRadius:10b,Fuse:0}
@@ -15,5 +15,5 @@ execute if score action colossal_vars matches 22 run function snc:shifters/mobs/
 
 execute if score action colossal_vars matches 24 run playsound minecraft:aot.huge_explosion player @a[distance=..200] ~ ~ ~ 7
 
-execute if score action colossal_vars matches 17 if score $destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/4
-execute if score action colossal_vars matches 13 if score $destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/5
+execute if score action colossal_vars matches 17 if score $shifter_destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/4
+execute if score action colossal_vars matches 13 if score $shifter_destroy config matches 1 run function snc:shifters/mobs/colossal/action/wallbreaker/fill/5

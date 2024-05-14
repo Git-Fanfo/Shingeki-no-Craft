@@ -6,3 +6,4 @@ function animated_java:beast/zzzzzzzz/animations/born/pause_as_root
 function animated_java:beast/zzzzzzzz/animations/death/pause_as_root
 function animated_java:beast/zzzzzzzz/animations/grab/pause_as_root
 function animated_java:beast/zzzzzzzz/animations/sneak/pause_as_root
+function animated_java:beast/zzzzzzzz/animations/consume/pause_as_root

@@ -1,9 +1,9 @@
 ## If is using parry
-$execute if score state $(shifter)_vars matches 10 run playsound minecraft:item.shield.block player @a ~ ~ ~ 3 .5
-$execute if score state $(shifter)_vars matches 10 anchored eyes positioned ^ ^ ^ run particle minecraft:totem_of_undying ~ ~ ~ .2 .2 .2 .4 100 force
-$execute if score state $(shifter)_vars matches 10 run effect clear @s resistance
+$execute if score #parry $(shifter)_vars matches 1 run playsound minecraft:item.shield.block player @a ~ ~ ~ 3 .5
+$execute if score #parry $(shifter)_vars matches 1 anchored eyes run particle minecraft:totem_of_undying ^ ^-1 ^ .2 .2 .2 .7 100 force
+$execute if score #parry $(shifter)_vars matches 1 run effect clear @s resistance
 # Reduce Energy
-$execute if score state $(shifter)_vars matches 10 run scoreboard players add $energy $(shifter)_vars 40
+$execute if score #parry $(shifter)_vars matches 1 run scoreboard players add $energy $(shifter)_vars 40
 ## If is not using parry
-$execute unless score state $(shifter)_vars matches 10 run function snc:shifters/combat/hurt
-$execute unless score state $(shifter)_vars matches 10 if score $op.hardening $(shifter)_vars matches 1.. run scoreboard players remove $op.hardening $(shifter)_vars 1
+$execute unless score #parry $(shifter)_vars matches 1 run function snc:shifters/combat/hurt {"shifter":$(shifter)}
+$execute unless score #parry $(shifter)_vars matches 1 if score $op.hardening $(shifter)_vars matches 1.. run function snc:shifters/mobs/armor/action/hardening/damage {"shifter":$(shifter)}

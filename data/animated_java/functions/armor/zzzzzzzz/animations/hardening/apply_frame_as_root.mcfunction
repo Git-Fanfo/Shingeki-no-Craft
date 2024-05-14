@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..100 run function animated_java:armor/zzzzzzzz/animations/hardening/tree/branch_0_100

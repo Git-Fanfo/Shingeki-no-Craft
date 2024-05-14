@@ -45,6 +45,8 @@ execute if score state armor_vars matches 13 if entity @s[tag=!aj.armor.animatio
 execute if score state armor_vars matches 14 if entity @s[tag=!aj.armor.animation.punch_2] run function snc:shifters/mobs/armor/animate/punch_2
 execute if score state armor_vars matches 15 if entity @s[tag=!aj.armor.animation.punch_3] run function snc:shifters/mobs/armor/animate/punch_3
 
+execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.hardening] run function snc:shifters/mobs/armor/animate/hard
+
 ## function snc:shifters/mobs/armor/animate/grab is handled by ../action/jaw
 #execute if score state armor_vars matches 16 if entity @s[tag=!aj.armor.animation.kick_1] run function snc:shifters/mobs/armor/animate/kick_1
 #execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.kick_2] run function snc:shifters/mobs/armor/animate/kick_2

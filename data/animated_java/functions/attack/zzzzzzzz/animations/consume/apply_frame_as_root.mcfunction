@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..90 run function animated_java:attack/zzzzzzzz/animations/consume/tree/branch_0_90

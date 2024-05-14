@@ -127,7 +127,7 @@ execute unless score $van_vill config matches 0.. run scoreboard players set $va
 execute unless score $talk_vill config matches 0.. run scoreboard players set $talk_vill config 1
 execute unless score $name_vill config matches 0.. run scoreboard players set $name_vill config 1
 execute unless score $birth_rate config matches 0.. run scoreboard players set $birth_rate config 1
-execute unless score $destroy config matches 0.. run scoreboard players set $destroy config 1
+execute unless score $shifter_destroy config matches 0.. run scoreboard players set $shifter_destroy config 1
 execute unless score $pure_destroy config matches 0.. run scoreboard players set $pure_destroy config 1
 execute unless score $can_p_spwn_as_shift config matches 0.. run scoreboard players set $can_p_spwn_as_shift config 1
 execute unless score $shift_spwn_rate config matches 0.. run scoreboard players set $shift_spwn_rate config 2
@@ -143,7 +143,7 @@ execute unless score odm_legacy config matches 0 run scoreboard players set odm_
 
 #gamerule fallDamage false
 
-scoreboard objectives setdisplay sidebar snc.vehicle_move
+scoreboard objectives add snc.vehicle_move minecraft.custom:minecraft.horse_one_cm
 ##### HOW TO CREATE A SHIFTER #####
 scoreboard objectives add shifter_vars dummy
 ## Shifters

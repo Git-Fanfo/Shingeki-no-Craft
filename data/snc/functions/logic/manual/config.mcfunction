@@ -1,8 +1,8 @@
 playsound ui.button.click player @s ~ ~ ~ 1 1.2
 playsound ui.button.click player @s ~ ~ ~ 1 1.2
 playsound ui.button.click player @s ~ ~ ~ 1 1.2
-execute as @s[scores={manual=-1}] run scoreboard players set $destroy config 1
-execute as @s[scores={manual=-2}] run scoreboard players set $destroy config 0
+execute as @s[scores={manual=-1}] run scoreboard players set $shifter_destroy config 1
+execute as @s[scores={manual=-2}] run scoreboard players set $shifter_destroy config 0
 execute as @s[scores={manual=-3}] run scoreboard players set hard config 1
 execute as @s[scores={manual=-4}] run scoreboard players set hard config 0
 execute as @s[scores={manual=-5}] run function snc:logic/manual/on/show_kills

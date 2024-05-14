@@ -16,8 +16,6 @@ execute if score #villager_c spawn matches 60.. as @e[type=villager,predicate=sn
 
 ## Detect entity: This is the MOST IMPORTANT function of the DP
 # Reset Titan count
-#tellraw @a ["",{"text":"Titans: "},{"score":{"name":"titan_count","objective":"spawn"}}]
-#tellraw @a ["",{"text":"Titans: "},{"score":{"name":"eldian_count","objective":"spawn"}}]
 scoreboard players set titan_count spawn 0
 
 # Detect if spawn shifter

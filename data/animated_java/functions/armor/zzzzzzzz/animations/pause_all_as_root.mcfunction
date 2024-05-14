@@ -9,3 +9,4 @@ function animated_java:armor/zzzzzzzz/animations/punch_1/pause_as_root
 function animated_java:armor/zzzzzzzz/animations/punch_2/pause_as_root
 function animated_java:armor/zzzzzzzz/animations/punch_3/pause_as_root
 function animated_java:armor/zzzzzzzz/animations/init_charge/pause_as_root
+function animated_java:armor/zzzzzzzz/animations/hardening/pause_as_root

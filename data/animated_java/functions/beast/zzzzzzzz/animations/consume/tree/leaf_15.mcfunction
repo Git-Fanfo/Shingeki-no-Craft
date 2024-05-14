@@ -1,0 +1,2 @@
+execute on passengers run function animated_java:beast/zzzzzzzz/animations/consume/tree/leaf_15_as_bone
+execute unless entity @s[tag=aj.beast.disable_command_keyframes] at @s run scoreboard players set consume beast_vars 50

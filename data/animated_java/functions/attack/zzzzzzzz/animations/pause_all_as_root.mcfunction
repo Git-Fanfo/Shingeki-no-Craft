@@ -7,7 +7,7 @@ function animated_java:attack/zzzzzzzz/animations/punch_3/pause_as_root
 function animated_java:attack/zzzzzzzz/animations/death/pause_as_root
 function animated_java:attack/zzzzzzzz/animations/born/pause_as_root
 function animated_java:attack/zzzzzzzz/animations/sneak/pause_as_root
-function animated_java:attack/zzzzzzzz/animations/grab/pause_as_root
+function animated_java:attack/zzzzzzzz/animations/consume/pause_as_root
 function animated_java:attack/zzzzzzzz/animations/kick_1/pause_as_root
 function animated_java:attack/zzzzzzzz/animations/kick_2/pause_as_root
 function animated_java:attack/zzzzzzzz/animations/kick_3/pause_as_root

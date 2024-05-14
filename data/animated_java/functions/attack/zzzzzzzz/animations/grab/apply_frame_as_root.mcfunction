@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..90 run function animated_java:attack/zzzzzzzz/animations/grab/tree/branch_0_90

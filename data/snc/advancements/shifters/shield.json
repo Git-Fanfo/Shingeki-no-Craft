@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"transform\"]}"
+          },
+          "items": [
+            {
+              "items": "minecraft:shield"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "snc:shifters/mobs/shield"
+    }
+  }
+  

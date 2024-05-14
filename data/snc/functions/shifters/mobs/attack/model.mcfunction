@@ -31,7 +31,6 @@ execute unless score rotation attack_vars matches -20..20 on vehicle at @s on pa
 
 execute if score state attack_vars matches 1 if entity @s[tag=!aj.attack.animation.born] run function snc:shifters/mobs/attack/animate/born
 ## function snc:shifters/mobs/attack/animate/sneak is handled by ../player
-execute if score state attack_vars matches 2 on vehicle run attribute @s minecraft:generic.scale base set 2.7
 execute if score state attack_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^1 ^4 run particle glow_squid_ink ~ ~ ~ 0 0 0 0 20 force
 execute if score state attack_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^1 ^4 run effect give @e[type=#snc:eldian,tag=!transform,distance=..5,sort=nearest,limit=1] glowing 1 0 true
 execute if score state attack_vars matches 3 if entity @s[tag=!aj.attack.animation.idle] run function snc:shifters/mobs/attack/animate/idle
@@ -52,7 +51,7 @@ execute if score state attack_vars matches 13 if entity @s[tag=!aj.attack.animat
 execute if score state attack_vars matches 13 on vehicle run attribute @s minecraft:generic.scale base set 5.2
 execute if score state attack_vars matches 14 if entity @s[tag=!aj.attack.animation.punch_3] run function snc:shifters/mobs/attack/animate/punch_3
 execute if score state attack_vars matches 14 on vehicle run attribute @s minecraft:generic.scale base set 5.5
-## function snc:shifters/mobs/attack/animate/grab is handled by ../action/jaw
+## function snc:shifters/mobs/attack/animate/consume is handled by ../action/jaw
 execute if score state attack_vars matches 16 if entity @s[tag=!aj.attack.animation.kick_1] run function snc:shifters/mobs/attack/animate/kick_1
 execute if score state attack_vars matches 16 on vehicle run attribute @s minecraft:generic.scale base set 5.5
 execute if score state attack_vars matches 17 if entity @s[tag=!aj.attack.animation.kick_2] run function snc:shifters/mobs/attack/animate/kick_2
@@ -69,7 +68,7 @@ execute if score state attack_vars matches 18 on vehicle run attribute @s minecr
 # [ ] Jump
 # [X] Sneak
 # [X] Punch (x3)
-# [X] Grab (W)
+# [X] Consume (W)
 # [X] Kick (x3)
 # [X] Block
 

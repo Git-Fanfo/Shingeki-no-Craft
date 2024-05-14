@@ -33,8 +33,8 @@ $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters
 $execute if predicate snc:is_hurt unless score state $(shifter)_vars matches 9 run function snc:shifters/mobs/parry {"shifter":$(shifter)}
 
 ## Is moving?
-$execute if score @s snc.vehicle_move matches 0 run scoreboard players set $moving $(shifter)_vars 0
-$execute if score @s snc.vehicle_move matches 1.. run scoreboard players set $moving $(shifter)_vars 1
+$execute if score @s snc.vehicle_move matches 0 unless score $moving $(shifter)_vars matches -1 run scoreboard players set $moving $(shifter)_vars 0
+$execute if score @s snc.vehicle_move matches 1.. unless score $moving $(shifter)_vars matches -1 run scoreboard players set $moving $(shifter)_vars 1
 # execute unless entity @s[type=player] run function snc:shifters/mobs/brain
 
 

@@ -73,26 +73,26 @@ data merge storage minecraft:attack {\
     bossbar_color:red, \
     bossbar_style: notched_10, \
     type:skeleton_horse, \
-    hp:44, \
+    hp:40, \
     walk_speed:0.13d, \
     run_speed:0.36d, \
-    jump:2d, \
+    jump:1.65d, \
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    regen_ticks:80, \
+    regen_ticks:120, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
     block_range:10, \
     entity_range:0, \
     energy_decrease:2,\
-    damage_punch_1:20, knockback_punch_1:3, energy_punch_1:50, \
-    damage_punch_2:24, knockback_punch_2:5, energy_punch_2:40, \
-    damage_punch_3:30, knockback_punch_3:10, energy_punch_3:35, \
-    damage_kick_1:20, knockback_kick_1:3, energy_kick_1:40, \
-    damage_kick_2:24, knockback_kick_2:5, energy_kick_2:30, \
-    damage_kick_3:28, knockback_kick_3:7, energy_kick_3:20, \
-    damage_jaw: 10, knockback_jaw: 2, energy_jaw: 10, \
+    damage_punch_1:22, knockback_punch_1:3, energy_punch_1:25, \
+    damage_punch_2:26, knockback_punch_2:5, energy_punch_2:20, \
+    damage_punch_3:32, knockback_punch_3:7, energy_punch_3:16, \
+    damage_kick_1:26, knockback_kick_1:3, energy_kick_1:20, \
+    damage_kick_2:28, knockback_kick_2:5, energy_kick_2:15, \
+    damage_kick_3:30, knockback_kick_3:7, energy_kick_3:10, \
+    damage_jaw: 15, knockback_jaw: 2, energy_jaw: 5, \
     damage_step: 3 \
 }
 
@@ -112,7 +112,7 @@ data merge storage minecraft:beast {\
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    regen_ticks:140, \
+    regen_ticks:40, \
     scale_vehicle:6.8, \
     scale_player:10, \
     block_range:11, \
@@ -133,23 +133,23 @@ data merge storage minecraft:armor {\
     bossbar_display:uFFF4, \
     bossbar_color:yellow, \
     bossbar_style: notched_10, \
-    hp:44, \
+    hp:48, \
     walk_speed:0.13d, \
     run_speed:0.3d, \
-    jump:2d, \
+    jump:1.6d, \
     type:skeleton_horse, \
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    regen_ticks:80, \
+    regen_ticks:140, \
     scale_vehicle:6.8, \
-    scale_player:4.7, \
+    scale_player:5.2, \
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_punch_1:20, knockback_punch_1:3, energy_punch_1:50, \
-    damage_punch_2:24, knockback_punch_2:5, energy_punch_2:40, \
-    damage_punch_3:30, knockback_punch_3:10, energy_punch_3:35, \
-    jaw_dmg:20, \
+    damage_punch_1:18, knockback_punch_1:5, energy_punch_1:15, \
+    damage_punch_2:24, knockback_punch_2:7, energy_punch_2:10, \
+    damage_punch_3:30, knockback_punch_3:12, energy_punch_3:20, \
+    damage_jaw: 20, \
     damage_step: 3.5 \
 }

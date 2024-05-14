@@ -14,7 +14,7 @@ scoreboard objectives remove aj.attack.animation.punch_3.local_anim_time
 scoreboard objectives remove aj.attack.animation.death.local_anim_time
 scoreboard objectives remove aj.attack.animation.born.local_anim_time
 scoreboard objectives remove aj.attack.animation.sneak.local_anim_time
-scoreboard objectives remove aj.attack.animation.grab.local_anim_time
+scoreboard objectives remove aj.attack.animation.consume.local_anim_time
 scoreboard objectives remove aj.attack.animation.kick_1.local_anim_time
 scoreboard objectives remove aj.attack.animation.kick_2.local_anim_time
 scoreboard objectives remove aj.attack.animation.kick_3.local_anim_time
@@ -28,7 +28,7 @@ scoreboard objectives remove aj.attack.animation.punch_3.loop_mode
 scoreboard objectives remove aj.attack.animation.death.loop_mode
 scoreboard objectives remove aj.attack.animation.born.loop_mode
 scoreboard objectives remove aj.attack.animation.sneak.loop_mode
-scoreboard objectives remove aj.attack.animation.grab.loop_mode
+scoreboard objectives remove aj.attack.animation.consume.loop_mode
 scoreboard objectives remove aj.attack.animation.kick_1.loop_mode
 scoreboard objectives remove aj.attack.animation.kick_2.loop_mode
 scoreboard objectives remove aj.attack.animation.kick_3.loop_mode

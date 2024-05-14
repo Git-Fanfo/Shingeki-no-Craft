@@ -14,7 +14,7 @@ scoreboard objectives add aj.attack.animation.punch_3.local_anim_time dummy
 scoreboard objectives add aj.attack.animation.death.local_anim_time dummy
 scoreboard objectives add aj.attack.animation.born.local_anim_time dummy
 scoreboard objectives add aj.attack.animation.sneak.local_anim_time dummy
-scoreboard objectives add aj.attack.animation.grab.local_anim_time dummy
+scoreboard objectives add aj.attack.animation.consume.local_anim_time dummy
 scoreboard objectives add aj.attack.animation.kick_1.local_anim_time dummy
 scoreboard objectives add aj.attack.animation.kick_2.local_anim_time dummy
 scoreboard objectives add aj.attack.animation.kick_3.local_anim_time dummy
@@ -28,7 +28,7 @@ scoreboard objectives add aj.attack.animation.punch_3.loop_mode dummy
 scoreboard objectives add aj.attack.animation.death.loop_mode dummy
 scoreboard objectives add aj.attack.animation.born.loop_mode dummy
 scoreboard objectives add aj.attack.animation.sneak.loop_mode dummy
-scoreboard objectives add aj.attack.animation.grab.loop_mode dummy
+scoreboard objectives add aj.attack.animation.consume.loop_mode dummy
 scoreboard objectives add aj.attack.animation.kick_1.loop_mode dummy
 scoreboard objectives add aj.attack.animation.kick_2.loop_mode dummy
 scoreboard objectives add aj.attack.animation.kick_3.loop_mode dummy
@@ -42,7 +42,7 @@ scoreboard players set $aj.attack.animation.punch_3 aj.id 5
 scoreboard players set $aj.attack.animation.death aj.id 6
 scoreboard players set $aj.attack.animation.born aj.id 7
 scoreboard players set $aj.attack.animation.sneak aj.id 8
-scoreboard players set $aj.attack.animation.grab aj.id 9
+scoreboard players set $aj.attack.animation.consume aj.id 9
 scoreboard players set $aj.attack.animation.kick_1 aj.id 10
 scoreboard players set $aj.attack.animation.kick_2 aj.id 11
 scoreboard players set $aj.attack.animation.kick_3 aj.id 12
@@ -62,6 +62,6 @@ scoreboard players add .aj.last_id aj.id 0
 scoreboard players set $aj.loop_mode.loop aj.i 0
 scoreboard players set $aj.loop_mode.once aj.i 1
 scoreboard players set $aj.loop_mode.hold aj.i 2
-scoreboard players set aj.attack.export_version aj.i 964920167
+scoreboard players set aj.attack.export_version aj.i -279311785
 scoreboard players reset * aj.attack.rig_loaded
 execute as @e[type=minecraft:item_display,tag=aj.attack.root] run function animated_java:attack/zzzzzzzz/on_load

@@ -1,1 +1,1 @@
-execute if score @s aj.anim_time matches 0..15 run function animated_java:attack/zzzzzzzz/animations/block/tree/branch_0_15
+execute if score @s aj.anim_time matches 0..20 run function animated_java:attack/zzzzzzzz/animations/block/tree/branch_0_20

@@ -17,10 +17,6 @@
 # 18 : kick_3
 # 19 : block
 
-## Rotate model
-execute store result score rotation cart_vars run data get entity @s Rotation[0]
-scoreboard players operation rotation cart_vars -= player_rotation cart_vars
-
 ## Rotate pivot
 execute on vehicle at @s on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0
 

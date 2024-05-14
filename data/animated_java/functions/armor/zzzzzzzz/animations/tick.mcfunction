@@ -9,3 +9,4 @@ execute if entity @s[tag=aj.armor.animation.punch_1] run function animated_java:
 execute if entity @s[tag=aj.armor.animation.punch_2] run function animated_java:armor/zzzzzzzz/animations/punch_2/tick
 execute if entity @s[tag=aj.armor.animation.punch_3] run function animated_java:armor/zzzzzzzz/animations/punch_3/tick
 execute if entity @s[tag=aj.armor.animation.init_charge] run function animated_java:armor/zzzzzzzz/animations/init_charge/tick
+execute if entity @s[tag=aj.armor.animation.hardening] run function animated_java:armor/zzzzzzzz/animations/hardening/tick

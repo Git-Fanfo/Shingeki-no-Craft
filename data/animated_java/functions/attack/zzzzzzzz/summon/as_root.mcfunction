@@ -37,8 +37,8 @@ execute if score #animation aj.i = $aj.attack.animation.born aj.id run function 
 execute if score #animation aj.i = $aj.attack.animation.born aj.id run scoreboard players operation @s aj.attack.animation.born.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.attack.animation.sneak aj.id run function animated_java:attack/zzzzzzzz/animations/sneak/apply_frame_as_root
 execute if score #animation aj.i = $aj.attack.animation.sneak aj.id run scoreboard players operation @s aj.attack.animation.sneak.local_anim_time = #frame aj.i
-execute if score #animation aj.i = $aj.attack.animation.grab aj.id run function animated_java:attack/zzzzzzzz/animations/grab/apply_frame_as_root
-execute if score #animation aj.i = $aj.attack.animation.grab aj.id run scoreboard players operation @s aj.attack.animation.grab.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.attack.animation.consume aj.id run function animated_java:attack/zzzzzzzz/animations/consume/apply_frame_as_root
+execute if score #animation aj.i = $aj.attack.animation.consume aj.id run scoreboard players operation @s aj.attack.animation.consume.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.attack.animation.kick_1 aj.id run function animated_java:attack/zzzzzzzz/animations/kick_1/apply_frame_as_root
 execute if score #animation aj.i = $aj.attack.animation.kick_1 aj.id run scoreboard players operation @s aj.attack.animation.kick_1.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.attack.animation.kick_2 aj.id run function animated_java:attack/zzzzzzzz/animations/kick_2/apply_frame_as_root
