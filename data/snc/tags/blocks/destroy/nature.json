@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "air",
         "#all_hanging_signs",
         "attached_melon_stem",
         "attached_pumpkin_stem",

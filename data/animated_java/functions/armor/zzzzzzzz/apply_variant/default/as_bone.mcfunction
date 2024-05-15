@@ -12,6 +12,7 @@ execute if entity @s[tag=aj.armor.bone.left_thumb_2] run data modify entity @s i
 execute if entity @s[tag=aj.armor.bone.left_thumb] run data modify entity @s item.components.minecraft:custom_model_data set value 13
 execute if entity @s[tag=aj.armor.bone.left_fingers_2] run data modify entity @s item.components.minecraft:custom_model_data set value 14
 execute if entity @s[tag=aj.armor.bone.left_fingers] run data modify entity @s item.components.minecraft:custom_model_data set value 15
+
 execute if entity @s[tag=aj.armor.bone.left_hand] run data modify entity @s item.components.minecraft:custom_model_data set value 16
 execute if entity @s[tag=aj.armor.bone.left_forearm] run data modify entity @s item.components.minecraft:custom_model_data set value 17
 execute if entity @s[tag=aj.armor.bone.left_bicep] run data modify entity @s item.components.minecraft:custom_model_data set value 18

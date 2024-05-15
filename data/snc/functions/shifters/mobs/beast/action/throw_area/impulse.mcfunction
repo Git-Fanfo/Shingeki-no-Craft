@@ -10,7 +10,7 @@ execute if score $rock beast_vars matches 1 anchored eyes run summon snowball ^6
 
 execute if score $rock beast_vars matches 0 rotated ~ 0 run playsound aot.human.gore player @a ~ ~ ~ 2 1
 execute if score $rock beast_vars matches 0 rotated ~ 0 run particle block{block_state:"redstone_block"} ^ ^10 ^4 .6 .6 .6 1 500 force
-execute if score $rock beast_vars matches 0 as @e[tag=aj.beast.locator.right_hand,sort=nearest,limit=1] on passengers on passengers on passengers run function snc:shifters/mobs/beast/action/throw_area/dismount
+execute if score $rock beast_vars matches 0 as @e[tag=aj.beast.locator.consume,sort=nearest,limit=1] on passengers on passengers on passengers run function snc:shifters/mobs/beast/action/throw_area/dismount
 # locator > snowball > item_display > item_display and Valentina
 
 execute on vehicle run attribute @s minecraft:generic.scale base set 7.3

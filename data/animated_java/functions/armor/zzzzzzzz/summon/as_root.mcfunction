@@ -8,6 +8,7 @@ execute store result score @s aj.id run scoreboard players add .aj.last_id aj.id
 tp @s ~ ~ ~ ~ ~
 execute at @s on passengers run function animated_java:armor/zzzzzzzz/summon/as_rig_entities
 execute if score #variant aj.i = $aj.armor.variant.default aj.id run function animated_java:armor/zzzzzzzz/apply_variant/default/as_root
+execute if score #variant aj.i = $aj.armor.variant.flesh aj.id run function animated_java:armor/zzzzzzzz/apply_variant/flesh/as_root
 execute if score #animation aj.i matches 0.. run scoreboard players operation @s aj.anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.idle aj.id run function animated_java:armor/zzzzzzzz/animations/idle/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.idle aj.id run scoreboard players operation @s aj.armor.animation.idle.local_anim_time = #frame aj.i
@@ -33,6 +34,10 @@ execute if score #animation aj.i = $aj.armor.animation.init_charge aj.id run fun
 execute if score #animation aj.i = $aj.armor.animation.init_charge aj.id run scoreboard players operation @s aj.armor.animation.init_charge.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.hardening aj.id run function animated_java:armor/zzzzzzzz/animations/hardening/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.hardening aj.id run scoreboard players operation @s aj.armor.animation.hardening.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.sneak aj.id run function animated_java:armor/zzzzzzzz/animations/sneak/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.sneak aj.id run scoreboard players operation @s aj.armor.animation.sneak.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.armor.animation.consume aj.id run function animated_java:armor/zzzzzzzz/animations/consume/apply_frame_as_root
+execute if score #animation aj.i = $aj.armor.animation.consume aj.id run scoreboard players operation @s aj.armor.animation.consume.local_anim_time = #frame aj.i
 execute at @s run function #animated_java:armor/on_summon/as_root
 tag @s remove aj.new
 scoreboard players reset #frame aj.i

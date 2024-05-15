@@ -8,14 +8,9 @@
 # 6 : Jump
 # 9 : Die
 ###############
-# 12 : punch_1
-# 13 : punch_2
-# 14 : punch_3
-# 15 : Jaw
-# 16 : kick_1
-# 17 : kick_2
-# 18 : kick_3
-# 19 : block
+# 12 : grab
+# 13 : big_rock
+# 14 : area
 
 ## Rotate model
 execute store result score rotation beast_vars run data get entity @s Rotation[0]
@@ -29,6 +24,8 @@ execute unless score rotation beast_vars matches -20..20 on vehicle at @s on pas
 # W: Can be combined with a S Animation.
 execute if score state beast_vars matches 1 if entity @s[tag=!aj.beast.animation.born] run function snc:shifters/mobs/beast/animate/born
 ## function snc:shifters/mobs/beast/animate/sneak is handled by ../player
+execute if score state beast_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^-.9 ^4 on passengers if entity @s[type=player] run function snc:shifters/mobs/highlight
+
 execute if score state beast_vars matches 3 unless score $hold beast_vars matches 1 if entity @s[tag=!aj.beast.animation.idle] run function snc:shifters/mobs/beast/animate/idle
 execute if score state beast_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 6.8
 execute if score state beast_vars matches 4 if entity @s[tag=!aj.beast.animation.walk] run function snc:shifters/mobs/beast/animate/walk

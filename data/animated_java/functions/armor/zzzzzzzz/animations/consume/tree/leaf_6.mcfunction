@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:armor/zzzzzzzz/animations/consume/tree/leaf_6_as_bone

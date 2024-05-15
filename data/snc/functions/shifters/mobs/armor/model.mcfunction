@@ -25,6 +25,8 @@ execute unless score rotation armor_vars matches -20..20 on vehicle at @s on pas
 
 execute if score state armor_vars matches 1 if entity @s[tag=!aj.armor.animation.born] run function snc:shifters/mobs/armor/animate/born
 ## function snc:shifters/mobs/armor/animate/sneak is handled by ../player
+execute if score state armor_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^-.9 ^4 on passengers if entity @s[type=player] run function snc:shifters/mobs/highlight
+
 execute if score state armor_vars matches 3 if entity @s[tag=!aj.armor.animation.idle] run function snc:shifters/mobs/armor/animate/idle
 execute if score state armor_vars matches 3 on vehicle run attribute @s minecraft:generic.scale base set 6.8
 
