@@ -88,7 +88,7 @@ data merge storage minecraft:attack {\
     energy_decrease:2,\
     damage_punch_1:22, knockback_punch_1:3, energy_punch_1:25, \
     damage_punch_2:26, knockback_punch_2:5, energy_punch_2:20, \
-    damage_punch_3:32, knockback_punch_3:7, energy_punch_3:16, \
+    damage_punch_3:32, knockback_punch_3:7, energy_punch_3:15, \
     damage_kick_1:26, knockback_kick_1:3, energy_kick_1:20, \
     damage_kick_2:28, knockback_kick_2:5, energy_kick_2:15, \
     damage_kick_3:30, knockback_kick_3:7, energy_kick_3:10, \
