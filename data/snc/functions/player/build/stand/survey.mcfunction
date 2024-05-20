@@ -36,6 +36,6 @@ setblock ~ ~3 ~-2 black_wall_banner{Patterns:[{Color:10,Pattern:"bs"},{Color:10,
 setblock ~2 ~3 ~ black_wall_banner[facing=east]{Patterns:[{Color:10,Pattern:"bs"},{Color:10,Pattern:"mr"},{Color:15,Pattern:"mc"},{Color:15,Pattern:"cbo"},{Color:15,Pattern:"bo"}]}
 setblock ~-2 ~3 ~ black_wall_banner[facing=west]{Patterns:[{Color:10,Pattern:"bs"},{Color:10,Pattern:"mr"},{Color:15,Pattern:"mc"},{Color:15,Pattern:"cbo"},{Color:15,Pattern:"bo"}]}
 
-playsound minecraft:block.anvil.use player @a ~ ~ ~ 1 .7
+playsound minecraft:block.anvil.use player @a ~ ~ ~ 1 .8
 
 function snc:eldia/wandering_trader/trades

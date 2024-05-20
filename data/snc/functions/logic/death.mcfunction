@@ -2,13 +2,8 @@
 attribute @s minecraft:player.block_interaction_range base set 4.5
 attribute @s minecraft:player.entity_interaction_range base set 4
 
-##### HOW TO CREATE A SHIFTER #####
-#Shifters
-execute as @s[scores={cart_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:cart
-execute as @s[scores={colossal_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:colossal
-execute as @s[scores={attack_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:attack
-execute as @s[scores={beast_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:beast
-execute as @s[scores={armor_vars=1}] run function snc:shifters/transfer/lose with storage minecraft:armor
+## Shifters
+execute if score @s shifter_vars matches 1.. run function snc:shifters/function/multiple {"pre":"function snc:shifters/transfer/lose with storage minecraft:","post":""}
 execute if score @s shifter_vars matches 1.. run function snc:shifters/human/remove
 
 ## Reset children

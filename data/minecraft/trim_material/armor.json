@@ -1,0 +1,9 @@
+{
+  "asset_name": "armored",
+  "description": {
+    "color": "#FFAA00",
+    "text": "Hardened"
+  },
+  "ingredient": "minecraft:bedrock",
+  "item_model_index": 1.1
+}

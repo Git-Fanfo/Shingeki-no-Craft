@@ -21,10 +21,7 @@ effect give @s saturation 1 0 true
 effect clear @s darkness
 
 ## Detect If is not attacking
-$execute \
-    unless score state $(shifter)_vars matches 10.. \
-    if score @s using_carrot matches 1.. run \
-        function snc:shifters/human/check_action
+$execute unless score state $(shifter)_vars matches 10.. if score @s using_carrot matches 1.. run function snc:shifters/function/unique {"pre":"function snc:shifters/human/action with storage minecraft:","post":""}
 
 $execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/combat/main {"shifter":$(shifter)}
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
@@ -38,16 +35,6 @@ $execute if score @s snc.vehicle_move matches 1.. unless score $moving $(shifter
 # execute unless entity @s[type=player] run function snc:shifters/mobs/brain
 
 
-## Health system
-# When doesn't have absortion then add tag 'injured'
-$execute store result score health $(shifter)_vars run data get entity @s AbsorptionAmount
-$execute store result bossbar $(shifter)_health value run scoreboard players get health $(shifter)_vars
-# Kill when energy runs out
-$execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
-# Kill when life is 0
-$execute if score health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
-# Ride when is not dead
-$execute unless score state $(shifter)_vars matches 9 unless predicate snc:shifters/is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak
 # Rotation
 $execute store result score player_rotation $(shifter)_vars run data get entity @s Rotation[0]
 
@@ -58,3 +45,14 @@ $execute unless score state $(shifter)_vars matches 1 unless items entity @s arm
 execute if items entity @s armor.chest #minecraft:chest_armor run function snc:shifters/human/restart_abilities
 execute if items entity @s armor.legs #minecraft:leg_armor run function snc:shifters/human/restart_abilities
 execute if items entity @s armor.feet #minecraft:foot_armor run function snc:shifters/human/restart_abilities
+
+## Health system
+# When doesn't have absortion then add tag 'injured'
+$execute store result score health $(shifter)_vars run data get entity @s AbsorptionAmount
+$execute store result bossbar $(shifter)_health value run scoreboard players get health $(shifter)_vars
+# Kill when energy runs out
+$execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
+# Kill when life is 0
+$execute if score health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
+# Ride when is not dead
+$execute unless score state $(shifter)_vars matches 9 unless predicate snc:shifters/is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak

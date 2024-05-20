@@ -1,0 +1,57 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "trim": {"material":"minecraft:armor","pattern":"minecraft:armored"},
+        "item_name":"[{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.iron_chestplate\"}]",
+        "rarity":"uncommon",
+        "max_damage":340,
+        "custom_model_data": 1,
+        "minecraft:attribute_modifiers": {
+            "modifiers": [
+                {
+                    "type": "minecraft:generic.armor",
+                    "uuid": [-1738624005,796280250,-1433424983,-1092258452],
+                    "name": "generic.armor",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },{
+                    "type":"generic.armor_toughness",
+                    "name":"generic.armor_toughness",
+                    "amount":1,
+                    "operation":"add_value",
+                    "uuid":[-77199515,1945325138,-1109532980,-1388900913],
+                    "slot":"chest"
+                },{
+                    "type":"generic.knockback_resistance",
+                    "name":"generic.knockback_resistance",
+                    "amount":0.1,
+                    "operation":"add_value",
+                    "uuid":[-1793801,1536772291,-2031262947,1003888785],
+                    "slot":"chest"
+                },{
+                    "type":"generic.scale",
+                    "name":"generic.scale",
+                    "amount":0.035,
+                    "operation":"add_multiplied_total",
+                    "uuid":[-430901823,41108841,-1103589781,-163078624],
+                    "slot":"chest"
+                },{
+                    "type":"generic.attack_damage",
+                    "name":"generic.attack_damage",
+                    "amount":-0.02,
+                    "operation":"add_multiplied_total",
+                    "uuid":[1369912288,-2027076400,-1383255617,-518619826],
+                    "slot":"chest"
+                },{
+                    "type":"generic.movement_speed",
+                    "name":"generic.movement_speed",
+                    "amount":-0.015,
+                    "operation":"add_multiplied_total",
+                    "uuid":[1236224059,1353794074,-1174784770,756123474],
+                    "slot":"chest"
+                }
+            ]
+          }
+    }
+}

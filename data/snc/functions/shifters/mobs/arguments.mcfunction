@@ -148,8 +148,10 @@ data merge storage minecraft:armor {\
     entity_range:0, \
     energy_decrease: 2,\
     damage_punch_1:18, knockback_punch_1:5, energy_punch_1:15, \
-    damage_punch_2:24, knockback_punch_2:7, energy_punch_2:10, \
-    damage_punch_3:30, knockback_punch_3:12, energy_punch_3:20, \
+    damage_punch_2:22, knockback_punch_2:7, energy_punch_2:10, \
+    damage_punch_3:35, knockback_punch_3:12, energy_punch_3:20, \
+    damage_onslaught: 50, knockback_onslaught: 0, energy_onslaught: 0, \
+    damage_impale: 90, knockback_impale: 0, energy_impale: 0, \
     damage_jaw: 20, \
     damage_step: 3.5 \
 }

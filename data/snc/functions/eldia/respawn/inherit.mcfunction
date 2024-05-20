@@ -9,12 +9,9 @@ execute if entity @s[tag=!woman] on passengers if entity @s[type=armor_stand] ru
 ## Inherit
 # Royal
 execute if score @s koniglich matches 1 on passengers if entity @s[type=player] run scoreboard players set @s koniglich 1
-##### HOW TO CREATE A SHIFTER #####
-execute if score @s attack_vars matches 1 on passengers if entity @s[type=player] run function snc:shifters/transfer/get with storage minecraft:attack
-execute if score @s armor_vars matches 1 on passengers if entity @s[type=player] run function snc:shifters/transfer/get with storage minecraft:armor
-execute if score @s beast_vars matches 1 on passengers if entity @s[type=player] run function snc:shifters/transfer/get with storage minecraft:beast
-execute if score @s cart_vars matches 1 on passengers if entity @s[type=player] run function snc:shifters/transfer/get with storage minecraft:cart
-execute if score @s colossal_vars matches 1 on passengers if entity @s[type=player] run function snc:shifters/transfer/get with storage minecraft:colossal
+
+execute on passengers if entity @s[type=player] run function snc:shifters/function/unique {"pre":"function snc:shifters/transfer/get with storage minecraft:","post":""}
+
 # Sex
 execute if entity @s[tag=woman] on passengers if entity @s[type=player] run tag @s add woman
 execute if entity @s[tag=!woman] on passengers if entity @s[type=player] run tag @s remove woman
