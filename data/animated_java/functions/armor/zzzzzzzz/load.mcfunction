@@ -48,11 +48,14 @@ scoreboard players set $aj.armor.animation.hardening aj.id 11
 scoreboard players set $aj.armor.animation.sneak aj.id 12
 scoreboard players set $aj.armor.animation.consume aj.id 13
 scoreboard players set $aj.armor.variant.default aj.id 0
-scoreboard players set $aj.armor.variant.flesh aj.id 1
+scoreboard players set $aj.armor.variant.noskin_1 aj.id 1
+scoreboard players set $aj.armor.variant.noskin_2 aj.id 2
+scoreboard players set $aj.armor.variant.noskin_3 aj.id 3
+scoreboard players set $aj.armor.variant.noskin_4 aj.id 4
 scoreboard players add .aj.last_id aj.id 0
 scoreboard players set $aj.loop_mode.loop aj.i 0
 scoreboard players set $aj.loop_mode.once aj.i 1
 scoreboard players set $aj.loop_mode.hold aj.i 2
-scoreboard players set aj.armor.export_version aj.i -191597522
+scoreboard players set aj.armor.export_version aj.i 121587700
 scoreboard players reset * aj.armor.rig_loaded
 execute as @e[type=minecraft:item_display,tag=aj.armor.root] run function animated_java:armor/zzzzzzzz/on_load

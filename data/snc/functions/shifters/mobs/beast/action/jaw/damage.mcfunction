@@ -1,0 +1,1 @@
+$function snc:shifters/combat/damage {"distance":9,"half_minus_zero_point_five":4,"shifter":"beast","sound":"minecraft:aot.human.gore","damage":$(damage_jaw),"knockback":$(knockback_jaw),"energy":$(energy_jaw)}

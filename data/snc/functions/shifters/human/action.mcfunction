@@ -1,5 +1,7 @@
 ## add_tags -> Only applies this shifter / select_shifter is a shared ability
 $execute if predicate snc:shifters/has_gamemode run scoreboard players operation $gamemode $(shifter)_vars *= #-1 constant
+## Roar
+#$execute unless score consume $(shifter)_vars matches 1.. if predicate snc:chance/10 run scoreboard players set consume $(shifter)_vars 220
 
 ## Colossal
 # Wallbreaker
@@ -16,7 +18,7 @@ execute as @s[predicate=snc:shifters/colossal/atk_4] run function snc:shifters/m
 execute as @s[predicate=snc:shifters/cart/atk_3] run function snc:shifters/mobs/cart/action/slam/init
 
 # Jaw
-execute as @s[predicate=snc:shifters/cart/atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/init
+execute as @s[predicate=snc:shifters/cart/atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/add_tags
 
 # Shipload
 execute if predicate snc:shifters/cart/shipload run function snc:shifters/mobs/cart/action/shipload/module

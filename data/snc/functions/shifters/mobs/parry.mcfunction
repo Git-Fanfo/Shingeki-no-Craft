@@ -6,4 +6,4 @@ $execute if score #parry $(shifter)_vars matches 1 run effect clear @s resistanc
 $execute if score #parry $(shifter)_vars matches 1 run scoreboard players add $energy $(shifter)_vars 40
 ## If is not using parry
 $execute unless score #parry $(shifter)_vars matches 1 run function snc:shifters/combat/hurt {"shifter":$(shifter)}
-$execute unless score #parry $(shifter)_vars matches 1 if score $op.hardening $(shifter)_vars matches 1.. run function snc:shifters/mobs/armor/action/hardening/damage {"shifter":$(shifter)}
+$execute unless score #parry $(shifter)_vars matches 1 if score $op.hardening $(shifter)_vars matches 1.. run function snc:shifters/mobs/armor/action/hardening/hit {"shifter":$(shifter)}

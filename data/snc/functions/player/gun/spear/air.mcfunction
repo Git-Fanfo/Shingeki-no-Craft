@@ -1,15 +1,9 @@
-#particle cloud ~ ~ ~ 0 0 0 .1 5 force
+#particle minecraft:dust{color:[1f, 1f, 1f], scale:2.5f} ^ ^ ^2 .1 .1 .1 0 1 force
+execute unless score @s projectile matches 5.. run function snc:player/gun/spear/particles
 
-particle soul_fire_flame ~ ~.5 ~ 0 0 0 .05 10 force
-particle minecraft:dust{color:[0.255f, 0.949f, 1f], scale:1f} ~ ~.5 ~ 0 0 0 0 10 force
+execute if score @s projectile matches 1.. run scoreboard players add @s projectile 1
+execute unless score @s projectile matches 1.. unless predicate snc:is_riding run scoreboard players set @s projectile 1
 
-execute if predicate snc:odm/is_riding_rot_1 run data modify entity @s Pose.Head[0] set value -45f
-execute if predicate snc:odm/is_riding_rot_2 run data modify entity @s Pose.Head[0] set value -20f
-execute if predicate snc:odm/is_riding_rot_3 run data modify entity @s Pose.Head[0] set value -10f
-execute if predicate snc:odm/is_riding_rot_4 run data modify entity @s Pose.Head[0] set value 0f
-execute if predicate snc:odm/is_riding_rot_5 run data modify entity @s Pose.Head[0] set value 10f
-execute if predicate snc:odm/is_riding_rot_6 run data modify entity @s Pose.Head[0] set value 20f
-execute if predicate snc:odm/is_riding_rot_7 run data modify entity @s Pose.Head[0] set value 45f
-execute if predicate snc:odm/is_riding_rot_8 run data modify entity @s Pose.Head[0] set value 80f
-
-execute unless predicate snc:is_riding_projectile run function snc:player/gun/spear/land
+execute if score @s projectile matches 1 run playsound minecraft:block.respawn_anchor.charge master @a ~ ~ ~ 5 .9
+execute if score @s projectile matches 1..5 run tp ^ ^ ^-.1
+execute if score @s projectile matches 20 run function snc:player/gun/spear/land

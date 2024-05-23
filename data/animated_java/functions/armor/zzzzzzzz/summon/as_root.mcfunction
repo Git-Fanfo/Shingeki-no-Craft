@@ -8,7 +8,10 @@ execute store result score @s aj.id run scoreboard players add .aj.last_id aj.id
 tp @s ~ ~ ~ ~ ~
 execute at @s on passengers run function animated_java:armor/zzzzzzzz/summon/as_rig_entities
 execute if score #variant aj.i = $aj.armor.variant.default aj.id run function animated_java:armor/zzzzzzzz/apply_variant/default/as_root
-execute if score #variant aj.i = $aj.armor.variant.flesh aj.id run function animated_java:armor/zzzzzzzz/apply_variant/flesh/as_root
+execute if score #variant aj.i = $aj.armor.variant.noskin_1 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_1/as_root
+execute if score #variant aj.i = $aj.armor.variant.noskin_2 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_2/as_root
+execute if score #variant aj.i = $aj.armor.variant.noskin_3 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_3/as_root
+execute if score #variant aj.i = $aj.armor.variant.noskin_4 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_4/as_root
 execute if score #animation aj.i matches 0.. run scoreboard players operation @s aj.anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.idle aj.id run function animated_java:armor/zzzzzzzz/animations/idle/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.idle aj.id run scoreboard players operation @s aj.armor.animation.idle.local_anim_time = #frame aj.i

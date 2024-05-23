@@ -20,7 +20,7 @@ data merge storage minecraft:cart {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    damage_jaw: 30, knockback_jaw: 9, energy_jaw: 40, \
+    damage_jaw: 20, knockback_jaw: 3, energy_jaw: 40, \
     damage_step: 2 \
 }
 ## Note: Fanfo from the future says: Argument "jump:1d" works pretty good for Jaw!
@@ -48,7 +48,7 @@ data merge storage minecraft:colossal {\
     entity_range:0, \
     energy_decrease: 5,\
     damage_kick_1:60, knockback_kick_1:10, energy_kick_1:110, \
-    damage_jaw: 30, knockback_jaw: 9, energy_jaw: 40, \
+    damage_jaw: 30, knockback_jaw: 0, energy_jaw: 40, \
     damage_step: 15 \
 }
 
@@ -80,19 +80,19 @@ data merge storage minecraft:attack {\
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    regen_ticks:120, \
+    regen_ticks:110, \
     scale_vehicle:6.3, \
     scale_player:4.5, \
     block_range:10, \
     entity_range:0, \
-    energy_decrease:2,\
-    damage_punch_1:22, knockback_punch_1:3, energy_punch_1:25, \
-    damage_punch_2:26, knockback_punch_2:5, energy_punch_2:20, \
-    damage_punch_3:32, knockback_punch_3:7, energy_punch_3:15, \
-    damage_kick_1:26, knockback_kick_1:3, energy_kick_1:20, \
-    damage_kick_2:28, knockback_kick_2:5, energy_kick_2:15, \
-    damage_kick_3:30, knockback_kick_3:7, energy_kick_3:10, \
-    damage_jaw: 15, knockback_jaw: 2, energy_jaw: 5, \
+    energy_decrease: 2,\
+    damage_punch_1:22, knockback_punch_1:2, energy_punch_1:25, \
+    damage_punch_2:26, knockback_punch_2:3, energy_punch_2:20, \
+    damage_punch_3:32, knockback_punch_3:4, energy_punch_3:15, \
+    damage_kick_1:26, knockback_kick_1:1, energy_kick_1:20, \
+    damage_kick_2:28, knockback_kick_2:2, energy_kick_2:15, \
+    damage_kick_3:30, knockback_kick_3:4, energy_kick_3:10, \
+    damage_jaw: 14, knockback_jaw: 1, energy_jaw: 5, \
     damage_step: 3 \
 }
 
@@ -118,9 +118,9 @@ data merge storage minecraft:beast {\
     block_range:11, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_focus: 60, knockback_focus: 11, energy_focus: 80, \
-    damage_area: 20, knockback_area: 3, energy_area: 27, \
-    damage_jaw: 8, knockback_jaw: 3, energy_jaw: 10, \
+    damage_focus: 60, knockback_focus: 5, energy_focus: 80, \
+    damage_area: 20, knockback_area: 1, energy_area: 27, \
+    damage_jaw: 8, knockback_jaw: 1, energy_jaw: 10, \
     damage_step: 4 \
 }
 
@@ -135,7 +135,7 @@ data merge storage minecraft:armor {\
     bossbar_style: notched_10, \
     hp:48, \
     walk_speed:0.13d, \
-    run_speed:0.3d, \
+    run_speed:0.31d, \
     jump:1.6d, \
     type:skeleton_horse, \
     step_height:3.6d, \
@@ -147,11 +147,12 @@ data merge storage minecraft:armor {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_punch_1:18, knockback_punch_1:5, energy_punch_1:15, \
-    damage_punch_2:22, knockback_punch_2:7, energy_punch_2:10, \
-    damage_punch_3:35, knockback_punch_3:12, energy_punch_3:20, \
+    damage_punch_1:18, knockback_punch_1:3, energy_punch_1:15, \
+    damage_punch_2:22, knockback_punch_2:4, energy_punch_2:10, \
+    damage_punch_3:35, knockback_punch_3:6, energy_punch_3:20, \
+    damage_fortified: 20, knockback_fortified: 7, energy_fortified: 50, \
     damage_onslaught: 50, knockback_onslaught: 0, energy_onslaught: 0, \
     damage_impale: 90, knockback_impale: 0, energy_impale: 0, \
-    damage_jaw: 20, \
-    damage_step: 3.5 \
+    damage_jaw: 10, knockback_jaw: 1, energy_jaw: 10, \
+    damage_step: 3.7 \
 }

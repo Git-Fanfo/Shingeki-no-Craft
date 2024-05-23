@@ -55,4 +55,5 @@ $execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_
 # Kill when life is 0
 $execute if score health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
 # Ride when is not dead
+$execute if score #sneak $(shifter)_vars matches 1.. run scoreboard players remove #sneak $(shifter)_vars 1
 $execute unless score state $(shifter)_vars matches 9 unless predicate snc:shifters/is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak

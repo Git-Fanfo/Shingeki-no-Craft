@@ -15,6 +15,6 @@ execute as @s[tag=motion_flare] run function snc:logic/apply_motion/flare
 # execute as @s[tag=attack] run function snc:logic/apply_motion/attack/main
 execute as @s[tag=beast] run function snc:logic/apply_motion/beast/main
 execute as @s[tag=snc.shifter] rotated ~ 0 run function snc:logic/apply_motion/shifter/main
-execute as @s[tag=snc.knockback] run function snc:logic/apply_motion/knockback/main
+execute as @s[tag=snc.knockback] rotated ~ 0 run function snc:logic/apply_motion/knockback/main
 
 return 0
