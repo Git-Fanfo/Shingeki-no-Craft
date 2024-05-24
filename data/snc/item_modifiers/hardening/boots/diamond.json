@@ -12,7 +12,7 @@
                     "type": "minecraft:generic.armor",
                     "uuid": [-1241033798,-252359534,-1239115941,1070031786],
                     "name": "generic.armor",
-                    "amount": 1,
+                    "amount": 3,
                     "operation": "add_value",
                     "slot": "feet"
                 },{

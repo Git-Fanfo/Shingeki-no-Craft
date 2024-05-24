@@ -69,7 +69,7 @@ execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animatio
 
 ## Variants
 execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 9.. run function animated_java:armor/apply_variant/default
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 5..7 run function animated_java:armor/apply_variant/noskin_1
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 3..4 run function animated_java:armor/apply_variant/noskin_2
+execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 6..8 run function animated_java:armor/apply_variant/noskin_1
+execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 3..5 run function animated_java:armor/apply_variant/noskin_2
 execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 1..2 run function animated_java:armor/apply_variant/noskin_3
 execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 0 run function animated_java:armor/apply_variant/noskin_4

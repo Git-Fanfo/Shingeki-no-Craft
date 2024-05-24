@@ -4,7 +4,7 @@
         "trim": {"material":"minecraft:armor","pattern":"minecraft:armored"},
         "item_name":"[{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.netherite_boots\"}]",
         "rarity":"epic",
-        "max_damage":581,
+        "max_damage":692,
         "custom_model_data": 1,
         "minecraft:attribute_modifiers": {
             "modifiers": [

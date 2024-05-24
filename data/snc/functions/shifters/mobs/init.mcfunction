@@ -21,7 +21,7 @@ $scoreboard players set $vanish $(shifter)_vars 0
 $scoreboard players set $mov $(shifter)_vars 80
 
 $execute if score @s armor_vars matches 1 run scoreboard players set $hardening $(shifter)_vars 0
-$execute if score @s armor_vars matches 1 run scoreboard players set $op.hardening $(shifter)_vars 10
+$execute if score @s armor_vars matches 1 run scoreboard players set $op.hardening $(shifter)_vars 12
 
 scoreboard players reset @s snc.ender
 scoreboard players reset @s snc.chest
