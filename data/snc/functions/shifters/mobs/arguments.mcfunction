@@ -86,12 +86,12 @@ data merge storage minecraft:attack {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_punch_1:22, knockback_punch_1:2, energy_punch_1:25, \
-    damage_punch_2:26, knockback_punch_2:3, energy_punch_2:20, \
-    damage_punch_3:32, knockback_punch_3:4, energy_punch_3:15, \
-    damage_kick_1:26, knockback_kick_1:1, energy_kick_1:20, \
-    damage_kick_2:28, knockback_kick_2:2, energy_kick_2:15, \
-    damage_kick_3:30, knockback_kick_3:4, energy_kick_3:10, \
+    damage_punch_1:26, knockback_punch_1:2, energy_punch_1:25, \
+    damage_punch_2:30, knockback_punch_2:3, energy_punch_2:20, \
+    damage_punch_3:36, knockback_punch_3:4, energy_punch_3:15, \
+    damage_kick_1:30, knockback_kick_1:1, energy_kick_1:20, \
+    damage_kick_2:32, knockback_kick_2:2, energy_kick_2:15, \
+    damage_kick_3:34, knockback_kick_3:4, energy_kick_3:10, \
     damage_jaw: 14, knockback_jaw: 1, energy_jaw: 5, \
     damage_step: 3 \
 }
@@ -147,12 +147,12 @@ data merge storage minecraft:armor {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_punch_1:18, knockback_punch_1:3, energy_punch_1:15, \
-    damage_punch_2:22, knockback_punch_2:4, energy_punch_2:10, \
-    damage_punch_3:35, knockback_punch_3:6, energy_punch_3:20, \
-    damage_fortified: 20, knockback_fortified: 7, energy_fortified: 50, \
+    damage_punch_1:22, knockback_punch_1:3, energy_punch_1:20, \
+    damage_punch_2:26, knockback_punch_2:4, energy_punch_2:15, \
+    damage_punch_3:40, knockback_punch_3:6, energy_punch_3:25, \
+    damage_fortified: 25, knockback_fortified: 7, energy_fortified: 50, \
     damage_onslaught: 50, knockback_onslaught: 0, energy_onslaught: 0, \
-    damage_impale: 90, knockback_impale: 0, energy_impale: 0, \
+    damage_impale: 120, knockback_impale: 0, energy_impale: 0, \
     damage_jaw: 10, knockback_jaw: 1, energy_jaw: 10, \
     damage_step: 3.7 \
 }
