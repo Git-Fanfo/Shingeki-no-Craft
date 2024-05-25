@@ -14,7 +14,6 @@ effect give @s regeneration 1 0 true
 ## Prevent goes above max hp
 #$scoreboard players set #regen $(shifter)_vars $(hp)
 #$scoreboard players operation #regen $(shifter)_vars /= #2 constant
-
 $execute if score titan.health.bar $(shifter)_vars matches $(hp).. run scoreboard players operation titan.health.bar $(shifter)_vars -= #4 constant
 
 $execute if score titan.health.bar $(shifter)_vars matches 68..72 run effect give @s absorption 20 17 true

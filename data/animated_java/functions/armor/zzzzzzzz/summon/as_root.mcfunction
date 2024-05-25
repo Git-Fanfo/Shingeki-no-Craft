@@ -8,10 +8,17 @@ execute store result score @s aj.id run scoreboard players add .aj.last_id aj.id
 tp @s ~ ~ ~ ~ ~
 execute at @s on passengers run function animated_java:armor/zzzzzzzz/summon/as_rig_entities
 execute if score #variant aj.i = $aj.armor.variant.default aj.id run function animated_java:armor/zzzzzzzz/apply_variant/default/as_root
-execute if score #variant aj.i = $aj.armor.variant.noskin_1 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_1/as_root
-execute if score #variant aj.i = $aj.armor.variant.noskin_2 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_2/as_root
-execute if score #variant aj.i = $aj.armor.variant.noskin_3 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_3/as_root
-execute if score #variant aj.i = $aj.armor.variant.noskin_4 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/noskin_4/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_10 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_10/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_11 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_11/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_12 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_12/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_2 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_2/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_3 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_3/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_4 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_4/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_5 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_5/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_6 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_6/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_7 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_7/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_8 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_8/as_root
+execute if score #variant aj.i = $aj.armor.variant.skin_9 aj.id run function animated_java:armor/zzzzzzzz/apply_variant/skin_9/as_root
 execute if score #animation aj.i matches 0.. run scoreboard players operation @s aj.anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.armor.animation.idle aj.id run function animated_java:armor/zzzzzzzz/animations/idle/apply_frame_as_root
 execute if score #animation aj.i = $aj.armor.animation.idle aj.id run scoreboard players operation @s aj.armor.animation.idle.local_anim_time = #frame aj.i

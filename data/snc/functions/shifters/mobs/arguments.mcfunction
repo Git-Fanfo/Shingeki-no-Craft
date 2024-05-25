@@ -7,8 +7,8 @@ data merge storage minecraft:cart {\
     bossbar_color:pink, \
     bossbar_style: notched_6, \
     hp:32, \
-    walk_speed:0.35d, \
-    run_speed:0.35d, \
+    walk_speed:0.34d, \
+    run_speed:0.34d, \
     type:camel, \
     jump:.8d, \
     step_height:3.6d, \

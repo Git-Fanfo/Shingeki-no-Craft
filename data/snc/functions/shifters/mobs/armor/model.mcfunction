@@ -49,27 +49,15 @@ execute if score state armor_vars matches 15 if entity @s[tag=!aj.armor.animatio
 
 execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.hardening] run function snc:shifters/mobs/armor/animate/hard
 
-## function snc:shifters/mobs/armor/animate/grab is handled by ../action/jaw
-#execute if score state armor_vars matches 16 if entity @s[tag=!aj.armor.animation.kick_1] run function snc:shifters/mobs/armor/animate/kick_1
-#execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.kick_2] run function snc:shifters/mobs/armor/animate/kick_2
-#execute if score state armor_vars matches 18 if entity @s[tag=!aj.armor.animation.kick_3] run function snc:shifters/mobs/armor/animate/kick_3
-#execute if score state armor_vars matches 10 if entity @s[tag=!aj.armor.animation.block] run function snc:shifters/mobs/armor/animate/block
-
-# [X] Born
-# [X] Death
-# [X] Idle
-# [X] Walk
-# [X] Run
-# [ ] Jump
-# [X] Sneak
-# [X] Punch (x3)
-# [X] Grab (W)
-# [X] Kick (x3)
-# [X] Block
-
 ## Variants
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 9.. run function animated_java:armor/apply_variant/default
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 6..8 run function animated_java:armor/apply_variant/noskin_1
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 3..5 run function animated_java:armor/apply_variant/noskin_2
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 1..2 run function animated_java:armor/apply_variant/noskin_3
-execute if entity @s[tag=!aj.armor.animation.born] if score $op.hardening armor_vars matches 0 run function animated_java:armor/apply_variant/noskin_4
+execute if score $op.hardening armor_vars matches 9.. run scoreboard players set @s armor_vars 0
+execute if score $op.hardening armor_vars matches 6..8 run scoreboard players set @s armor_vars 1
+execute if score $op.hardening armor_vars matches 3..5 run scoreboard players set @s armor_vars 2
+execute if score $op.hardening armor_vars matches 1..2 run scoreboard players set @s armor_vars 3
+execute if score $op.hardening armor_vars matches 0 run scoreboard players set @s armor_vars 4
+
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 0 run function animated_java:armor/apply_variant/default
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 1 run function animated_java:armor/apply_variant/skin_2
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 2 run function animated_java:armor/apply_variant/skin_3
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 3 run function animated_java:armor/apply_variant/skin_4
+execute if entity @s[tag=!aj.armor.animation.born] if score @s armor_vars matches 4 run function animated_java:armor/apply_variant/skin_5
