@@ -20,7 +20,7 @@ data merge storage minecraft:cart {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    damage_jaw: 20, knockback_jaw: 3, energy_jaw: 40, \
+    damage_jaw: 20, knockback_jaw: 3, energy_jaw: 8, \
     damage_step: 2 \
 }
 ## Note: Fanfo from the future says: Argument "jump:1d" works pretty good for Jaw!

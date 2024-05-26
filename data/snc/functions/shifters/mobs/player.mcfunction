@@ -34,7 +34,6 @@ $execute if score @s snc.vehicle_move matches 0 unless score $moving $(shifter)_
 $execute if score @s snc.vehicle_move matches 1.. unless score $moving $(shifter)_vars matches -1 run scoreboard players set $moving $(shifter)_vars 1
 # execute unless entity @s[type=player] run function snc:shifters/mobs/brain
 
-
 # Rotation
 $execute store result score player_rotation $(shifter)_vars run data get entity @s Rotation[0]
 
