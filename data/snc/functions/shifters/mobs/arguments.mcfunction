@@ -112,9 +112,9 @@ data merge storage minecraft:beast {\
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
-    regen_ticks:40, \
-    scale_vehicle:6.8, \
-    scale_player:10, \
+    regen_ticks:130, \
+    scale_vehicle:9.2, \
+    scale_player:6.4, \
     block_range:11, \
     entity_range:0, \
     energy_decrease: 2,\

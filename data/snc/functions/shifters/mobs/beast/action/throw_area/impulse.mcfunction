@@ -13,4 +13,4 @@ execute if score $rock beast_vars matches 0 rotated ~ 0 run particle block{block
 execute if score $rock beast_vars matches 0 as @e[tag=aj.beast.locator.consume,sort=nearest,limit=1] on passengers on passengers on passengers run function snc:shifters/mobs/beast/action/throw_area/dismount
 # locator > snowball > item_display > item_display and Valentina
 
-execute on vehicle run attribute @s minecraft:generic.scale base set 7.3
+execute on vehicle run attribute @s minecraft:generic.scale base set 8.8

@@ -2,13 +2,12 @@ execute if score $vanish beast_vars matches 1 run particle minecraft:cloud ~ ~4 
 execute if score $vanish beast_vars matches 1 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 1
 execute if score $vanish beast_vars matches 1 run function snc:shifters/mobs/kill {"shifter":"beast"}
 
-execute if block ~ ~4 ~ air run tp ~ ~-.3 ~
 execute unless score @s beast_vars matches ..1200 run scoreboard players set @s beast_vars 1200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses beast_vars 0
 execute if score @s beast_vars matches 1200 as @e[tag=shifter,tag=beast,tag=dead] run scoreboard players add $corpses beast_vars 1
 execute if score $corpses beast_vars matches 2.. as @e[tag=shifter,tag=beast,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"beast"}
-attribute @s generic.scale base set 10
+attribute @s generic.scale base set 6.4
 
 ## Reset
 execute if score @s beast_vars matches 1200 run bossbar remove minecraft:beast_health
