@@ -4,15 +4,12 @@ $execute as @s[tag=body] run \
 $execute as @s[tag=collision] run \
     function snc:shifters/mobs/collision {"shifter":"$(shifter)"}
 
-$execute if entity @s[tag=aj.$(shifter).locator.consume] if score consume $(shifter)_vars matches 20..60 run \
-    ride @e[type=#snc:eldian,tag=!transform,distance=..5,sort=nearest,limit=1] mount @s
-$execute if entity @s[tag=aj.$(shifter).locator.consume] if score consume $(shifter)_vars matches 19 run \
-    ride @e[type=#snc:eldian,tag=!transform,sort=nearest,limit=1] dismount
+$execute if entity @s[tag=aj.$(shifter).locator.consume] if score $hold $(shifter)_vars matches 1 unless data entity @s Passengers run ride @e[type=#snc:eldian,tag=!transform,distance=..5,sort=nearest,limit=1] mount @s
+$execute if entity @s[tag=aj.$(shifter).locator.consume] unless score $hold $(shifter)_vars matches 1 on passengers run ride @s dismount
+# If it transforms
+$execute if entity @s[tag=aj.$(shifter).locator.consume] on passengers run ride @s[tag=transform] dismount
 
 ## Model
 $execute on passengers if entity @s[tag=aj.$(shifter).root] run function snc:shifters/mobs/$(shifter)/model
-
-## UNIQUE: BEAST
-execute if entity @s[tag=aj.beast.locator.consume] unless score state beast_vars matches 2 run function snc:shifters/mobs/beast/action/grab/pivot
 
 return 0

@@ -6,3 +6,4 @@ execute if score consume attack_vars matches 14 run item replace entity @s armor
 execute if score consume attack_vars matches 12 anchored eyes positioned ^ ^-1 ^2 run function snc:shifters/mobs/attack/action/jaw/damage with storage minecraft:attack
 
 execute if score consume attack_vars matches 1 run tag @s remove consume
+execute if score consume attack_vars matches 1 run scoreboard players set $hold attack_vars 0

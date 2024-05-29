@@ -9,21 +9,21 @@ data merge storage minecraft:cart {\
     hp:32, \
     walk_speed:0.34d, \
     run_speed:0.34d, \
-    type:camel, \
+    type:skeleton_horse, \
     jump:.8d, \
     step_height:3.6d, \
     explosion:15, \
     resistance:2, \
     regen_ticks:100, \
-    scale_vehicle:2, \
-    scale_player:2.4, \
+    scale_vehicle:1.5, \
+    scale_player:2, \
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
     damage_jaw: 20, knockback_jaw: 3, energy_jaw: 8, \
     damage_step: 2 \
 }
-## Note: Fanfo from the future says: Argument "jump:1d" works pretty good for Jaw!
+## Note: Fanfo from the future says: Argument skeleton_horse "jump:1d" works pretty good for Jaw!
 
 data merge storage minecraft:colossal {\
     id:2, \

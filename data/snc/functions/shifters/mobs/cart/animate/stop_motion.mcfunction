@@ -6,19 +6,16 @@ execute if score idle cart_vars matches 0 run scoreboard players set idle cart_v
 execute if score state cart_vars matches 1 run function snc:shifters/mobs/cart/animate/born
 # Idle
 execute if score state cart_vars matches 3 run function snc:shifters/mobs/cart/animate/idle
-execute if score state cart_vars matches 3..5 on vehicle run attribute @s minecraft:generic.scale base set 1.3
+execute if score state cart_vars matches 3..5 on vehicle run attribute @s minecraft:generic.scale base set 1.5
 # Sneak
 execute if score state cart_vars matches 2 run function snc:shifters/mobs/cart/action/movement/sneak
 # Walk and Run
 execute if score state cart_vars matches 4..5 run function snc:shifters/mobs/cart/animate/walk
 
 # Slam of the Lefties
-execute if score state cart_vars matches 11 run function snc:shifters/mobs/cart/animate/slam
+#execute if score state cart_vars matches 11 run function snc:shifters/mobs/cart/animate/slam
 # Jump
-#execute if score state cart_vars matches 5 run function snc:shifters/mobs/cart/animate/jump
-
-# Walk
-#execute if score state cart_vars matches 4 run function snc:shifters/mobs/cart/animate/walk
+execute if score state cart_vars matches 11 run function snc:shifters/mobs/cart/animate/jumping
 
 execute if score state cart_vars matches 9 run function snc:shifters/mobs/cart/animate/death
 

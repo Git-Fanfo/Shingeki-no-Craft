@@ -1,2 +1,1 @@
-## coords for the hitboxes
-tp @s ^ ^-7.5 ^-.1
+execute if entity @s[tag=aj.beast.locator.consume] run function snc:shifters/mobs/beast/action/grab/pivot

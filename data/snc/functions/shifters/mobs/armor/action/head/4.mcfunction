@@ -1,4 +1,5 @@
 ## Roar
+execute if score consume armor_vars matches 220 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=76]
 execute if score consume armor_vars matches 218 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=77]
 execute if score consume armor_vars matches 216 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=78]
 execute if score consume armor_vars matches 214 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=79]

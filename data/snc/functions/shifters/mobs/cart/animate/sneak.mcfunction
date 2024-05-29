@@ -1,4 +1,4 @@
-ride @s mount @e[type=camel,tag=cart,limit=1,sort=nearest]
+ride @s mount @e[type=skeleton_horse,tag=cart,limit=1,sort=nearest]
 execute unless score #sneak cart_vars matches 1.. if score state cart_vars matches 3..5 run scoreboard players set #sneak cart_vars 20
 
 execute if score #sneak cart_vars matches 20 on vehicle at @s rotated ~ 0 as @e[tag=cart.barrels] run function snc:shifters/mobs/cart/action/shipload/barrels/drop

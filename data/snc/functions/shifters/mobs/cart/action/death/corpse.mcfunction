@@ -2,13 +2,12 @@ execute if score $vanish cart_vars matches 1 run particle minecraft:cloud ~ ~4 ~
 execute if score $vanish cart_vars matches 1 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 .9
 execute if score $vanish cart_vars matches 1 run function snc:shifters/mobs/kill {"shifter":"cart"}
 
-
 execute unless score @s cart_vars matches ..1200 run scoreboard players set @s cart_vars 1200
 ## Prevent 2 corpses at the same time
 scoreboard players set $corpses cart_vars 0
 execute if score @s cart_vars matches 1200 as @e[tag=shifter,tag=cart,tag=dead] run scoreboard players add $corpses cart_vars 1
 execute if score $corpses cart_vars matches 2.. as @e[tag=shifter,tag=cart,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"cart"}
-attribute @s generic.scale base set 1.3
+attribute @s generic.scale base set .95
 
 ## Reset
 execute if score @s cart_vars matches 1200 run bossbar remove minecraft:cart_health

@@ -19,7 +19,7 @@
 
 ## Rotate pivot
 execute on vehicle at @s on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0
-
+execute on vehicle on passengers if entity @s[type=#snc:eldian] at @s anchored eyes run tp @e[tag=aj.cart.locator.consume,sort=nearest,limit=1] ^ ^ ^1 ~ ~
 ## Animations
 ## 2 types: Strong(S) and Weak(W)
 # S: Can't be combined with a S animation.

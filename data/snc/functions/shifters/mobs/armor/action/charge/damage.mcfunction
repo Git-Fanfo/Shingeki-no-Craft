@@ -22,9 +22,9 @@ execute if score $moving armor_vars matches 0 run scoreboard players remove $mov
 execute if score $mov armor_vars matches ..78 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 execute if score $charge.time armor_vars matches ..0 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 
-execute rotated ~ 0 positioned ^ ^5 ^5 if score $grab armor_vars matches 2 unless block ~ ~ ~ air unless block ~ ~ ~ #snc:destroy/nature run scoreboard players set $grab armor_vars 3
+execute rotated ~ 0 positioned ^ ^5 ^5 if score #grab armor_vars matches 2 unless block ~ ~ ~ air unless block ~ ~ ~ #snc:destroy/nature run scoreboard players set #grab armor_vars 3
 
-execute if score $grab armor_vars matches 3 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
+execute if score #grab armor_vars matches 3 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 
 # tellraw @a ["",{"text":"mov: "},{"score":{"name":"$mov","objective":"armor_vars"}},{"text":" | moving: "},{"score":{"name":"$moving","objective":"armor_vars"}}]
 scoreboard players remove $charge.time armor_vars 1

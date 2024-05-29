@@ -14,11 +14,12 @@ execute as @s[predicate=snc:shifters/colossal/atk_3] run function snc:shifters/m
 execute as @s[predicate=snc:shifters/colossal/atk_4] run function snc:shifters/mobs/colossal/action/jaw/init
 
 ## Cart
-# Slam
-execute as @s[predicate=snc:shifters/cart/atk_3] run function snc:shifters/mobs/cart/action/slam/init
 
 # Jaw
 execute as @s[predicate=snc:shifters/cart/atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/add_tags
+
+# Jumping Queen
+execute as @s[predicate=snc:shifters/cart/atk_2] run function snc:shifters/mobs/cart/action/jumping/init
 
 # Shipload
 execute if predicate snc:shifters/cart/shipload run function snc:shifters/mobs/cart/action/shipload/module
