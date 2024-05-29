@@ -7,10 +7,6 @@
 # @output
 #   Behavior for each entity
 
-## This first section handle almost everything related with players and shifters
-## For Shingeki no Craft, villagers are almost the same as a player
-# execute if entity @s[type=#snc:eldian] run function snc:ent/human
-
 ## Seconds functions
 execute if score ticks clock matches 19 run function snc:ent/seconds
 
@@ -20,10 +16,11 @@ execute if entity @s[tag=titan] if function snc:titans/main run return -1
 
 ## Apply Motion to not moving projectiles
 execute if entity @s[tag=not_mov] rotated as @p run function snc:logic/apply_motion/main
+
 ## Projectiles
-execute if entity @s[tag=snc.projectile] run function snc:player/gun/main
+execute if entity @s[tag=snc.projectile] if function snc:player/gun/main run return -1
 ## Shifter
-execute if entity @s[tag=shifter,type=!villager] run function snc:shifters/mobs/check_dead
+execute if entity @s[tag=shifter,type=!villager] if function snc:shifters/mobs/check_dead run return -1
 
 ## Village
 # Show blood

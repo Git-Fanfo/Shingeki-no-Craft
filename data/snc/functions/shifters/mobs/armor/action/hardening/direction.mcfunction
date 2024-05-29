@@ -1,1 +1,2 @@
 execute at @p[scores={armor_vars=1}] anchored eyes positioned ^ ^ ^1 run summon snowball ~ ~ ~ {Tags:["not_mov","snc.shifter","armor","snc.hardening"],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
+scoreboard players set #grab armor_vars 0

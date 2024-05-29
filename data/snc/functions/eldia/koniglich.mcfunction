@@ -1,4 +1,4 @@
 advancement grant @p[distance=0..5, scores={attack_vars=1}] only snc:shifters/attack/koniglich
 execute if entity @s[type=villager] rotated ~ 0 run particle minecraft:dust{color:[0.78f, 0.988f, 0.988f], scale:1f} ^ ^.5 ^-.12 .1 .5 .1 1 10 force @p[scores={attack_vars=1},advancements={snc:shifters/attack/koniglich=true}]
-execute if entity @s[type=player] rotated ~ 0 run particle minecraft:dust{color:[0.78f, 0.988f, 0.988f], scale:1f} ^ ^.5 ^-.12 .1 .5 .1 1 10 force @p[scores={attack_vars=1},advancements={snc:shifters/attack/koniglich=true}]
+execute if entity @s[type=player] rotated ~ 0 run particle minecraft:dust{color:[0.78f, 0.988f, 0.988f], scale:1f} ^ ^.5 ^-.25 .1 .5 .1 1 1 force @p[scores={attack_vars=1},advancements={snc:shifters/attack/koniglich=true}]
 execute if entity @s[tag=hurtbox] rotated ~ 0 run particle minecraft:dust{color:[0.78f, 0.988f, 0.988f], scale:1f} ^ ^.5 ^-.12 .1 .5 .1 1 10 force @p[scores={attack_vars=1},advancements={snc:shifters/attack/koniglich=true}]

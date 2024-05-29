@@ -8,7 +8,7 @@ $execute if entity @e[distance=..$(distance),tag=!$(shifter),type=!#snc:pivot,pr
 $execute as @e[distance=..$(distance),tag=!$(shifter),type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] run damage @s $(damage) player_attack by @p[scores={$(shifter)_vars=1}]
 ## Knockback
 # Summon snowball
-$execute as @e[distance=..$(distance),tag=transform,type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] on vehicle unless predicate snc:is_riding_projectile at @s anchored feet positioned ^ ^ ^ run function snc:logic/apply_motion/knockback/summon {"knockback":$(knockback)}
+$execute as @e[distance=..$(distance),tag=transform,type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] on vehicle unless predicate snc:is_riding_projectile at @s anchored feet positioned ^ ^.5 ^ run function snc:logic/apply_motion/knockback/summon {"knockback":$(knockback)}
 # Set direction
 $execute if entity @e[distance=..$(distance),tag=transform,type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] run data modify entity @e[type=snowball,tag=snc.knockback,tag=not_mov,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]
 

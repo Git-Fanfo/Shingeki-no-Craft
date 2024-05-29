@@ -6,7 +6,7 @@
         "modifiers": [
           {
             "type": "minecraft:generic.armor",
-            "uuid": [0,0,0,0],
+            "uuid": [1037146786,-916566486,-2009290388,-2122761331],
             "name": "generic.armor",
             "amount": 18,
             "operation": "add_value",
@@ -14,7 +14,7 @@
           },
           {
             "type": "minecraft:generic.armor_toughness",
-            "uuid": [0,0,0,0],
+            "uuid": [403646585,1003700334,-1709780057,33281322],
             "name": "generic.armor",
             "amount": 12,
             "operation": "add_value",

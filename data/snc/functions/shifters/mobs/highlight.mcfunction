@@ -1,5 +1,5 @@
-effect give @e[distance=..3,type=#snc:eldian,tag=!transform,predicate=!snc:shifters/attack/score] glowing 1 0 true
-effect clear @e[distance=3..5,type=#snc:eldian,tag=!transform,predicate=!snc:shifters/attack/score] glowing
+effect give @e[distance=..3,type=#snc:eldian,tag=!transform] glowing 1 0 true
+effect clear @e[distance=3..5,type=#snc:eldian,tag=!transform] glowing
 
 particle minecraft:dust{color:[1.0f, 0.0f, 0.0f], scale:0.6f} ^0.000 ^1.000 ^3.000 0 0 0 0 1 force @s
 particle minecraft:dust{color:[1.0f, 0.0f, 0.0f], scale:0.6f} ^1.582 ^1.000 ^2.549 0 0 0 0 1 force @s

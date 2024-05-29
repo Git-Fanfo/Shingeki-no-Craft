@@ -13,10 +13,11 @@ execute store result entity @s Motion[1] double 0.01 run scoreboard players oper
 execute store result entity @s Motion[2] double 0.01 run scoreboard players operation @s motion_z1 -= @s motion_z0
 
 tag @s remove not_mov
+tag @s remove snc.knockback
 
 ## Move
-execute unless entity @s[tag=snc.riding] run ride @e[type=!snowball,scores={snc.knockback=..-1},sort=nearest,limit=1] mount @s
-scoreboard players reset @e[type=!snowball,scores={snc.knockback=..-1},sort=nearest,limit=1] snc.knockback
+execute on passengers run ride @e[type=!#snc:pivot,scores={snc.knockback=..-1},sort=nearest,limit=1] mount @s
+scoreboard players reset @e[type=!#snc:pivot,scores={snc.knockback=..-1},sort=nearest,limit=1] snc.knockback
 ## Add Motion if required (WIP)
 #execute if entity @s[tag=snc.riding] run data modify entity @e[type=snowball,tag=snc.knockback,tag=!snc.riding,sort=nearest,limit=1] Motion set from entity @s Motion
 #execute if entity @s[tag=snc.riding] run kill

@@ -16,6 +16,7 @@ execute if score $gamemode armor_vars matches -1 run function snc:shifters/abili
 # execute if score $gamemode armor_vars matches -1 run function snc:shifters/abilities/destroy with storage minecraft:armor
 
 # Head
+execute if entity @s[tag=transform] run item replace entity @s armor.head with carved_pumpkin[custom_model_data=86]
 execute if entity @s[tag=transform] run function snc:shifters/mobs/armor/action/head/main
 
 ## Gamemode

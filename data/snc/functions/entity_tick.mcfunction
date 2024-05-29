@@ -7,7 +7,8 @@ execute if score ticks clock matches 14 run scoreboard players reset * Visib_Kil
 execute if score $van_vill config matches 0 as @e[type=#snc:eldian] at @s run function snc:ent/human
 execute if score $van_vill config matches 1 as @e[type=player] at @s run function snc:ent/human
 # Hostile (Included Titans and Shifters)
-execute as @e[type=#snc:snc,tag=!aj.attack.bone,tag=!aj.beast.bone] at @s run function snc:ent/disable_mobs
+##### HOW TO CREATE A SHIFTER #####
+execute as @e[type=#snc:snc,tag=!aj.attack.bone,tag=!aj.beast.bone,tag=!aj.armor.bone] at @s run function snc:ent/disable_mobs
 # Items
 execute as @e[type=item,tag=!snc.item] at @s run function snc:item/main
 
