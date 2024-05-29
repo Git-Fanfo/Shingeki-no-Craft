@@ -51,7 +51,7 @@ $execute store result score health $(shifter)_vars run data get entity @s Absorp
 $execute store result bossbar $(shifter)_health value run scoreboard players get health $(shifter)_vars
 # Kill when energy runs out
 $execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
-# Kill when life is 0
+# Kill when hp is 0
 $execute if score health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
 # Ride when is not dead
 $execute if score #sneak $(shifter)_vars matches 1.. run scoreboard players remove #sneak $(shifter)_vars 1

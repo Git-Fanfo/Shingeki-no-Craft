@@ -1,2 +1,0 @@
-execute unless score @s koniglich matches 1 run function snc:eldia/gene/baby {"nbt":{Age:-24000,Tags:["snc.born"],active_effects:[{id:"minecraft:levitation",amplifier:0b,duration:40,show_particles:0b}]}}
-execute if score @s koniglich matches 1 run function snc:eldia/gene/baby {"nbt":{Age:-24000,Tags:["koniglich","snc.born"],active_effects:[{id:"minecraft:levitation",amplifier:0b,duration:40,show_particles:0b}]}}

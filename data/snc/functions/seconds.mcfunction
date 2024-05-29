@@ -8,9 +8,9 @@ execute if score hour clock matches 3600.. run function snc:logic/schedule/1h/ma
 scoreboard players add 5s clock 1
 execute if score 5s clock matches 5.. run function snc:logic/schedule/5s
 
-## 15m : Reproduce villagers
+## 15m : Villagers schedule
 scoreboard players add 15m clock 1
-execute if score 15m clock matches 900.. run function snc:logic/schedule/15m/main
+execute if score 15m clock matches 900.. run function snc:logic/schedule/15m
 
 ## 1m : test
 scoreboard players add 1m clock 1

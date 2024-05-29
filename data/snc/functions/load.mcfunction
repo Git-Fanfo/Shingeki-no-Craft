@@ -92,10 +92,9 @@ scoreboard objectives add projectile dummy
 # Villagers
 scoreboard objectives add reputation dummy
 scoreboard objectives add messages trigger
-scoreboard objectives add bee dummy
+scoreboard objectives add snc.bee dummy
 scoreboard objectives add alma dummy
 scoreboard objectives add julian dummy
-scoreboard objectives add life dummy
 scoreboard objectives add children dummy
 scoreboard objectives add dna.y dummy
 scoreboard objectives add dna.x dummy

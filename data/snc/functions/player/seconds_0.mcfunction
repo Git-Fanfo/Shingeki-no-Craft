@@ -1,6 +1,6 @@
 # Villagers
-execute unless score @s bee matches 0.. run scoreboard players set @s bee 0
-execute if score @s bee matches 1.. run scoreboard players remove @s bee 1
+execute unless score @s snc.bee matches 0.. run scoreboard players set @s snc.bee 0
+execute if score @s snc.bee matches 1.. run scoreboard players remove @s snc.bee 1
 
 # Entered a village
 execute if biome ~ ~ ~ snc:village as @s[tag=!in_village] run function snc:player/build/bell/enter
