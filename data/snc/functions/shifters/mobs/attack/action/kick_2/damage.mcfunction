@@ -1,1 +1,1 @@
-$execute positioned ^ ^-4 ^5 run function snc:shifters/combat/damage {"distance":5.5,"half_minus_zero_point_five":2.25,"shifter":"attack","sound":"aot.punch","damage":$(damage_kick_2),"knockback":$(knockback_kick_2),"energy":$(energy_kick_2)}
+$execute positioned ^ ^-4 ^5 run function snc:shifters/combat/damage {"distance":5.5,"half_minus_zero_point_five":2.25,"shifter":"attack","sound":"aot.punch","damage":$(damage_kick_2),"knockback":$(knockback_kick_2),"energy":$(energy_kick_2),"angle":$(angle_kick_2)}

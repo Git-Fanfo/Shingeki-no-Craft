@@ -1,6 +1,8 @@
 # Hitbox
 execute if entity @s[tag=cart.hitbox] run tp ^ ^ ^-3.2
 
+execute if entity @s[tag=aj.cart.locator.consume] on passengers run function snc:shifters/mobs/cart/action/hold/effects
+
 # Rotate pivot
 execute if entity @s[tag=cart.case] on vehicle at @s on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0
 
@@ -21,3 +23,7 @@ execute if entity @s[tag=cart.gun] on passengers if entity @s[type=player] at @s
 execute if entity @s[tag=cart.turret.1] run function snc:shifters/mobs/cart/action/shipload/turrets/main {"x":1.3,"y":4.6,"z":-2,"turret":1,"rotate":315}
 execute if entity @s[tag=cart.turret.2] run function snc:shifters/mobs/cart/action/shipload/turrets/main {"x":-1.3,"y":4.6,"z":-2,"turret":2,"rotate":45}
 execute if entity @s[tag=cart.turret.3] run function snc:shifters/mobs/cart/action/shipload/turrets/main {"x":"","y":4,"z":-5,"turret":3,"rotate":180}
+
+execute if entity @s[tag=cart.turret.1] if data entity @s interaction run function snc:interact/turret {"turret":1}
+execute if entity @s[tag=cart.turret.2] if data entity @s interaction run function snc:interact/turret {"turret":2}
+execute if entity @s[tag=cart.turret.3] if data entity @s interaction run function snc:interact/turret {"turret":3}

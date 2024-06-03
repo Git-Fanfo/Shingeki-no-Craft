@@ -9,9 +9,11 @@
             "color": "dark_purple"
         },
         "icon": {
-            "id": "minecraft:feather",
+            "id": "minecraft:player_head",
             "components": {
-                "minecraft:custom_model_data": 11
+                "profile": {
+                    "name":"Alexbladeza"
+                }
             }
         },
         "frame": "challenge",

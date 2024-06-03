@@ -13,3 +13,4 @@ team modify cart color light_purple
 team modify colossal color aqua
 team modify attack color dark_red
 team modify beast color green
+team modify armor color gold

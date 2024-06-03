@@ -1,6 +1,12 @@
 ## Mount beast_wrap
 ride @s dismount
 scoreboard players set $hold beast_vars 0
+
+execute if score $rock beast_vars matches 0
+ride @e[tag=beast_wrap,type=!item_display,sort=nearest,limit=1] dismount
+execute if score $rock beast_vars matches 0 on passengers run ride @e[tag=beast_wrap,type=!item_display,sort=nearest,limit=1] mount @s
+#execute on passengers run tag @s add snc.sticky
+
 data merge entity @s {NoGravity:1b}
 execute store result entity @s Motion[0] double 0.027 run scoreboard players get motion_x beast_vars
 execute store result entity @s Motion[1] double 0.027 run scoreboard players get motion_y beast_vars

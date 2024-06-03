@@ -1,4 +1,4 @@
-execute if score action cart_vars matches 10 on vehicle unless predicate snc:is_riding_projectile at @s anchored feet positioned ^ ^ ^ run function snc:logic/apply_motion/knockback/summon {"knockback":3}
+execute if score action cart_vars matches 10 on vehicle at @s anchored feet rotated ~ 0 positioned ^ ^.5 ^ run function snc:logic/apply_motion/knockback/summon {"knockback":3}
 execute if score action cart_vars matches 10 on vehicle on passengers if entity @s[type=#snc:eldian] at @s run data modify entity @e[type=snowball,tag=snc.knockback,tag=not_mov,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
 execute if score action cart_vars matches 10 run data modify entity @s item.components.minecraft:custom_model_data set value 31

@@ -9,15 +9,16 @@
             "color": "dark_purple"
         },
         "icon": {
-            "id": "minecraft:feather",
+            "id": "minecraft:player_head",
             "components": {
-                "minecraft:custom_model_data": 1
+                "profile": {
+                    "name":"Astr0J0K3r"
+                }
             }
         },
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "announce_to_chat": true
     },
     "criteria": {
         "unlock": {

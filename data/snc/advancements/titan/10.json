@@ -9,10 +9,12 @@
             "color": "dark_purple"
         },
         "icon": {
-            "id": "minecraft:feather",
+            "id": "minecraft:player_head",
             "components": {
-                "minecraft:custom_model_data": 5
-            }            
+                "profile": {
+                    "name":"fay_2acc"
+                }
+            }
         },
         "frame": "challenge",
         "show_toast": true,

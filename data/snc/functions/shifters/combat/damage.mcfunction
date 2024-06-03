@@ -11,7 +11,7 @@ $execute as @e[distance=..$(distance),tag=!$(shifter),type=!#snc:pivot,predicate
 $execute as @e[distance=..$(distance),tag=transform,type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] on vehicle unless predicate snc:is_riding_projectile at @s anchored feet positioned ^ ^.5 ^ run function snc:logic/apply_motion/knockback/summon {"knockback":$(knockback)}
 # Set direction
 $execute if entity @e[distance=..$(distance),tag=transform,type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] run data modify entity @e[type=snowball,tag=snc.knockback,tag=not_mov,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]
-
+$execute if entity @e[distance=..$(distance),tag=transform,type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] run data modify entity @e[type=snowball,tag=snc.knockback,tag=not_mov,sort=nearest,limit=1] Rotation[1] set value $(angle)f
 
 $effect give @e[distance=..$(distance),tag=hurtbox] water_breathing 1 0 true
 

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.ability.hardening.hardened",
+            "color": "gold"
+        },
+        "description": {
+            "translate": "aot.adv.barrels.desc",
+            "color": "white"
+        },
+        "icon": {
+            "id": "golden_chestplate",
+            "components": {
+                "minecraft:custom_model_data": 1
+            }
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "snc:shifters/armor/get"
+}

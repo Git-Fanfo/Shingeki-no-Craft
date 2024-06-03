@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "translate": "Captain",
@@ -11,9 +10,11 @@
             "obfuscated": true
         },
         "icon": {
-            "id": "minecraft:feather",
+            "id": "minecraft:player_head",
             "components": {
-                "minecraft:custom_model_data": 13
+                "profile": {
+                    "name":"Shadow251012"
+                }
             }
         },
         "frame": "challenge",

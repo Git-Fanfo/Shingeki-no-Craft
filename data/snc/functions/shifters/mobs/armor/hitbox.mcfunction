@@ -1,6 +1,6 @@
 ## Hardening
 execute if entity @s[tag=armor.hardening] if score state armor_vars matches 9 run kill
-execute if entity @s[tag=armor.hardening] unless score state armor_vars matches 9 run tp @s ^ ^2 ^1.5 ~ ~
+execute if entity @s[tag=armor.hardening] unless score state armor_vars matches 9 run tp @s ^ ^2.5 ^1.5 ~ ~
 execute if entity @s[tag=armor.hardening, tag=!armor.hardening.grab] run ride @e[type=#snc:titan,sort=nearest,limit=1,distance=..10,tag=!armor] mount @s
 execute if entity @s[tag=armor.hardening] run tag @s add armor.hardening.grab
 

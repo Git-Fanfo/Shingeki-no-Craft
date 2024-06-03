@@ -9,7 +9,7 @@
 # 9 : Die
 ###############
 # 12 : grab
-# 13 : big_rock
+# 13 : boulder
 # 14 : area
 
 ## Rotate model

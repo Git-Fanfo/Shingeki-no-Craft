@@ -8,6 +8,8 @@ function snc:shifters/abilities/clear
 # Combat
 execute if score $gamemode cart_vars matches 1 run function snc:shifters/mobs/cart/abilities/atk_5 with storage minecraft:cart
 execute if score $gamemode cart_vars matches 1 run function snc:shifters/mobs/cart/abilities/atk_2 with storage minecraft:cart
+execute if score $gamemode cart_vars matches 1 unless score $hold cart_vars matches 1 run function snc:shifters/mobs/cart/abilities/atk_1 with storage minecraft:cart
+execute if score $gamemode cart_vars matches 1 if score $hold cart_vars matches 1 run function snc:shifters/mobs/cart/abilities/atk_3 with storage minecraft:cart
 
 # Utility
 execute if score $gamemode cart_vars matches -1 run function snc:shifters/abilities/farm with storage minecraft:cart

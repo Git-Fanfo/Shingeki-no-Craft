@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:carved_pumpkin",
             "components": {
-                "minecraft:custom_model_data": 15
+                "minecraft:custom_model_data": 101
             }
         },
         "frame": "challenge",
