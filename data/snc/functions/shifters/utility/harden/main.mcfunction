@@ -1,7 +1,7 @@
 advancement revoke @s only snc:shifters/armor/harden
 
-execute unless items entity @s weapon.offhand #minecraft:trimmable_armor run function snc:shifters/mobs/armor/action/hardening/armor/error
-execute if items entity @s weapon.offhand #minecraft:trimmable_armor unless items entity @s weapon.offhand *[minecraft:custom_model_data=1] run function snc:shifters/mobs/armor/action/hardening/armor/transform
+execute unless items entity @s weapon.offhand #minecraft:trimmable_armor run function snc:shifters/utility/harden/main
+execute if items entity @s weapon.offhand #minecraft:trimmable_armor unless items entity @s weapon.offhand *[minecraft:custom_model_data=1] run function snc:shifters/utility/harden/transform
 
 # Modify chainmail armor
 execute if items entity @s weapon.offhand minecraft:chainmail_helmet run item modify entity @s weapon.offhand snc:hardening/helmet/chainmail

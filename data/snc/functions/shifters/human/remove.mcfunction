@@ -8,7 +8,5 @@ tag @s remove injured
 
 scoreboard players reset @s shifter_vars
 
-# Advancement
-function snc:shifters/human/revoke_adv
 # tellraw @a ["Warning: ",{"text":"Server found shifter but not type!","color":"yellow"}]
 execute unless score @s death matches 1.. run kill

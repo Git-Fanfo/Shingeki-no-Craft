@@ -17,7 +17,8 @@ scoreboard players set @s snc.vehicle_move 0
 function snc:logic/team/main
 
 # Delte barrier blocks (DANGER)
-execute as @s[tag=!barrier] unless entity @a[distance=1..7.5,tag=transform] rotated ~ 0 run fill ^-5 ^-8 ^-5 ^5 ^3 ^5 minecraft:air replace barrier
+# execute as @s[tag=!barrier] unless entity @a[distance=1..7.5,tag=transform] rotated ~ 0 run fill ^-5 ^-8 ^-5 ^5 ^3 ^5 minecraft:air replace barrier
+execute as @s[tag=!barrier] rotated ~ 0 run fill ^-5 ^-8 ^-5 ^5 ^3 ^5 minecraft:air replace barrier
 tag @s remove barrier
 
 ## Titan

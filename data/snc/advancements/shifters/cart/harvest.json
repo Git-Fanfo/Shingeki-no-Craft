@@ -13,14 +13,14 @@
             }
           },
           "predicates": {
-            "minecraft:custom_data": "{snc.harden:1b}"
+            "minecraft:custom_data": "{snc.harvest:1b}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "snc:shifters/utility/harden/main"
+    "function": "snc:shifters/utility/harvest/main"
   }
 }
   

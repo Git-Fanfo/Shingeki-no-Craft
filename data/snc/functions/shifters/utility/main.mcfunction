@@ -3,10 +3,15 @@ attribute @s player.block_break_speed base set 2.5
 
 execute if predicate snc:shifters/has_destroy positioned ~ ~-6 ~ rotated ~ 0 run function snc:shifters/mobs/attack/action/movement/destroy
 
-## Only Cart (For now)
-execute if score @s shifter_vars matches 1 if predicate snc:shifters/has_farm positioned ~ ~-2 ~ rotated ~ 0 run function snc:shifters/utility/dirt
+## Farm
+execute if score @s shifter_vars matches 1 if score #farm cart_vars matches 1.. positioned ~ ~-2 ~ rotated ~ 0 run function snc:shifters/utility/farm/dirt
+execute if score @s shifter_vars matches 1 if score #farm cart_vars matches 2.. run scoreboard players remove #farm cart_vars 1
+execute if score @s shifter_vars matches 1 if score #farm cart_vars matches ..-2 run scoreboard players add #farm cart_vars 1
 
-$execute if predicate snc:shifters/has_harvest on vehicle at @s positioned ~ ~.5 ~ run function snc:shifters/utility/harvest {"shifter":$(shifter)}
+## Harvest
+$execute if score @s shifter_vars matches 1 if score #harvest cart_vars matches 1.. on vehicle at @s positioned ~ ~.5 ~ run function snc:shifters/utility/harvest {"shifter":$(shifter)}
+execute if score @s shifter_vars matches 1 if score #harvest cart_vars matches 2.. run scoreboard players remove #harvest cart_vars 1
+execute if score @s shifter_vars matches 1 if score #harvest cart_vars matches ..-2 run scoreboard players add #harvest cart_vars 1
 
 scoreboard players operation @s snc.ender += @s snc.chest
 scoreboard players operation @s snc.ender += @s snc.barrel
