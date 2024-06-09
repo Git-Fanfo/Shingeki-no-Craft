@@ -1,6 +1,5 @@
 # Save the current position to #posy0
 $execute store result score #posy0 $(shifter)_vars run data get entity @s Pos[1] 1
-
 $execute summon $(type) run function snc:shifters/mobs/spawn {\
     "shifter":"$(shifter)", \
     "walk_speed":$(walk_speed), \
@@ -19,6 +18,7 @@ $scoreboard players set consume $(shifter)_vars 0
 $scoreboard players set $gamemode $(shifter)_vars 1
 $scoreboard players set $vanish $(shifter)_vars 0
 $scoreboard players set $mov $(shifter)_vars 80
+$scoreboard players set $hold $(shifter)_vars 0
 
 $execute if score @s armor_vars matches 1 run scoreboard players set $hardening $(shifter)_vars 0
 $execute if score @s armor_vars matches 1 run scoreboard players set $op.hardening $(shifter)_vars 12

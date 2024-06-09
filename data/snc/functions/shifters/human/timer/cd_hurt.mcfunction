@@ -2,7 +2,7 @@ function snc:logic/return_gamemode
 
 tag @s remove transform
 tag @s remove consume
-tag @s add injured
+tag @s add snc.injured
 
 clear @s *[custom_data~{atk_shifter:1b}]
 clear @s carved_pumpkin

@@ -1,0 +1,1 @@
+$data modify storage minecraft:$(shifter) Inventory set from entity @s Inventory

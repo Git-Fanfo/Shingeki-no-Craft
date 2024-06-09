@@ -1,0 +1,17 @@
+$data modify storage minecraft:$(shifter) Hotbar set value []
+$execute unless items entity @s container.0 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:0b}]
+$execute unless items entity @s container.1 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:1b}]
+$execute unless items entity @s container.2 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:2b}]
+$execute unless items entity @s container.3 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:3b}]
+$execute unless items entity @s container.4 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:4b}]
+$execute unless items entity @s container.5 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:5b}]
+$execute unless items entity @s container.6 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:6b}]
+$execute unless items entity @s container.7 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:7b}]
+$execute unless items entity @s container.8 *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:8b}]
+
+$execute unless items entity @s weapon.offhand *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:-106b}]
+
+$execute unless items entity @s armor.head minecraft:carved_pumpkin run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:103b}]
+$execute if items entity @s armor.chest #minecraft:chest_armor run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:102b}]
+$execute if items entity @s armor.legs #minecraft:leg_armor run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:101b}]
+$execute if items entity @s armor.feet #minecraft:foot_armor run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:100b}]

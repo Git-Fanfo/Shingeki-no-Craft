@@ -127,23 +127,23 @@ execute if score walk colossal_vars matches 1 run data modify entity @s item.com
 # execute if score walk colossal_vars matches 115 if score $shifter_destroy config matches 1 at @a[scores={colossal_vars=1}] rotated ~ 0 run function snc:shifters/mobs/colossal/action/explosion/right/4
 # execute if score walk colossal_vars matches 95 if score $shifter_destroy config matches 1 at @a[scores={colossal_vars=1}] run function snc:shifters/mobs/colossal/action/explosion/right/5
 # Right
-execute if score walk colossal_vars matches 120 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/1 {"side":""}
-execute if score walk colossal_vars matches 120 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/2 {"side":""}
-execute if score walk colossal_vars matches 135 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/3 {"side":""}
-execute if score walk colossal_vars matches 115 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/4 {"side":""}
-execute if score walk colossal_vars matches 95 rotated ~ 0 positioned ^-8 ^-36 ^ run function snc:shifters/mobs/colossal/action/footstep/5 {"side":""}
+execute if score walk colossal_vars matches 120 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/1 {"side":""}
+execute if score walk colossal_vars matches 120 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/2 {"side":""}
+execute if score walk colossal_vars matches 135 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/3 {"side":""}
+execute if score walk colossal_vars matches 115 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/4 {"side":""}
+execute if score walk colossal_vars matches 95 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-8 ^-36 ^ run function snc:shifters/mobs/colossal/action/footstep/5 {"side":""}
 # Left
-execute if score walk colossal_vars matches 80 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/1 {"side":"-"}
-execute if score walk colossal_vars matches 75 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/2 {"side":"-"}
-execute if score walk colossal_vars matches 70 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/3 {"side":"-"}
-execute if score walk colossal_vars matches 50 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/4 {"side":"-"}
-execute if score walk colossal_vars matches 30 rotated ~ 0 positioned ^8 ^-36 ^ run function snc:shifters/mobs/colossal/action/footstep/5 {"side":"-"}
+execute if score walk colossal_vars matches 80 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/1 {"side":"-"}
+execute if score walk colossal_vars matches 75 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/2 {"side":"-"}
+execute if score walk colossal_vars matches 70 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/3 {"side":"-"}
+execute if score walk colossal_vars matches 50 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^8 ^-34 ^ run function snc:shifters/mobs/colossal/action/footstep/4 {"side":"-"}
+execute if score walk colossal_vars matches 30 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^8 ^-36 ^ run function snc:shifters/mobs/colossal/action/footstep/5 {"side":"-"}
 
 # Thights
-execute if score ticks clock matches 7 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:air replace #snc:destroy/building
-execute if score ticks clock matches 7 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:air replace #snc:destroy/building
-execute if score ticks clock matches 14 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:fire replace #snc:destroy/building
-execute if score ticks clock matches 14 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:fire replace #snc:destroy/building
+execute if score ticks clock matches 7 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:air replace #snc:destroy/building
+execute if score ticks clock matches 7 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:air replace #snc:destroy/building
+execute if score ticks clock matches 14 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^-6 ^-26 ^ run fill ^ ^ ^ ^5 ^19 ^5 minecraft:fire replace #snc:destroy/building
+execute if score ticks clock matches 14 if score $shifter_destroy config matches 1 rotated ~ 0 positioned ^6 ^-26 ^ run fill ^ ^ ^ ^-5 ^19 ^5 minecraft:fire replace #snc:destroy/building
 
 # SHAKE GROUND
 execute if score walk colossal_vars matches 110 run function snc:shifters/mobs/colossal/action/movement/step

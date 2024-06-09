@@ -14,7 +14,7 @@ execute if score action colossal_vars matches 46 run playsound minecraft:item.tr
 execute if score action colossal_vars matches 55 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,components:{"custom_model_data":454}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}
 
 # Health
-execute if score action colossal_vars matches 55 on vehicle run effect give @s levitation 3 15 true
+execute if score action colossal_vars matches 55 on vehicle run effect give @s levitation 6 15 true
 execute if score action colossal_vars matches 42 run effect give @a[scores={colossal_vars=1}] absorption 20 9 true
 execute if score action colossal_vars matches 27 run effect give @a[scores={colossal_vars=1}] absorption 20 12 true
 execute if score action colossal_vars matches 15 run effect give @a[scores={colossal_vars=1}] absorption 20 14 true

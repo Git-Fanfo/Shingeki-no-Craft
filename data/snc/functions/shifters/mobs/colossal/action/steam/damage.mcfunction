@@ -1,4 +1,4 @@
-execute at @s run fill ^-1 ^ ^ ^1 ^ ^ fire
+execute at @s if score $shifter_destroy config matches 1 run function snc:shifters/mobs/colossal/action/steam/fire
 
 damage @s[distance=.5..20] 6 on_fire
 damage @s[distance=21..] 4 on_fire

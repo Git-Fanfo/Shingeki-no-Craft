@@ -1,5 +1,5 @@
 ## Remove shipload
-execute as @e[tag=cart.shipload] run function snc:shifters/mobs/check_shipload
+execute as @e[tag=cart.shipload] run function snc:shifters/mobs/remove_hitboxes
 
 ## Spawn
 advancement grant @s only snc:shifters/cart/turrets

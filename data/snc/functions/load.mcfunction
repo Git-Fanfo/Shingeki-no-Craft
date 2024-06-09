@@ -132,6 +132,7 @@ execute unless score $name_vill config matches 0.. run scoreboard players set $n
 execute unless score $birth_rate config matches 0.. run scoreboard players set $birth_rate config 1
 execute unless score $shifter_destroy config matches 0.. run scoreboard players set $shifter_destroy config 1
 execute unless score $pure_destroy config matches 0.. run scoreboard players set $pure_destroy config 1
+execute unless score $trigger_transform config matches 0.. run scoreboard players set $trigger_transform config 1
 execute unless score $can_p_spwn_as_shift config matches 0.. run scoreboard players set $can_p_spwn_as_shift config 1
 execute unless score $shift_spwn_rate config matches 0.. run scoreboard players set $shift_spwn_rate config 2
 execute unless score #lightning config matches 0.. run scoreboard players set #lightning config 1

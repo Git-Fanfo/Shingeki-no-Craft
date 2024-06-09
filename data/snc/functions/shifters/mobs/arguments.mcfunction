@@ -20,7 +20,7 @@ data merge storage minecraft:cart {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    damage_jaw: 20, knockback_jaw: 3, energy_jaw: 8, angle_jaw: -5, \
+    damage_jaw: 30, knockback_jaw: 3, energy_jaw: 8, angle_jaw: -5, \
     energy_jump: 5, \
     energy_hold: 20, \
     damage_step: 1 \
@@ -36,8 +36,8 @@ data merge storage minecraft:colossal {\
     bossbar_color:blue, \
     bossbar_style: notched_12, \
     hp:72, \
-    walk_speed:0.1d, \
-    run_speed:0.1d, \
+    walk_speed:0.12d, \
+    run_speed:0.12d, \
     type:skeleton_horse, \
     jump:0d, \
     step_height:7d, \

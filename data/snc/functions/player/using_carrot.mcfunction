@@ -8,7 +8,7 @@ execute as @s[tag=!wrap,scores={odm_state=0,man_cool=0},predicate=snc:odm/has_ga
 execute as @s[tag=!wrap,scores={odm_state=1..},predicate=snc:odm/has_gas_trigger,predicate=snc:odm/has_odm] run function snc:player/odm/impulse
 
 ## Turn Titan
-execute as @s[predicate=snc:shifters/has_add] run function snc:shifters/trigger
+execute as @s[predicate=snc:shifters/has_add] run function snc:shifters/human/trigger/main
 execute as @s[predicate=snc:shifters/has_shifters_finder] run function snc:player/titan/shifters_finder
 execute as @s[predicate=snc:shifters/has_remove] run function snc:shifters/human/check_untransform
 

@@ -1,8 +1,7 @@
 ## Drop current items before replace
-function snc:shifters/human/inventory/drop/hotbar
-function snc:shifters/human/inventory/drop/armor
-
+function snc:shifters/human/inventory/save/shifter with storage minecraft:beast
 function snc:shifters/abilities/clear
+function snc:shifters/human/inventory/spawn/shifter with storage minecraft:beast
 
 ## Gamemode
 # Combat

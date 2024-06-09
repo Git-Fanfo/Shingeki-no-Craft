@@ -23,15 +23,12 @@ execute if entity @s[tag=snc.projectile] if function snc:player/gun/main run ret
 execute if entity @s[tag=shifter,type=!villager] if function snc:shifters/mobs/check_dead run return -1
 
 ## Village
-# Show blood
 execute if entity @s[type=armor_stand,tag=body] unless predicate snc:is_riding run function snc:eldia/body
 execute if entity @s[tag=marleyan] run function snc:ent/pill/select_marleyan
 
-execute if entity @s[tag=volt] run function snc:titans/volt/main
+execute if entity @s[tag=flare] if function snc:player/gun/flare/select_color run return -1
 
-execute if entity @s[tag=flare] run function snc:player/gun/flare/select_color
-
-## Interact with stuff
+## Objects
 execute if entity @s[type=interaction] run function snc:interact/main
 
 # Detect Item

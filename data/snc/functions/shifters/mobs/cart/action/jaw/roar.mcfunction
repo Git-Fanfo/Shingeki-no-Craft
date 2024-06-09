@@ -1,5 +1,5 @@
 tag @s remove consume
-execute if score consume cart_vars matches 220 run function snc:shifters/mobs/cart/action/hold/drop
+execute if score consume cart_vars matches 220 as @e[tag=aj.cart.locator.consume] run function snc:shifters/mobs/cart/action/hold/drop
 execute if score consume cart_vars matches 220 at @s run playsound minecraft:aot.cart_roar player @a ~ ~ ~ 5 1
 $execute if score consume cart_vars matches 217 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=$(f1)]
 $execute if score consume cart_vars matches 215 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=$(f2)]

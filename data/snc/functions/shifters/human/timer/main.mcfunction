@@ -16,16 +16,20 @@ $execute as @s[tag=transform] if score ticks clock matches 19 run function snc:s
 # Show
 $execute if entity @s[tag=!first] run function snc:shifters/human/timer/display {"shifter":"$(shifter)"}
 
-## Remove transform
-execute if entity @s[tag=injured] if predicate snc:is_hurt run function snc:shifters/transfer/hit
+$execute if score ticks clock matches 15 store result score #x_$(shifter) shifter_vars run data get entity @s Pos[0]
+$execute if score ticks clock matches 15 store result score #z_$(shifter) shifter_vars run data get entity @s Pos[2]
 
-$execute store result score #x_$(shifter) shifter_vars run data get entity @s Pos[0]
-$execute store result score #z_$(shifter) shifter_vars run data get entity @s Pos[2]
-
+## HP, remove type=player in the future for AI Shifters?
 # Set titan's current health to the corresponding scoreboard.
 $execute store result score titan.health.bar $(shifter)_vars run data get entity @s AbsorptionAmount
-$execute if score titan.health.bar $(shifter)_vars matches 0 run tag @s[tag=!first] add injured
-$execute if score titan.health.bar $(shifter)_vars matches 20.. run tag @s remove injured
+$execute if score titan.health.bar $(shifter)_vars matches 0 if entity @s[type=player,tag=!first] run function snc:shifters/human/trigger/injured {"shifter": "$(shifter)","name": "$(name)"}
+$execute if score titan.health.bar $(shifter)_vars matches 20.. run tag @s remove snc.injured
+# Set player's current health to the corresponding scoreboard.
+$execute if entity @s[type=player,tag=first] store result score player_health_bar $(shifter)_vars run data get entity @s Health
+$execute if entity @s[type=player,tag=first] if score player_health_bar $(shifter)_vars matches ..15 run function snc:shifters/human/trigger/main
+
+## Remove transform
+execute if entity @s[tag=snc.injured] if predicate snc:is_hurt run function snc:shifters/transfer/hit
 
 ## Regeneration
 # Human
@@ -38,12 +42,7 @@ $execute if score shift.regen $(shifter)_vars matches $(regen_ticks).. run score
 $execute if entity @s[tag=!first,tag=transform] if score shift.regen $(shifter)_vars matches 0 run function snc:shifters/mobs/regeneration {"shifter":$(shifter),"hp":$(hp)}
 
 ## Injured
-execute if score ticks clock matches 19 if entity @s[tag=injured] run function snc:player/titan/effects/injured
-
-# Set player's current health to the corresponding scoreboard.
-## Remove type=player in the future for AI Shifters?
-$execute if entity @s[type=player,tag=first] store result score player_health_bar $(shifter)_vars run data get entity @s Health
-$execute if entity @s[type=player,tag=first] if score player_health_bar $(shifter)_vars matches ..10 run function snc:shifters/trigger
+execute if score ticks clock matches 19 if entity @s[tag=snc.injured] run function snc:player/titan/effects/injured
 
 # Effects on curse
 $execute if score curse config matches 0 run function snc:shifters/sick/short {"shifter":"$(shifter)"}

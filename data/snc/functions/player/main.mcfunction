@@ -38,7 +38,7 @@ execute if score @s hold_carrot matches 1.. run scoreboard players remove @s hol
 
 ## Reset scan
 execute if score @s man_cool matches 1.. run scoreboard players remove @s man_cool 1
-execute as @s[predicate=!snc:odm/has_gas_trigger] run function snc:player/odm/reset
+execute unless predicate snc:odm/has_gas_trigger run function snc:player/odm/reset
 
 ## Second functions
 execute if score ticks clock matches 9 run function snc:player/seconds_0

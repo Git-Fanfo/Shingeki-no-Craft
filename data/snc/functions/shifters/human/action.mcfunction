@@ -23,8 +23,7 @@ execute as @s[predicate=snc:shifters/cart/atk_2] on vehicle unless predicate snc
 
 # Light Load
 execute as @s[predicate=snc:shifters/cart/atk_1] run function snc:shifters/mobs/cart/action/hold/init with storage minecraft:cart
-execute as @s[predicate=snc:shifters/cart/atk_3] run function snc:shifters/mobs/cart/action/hold/drop
-
+execute as @s[predicate=snc:shifters/cart/atk_3] as @e[tag=aj.cart.locator.consume] run function snc:shifters/mobs/cart/action/hold/drop
 # Shipload
 execute if predicate snc:shifters/cart/shipload run function snc:shifters/mobs/cart/action/shipload/module
 

@@ -1,1 +1,1 @@
-summon item_display ~ ~ ~ {Tags:["volt"]}
+execute summon item_display run function snc:titans/volt/main
