@@ -15,7 +15,7 @@ tag @s remove sun
 execute if entity @s[tag=!near] run scoreboard players add @s reputation 2
 tag @s remove near
 
-scoreboard players remove @s[tag=handcuffs] reputation 20
+scoreboard players remove @s[tag=snc.handcuffs] reputation 20
 
 ## Set reputation
 scoreboard players operation @a[distance=..100] reputation += @s reputation

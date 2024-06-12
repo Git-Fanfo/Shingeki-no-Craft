@@ -1,6 +1,5 @@
 #Rules
 gamerule doFireTick false
-# gamerule showDeathMessages false
 gamerule doImmediateRespawn true
 
 ## Logic
@@ -31,6 +30,9 @@ execute as @a at @s run playsound minecraft:block.amethyst_block.hit master @s ~
 function snc:titans/arguments
 
 scoreboard objectives add snc.time dummy
+scoreboard objectives add snc.key dummy
+execute unless score #id snc.key matches 0.. run scoreboard players set #id snc.key 4194
+scoreboard objectives add snc.lock dummy
 
 scoreboard objectives add snc.despawn dummy
 execute unless score $max_titans snc.despawn matches 0.. run scoreboard players set $max_titans snc.despawn 19
@@ -74,7 +76,9 @@ scoreboard objectives add Titan_Kill_Count dummy
 scoreboard objectives add Visib_Kill_Count dummy {"text":"\uE002"}
 
 scoreboard objectives add using_carrot minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add hold_carrot dummy
+## Hold scoreboards
+scoreboard objectives add snc.hold.rc dummy
+scoreboard objectives add snc.hold dummy
 # scoreboard objectives add player_walking minecraft.custom:walk_one_cm
 # scoreboard objectives add player_jumping minecraft.custom:minecraft.jump
 scoreboard objectives add gamemode dummy

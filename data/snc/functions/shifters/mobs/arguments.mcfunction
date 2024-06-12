@@ -22,7 +22,7 @@ data merge storage minecraft:cart {\
     energy_decrease: 1,\
     damage_jaw: 30, knockback_jaw: 3, energy_jaw: 8, angle_jaw: -5, \
     energy_jump: 5, \
-    energy_hold: 20, \
+    energy_hold: 24, \
     damage_step: 1 \
 }
 ## Note: Fanfo from the future says: Argument skeleton_horse "jump:1d" works pretty good for Jaw!
@@ -50,7 +50,7 @@ data merge storage minecraft:colossal {\
     entity_range:0, \
     energy_decrease: 5,\
     damage_kick_1:220, knockback_kick_1:10, energy_kick_1:110, angle_kick_1: -45,\
-    damage_jaw: 30, knockback_jaw: 0, energy_jaw: 40, angle_jaw: -5, \
+    damage_jaw: 34, knockback_jaw: 0, energy_jaw: 40, angle_jaw: -5, \
     damage_step: 15 \
 }
 
@@ -94,7 +94,7 @@ data merge storage minecraft:attack {\
     damage_kick_1:30, knockback_kick_1:1, energy_kick_1:20, angle_kick_1: -5, \
     damage_kick_2:32, knockback_kick_2:2, energy_kick_2:15, angle_kick_2: -5, \
     damage_kick_3:34, knockback_kick_3:2, energy_kick_3:10, angle_kick_3: -80, \
-    damage_jaw: 14, knockback_jaw: 1, energy_jaw: 5, angle_jaw: -5, \
+    damage_jaw: 18, knockback_jaw: 1, energy_jaw: 5, angle_jaw: -5, \
     damage_step: 3 \
 }
 
@@ -122,7 +122,7 @@ data merge storage minecraft:beast {\
     energy_decrease: 2,\
     damage_focus: 60, knockback_focus: 5, energy_focus: 80, \
     damage_area: 20, knockback_area: 1, energy_area: 27, \
-    damage_jaw: 8, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
+    damage_jaw: 12, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
     damage_step: 1 \
 }
 
@@ -153,8 +153,8 @@ data merge storage minecraft:armor {\
     damage_punch_2:26, knockback_punch_2:4, energy_punch_2:15, angle_punch_2: -5,\
     damage_punch_3:40, knockback_punch_3:6, energy_punch_3:25, angle_punch_3: -10,\
     damage_fortified: 25, knockback_fortified: 6, energy_fortified: 50, angle_fortified: 0,\
-    damage_onslaught: 50, knockback_onslaught: 0, energy_onslaught: 0, angle_onslaught: 0,\
-    damage_impale: 120, knockback_impale: 0, energy_impale: 0, angle_impale: 0,\
-    damage_jaw: 10, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
+    damage_onslaught: 100, knockback_onslaught: 0, energy_onslaught: 0, angle_onslaught: 0,\
+    damage_impale: 180, knockback_impale: 0, energy_impale: 0, angle_impale: 0,\
+    damage_jaw: 14, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
     damage_step: 3.7 \
 }

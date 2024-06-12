@@ -7,7 +7,7 @@
             "empty": 3
           },
           "player": {
-            "nbt": "{Tags:[\"handcuffs\"]}"
+            "nbt": "{Tags:[\"snc.handcuffs\"]}"
           }
         }
       }

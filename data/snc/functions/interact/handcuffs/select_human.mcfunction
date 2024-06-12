@@ -1,2 +1,5 @@
-execute as @s[type=villager] run function snc:interact/handcuffs/add/villager
-execute as @s[type=player,tag=snc.injured,tag=!handcuffs] run function snc:interact/handcuffs/add/player
+execute if entity @s[type=villager] run function snc:interact/handcuffs/villager
+execute if entity @s[type=player] run function snc:interact/handcuffs/player/main
+
+execute summon chest_minecart run function snc:interact/handcuffs/key/set
+scoreboard players operation @s snc.lock = #id snc.key

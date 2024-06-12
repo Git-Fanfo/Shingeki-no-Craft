@@ -1,5 +1,5 @@
 scoreboard players set @s using_carrot 0
-scoreboard players set @s hold_carrot 4
+scoreboard players set @s snc.hold.rc 5
 
 #Throw
 execute as @s[tag=!wrap,scores={odm_state=0,man_cool=0},predicate=snc:odm/has_gas_trigger,predicate=snc:odm/has_odm] run function snc:player/odm/throw
@@ -17,9 +17,6 @@ execute as @s[predicate=snc:shifters/has_remove] run function snc:shifters/human
 execute as @s[predicate=snc:shifters/has_injection] as @e[type=#snc:hurtbox,sort=nearest,limit=1,distance=.5..4] run function snc:titans/select_blood
 # Get Spinal from itself
 execute as @s[predicate=snc:shifters/has_injection] if score @s shifter_vars matches 1.. unless entity @e[type=#snc:hurtbox,sort=nearest,limit=1,distance=.5..4] run function snc:player/titan/injection/extract
-
-# Handcuffs
-execute as @s[predicate=snc:shifters/has_handcuffs] run function snc:interact/handcuffs/detect
 
 # Sex
 execute as @s[predicate=snc:villager/has_gene] run function snc:eldia/gene/check

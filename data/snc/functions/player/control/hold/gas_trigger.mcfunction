@@ -1,4 +1,4 @@
-advancement revoke @s only snc:human/has_gas_trigger
+advancement revoke @s only snc:human/hold/gas_trigger
 ## Effects
 execute if score ticks clock matches 19 if predicate snc:odm/has_odm run function snc:player/odm/effects
 
@@ -23,4 +23,3 @@ execute as @s[predicate=snc:odm/has_spear_l] run function snc:player/odm/replace
 # Aux impulse
 execute as @s[scores={odm_state=-1}] run scoreboard players set @s odm_state 1
 execute as @s[scores={odm_state=1}] unless entity @s[scores={odm_state=2..}] run scoreboard players add @s odm_push 1
-

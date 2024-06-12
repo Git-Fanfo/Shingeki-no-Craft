@@ -5,6 +5,7 @@ attribute @s minecraft:player.entity_interaction_range base set 4
 ## Shifters
 execute if score @s shifter_vars matches 1.. run function snc:shifters/function/multiple {"pre":"function snc:shifters/transfer/lose with storage minecraft:","post":""}
 execute if score @s shifter_vars matches 1.. run function snc:shifters/human/remove
+execute if entity @s[tag=snc.handcuffs] run function snc:interact/handcuffs/player/remove
 
 ## Reset children
 scoreboard players reset @s children

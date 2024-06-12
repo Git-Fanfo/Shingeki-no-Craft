@@ -23,15 +23,15 @@ tag @s remove barrier
 
 ## Titan
 # Injection
-execute if score @s idle matches 1.. unless predicate snc:shifters/has_injection_full run scoreboard players set @s idle -1
+execute if score @s snc.hold matches 1.. unless predicate snc:player/has_hold run scoreboard players set @s snc.hold -1
 
 # Pure Titan
 execute if entity @s[tag=titan] run function snc:player/titan/effects/pure
-execute if entity @s[tag=handcuffs] unless predicate snc:is_riding run ride @s mount @e[tag=handcuffs,type=!#snc:eldian,sort=nearest,limit=1]
+execute if entity @s[tag=snc.handcuffs] unless predicate snc:is_riding run function snc:interact/handcuffs/player/respawn
 
 ## Using right click
-execute if score @s using_carrot matches 1.. run function snc:player/using_carrot
-execute if score @s hold_carrot matches 1.. run scoreboard players remove @s hold_carrot 1
+execute if score @s using_carrot matches 1.. run function snc:player/control/right_click
+execute if score @s snc.hold.rc matches 1.. run scoreboard players remove @s snc.hold.rc 1
 
 ## ODM
 #execute if predicate snc:odm/has_gas_trigger run function snc:player/odm/has_trigger

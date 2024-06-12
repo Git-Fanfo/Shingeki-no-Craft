@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement" : {
+            "trigger" : "minecraft:tick",
+            "conditions" : {
+                "player" : {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "minecraft:custom_data": "{inj_full:1b}"
+                              }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards" : {
+        "function" : "snc:player/control/hold/syringe_full"
+    }
+}

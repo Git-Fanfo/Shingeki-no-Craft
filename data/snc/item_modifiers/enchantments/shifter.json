@@ -4,7 +4,7 @@
         "components": {
             "minecraft:enchantments": {
                 "minecraft:projectile_protection": 127,
-                "minecraft:protection": 20,
+                "minecraft:protection": 127,
                 "minecraft:blast_protection": 127
             },
             "minecraft:enchantment_glint_override": false

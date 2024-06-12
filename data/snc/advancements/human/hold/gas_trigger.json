@@ -7,7 +7,7 @@
                     "equipment": {
                         "mainhand": {
                             "predicates": {
-                                "minecraft:custom_data": "{inj_full:1b}"
+                                "minecraft:custom_data": "{trigger:1b}"
                               }
                         }
                     }
@@ -16,6 +16,6 @@
         }
     },
     "rewards" : {
-        "function" : "snc:player/titan/injection/adv"
+        "function" : "snc:player/control/hold/gas_trigger"
     }
 }
