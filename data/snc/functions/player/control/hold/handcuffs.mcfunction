@@ -2,16 +2,20 @@ advancement revoke @s only snc:human/hold/handcuffs
 # Init vars
 execute unless score @s snc.hold matches -1.. run scoreboard players set @s snc.hold 0
 
-title @s actionbar ["",{"keybind":"key.use","color":"yellow"}," ",{"translate":"to trap","color":"red"},{"text":"... ","color": "yellow"},{"selector":"@e[type=#snc:human,tag=!snc.handcuffs,distance=.1..3,sort=nearest,limit=1]","color": "yellow"}]
+execute if predicate snc:player/is_sneaking run title @s actionbar ["",{"keybind":"key.use","color":"yellow"}," ",{"translate":"to trap","color":"red"},{"text":"... ","color": "yellow"},{"selector":"@e[type=#snc:eldian,tag=!snc.handcuffs,distance=.1..3,sort=nearest,limit=1]","color": "yellow"}]
+
+execute unless predicate snc:player/is_sneaking run title @s actionbar [{"keybind":"key.sneak","color":"yellow"}," ",{"translate":"to use","color":"red"}," ",{"translate":"aot.handcuffs","color": "yellow"}]
 
 ## Apply Hold
 # If has been clicked
 execute if score @s snc.hold matches 1.. run scoreboard players add @s snc.hold 1
 # Trigger click
-execute if score @s snc.hold matches 0 if score @s snc.hold.rc matches 1.. run scoreboard players set @s snc.hold 1
+execute if score @s snc.hold matches 0 if predicate snc:player/is_sneaking if score @s snc.hold.rc matches 1.. run scoreboard players set @s snc.hold 1
 ## Stop
 # If not sneaking
-execute if score @s snc.hold matches 1.. unless entity @e[type=#snc:human,distance=.1..3,sort=nearest,limit=1] run scoreboard players set @s snc.hold -1
+execute if score @s snc.hold matches 1.. unless predicate snc:player/is_sneaking run scoreboard players set @s snc.hold -1
+# If entity is too far
+execute if score @s snc.hold matches 1.. unless entity @e[type=#snc:eldian,distance=.1..3,sort=nearest,limit=1] run scoreboard players set @s snc.hold -1
 
 execute if score @s snc.hold matches -1 run playsound minecraft:block.chain.break player @a ~ ~ ~ 2 .9
 execute if score @s snc.hold matches -1 run item modify entity @s weapon.mainhand snc:durability/100

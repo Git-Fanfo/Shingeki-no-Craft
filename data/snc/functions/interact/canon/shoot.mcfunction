@@ -1,7 +1,7 @@
 scoreboard players set @s projectile 100
 data modify entity @s Pose.Head[0] set value -30f
 
-scoreboard players set @a[distance=..4] earthquake 6
+scoreboard players add @a[distance=..4] earthquake 6
 effect give @a[distance=..5] speed 1 3 true
 
 particle minecraft:flash ^ ^1.1 ^2.7 0 0 0 1 2 force
