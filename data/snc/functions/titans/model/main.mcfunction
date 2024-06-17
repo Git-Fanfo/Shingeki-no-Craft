@@ -10,4 +10,4 @@ execute unless predicate snc:is_riding run function snc:logic/kill_mob
 
 execute unless data entity @s Passengers run function snc:logic/kill_mob
 
-execute unless entity @s[tag=killed] run function snc:titans/model/animate
+function snc:titans/model/animate

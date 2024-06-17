@@ -1,5 +1,5 @@
 ## Bleed
-execute if predicate snc:is_hurt if entity @s[tag=!killed] run particle block{block_state:"redstone_block"} ^ ^1 ^-.45 0 0 0 1 30
+execute if predicate snc:is_hurt anchored eyes run particle block{block_state:"redstone_block"} ^ ^ ^.1 0 0 0 1 35
 ## ## SHIFTER FUNCTIONS ## ##
 
 execute if score @s shifter_vars matches 1.. unless score @s death matches 1.. run function snc:shifters/human/main
