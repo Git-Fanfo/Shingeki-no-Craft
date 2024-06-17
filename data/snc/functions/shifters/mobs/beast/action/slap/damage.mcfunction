@@ -1,0 +1,4 @@
+$execute positioned ^ ^ ^7 run function snc:shifters/combat/damage {"distance":7,"half_minus_zero_point_five":3,"shifter":$(shifter),"sound":"entity.breeze.jump","damage":$(damage_slap),"knockback":$(knockback_slap),"energy":$(energy_slap),"angle":$(angle_slap)}
+$execute positioned ^ ^-7 ^7 run function snc:shifters/combat/damage {"distance":7,"half_minus_zero_point_five":3,"shifter":$(shifter),"sound":"entity.breeze.jump","damage":$(damage_slap),"knockback":$(knockback_slap),"energy":$(energy_slap),"angle":$(angle_slap)}
+
+execute positioned ^ ^-6 ^7 run effect give @e[tag=!beast,distance=..8] slowness 7 2 true

@@ -14,6 +14,7 @@ scoreboard objectives remove aj.beast.animation.death.local_anim_time
 scoreboard objectives remove aj.beast.animation.grab.local_anim_time
 scoreboard objectives remove aj.beast.animation.sneak.local_anim_time
 scoreboard objectives remove aj.beast.animation.consume.local_anim_time
+scoreboard objectives remove aj.beast.animation.slap.local_anim_time
 scoreboard objectives remove aj.beast.animation.idle.loop_mode
 scoreboard objectives remove aj.beast.animation.walk.loop_mode
 scoreboard objectives remove aj.beast.animation.throw_big.loop_mode
@@ -23,4 +24,5 @@ scoreboard objectives remove aj.beast.animation.death.loop_mode
 scoreboard objectives remove aj.beast.animation.grab.loop_mode
 scoreboard objectives remove aj.beast.animation.sneak.loop_mode
 scoreboard objectives remove aj.beast.animation.consume.loop_mode
+scoreboard objectives remove aj.beast.animation.slap.loop_mode
 tellraw @a ["",{"text":"["},{"text":"Animated Java","color":"aqua"},{"text":"] "},[{"text":"INFO ℹ","color":"green"},{"text":" > ","color":"gray"},{"text":"The beast Rig has been uninstalled successfully.\n"},{"text":"Please remove the Rig's functions from the datapack before reloading.","color":"gray"}]]

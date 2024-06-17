@@ -3,7 +3,7 @@ effect give @s[tag=hurtbox] water_breathing 1 0 true
 ## Damage entities
 damage @s[tag=!hurtbox] 16 fireworks
 ## Damage shifters
-execute if score @s shifter_vars matches 1.. run damage @s 60 fireworks
+execute if score @s shifter_vars matches 1.. run damage @s 80 fireworks
 ## Break Hardening
 execute if score @s shifter_vars matches 1.. run function snc:shifters/function/unique {"pre":"scoreboard players remove $op.hardening ","post":"_vars 3"}
 

@@ -1,5 +1,5 @@
 particle block{block_state:"stone"} ~ ~ ~ .5 .5 .5 0 10 force
-execute as @e[distance=1..10 ,type=!item_display,tag=!beast] unless score @s beast_vars matches 1 run function snc:shifters/mobs/beast/action/throw_area/damage with storage minecraft:beast
+execute as @e[distance=..15 ,type=!item_display,tag=!beast] unless score @s beast_vars matches 1 run function snc:shifters/mobs/beast/action/throw_area/damage with storage minecraft:beast
 
 execute unless predicate snc:is_riding run particle crit ~ ~-.5 ~ 3 0 3 0 100 force
 execute unless predicate snc:is_riding run particle block{block_state:"deepslate"} ~ ~-.5 ~ 2 0 2 0 20 force

@@ -7,3 +7,4 @@ execute if entity @s[tag=aj.beast.animation.death] run function animated_java:be
 execute if entity @s[tag=aj.beast.animation.grab] run function animated_java:beast/zzzzzzzz/animations/grab/tick
 execute if entity @s[tag=aj.beast.animation.sneak] run function animated_java:beast/zzzzzzzz/animations/sneak/tick
 execute if entity @s[tag=aj.beast.animation.consume] run function animated_java:beast/zzzzzzzz/animations/consume/tick
+execute if entity @s[tag=aj.beast.animation.slap] run function animated_java:beast/zzzzzzzz/animations/slap/tick

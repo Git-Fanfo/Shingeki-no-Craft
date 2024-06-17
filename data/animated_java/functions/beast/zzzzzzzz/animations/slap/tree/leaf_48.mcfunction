@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:beast/zzzzzzzz/animations/slap/tree/leaf_48_as_bone

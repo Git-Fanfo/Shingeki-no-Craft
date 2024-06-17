@@ -106,7 +106,7 @@ data merge storage minecraft:beast {\
     bossbar_display:uFFF2, \
     bossbar_color:green, \
     bossbar_style: notched_10, \
-    hp:52, \
+    hp:56, \
     walk_speed:0.14d, \
     run_speed:0.20d, \
     type:skeleton_horse, \
@@ -120,8 +120,9 @@ data merge storage minecraft:beast {\
     block_range:11, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_focus: 60, knockback_focus: 5, energy_focus: 80, \
+    damage_focus: 50, knockback_focus: 5, energy_focus: 80, \
     damage_area: 20, knockback_area: 1, energy_area: 27, \
+    damage_slap: 10, knockback_slap: 5, energy_slap: 15, angle_slap: -35, \
     damage_jaw: 12, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
     damage_step: 1 \
 }

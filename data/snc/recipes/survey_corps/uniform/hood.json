@@ -16,12 +16,13 @@
   },
   "result": {
     "count": 1,
-    "id": "minecraft:carved_pumpkin",
+    "id": "minecraft:leather_helmet",
     "components": {
       "custom_data":{"survey_cops":true, "snc_item":1},
       "minecraft:custom_name":"{\"translate\":\"aot.surveyhood\",\"color\":\"dark_green\",\"italic\":false}",
       "minecraft:lore":["{\"translate\":\"aot.surveyhood.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyhood.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyhood.desc3\",\"color\":\"gray\",\"italic\":false}"],
       "minecraft:custom_model_data":1,
+      "trim":{"material":"scouts","pattern":"scouts","show_in_tooltip":false},
       "minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false},
       "minecraft:unbreakable":{"show_in_tooltip":false},
       "minecraft:attribute_modifiers":[{"type":"generic.armor","name":"generic.armor","amount":2,"operation":"add_value","uuid":[-1011016289,-609072635,-1385543351,978358347],"slot":"head"}]

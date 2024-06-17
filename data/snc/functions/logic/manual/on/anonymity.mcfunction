@@ -13,3 +13,4 @@ team modify cart color white
 team modify colossal color white
 team modify attack color white
 team modify beast color white
+team modify armor color white

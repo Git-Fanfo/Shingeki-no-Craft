@@ -14,6 +14,7 @@ scoreboard objectives add aj.beast.animation.death.local_anim_time dummy
 scoreboard objectives add aj.beast.animation.grab.local_anim_time dummy
 scoreboard objectives add aj.beast.animation.sneak.local_anim_time dummy
 scoreboard objectives add aj.beast.animation.consume.local_anim_time dummy
+scoreboard objectives add aj.beast.animation.slap.local_anim_time dummy
 scoreboard objectives add aj.beast.animation.idle.loop_mode dummy
 scoreboard objectives add aj.beast.animation.walk.loop_mode dummy
 scoreboard objectives add aj.beast.animation.throw_big.loop_mode dummy
@@ -23,6 +24,7 @@ scoreboard objectives add aj.beast.animation.death.loop_mode dummy
 scoreboard objectives add aj.beast.animation.grab.loop_mode dummy
 scoreboard objectives add aj.beast.animation.sneak.loop_mode dummy
 scoreboard objectives add aj.beast.animation.consume.loop_mode dummy
+scoreboard objectives add aj.beast.animation.slap.loop_mode dummy
 scoreboard players set $aj.beast.animation.idle aj.id 0
 scoreboard players set $aj.beast.animation.walk aj.id 1
 scoreboard players set $aj.beast.animation.throw_big aj.id 2
@@ -32,6 +34,7 @@ scoreboard players set $aj.beast.animation.death aj.id 5
 scoreboard players set $aj.beast.animation.grab aj.id 6
 scoreboard players set $aj.beast.animation.sneak aj.id 7
 scoreboard players set $aj.beast.animation.consume aj.id 8
+scoreboard players set $aj.beast.animation.slap aj.id 9
 scoreboard players set $aj.beast.variant.default aj.id 0
 scoreboard players set $aj.beast.variant.noskin_1 aj.id 1
 scoreboard players set $aj.beast.variant.noskin_10 aj.id 2
@@ -52,6 +55,6 @@ scoreboard players add .aj.last_id aj.id 0
 scoreboard players set $aj.loop_mode.loop aj.i 0
 scoreboard players set $aj.loop_mode.once aj.i 1
 scoreboard players set $aj.loop_mode.hold aj.i 2
-scoreboard players set aj.beast.export_version aj.i -1404344286
+scoreboard players set aj.beast.export_version aj.i 635641361
 scoreboard players reset * aj.beast.rig_loaded
 execute as @e[type=minecraft:item_display,tag=aj.beast.root] run function animated_java:beast/zzzzzzzz/on_load

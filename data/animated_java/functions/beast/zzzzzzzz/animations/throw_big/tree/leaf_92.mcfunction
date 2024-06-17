@@ -1,1 +1,2 @@
 execute on passengers run function animated_java:beast/zzzzzzzz/animations/throw_big/tree/leaf_92_as_bone
+execute unless entity @s[tag=aj.beast.disable_command_keyframes] at @s run function snc:shifters/mobs/beast/action/throw_big/end

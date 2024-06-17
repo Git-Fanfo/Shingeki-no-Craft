@@ -7,6 +7,8 @@ function snc:shifters/human/inventory/spawn/shifter with storage minecraft:beast
 # Combat
 execute if score $gamemode beast_vars matches 1 run function snc:shifters/mobs/beast/abilities/atk_5 with storage minecraft:beast
 
+execute if score $gamemode beast_vars matches 1 run function snc:shifters/mobs/beast/abilities/atk_7 with storage minecraft:beast
+
 execute if score $gamemode beast_vars matches 1 if score state beast_vars matches 2 run function snc:shifters/mobs/beast/abilities/atk_1 with storage minecraft:beast
 execute if score $gamemode beast_vars matches 1 unless score $hold beast_vars matches 1 run function snc:shifters/mobs/beast/abilities/atk_1 with storage minecraft:beast
 execute if score $gamemode beast_vars matches 1 if score $hold beast_vars matches 1 run function snc:shifters/mobs/beast/abilities/atk_2 with storage minecraft:beast

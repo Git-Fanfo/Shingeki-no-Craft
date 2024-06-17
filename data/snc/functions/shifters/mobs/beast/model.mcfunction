@@ -36,15 +36,15 @@ execute if score state beast_vars matches 9 if entity @s[tag=!aj.beast.animation
 execute if score state beast_vars matches 12 if entity @s[tag=!aj.beast.animation.grab] run function snc:shifters/mobs/beast/animate/grab
 execute if score state beast_vars matches 13 if entity @s[tag=!aj.beast.animation.throw_big] run function snc:shifters/mobs/beast/animate/throw_big
 execute if score state beast_vars matches 14 if entity @s[tag=!aj.beast.animation.throw_area] run function snc:shifters/mobs/beast/animate/throw_area
-
+execute if score state beast_vars matches 15 if entity @s[tag=!aj.beast.animation.slap] run function snc:shifters/mobs/beast/animate/slap
 
 
 ## Variants
-execute if score health beast_vars matches 43..50 run scoreboard players set @s beast_vars 0
-execute if score health beast_vars matches 35..42 run scoreboard players set @s beast_vars 1
-execute if score health beast_vars matches 27..34 run scoreboard players set @s beast_vars 2
-execute if score health beast_vars matches 19..26 run scoreboard players set @s beast_vars 3
-execute if score health beast_vars matches 0..18 run scoreboard players set @s beast_vars 4
+execute if score health beast_vars matches 41.. run scoreboard players set @s beast_vars 0
+execute if score health beast_vars matches 31..40 run scoreboard players set @s beast_vars 1
+execute if score health beast_vars matches 21..30 run scoreboard players set @s beast_vars 2
+execute if score health beast_vars matches 11..20 run scoreboard players set @s beast_vars 3
+execute if score health beast_vars matches 0..10 run scoreboard players set @s beast_vars 4
 
 execute if entity @s[tag=!aj.beast.animation.born] if score @s beast_vars matches 0 run function animated_java:beast/apply_variant/default
 execute if entity @s[tag=!aj.beast.animation.born] if score @s beast_vars matches 1 run function animated_java:beast/apply_variant/noskin_1

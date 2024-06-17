@@ -42,6 +42,8 @@ execute if score #animation aj.i = $aj.beast.animation.sneak aj.id run function 
 execute if score #animation aj.i = $aj.beast.animation.sneak aj.id run scoreboard players operation @s aj.beast.animation.sneak.local_anim_time = #frame aj.i
 execute if score #animation aj.i = $aj.beast.animation.consume aj.id run function animated_java:beast/zzzzzzzz/animations/consume/apply_frame_as_root
 execute if score #animation aj.i = $aj.beast.animation.consume aj.id run scoreboard players operation @s aj.beast.animation.consume.local_anim_time = #frame aj.i
+execute if score #animation aj.i = $aj.beast.animation.slap aj.id run function animated_java:beast/zzzzzzzz/animations/slap/apply_frame_as_root
+execute if score #animation aj.i = $aj.beast.animation.slap aj.id run scoreboard players operation @s aj.beast.animation.slap.local_anim_time = #frame aj.i
 execute at @s run function #animated_java:beast/on_summon/as_root
 tag @s remove aj.new
 scoreboard players reset #frame aj.i
