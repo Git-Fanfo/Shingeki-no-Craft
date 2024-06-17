@@ -21,7 +21,7 @@
     "components": {
       "custom_data":{"survey_cops":true, "snc_item":1},
       "custom_model_data": 1,
-      "trim":{"material":"scouts","pattern":"scouts","show_in_tooltip":false},
+      "trim":{"material":"scouts","pattern":"blank","show_in_tooltip":false},
       "minecraft:custom_name":"{\"translate\":\"aot.surveyleggings\",\"color\":\"dark_green\",\"italic\":false}",
       "minecraft:lore":["{\"translate\":\"aot.surveyleggings.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyleggings.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyleggings.desc3\",\"color\":\"gray\",\"italic\":false}"],
       "minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false},
