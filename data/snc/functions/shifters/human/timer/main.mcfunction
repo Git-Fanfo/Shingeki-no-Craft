@@ -26,8 +26,7 @@ $execute if score titan.health.bar $(shifter)_vars matches 0 if entity @s[type=p
 $execute if score titan.health.bar $(shifter)_vars matches 20.. run tag @s remove snc.injured
 # Set player's current health to the corresponding scoreboard.
 $execute if entity @s[type=player,tag=first] store result score player_health_bar $(shifter)_vars run data get entity @s Health
-$execute if entity @s[type=player,tag=first] if score player_health_bar $(shifter)_vars matches ..15 run function snc:shifters/human/trigger/main
-
+$execute if entity @s[type=player,tag=first] if score player_health_bar $(shifter)_vars matches ..15 run function snc:shifters/human/check_transform
 ## Remove transform
 execute if entity @s[tag=snc.injured] if predicate snc:is_hurt run function snc:shifters/transfer/hit
 

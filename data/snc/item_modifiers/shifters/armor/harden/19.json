@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [1522903847,1998606058,-2141976709,1424700291],
+            "name": "generic.armor",
+            "amount": 19,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:generic.armor_toughness",
+            "uuid": [-352270607,-1854061939,-1268230265,1626546152],
+            "name": "generic.armor",
+            "amount": 12,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ]
+      }
+    }
+  }
+]

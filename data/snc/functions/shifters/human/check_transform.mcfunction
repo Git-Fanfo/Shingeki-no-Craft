@@ -1,4 +1,5 @@
-damage @s 6 player_attack by @s
-playsound minecraft:entity.player.hurt_sweet_berry_bush player @s ~ ~ ~ 1 .9
+execute unless score @s atk matches 260..300 run damage @s 5 player_attack
 
-$execute as @s[tag=!transform] if score $energy $(shifter)_vars matches 720.. run function snc:shifters/human/transform {"shifter":$(shifter),"name":"$(name)"}
+tellraw @s[tag=snc.injured] ["","You ",{"text":"can't","bold":true,"color":"dark_red"}," turn into a ",{"text":"Titan","bold":true,"color":"dark_red"}," while you are ",{"text":"Injured","bold":true,"color":"yellow"}]
+
+execute if entity @s[tag=!snc.injured] unless score @s atk matches 260..289 unless score @s atk matches 294..300 run function snc:shifters/function/unique {"pre":"function snc:shifters/human/check_sneak with storage minecraft:","post":""}
