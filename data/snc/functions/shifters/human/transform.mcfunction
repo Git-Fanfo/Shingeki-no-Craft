@@ -4,6 +4,7 @@ ride @s dismount
 ## Save inv
 #$function snc:shifters/human/inventory/save/all {"shifter":$(shifter)}
 $data modify storage minecraft:$(shifter) Inventory set from entity @s Inventory
+effect give @s invisibility 1 0 true
 
 clear @s
 tag @s add transform

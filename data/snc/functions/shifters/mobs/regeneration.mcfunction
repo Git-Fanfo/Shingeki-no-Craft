@@ -9,7 +9,7 @@
 
 # Always reset absorption
 effect clear @s absorption
-effect give @s regeneration 1 0 true
+effect give @s regeneration 3 0 true
 
 ## Prevent goes above max hp
 #$scoreboard players set #regen $(shifter)_vars $(hp)

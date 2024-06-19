@@ -30,7 +30,7 @@ execute if score @s snc.hold matches 40 run item modify entity @s weapon.mainhan
 execute if score @s snc.hold matches 40 run playsound minecraft:entity.witch.drink player @a ~ ~ ~ 1 1.7
 
 execute if score @s snc.hold matches 60 run playsound entity.zombie_villager.cure player @a ~ ~ ~ 1 1.7
-$execute if score @s snc.hold matches 60 if predicate snc:shifters/has_injection_kon run scoreboard players set @e[type=#snc:$(sryinge),distance=.1..3,sort=nearest,limit=1] atk 240
+$execute if score @s snc.hold matches 60 if predicate snc:shifters/has_injection_kon as @e[type=#snc:$(sryinge),distance=.1..3,sort=nearest,limit=1] run function snc:player/titan/infect/royal
 $execute if score @s snc.hold matches 60 unless predicate snc:shifters/has_injection_kon run scoreboard players set @e[type=#snc:$(sryinge),distance=.1..3,sort=nearest,limit=1] atk 120
 execute if score @s snc.hold matches 60 run function snc:api/give/shifters/syringe/empty
 execute if score @s snc.hold matches 60 run item replace entity @s weapon.mainhand with air

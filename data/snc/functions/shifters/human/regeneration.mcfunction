@@ -9,7 +9,7 @@
 
 ## Always reset absorption
 effect clear @s absorption
-effect give @s regeneration 1 0 true
+effect give @s regeneration 3 0 true
 $execute unless score titan.health.bar $(shifter)_vars matches 20 run particle minecraft:campfire_signal_smoke ~ ~1 ~ .1 1 .1 .005 5 force
 
 $execute if score titan.health.bar $(shifter)_vars matches 16..20 run effect give @s absorption 20 4 true
