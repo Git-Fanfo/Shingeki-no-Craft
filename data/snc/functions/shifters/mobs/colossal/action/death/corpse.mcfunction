@@ -26,7 +26,7 @@ execute if score $form colossal_vars matches 0 run attribute @s generic.scale ba
 execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 1 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 460
 execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 1 on passengers run data merge entity @s {start_interpolation:0,interpolation_duration:116,transformation:{translation:[0f,0f,53f],left_rotation:[0.722f,0f,0f,0.692f],right_rotation:[0f,0f,0f,1f]}}
 
-execute if score @s colossal_vars matches 1086 if score $form colossal_vars matches 1 positioned ^ ^ ^40 run scoreboard players add @a[distance=..120] earthquake 15
+execute if score @s colossal_vars matches 1086 if score $form colossal_vars matches 1 positioned ^ ^ ^40 run scoreboard players add @a[distance=..120] earthquake 16
 execute if score @s colossal_vars matches 1086 if score $form colossal_vars matches 1 run playsound aot.rock_smash master @a ^ ^ ^40 6 .1
 execute if score @s colossal_vars matches 1082 if score $form colossal_vars matches 1 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 459
 execute if score @s colossal_vars matches 1080 if score $form colossal_vars matches 1 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 458

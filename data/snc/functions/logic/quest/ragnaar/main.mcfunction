@@ -1,4 +1,4 @@
-execute unless block ~ ~-1 ~ smithing_table run tellraw @s ["<Ragnaar> ","Stranger, I need a place to sell my stuff! I need to be atop a Smithing Table in order to work!","\n",{"translate":"aot.villager.follow.seller","color":"green","clickEvent":{"action":"run_command","value":"/trigger messages set 10"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.villager.follow.seller.hover","color":"yellow"}]}}]
+execute unless block ~ ~-1 ~ smithing_table run tellraw @s ["<Ragnaar> ","Stranger, I need a place to sell my stuff! ",{"text":"I need to be on top of a Smithing Table","color":"yellow","bold": true}," in order to work!","\n",{"translate":"aot.villager.follow.seller","color":"green","clickEvent":{"action":"run_command","value":"/trigger messages set 10"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.villager.follow.seller.hover","color":"yellow"}]}}]
 
 execute if block ~ ~-1 ~ smithing_table store result score @s random run random value 1..3
 execute if score @s random matches 1 run tellraw @s ["<Ragnaar> ","What are you buying?"]
