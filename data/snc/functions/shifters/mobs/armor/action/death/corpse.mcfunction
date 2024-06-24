@@ -1,5 +1,5 @@
-execute if score $vanish armor_vars matches 1 run scoreboard players set @s armor_vars 0
-execute if score $vanish armor_vars matches 1 run scoreboard players reset $vanish armor_vars
+execute unless score @s armor_vars matches ..1200 if score $vanish armor_vars matches 1 run scoreboard players set @s armor_vars 2
+execute unless score @s armor_vars matches ..1200 if score $vanish armor_vars matches 1 run scoreboard players reset $vanish armor_vars
 
 execute unless score @s armor_vars matches ..1200 run scoreboard players set @s armor_vars 1200
 ## Prevent 2 corpses at the same time
@@ -8,8 +8,6 @@ execute if score @s armor_vars matches 1200 as @e[tag=shifter,tag=armor,tag=dead
 execute if score $corpses armor_vars matches 2.. as @e[tag=shifter,tag=armor,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"armor"}
 attribute @s generic.scale base set 5.2
 execute unless block ~ ~-1 ~ air rotated ~ 0 if block ~ ~ ~ air run tp ^ ^-.1 ^
-## Reset
-execute if score @s armor_vars matches 1200 run bossbar remove minecraft:armor_health
 
 execute if score @s armor_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force
 

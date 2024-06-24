@@ -1,5 +1,5 @@
-execute if score $vanish cart_vars matches 1 run scoreboard players set @s cart_vars 0
-execute if score $vanish cart_vars matches 1 run scoreboard players reset $vanish cart_vars
+execute unless score @s cart_vars matches ..1200 if score $vanish cart_vars matches 1 run scoreboard players set @s cart_vars 2
+execute unless score @s cart_vars matches ..1200 if score $vanish cart_vars matches 1 run scoreboard players reset $vanish cart_vars
 
 execute unless score @s cart_vars matches ..1200 run scoreboard players set @s cart_vars 1200
 ## Prevent 2 corpses at the same time
@@ -8,9 +8,6 @@ execute if score @s cart_vars matches 1200 as @e[tag=shifter,tag=cart,tag=dead] 
 execute if score $corpses cart_vars matches 2.. as @e[tag=shifter,tag=cart,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"cart"}
 attribute @s generic.scale base set .95
 
-## Reset
-execute if score @s cart_vars matches 1200 run bossbar remove minecraft:cart_health
-# execute if score @s cart_vars matches 1200 run scoreboard players set state cart_vars 0
 
 execute if score @s cart_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force
 execute if score @s cart_vars matches 200.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 minecraft:air replace barrier

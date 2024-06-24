@@ -1,5 +1,5 @@
-execute if score $vanish beast_vars matches 1 run scoreboard players set @s beast_vars 0
-execute if score $vanish beast_vars matches 1 run scoreboard players reset $vanish beast_vars
+execute unless score @s beast_vars matches ..1200 if score $vanish beast_vars matches 1 run scoreboard players set @s beast_vars 2
+execute unless score @s beast_vars matches ..1200 if score $vanish beast_vars matches 1 run scoreboard players reset $vanish beast_vars
 
 execute unless score @s beast_vars matches ..1200 run scoreboard players set @s beast_vars 1200
 ## Prevent 2 corpses at the same time
@@ -8,8 +8,6 @@ execute if score @s beast_vars matches 1200 as @e[tag=shifter,tag=beast,tag=dead
 execute if score $corpses beast_vars matches 2.. as @e[tag=shifter,tag=beast,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"beast"}
 attribute @s generic.scale base set 6.4
 
-## Reset
-execute if score @s beast_vars matches 1200 run bossbar remove minecraft:beast_health
 
 execute if score @s beast_vars matches 1000.. run particle campfire_signal_smoke ^1.5 ^2 ^-6 2 3 2 .01 1 force
 

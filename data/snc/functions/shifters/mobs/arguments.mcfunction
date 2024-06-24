@@ -20,7 +20,7 @@ data merge storage minecraft:cart {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    damage_jaw: 30, knockback_jaw: 3, energy_jaw: 8, angle_jaw: -5, \
+    damage_jaw: 30, knockback_jaw: 1, energy_jaw: 8, angle_jaw: 10, \
     energy_jump: 5, \
     energy_hold: 24, \
     damage_step: 1 \

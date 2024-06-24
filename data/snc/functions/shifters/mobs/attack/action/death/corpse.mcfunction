@@ -1,5 +1,5 @@
-execute if score $vanish attack_vars matches 1 run scoreboard players set @s attack_vars 0
-execute if score $vanish attack_vars matches 1 run scoreboard players reset $vanish attack_vars
+execute unless score @s attack_vars matches ..1200 if score $vanish attack_vars matches 1 run scoreboard players set @s attack_vars 2
+execute unless score @s attack_vars matches ..1200 if score $vanish attack_vars matches 1 run scoreboard players reset $vanish attack_vars
 
 execute unless score @s attack_vars matches ..1200 run scoreboard players set @s attack_vars 1200
 ## Prevent 2 corpses at the same time
@@ -8,8 +8,6 @@ execute if score @s attack_vars matches 1200 as @e[tag=shifter,tag=attack,tag=de
 execute if score $corpses attack_vars matches 2.. as @e[tag=shifter,tag=attack,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"attack"}
 attribute @s generic.scale base set 4.5
 
-## Reset
-execute if score @s attack_vars matches 1200 run bossbar remove minecraft:attack_health
 
 execute if score @s attack_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force
 

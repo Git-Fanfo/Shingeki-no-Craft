@@ -1,5 +1,5 @@
-execute if score $vanish colossal_vars matches 1 run scoreboard players set @s colossal_vars 0
-execute if score $vanish colossal_vars matches 1 run scoreboard players reset $vanish colossal_vars
+execute unless score @s colossal_vars matches ..1200 if score $vanish colossal_vars matches 1 run scoreboard players set @s colossal_vars 2
+execute unless score @s colossal_vars matches ..1200 if score $vanish colossal_vars matches 1 run scoreboard players reset $vanish colossal_vars
 
 execute unless score @s colossal_vars matches ..1200 run scoreboard players set @s colossal_vars 1200
 ## Prevent 2 corpses at the same time
@@ -7,9 +7,6 @@ scoreboard players set $corpses colossal_vars 0
 execute if score @s colossal_vars matches 1200 as @e[tag=shifter,tag=colossal,tag=dead] run scoreboard players add $corpses colossal_vars 1
 execute if score $corpses colossal_vars matches 2.. as @e[tag=shifter,tag=colossal,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"colossal"}
 
-## Reset
-execute if score @s colossal_vars matches 1200 run bossbar remove minecraft:colossal_health
-# execute if score @s colossal_vars matches 1200 run scoreboard players set state colossal_vars 0
 
 execute if score @s colossal_vars matches 200.. run particle campfire_signal_smoke ^ ^ ^40 2 3 2 .01 1 force
 execute if score @s colossal_vars matches 200.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 minecraft:air replace barrier
