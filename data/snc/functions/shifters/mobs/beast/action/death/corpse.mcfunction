@@ -1,6 +1,5 @@
-execute if score $vanish beast_vars matches 1 run particle minecraft:cloud ~ ~4 ~ 2 2 2 .2 500 force
-execute if score $vanish beast_vars matches 1 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 1
-execute if score $vanish beast_vars matches 1 run function snc:shifters/mobs/kill {"shifter":"beast"}
+execute if score $vanish beast_vars matches 1 run scoreboard players set @s beast_vars 0
+execute if score $vanish beast_vars matches 1 run scoreboard players reset $vanish beast_vars
 
 execute unless score @s beast_vars matches ..1200 run scoreboard players set @s beast_vars 1200
 ## Prevent 2 corpses at the same time

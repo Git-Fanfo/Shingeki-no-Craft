@@ -2,6 +2,7 @@
 $execute if predicate snc:shifters/has_gamemode run scoreboard players operation $gamemode $(shifter)_vars *= #-1 constant
 ## Roar
 #$execute unless score consume $(shifter)_vars matches 1.. if predicate snc:chance/10 run scoreboard players set consume $(shifter)_vars 220
+$execute if predicate snc:chance/20 run playsound minecraft:aot.shifters.attack.grunt player @a ~ ~ ~ 5 0.$(id)
 
 ## Colossal
 # Wallbreaker

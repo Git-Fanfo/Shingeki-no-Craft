@@ -1,4 +1,4 @@
-execute if score consume armor_vars matches 20 at @s run playsound minecraft:aot.attack_bite player @a ~ ~ ~ 5 .75
+execute if score consume armor_vars matches 20 at @s run playsound minecraft:aot.shifters.bite player @a ~ ~ ~ 5 .8
 
 function snc:shifters/mobs/armor/action/head/main
 

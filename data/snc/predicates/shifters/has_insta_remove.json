@@ -3,9 +3,9 @@
   "entity": "this",
   "predicate": {
     "slots": {
-      "weapon.mainhand": {
+      "weapon.offhand": {
         "predicates": {
-          "minecraft:custom_data": "{turrets:1b}"
+          "minecraft:custom_data": "{remove:1b}"
         }
       }
     }

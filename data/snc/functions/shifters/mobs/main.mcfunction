@@ -16,5 +16,3 @@ $execute if entity @s[tag=aj.$(shifter).locator.consume] on passengers run ride 
 
 ## Model
 $execute on passengers if entity @s[tag=aj.$(shifter).root] run function snc:shifters/mobs/$(shifter)/model
-
-return 0

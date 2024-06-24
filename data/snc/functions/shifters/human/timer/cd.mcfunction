@@ -1,8 +1,8 @@
 function snc:logic/return_gamemode
 
 $execute if entity @s[tag=snc.shifter.vanish] run scoreboard players set $vanish $(shifter)_vars 1
-$execute if entity @s[tag=snc.shifter.vanish] on vehicle run scoreboard players set @s $(shifter)_vars 1
-$execute if entity @s[tag=snc.shifter.vanish] run scoreboard players remove $energy $(shifter)_vars 180
+execute if entity @s[tag=snc.shifter.vanish] run ride @s dismount
+$execute if entity @s[tag=snc.shifter.vanish] run scoreboard players remove $energy $(shifter)_vars 360
 
 tag @s remove transform
 tag @s remove consume
@@ -20,4 +20,4 @@ effect give @s levitation 1 0 true
 
 $function snc:shifters/human/untransform {"shifter":"$(shifter)"}
 
-return 0
+#execute as @e[tag=cart,tag=shifter,type=!villager,tag=!dead] at @s run function snc:shifters/mobs/main with storage minecraft:cart

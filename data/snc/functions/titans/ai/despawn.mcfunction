@@ -9,7 +9,6 @@ execute unless score @s snc.despawn matches 1.. run function snc:logic/kill_mob
 
 # kill chest
 execute unless data entity @s Passengers run function snc:logic/kill_mob
-#execute unless predicate snc:is_riding run say chest: body not found
 
 # Spread Titans
 execute if score ticks clock matches 0 as @e[distance=..64,type=!item] run function snc:titans/ai/detect

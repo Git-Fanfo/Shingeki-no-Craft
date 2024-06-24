@@ -32,4 +32,4 @@ execute rotated ~ 0 positioned ^-2 ^5 ^-6 unless block ~ ~ ~ air unless block ~ 
 execute rotated ~ 0 positioned ^3 ^5 ^-6 unless block ~ ~ ~ air unless block ~ ~ ~ #snc:destroy/nature run scoreboard players set #destroy armor_vars 1
 execute rotated ~ 0 positioned ^-3 ^5 ^-6 unless block ~ ~ ~ air unless block ~ ~ ~ #snc:destroy/nature run scoreboard players set #destroy armor_vars 1
 
-execute if score #destroy armor_vars matches 1 run scoreboard players remove $energy armor_vars 50
+execute if score #destroy armor_vars matches 1 run scoreboard players remove $energy armor_vars 20

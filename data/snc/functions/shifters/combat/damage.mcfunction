@@ -1,5 +1,5 @@
 ## Debug
-# $function snc:logic/distance {"distance":$(distance),"half_minus_zero_point_five":$(half_minus_zero_point_five)}
+#$function snc:logic/distance {"distance":$(distance),"half_minus_zero_point_five":$(half_minus_zero_point_five)}
 
 ## Play sound
 $execute if entity @e[distance=..$(distance),tag=!$(shifter),type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] run playsound $(sound) player @a ~ ~ ~ 3

@@ -21,6 +21,6 @@ execute on vehicle if entity @s[tag=!snc.npc,tag=!woman] on passengers if entity
 
 execute on vehicle run data modify entity @s CustomName set from entity @e[type=armor_stand,sort=nearest,limit=1] CustomName
 
-## Remove tag and dismount from spawner
+## Remove tag and dismont from spawner
 execute on vehicle run tag @s remove snc.villager.new
 ride @s dismount
