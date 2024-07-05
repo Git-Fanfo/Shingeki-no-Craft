@@ -15,6 +15,9 @@ $bossbar set minecraft:$(shifter)_health style $(bossbar_style)
 
 $scoreboard players set state $(shifter)_vars 1
 $scoreboard players set consume $(shifter)_vars 0
+$scoreboard players set mov $(shifter)_vars 100
+$scoreboard players reset $moving $(shifter)_vars
+
 $scoreboard players set $gamemode $(shifter)_vars 1
 $scoreboard players set $vanish $(shifter)_vars 0
 $scoreboard players set $mov $(shifter)_vars 80

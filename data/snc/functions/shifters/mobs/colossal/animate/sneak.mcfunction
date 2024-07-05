@@ -1,3 +1,4 @@
+ride @s dismount
 ride @s mount @e[type=skeleton_horse,tag=colossal,limit=1,sort=nearest]
 effect give @s minecraft:slowness infinite 2 true
 execute on vehicle run effect give @s minecraft:slowness infinite 6 true

@@ -1,3 +1,4 @@
+ride @s dismount
 ride @s mount @e[type=skeleton_horse,tag=cart,limit=1,sort=nearest]
 execute unless score #sneak cart_vars matches 1.. if score state cart_vars matches 3..5 run scoreboard players set #sneak cart_vars 20
 

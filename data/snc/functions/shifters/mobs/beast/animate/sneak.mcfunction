@@ -1,3 +1,4 @@
+ride @s dismount
 ride @s mount @e[type=skeleton_horse,tag=beast,limit=1,sort=nearest]
 execute unless score #sneak beast_vars matches 1.. if score state beast_vars matches 3..5 run scoreboard players set #sneak beast_vars 20
 

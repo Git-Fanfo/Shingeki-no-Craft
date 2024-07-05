@@ -1,4 +1,3 @@
-effect give @s resistance 1 127 true
 execute store result score @s gamemode run data get entity @s playerGameType
 tp @s ~ ~1000 ~
 gamemode creative

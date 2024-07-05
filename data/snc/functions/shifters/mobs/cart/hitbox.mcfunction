@@ -27,3 +27,5 @@ execute if entity @s[tag=cart.turret.3] run function snc:shifters/mobs/cart/acti
 execute if entity @s[tag=cart.turret.1] if data entity @s interaction run function snc:interact/turret {"turret":1}
 execute if entity @s[tag=cart.turret.2] if data entity @s interaction run function snc:interact/turret {"turret":2}
 execute if entity @s[tag=cart.turret.3] if data entity @s interaction run function snc:interact/turret {"turret":3}
+
+execute unless entity @e[scores={shifter_vars=1},sort=nearest,limit=1] run function snc:shifters/mobs/remove_hitboxes
