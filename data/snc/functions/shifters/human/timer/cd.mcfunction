@@ -1,15 +1,17 @@
 function snc:logic/return_gamemode
 
+## Drop current items before replace
+$function snc:shifters/human/inventory/save/shifter with storage minecraft:$(shifter)
+function snc:shifters/abilities/clear
+$function snc:shifters/human/inventory/spawn/shifter with storage minecraft:$(shifter)
+
 $execute if entity @s[tag=snc.shifter.vanish] run scoreboard players set $vanish $(shifter)_vars 1
-execute if entity @s[tag=snc.shifter.vanish] run ride @s dismount
 $execute if entity @s[tag=snc.shifter.vanish] run scoreboard players remove $energy $(shifter)_vars 360
+execute if entity @s[tag=snc.shifter.vanish] run ride @s dismount
 
 tag @s remove transform
 tag @s remove consume
 tag @s remove snc.shifter.vanish
-
-clear @s *[custom_data~{atk_shifter:1b}]
-clear @s carved_pumpkin
 
 effect clear @s
 effect give @s absorption 10 4 true

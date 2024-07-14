@@ -39,5 +39,4 @@ $data remove storage minecraft:$(shifter) Hotbar[{Slot:12b}]
 $data remove storage minecraft:$(shifter) Hotbar[{Slot:13b}]
 
 execute summon minecraft:chest_minecart run function snc:shifters/human/inventory/drop/shifter
-
 setblock ~ ~3 ~ air replace

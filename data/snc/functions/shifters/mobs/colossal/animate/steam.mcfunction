@@ -4,6 +4,7 @@ execute if score $form colossal_vars matches 0 unless score action colossal_vars
 
 particle minecraft:campfire_cosy_smoke ^ ^ ^ 0 0 0 1 40 force
 
+execute if score action colossal_vars matches 20.. on vehicle run effect give @s slowness 1 6 true
 execute if score action colossal_vars matches 220 on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[custom_model_data=11]
 execute if score action colossal_vars matches 220 run function snc:shifters/mobs/colossal/action/steam/energy
 execute if score action colossal_vars matches 239 as @e[type=!item,distance=.5..80] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/steam/damage

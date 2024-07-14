@@ -21,7 +21,7 @@ execute if score @s earthquake matches 20 run tp @s ~ ~ ~ ~-12.8 ~
 execute if score @s earthquake matches 21 run tp @s ~ ~ ~ ~12.8 ~
 execute if score @s earthquake matches 23 run tp @s ~ ~ ~ ~-12.8 ~
 execute if score @s earthquake matches 24 run tp @s ~ ~ ~ ~12.8 ~
-execute if score @s earthquake matches 25.. run tp @s ~ ~ ~ ~-12.8 ~
+execute if score @s earthquake matches 25.. run scoreboard players set @s earthquake 24
 #execute if score @s earthquake matches 17 run tp @s ~ ~ ~ ~16.2 ~
 #execute if score @s earthquake matches 18 run tp @s ~ ~ ~ ~-16.2 ~
 #execute if score @s earthquake matches 19 run tp @s ~ ~ ~ ~20 ~

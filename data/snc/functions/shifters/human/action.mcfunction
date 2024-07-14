@@ -66,4 +66,4 @@ execute as @s[predicate=snc:shifters/armor/atk_3] unless score consume armor_var
 execute as @s[predicate=snc:shifters/armor/atk_4] run scoreboard players set state armor_vars 17
 
 ## Update Abilities
-$function snc:shifters/mobs/$(shifter)/abilities/give
+$execute unless predicate snc:shifters/has_remove run function snc:shifters/mobs/$(shifter)/abilities/give

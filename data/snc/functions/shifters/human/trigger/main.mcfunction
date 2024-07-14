@@ -50,11 +50,11 @@ execute if score @s atk matches 262 run item replace entity @s armor.chest from 
 execute if score @s atk matches 262 run setblock ~ ~2 ~ air replace
 
 # Give Helmet
-execute if score @s atk matches 260 run setblock ~ ~2 ~ chest
-$execute if score @s atk matches 260 run data modify block ~ ~2 ~ Items append from storage minecraft:$(shifter) Helmet
-execute if score @s atk matches 260 run item replace entity @s armor.head from block ~ ~2 ~ container.0
-execute if score @s atk matches 260 run setblock ~ ~2 ~ air replace
+execute if score @s atk matches 261 run setblock ~ ~2 ~ chest
+$execute if score @s atk matches 261 run data modify block ~ ~2 ~ Items append from storage minecraft:$(shifter) Helmet
+execute if score @s atk matches 261 run item replace entity @s armor.head from block ~ ~2 ~ container.0
+execute if score @s atk matches 261 run setblock ~ ~2 ~ air replace
 
-execute if score @s atk matches 260 run particle minecraft:flash ~ ~1 ~ 0 0 0 1 1 force
-$execute if score @s atk matches 260 run function snc:shifters/human/transform {"shifter":$(shifter),"name":"$(name)"}
-execute if score @s atk matches 260 run scoreboard players reset @s atk
+execute if score @s atk matches 256 run particle minecraft:flash ~ ~1 ~ 0 0 0 1 1 force
+$execute if score @s atk matches 256 run function snc:shifters/human/transform {"shifter":$(shifter),"name":"$(name)"}
+execute if score @s atk matches 256 run scoreboard players reset @s atk
