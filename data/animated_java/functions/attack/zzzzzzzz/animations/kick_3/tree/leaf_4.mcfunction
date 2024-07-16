@@ -1,2 +1,0 @@
-execute on passengers run function animated_java:attack/zzzzzzzz/animations/kick_3/tree/leaf_4_as_bone
-execute unless entity @s[tag=aj.attack.disable_command_keyframes] at @s run execute on vehicle run effect give @s levitation 1 0 true

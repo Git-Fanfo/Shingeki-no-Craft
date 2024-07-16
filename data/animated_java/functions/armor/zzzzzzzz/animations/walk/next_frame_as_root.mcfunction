@@ -1,1 +1,0 @@
-function animated_java:armor/zzzzzzzz/animations/walk/tick_animation

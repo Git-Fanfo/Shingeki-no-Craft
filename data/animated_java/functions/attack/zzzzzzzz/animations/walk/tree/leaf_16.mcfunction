@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:attack/zzzzzzzz/animations/walk/tree/leaf_16_as_bone

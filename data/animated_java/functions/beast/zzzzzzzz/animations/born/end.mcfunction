@@ -1,3 +1,0 @@
-execute if score @s aj.beast.animation.born.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:beast/zzzzzzzz/animations/born/end_loop
-execute if score @s aj.beast.animation.born.loop_mode = $aj.loop_mode.once aj.i run function animated_java:beast/animations/born/stop
-execute if score @s aj.beast.animation.born.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:beast/animations/born/pause

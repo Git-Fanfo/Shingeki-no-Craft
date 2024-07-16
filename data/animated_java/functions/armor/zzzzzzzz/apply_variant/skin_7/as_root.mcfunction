@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:armor/zzzzzzzz/apply_variant/skin_7/as_bone

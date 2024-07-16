@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:beast/zzzzzzzz/animations/death/tree/leaf_72_as_bone

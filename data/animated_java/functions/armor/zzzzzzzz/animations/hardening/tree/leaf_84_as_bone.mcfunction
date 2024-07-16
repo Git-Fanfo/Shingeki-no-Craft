@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.armor.locator_origin.consume] at @s on origin run tp @s ^6.26717 ^4.80776 ^-4.99591 ~-24.28729 ~32.8338

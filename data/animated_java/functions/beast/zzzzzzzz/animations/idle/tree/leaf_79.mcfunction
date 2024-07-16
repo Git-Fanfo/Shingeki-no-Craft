@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:beast/zzzzzzzz/animations/idle/tree/leaf_79_as_bone

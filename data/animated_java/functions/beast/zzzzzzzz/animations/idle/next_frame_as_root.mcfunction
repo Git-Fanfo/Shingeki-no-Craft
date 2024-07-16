@@ -1,1 +1,0 @@
-function animated_java:beast/zzzzzzzz/animations/idle/tick_animation

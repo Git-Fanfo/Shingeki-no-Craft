@@ -1,3 +1,0 @@
-execute if score @s aj.beast.animation.sneak.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:beast/zzzzzzzz/animations/sneak/end_loop
-execute if score @s aj.beast.animation.sneak.loop_mode = $aj.loop_mode.once aj.i run function animated_java:beast/animations/sneak/stop
-execute if score @s aj.beast.animation.sneak.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:beast/animations/sneak/pause

@@ -1,2 +1,0 @@
-execute if entity @s[tag=aj.beast.root] run function animated_java:beast/zzzzzzzz/apply_variant/noskin_6/as_root
-execute if entity @s[tag=!aj.beast.root] run tellraw @a ["",{"text":"["},{"text":"Animated Java","color":"aqua"},{"text":"] "},{"text":"ERROR ☠","color":"red"},{"text":" > ","color":"gray"},[{"text":"The function","color":"yellow"},{"text":" animated_java:beast/apply_variant/noskin_6 ","color":"blue"},{"text":"must be run"},{"text":" as ","color":"red"},{"text":"the root entity!"}]]

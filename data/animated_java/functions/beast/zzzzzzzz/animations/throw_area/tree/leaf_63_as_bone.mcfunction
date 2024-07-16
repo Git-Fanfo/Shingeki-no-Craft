@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.beast.locator_origin.consume] at @s on origin run tp @s ^-17.16765 ^6.65188 ^-0.52988 ~-11.8151 ~28.2533

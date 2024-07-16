@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:armor/zzzzzzzz/animations/slide/tree/leaf_10_as_bone

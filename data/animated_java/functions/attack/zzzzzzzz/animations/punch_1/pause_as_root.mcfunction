@@ -1,1 +1,0 @@
-tag @s remove aj.attack.animation.punch_1

@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..41 run function animated_java:attack/zzzzzzzz/animations/born/tree/branch_0_41

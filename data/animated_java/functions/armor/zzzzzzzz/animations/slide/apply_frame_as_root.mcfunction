@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..30 run function animated_java:armor/zzzzzzzz/animations/slide/tree/branch_0_30

@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.beast.root] run function animated_java:beast/zzzzzzzz/tick_as_root

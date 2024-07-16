@@ -1,7 +1,0 @@
-{
-	"values": [
-		"snc:tick",
-		"snc:entity_tick",
-		"animated_java:tick"
-	]
-}

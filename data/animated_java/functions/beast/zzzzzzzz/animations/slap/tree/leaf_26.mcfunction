@@ -1,2 +1,0 @@
-execute on passengers run function animated_java:beast/zzzzzzzz/animations/slap/tree/leaf_26_as_bone
-execute unless entity @s[tag=aj.beast.disable_command_keyframes] at @s run function snc:shifters/mobs/beast/action/slap/damage with storage minecraft:beast

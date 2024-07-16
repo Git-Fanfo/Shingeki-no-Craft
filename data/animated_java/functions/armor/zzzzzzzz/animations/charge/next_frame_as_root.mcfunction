@@ -1,1 +1,0 @@
-function animated_java:armor/zzzzzzzz/animations/charge/tick_animation

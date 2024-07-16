@@ -1,2 +1,0 @@
-execute on passengers run function animated_java:attack/zzzzzzzz/animations/sneak/tree/leaf_12_as_bone
-execute unless entity @s[tag=aj.attack.disable_command_keyframes] at @s run scoreboard players set $moving attack_vars 0
