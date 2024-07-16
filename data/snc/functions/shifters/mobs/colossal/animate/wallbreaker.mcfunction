@@ -52,6 +52,8 @@ execute if score action colossal_vars matches 27 run data modify entity @s item.
 execute if score action colossal_vars matches 26 run data modify entity @s item.components.minecraft:custom_model_data set value 381
 execute if score action colossal_vars matches 24 run data modify entity @s item.components.minecraft:custom_model_data set value 382
 
+execute if score action colossal_vars matches 20.. on vehicle run effect give @s slowness 1 6 true
+
 execute if score action colossal_vars matches 18 run data modify entity @s item.components.minecraft:custom_model_data set value 383
 execute if score action colossal_vars matches 16 run data modify entity @s item.components.minecraft:custom_model_data set value 384
 execute if score action colossal_vars matches 14 run data modify entity @s item.components.minecraft:custom_model_data set value 385

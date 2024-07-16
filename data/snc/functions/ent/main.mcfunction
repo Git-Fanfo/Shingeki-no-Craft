@@ -10,12 +10,12 @@
 ## Seconds functions
 execute if score ticks clock matches 19 run function snc:ent/seconds
 
+## Apply Motion to not moving projectiles
+execute if entity @s[tag=not_mov] rotated as @p run function snc:logic/apply_motion/main
+
 ## Titans
 # Pure
 execute if entity @s[tag=titan] if function snc:titans/main run return -1
-
-## Apply Motion to not moving projectiles
-execute if entity @s[tag=not_mov] rotated as @p run function snc:logic/apply_motion/main
 
 ## Projectiles
 execute if entity @s[tag=snc.projectile] if function snc:player/gun/main run return -1
