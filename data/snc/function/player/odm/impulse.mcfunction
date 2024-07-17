@@ -9,7 +9,5 @@ execute unless score @s snc.rotation_x matches -90..90 run function snc:player/o
 
 #title @s actionbar {"text":"/     \\","bold":true,"color":"green"}
 
-# Restart shooter
-execute as @e[tag=shooter,limit=2, sort=nearest,distance=0..2] run function snc:logic/kill_mob
 scoreboard players set @s odm_state 0
 scoreboard players set @s odm_push 0

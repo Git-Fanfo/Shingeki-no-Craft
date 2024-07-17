@@ -90,6 +90,10 @@ scoreboard objectives add id_shooter_R dummy
 scoreboard objectives add id_hook_L dummy
 scoreboard objectives add id_shooter_L dummy
 
+scoreboard objectives add snc.odm_id dummy
+execute unless score $id snc.odm_id matches 0.. run scoreboard players set $id snc.odm_id 0
+scoreboard objectives add snc.odm_dist dummy
+
 # Projectiles
 scoreboard objectives add projectile dummy
 

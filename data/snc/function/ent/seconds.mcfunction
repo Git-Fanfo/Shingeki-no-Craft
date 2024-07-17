@@ -14,6 +14,3 @@ execute as @s[type=ravager,tag=!marleyan] run function snc:ent/pill/vehicle/spaw
 execute as @s[tag=village] run function snc:eldia/village
 # Kill villager
 execute as @s[type=armor_stand,tag=body] unless predicate snc:is_riding run function snc:logic/kill_mob
-
-# Kill ropes in air
-execute as @s[tag=shooter] unless entity @a[distance=..2] run function snc:logic/kill_mob

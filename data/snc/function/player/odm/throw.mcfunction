@@ -3,37 +3,28 @@ execute at @s run playsound minecraft:aot.shoot player @a[distance=..8] ~ ~ ~ 1 
 execute rotated ~ 0 positioned ^.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
 execute rotated ~ 0 positioned ^-.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
 ride @s dismount
+
 # Save player ID to detect when ground
 execute store result score @s id_player run data get entity @s UUID[0]
 execute store result score @s id_detect_R run data get entity @s UUID[0]
 execute store result score @s id_detect_L run data get entity @s UUID[0]
 
 ## O [hook][motion_odm] -> gets shoot and detects when motion_odm dies
-## D [rope] -> tps to motion_odm 
-## M [shooter] -> tps to player
 
 # Summon hooks
-summon snowball ^-1.5 ^.2 ^3 {Tags:["snc.projectile","odm","not_mov","motion_odm"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["snc.projectile","odm","hook","R"]}],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
-summon snowball ^1.5 ^.2 ^3 {Tags:["snc.projectile","odm","not_mov", "motion_odm"],Passengers:[{id:"minecraft:item_display",NoGravity:1b,Tags:["snc.projectile","odm","hook","L"]}],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
+summon snowball ^-1.5 ^.2 ^3 {Tags:["snc.projectile","odm","not_mov","motion_odm"],Passengers:[{id:"minecraft:block_display",Tags:["snc.projectile","odm","hook"],teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.1f,0.1f,0.1f]},block_state:{Name:"minecraft:black_concrete"}}],Item:{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}}
 
-# Summon ropes
-execute summon bat positioned ^-.3 ^.5 ^ run function snc:player/odm/throw/rope {"side":"R"}
-execute summon bat positioned ^.3 ^.5 ^ run function snc:player/odm/throw/rope {"side":"L"}
-#summon bat ^-.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["snc.projectile","odm","rope","R"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:2}]}
-#summon bat ^.3 ^.5 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["snc.projectile","odm","rope","L"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:2}]}
+summon snowball ^1.5 ^.2 ^3 {Tags:["snc.projectile","odm","not_mov","motion_odm"],Passengers:[{id:"minecraft:block_display",Tags:["snc.projectile","odm","hook"],teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.1f,0.1f,0.1f]},block_state:{Name:"minecraft:black_concrete"}}],Item:{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}}
 
-# Summon shooters
-#summon bat ^-.3 ^1 ^-.3 {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["snc.projectile","odm","shooter","R"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:.6}]}
-#summon bat ^.3 ^1 ^-.3 {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["snc.projectile","odm","shooter","L"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.scale",Base:.6}]}
+## ID
+# ODM
+execute as @e[tag=hook,sort=nearest,limit=2] run scoreboard players operation @s snc.odm_id = $id snc.odm_id
+# Player
+scoreboard players operation @s snc.odm_id = $id snc.odm_id
+# Global
+scoreboard players add $id snc.odm_id 1
 
-# Save ID hooks and shooters
-execute store result score @e[tag=hook,tag=R,sort=nearest,limit=1] id_hook_R run data get entity @s UUID[0]
-#execute store result score @e[tag=shooter,tag=R,sort=nearest,limit=1] id_shooter_R run data get entity @s UUID[0]
-execute store result score @e[tag=hook,tag=L,sort=nearest,limit=1] id_hook_L run data get entity @s UUID[0]
-#execute store result score @e[tag=shooter,tag=L,sort=nearest,limit=1] id_shooter_L run data get entity @s UUID[0]
-execute as @e[tag=hook,sort=nearest,limit=2] run tp @s ~ ~ ~ ~ ~
-
-# Wrap bats
+# Wrap bats :')
 ##execute as @e[tag=rope,type=bat,sort=nearest,limit=2] at @s run data modify entity @s leash.UUID set from entity @e[tag=shooter,sort=nearest,limit=1] UUID
 
 # ODM status -> 1 = threw
