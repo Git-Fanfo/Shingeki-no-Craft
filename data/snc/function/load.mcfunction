@@ -65,7 +65,8 @@ scoreboard objectives add odm_push dummy
 # odm actions
 scoreboard objectives add odm_action dummy
 
-scoreboard objectives add rot_throw dummy
+scoreboard objectives add snc.odm_throw_x dummy
+scoreboard objectives add snc.odm_throw_y dummy
 scoreboard objectives add snc.rotation_x dummy
 scoreboard objectives add snc.rotation_y dummy
 
@@ -142,7 +143,6 @@ execute unless score show_kills config matches 0.. run function snc:logic/manual
 execute unless score comm_feed config matches 0.. run function snc:logic/manual/off/send_command_feedback
 execute unless score col_exp config matches 0.. run scoreboard players set col_exp config 1
 execute unless score curse config matches 0.. run scoreboard players set curse config 1
-execute unless score odm_legacy config matches 0 run scoreboard players set odm_legacy config 1
 
 #gamerule fallDamage false
 

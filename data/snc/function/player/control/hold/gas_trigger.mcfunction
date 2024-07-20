@@ -3,13 +3,9 @@ advancement revoke @s only snc:human/hold/gas_trigger
 execute if score ticks clock matches 19 if predicate snc:odm/has_odm run function snc:player/odm/effects
 
 execute as @s[tag=spin] run function snc:player/odm/gyro/slash/select
-execute if score odm_legacy config matches 0 run function snc:player/odm/impulse/get_direction
 
 # Spear They can have any
 execute if score @s odm_action matches 0.. if block ~ ~-.5 ~ air if predicate snc:player/is_sneaking run function snc:player/odm/replace_weapon/thunder/trigger
-
-execute store result score @s snc.rotation_x run data get entity @s Rotation[0]
-execute store result score @s snc.rotation_y run data get entity @s Rotation[1]
 
 execute unless predicate snc:odm/has_odm_blade run tag @s remove spin
 

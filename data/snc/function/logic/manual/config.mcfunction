@@ -16,8 +16,6 @@ execute as @s[scores={manual=-12}] run scoreboard players set curse config 0
 execute as @s[scores={manual=-13}] run scoreboard players set curse config 1
 execute as @s[scores={manual=-14}] run function snc:logic/manual/off/anonymity
 execute as @s[scores={manual=-15}] run function snc:logic/manual/on/anonymity
-execute as @s[scores={manual=-16}] run scoreboard players set odm_legacy config 0
-execute as @s[scores={manual=-17}] run scoreboard players set odm_legacy config 1
 execute as @s[scores={manual=-18}] run scoreboard players set #lightning config 0
 execute as @s[scores={manual=-19}] run scoreboard players set #lightning config 1
 execute as @s[scores={manual=-20}] run scoreboard players set curse config 2
