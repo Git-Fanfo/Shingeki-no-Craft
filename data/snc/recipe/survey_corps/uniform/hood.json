@@ -25,7 +25,7 @@
       "trim":{"material":"blank","pattern":"scouts","show_in_tooltip":false},
       "minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false},
       "minecraft:unbreakable":{"show_in_tooltip":false},
-      "minecraft:attribute_modifiers":[{"type":"generic.armor","name":"generic.armor","amount":2,"operation":"add_value","uuid":[-1011016289,-609072635,-1385543351,978358347],"slot":"head"}]
+      "minecraft:attribute_modifiers":[{"type":"generic.armor","amount":2,"operation":"add_value","id":"snc.hood.armor","slot":"head"}]
     }
   }
 }

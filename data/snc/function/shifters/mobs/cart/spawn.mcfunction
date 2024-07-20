@@ -1,4 +1,4 @@
-#summon shulker ~ ~ ~ {NoAI:1b,Health:1024f,Silent:1b,Color:14b,Tags:["collision","shifter","cart","cart.hitbox"],Attributes:[{Name:generic.max_health,Base:1024},{Name:generic.scale,Base:3}]}
+#summon shulker ~ ~ ~ {NoAI:1b,Health:1024f,Silent:1b,Color:14b,Tags:["collision","shifter","cart","cart.hitbox"],attributes:[{id:"generic.max_health",base:1024},{id:"generic.scale",base:3}]}
 
 summon item_display ~ ~ ~ {teleport_duration: 1,Tags:["collision","shifter","cart","aj.cart.locator.consume"]}
 

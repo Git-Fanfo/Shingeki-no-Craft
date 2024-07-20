@@ -1,4 +1,4 @@
-execute if entity @s[tag=!aj.armor.animation.charge] run function snc:shifters/mobs/armor/animate/charge
+execute if entity @s[tag=!aj.armor.animation.charge.playing] run function snc:shifters/mobs/armor/animate/charge
 
 scoreboard players remove $energy armor_vars 1
 execute on vehicle run scoreboard players reset @s snc.knockback
