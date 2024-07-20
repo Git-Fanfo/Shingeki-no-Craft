@@ -5,7 +5,4 @@ attribute @s minecraft:player.block_interaction_range base set 4.5
 attribute @s minecraft:player.entity_interaction_range base set 4
 
 scoreboard players set @s odm_action 0
-scoreboard players set @s man_cool 0
 scoreboard players set @s odm_state 0
-scoreboard players set @s id_detect_R 0
-scoreboard players set @s id_detect_L 0

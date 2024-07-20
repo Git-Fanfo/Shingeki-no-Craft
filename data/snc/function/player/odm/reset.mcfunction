@@ -1,1 +1,0 @@
-scoreboard players set @s odm_state 0

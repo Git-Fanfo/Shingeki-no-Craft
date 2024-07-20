@@ -1,5 +1,5 @@
 ## ODM
-execute if entity @s[tag=odm] run function snc:player/odm/main
+execute if entity @s[tag=snc.hook] run function snc:player/odm/hook/main with entity @s item.components."minecraft:profile"
 
 execute if entity @s[tag=snc.sticky] run function snc:player/gun/sticky/main
 

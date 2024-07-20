@@ -1,11 +1,11 @@
 scoreboard players set @s using_carrot 0
 scoreboard players set @s snc.hold.rc 5
 
-#Throw
-execute as @s[tag=!wrap,scores={odm_state=0,man_cool=0},predicate=snc:odm/has_gas_trigger,predicate=snc:odm/has_odm,tag=!snc.injured] run function snc:player/odm/throw
 
 # Impulse
-execute as @s[tag=!wrap,scores={odm_state=1..},predicate=snc:odm/has_gas_trigger,predicate=snc:odm/has_odm] run function snc:player/odm/impulse
+execute if score @s[tag=!wrap] odm_state matches 1.. if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm if function snc:player/odm/impulse/main run return -1
+#Throw
+execute if score @s[tag=!wrap,tag=!snc.injured] odm_state matches 0 if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm run function snc:player/odm/throw with entity @s
 
 ## Turn Titan
 execute as @s[predicate=snc:shifters/has_add] run function snc:shifters/human/check_transform

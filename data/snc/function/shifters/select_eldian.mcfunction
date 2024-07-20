@@ -1,7 +1,7 @@
 execute if entity @s[type=player] run function snc:player/drop_inv
 tag @s add first
 
-##### HOW TO CREATE A SHIFTER #####
+##### HOW TO CREATE A SHIFTER ##### 
 execute if score $attack.doesnt.exists shifter_vars matches 1 if predicate snc:chance/35 unless entity @s[scores={shifter_vars=1..}] run function snc:shifters/transfer/get with storage minecraft:attack
 execute if score $armor.doesnt.exists shifter_vars matches 1 if predicate snc:chance/35 unless entity @s[scores={shifter_vars=1..}] run function snc:shifters/transfer/get with storage minecraft:armor
 execute if score $cart.doesnt.exists shifter_vars matches 1 if predicate snc:chance/35 unless entity @s[scores={shifter_vars=1..}] run function snc:shifters/transfer/get with storage minecraft:cart

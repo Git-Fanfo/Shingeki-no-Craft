@@ -21,5 +21,4 @@ execute as @s[predicate=snc:odm/has_spear_r] run function snc:player/odm/replace
 execute as @s[predicate=snc:odm/has_spear_l] run function snc:player/odm/replace_weapon/thunder/effects {"side":"L"}
 
 # Aux impulse
-execute as @s[scores={odm_state=-1}] run scoreboard players set @s odm_state 1
-execute as @s[scores={odm_state=1}] unless entity @s[scores={odm_state=2..}] run scoreboard players add @s odm_push 1
+execute if score @s odm_state matches 1 run scoreboard players add @s odm_push 1

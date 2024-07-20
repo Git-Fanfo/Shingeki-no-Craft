@@ -37,8 +37,7 @@ execute if score @s snc.hold.rc matches 1.. run scoreboard players remove @s snc
 #execute if predicate snc:odm/has_gas_trigger run function snc:player/odm/has_trigger
 
 ## Reset scan
-execute if score @s man_cool matches 1.. run scoreboard players remove @s man_cool 1
-execute unless predicate snc:odm/has_gas_trigger run function snc:player/odm/reset
+execute unless predicate snc:odm/has_gas_trigger run scoreboard players set @s odm_state 0
 
 ## Second functions
 execute if score ticks clock matches 9 run function snc:player/seconds_0
