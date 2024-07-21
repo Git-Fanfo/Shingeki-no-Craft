@@ -10,45 +10,39 @@
             "modifiers": [
                 {
                     "type": "minecraft:generic.armor",
-                    "uuid": [-1241033798,-252359534,-1239115941,1070031786],
-                    "name": "generic.armor",
+                    "id": "snc.boots.armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                 },{
                     "type":"generic.armor_toughness",
-                    "name":"generic.armor_toughness",
+                    "id": "snc.boots.armor_toughness",
                     "amount":1,
                     "operation":"add_value",
-                    "uuid":[-1928804943,-640597071,-1372498624,-802344471],
                     "slot":"feet"
                 },{
                     "type":"generic.knockback_resistance",
-                    "name":"generic.knockback_resistance",
+                    "id": "snc.boots.knockback_resistance",
                     "amount":0.1,
                     "operation":"add_value",
-                    "uuid":[-542867899,577325535,-1604412135,-1832527429],
                     "slot":"feet"
                 },{
                     "type":"generic.scale",
-                    "name":"generic.scale",
+                    "id": "snc.boots.scale",
                     "amount":0.035,
                     "operation":"add_multiplied_total",
-                    "uuid":[1420308949,2044612227,-1087119724,-1258059145],
                     "slot":"feet"
                 },{
                     "type":"generic.attack_damage",
-                    "name":"generic.attack_damage",
+                    "id": "snc.boots.attack_damage",
                     "amount":-0.02,
                     "operation":"add_multiplied_total",
-                    "uuid":[859241151,-1307229336,-2057669149,1878817881],
                     "slot":"feet"
                 },{
                     "type":"generic.movement_speed",
-                    "name":"generic.movement_speed",
+                    "id": "snc.boots.movement_speed",
                     "amount":-0.015,
                     "operation":"add_multiplied_total",
-                    "uuid":[-175523255,1169047578,-2022606172,-1406669479],
                     "slot":"feet"
                 }
             ]

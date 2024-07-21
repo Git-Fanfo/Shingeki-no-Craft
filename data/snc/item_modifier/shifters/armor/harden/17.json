@@ -6,16 +6,14 @@
         "modifiers": [
           {
             "type": "minecraft:generic.armor",
-            "uuid": [1037146786,-916566486,-2009290388,-2122761331],
-            "name": "generic.armor",
+            "id": "snc.leggings.armor",
             "amount": 17,
             "operation": "add_value",
             "slot": "head"
           },
           {
             "type": "minecraft:generic.armor_toughness",
-            "uuid": [403646585,1003700334,-1709780057,33281322],
-            "name": "generic.armor",
+            "id": "snc.leggings.armor_toughness",
             "amount": 12,
             "operation": "add_value",
             "slot": "head"

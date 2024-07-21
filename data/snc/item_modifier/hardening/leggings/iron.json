@@ -9,45 +9,39 @@
             "modifiers": [
                 {
                     "type": "minecraft:generic.armor",
-                    "uuid": [-1982855959,-1292349988,-1266331708,1523810718],
-                    "name": "generic.armor",
+                    "id": "snc.leggings.armor",
                     "amount": 5,
                     "operation": "add_value",
                     "slot": "legs"
                 },{
                     "type":"generic.armor_toughness",
-                    "name":"generic.armor_toughness",
+                    "id": "snc.leggings.armor_toughness",
                     "amount":1,
                     "operation":"add_value",
-                    "uuid":[-1185470030,-1187034736,-1371162809,1066766074],
                     "slot":"legs"
                 },{
                     "type":"generic.knockback_resistance",
-                    "name":"generic.knockback_resistance",
+                    "id": "snc.leggings.knockback_resistance",
                     "amount":0.1,
                     "operation":"add_value",
-                    "uuid":[-527387811,1485785091,-1409119887,-775138913],
                     "slot":"legs"
                 },{
                     "type":"generic.scale",
-                    "name":"generic.scale",
+                    "id": "snc.leggings.scale",
                     "amount":0.035,
                     "operation":"add_multiplied_total",
-                    "uuid":[1243824445,-326938922,-2016125940,608154262],
                     "slot":"legs"
                 },{
                     "type":"generic.attack_damage",
-                    "name":"generic.attack_damage",
+                    "id": "snc.leggings.attack_damage",
                     "amount":-0.02,
                     "operation":"add_multiplied_total",
-                    "uuid":[112574419,96094752,-1894527571,-1774218637],
                     "slot":"legs"
                 },{
                     "type":"generic.movement_speed",
-                    "name":"generic.movement_speed",
+                    "id": "snc.leggings.movement_speed",
                     "amount":-0.015,
                     "operation":"add_multiplied_total",
-                    "uuid":[858029945,-904904160,-1375904160,-285673696],
                     "slot":"legs"
                 }
             ]

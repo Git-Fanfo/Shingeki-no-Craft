@@ -10,45 +10,39 @@
             "modifiers": [
                 {
                     "type": "minecraft:generic.armor",
-                    "uuid": [662852146,-145404581,-1635703643,-179568104],
-                    "name": "generic.armor",
+                    "id": "snc.helmet.armor",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "head"
                 },{
                     "type":"generic.armor_toughness",
-                    "name":"generic.armor_toughness",
+                    "id": "snc.helmet.armor_toughness",
                     "amount":3,
                     "operation":"add_value",
-                    "uuid":[-77199515,1945325138,-1109532980,-1388900913],
                     "slot":"head"
                 },{
                     "type":"generic.knockback_resistance",
-                    "name":"generic.knockback_resistance",
+                    "id": "snc.helmet.knockback_resistance",
                     "amount":0.1,
                     "operation":"add_value",
-                    "uuid":[-527387811,1485785091,-1409119887,-775138913],
                     "slot":"head"
                 },{
                     "type":"generic.scale",
-                    "name":"generic.scale",
+                    "id": "snc.helmet.scale",
                     "amount":0.035,
                     "operation":"add_multiplied_total",
-                    "uuid":[1060924046,641355313,-1272689536,952777532],
                     "slot":"head"
                 },{
                     "type":"generic.attack_damage",
-                    "name":"generic.attack_damage",
+                    "id": "snc.helmet.attack_damage",
                     "amount":-0.02,
                     "operation":"add_multiplied_total",
-                    "uuid":[1288915548,857424771,-1271674341,1718483662],
                     "slot":"head"
                 },{
                     "type":"generic.movement_speed",
-                    "name":"generic.movement_speed",
+                    "id": "snc.helmet.movement_speed",
                     "amount":-0.015,
                     "operation":"add_multiplied_total",
-                    "uuid":[-1813114463,441336259,-1157819884,1702387260],
                     "slot":"head"
                 }
             ]

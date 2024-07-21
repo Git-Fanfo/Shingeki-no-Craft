@@ -1,3 +1,4 @@
+effect clear @s levitation
 # Hooks have not landed
 execute if score @s odm_state matches 1 run function snc:player/odm/hook/shake
 # Impulse

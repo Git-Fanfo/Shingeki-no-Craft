@@ -24,8 +24,8 @@ $execute if entity @s[tag=!snc.hook.retract] store result score $(name) snc.rota
 $execute if entity @s[tag=!snc.hook.retract] run scoreboard players operation $(name) snc.rotation_x -= $(name) snc.odm_throw_x
 $execute if entity @s[tag=!snc.hook.retract] run scoreboard players operation $(name) snc.rotation_y -= $(name) snc.odm_throw_y
 # Range maximum
-$execute if entity @s[tag=!snc.hook.retract] unless score $(name) snc.rotation_x matches -90..90 run scoreboard players set @s snc.odm_dist 40
-$execute if entity @s[tag=!snc.hook.retract] if score $(name) snc.rotation_y matches ..-45 run scoreboard players set @s snc.odm_dist 40
+$execute if entity @s[tag=!snc.hook.retract] unless score $(name) snc.rotation_x matches -95..95 run scoreboard players set @s snc.odm_dist 40
+$execute if entity @s[tag=!snc.hook.retract] if score $(name) snc.rotation_y matches ..-40 run scoreboard players set @s snc.odm_dist 40
 
 # Reset and Kill
 $execute if score $(name) odm_state matches 0 run tag @s add snc.hook.kill
@@ -35,7 +35,7 @@ execute if score @s projectile matches 1 run data modify entity @s transformatio
 execute if score @s projectile matches 2 run data modify entity @s transformation.scale set value [0.25f,0.25f,2f]
 execute if score @s projectile matches 3 run data modify entity @s transformation.scale set value [0.25f,0.25f,3f]
 execute if score @s projectile matches 4 run data modify entity @s transformation.scale set value [0.25f,0.25f,4f]
-$execute if score @s projectile matches 4.. run function snc:player/odm/hook/particles {"name":$(name)}
+$function snc:player/odm/hook/particles {"name":$(name)}
 
 ## Land
 execute if entity @s[tag=!snc.hook.buried] on vehicle run function snc:player/odm/hook/air

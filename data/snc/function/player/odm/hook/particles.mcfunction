@@ -36,10 +36,10 @@ execute if score @s snc.odm_dist matches 33 run data modify entity @s transforma
 execute if score @s snc.odm_dist matches 34 run data modify entity @s transformation.scale set value [0.25f,0.25f,34f]
 execute if score @s snc.odm_dist matches 35 run data modify entity @s transformation.scale set value [0.25f,0.25f,35f]
 
-execute if score @s[tag=!snc.hook.retract] snc.odm_dist matches 36.. run scoreboard players set @s projectile 0
-$execute if score @s[tag=!snc.hook.retract] snc.odm_dist matches 36.. as $(name) run function snc:player/odm/hook/shake
-execute if score @s snc.odm_dist matches 36.. run tag @s add snc.hook.retract
-execute if score @s snc.odm_dist matches 36.. on vehicle run kill @s
+$execute if score @s projectile matches 4.. if score @s[tag=!snc.hook.retract] snc.odm_dist matches 36.. as $(name) run function snc:player/odm/hook/shake
+execute if score @s projectile matches 4.. if score @s snc.odm_dist matches 36.. run tag @s add snc.hook.retract
+execute if score @s projectile matches 4.. if score @s snc.odm_dist matches 36.. on vehicle run kill @s
+execute if score @s projectile matches 4.. if score @s[tag=!snc.hook.retract] snc.odm_dist matches 36.. run scoreboard players set @s projectile 0
 
 #execute if score @s snc.odm_dist matches ..35 run particle heart ~ ~ ~ 0 0 0 1 1 force
 $execute if entity @p[name=$(name),distance=..1.3] run tag @s add snc.hook.break
