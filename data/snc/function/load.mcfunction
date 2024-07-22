@@ -59,6 +59,7 @@ scoreboard players set time clock 0
 scoreboard objectives add odm_state dummy
 # Distance to the ropes
 scoreboard objectives add snc.odm_dist dummy
+scoreboard objectives add snc.odm_dist.before dummy
 scoreboard objectives add odm_dmg_R dummy
 scoreboard objectives add odm_dmg_L dummy
 # Time to push the player, the bigger it is the stronger it gets
