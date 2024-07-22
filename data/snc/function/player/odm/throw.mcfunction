@@ -19,4 +19,5 @@ scoreboard players set @s odm_state 1
 
 # Save Rotation to compare
 execute store result score @s snc.odm_throw_x run data get entity @s Rotation[0]
+execute if score @s snc.odm_throw_x matches ..-1 run scoreboard players operation @s snc.odm_throw_x *= #-1 constant
 execute store result score @s snc.odm_throw_y run data get entity @s Rotation[1]

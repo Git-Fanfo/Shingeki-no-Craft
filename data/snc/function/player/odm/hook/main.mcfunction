@@ -19,12 +19,16 @@ $execute if entity @s[tag=snc.hook.retract,tag=snc.hook.buried] as $(name) run f
 $execute if entity @s[tag=snc.hook.kill] unless score $(name) odm_state matches 2.. run scoreboard players set $(name) odm_state 0
 # Get rotation
 $execute if entity @s[tag=!snc.hook.retract] store result score $(name) snc.rotation_x run data get entity $(name) Rotation[0]
+$execute if entity @s[tag=!snc.hook.retract] as $(name) if score @s snc.rotation_x matches ..-1 run scoreboard players operation @s snc.rotation_x *= #-1 constant
+
 $execute if entity @s[tag=!snc.hook.retract] store result score $(name) snc.rotation_y run data get entity $(name) Rotation[1]
 ## Compare snc.odm_throw with snc.rotation
+
 $execute if entity @s[tag=!snc.hook.retract] run scoreboard players operation $(name) snc.rotation_x -= $(name) snc.odm_throw_x
 $execute if entity @s[tag=!snc.hook.retract] run scoreboard players operation $(name) snc.rotation_y -= $(name) snc.odm_throw_y
 # Range maximum
-$execute if entity @s[tag=!snc.hook.retract] unless score $(name) snc.rotation_x matches -95..95 run scoreboard players set @s snc.odm_dist 40
+#$tellraw $(name) {"score":{"name":"$(name)","objective":"snc.rotation_x"}}
+$execute if entity @s[tag=!snc.hook.retract] unless score $(name) snc.rotation_x matches -45..45 run scoreboard players set @s snc.odm_dist 40
 $execute if entity @s[tag=!snc.hook.retract] if score $(name) snc.rotation_y matches ..-40 run scoreboard players set @s snc.odm_dist 40
 
 # Reset and Kill
