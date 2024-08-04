@@ -20,6 +20,7 @@ scoreboard players set #lcg constant 1103515245
 scoreboard objectives add earthquake dummy
 scoreboard objectives add snc.knockback dummy
 scoreboard objectives add snc.push dummy
+scoreboard objectives add snc.push.dir dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add random dummy
 scoreboard objectives add snc.leave minecraft.custom:minecraft.leave_game
@@ -63,7 +64,9 @@ scoreboard objectives add snc.odm_dist.before dummy
 scoreboard objectives add odm_dmg_R dummy
 scoreboard objectives add odm_dmg_L dummy
 # Time to push the player, the bigger it is the stronger it gets
-scoreboard objectives add odm_push dummy
+scoreboard objectives add snc.odm_push dummy
+scoreboard objectives add snc.odm_push.right dummy
+scoreboard objectives add snc.odm_push.left dummy
 # odm actions
 scoreboard objectives add odm_action dummy
 

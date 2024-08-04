@@ -8,4 +8,5 @@ playsound minecraft:block.iron_door.close player @a ~ ~ ~ 3.5 1.45
 playsound minecraft:block.amethyst_cluster.break player @a ~ ~ ~ 3.5 2
 
 tag @s add snc.hook.buried
+scoreboard players set @s projectile 4
 tp ^ ^ ^-.7

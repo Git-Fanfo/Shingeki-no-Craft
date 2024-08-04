@@ -15,6 +15,3 @@ execute store result score @s odm_dmg_L run data get entity @s Inventory[{Slot:-
 
 execute as @s[predicate=snc:odm/has_spear_r] run function snc:player/odm/replace_weapon/thunder/effects {"side":"R"}
 execute as @s[predicate=snc:odm/has_spear_l] run function snc:player/odm/replace_weapon/thunder/effects {"side":"L"}
-
-# Aux impulse
-execute if score @s odm_state matches 1 run scoreboard players add @s odm_push 1

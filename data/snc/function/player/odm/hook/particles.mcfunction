@@ -4,8 +4,7 @@ scoreboard players add @s snc.odm_dist 1
 $execute if entity @p[name=$(name),distance=..1.3] run tag @s add snc.hook.break
 
 #$tellraw $(name) [{"text":"$(name)"}," ",{"score":{"name":"@s","objective":"snc.odm_dist"}}]
-#execute unless score @s snc.odm_dist = @s snc.odm_dist.before run function snc:player/odm/hook/length
-execute if entity @s[tag=snc.hook.break] unless score @s snc.odm_dist = @s snc.odm_dist.before run function snc:player/odm/hook/length
+$execute if entity @s[tag=snc.hook.break] unless score @s snc.odm_dist = @s snc.odm_dist.before run function snc:player/odm/hook/length {"name":$(name)}
 
 $execute if score @s projectile matches 4.. if score @s[tag=!snc.hook.retract] snc.odm_dist matches 36.. as $(name) run function snc:player/odm/hook/shake
 execute if score @s projectile matches 4.. if score @s snc.odm_dist matches 36.. run tag @s add snc.hook.retract

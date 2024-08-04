@@ -16,8 +16,9 @@ $summon snowball ^1.6 ^.2 ^ {Air:1s,Tags:["not_mov","motion_odm"],Passengers:[{i
 
 # ODM status -> 1 on air
 scoreboard players set @s odm_state 1
+scoreboard players set @s snc.odm_push.left 0
+scoreboard players set @s snc.odm_push.right 0
 
 # Save Rotation to compare
 execute store result score @s snc.odm_throw_x run data get entity @s Rotation[0]
-execute if score @s snc.odm_throw_x matches ..-1 run scoreboard players operation @s snc.odm_throw_x *= #-1 constant
 execute store result score @s snc.odm_throw_y run data get entity @s Rotation[1]

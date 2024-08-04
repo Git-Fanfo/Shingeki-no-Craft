@@ -34,3 +34,8 @@ execute if score @s snc.odm_dist matches 32 run data modify entity @s transforma
 execute if score @s snc.odm_dist matches 33 run data modify entity @s transformation.scale set value [0.25f,0.25f,33f]
 execute if score @s snc.odm_dist matches 34 run data modify entity @s transformation.scale set value [0.25f,0.25f,34f]
 execute if score @s snc.odm_dist matches 35 run data modify entity @s transformation.scale set value [0.25f,0.25f,35f]
+
+$execute if entity @s[tag=snc.hook.buried,tag=snc.L] run scoreboard players operation $(name) snc.odm_push.left = @s snc.odm_dist
+$execute if entity @s[tag=snc.hook.buried,tag=snc.R] run scoreboard players operation $(name) snc.odm_push.right = @s snc.odm_dist
+
+#scoreboard objectives add snc.odm_push dummy
