@@ -1,6 +1,6 @@
 # Spread Titans
 execute if entity @s[tag=near] unless entity @e[distance=..64,tag=titan] run tag @s remove near
-execute if entity @s[tag=!near] if predicate snc:chance/5 run function snc:titans/spawn/wave
+execute if entity @s[tag=!near] if predicate snc:chance/3 run function snc:titans/spawn/wave
 
 # Pure Titan
 execute if entity @s[tag=wrap] unless entity @e[tag=titan,distance=0..5,limit=1,sort=nearest] run tag @s remove wrap

@@ -1,4 +1,4 @@
-execute unless score @s atk matches 256..300 unless predicate snc:player/is_sneaking run damage @s 5 player_attack
+execute unless score @s atk matches 256..300 unless predicate snc:player/is_sneaking run damage @s 5 generic
 
 tellraw @s[tag=snc.injured] ["","You ",{"text":"can't","bold":true,"color":"dark_red"}," turn into a ",{"text":"Titan","bold":true,"color":"dark_red"}," while you are ",{"text":"Injured","bold":true,"color":"yellow"}]
 

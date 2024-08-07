@@ -151,7 +151,6 @@ execute unless score curse config matches 0.. run scoreboard players set curse c
 
 #gamerule fallDamage false
 
-scoreboard objectives add snc.vehicle_move minecraft.custom:minecraft.horse_one_cm
 ##### HOW TO CREATE A SHIFTER #####
 scoreboard objectives add shifter_vars dummy
 ## Shifters

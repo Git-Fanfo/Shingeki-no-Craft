@@ -1,6 +1,7 @@
 ## Attribute
 attribute @s minecraft:player.block_interaction_range base set 4.5
 attribute @s minecraft:player.entity_interaction_range base set 4
+attribute @s minecraft:generic.scale base set 1
 
 ## Shifters
 execute if score @s shifter_vars matches 1.. run function snc:shifters/function/multiple {"pre":"function snc:shifters/transfer/lose with storage minecraft:","post":""}

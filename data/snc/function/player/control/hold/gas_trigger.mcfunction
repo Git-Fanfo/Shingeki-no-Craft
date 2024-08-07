@@ -1,7 +1,3 @@
-advancement revoke @s only snc:human/hold/gas_trigger
-## Effects
-execute if score ticks clock matches 19 if predicate snc:odm/has_odm run function snc:player/odm/effects
-
 execute as @s[tag=spin] run function snc:player/odm/gyro/slash/select
 
 # Spear They can have any

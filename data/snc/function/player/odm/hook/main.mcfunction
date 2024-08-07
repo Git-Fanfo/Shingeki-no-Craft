@@ -33,7 +33,7 @@ $execute if entity @s[tag=!snc.hook.retract] run scoreboard players operation $(
 #$tellraw $(name) [{"score":{"name":"$(name)","objective":"snc.rotation_x"}}," ",{"score":{"name":"$(name)","objective":"snc.odm_throw_x"}}]
 
 $execute if entity @s[tag=!snc.hook.retract] unless score $(name) snc.rotation_x matches -43..43 run scoreboard players set @s snc.odm_dist 40
-$execute if entity @s[tag=!snc.hook.retract] if score $(name) snc.rotation_y matches ..-40 run scoreboard players set @s snc.odm_dist 40
+$execute if entity @s[tag=!snc.hook.retract] if score $(name) snc.rotation_y matches ..-43 run scoreboard players set @s snc.odm_dist 40
 
 # Reset and Kill
 $execute if score $(name) odm_state matches 0 run tag @s add snc.hook.kill
