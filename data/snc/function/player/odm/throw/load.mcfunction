@@ -1,0 +1,8 @@
+item modify entity @s weapon.offhand snc:gas/20
+playsound minecraft:entity.breeze.idle_air
+playsound minecraft:entity.breeze.charge
+particle minecraft:gust ~ ~1 ~ 0 0 0 1 1 force
+particle minecraft:cloud ~ ~1 ~ 0 0 0 .3 50 force
+title @s times 0 2s 10t
+title @s title ""
+title @s subtitle [{"text":"✔ ","color": "green"},{"translate":"aot.odm.gas2","bold": true}," ✔"]

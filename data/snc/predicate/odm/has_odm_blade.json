@@ -3,11 +3,6 @@
   "entity": "this",
   "predicate": {
     "slots": {
-      "weapon.mainhand": {
-        "predicates": {
-          "minecraft:custom_data": "{trigger:1b,blade:1b}"
-        }
-      },
       "weapon.offhand": {
         "predicates": {
           "minecraft:custom_data": "{odm_gear:1b,blade:1b}"

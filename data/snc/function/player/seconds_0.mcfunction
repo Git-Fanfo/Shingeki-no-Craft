@@ -8,3 +8,5 @@ execute as @s[tag=in_village] run function snc:player/build/bell/in
 
 # Detect villager
 execute if score $talk_vill config matches 1 run tag @e[type=villager,distance=..5] add snc.dialogue
+
+execute unless score time clock matches 12900..23500 if predicate snc:player/can_see_sky if items entity @s container.* minecraft:quartz[custom_data~{snc.iceburst:1b}] run function snc:player/odm/throw/remove

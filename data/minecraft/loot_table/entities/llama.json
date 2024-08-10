@@ -1,51 +1,45 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
-      {
-        "rolls": 1,
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "type": "minecraft:uniform",
-                  "min": 0,
-                  "max": 2
-                },
-                "add": false
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
               },
-              {
-                "function": "minecraft:looting_enchant",
-                "count": {
-                  "type": "minecraft:uniform",
-                  "min": 0,
-                  "max": 1
-                }
+              "add": false
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bone",
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 1
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "random_sequence": "minecraft:entities/llama"
-  }
-  
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/llama"
+}

@@ -58,6 +58,7 @@ scoreboard players set time clock 0
 #   2 -> Landed 1
 #   3 -> Landed 2
 scoreboard objectives add odm_state dummy
+scoreboard objectives add snc.odm_gas dummy
 # Distance to the ropes
 scoreboard objectives add snc.odm_dist dummy
 scoreboard objectives add snc.odm_dist.before dummy

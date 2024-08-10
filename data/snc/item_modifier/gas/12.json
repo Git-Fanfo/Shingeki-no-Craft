@@ -1,0 +1,13 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:item_name": "[{\"translate\":\"aot.odm\"}, \" [Gas 60%]\"]"
+        }
+    },{
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "odm_gas": 12
+        }
+    }
+]

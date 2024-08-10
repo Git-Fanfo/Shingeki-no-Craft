@@ -38,15 +38,6 @@
 				"per_level_above_first": 0.1
 			},
 			"operation": "add_value"
-		},{
-			"attribute": "minecraft:player.entity_interaction_range",
-			"id": "snc.swing.entity_interaction_range",
-			"amount": {
-				"type": "linear",
-				"base": 2,
-				"per_level_above_first": 0.1
-			},
-			"operation": "add_value"
 		}]
 	}
 }

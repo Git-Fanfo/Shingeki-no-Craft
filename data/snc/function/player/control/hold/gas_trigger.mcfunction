@@ -3,7 +3,7 @@ execute as @s[tag=spin] run function snc:player/odm/gyro/slash/select
 # Spear They can have any
 execute if score @s odm_action matches 0.. if block ~ ~-.5 ~ air if predicate snc:player/is_sneaking run function snc:player/odm/replace_weapon/thunder/trigger
 
-execute unless predicate snc:odm/has_odm_blade run tag @s remove spin
+execute unless predicate snc:odm/has_full_blade run tag @s remove spin
 
 ## DAMAGE
 execute store result score @s odm_dmg_R run data get entity @s SelectedItem.components."minecraft:damage"

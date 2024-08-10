@@ -2,7 +2,8 @@
 advancement grant @p[distance=0..30] only snc:titan/close
 
 ## Agro
-execute if predicate snc:chance/10 rotated ~ 0 positioned ^ ^1 ^-2 run damage @s 0 out_of_world by @e[type=#snc:human,sort=nearest,limit=1,tag=!titan]
+#execute if predicate snc:chance/10 rotated ~ 0 positioned ^ ^1 ^-2 run damage @s 0 out_of_world by @n[type=#snc:human,tag=!titan,distance=10..]
+execute if predicate snc:chance/10 run damage @s 0 out_of_world by @n[type=#snc:human,tag=!titan,distance=10..]
 execute if entity @e[tag=ai,distance=0.1..3] run function snc:titans/ai/jump
 
 ## Effects

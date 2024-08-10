@@ -1,3 +1,4 @@
+effect give @s resistance infinite 5 true
 ## Rotate model
 execute on passengers if entity @s[type=item_display] run tp @s ~ ~ ~ ~ 0
 # Is moving?
