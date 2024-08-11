@@ -146,6 +146,7 @@ execute unless score hard config matches 0.. run scoreboard players set hard con
 execute unless score $titn_spwn_rate config matches 0.. run scoreboard players set $titn_spwn_rate config 2
 execute unless score $bossbar config matches 0.. run scoreboard players set $bossbar config 1
 execute unless score show_kills config matches 0.. run function snc:logic/manual/on/show_kills
+execute unless score $odm_gas config matches 0.. run scoreboard players set $odm_gas config 1
 execute unless score comm_feed config matches 0.. run function snc:logic/manual/off/send_command_feedback
 execute unless score col_exp config matches 0.. run scoreboard players set col_exp config 1
 execute unless score curse config matches 0.. run scoreboard players set curse config 1

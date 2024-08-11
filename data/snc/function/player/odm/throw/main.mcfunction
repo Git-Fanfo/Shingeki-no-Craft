@@ -11,6 +11,8 @@ execute if score @s snc.odm_gas matches 5..6 run playsound minecraft:aot.shoot p
 execute if score @s snc.odm_gas matches 3..4 run playsound minecraft:aot.shoot player @a ~ ~ ~ 3 0.96
 execute if score @s snc.odm_gas matches 1..2 run playsound minecraft:aot.shoot player @a ~ ~ ~ 3 0.94
 
+execute unless score $odm_gas config matches 1 run playsound minecraft:aot.shoot player @a ~ ~ ~ 3 1.0
+
 ## Effects
 execute rotated ~ 0 positioned ^.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force
 execute rotated ~ 0 positioned ^-.5 ^ ^.2 run particle minecraft:cloud ~ ~1 ~ ^ ^ ^2000000 0.0000003 0 force

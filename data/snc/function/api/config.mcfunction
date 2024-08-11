@@ -11,6 +11,9 @@ execute if score hard config matches 0 if score $survey config matches 1 run tel
 # Show kills
 execute if score show_kills config matches 1 if score $survey config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.3","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -6"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 execute if score show_kills config matches 0 if score $survey config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.3","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -5"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+# ODM Gas
+execute if score $odm_gas config matches 1 if score $survey config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.21","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -60"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+execute if score $odm_gas config matches 0 if score $survey config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.21","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -59"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 
 ## Villagers
 execute if score $villager config matches 0 run tellraw @s [{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.villagers","color":"dark_aqua"},{"text": " [","color": "green"},{"text":"■","color": "yellow","clickEvent":{"action":"run_command","value":"/trigger manual set -1002"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.expand","color":"yellow"}]}},{"text": "]","color": "green"}]
