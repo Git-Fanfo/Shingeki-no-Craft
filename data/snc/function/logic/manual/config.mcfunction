@@ -49,6 +49,8 @@ execute as @s[scores={manual=-58}] run scoreboard players set $birth_rate config
 
 execute as @s[scores={manual=-59}] run scoreboard players set $odm_gas config 1
 execute as @s[scores={manual=-60}] run scoreboard players set $odm_gas config 0
+execute as @s[scores={manual=-61}] run scoreboard players set $titan_tracking config 1
+execute as @s[scores={manual=-62}] run scoreboard players set $titan_tracking config 0
 
 
 

@@ -149,6 +149,7 @@ execute unless score $odm_gas config matches 0.. run scoreboard players set $odm
 execute unless score comm_feed config matches 0.. run function snc:logic/manual/off/send_command_feedback
 execute unless score col_exp config matches 0.. run scoreboard players set col_exp config 1
 execute unless score curse config matches 0.. run scoreboard players set curse config 1
+execute unless score $titan_tracking config matches 0.. run scoreboard players set $titan_tracking config 1
 
 #gamerule fallDamage false
 
