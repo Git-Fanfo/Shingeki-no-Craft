@@ -5,7 +5,7 @@ gamerule doImmediateRespawn true
 ## Logic
 scoreboard objectives add constant dummy
 scoreboard players set #-1 constant -1
-scoreboard players set $visfix constant 1
+#scoreboard players set $visfix constant 1
 scoreboard players set #15 constant 15
 scoreboard players set #100 constant 100
 scoreboard players set #45 constant 45
@@ -61,7 +61,6 @@ scoreboard objectives add odm_state dummy
 scoreboard objectives add snc.odm_gas dummy
 # Distance to the ropes
 scoreboard objectives add snc.odm_dist dummy
-scoreboard objectives add snc.odm_dist.before dummy
 scoreboard objectives add odm_dmg_R dummy
 scoreboard objectives add odm_dmg_L dummy
 # Time to push the player, the bigger it is the stronger it gets

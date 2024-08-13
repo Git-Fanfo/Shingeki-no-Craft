@@ -11,9 +11,9 @@ execute if score @s snc.odm_gas matches 1..2 run playsound minecraft:aot.impulse
 
 execute unless score $odm_gas config matches 1 run playsound minecraft:aot.impulse player @a ~ ~ ~ 2 1.0
 
-execute if score @s snc.odm_push matches 0..8 run function snc:player/odm/impulse/push {"power":2, "x":"^", "y":"^", "z":"^-1.5"}
-execute if score @s snc.odm_push matches 9..18 run function snc:player/odm/impulse/push {"power":3, "x":"^", "y":"^", "z":"^-1.7"}
-execute if score @s snc.odm_push matches 19..45 run function snc:player/odm/impulse/push {"power":4, "x":"^", "y":"^", "z":"^-2.2"}
-execute if score @s snc.odm_push matches 46.. run function snc:player/odm/impulse/push {"power":5, "x":"^", "y":"^", "z":"^-2.5"}
+execute if score @s snc.odm_push matches 0..3 run function snc:player/odm/impulse/push {"power":2, "x":"^", "y":"^", "z":"^-1.5"}
+execute if score @s snc.odm_push matches 4 run function snc:player/odm/impulse/push {"power":3, "x":"^", "y":"^", "z":"^-1.7"}
+execute if score @s snc.odm_push matches 5 run function snc:player/odm/impulse/push {"power":4, "x":"^", "y":"^", "z":"^-2.2"}
+execute if score @s snc.odm_push matches 6.. run function snc:player/odm/impulse/push {"power":5, "x":"^", "y":"^", "z":"^-2.5"}
 
 return 1

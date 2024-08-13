@@ -2,7 +2,6 @@
 # Comment this line if everything starts lagging. Bomb's fault
 data modify entity @s CustomName set from entity @s Item.components."minecraft:custom_name"
 
-execute if data entity @s {Item:{id:"minecraft:lead"}} run kill
 execute if data entity @s {Item:{id:"minecraft:barrier"}} run kill
 
 execute if data entity @s Item.components."minecraft:custom_data".gene unless data entity @s Item.components."minecraft:custom_data".inv run function snc:item/return/sex

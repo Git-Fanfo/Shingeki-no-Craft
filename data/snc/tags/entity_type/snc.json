@@ -9,13 +9,12 @@
 		"minecraft:skeleton_horse",
 		"minecraft:camel",
 		"minecraft:area_effect_cloud",
-		"minecraft:giant",
 		"minecraft:falling_block",
 		"minecraft:snowball",
 		"minecraft:firework_rocket",
 		"minecraft:minecart",
 		"minecraft:chest_minecart",
-		"minecraft:arrow",
+		"minecraft:spectral_arrow",
 		"minecraft:shulker",
 
 		"minecraft:text_display",
@@ -23,10 +22,6 @@
 
 		"minecraft:ravager",
 		"minecraft:pillager",
-		"minecraft:vindicator",
-		
-		"minecraft:phantom"
-		
-		
+		"minecraft:vindicator"
 	]
 }

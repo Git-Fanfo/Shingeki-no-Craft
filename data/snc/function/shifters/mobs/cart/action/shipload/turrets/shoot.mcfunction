@@ -1,5 +1,5 @@
 # Shot
-summon arrow ~ ~ ~ {ShotFromCrossbow:1b,PierceLevel:2b,damage:2d,Tags:["snc.projectile","not_mov","motion_bullet"],item:{components:{"minecraft:potion_contents": {custom_color:16772608,potion:"minecraft:water_breathing"}}, count:1, id:"minecraft:arrow"}}
+summon spectral_arrow ~ ~ ~ {Duration:0,PierceLevel:2b,damage:2d,Tags:["snc.projectile","not_mov","motion_bullet"],item:{count:1, id:"minecraft:arrow"}}
 data modify entity @e[tag=motion_bullet,sort=nearest,limit=1] Owner set from entity @s UUID
 
 effect give @s slowness 1 4 true
