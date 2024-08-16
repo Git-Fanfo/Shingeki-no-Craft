@@ -1,1 +1,0 @@
-$summon item_display ~ ~ ~ {item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:$(UUID)}}}}

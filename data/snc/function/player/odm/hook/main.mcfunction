@@ -1,6 +1,6 @@
 scoreboard players set @s snc.odm_dist 0
 execute if entity @s[tag=!snc.wire.buried] run scoreboard players add @s projectile 1
-execute if entity @s[tag=snc.wire.init] run function snc:player/odm/hook/init
+execute unless score @s[tag=snc.wire.init] projectile matches 1..2 run function snc:player/odm/hook/init
 $execute facing entity $(name) feet run tp @s ~ ~ ~ ~-.3 ~-0.9
 
 tag @s remove snc.wire.break

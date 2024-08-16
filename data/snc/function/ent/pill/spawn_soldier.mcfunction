@@ -2,7 +2,7 @@
 
 ## IF = 0
 # SPAWN MARLEYAN
-execute if score marley spawn matches 0 run function snc:ent/pill/summon/1
+execute if score marley spawn matches 0 summon pillager run function snc:ent/pill/summon/1
 
 # Matar aldeano
 tp @s ~ ~-256 ~

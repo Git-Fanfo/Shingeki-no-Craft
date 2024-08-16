@@ -9,4 +9,4 @@ playsound minecraft:block.amethyst_cluster.break player @a ~ ~ ~ 3.5 2
 
 tag @s add snc.wire.buried
 scoreboard players set @s projectile 4
-tp ^ ^ ^-.7
+tp ^ ^-.6 ^-.7

@@ -93,6 +93,8 @@ data modify storage snc:hx_chrs hex_chars set value ["00","01","02","03","04","0
 
 # Projectiles
 scoreboard objectives add projectile dummy
+scoreboard objectives add snc.bullets dummy
+scoreboard objectives add snc.recoil dummy
 
 # Villagers
 scoreboard objectives add reputation dummy

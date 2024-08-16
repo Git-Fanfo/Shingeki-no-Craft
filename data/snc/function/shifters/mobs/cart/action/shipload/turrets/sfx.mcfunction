@@ -14,6 +14,4 @@ execute if score @s random matches 3 run playsound minecraft:aot.human.gun.turre
 execute if score @s random matches 3 run playsound minecraft:aot.human.gun.turret.far player @s[distance=31..] ~ ~ ~ 8.5 1.05
 execute if score @s random matches 3 run playsound minecraft:aot.human.gun.casing player @s[distance=..5] ~ ~ ~ 1 1.05
 
-
-
 scoreboard players reset @s random

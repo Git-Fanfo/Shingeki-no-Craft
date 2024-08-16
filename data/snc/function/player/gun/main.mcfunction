@@ -4,7 +4,7 @@ execute if entity @s[tag=snc.wire] run function snc:player/odm/hook/main with en
 
 execute if entity @s[tag=snc.sticky] run function snc:player/gun/sticky/main
 
-execute if entity @s[tag=motion_bullet] run function snc:player/gun/bullet/air
+execute if entity @s[tag=snc.bullet] run function snc:player/gun/bullet/air
 
 execute if entity @s[tag=motion_flare] run function snc:player/gun/flare/effect
 

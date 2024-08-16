@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:crossbow[custom_data={snc_item:1, snc_bullets:0, snc_carcano:True},minecraft:custom_model_data=1,minecraft:enchantments={'levels': {'snc:gun/carcano': 1}, 'show_in_tooltip': False},enchantment_glint_override=False,item_name='[{"translate":"aot.gun.carcano","color":"white"}, " [0/6]"]'] 1

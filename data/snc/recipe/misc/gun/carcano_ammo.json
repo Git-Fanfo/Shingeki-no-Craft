@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      " C ",
+      "CGC",
+      "IGI"
+    ],
+    "key": {
+      "I": {"item": "minecraft:iron_ingot"},
+      "C": {"item": "minecraft:copper_ingot"},
+      "G": {"item": "minecraft:gunpowder"}
+    },
+    "result": {
+      "count": 1,
+      "id": "minecraft:spectral_arrow",
+      "components": {
+          "custom_data":{"snc_item":1,"snc_carcano":true},
+          "minecraft:custom_model_data": 1,
+          "max_stack_size": 3,
+          "item_name":"[{\"translate\":\"aot.gun.carcano\"},\" \",{\"translate\":\"aot.gun.ammo\"}]"
+        }
+    }
+  }

@@ -1,6 +1,6 @@
 # Shot
-summon spectral_arrow ~ ~ ~ {Duration:0,PierceLevel:2b,damage:2d,Tags:["snc.projectile","not_mov","motion_bullet"],item:{count:1, id:"minecraft:arrow"}}
-data modify entity @e[tag=motion_bullet,sort=nearest,limit=1] Owner set from entity @s UUID
+summon spectral_arrow ~ ~ ~ {PierceLevel:2b,damage:2d,Tags:["snc.projectile","snc.bullet","snc.bullet.init","snc.bullet.player"],item:{count:1, id:"minecraft:arrow"}}
+data modify entity @e[tag=snc.bullet,sort=nearest,limit=1] Owner set from entity @s UUID
 
 effect give @s slowness 1 4 true
 

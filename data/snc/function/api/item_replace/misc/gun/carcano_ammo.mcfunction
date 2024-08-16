@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:spectral_arrow[custom_data={snc_item:1, snc_carcano:True},minecraft:custom_model_data=1,max_stack_size=3,item_name='[{"translate":"aot.gun.carcano"}," ",{"translate":"aot.gun.ammo"}]'] 1

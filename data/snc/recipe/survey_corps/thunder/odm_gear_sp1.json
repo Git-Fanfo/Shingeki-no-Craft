@@ -13,7 +13,7 @@
     "count": 1,
     "id": "minecraft:warped_fungus_on_a_stick",
     "components": {
-      "custom_data":{"odm_gear":true,"spear":true,"load":true,"snc_item":1},
+      "custom_data":{"odm_gear":true,"odm_gas":20,"spear":true,"load":true,"snc_item":1},
       "minecraft:custom_model_data": 6,
       "damage":66,
       "rarity":"uncommon",
