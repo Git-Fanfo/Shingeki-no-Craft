@@ -2,9 +2,9 @@
   "type": "crafting_shaped",
   "category": "misc",
   "pattern": [
+    " I ",
     " C ",
-    "CGC",
-    "IGI"
+    " G "
   ],
   "key": {
     "I": {"item": "minecraft:iron_ingot"},
@@ -15,10 +15,10 @@
     "count": 1,
     "id": "minecraft:spectral_arrow",
     "components": {
-      "custom_data":{"snc_item":1,"snc_carcano":true},
-      "minecraft:custom_model_data": 1,
+      "custom_data":{"snc_item":1,"snc_mauser":true},
+      "minecraft:custom_model_data": 2,
       "max_stack_size": 3,
-      "item_name":"[{\"translate\":\"aot.gun.carcano\"},\" \",{\"translate\":\"aot.gun.ammo\"}]",
+      "item_name":"[{\"translate\":\"aot.gun.mauser\"},\" \",{\"translate\":\"aot.gun.ammo\"}]",
       "lore":["[{\"translate\":\"aot.gun.desc\",\"color\":\"gray\",\"italic\":false},\" \",{\"translate\":\"aot.offhand\",\"color\":\"yellow\",\"italic\":false}]","[{\"translate\":\"aot.gun.desc1\",\"color\":\"gray\",\"italic\":false},\" \",{\"translate\":\"aot.gun.desc2\",\"color\":\"red\",\"italic\":false}]","{\"translate\":\"aot.gun.desc3\",\"color\":\"red\",\"italic\":false}"]
     }
   }

@@ -1,5 +1,5 @@
 #scoreboard players add @s earthquake 6
-data merge entity @n[type=spectral_arrow] {PierceLevel:1b,damage:7d,Tags:["snc.projectile","snc.bullet","snc.bullet.init","snc.bullet.player"]}
+data merge entity @n[type=spectral_arrow] {PierceLevel:1b,damage:6d,Tags:["snc.projectile","snc.bullet","snc.bullet.init","snc.bullet.player"]}
 
 scoreboard players set @s snc.recoil 0
 execute store result score @s snc.bullets run \

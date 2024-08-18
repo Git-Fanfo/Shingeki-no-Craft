@@ -18,7 +18,7 @@
             {
                 "effect": {    
                     "type": "minecraft:run_function",
-                    "function": "snc:player/gun/bullet/carcano/detect"
+                    "function": "snc:player/gun/bullet/mauser/detect"
                 }
             }
         ],
@@ -26,18 +26,13 @@
             { 
                 "effect": { 
                     "type": "run_function", 
-                    "function": "snc:player/gun/bullet/carcano/main" 
+                    "function": "snc:player/gun/bullet/mauser/main" 
                 }, 
                 "requirements": { 
                     "condition": "minecraft:entity_properties", 
                     "entity": "this", 
                     "predicate": { 
-                        "type": "minecraft:player", 
-                        "slots": { 
-                            "weapon.mainhand": { 
-                                "predicates": {"minecraft:custom_data": "{snc_carcano:1b}"} 
-                            } 
-                        } 
+                        "type": "minecraft:player"
                     } 
                 } 
             }],
@@ -45,7 +40,7 @@
         "type": "minecraft:add",
         "value": {
             "type": "minecraft:linear",
-            "base": 0.5,
+            "base": -0.5,
             "per_level_above_first": 0
         }
         },

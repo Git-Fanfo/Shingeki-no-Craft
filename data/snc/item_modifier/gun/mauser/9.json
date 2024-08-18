@@ -1,0 +1,13 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:item_name": "[{\"translate\":\"aot.gun.mauser\",\"color\":\"white\"}, \" [9/10]\"]"
+        }
+      },{
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "snc_bullets": 9
+        }
+    }
+]

@@ -5,8 +5,8 @@
         {
             "id": "minecraft:spectral_arrow",
             "components": {
-                "item_name":"[{\"translate\":\"aot.gun.carcano\"},\" \",{\"translate\":\"aot.gun.ammo\"}]",
-                "custom_data": {"snc_carcano": 1}
+                "item_name":"[{\"translate\":\"aot.gun.mauser\"},\" \",{\"translate\":\"aot.gun.ammo\"}]",
+                "custom_data": {"snc_mauser": 1}
             }
         }
         ]

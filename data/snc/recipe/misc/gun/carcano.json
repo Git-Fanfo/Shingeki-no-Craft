@@ -8,7 +8,7 @@
     ],
     "key": {
       "I": {"item": "minecraft:iron_ingot"},
-      "B": {"item": "minecraft:stripped_mangrove_wood"}
+      "B": {"item": "minecraft:stripped_mangrove_log"}
     },
     "result": {
       "count": 1,

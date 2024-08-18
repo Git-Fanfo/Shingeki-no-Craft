@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "   ",
+      " II",
+      "  B"
+    ],
+    "key": {
+      "I": {"item": "minecraft:iron_ingot"},
+      "B": {"item": "minecraft:stripped_dark_oak_log"}
+    },
+    "result": {
+      "count": 1,
+      "id": "minecraft:crossbow",
+      "components": {
+          "custom_data":{"snc_item":1,"snc_bullets":0,"snc_mauser":true},
+          "minecraft:custom_model_data": 2,
+          "minecraft:enchantments":{"levels":{"snc:gun/mauser":1},"show_in_tooltip":false},
+          "enchantment_glint_override":false,
+          "item_name":"[{\"translate\":\"aot.gun.mauser\",\"color\":\"white\"}, \" [0/10]\"]"
+        }
+    }
+  }

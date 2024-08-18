@@ -6,5 +6,5 @@ execute unless items entity @s weapon.mainhand minecraft:crossbow[minecraft:char
     run function snc:player/gun/bullet/carcano/chamber
 
 execute if score @s snc.bullets matches 1.. if score @s snc.recoil matches 0 run playsound minecraft:aot.human.gun.carcano.chamber player @a
-execute unless score @s snc.recoil matches 15.. run scoreboard players add @s snc.recoil 1
-execute if score @s snc.bullets matches 1.. if score @s snc.recoil matches 15.. run item modify entity @s weapon.mainhand snc:gun/carcano/reload
+execute unless score @s snc.recoil matches 16.. run scoreboard players add @s snc.recoil 1
+execute if score @s snc.bullets matches 1.. if score @s snc.recoil matches 16.. run item modify entity @s weapon.mainhand snc:gun/carcano/reload
