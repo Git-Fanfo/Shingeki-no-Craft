@@ -45,7 +45,7 @@
           "{\"translate\":\"aot.odm.mod\",\"color\":\"aqua\",\"italic\":false}",
           "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.steel\",\"color\":\"gray\",\"italic\":false}]",
           "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.thunder\",\"color\":\"gray\",\"italic\":false}]",
-          "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.firearm\",\"color\":\"gray\",\"italic\":false}]"
+          "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.cartridges\",\"color\":\"gray\",\"italic\":false}]"
         ],
 
     "minecraft:attribute_modifiers":[{"type":"generic.attack_speed","amount":-0.3,"operation":"add_value","id":"snc.odm_gear.attack_speed","slot":"offhand"}]}    

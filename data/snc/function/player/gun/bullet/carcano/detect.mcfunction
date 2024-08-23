@@ -1,2 +1,2 @@
-data merge entity @s {PierceLevel:1b,damage:6.5d,Tags:["snc.projectile","snc.bullet","snc.bullet.init"]}
+data merge entity @s {PierceLevel:1b,damage:2.1d,Tags:["snc.projectile","snc.bullet","snc.bullet.init"]}
 execute as @n[type=!#snc:pivot] at @s anchored eyes run function snc:player/gun/bullet/carcano/init

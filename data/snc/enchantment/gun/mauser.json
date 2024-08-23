@@ -31,8 +31,13 @@
                 "requirements": { 
                     "condition": "minecraft:entity_properties", 
                     "entity": "this", 
-                    "predicate": { 
-                        "type": "minecraft:player"
+                    "predicate": {
+                        "type": "minecraft:player", 
+                        "slots": { 
+                            "weapon.mainhand": { 
+                                "predicates": {"minecraft:custom_data": "{snc_mauser:1b}"} 
+                            } 
+                        } 
                     } 
                 } 
             }],

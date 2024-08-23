@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.adv.carcano",
+            "color": "dark_red"
+        },
+        "description": {
+			"translate": "aot.adv.carcano1",
+            "color": "white"
+        },
+        "icon": {"id": "minecraft:crossbow","components": {"custom_model_data": 1}},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+    "parent": "snc:firearms/humans"
+  }
+  

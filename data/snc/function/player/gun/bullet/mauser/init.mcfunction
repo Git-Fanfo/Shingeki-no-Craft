@@ -1,6 +1,5 @@
 execute if entity @s[type=player] run function snc:player/gun/bullet/mauser/player
 
-execute anchored feet run tp @s ~ ~ ~ ~ ~-2
 particle dust_plume ^ ^-.4 ^1.5 0 0 0 0 10 force
 
 playsound minecraft:aot.human.gun.mauser.short player @a ~ ~ ~ 8.5 1

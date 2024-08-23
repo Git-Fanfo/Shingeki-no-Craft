@@ -2,8 +2,7 @@
     "display": {
         "title": {
 			"translate": "aot",
-            "color": "dark_red",
-            "bold": true
+            "color": "dark_red"
         },
         "description": {
 			"translate": "aot.credit",

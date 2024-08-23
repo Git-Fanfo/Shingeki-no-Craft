@@ -1,6 +1,3 @@
-#scoreboard players add @s earthquake 6
-data merge entity @n[type=spectral_arrow] {PierceLevel:1b,damage:6d,Tags:["snc.projectile","snc.bullet","snc.bullet.init","snc.bullet.player"]}
-
 scoreboard players set @s snc.recoil 0
 execute store result score @s snc.bullets run \
     data get entity @s SelectedItem.components."minecraft:custom_data".snc_bullets

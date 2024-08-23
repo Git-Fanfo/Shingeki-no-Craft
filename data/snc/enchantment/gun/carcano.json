@@ -31,7 +31,7 @@
                 "requirements": { 
                     "condition": "minecraft:entity_properties", 
                     "entity": "this", 
-                    "predicate": { 
+                    "predicate": {
                         "type": "minecraft:player", 
                         "slots": { 
                             "weapon.mainhand": { 

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "barrier"}
+    ],
+    "result": {
+        "id": "minecraft:written_book",
+        "count": 1,
+        "components": {
+            "custom_model_data":8,
+            "custom_data": {"snc_item":1},
+            "written_book_content": {
+                "title": "Firearms",
+                "author": "Pauld Wohd",
+                "generation": 2,
+                "pages": [
+                    "{\"text\":\"\\uE379\",\"color\":\"white\"}",
+                    "[{\"text\":\"\\uE301\",\"color\":\"white\"},{\"text\":\"1. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Carcano\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"}},\"\\n\",{\"text\":\"2. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Mauser\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4\"}},\"\\n\",{\"text\":\"3. \",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"Reload\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5\"}}]",
+                    "[{\"text\":\"\\uE380\",\"color\":\"white\"},{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n \\uE300\",\"bold\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"}}]",
+                    "[{\"text\":\"\\uE381\",\"color\":\"white\"},{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n \\uE300\",\"bold\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"}}]",
+                    "[{\"text\":\"\\uE382\",\"color\":\"white\"},{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n \\uE300\",\"bold\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"}}]"
+                ]
+            }
+        }
+    }
+}
