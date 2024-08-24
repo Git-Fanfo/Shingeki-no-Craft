@@ -38,11 +38,6 @@ $execute store result score player_rotation $(shifter)_vars run data get entity 
 
 ## Prevent Moving Inventory (Almost)
 $execute if items entity @s player.cursor *[minecraft:custom_data~{atk_shifter:1b}] run function snc:shifters/mobs/$(shifter)/abilities/give
-# Prevent using armor
-$execute unless score state $(shifter)_vars matches 1 unless items entity @s armor.head minecraft:carved_pumpkin run function snc:shifters/human/restart_abilities
-execute if items entity @s armor.chest #minecraft:chest_armor run function snc:shifters/human/restart_abilities
-execute if items entity @s armor.legs #minecraft:leg_armor run function snc:shifters/human/restart_abilities
-execute if items entity @s armor.feet #minecraft:foot_armor run function snc:shifters/human/restart_abilities
 
 ## Health system
 # When doesn't have absortion then add tag 'injured'

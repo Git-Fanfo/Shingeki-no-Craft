@@ -7,6 +7,11 @@ execute if score @s shifter_vars matches 1 run function snc:shifters/mobs/cart/a
 ## UNIQUE: BEAST
 
 $data modify storage minecraft:$(shifter) Inventory set from entity @s Inventory
+$execute if items entity @s armor.head minecraft:leather_helmet[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Inventory[{Slot:103b}] set value {"id":"minecraft:air"}
+$execute if items entity @s armor.chest minecraft:leather_chestplate[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Inventory[{Slot:102b}] set value {"id":"minecraft:air"}
+$execute if items entity @s armor.legs minecraft:leather_leggings[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Inventory[{Slot:101b}] set value {"id":"minecraft:air"}
+$execute if items entity @s armor.feet minecraft:leather_boots[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Inventory[{Slot:100b}] set value {"id":"minecraft:air"}
+
 effect give @s invisibility 1 0 true
 
 clear @s
