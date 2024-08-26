@@ -5,7 +5,7 @@ execute if score @s atk matches 133 run data modify entity @s item.components.mi
 execute if score @s atk matches 132 run data modify entity @s item.components.minecraft:custom_model_data set value 26
 execute if score @s atk matches 130 run data modify entity @s item.components.minecraft:custom_model_data set value 27
 
-execute if score @s atk matches ..71 run tag @s remove attack
+execute if score @s atk matches ..120 run tag @s remove attack
 
 ## PURE_DESTROY
 execute if score $pure_destroy config matches 1 on vehicle at @s rotated ~ 0 positioned ^ ^.5 ^1 run function snc:titans/ai/destroy/check

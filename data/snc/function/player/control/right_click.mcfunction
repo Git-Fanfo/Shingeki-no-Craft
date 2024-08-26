@@ -3,9 +3,9 @@ scoreboard players set @s snc.hold.rc 5
 
 
 # Impulse
-execute if score @s[tag=!wrap] odm_state matches 1.. if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm if function snc:player/odm/impulse/main run return -1
+execute if score @s[tag=!snc.grabbed] odm_state matches 1.. if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm if function snc:player/odm/impulse/main run return -1
 #Throw
-execute if score @s[tag=!wrap,tag=!snc.injured] odm_state matches 0 if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm run function snc:player/odm/throw/config
+execute if score @s[tag=!snc.grabbed,tag=!snc.injured] odm_state matches 0 if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm run function snc:player/odm/throw/config
 
 ## Turn Titan
 execute as @s[predicate=snc:shifters/has_add] run function snc:shifters/human/check_transform

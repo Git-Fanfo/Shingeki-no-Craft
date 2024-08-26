@@ -11,6 +11,10 @@ execute if score @s atk matches 124 run data modify entity @s item.components.mi
 execute if score @s atk matches 122 run data modify entity @s item.components.minecraft:custom_model_data set value 138
 execute if score @s atk matches 120 run data modify entity @s item.components.minecraft:custom_model_data set value 139
 execute if score @s atk matches 118 run data modify entity @s item.components.minecraft:custom_model_data set value 140
+
+execute if score @s atk matches 118 run playsound minecraft:entity.breeze.jump hostile @a ~ ~ ~ 2 .75
+execute if score @s atk matches 118 on vehicle at @s run particle minecraft:cloud ~ ~.5 ~ 2 0 2 .05 20
+
 execute if score @s atk matches 116 run data modify entity @s item.components.minecraft:custom_model_data set value 141
 execute if score @s atk matches 113 run data modify entity @s item.components.minecraft:custom_model_data set value 142
 execute if score @s atk matches 109 run data modify entity @s item.components.minecraft:custom_model_data set value 143

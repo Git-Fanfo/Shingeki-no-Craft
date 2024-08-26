@@ -1,10 +1,14 @@
 # Range
-execute if score @s atk matches 70 run function snc:titans/model/attack {"distance" : 5}
-# Look Titan
-#execute if score @s atk matches 38..70 as @p[tag=wrap,distance=..5] at @s run tp @s ~ ~ ~ facing entity @e[sort=nearest, tag=collision,limit=1] feet
+execute if score @s atk matches 70 on vehicle unless function snc:titans/mobs/3/attack/trigger run return -1
+execute if score @s atk matches 70 run tag @s add attack
+execute if score @s atk matches 70 run data modify entity @s item.components."minecraft:custom_data".hex_UUID set from storage snc:hx_chrs out
+execute if score @s atk matches 70 run data modify storage snc:hx_chrs out set value "snc-blank-UUID"
+
 # Attack
-execute if score @s atk matches 70 run effect give @p[tag=wrap,distance=..5] levitation 2 0 true
-execute as @p[tag=wrap,distance=..5] run function snc:titans/model/grab
+execute if score @s atk matches 70 on vehicle run effect give @s slowness 2 6 true
+$execute as $(hex_UUID) run function snc:titans/model/grab
 
 # Apply dmg
-execute if score @s atk matches 38 as @e[type=!item,tag=!titan,distance=..3] at @s run function snc:titans/ai/damage_2 with storage minecraft:titan_3
+execute if score @s atk matches 38 as @e[type=!item,tag=!titan,distance=..3] at @s run function snc:titans/ai/damage_1 with storage minecraft:titan_3
+execute if score @s atk matches 38 run playsound minecraft:aot.shifters.bite hostile @a ~ ~ ~ 2 1
+execute if score @s atk matches 38 run data modify entity @s item.components."minecraft:custom_data".hex_UUID set value "snc-blank-UUID"

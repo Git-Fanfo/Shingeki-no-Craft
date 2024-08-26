@@ -14,7 +14,6 @@ scoreboard players reset @s movz
 
 ## Despawn
 function snc:titans/ai/despawn
-
 ## Attack
 execute rotated ~ 0 positioned ^ ^ ^2 on passengers run function snc:titans/ai/attack
 

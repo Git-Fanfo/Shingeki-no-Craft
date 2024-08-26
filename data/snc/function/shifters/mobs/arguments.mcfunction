@@ -53,7 +53,6 @@ data merge storage minecraft:colossal {\
     damage_jaw: 34, knockback_jaw: 0, energy_jaw: 40, angle_jaw: -5, \
     damage_step: 15 \
 }
-
 ## id : identifier of the shifter, never change.
 ## shifter : name of the shifter, never change.
 ## color : color of the shifter.

@@ -1,5 +1,6 @@
 # Range
-execute if score @s atk matches 140 run function snc:titans/model/attack {"distance" : 15}
+execute if score @s atk matches 140 on vehicle unless function snc:titans/mobs/6/attack/1_trigger run return -1
+execute if score @s atk matches 140 run tag @s add attack
 
 # Attack
-execute as @s[scores={atk=140}] on vehicle run effect give @s speed 3 2 true
+execute if score @s atk matches 140 on vehicle run effect give @s speed 3 2 true

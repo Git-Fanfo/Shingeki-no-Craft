@@ -1,6 +1,6 @@
 advancement revoke @s only snc:titan/kill
 
-execute as @s[tag=!titan,tag=!wrap] if predicate snc:odm/has_full_blade run function snc:player/titan/blade
+execute as @s[tag=!titan,tag=!snc.grabbed] if predicate snc:odm/has_full_blade run function snc:player/titan/blade
 
 ## Shifter
 # execute if score @s[tag=tranform] shifter_vars matches 1.. run function snc:player/titan/spear

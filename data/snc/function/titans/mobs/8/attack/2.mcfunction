@@ -1,6 +1,5 @@
 # Range
-execute if score @s atk matches 70 run function snc:titans/model/attack {"distance" : 4}
-execute if score @s[tag=attack] atk matches 70 on vehicle run tag @s add not_mov
-execute if score @s[tag=attack] atk matches 70 on vehicle run tag @s add motion_tf
+execute on vehicle unless function snc:titans/mobs/8/attack/2_trigger run return -1
+tag @s add attack
 
-# particle heart ~ ~ ~ 0 0 0 1 10 force
+execute on vehicle at @s run function snc:logic/apply_motion/titan/creepy

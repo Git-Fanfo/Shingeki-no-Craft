@@ -1,7 +1,5 @@
 # Range
-execute if score @s atk matches 70 run function snc:titans/model/attack {"distance" : 15}
+execute on vehicle unless function snc:titans/mobs/1/attack/1_trigger run return -1
+tag @s add attack
 
-# Attack
-execute if score @s atk matches 70 on vehicle run effect give @s slowness 1 5 true
-
-execute if score @s atk matches 62 run function snc:titans/tangible/vomit/summon
+execute on vehicle run effect give @s slowness 1 6 true

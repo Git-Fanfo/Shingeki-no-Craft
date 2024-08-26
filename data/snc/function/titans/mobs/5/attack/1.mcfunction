@@ -1,8 +1,10 @@
 # Range
-execute if score @s atk matches 140 run function snc:titans/model/attack {"distance" : 25}
-# Attack
-execute as @s[scores={atk=139}] if entity @s[tag=attack] on vehicle run effect give @s slowness 1 5 true
-execute as @s[scores={atk=118}] if entity @s[tag=attack] on vehicle run data modify entity @s Motion[1] set value 1.5d
+execute if score @s atk matches 140 on vehicle unless function snc:titans/mobs/5/attack/1_trigger run return -1
+tag @s add attack
+
+execute if score @s atk matches 140 on vehicle run effect give @s slowness 1 5 true
+
+execute if score @s atk matches 118 on vehicle at @s run function snc:logic/apply_motion/titan/vladlen
 
 # Apply dmg
-execute as @s[scores={atk=85}] as @e[type=!item,tag=!titan,distance=..4] at @s run function snc:titans/ai/damage_1 with storage minecraft:titan_5
+execute if score @s atk matches 118 as @e[type=!item,tag=!titan,distance=..4] at @s run function snc:titans/ai/damage_1 with storage minecraft:titan_5
