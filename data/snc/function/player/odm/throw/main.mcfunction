@@ -20,9 +20,17 @@ ride @s dismount
 
 ## O [hook][motion_odm] -> gets shoot and detects when motion_odm dies
 # Summon hooks
-$summon zombie_villager ^-1.1 ^.2 ^-1 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.R"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
+function snc:logic/uuid/gen {"storage":"odm"}
+data modify storage snc:hx_odm UUID set from entity @s UUID
+data modify storage snc:hx_odm pivot set value -1.1
+data modify storage snc:hx_odm side set value "R"
+function snc:player/odm/throw/summon with storage snc:hx_odm
+data modify storage snc:hx_odm pivot set value 1.1
+data modify storage snc:hx_odm side set value "L"
+function snc:player/odm/throw/summon with storage snc:hx_odm
+#$summon zombie_villager ^-1.1 ^.2 ^-1 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.R"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
 
-$summon zombie_villager ^1.1 ^.2 ^-1 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.L"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
+#$summon zombie_villager ^1.1 ^.2 ^-1 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.L"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
 
 # ODM status -> 1 on air
 scoreboard players set @s odm_state 1

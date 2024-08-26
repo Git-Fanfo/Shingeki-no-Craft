@@ -34,4 +34,4 @@ execute store result storage snc:hx_chrs_tmp e int 1 run scoreboard players oper
 execute store result storage snc:hx_chrs_tmp f int 1 run scoreboard players operation 3= snc.hex_chars /= $256 constant
 
 function snc:logic/uuid/get with storage snc:hx_chrs_tmp
-function snc:logic/uuid/concat with storage snc:hx_chrs_tmp
+$function snc:logic/uuid/concat/$(storage) with storage snc:hx_chrs_tmp
