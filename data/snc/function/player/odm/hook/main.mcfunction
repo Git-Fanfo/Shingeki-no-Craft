@@ -1,14 +1,14 @@
 scoreboard players set @s snc.odm_dist 0
 execute if entity @s[tag=!snc.wire.buried] run scoreboard players add @s projectile 1
-execute unless score @s[tag=snc.wire.init] projectile matches 1..2 run function snc:player/odm/hook/init
+#$execute if entity @s[tag=snc.wire.init] rotated as $(name) run function snc:player/odm/hook/init with entity @s
+$execute unless score @s[tag=snc.wire.init] projectile matches 1..2 rotated as $(name) run function snc:player/odm/hook/init with entity @s
 $execute facing entity $(name) feet run tp @s ~ ~ ~ ~-.3 ~-0.9
 
 tag @s remove snc.wire.break
-
 $execute if entity @s[tag=snc.wire.retract] facing entity $(name) feet run tp @s ^ ^ ^4 ~ ~
 # Kill hooks
 # Reached player
-$execute if entity @s[tag=snc.wire.retract] if entity @p[name=$(name),distance=..0.1] run tag @s add snc.wire.kill
+$execute if entity @s[tag=snc.wire.retract] if entity @p[name=$(name),distance=...1] run tag @s add snc.wire.kill
 # Missed player
 execute if entity @s[tag=snc.wire.retract] if score @s projectile matches 34.. run tag @s add snc.wire.kill
 # If deatached
@@ -39,8 +39,7 @@ $execute if score $(name) odm_state matches 0 run tag @s add snc.wire.kill
 execute if entity @s[tag=snc.wire.kill] run function snc:logic/kill_mob
 
 $execute if score @s projectile matches 4.. run function snc:player/odm/hook/particles {"name":$(name)}
-
 ## Land
 $execute unless score $(name) odm_state matches 0 if entity @s[tag=!snc.wire.buried,tag=!snc.wire.retract,tag=!snc.wire.air] run function snc:player/odm/hook/land {"name":$(name)}
-tag @s remove snc.wire.air
+execute if score @s projectile matches 4.. run tag @s remove snc.wire.air
 return 0

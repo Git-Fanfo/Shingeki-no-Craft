@@ -20,11 +20,9 @@ ride @s dismount
 
 ## O [hook][motion_odm] -> gets shoot and detects when motion_odm dies
 # Summon hooks
-$summon zombie_villager ^-.75 ^.2 ^1.45 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.R"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
+$summon zombie_villager ^-1.1 ^.2 ^-1 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.R"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
 
-$summon zombie_villager ^.75 ^.2 ^1.45 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.L"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
-
-execute as @e[tag=snc.wire,sort=nearest,limit=2] at @s run function snc:player/odm/hook/summon with entity @s
+$summon zombie_villager ^1.1 ^.2 ^-1 {leash:{UUID:$(UUID)},Team:"nocol",Tags:["snc.projectile","snc.wire","snc.wire.init","snc.wire.air","snc.wire.L"],NoAI:1b,Silent:1b,Invulnerable:1b,HandItems:[{id:"minecraft:player_head",count:1,components:{"minecraft:custom_model_data":4,"minecraft:profile":{id:$(UUID)}}},{}],ArmorItems:[{},{},{},{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}],attributes:[{id:"minecraft:generic.scale",base:.4}]}
 
 # ODM status -> 1 on air
 scoreboard players set @s odm_state 1

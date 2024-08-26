@@ -1,1 +1,0 @@
-$summon spectral_arrow ~ ~ ~ {Duration:0,Tags:["not_mov","motion_odm","snc.projectile","snc.hook"],Owner:$(UUID),damage:4,item:{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}}
