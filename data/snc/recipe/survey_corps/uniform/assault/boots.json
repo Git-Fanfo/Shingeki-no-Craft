@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_boots",
+    "components": {
+      "custom_data":{"survey_cops":true, "snc_item":1},
+      "custom_model_data": 1,
+      "trim":{"material":"blank","pattern":"scouts_dark","show_in_tooltip":false},
+      "minecraft:custom_name":"{\"translate\":\"aot.surveyboot\",\"color\":\"dark_green\",\"italic\":false}",
+      "minecraft:lore":["{\"translate\":\"aot.surveyboot.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyboot.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyboot.desc3\",\"color\":\"gray\",\"italic\":false}","{\"text\":\" \",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.footstatus.slow\",\"color\":\"blue\",\"italic\":false}"],
+      "minecraft:dyed_color":{"rgb":0,"show_in_tooltip":false},
+      "minecraft:unbreakable":{"show_in_tooltip":false},
+      "minecraft:attribute_modifiers":[{"type":"generic.armor","amount":2,"operation":"add_value","id":"snc.boots.armor","slot":"feet"},{"type":"generic.safe_fall_distance","amount":8,"operation":"add_value","id":"snc.boots.safe_fall_distance","slot":"feet"}]
+    }
+  },
+  "template": {
+    "item": "minecraft:black_dye"
+  }
+}

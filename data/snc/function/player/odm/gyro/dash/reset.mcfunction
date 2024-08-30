@@ -1,7 +1,7 @@
-function snc:api/item_replace/survey_corps/uniform/hood {"slot":"armor.head"}
-function snc:api/item_replace/survey_corps/uniform/cape {"slot":"armor.chest"}
-function snc:api/item_replace/survey_corps/uniform/harness {"slot":"armor.legs"}
-function snc:api/item_replace/survey_corps/uniform/boots {"slot":"armor.feet"}
+function snc:api/item_replace/survey_corps/uniform/explore/hood {"slot":"armor.head"}
+function snc:api/item_replace/survey_corps/uniform/explore/cape {"slot":"armor.chest"}
+function snc:api/item_replace/survey_corps/uniform/explore/harness {"slot":"armor.legs"}
+function snc:api/item_replace/survey_corps/uniform/explore/boots {"slot":"armor.feet"}
 
 # If busy then give
 execute if items entity @s weapon.mainhand * run function snc:api/give/survey_corps/odm/gas_trigger_blade

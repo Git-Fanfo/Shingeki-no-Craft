@@ -1,8 +1,8 @@
 # Range
 execute if score @s atk matches 140 on vehicle unless function snc:titans/mobs/3/attack/trigger run return -1
 execute if score @s atk matches 140 run tag @s add attack
-execute if score @s atk matches 140 run data modify entity @s item.components."minecraft:custom_data".hex_UUID set from storage snc:hx_chrs out
-execute if score @s atk matches 140 run data modify storage snc:hx_chrs out set value "snc-blank-UUID"
+execute if score @s atk matches 140 run data modify entity @s item.components."minecraft:custom_data".hex_UUID set from storage snc:hx_titan out
+execute if score @s atk matches 140 run data modify storage snc:hx_titan out set value "snc-blank-UUID"
 
 # Attack
 execute if score @s atk matches 140 on vehicle run effect give @s slowness 2 6 true
