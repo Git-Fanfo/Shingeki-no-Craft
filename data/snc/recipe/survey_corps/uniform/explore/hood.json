@@ -18,7 +18,7 @@
     "count": 1,
     "id": "minecraft:leather_helmet",
     "components": {
-      "custom_data":{"survey_cops":true, "snc_item":1},
+      "custom_data":{"survey_cops":true, "scouts_hood":true, "snc_item":1},
       "minecraft:item_name":"[{\"translate\":\"aot.surveyhood\",\"color\":\"white\",\"italic\":false},\" \",{\"translate\":\"aot.scouts.explore\",\"color\":\"dark_green\"}]",
       "minecraft:lore":["{\"translate\":\"aot.surveyhood.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyhood.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyhood.desc3\",\"color\":\"gray\",\"italic\":false}"],
       "minecraft:custom_model_data":1,

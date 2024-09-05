@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": {
+            "translate": "aot.adv.carbine",
+            "color": "dark_red"
+        },
+        "description": {
+			"translate": "aot.adv.carbine1",
+            "color": "white"
+        },
+        "icon": {"id": "minecraft:crossbow","components": {"custom_model_data": 3}},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+    "parent": "snc:firearms/humans"
+  }
+  

@@ -1,0 +1,13 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:item_name": "[{\"translate\":\"aot.gun.carbine\",\"color\":\"white\"}, \" [4/15]\"]"
+        }
+      },{
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "snc_bullets": 4
+        }
+    }
+]

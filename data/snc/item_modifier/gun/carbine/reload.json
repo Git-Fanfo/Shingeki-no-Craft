@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:charged_projectiles": [
+        {
+            "id": "minecraft:spectral_arrow",
+            "components": {
+                "item_name":"[{\"translate\":\"aot.gun.carbine\"},\" \",{\"translate\":\"aot.gun.ammo\"}]",
+                "custom_data": {"snc_carbine": 1}
+            }
+        }
+        ]
+    }
+}  

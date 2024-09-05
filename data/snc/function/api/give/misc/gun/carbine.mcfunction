@@ -1,0 +1,1 @@
+give @s minecraft:crossbow[custom_data={snc_item:1, snc_bullets:0, snc_carbine:True},minecraft:custom_model_data=3,minecraft:enchantments={'levels': {'snc:gun/carbine': 1}, 'show_in_tooltip': False},enchantment_glint_override=False,item_name='[{"translate":"aot.gun.carbine","color":"white"}, " [0/30]"]'] 1

@@ -40,7 +40,11 @@
                         } 
                     } 
                 } 
-            }],
+            }],            
+        "minecraft:post_attack": [{
+            "enchanted": "attacker","affected": "attacker",
+            "effect" : {"type": "run_function","function":"snc:player/gun/bullet/hitmark"}
+        }],
         "minecraft:crossbow_charge_time": {
         "type": "minecraft:add",
         "value": {

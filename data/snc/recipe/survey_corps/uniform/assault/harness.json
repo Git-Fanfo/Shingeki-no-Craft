@@ -10,7 +10,7 @@
     "count": 1,
     "id": "minecraft:leather_leggings",
     "components": {
-      "custom_data":{"survey_cops":true, "snc_item":1},
+      "custom_data":{"scouts_dark":true, "snc_item":1},
       "custom_model_data": 2,
       "trim":{"material":"blank","pattern":"scouts_dark","show_in_tooltip":false},
       "minecraft:enchantments":{"levels":{"snc:scouts/exclusive": 1, "minecraft:protection": 2},"show_in_tooltip":false},

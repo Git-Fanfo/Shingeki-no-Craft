@@ -1,5 +1,5 @@
 $scoreboard players set $explode $(shifter)_vars -5
-
+advancement grant @s only snc:shifters/colossal/nuke
 $data merge storage minecraft:$(shifter) {fuse:0}
 #,rate:0
 $execute rotated 0 0 run function snc:shifters/human/explosion/boom with storage minecraft:$(shifter)
