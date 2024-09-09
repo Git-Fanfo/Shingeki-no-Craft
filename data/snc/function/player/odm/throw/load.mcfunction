@@ -1,4 +1,4 @@
-item modify entity @s weapon.offhand snc:gas/20
+item modify entity @s weapon.offhand snc:odm/gas/20
 playsound minecraft:entity.breeze.idle_air
 playsound minecraft:entity.breeze.charge
 particle minecraft:gust ~ ~1 ~ 0 0 0 1 1 force

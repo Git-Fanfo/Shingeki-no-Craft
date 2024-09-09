@@ -1,0 +1,9 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": 25,
+            "minecraft:enchantments":{"levels":{"minecraft:binding_curse":1}}
+        }
+    }
+]

@@ -22,7 +22,6 @@ execute if score @s odm_action matches -7 run particle cloud ^0.499999999999999 
 execute if score @s odm_action matches -8 run particle cloud ^0.866025403784439 ^-0.2 ^1 0 0 0 0 1 force
 execute if score @s odm_action matches -9 run particle cloud ^1 ^0.3 ^1 0 0 0 0 1 force
 
-
 execute if score @s odm_action matches -10 run particle cloud ^-1 ^0.3 ^1 0 0 0 0 1 force
 execute if score @s odm_action matches -11 run particle cloud ^-0.866025403784439 ^-0.2 ^1 0 0 0 0 1 force
 execute if score @s odm_action matches -12 run particle cloud ^-0.5 ^-0.566025403784439 ^1 0 0 0 0 1 force
@@ -44,23 +43,25 @@ execute if score @s odm_action matches -7 run particle cloud ^-0.499999999999999
 execute if score @s odm_action matches -8 run particle cloud ^-0.866025403784439 ^0.8 ^1 0 0 0 0 1 force
 execute if score @s odm_action matches -9 run particle cloud ^-1 ^0.300000000000001 ^1 0 0 0 0 1 force
 
-execute if score @s odm_action matches -20 run function snc:player/odm/gyro/dash/model {"custom_model_data":21}
-execute if score @s odm_action matches -18 run function snc:player/odm/gyro/dash/model {"custom_model_data":22}
-execute if score @s odm_action matches -16 run function snc:player/odm/gyro/dash/model {"custom_model_data":23}
-execute if score @s odm_action matches -14 run function snc:player/odm/gyro/dash/model {"custom_model_data":24}
-execute if score @s odm_action matches -12 run function snc:player/odm/gyro/dash/model {"custom_model_data":25}
-execute if score @s odm_action matches -10 run function snc:player/odm/gyro/dash/model {"custom_model_data":26}
-execute if score @s odm_action matches -8 run function snc:player/odm/gyro/dash/model {"custom_model_data":21}
-execute if score @s odm_action matches -6 run function snc:player/odm/gyro/dash/model {"custom_model_data":22}
-execute if score @s odm_action matches -4 run function snc:player/odm/gyro/dash/model {"custom_model_data":23}
-execute if score @s odm_action matches -2 run function snc:player/odm/gyro/dash/model {"custom_model_data":24}
+execute if score @s odm_action matches -20 run function snc:player/odm/gyro/dash/model {"model":2}
+execute if score @s odm_action matches -19 run function snc:player/odm/gyro/dash/model {"model":3}
+execute if score @s odm_action matches -18 run function snc:player/odm/gyro/dash/model {"model":4}
+execute if score @s odm_action matches -17 run function snc:player/odm/gyro/dash/model {"model":5}
+execute if score @s odm_action matches -16 run function snc:player/odm/gyro/dash/model {"model":6}
+execute if score @s odm_action matches -15 run function snc:player/odm/gyro/dash/model {"model":1}
+execute if score @s odm_action matches -14 run function snc:player/odm/gyro/dash/model {"model":2}
+execute if score @s odm_action matches -13 run function snc:player/odm/gyro/dash/model {"model":3}
+execute if score @s odm_action matches -12 run function snc:player/odm/gyro/dash/model {"model":4}
+execute if score @s odm_action matches -11 run function snc:player/odm/gyro/dash/model {"model":5}
+execute if score @s odm_action matches -10 run function snc:player/odm/gyro/dash/model {"model":6}
+execute if score @s odm_action matches -9 run function snc:player/odm/gyro/dash/model {"model":1}
 
 execute if score @s odm_action matches -20 run playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 1 .8
 execute if score @s odm_action matches -19 run playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 1 .8
 execute if score @s odm_action matches -17 run playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 1 .8
 execute if score @s odm_action matches -15 run playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 1 .9
 
-execute if score @s odm_action matches -2 run function snc:player/odm/gyro/dash/reset
+execute if score @s odm_action matches -8 run function snc:player/odm/gyro/dash/reset
 execute unless block ~ ~-1 ~ air run function snc:player/odm/gyro/dash/reset
 
 #tp @s ^ ^ ^ ~34 ~

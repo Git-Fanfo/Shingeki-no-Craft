@@ -4,7 +4,7 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "minecraft:leather_helmet"
+    "item": "minecraft:carved_pumpkin"
   },
   "result": {
     "count": 1,

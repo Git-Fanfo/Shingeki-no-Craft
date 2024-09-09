@@ -1,0 +1,9 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": 91,
+            "minecraft:enchantments":{"levels":{"snc:swing":1},"show_in_tooltip":false}
+        }
+    }
+]

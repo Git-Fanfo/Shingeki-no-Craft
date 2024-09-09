@@ -1,0 +1,14 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "trim": {"material":"minecraft:blank","pattern":"minecraft:scouts","show_in_tooltip":false}
+        }
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:enchantments":{"levels":{"snc:swing":1},"show_in_tooltip":false}
+        }
+    }
+]
