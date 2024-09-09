@@ -9,9 +9,9 @@
             "color": "white"
         },
         "icon": {
-            "id": "minecraft:iron_ingot",
+            "id": "minecraft:quartz",
             "components": {
-                "minecraft:custom_model_data": 1
+                "minecraft:custom_model_data": 16
             }
         },
         "frame": "task",
@@ -30,5 +30,5 @@
     "rewards": {
         "experience": 40
     },
-    "parent": "snc:survey/odm/odm_gear"
+    "parent": "snc:survey/odm/gear"
 }

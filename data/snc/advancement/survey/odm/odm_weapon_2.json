@@ -39,5 +39,5 @@
     "rewards": {
         "experience": 100
     },
-    "parent": "snc:survey/odm/odm_gear"
+    "parent": "snc:survey/odm/gear"
 }

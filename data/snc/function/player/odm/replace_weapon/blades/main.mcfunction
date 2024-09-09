@@ -1,2 +1,2 @@
 $execute if predicate snc:chance/40 run function snc:player/odm/replace_weapon/blades/$(rank) {"hand":"main", "piece":"gas_trigger"}
-$execute if predicate snc:chance/40 run function snc:player/odm/replace_weapon/blades/$(rank) {"hand":"off", "piece": "odm_gear"}
+$execute if predicate snc:chance/40 run function snc:player/odm/replace_weapon/blades/$(rank) {"hand":"off", "piece": "gear"}

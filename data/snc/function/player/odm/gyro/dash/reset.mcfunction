@@ -5,10 +5,10 @@ item modify entity @s armor.feet snc:odm/spin/restore
 
 # If busy then give
 #execute if items entity @s weapon.mainhand * run function snc:api/give/survey_corps/odm/gas_trigger_blade
-#execute if items entity @s weapon.offhand * run function snc:api/give/survey_corps/odm/odm_gear_blade
+#execute if items entity @s weapon.offhand * run function snc:api/give/survey_corps/odm/gear_blade
 # Else if free then replace
 #execute unless items entity @s weapon.mainhand * run function snc:api/item_replace/survey_corps/odm/gas_trigger_blade {"slot":"weapon.mainhand"}
-#execute unless items entity @s weapon.offhand * run function snc:api/item_replace/survey_corps/odm/odm_gear_blade {"slot":"weapon.offhand"}
+#execute unless items entity @s weapon.offhand * run function snc:api/item_replace/survey_corps/odm/gear_blade {"slot":"weapon.offhand"}
 execute if predicate snc:odm/has_gas_trigger run item modify entity @s weapon.mainhand snc:odm/spin/restore_trigger
 execute if predicate snc:odm/has_odm run item modify entity @s weapon.offhand snc:odm/spin/restore_gear
 

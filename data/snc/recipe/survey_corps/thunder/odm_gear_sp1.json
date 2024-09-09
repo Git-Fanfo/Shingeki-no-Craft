@@ -13,7 +13,7 @@
     "count": 1,
     "id": "minecraft:warped_fungus_on_a_stick",
     "components": {
-      "custom_data":{"odm_gear":true,"odm_gas":20,"spear":true,"load":true,"snc_item":1},
+      "custom_data":{"snc_gear":true,"odm_gas":20,"spear":true,"load":true,"snc_item":1},
       "minecraft:custom_model_data": 6,
       "damage":66,
       "rarity":"uncommon",
@@ -48,6 +48,6 @@
           "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.cartridges\",\"color\":\"gray\",\"italic\":false}]"
         ],
 
-    "minecraft:attribute_modifiers":[{"type":"generic.attack_speed","amount":-0.3,"operation":"add_value","id":"snc.odm_gear.attack_speed","slot":"offhand"}]}    
+    "minecraft:attribute_modifiers":[{"type":"generic.attack_speed","amount":-0.3,"operation":"add_value","id":"snc.gear.attack_speed","slot":"offhand"}]}    
   }
 }

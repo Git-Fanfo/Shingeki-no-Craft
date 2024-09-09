@@ -4,7 +4,7 @@
   "predicate": {
     "slots": {
       "weapon.mainhand": {"predicates": {"minecraft:custom_data": "{trigger:1b,blade:1b}"}},
-      "weapon.offhand": {"predicates": {"minecraft:custom_data": "{odm_gear:1b,blade:1b}"}},
+      "weapon.offhand": {"predicates": {"minecraft:custom_data": "{snc_gear:1b,blade:1b}"}},
       "armor.head": {"predicates": {"minecraft:custom_data": "{survey_cops:1b}"}},
       "armor.chest": {"predicates": {"minecraft:custom_data": "{survey_cops:1b}"}},
       "armor.legs": {"predicates": {"minecraft:custom_data": "{survey_cops:1b}"}},

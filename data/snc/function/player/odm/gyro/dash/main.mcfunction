@@ -64,8 +64,4 @@ execute if score @s odm_action matches -15 run playsound minecraft:entity.player
 execute if score @s odm_action matches -8 run function snc:player/odm/gyro/dash/reset
 execute unless block ~ ~-1 ~ air run function snc:player/odm/gyro/dash/reset
 
-#tp @s ^ ^ ^ ~34 ~
-#tp @s ^ ^ ^ ~24 ~
-#tp @s ^ ^ ^ ~18 ~
-#execute if block ~ ~-1 ~ air run tp @s ^ ^ ^ ~18 ~
 scoreboard players add @s odm_action 1
