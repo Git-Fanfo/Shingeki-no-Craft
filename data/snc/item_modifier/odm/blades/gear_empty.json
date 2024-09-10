@@ -29,7 +29,8 @@
     },{
       "function": "minecraft:set_custom_data",
       "tag": {
-          "blade" : false
+          "blade" : false,
+          "snc_gear_mode":"blades"
       }
     },{
       "function": "minecraft:set_attributes",

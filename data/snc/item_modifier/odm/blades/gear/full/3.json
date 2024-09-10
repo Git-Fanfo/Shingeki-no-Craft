@@ -35,7 +35,8 @@
     "function": "minecraft:set_custom_data",
     "tag": {
         "blade" : true,
-        "snc_odm_blades": 3
+        "snc_odm_blades": 3,
+        "snc_gear_mode":"blades"
     }
   },{
     "function": "minecraft:set_attributes",

@@ -1,0 +1,19 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "damage":33,"minecraft:custom_model_data":7
+        }
+    },{
+    "function": "minecraft:set_custom_data",
+    "tag": {
+        "blade" : false,
+        "snc_odm_spears": 4,"snc_gear_mode":"spears"
+    }
+    },{
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+        {"attribute":"generic.attack_speed","id":"snc.gear.attack_speed","operation":"add_value",
+        "amount":-1.6,"slot":"offhand"}
+    ],"replace": true}
+]

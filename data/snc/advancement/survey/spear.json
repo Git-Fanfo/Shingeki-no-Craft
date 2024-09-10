@@ -9,9 +9,9 @@
             "color": "white"
         },
         "icon": {
-            "id": "minecraft:minecart",
+            "id": "minecraft:quartz",
             "components": {
-                "minecraft:custom_model_data": 4
+                "minecraft:custom_model_data": 17
             }
         },
         "frame": "task",
@@ -22,9 +22,7 @@
     "criteria": {
         "Craft Thunder Spear": {
             "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [{"predicates": {"minecraft:custom_data": "{spear:1b}"}}]
-            }
+            "conditions": {"items": [{"predicates": {"minecraft:custom_data": "{snc_spear:1b}"}}]}
         }
     },
     "parent": "snc:survey/red_sand"

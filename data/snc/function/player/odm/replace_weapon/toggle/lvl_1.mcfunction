@@ -1,0 +1,2 @@
+execute if predicate snc:odm/mode/2 if function snc:player/odm/replace_weapon/toggle/thunder run return 1
+execute if predicate snc:odm/mode/3 if function snc:player/odm/replace_weapon/toggle/blades run return 1
