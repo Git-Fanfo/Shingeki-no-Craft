@@ -1,7 +1,8 @@
 [
     {"function": "minecraft:set_components",
     "components": {
-        "damage":0,"minecraft:custom_model_data":73
+        "damage":0,"minecraft:custom_model_data":73,
+        "minecraft:enchantments":{"levels":{"snc:swing":1},"show_in_tooltip":false}
         }
     },{
     "function": "minecraft:set_attributes",
