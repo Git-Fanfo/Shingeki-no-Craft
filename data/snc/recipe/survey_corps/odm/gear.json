@@ -22,6 +22,8 @@
         "snc_gear_mode":"blades",
         "odm_gas":20,
         "snc_odm_blades":0,
+        "snc_odm_dmg":0,
+        "snc_gas_dmg":0,
         "snc_item":1
       },
       "minecraft:custom_model_data": 3, "damage":100,

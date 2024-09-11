@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+			"translate": "aot.adv.iceburst",
+            "color": "aqua"
+        },
+        "description": {
+			"translate": "aot.adv.iceburst.desc",
+            "color": "white"
+        },
+        "icon": {
+            "id": "minecraft:quartz",
+            "components": {
+                "minecraft:custom_model_data": 15
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "iceburst": {
+          "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 40
+    },
+    "parent": "snc:survey/odm/gear"
+}

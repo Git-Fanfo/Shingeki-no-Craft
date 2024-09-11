@@ -19,4 +19,12 @@ execute if score @s snc.bullets matches 1 run item modify entity @s weapon.mainh
 execute if score @s snc.bullets matches 0 run item modify entity @s weapon.offhand snc:odm/blades/gear_empty
 execute if score @s snc.bullets matches 0 run item modify entity @s weapon.mainhand snc:odm/blades/gas_trigger_empty
 
+## Return Damage
+execute store result score @s odm_dmg_L run \
+    data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".snc_odm_dmg
+function snc:player/odm/replace_weapon/blades/durability {"side":"L", "hand":"off"}
+execute store result score @s odm_dmg_R run \
+    data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".snc_gas_dmg
+function snc:player/odm/replace_weapon/blades/durability {"side":"R", "hand":"main"}
+
 return 1

@@ -13,6 +13,8 @@
         "snc_gear_mode":"spears",
         "odm_gas":0,
         "snc_odm_blades":0,
+        "snc_odm_dmg":0,
+        "snc_gas_dmg":0,
         "snc_odm_spears":0,
         "snc_item":1
       },

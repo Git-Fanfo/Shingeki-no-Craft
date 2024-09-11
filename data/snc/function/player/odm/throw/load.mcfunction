@@ -1,3 +1,4 @@
+advancement grant @s only snc:survey/odm/iceburst
 item modify entity @s weapon.offhand snc:odm/gas/20
 playsound minecraft:entity.breeze.idle_air
 playsound minecraft:entity.breeze.charge

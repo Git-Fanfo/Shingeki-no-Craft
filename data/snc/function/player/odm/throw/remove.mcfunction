@@ -1,3 +1,4 @@
+advancement grant @s only snc:survey/odm/iceboom
 clear @s *[custom_data~{snc.iceburst:1b}]
 playsound minecraft:entity.breeze.wind_burst
 playsound minecraft:entity.dragon_fireball.explode

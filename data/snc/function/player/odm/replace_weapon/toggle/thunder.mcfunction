@@ -2,8 +2,11 @@
 execute store result score @s snc.bullets run \
     data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".snc_odm_blades
 
-execute if predicate snc:odm/has_odm_blade run scoreboard players add @s snc.bullets 1
-execute if predicate snc:odm/has_gas_trigger_blade run scoreboard players add @s snc.bullets 1
+## Store Damage
+execute if score @s odm_dmg_L matches 100 run item modify entity @s weapon.offhand snc:odm/blades/damage/gear/100
+execute unless score @s odm_dmg_L matches 100 run function snc:player/odm/replace_weapon/blades/save_gear
+execute if score @s odm_dmg_R matches 100 run item modify entity @s weapon.mainhand snc:odm/blades/damage/gas/100
+execute unless score @s odm_dmg_R matches 100 run function snc:player/odm/replace_weapon/blades/save_gas
 
 execute if score @s snc.bullets matches 6 run item modify entity @s weapon.offhand snc:odm/blades/gear/full/6
 execute if score @s snc.bullets matches 5 run item modify entity @s weapon.offhand snc:odm/blades/gear/full/5
