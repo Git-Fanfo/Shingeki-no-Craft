@@ -1,0 +1,8 @@
+{
+    "comparator_output": 1,
+    "description": {"translate":"snc.music.broken_armor"},
+    "length_in_seconds": 235.0,
+    "sound_event": {
+        "sound_id": "minecraft:aot.music.warrior"
+    }
+}

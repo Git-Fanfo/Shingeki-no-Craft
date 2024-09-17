@@ -15,7 +15,7 @@ execute if score @s walk matches 12 run data modify entity @s item.components.mi
 
 execute if score @s walk matches 18 run execute as @a[distance=..12] unless score @s earthquake matches 16.. run scoreboard players add @s earthquake 6
 # 1 -> 8, Ex 1 - 0.7 means 0.3 * 10 + 8 = 11
-execute if score @s walk matches 11 run playsound minecraft:aot.footsteps hostile @a ~ ~ ~ 5 .1
+execute if score @s walk matches 11 run playsound minecraft:aot.footsteps hostile @a ~ ~ ~ 2 .7
 execute if score @s walk matches 6 run data modify entity @s item.components.minecraft:custom_model_data set value 66
 
 execute if score @s walk matches 1 run tag @s remove walk

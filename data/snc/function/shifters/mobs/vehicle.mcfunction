@@ -7,7 +7,7 @@ execute unless block ~ ~ ~ water run attribute @s minecraft:generic.gravity base
 
 $execute if score state $(shifter)_vars matches 2 run effect give @s slowness 1 6 true
 # Health System
-$execute if score $bossbar config matches 1 if score ticks clock matches 6 run bossbar set minecraft:$(shifter)_health players @a[distance=..50]
+$execute if score $bossbar config matches 1 if score ticks clock matches 6 run bossbar set minecraft:$(shifter)_health players @a[distance=..128]
 
 ## Move!
 $execute if score state $(shifter)_vars matches 2..5 run \

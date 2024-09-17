@@ -1,16 +1,16 @@
-execute if score @s walk matches 58 run playsound minecraft:entity.enderman.scream player @a ~ ~ ~ 2 .1 1
-execute if score @s walk matches 58 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 58 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 48 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 48 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 38 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 38 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 28 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 28 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 18 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 18 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 8 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
-execute if score @s walk matches 8 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4 1
+execute if score @s walk matches 58 run playsound minecraft:entity.enderman.scream player @a ~ ~ ~ 2 .1
+execute if score @s walk matches 58 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 58 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 48 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 48 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 38 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 38 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 28 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 28 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 18 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 18 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 8 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
+execute if score @s walk matches 8 run playsound minecraft:entity.horse.gallop player @a ~ ~ ~ 2 .4
 
 
 execute if score @s walk matches 58 run data modify entity @s item.components.minecraft:custom_model_data set value 221

@@ -5,6 +5,5 @@ execute as @s[tag=!titan,tag=!snc.grabbed] if predicate snc:odm/has_full_blade r
 ## Shifter
 # execute if score @s[tag=tranform] shifter_vars matches 1.. run function snc:player/titan/spear
 
-say A
 execute unless predicate snc:odm/had_spear_r if predicate snc:odm/had_spear_l run function snc:player/titan/spear
 execute if predicate snc:odm/had_spear_r run function snc:player/titan/spear

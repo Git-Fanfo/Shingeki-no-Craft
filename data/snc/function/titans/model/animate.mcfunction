@@ -11,7 +11,7 @@ scoreboard players remove @s atk 1
 scoreboard players remove @s walk 1
 # Sounds
 execute if score ticks clock matches 19 store result score @s random run random value 1..8
-execute if score ticks clock matches 19 if score @s random matches 1 run playsound minecraft:entity.zombie_villager.ambient master @a ~ ~ ~ 3 .2
+execute if score ticks clock matches 19 if score @s random matches 1 run playsound minecraft:entity.zombie_villager.ambient master @a ~ ~ ~ 2 .2
 
 # Zick
 execute if entity @s[tag=mob1,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/1/animate/attack

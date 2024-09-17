@@ -9,7 +9,7 @@ execute if score @s snc.bullets matches 4 run item modify entity @s weapon.offha
 execute if score @s snc.bullets matches 5 run item modify entity @s weapon.offhand snc:odm/thunder/gear_6
 
 execute unless score @s snc.bullets matches 6 run item modify entity @s weapon.offhand snc:odm/thunder/lore_gear
-execute unless score @s snc.bullets matches 6 run playsound minecraft:block.decorated_pot.insert player @s ~ ~ ~ 1 .7
+execute unless score @s snc.bullets matches 6 run playsound minecraft:block.decorated_pot.insert player @a ~ ~ ~ 1 .7
 execute unless score @s snc.bullets matches 6 run clear @s *[custom_data~{snc_spear:1b}] 1
 
 return 1

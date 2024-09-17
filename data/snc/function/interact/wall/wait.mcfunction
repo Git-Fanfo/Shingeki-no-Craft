@@ -12,7 +12,7 @@ scoreboard players operation @s snc.rotation_x %= #15 constant
 execute positioned ^ ^ ^45 run function snc:interact/wall/fill
 execute rotated ~180 0 positioned ^ ^ ^45 run function snc:interact/wall/fill
 
-execute if score @s snc.odm_throw_x = @s snc.rotation_y positioned over world_surface align xyz positioned ~.5 ~ ~.5 run function snc:player/build/bell/found 
+execute if score @s snc.odm_throw_x = @s snc.rotation_y positioned over world_surface align xyz positioned ~.5 ~ ~.5 run function snc:player/build/bell/found
 execute if score @s snc.odm_throw_x = @s snc.rotation_y run kill
 
 execute if score @s snc.despawn matches 1000.. positioned over world_surface align xyz positioned ~.5 ~ ~.5 run function snc:player/build/bell/found
