@@ -19,7 +19,7 @@ tag @s add transform
 tag @s remove first
 $advancement grant @s only snc:shifters/$(shifter)/get
 effect give @s absorption 20 5 true
-$scoreboard players set health $(shifter)_vars 20
+$scoreboard players set $health $(shifter)_vars 20
 
 ## Explosion
 effect give @s resistance 1 127 true

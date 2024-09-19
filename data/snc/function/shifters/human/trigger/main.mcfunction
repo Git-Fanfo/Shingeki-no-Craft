@@ -57,4 +57,21 @@ execute if score @s atk matches 261 run setblock ~ ~2 ~ air replace
 
 execute if score @s atk matches 256 run particle minecraft:flash ~ ~1 ~ 0 0 0 1 1 force
 $execute if score @s atk matches 256 run function snc:shifters/human/transform {"shifter":$(shifter),"name":"$(name)"}
+## Spawn
+$execute if score @s atk matches 256 run \
+    function snc:shifters/mobs/init {\
+        "shifter":"$(shifter)", \
+        "bossbar_display":"$(bossbar_display)", \
+        "bossbar_color":$(bossbar_color), \
+        "bossbar_style":$(bossbar_style), \
+        "hp":$(hp), \
+        "walk_speed":$(walk_speed), \
+        "type":$(type), \
+        "jump":$(jump), \
+        "step_height":$(step_height), \
+        "scale_vehicle":$(scale_vehicle), \
+        "scale_player":$(scale_player), \
+        "entity_range":$(entity_range) \
+        }
+
 execute if score @s atk matches 256 run scoreboard players reset @s atk

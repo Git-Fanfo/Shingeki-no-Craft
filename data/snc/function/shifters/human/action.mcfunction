@@ -1,21 +1,18 @@
 ## add_tags -> Only applies this shifter / select_shifter is a shared ability
 $execute if predicate snc:shifters/has_gamemode run scoreboard players operation $gamemode $(shifter)_vars *= #-1 constant
+$execute if predicate snc:shifters/has_gamemode run function snc:shifters/mobs/$(shifter)/abilities/give
 ## Roar
 #$execute unless score consume $(shifter)_vars matches 1.. if predicate snc:chance/10 run scoreboard players set consume $(shifter)_vars 220
 $execute if predicate snc:chance/20 run playsound minecraft:aot.shifters.attack.grunt player @a ~ ~ ~ 5 0.$(id)
-
 ## Colossal
 # Wallbreaker
 execute as @s[predicate=snc:shifters/colossal/atk_2] run function snc:shifters/mobs/colossal/action/wallbreaker/init
-
 # Heatwave
 execute as @s[predicate=snc:shifters/colossal/atk_3] run function snc:shifters/mobs/colossal/action/steam/init
-
 # Jaw
 execute as @s[predicate=snc:shifters/colossal/atk_4] run function snc:shifters/mobs/colossal/action/jaw/init
 
 ## Cart
-
 # Jaw
 execute as @s[predicate=snc:shifters/cart/atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/add_tags
 
@@ -66,4 +63,4 @@ execute as @s[predicate=snc:shifters/armor/atk_3] unless score consume armor_var
 execute as @s[predicate=snc:shifters/armor/atk_4] run scoreboard players set state armor_vars 17
 
 ## Update Abilities
-$execute unless predicate snc:shifters/has_remove run function snc:shifters/mobs/$(shifter)/abilities/give
+#$execute unless predicate snc:shifters/has_remove run function snc:shifters/mobs/$(shifter)/abilities/give

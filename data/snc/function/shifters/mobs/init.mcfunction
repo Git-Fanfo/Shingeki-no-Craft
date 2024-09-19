@@ -32,6 +32,8 @@ scoreboard players reset @s snc.barrel
 scoreboard players reset @s snc.shulker
 scoreboard players reset @s snc.trap
 
+effect give @s invisibility infinite 0 true
+effect give @s saturation infinite 0 true
 effect give @s resistance 5 4 true
 $attribute @s generic.scale base set $(scale_player)
 $attribute @s player.entity_interaction_range base set $(entity_range)

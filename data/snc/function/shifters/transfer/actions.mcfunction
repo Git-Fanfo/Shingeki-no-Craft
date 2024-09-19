@@ -1,34 +1,3 @@
-item replace entity @s container.9 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.10 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.11 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.12 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.13 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.14 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.15 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.16 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.17 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-
-item replace entity @s container.18 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.19 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.20 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.21 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.22 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.23 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.24 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.25 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-item replace entity @s container.26 with carrot_on_a_stick[custom_model_data=55,custom_data={atk_shifter:1b},hide_tooltip={}]
-
-
-item replace entity @s container.27 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"light_purple","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.28 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"aqua","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.29 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"dark_red","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.30 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"dark_green","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.31 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"gold","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.32 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"yellow","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.33 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"dark_purple","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.34 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"gray","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-item replace entity @s container.35 with minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"white","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
-
 ##### HOW TO CREATE A SHIFTER #####
 ## CART
 $execute if score @s cart_vars matches 1 run item replace entity @s container.27 with carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=11,custom_data={atk_shifter:1b,$(id)_titan:1b},custom_name='{"translate":"aot.ability.iron","color":"light_purple","italic":false}',lore=['{"translate":"aot.passive","color":"gray","italic":false}','{"translate":"aot.ability.iron.desc","color":"blue","italic":false}']]

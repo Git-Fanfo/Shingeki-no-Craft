@@ -2,6 +2,7 @@
 function snc:shifters/human/inventory/save/shifter with storage minecraft:beast
 function snc:shifters/abilities/clear
 function snc:shifters/human/inventory/spawn/shifter with storage minecraft:beast
+function snc:shifters/transfer/spaces
 
 ## Gamemode
 # Combat
