@@ -1,2 +1,0 @@
-#execute if score @s idle matches 40 run data modify entity @s item.components.minecraft:custom_model_data set value 1000
-data merge entity @s {transformation:{scale:[22.15f,22.15f,22.15f]},item:{id:'minecraft:flint',Count:1b,components:{"custom_model_data":1000}}}

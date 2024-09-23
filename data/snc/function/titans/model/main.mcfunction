@@ -7,7 +7,6 @@ execute on vehicle if predicate snc:titan/has_glowing on passengers run data mer
 execute on vehicle unless predicate snc:titan/has_glowing on passengers run data merge entity @s {Glowing:0b}
 
 execute unless predicate snc:is_riding run function snc:logic/kill_mob
-
 execute unless data entity @s Passengers run function snc:logic/kill_mob
 
-function snc:titans/model/animate
+function snc:titans/model/animate with entity @s item.components."minecraft:custom_data"

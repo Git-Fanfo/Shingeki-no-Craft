@@ -52,12 +52,6 @@
             "base": -0.2,
             "per_level_above_first": 0
         }
-        },
-        "minecraft:crossbow_charging_sounds": [
-            {
-                "end": "minecraft:block.trial_spawner.eject_item",
-                "start": "minecraft:block.trial_spawner.open_shutter"
-            }
-        ]
+        }
 	}
 }

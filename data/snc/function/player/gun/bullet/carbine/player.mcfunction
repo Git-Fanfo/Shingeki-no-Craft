@@ -18,7 +18,6 @@ execute if score @s snc.bullets matches 3 run item modify entity @s weapon.mainh
 execute if score @s snc.bullets matches 2 run item modify entity @s weapon.mainhand snc:gun/carbine/1
 execute if score @s snc.bullets matches 1 run item modify entity @s weapon.mainhand snc:gun/carbine/0
 
-playsound minecraft:aot.human.gun.mauser.chamber player @a
 execute store result score @s random run random value 1..3
 execute if score @s random matches 1 anchored feet run tp @s ~ ~ ~ ~ ~-1
 execute if score @s random matches 2 anchored feet run tp @s ~ ~ ~ ~-.5 ~-.7

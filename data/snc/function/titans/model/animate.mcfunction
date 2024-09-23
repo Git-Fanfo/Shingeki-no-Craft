@@ -13,52 +13,9 @@ scoreboard players remove @s walk 1
 execute if score ticks clock matches 19 store result score @s random run random value 1..8
 execute if score ticks clock matches 19 if score @s random matches 1 run playsound minecraft:entity.zombie_villager.ambient master @a ~ ~ ~ 2 .2
 
-# Zick
-execute if entity @s[tag=mob1,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/1/animate/attack
-execute if entity @s[tag=mob1,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/1/animate/attack_2
-execute if entity @s[tag=mob1,tag=!attack,tag=walk] run function snc:titans/mobs/1/animate/walk
-execute if entity @s[tag=mob1,tag=!attack,tag=!walk] run function snc:titans/mobs/1/animate/idle
-
-# Zwei
-execute if entity @s[tag=mob2,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/2/animate/attack
-execute if entity @s[tag=mob2,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/2/animate/attack_2
-execute if entity @s[tag=mob2,tag=!attack,tag=!attack_2,tag=walk] run function snc:titans/mobs/2/animate/walk
-execute if entity @s[tag=mob2,tag=!attack,tag=!attack_2,tag=!walk] run function snc:titans/mobs/2/animate/idle
-
-# Michelle
-execute if entity @s[tag=mob3,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/3/animate/attack
-execute if entity @s[tag=mob3,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/3/animate/attack_2
-execute if entity @s[tag=mob3,tag=!attack,tag=!attack_2,tag=walk] run function snc:titans/mobs/3/animate/walk
-execute if entity @s[tag=mob3,tag=!attack,tag=!attack_2,tag=!walk] run function snc:titans/mobs/3/animate/idle
-
-# Valentina
-execute if entity @s[tag=mob4,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/4/animate/attack
-execute if entity @s[tag=mob4,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/4/animate/attack_2
-execute if entity @s[tag=mob4,tag=!attack,tag=walk] run function snc:titans/mobs/4/animate/walk
-execute if entity @s[tag=mob4,tag=!attack,tag=!walk] run function snc:titans/mobs/4/animate/idle
-
-# Vladlen
-execute if entity @s[tag=mob5] run data merge entity @s {transformation:{scale:[1.3f,1.3f,1.3f]}}
-execute if entity @s[tag=mob5,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/5/animate/attack
-execute if entity @s[tag=mob5,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/5/animate/attack_2
-execute if entity @s[tag=mob5,tag=!attack,tag=!walk] run function snc:titans/mobs/5/animate/idle
-execute if entity @s[tag=mob5,tag=!attack,tag=walk] run function snc:titans/mobs/5/animate/walk
-
-# Ameer
-execute if entity @s[tag=mob6,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/6/animate/attack
-execute if entity @s[tag=mob6,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/6/animate/attack_2
-execute if entity @s[tag=mob6,tag=!attack,tag=!walk] run function snc:titans/mobs/6/animate/idle
-execute if entity @s[tag=mob6,tag=!attack,tag=walk] run function snc:titans/mobs/6/animate/walk
-
-# Allan
-execute if entity @s[tag=mob7,tag=!attack,tag=!walk] run function snc:titans/mobs/7/animate/idle
-execute if entity @s[tag=mob7,tag=!attack,tag=walk] run function snc:titans/mobs/7/animate/walk
-
-# Creepy
-execute if entity @s[tag=mob8,tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/8/animate/attack
-execute if entity @s[tag=mob8,tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/8/animate/attack_2
-execute if entity @s[tag=mob8,tag=!attack,tag=!walk] run function snc:titans/mobs/8/animate/idle
-execute if entity @s[tag=mob8,tag=!attack,tag=walk] run function snc:titans/mobs/8/animate/walk
-
-# Nijama
-execute if entity @s[tag=c] run function snc:titans/mobs/c/animate/idle
+$execute if entity @s[tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/$(id)/animate/attack
+$execute if entity @s[tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/$(id)/animate/attack_2
+$execute if entity @s[tag=!attack,tag=walk] run function snc:titans/mobs/$(id)/animate/walk
+$execute if entity @s[tag=!attack,tag=!walk] run function snc:titans/mobs/$(id)/animate/idle
+execute on vehicle unless function snc:titans/ai/attack run return -1
+$execute on vehicle at @s on passengers rotated ~ 0 positioned ^ ^ ^2 run function snc:titans/mobs/$(id)/attack/main

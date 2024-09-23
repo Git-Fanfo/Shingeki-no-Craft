@@ -1,1 +1,3 @@
-give @s minecraft:carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=22, custom_data={atk_shifter:1b},custom_name='{"translate":"aot.ability.missing","color":"white","italic":false}', lore=['{"text":" "}','{"text":"??? ???? ?????","color":"gray","italic":false,"obfuscated":true}']]
+tp @s ~ ~1000 ~
+execute at @s positioned ~ ~-1 ~1 summon end_crystal run damage @s 0
+tp @s ~ ~ ~

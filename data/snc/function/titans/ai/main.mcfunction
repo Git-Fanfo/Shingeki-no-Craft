@@ -1,5 +1,5 @@
 ## Rotate model
-execute on passengers if entity @s[type=item_display] run tp @s ~ ~ ~ ~ 0
+execute on passengers run tp @s ~ ~ ~ ~ 0
 # Is moving?
 execute store result score @s movx run data get entity @s Motion[0] 10000
 execute store result score @s movz run data get entity @s Motion[2] 10000
@@ -14,8 +14,6 @@ scoreboard players reset @s movz
 
 ## Despawn
 function snc:titans/ai/despawn
-## Attack
-execute rotated ~ 0 positioned ^ ^ ^2 on passengers run function snc:titans/ai/attack
 
 # Running in water (This is concerning)
 execute if block ^ ^1 ^.5 water run function snc:titans/water

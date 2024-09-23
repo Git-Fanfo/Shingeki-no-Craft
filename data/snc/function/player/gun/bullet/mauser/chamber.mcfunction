@@ -3,4 +3,5 @@ execute unless data entity @s SelectedItem.components."minecraft:charged_project
 
 ## Not Error
 execute if score @s snc.bullets matches 0 run item modify entity @s weapon.mainhand snc:gun/mauser/10
+execute if score @s snc.bullets matches 0 run playsound minecraft:aot.human.gun.mauser.next_round player @a
 execute if score @s snc.bullets matches 0 run advancement grant @s only snc:firearms/mauser
