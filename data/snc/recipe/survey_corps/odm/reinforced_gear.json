@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": {"item": "minecraft:iron_block"},
   "base": {"item": "minecraft:warped_fungus_on_a_stick"},
-  "template": {"item": "minecraft:obsidian"},
+  "template": {"item": "minecraft:crying_obsidian"},
   "result": {
     "count": 1,
     "id": "minecraft:warped_fungus_on_a_stick",

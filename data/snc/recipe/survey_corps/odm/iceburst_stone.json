@@ -8,7 +8,7 @@
     "components": {
         "custom_data":{"snc.iceburst":true,"snc_item":1},
         "minecraft:custom_model_data": 15,
-        "max_stack_size":16,"food":{"nutrition":0,"saturation":0,"can_always_eat":true,"eat_seconds":1000000000},
+        "max_stack_size":4,"food":{"nutrition":0,"saturation":0,"can_always_eat":true,"eat_seconds":1000000000},
         "enchantment_glint_override":true,
         "rarity":"rare",
         "item_name":"{\"translate\":\"aot.iceburst\"}",

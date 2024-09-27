@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:painting[custom_data={snc_item:1},entity_data={'id': 'minecraft:painting', 'variant': 'snc:shingeki_no_craft'}] 1

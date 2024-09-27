@@ -28,7 +28,7 @@
                     "type": "run_function", 
                     "function": "snc:player/gun/bullet/carbine/main" 
                 }, 
-                "requirements": { 
+                "requirements": {
                     "condition": "minecraft:entity_properties", 
                     "entity": "this", 
                     "predicate": {

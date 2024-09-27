@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:painting"
+        },
+        {
+            "item": "minecraft:poppy"
+        }
+    ],
+    "result": {
+        "id": "minecraft:painting",
+        "count": 1,
+        "components": {
+            "custom_data":{"snc_item":1},
+            "entity_data" : {
+                "id": "minecraft:painting",
+                "variant" : "snc:shingeki_no_craft"
+            }
+        }
+    }
+}

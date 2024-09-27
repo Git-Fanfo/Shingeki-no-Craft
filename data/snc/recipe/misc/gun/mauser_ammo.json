@@ -7,7 +7,7 @@
     " G "
   ],
   "key": {
-    "I": {"item": "minecraft:iron_ingot"},
+    "I": {"item": "minecraft:iron_nugget"},
     "C": {"item": "minecraft:copper_ingot"},
     "G": {"item": "minecraft:gunpowder"}
   },

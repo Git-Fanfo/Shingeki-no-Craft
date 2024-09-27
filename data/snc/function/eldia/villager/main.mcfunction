@@ -1,15 +1,13 @@
 # Scan when a mob spawns
 execute unless entity @s[tag=eldian] if function snc:eldia/villager/spawn run return -1
 
-execute unless entity @s[tag=sleep] if score time clock matches 12000..23999 if data entity @s Brain.memories."minecraft:last_slept".value run function snc:eldia/villager/sleep
-execute if entity @s[tag=sleep] if score time clock matches 0..12000 if data entity @s Brain.memories."minecraft:last_woken".value run function snc:eldia/villager/awake
+execute unless entity @s[tag=snc.sleep] if score time clock matches 12000..23999 anchored eyes if block ^ ^-.07 ^ #minecraft:beds run function snc:eldia/villager/sleep
+execute if entity @s[tag=snc.sleep] anchored eyes if block ^ ^-.07 ^ air run function snc:eldia/villager/awake
 
 ## Survey
 execute as @s[tag=soldier] run function snc:eldia/villager/soldier/main
-
 ## Dialogue
-execute as @s[tag=snc.dialogue] unless entity @s[tag=sleep] run function snc:eldia/dialogue/main
-
+execute as @s[tag=snc.dialogue] unless entity @s[tag=snc.sleep] run function snc:eldia/dialogue/main
 ## Shifters
 execute if score @s shifter_vars matches 1.. run function snc:eldia/villager/shifter/main
 
@@ -18,4 +16,4 @@ execute if score @s shifter_vars matches 1.. run function snc:eldia/villager/shi
 # Reputation
 execute if score ticks clock matches 19 run function snc:eldia/villager/reputation/main
 # Set body
-execute if score ticks clock matches 9 run function snc:eldia/villager/model/select
+execute if score ticks clock matches 9 unless entity @s[tag=snc.sleep] run function snc:eldia/villager/model/select
