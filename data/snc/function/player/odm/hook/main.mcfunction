@@ -30,8 +30,8 @@ $execute if entity @s[tag=!snc.wire.retract] run scoreboard players operation $(
 $execute if entity @s[tag=!snc.wire.retract] run scoreboard players operation $(name) snc.rotation_y -= $(name) snc.odm_throw_y
 #$tellraw $(name) [{"score":{"name":"$(name)","objective":"snc.rotation_x"}}," ",{"score":{"name":"$(name)","objective":"snc.odm_throw_x"}}]
 
-$execute if entity @s[tag=!snc.wire.retract] unless score $(name) snc.rotation_x matches -43..43 run scoreboard players set @s snc.odm_dist 10
-$execute if entity @s[tag=!snc.wire.retract] if score $(name) snc.rotation_y matches ..-43 run scoreboard players set @s snc.odm_dist 10
+$execute if entity @s[tag=!snc.wire.retract] unless score $(name) snc.rotation_x matches -43..43 as $(name) run function snc:player/odm/hook/break
+$execute if entity @s[tag=!snc.wire.retract] if score $(name) snc.rotation_y matches ..-45 as $(name) run function snc:player/odm/hook/break
 
 $execute if score @s projectile matches 4.. run function snc:player/odm/hook/particles {"name":$(name)}
 # Reset and Kill
