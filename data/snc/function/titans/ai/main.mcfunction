@@ -1,17 +1,7 @@
 ## Rotate model
 execute on passengers run tp @s ~ ~ ~ ~ 0
 # Is moving?
-execute store result score @s movx run data get entity @s Motion[0] 10000
-execute store result score @s movz run data get entity @s Motion[2] 10000
-execute if score @s movx matches ..-1 run scoreboard players operation @s movx *= #-1 constant
-execute if score @s movz matches ..-1 run scoreboard players operation @s movz *= #-1 constant
-scoreboard players operation @s movx *= @s movz 
-
-execute if score @s movx matches 1.. on passengers run tag @s add walk
-
-scoreboard players reset @s movx
-scoreboard players reset @s movz
-
+execute if predicate snc:general/moving_no_slow_falling on passengers run tag @s add walk
 ## Despawn
 function snc:titans/ai/despawn
 

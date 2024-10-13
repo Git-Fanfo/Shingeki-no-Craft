@@ -41,8 +41,6 @@ execute unless score $max_titans snc.despawn matches 0.. run scoreboard players 
 scoreboard objectives add idle dummy
 scoreboard objectives add atk dummy
 scoreboard objectives add walk dummy
-scoreboard objectives add movx dummy
-scoreboard objectives add movz dummy
 scoreboard objectives add volt_range dummy
 scoreboard objectives add volt_spread dummy
 

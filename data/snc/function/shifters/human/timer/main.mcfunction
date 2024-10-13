@@ -7,6 +7,8 @@
 # @Output:
 #   Based on the action triggers other functions.
 
+# Check if still a shifter
+$execute if score @s $(shifter)_vars matches 1 run tag @s add shifter
 ## Is not transformed
 $execute as @s[tag=!transform] run scoreboard players set state $(shifter)_vars 0
 # Increase energy when not transformed
