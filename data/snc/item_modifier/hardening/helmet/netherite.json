@@ -9,37 +9,37 @@
         "minecraft:attribute_modifiers": {
             "modifiers": [
                 {
-                    "type": "minecraft:generic.armor",
+                    "type": "minecraft:armor",
                     "id": "snc.helmet.armor",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "head"
                 },{
-                    "type":"generic.armor_toughness",
+                    "type":"armor_toughness",
                     "id": "snc.helmet.armor_toughness",
                     "amount":4,
                     "operation":"add_value",
                     "slot":"head"
                 },{
-                    "type":"generic.knockback_resistance",
+                    "type":"knockback_resistance",
                     "id": "snc.helmet.knockback_resistance",
                     "amount":0.2,
                     "operation":"add_value",
                     "slot":"head"
                 },{
-                    "type":"generic.scale",
+                    "type":"scale",
                     "id": "snc.helmet.scale",
                     "amount":0.035,
                     "operation":"add_multiplied_total",
                     "slot":"head"
                 },{
-                    "type":"generic.attack_damage",
+                    "type":"attack_damage",
                     "id": "snc.helmet.attack_damage",
                     "amount":-0.02,
                     "operation":"add_multiplied_total",
                     "slot":"head"
                 },{
-                    "type":"generic.movement_speed",
+                    "type":"movement_speed",
                     "id": "snc.helmet.movement_speed",
                     "amount":-0.015,
                     "operation":"add_multiplied_total",

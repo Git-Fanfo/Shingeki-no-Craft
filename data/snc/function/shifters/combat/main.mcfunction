@@ -1,4 +1,4 @@
-attribute @s minecraft:player.block_interaction_range base set 0
+attribute @s minecraft:block_interaction_range base set 0
 
 ## Detect Roar
 $execute \

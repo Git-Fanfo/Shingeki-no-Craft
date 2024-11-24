@@ -6,7 +6,7 @@ execute unless score @s beast_vars matches ..1200 run scoreboard players set @s 
 scoreboard players set $corpses beast_vars 0
 execute if score @s beast_vars matches 1200 as @e[tag=shifter,tag=beast,tag=dead] run scoreboard players add $corpses beast_vars 1
 execute if score $corpses beast_vars matches 2.. as @e[tag=shifter,tag=beast,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"beast"}
-attribute @s generic.scale base set 6.4
+attribute @s scale base set 6.4
 
 
 execute if score @s beast_vars matches 1000.. run particle campfire_signal_smoke ^1.5 ^2 ^-6 2 3 2 .01 1 force

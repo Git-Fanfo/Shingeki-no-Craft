@@ -2,7 +2,7 @@ scoreboard players set @s snc.odm_dist 0
 execute if entity @s[tag=!snc.wire.buried] run scoreboard players add @s projectile 1
 #$execute if entity @s[tag=snc.wire.init] rotated as $(name) run function snc:player/odm/hook/init with entity @s
 $execute unless score @s[tag=snc.wire.init] projectile matches 1..2 rotated as $(name) run function snc:player/odm/hook/init with entity @s
-$execute facing entity $(name) feet run tp @s ~ ~ ~ ~-.3 ~-0.9
+$execute facing entity $(name) feet run rotate @s ~-.3 ~-0.9
 
 $execute if entity @s[tag=snc.wire.retract] facing entity $(name) feet run tp @s ^ ^ ^4 ~ ~
 # Kill hooks

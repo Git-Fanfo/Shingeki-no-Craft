@@ -3,4 +3,4 @@ tellraw @s ["",{"translate":"aot.patreon","bold":true,"color":"gold"}," ",{"sele
 function snc:logic/broadcast/creative
 function snc:logic/broadcast/support
 
-attribute @s[tag=!transform] generic.scale base set 1
+attribute @s[tag=!transform] scale base set 1

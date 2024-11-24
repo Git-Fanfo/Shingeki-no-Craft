@@ -9,37 +9,37 @@
         "minecraft:attribute_modifiers": {
             "modifiers": [
                 {
-                    "type": "minecraft:generic.armor",
+                    "type": "minecraft:armor",
                     "id": "snc.boots.armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                 },{
-                    "type":"generic.armor_toughness",
+                    "type":"armor_toughness",
                     "id": "snc.boots.armor_toughness",
                     "amount":1,
                     "operation":"add_value",
                     "slot":"feet"
                 },{
-                    "type":"generic.knockback_resistance",
+                    "type":"knockback_resistance",
                     "id": "snc.boots.knockback_resistance",
                     "amount":0.1,
                     "operation":"add_value",
                     "slot":"feet"
                 },{
-                    "type":"generic.scale",
+                    "type":"scale",
                     "id": "snc.boots.scale",
                     "amount":0.035,
                     "operation":"add_multiplied_total",
                     "slot":"feet"
                 },{
-                    "type":"generic.attack_damage",
+                    "type":"attack_damage",
                     "id": "snc.boots.attack_damage",
                     "amount":-0.02,
                     "operation":"add_multiplied_total",
                     "slot":"feet"
                 },{
-                    "type":"generic.movement_speed",
+                    "type":"movement_speed",
                     "id": "snc.boots.movement_speed",
                     "amount":-0.015,
                     "operation":"add_multiplied_total",

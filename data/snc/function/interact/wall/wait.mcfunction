@@ -1,6 +1,6 @@
 # Store first angle, wait 5 seconds first
 execute unless score @s snc.rotation_y matches -181..181 store result score @s snc.rotation_y run data get entity @s Rotation[0]
-tp @s ~ ~ ~ ~1 ~
+rotate @s ~1 0
 execute store result score @s snc.rotation_x run data get entity @s Rotation[0]
 
 execute if block ^ ^-1 ^45 air run tp ~ ~-1 ~

@@ -27,7 +27,7 @@
       "minecraft:lore":["{\"translate\":\"aot.surveyboot.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyboot.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyboot.desc3\",\"color\":\"gray\",\"italic\":false}"],
       "minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false},
       "minecraft:max_damage":195,
-      "minecraft:attribute_modifiers":[{"type":"generic.armor","amount":2,"operation":"add_value","id":"snc.boots.armor","slot":"feet"},{"type":"generic.safe_fall_distance","amount":8,"operation":"add_value","id":"snc.boots.safe_fall_distance","slot":"feet"}]
+      "minecraft:attribute_modifiers":[{"type":"armor","amount":2,"operation":"add_value","id":"snc.boots.armor","slot":"feet"},{"type":"safe_fall_distance","amount":8,"operation":"add_value","id":"snc.boots.safe_fall_distance","slot":"feet"}]
     }
   }
 }

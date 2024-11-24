@@ -19,7 +19,7 @@ execute if score @s colossal_vars matches 1200 store result entity @s Rotation[0
 effect give @s slow_falling infinite 2 true
 
 execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 0 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 502
-execute if score $form colossal_vars matches 0 run attribute @s generic.scale base set 10
+execute if score $form colossal_vars matches 0 run attribute @s scale base set 10
 execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 1 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 460
 execute if score @s colossal_vars matches 1200 if score $form colossal_vars matches 1 on passengers run data merge entity @s {start_interpolation:0,interpolation_duration:116,transformation:{translation:[0f,0f,53f],left_rotation:[0.722f,0f,0f,0.692f],right_rotation:[0f,0f,0f,1f]}}
 

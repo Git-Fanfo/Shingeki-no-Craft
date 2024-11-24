@@ -22,7 +22,7 @@
       "minecraft:custom_name":"{\"translate\":\"aot.scissors\",\"color\":\"white\",\"italic\":false}",
       "minecraft:lore":["{\"translate\":\"aot.scissors.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.scissors.desc2\",\"color\":\"gray\",\"italic\":false}","{\"text\":\" \",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","[{\"text\":\"\"},{\"translate\":\"effect.minecraft.instant_damage\",\"color\":\"blue\",\"italic\":false}]"],
       "minecraft:custom_model_data":5,
-      "minecraft:attribute_modifiers":[{"type":"generic.attack_damage","amount":1,"operation":"add_value","id":"snc.scissors.attack_damage","slot":"mainhand"}]
+      "minecraft:attribute_modifiers":[{"type":"attack_damage","amount":1,"operation":"add_value","id":"snc.scissors.attack_damage","slot":"mainhand"}]
     }
   }
 }

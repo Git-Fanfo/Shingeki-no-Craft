@@ -1,5 +1,5 @@
 ## Rotate model
-execute on passengers run tp @s ~ ~ ~ ~ 0
+execute on passengers run rotate @s ~ 0
 # Is moving?
 execute if predicate snc:general/moving_no_slow_falling on passengers run tag @s add walk
 ## Despawn

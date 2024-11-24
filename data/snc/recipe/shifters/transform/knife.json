@@ -19,14 +19,14 @@
       ],
       "minecraft:attribute_modifiers": [
         {
-          "type": "generic.attack_damage",
+          "type": "attack_damage",
           "slot": "mainhand",
           "id":"snc.knife.attack_damage",
           "amount": 10,
           "operation": "add_value"
         },
         {
-          "type": "generic.attack_speed",
+          "type": "attack_speed",
           "slot": "mainhand",
           "id":"snc.needle.attack_speed",
           "amount": 1,

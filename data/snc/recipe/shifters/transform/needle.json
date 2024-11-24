@@ -17,7 +17,7 @@
       "minecraft:custom_name":"{\"translate\":\"aot.needle\",\"color\":\"white\",\"italic\":false}",
       "minecraft:lore":["{\"translate\":\"aot.needle.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.needle.desc2\",\"color\":\"gray\",\"italic\":false}","{\"text\":\" \",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","[{\"text\":\"\"},{\"translate\":\"effect.minecraft.instant_damage\",\"color\":\"blue\",\"italic\":false}]"],
       "minecraft:custom_model_data":28,
-      "minecraft:attribute_modifiers":[{"type":"generic.attack_damage","amount":0.5,"operation":"add_value","id":"snc.needle.attack_damage","slot":"mainhand"}]
+      "minecraft:attribute_modifiers":[{"type":"attack_damage","amount":0.5,"operation":"add_value","id":"snc.needle.attack_damage","slot":"mainhand"}]
     }
   }
 }

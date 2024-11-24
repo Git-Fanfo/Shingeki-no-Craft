@@ -13,4 +13,3 @@ scoreboard objectives add aj.init_charge.frame dummy
 scoreboard objectives add aj.hardening.frame dummy
 scoreboard objectives add aj.sneak.frame dummy
 scoreboard objectives add aj.consume.frame dummy
-execute as @e[type=item_display,tag=aj.armor.root] unless score @s aj.is_rig_loaded matches 1 at @s run function animated_java:armor/root/on_load

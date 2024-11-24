@@ -35,8 +35,8 @@ scoreboard players reset @s snc.trap
 effect give @s invisibility infinite 0 true
 effect give @s saturation infinite 0 true
 effect give @s resistance 5 4 true
-$attribute @s generic.scale base set $(scale_player)
-$attribute @s player.entity_interaction_range base set $(entity_range)
+$attribute @s scale base set $(scale_player)
+$attribute @s entity_interaction_range base set $(entity_range)
 
 ## UNIQUE: CART
 $execute unless score @s cart_vars matches 1.. run scoreboard players remove $energy $(shifter)_vars 360

@@ -3,4 +3,4 @@
 
 execute if score ticks clock matches 0 as @a[distance=..30] run playsound minecraft:aot.engine hostile @s ~ ~ ~ .3 1 .2
 
- execute on passengers run tp @s ~ ~ ~ ~ 0
+execute on passengers run rotate @s ~ 0

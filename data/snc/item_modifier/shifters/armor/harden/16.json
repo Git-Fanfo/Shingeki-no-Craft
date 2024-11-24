@@ -5,14 +5,14 @@
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:generic.armor",
+            "type": "minecraft:armor",
             "id": "snc.leggings.armor",
             "amount": 16,
             "operation": "add_value",
             "slot": "head"
           },
           {
-            "type": "minecraft:generic.armor_toughness",
+            "type": "minecraft:armor_toughness",
             "id": "snc.leggings.armor_toughness",
             "amount": 12,
             "operation": "add_value",

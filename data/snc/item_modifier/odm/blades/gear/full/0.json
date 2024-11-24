@@ -41,9 +41,9 @@
   },{
     "function": "minecraft:set_attributes",
     "modifiers": [
-      {"attribute":"generic.attack_damage","id":"snc.gear.attack_damage","operation":"add_value",
+      {"attribute":"attack_damage","id":"snc.gear.attack_damage","operation":"add_value",
       "amount":5,"slot":"offhand"},
-      {"attribute":"generic.attack_speed","id":"snc.gear.attack_speed","operation":"add_value",
+      {"attribute":"attack_speed","id":"snc.gear.attack_speed","operation":"add_value",
       "amount":-1.6,"slot":"offhand"}
     ],"replace": true}
 ]

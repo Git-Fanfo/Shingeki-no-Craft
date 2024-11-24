@@ -12,4 +12,4 @@ execute if score $rock beast_vars matches 0 rotated ~ 0 run playsound aot.human.
 execute if score $rock beast_vars matches 0 rotated ~ 0 run particle block{block_state:"redstone_block"} ^ ^10 ^4 .6 .6 .6 1 500 force
 execute if score $rock beast_vars matches 0 as @e[tag=aj.beast.locator.consume,sort=nearest,limit=1] on passengers run function snc:shifters/mobs/beast/action/throw_area/dismount
 
-execute on vehicle run attribute @s minecraft:generic.scale base set 8.8
+execute on vehicle run attribute @s minecraft:scale base set 8.8

@@ -4,7 +4,7 @@ scoreboard players remove $energy armor_vars 1
 execute on vehicle run scoreboard players reset @s snc.knockback
 
 
-execute on vehicle run attribute @s generic.scale base set 5.2
+execute on vehicle run attribute @s scale base set 5.2
 
 execute if score $shifter_destroy config matches 1 run fill ~3.5 ~ ~3.5 ~-3.5 ~15 ~-3.5 air destroy
 execute if score $shifter_destroy config matches 1 run fill ~3.5 ~ ~4.5 ~-3.5 ~9 ~-4.5 air destroy

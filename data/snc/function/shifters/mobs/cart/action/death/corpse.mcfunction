@@ -6,7 +6,7 @@ execute unless score @s cart_vars matches ..1200 run scoreboard players set @s c
 scoreboard players set $corpses cart_vars 0
 execute if score @s cart_vars matches 1200 as @e[tag=shifter,tag=cart,tag=dead] run scoreboard players add $corpses cart_vars 1
 execute if score $corpses cart_vars matches 2.. as @e[tag=shifter,tag=cart,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"cart"}
-attribute @s generic.scale base set .95
+attribute @s scale base set .95
 
 
 execute if score @s cart_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force

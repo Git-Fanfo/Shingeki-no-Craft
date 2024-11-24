@@ -43,7 +43,7 @@
           "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.cartridges\",\"color\":\"gray\",\"italic\":false}]"
           ],
       "minecraft:attribute_modifiers":[
-        {"type":"generic.attack_speed","id":"snc.gear.attack_speed","operation":"add_value",
+        {"type":"attack_speed","id":"snc.gear.attack_speed","operation":"add_value",
         "amount":-1.6,"slot":"offhand"}
         ]
     }    

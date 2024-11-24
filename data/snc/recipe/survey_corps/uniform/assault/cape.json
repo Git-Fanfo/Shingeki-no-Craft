@@ -19,7 +19,7 @@
       "minecraft:lore":["{\"translate\":\"aot.scouts.assault.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.scouts.assault.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.scouts.assault.desc3\",\"color\":\"gray\",\"italic\":false}"],
       "minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false},
       "minecraft:max_damage":560,
-      "minecraft:attribute_modifiers":[{"type":"generic.armor","amount":8,"operation":"add_value","id":"snc.cape.armor","slot":"chest"},{"type":"generic.gravity","amount":0.005,"operation":"add_value","id":"snc.cape.gravity","slot":"chest"}]
+      "minecraft:attribute_modifiers":[{"type":"armor","amount":8,"operation":"add_value","id":"snc.cape.armor","slot":"chest"},{"type":"gravity","amount":0.005,"operation":"add_value","id":"snc.cape.gravity","slot":"chest"}]
     }
   },
   "template": {

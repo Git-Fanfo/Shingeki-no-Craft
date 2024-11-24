@@ -43,7 +43,7 @@
           "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.thunder\",\"color\":\"gray\",\"italic\":false}]",
           "[{\"text\":\" ● \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"aot.cartridges\",\"color\":\"gray\",\"italic\":false}]"
         ],
-      "minecraft:attribute_modifiers":[{"type":"generic.attack_speed","id":"snc.gas_trigger.attack_speed","operation":"add_value",
+      "minecraft:attribute_modifiers":[{"type":"attack_speed","id":"snc.gas_trigger.attack_speed","operation":"add_value",
       "amount":-1.6,"slot":"mainhand"}]
     }
   }    

@@ -27,7 +27,7 @@
       "minecraft:lore":["{\"translate\":\"aot.surveyleggings.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyleggings.desc2\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.surveyleggings.desc3\",\"color\":\"gray\",\"italic\":false}"],
       "minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false},
       "minecraft:max_damage":225,
-      "minecraft:attribute_modifiers":[{"type":"generic.armor","amount":5,"operation":"add_value","id":"snc.harness.armor","slot":"legs"},{"type":"generic.gravity","amount":-0.01,"operation":"add_value","id":"snc.harness.gravity","slot":"legs"}]
+      "minecraft:attribute_modifiers":[{"type":"armor","amount":5,"operation":"add_value","id":"snc.harness.armor","slot":"legs"},{"type":"gravity","amount":-0.01,"operation":"add_value","id":"snc.harness.gravity","slot":"legs"}]
     }
   }
 }

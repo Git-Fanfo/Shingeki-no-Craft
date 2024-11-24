@@ -29,6 +29,6 @@ $execute if score $mov $(shifter)_vars matches 77.. run \
 ## Change speed
 #$tellraw @p ["",{"text":"state: "},{"score":{"name":"state","objective":"$(shifter)_vars"}}]
 $execute if score state $(shifter)_vars matches 4 run \
-    data merge entity @s {Fire:0,attributes:[{id:"minecraft:generic.movement_speed",base:$(walk_speed)}]}
+    data merge entity @s {Fire:0,attributes:[{id:"minecraft:movement_speed",base:$(walk_speed)}]}
 $execute if score state $(shifter)_vars matches 5 run \
-    data merge entity @s {Fire:0,attributes:[{id:"minecraft:generic.movement_speed",base:$(run_speed)}]}
+    data merge entity @s {Fire:0,attributes:[{id:"minecraft:movement_speed",base:$(run_speed)}]}

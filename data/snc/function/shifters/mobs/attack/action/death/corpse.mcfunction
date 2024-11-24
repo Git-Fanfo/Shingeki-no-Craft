@@ -6,7 +6,7 @@ execute unless score @s attack_vars matches ..1200 run scoreboard players set @s
 scoreboard players set $corpses attack_vars 0
 execute if score @s attack_vars matches 1200 as @e[tag=shifter,tag=attack,tag=dead] run scoreboard players add $corpses attack_vars 1
 execute if score $corpses attack_vars matches 2.. as @e[tag=shifter,tag=attack,tag=dead,limit=1,sort=arbitrary] run function snc:shifters/mobs/kill {"shifter":"attack"}
-attribute @s generic.scale base set 4.5
+attribute @s scale base set 4.5
 
 
 execute if score @s attack_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force

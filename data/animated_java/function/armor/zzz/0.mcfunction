@@ -6,7 +6,7 @@ execute if data storage aj:temp args.variant run function animated_java:armor/zz
 execute unless data storage aj:temp args.animation run function animated_java:armor/set_default_pose
 execute if data storage aj:temp args.animation run function animated_java:armor/zzz/7 with storage aj:temp args
 tp @s ~ ~ ~ ~ ~
-execute at @s on passengers run tp @s ~ ~ ~ ~ ~
+execute at @s on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
 function #animated_java:armor/as_root/on_summon

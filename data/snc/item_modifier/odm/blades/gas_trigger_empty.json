@@ -32,7 +32,7 @@
     },{
       "function": "minecraft:set_attributes",
       "modifiers": [
-         {"attribute":"generic.attack_speed","id":"snc.gas_trigger.attack_speed","operation":"add_value",
+         {"attribute":"attack_speed","id":"snc.gas_trigger.attack_speed","operation":"add_value",
          "amount":-1.6,"slot":"mainhand"}
       ],"replace": true}
 ]
