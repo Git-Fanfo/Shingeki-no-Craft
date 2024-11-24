@@ -21,6 +21,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": "minecraft:cave",
   "features": []
 }

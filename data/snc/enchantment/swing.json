@@ -21,7 +21,7 @@
 			}
 		}],
 		"minecraft:attributes": [{
-			"attribute": "minecraft:generic.movement_speed",
+			"attribute": "minecraft:movement_speed",
 			"id": "snc.swing.movement_speed",
 			"amount": {
 				"type": "linear",
@@ -30,7 +30,7 @@
 			},
 			"operation": "add_value"
 		},{
-			"attribute": "minecraft:generic.jump_strength",
+			"attribute": "minecraft:jump_strength",
 			"id": "snc.swing.jump_strength",
 			"amount": {
 				"type": "linear",
