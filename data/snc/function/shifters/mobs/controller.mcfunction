@@ -6,8 +6,7 @@ $execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
 
 ## Is moving? Unless is sneaking!
-$execute unless score $moving $(shifter)_vars matches -1 store result score $moving $(shifter)_vars run execute if predicate snc:is_moving
-# execute unless entity @s[type=player] run function snc:shifters/mobs/brain
+# execute unless entity @s[type=player] run function snc:shifters/mobs/brain if predicate snc:is_moving
 # Rotation
 $execute store result score player_rotation $(shifter)_vars run data get entity @s Rotation[0]
 
@@ -19,8 +18,7 @@ $execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_
 # Insta remove
 $execute if predicate snc:shifters/has_insta_remove if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/vanish
 # Ride when is not dead
-$execute if score #sneak $(shifter)_vars matches 1..20 run scoreboard players remove #sneak $(shifter)_vars 1
-$execute unless score state $(shifter)_vars matches 9 unless predicate snc:shifters/is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak
+$execute unless score state $(shifter)_vars matches 9 if predicate snc:player/keybinds/sneak run function snc:shifters/mobs/$(shifter)/animate/sneak
 
 ## Health system
 # When doesn't have absortion then add tag 'injured'

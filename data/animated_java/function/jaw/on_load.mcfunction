@@ -5,4 +5,3 @@ scoreboard objectives add aj.born.frame dummy
 scoreboard objectives add aj.death.frame dummy
 scoreboard objectives add aj.walk.frame dummy
 scoreboard objectives add aj.sneak.frame dummy
-execute as @e[type=item_display,tag=aj.jaw.root] unless score @s aj.is_rig_loaded matches 1 at @s run function animated_java:jaw/root/on_load

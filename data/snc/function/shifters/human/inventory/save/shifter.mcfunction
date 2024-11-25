@@ -12,6 +12,6 @@ $execute unless items entity @s container.8 *[custom_data~{atk_shifter:1b}|count
 $execute unless items entity @s weapon.offhand *[custom_data~{atk_shifter:1b}|count~{max:0}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:-106b}]
 
 $execute unless items entity @s armor.head minecraft:carved_pumpkin run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:103b}]
-$execute unless items entity @s armor.chest leather_chestplate[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:102b}]
-$execute unless items entity @s armor.legs leather_leggings[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:101b}]
-$execute unless items entity @s armor.feet leather_boots[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:100b}]
+$execute unless items entity @s armor.chest mushroom_stew[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:102b}]
+$execute unless items entity @s armor.legs mushroom_stew[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:101b}]
+$execute unless items entity @s armor.feet mushroom_stew[custom_data~{snc_blank:true}] run data modify storage minecraft:$(shifter) Hotbar append from entity @s Inventory[{Slot:100b}]

@@ -1,5 +1,4 @@
 scoreboard players set state armor_vars 12
-scoreboard players set $mov armor_vars 86
 # Don't remove this one, set to run
 execute on vehicle run data merge entity @s {Fire:0,attributes:[{id:"minecraft:movement_speed",base:0.31}]}
 

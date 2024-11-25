@@ -18,6 +18,6 @@ $item replace entity @s container.8 with carrot_on_a_stick[enchantment_glint_ove
 
 ## Resistance!
 item modify entity @s armor.head snc:enchantments/shifter
-item replace entity @s armor.chest with leather_chestplate[hide_tooltip={},enchantments={levels:{"minecraft:binding_curse":1}},enchantment_glint_override=true,attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value",slot:"any"}],trim={material:"blank",pattern:blank},custom_data={snc_blank:true}] 1
-item replace entity @s armor.legs with leather_leggings[hide_tooltip={},enchantments={levels:{"minecraft:binding_curse":1}},enchantment_glint_override=true,attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value",slot:"any"}],trim={material:"blank",pattern:"blank"},custom_data={snc_blank:true}] 1
-item replace entity @s armor.feet with leather_boots[hide_tooltip={},enchantments={levels:{"minecraft:binding_curse":1}},enchantment_glint_override=true,attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value",slot:"any"}],trim={material:"blank",pattern:"blank"},custom_data={snc_blank:true}] 1
+item replace entity @s armor.chest with minecraft:mushroom_stew[!minecraft:consumable,minecraft:equippable={slot:chest},enchantments={levels:{"minecraft:binding_curse":1}},minecraft:enchantment_glint_override=false,minecraft:item_model="minecraft:air",custom_data={snc_blank:true}]
+item replace entity @s armor.legs with minecraft:mushroom_stew[!minecraft:consumable,minecraft:equippable={slot:legs},enchantments={levels:{"minecraft:binding_curse":1}},minecraft:enchantment_glint_override=false,minecraft:item_model="minecraft:air",custom_data={snc_blank:true}]
+item replace entity @s armor.feet with minecraft:mushroom_stew[!minecraft:consumable,minecraft:equippable={slot:feet},enchantments={levels:{"minecraft:binding_curse":1}},minecraft:enchantment_glint_override=false,minecraft:item_model="minecraft:air",custom_data={snc_blank:true}]

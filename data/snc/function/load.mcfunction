@@ -1,6 +1,7 @@
 #Rules
 gamerule doFireTick false
 gamerule doImmediateRespawn true
+gamerule disablePlayerMovementCheck true
 
 ## Logic
 scoreboard objectives add constant dummy

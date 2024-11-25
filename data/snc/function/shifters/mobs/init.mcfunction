@@ -20,7 +20,6 @@ $scoreboard players reset $moving $(shifter)_vars
 
 $scoreboard players set $gamemode $(shifter)_vars 1
 $scoreboard players set $vanish $(shifter)_vars 0
-$scoreboard players set $mov $(shifter)_vars 80
 $scoreboard players set $hold $(shifter)_vars 0
 
 $execute if score @s armor_vars matches 1 run scoreboard players set $hardening $(shifter)_vars 0

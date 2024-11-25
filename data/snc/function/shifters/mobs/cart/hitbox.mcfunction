@@ -4,7 +4,7 @@ execute if entity @s[tag=cart.hitbox] run tp ^ ^ ^-3.2
 execute if entity @s[tag=aj.cart.locator.consume] on passengers run function snc:shifters/mobs/cart/action/hold/effects
 
 # Rotate pivot
-execute if entity @s[tag=cart.case] on vehicle at @s on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ 0
+execute if entity @s[tag=cart.case] on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
 
 execute if entity @s[tag=cart.case] run data modify entity @s Rotation[1] set value 0f
 execute if entity @s[tag=cart.case] unless predicate snc:is_riding run ride @s mount @e[tag=body,tag=cart,sort=nearest,limit=1]
@@ -17,7 +17,7 @@ execute if entity @s[tag=cart.barrel.3] unless score state cart_vars matches 2 r
 execute if entity @s[tag=cart.barrel.4] unless score state cart_vars matches 2 run tp ^-.82 ^3.4 ^-3.95
 
 ## Guns
-execute if entity @s[tag=cart.gun] on passengers if entity @s[type=player] at @s on vehicle on passengers unless entity @s[type=player] run tp @s ~ ~ ~ ~ ~
+execute if entity @s[tag=cart.gun] on passengers if entity @s[type=player] at @s on vehicle on passengers unless entity @s[type=player] run rotate @s ~ ~
 
 ## Turrets
 execute if entity @s[tag=cart.turret.1] run function snc:shifters/mobs/cart/action/shipload/turrets/main {"x":1.3,"y":4.6,"z":-2,"turret":1,"rotate":315}

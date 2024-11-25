@@ -1,6 +1,5 @@
 scoreboard players set state armor_vars 5
 execute on vehicle run effect clear @s slowness
-scoreboard players set $mov armor_vars 0
 
 # Follow combo
 execute if score combo_punch armor_vars matches 4 run scoreboard players set state armor_vars 15

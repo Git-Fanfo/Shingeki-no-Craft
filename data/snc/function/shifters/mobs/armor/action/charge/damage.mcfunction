@@ -19,9 +19,7 @@ execute rotated ~ 0 positioned ^ ^8 ^5 run function snc:shifters/mobs/armor/acti
 # Damage players on ground 
 execute positioned ^ ^ ^2 run function snc:shifters/combat/damage {"distance":8,"half_minus_zero_point_five":3.5,"shifter":"armor","sound":"","damage":5,"knockback":"1","energy":0,"angle":7}
 
-execute if score $moving armor_vars matches 1 unless score $mov armor_vars matches 80.. run scoreboard players add $mov armor_vars 2
-execute if score $moving armor_vars matches 0 run scoreboard players remove $mov armor_vars 1
-execute if score $mov armor_vars matches ..78 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
+execute on vehicle on controller unless predicate snc:player/keybinds/forward run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 execute if score $charge.time armor_vars matches ..0 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 
 execute rotated ~ 0 positioned ^ ^4 ^5 if score #grab armor_vars matches 1..2 unless block ~ ~ ~ air unless block ~ ~ ~ #snc:destroy/nature run scoreboard players set #grab armor_vars 3

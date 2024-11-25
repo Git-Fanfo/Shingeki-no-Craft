@@ -8,6 +8,5 @@ execute if entity @s[tag=aj.jaw.animation.born.playing] run function animated_ja
 execute if entity @s[tag=aj.jaw.animation.death.playing] run function animated_java:jaw/animations/death/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.walk.playing] run function animated_java:jaw/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.sneak.playing] run function animated_java:jaw/animations/sneak/zzz/on_tick
-execute on passengers if entity @s[tag=aj.jaw.data] run function animated_java:jaw/root/zzz/1
-execute at @s on passengers run tp @s ~ ~ ~ ~ ~
+execute at @s on passengers run rotate @s ~ ~
 function #animated_java:jaw/as_root/post_tick

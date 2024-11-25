@@ -1,30 +1,11 @@
-## Start running after some time
-$execute \
-    if score $gamemode $(shifter)_vars matches 1 \
-    if score $moving $(shifter)_vars matches 1 \
-    unless score $mov $(shifter)_vars matches 80.. run \
-        scoreboard players add $mov $(shifter)_vars 2
-
-# $tellraw @p ["",{"text":"$mov: "},{"score":{"name":"$mov","objective":"$(shifter)_vars"}}]
-$execute if score $mov $(shifter)_vars matches 1.. run \
-    scoreboard players remove $mov $(shifter)_vars 1
-
 # Set state to idle unless is sneaking
-$execute \
-    unless score state $(shifter)_vars matches 2 \
-    if score $moving $(shifter)_vars matches 0 \
-    if score $mov $(shifter)_vars matches 0..73 run \
-        scoreboard players set state $(shifter)_vars 3
-
+$execute unless score state $(shifter)_vars matches 2 run scoreboard players set state $(shifter)_vars 3
 # Set state to walk
-$execute \
-    if score $moving $(shifter)_vars matches 1 \
-    if score $mov $(shifter)_vars matches 0..70 run \
-        scoreboard players set state $(shifter)_vars 4
-
-# Set state to walk
-$execute if score $mov $(shifter)_vars matches 77.. run \
-    scoreboard players set state $(shifter)_vars 5
+$execute on controller if predicate snc:player/keybinds/move run scoreboard players set state $(shifter)_vars 4
+# Set state to Sprint
+$execute on controller if predicate snc:player/keybinds/sprint run scoreboard players set #sprint $(shifter)_vars 1 
+$execute on controller unless predicate snc:player/keybinds/forward run scoreboard players reset #sprint $(shifter)_vars
+$execute if score #sprint $(shifter)_vars matches 1 run scoreboard players set state $(shifter)_vars 5
 
 ## Change speed
 #$tellraw @p ["",{"text":"state: "},{"score":{"name":"state","objective":"$(shifter)_vars"}}]
