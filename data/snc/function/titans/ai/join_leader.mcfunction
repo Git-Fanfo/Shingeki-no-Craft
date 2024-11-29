@@ -5,4 +5,5 @@ $execute if entity @s[team=armor] run data merge storage minecraft:$(titan) {tea
 $execute if entity @s[team=beast] run data merge storage minecraft:$(titan) {team:beast}
 $execute if entity @s[team=cart] run data merge storage minecraft:$(titan) {team:cart}
 $execute if entity @s[team=colossal] run data merge storage minecraft:$(titan) {team:colossal}
+$execute if entity @s[team=jaw] run data merge storage minecraft:$(titan) {team:jaw}
 $function snc:titans/ai/summon with storage minecraft:$(titan)

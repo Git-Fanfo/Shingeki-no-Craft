@@ -20,11 +20,12 @@ execute if score eldian spawn matches 6 run function snc:eldia/villager/summon/d
 execute if score @s shifter_vars matches ..-1 run scoreboard players operation @e[tag=snc.villager.new,sort=nearest,limit=1] shifter_vars = @s shifter_vars
 ##### HOW TO CREATE A SHIFTER #####
 # Give shifter
-execute if entity @s[tag=cart] run execute as @e[tag=snc.villager.new,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:cart
-execute if entity @s[tag=colossal] run execute as @e[tag=snc.villager.new,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:colossal
-execute if entity @s[tag=attack] run execute as @e[tag=snc.villager.new,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:attack
-execute if entity @s[tag=armor] run execute as @e[tag=snc.villager.new,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:armor
-execute if entity @s[tag=beast] run execute as @e[tag=snc.villager.new,sort=nearest,limit=1] run function snc:shifters/transfer/get with storage minecraft:beast
+execute if entity @s[tag=cart] as @n[tag=snc.villager.new] run function snc:shifters/transfer/get with storage minecraft:cart
+execute if entity @s[tag=colossal] as @n[tag=snc.villager.new] run function snc:shifters/transfer/get with storage minecraft:colossal
+execute if entity @s[tag=attack] as @n[tag=snc.villager.new] run function snc:shifters/transfer/get with storage minecraft:attack
+execute if entity @s[tag=armor] as @n[tag=snc.villager.new] run function snc:shifters/transfer/get with storage minecraft:armor
+execute if entity @s[tag=beast] as @n[tag=snc.villager.new] run function snc:shifters/transfer/get with storage minecraft:beast
+execute if entity @s[tag=jaw] as @n[tag=snc.villager.new] run function snc:shifters/transfer/get with storage minecraft:jaw
 
 ## INHERIT
 ride @s mount @e[tag=snc.villager.new,sort=nearest,limit=1]

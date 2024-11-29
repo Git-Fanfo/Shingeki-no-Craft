@@ -2,7 +2,7 @@ $execute store result score #motion_x0 $(score) run data get entity @s Pos[0] 10
 $execute store result score #motion_y0 $(score) run data get entity @s Pos[1] 1000
 $execute store result score #motion_z0 $(score) run data get entity @s Pos[2] 1000
 
-$execute at @s positioned ^ ^ ^.1 summon snowball run function snc:logic/motion/macro {"score":$(score)}
+$execute positioned ^ ^ ^.1 summon snowball run function snc:logic/motion/macro {"score":$(score)}
 
 $scoreboard players operation #motion_x $(score) -= #motion_x0 $(score)
 $scoreboard players operation #motion_y $(score) -= #motion_y0 $(score)

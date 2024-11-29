@@ -161,16 +161,16 @@ data merge storage minecraft:armor {\
 ## Note: Fanfo from the future says: Argument skeleton_horse "jump:1d" works pretty good for Jaw!
 # Also, scale is already good
 data merge storage minecraft:jaw {\
-    id:1, \
-    shifter:cart, \
-    name:"Cart Titan", \
-    color:light_purple, \
+    id:6, \
+    shifter:jaw, \
+    name:"Jaw Titan", \
+    color:yellow, \
     bossbar_display:uFFF3, \
-    bossbar_color:pink, \
+    bossbar_color:yellow, \
     bossbar_style: notched_6, \
     hp:32, \
-    walk_speed:0.34d, \
-    run_speed:0.34d, \
+    walk_speed:0.13d, \
+    run_speed:0.5d, \
     type:skeleton_horse, \
     jump:1d, \
     step_height:3.6d, \
@@ -178,10 +178,10 @@ data merge storage minecraft:jaw {\
     resistance:2, \
     regen_ticks:100, \
     scale_vehicle:1.3, \
-    scale_player:2, \
+    scale_player:2.1, \
     block_range:7, \
     entity_range:7, \
-    energy_decrease: 1,\
+    energy_decrease: 2,\
     damage_jaw: 30, knockback_jaw: 1, energy_jaw: 8, angle_jaw: 10, \
     energy_jump: 5, \
     energy_hold: 24, \

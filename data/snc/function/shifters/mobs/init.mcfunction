@@ -7,7 +7,6 @@ $execute summon $(type) run function snc:shifters/mobs/spawn {\
     "step_height":$(step_height), \
     "scale_vehicle":$(scale_vehicle) \    
     }
-
 $bossbar add $(shifter)_health {"text":"\$(bossbar_display)"}
 $bossbar set minecraft:$(shifter)_health color $(bossbar_color)
 $bossbar set minecraft:$(shifter)_health max $(hp)

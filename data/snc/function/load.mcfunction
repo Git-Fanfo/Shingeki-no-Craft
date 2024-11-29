@@ -159,6 +159,10 @@ scoreboard objectives add shifter_vars dummy
 ## Shifters
 function snc:shifters/mobs/arguments
 
+scoreboard objectives add jaw_vars dummy
+execute unless score $energy jaw_vars matches 0.. run scoreboard players set $energy jaw_vars 0
+execute unless score $jaw.doesnt.exists shifter_vars matches 0 run scoreboard players set $jaw.doesnt.exists shifter_vars 1
+
 scoreboard objectives add armor_vars dummy
 execute unless score $energy armor_vars matches 0.. run scoreboard players set $energy armor_vars 0
 execute unless score $armor.doesnt.exists shifter_vars matches 0 run scoreboard players set $armor.doesnt.exists shifter_vars 1
@@ -215,6 +219,9 @@ team modify beast seeFriendlyInvisibles false
 team add armor
 team modify armor nametagVisibility never
 team modify armor seeFriendlyInvisibles false
+team add jaw
+team modify jaw nametagVisibility never
+team modify jaw seeFriendlyInvisibles false
 
 team add soldier
 team modify soldier seeFriendlyInvisibles false

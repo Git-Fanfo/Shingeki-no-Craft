@@ -17,3 +17,6 @@ execute unless score $beast.doesnt.exists shifter_vars matches 0 run tellraw @s 
 
 execute if score $armor.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"text":"Armor x: ","color":"gold"},{"score":{"name":"#x_armor", "objective": "shifter_vars"}},{"text":" z: ","color":"gold"},{"score":{"name":"#z_armor", "objective": "shifter_vars"}}]
 execute unless score $armor.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"translate":"aot.titan.armor","color":"gold"}," ",{"translate":"aot.shifters.not_born"}]
+
+execute if score $jaw.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"text":"Jaw x: ","color":"yellow"},{"score":{"name":"#x_jaw", "objective": "shifter_vars"}},{"text":" z: ","color":"gold"},{"score":{"name":"#z_jaw", "objective": "shifter_vars"}}]
+execute unless score $jaw.doesnt.exists shifter_vars matches 0 run tellraw @s ["",{"translate":"aot.titan.jaw","color":"yellow"}," ",{"translate":"aot.shifters.not_born"}]

@@ -5,3 +5,4 @@ scoreboard players operation $spawn.shifter shifter_vars += $colossal.doesnt.exi
 scoreboard players operation $spawn.shifter shifter_vars += $attack.doesnt.exists shifter_vars
 scoreboard players operation $spawn.shifter shifter_vars += $beast.doesnt.exists shifter_vars
 scoreboard players operation $spawn.shifter shifter_vars += $armor.doesnt.exists shifter_vars
+scoreboard players operation $spawn.shifter shifter_vars += $jaw.doesnt.exists shifter_vars
