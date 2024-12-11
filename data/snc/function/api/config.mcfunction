@@ -89,7 +89,10 @@ execute if score $anonymity config matches 0 if score $special config matches 1 
 # Show commands
 execute if score comm_feed config matches 1 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.4","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -8"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 execute if score comm_feed config matches 0 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.4","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -7"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
-
+# Show commands
+execute if score $intro config matches 1 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.23","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -64"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+execute if score $intro config matches 0 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.23","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -63"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+# 
 
 
 

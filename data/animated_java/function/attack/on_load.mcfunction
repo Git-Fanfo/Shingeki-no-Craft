@@ -13,4 +13,3 @@ scoreboard objectives add aj.kick_1.frame dummy
 scoreboard objectives add aj.kick_2.frame dummy
 scoreboard objectives add aj.kick_3.frame dummy
 scoreboard objectives add aj.block.frame dummy
-execute as @e[type=item_display,tag=aj.attack.root] unless score @s aj.is_rig_loaded matches 1 at @s run function animated_java:attack/root/on_load

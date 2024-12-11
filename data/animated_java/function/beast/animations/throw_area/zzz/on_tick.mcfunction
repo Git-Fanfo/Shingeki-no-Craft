@@ -2,8 +2,8 @@
 scoreboard players remove @s aj.tween_duration 1
 execute if score @s aj.tween_duration matches 1.. run return 1
 execute if score @s aj.tween_duration matches 0 on passengers run data modify entity @s interpolation_duration set value 1
-execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.throw_area.frame
 execute if score @s aj.throw_area.frame matches -1 run function animated_java:beast/animations/throw_area/zzz/zzz/0
+execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.throw_area.frame
 function animated_java:beast/animations/throw_area/zzz/apply_frame with storage aj:temp
 execute if score @s aj.throw_area.frame matches 64.. run return run function animated_java:beast/animations/throw_area/zzz/zzz/1
 scoreboard players add @s aj.throw_area.frame 1

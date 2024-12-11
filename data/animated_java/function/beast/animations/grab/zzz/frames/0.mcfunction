@@ -25,4 +25,4 @@ $data merge entity $(bone_left_knee) { transformation: [-2.85f,0f,3.490243377569
 $data merge entity $(bone_left_thigh) { transformation: [-3.8250000000000006f,0f,4.684274006738627e-16f,1.6875000000000002f,0f,3.8250000000000006f,0f,-3.8394962500000007f,-4.684274006738627e-16f,0f,-3.8250000000000006f,-2.2497187499999995f,0f,0f,0f,1f], start_interpolation: 0, interpolation_duration: 1 }
 $data merge entity $(bone_left_leg) { transformation: [-1.7250000000000003f,0f,2.1125157285291847e-16f,1.6701387500000002f,0f,1.7250000000000003f,0f,-3.847094375000001f,-2.1125157285291847e-16f,0f,-1.7250000000000003f,-2.2026249999999994f,0f,0f,0f,1f], start_interpolation: 0, interpolation_duration: 1 }
 execute on vehicle unless entity @s[tag=aj.transforms_only] positioned ^0 ^0 ^0 rotated ~0 ~0 run function animated_java:beast/animations/grab/zzz/frames/zzz/0
-data modify entity @s data merge value {"locators":{"consume":{"posx":-3.875,"posy":-8.875,"posz":-2.4375000000000004,"rotx":0,"roty":0}},"cameras":{}}
+data modify entity @s data merge value {"locators":{"consume":{"posx":-3.875,"posy":-8.875,"posz":-2.4375000000000004,"roty":0,"rotx":0}},"cameras":{}}

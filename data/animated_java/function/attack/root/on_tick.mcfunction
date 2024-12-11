@@ -17,5 +17,5 @@ execute if entity @s[tag=aj.attack.animation.kick_2.playing] run function animat
 execute if entity @s[tag=aj.attack.animation.kick_3.playing] run function animated_java:attack/animations/kick_3/zzz/on_tick
 execute if entity @s[tag=aj.attack.animation.block.playing] run function animated_java:attack/animations/block/zzz/on_tick
 execute on passengers if entity @s[tag=aj.attack.data] run function animated_java:attack/root/zzz/1
-execute at @s on passengers run tp @s ~ ~ ~ ~ ~
+execute at @s on passengers run rotate @s ~ ~
 function #animated_java:attack/as_root/post_tick

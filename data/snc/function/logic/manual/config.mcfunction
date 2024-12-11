@@ -51,6 +51,8 @@ execute as @s[scores={manual=-59}] run scoreboard players set $odm_gas config 1
 execute as @s[scores={manual=-60}] run scoreboard players set $odm_gas config 0
 execute as @s[scores={manual=-61}] run scoreboard players set $titan_tracking config 1
 execute as @s[scores={manual=-62}] run scoreboard players set $titan_tracking config 0
+execute as @s[scores={manual=-63}] run scoreboard players set $intro config 1
+execute as @s[scores={manual=-64}] run scoreboard players set $intro config 0
 
 
 

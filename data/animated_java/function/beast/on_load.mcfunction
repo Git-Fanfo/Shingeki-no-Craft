@@ -9,4 +9,3 @@ scoreboard objectives add aj.grab.frame dummy
 scoreboard objectives add aj.sneak.frame dummy
 scoreboard objectives add aj.consume.frame dummy
 scoreboard objectives add aj.slap.frame dummy
-execute as @e[type=item_display,tag=aj.beast.root] unless score @s aj.is_rig_loaded matches 1 at @s run function animated_java:beast/root/on_load

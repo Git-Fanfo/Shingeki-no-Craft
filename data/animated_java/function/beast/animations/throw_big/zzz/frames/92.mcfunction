@@ -17,4 +17,4 @@ $data merge entity $(bone_chest) { transformation: [-6.061547916666667f,0f,7.423
 $data merge entity $(bone_waist) { transformation: [-5.023832916666667f,0f,6.152420900846945e-16f,0.000001250000000293854f,0f,5.023832916666667f,0f,0.7895225000000003f,-6.152420900846945e-16f,0f,-5.023832916666667f,-2.3995f,0f,0f,0f,1f], start_interpolation: 0, interpolation_duration: 1 }
 $data merge entity $(bone_hip) { transformation: [-4.3939320833333335f,0f,5.381014861525028e-16f,1.1611159502288358e-16f,0f,4.3939320833333335f,0f,-2.52446125f,-5.381014861525028e-16f,0f,-4.3939320833333335f,-0.948123125f,0f,0f,0f,1f], start_interpolation: 0, interpolation_duration: 1 }
 execute on vehicle unless entity @s[tag=aj.transforms_only] positioned ^0 ^0 ^0 rotated ~0 ~0 run function animated_java:beast/animations/throw_big/zzz/frames/zzz/4
-data modify entity @s data merge value {"locators":{"consume":{"posx":-3.875,"posy":-8.667051969321134,"posz":-4.548498359262099,"rotx":0,"roty":15}},"cameras":{}}
+data modify entity @s data merge value {"locators":{"consume":{"posx":-3.875,"posy":-8.667051969321134,"posz":-4.548498359262099,"roty":0,"rotx":15}},"cameras":{}}
