@@ -6,19 +6,15 @@
     "X"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:leather"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "minecraft:leather",
+    "X": "minecraft:iron_ingot"
   },
   "result": {
     "count": 1,
     "id": "minecraft:carrot_on_a_stick",
     "components": {
       "custom_data":{"trigger":true, "snc_item":1},
-      "minecraft:custom_model_data": 2,
+      "minecraft:item_model": "manuever/gas_trigger/empty",
       "damage":100,
       "max_damage":100,
       "minecraft:enchantments":{"levels":{"snc:swing":1},"show_in_tooltip":false},

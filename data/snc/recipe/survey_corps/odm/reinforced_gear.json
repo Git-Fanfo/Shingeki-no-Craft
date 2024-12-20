@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smithing_transform",
-  "addition": {"item": "minecraft:iron_block"},
-  "base": {"item": "minecraft:warped_fungus_on_a_stick"},
-  "template": {"item": "minecraft:crying_obsidian"},
+  "addition": "minecraft:iron_block",
+  "base": "minecraft:warped_fungus_on_a_stick",
+  "template": "minecraft:crying_obsidian",
   "result": {
     "count": 1,
     "id": "minecraft:warped_fungus_on_a_stick",
@@ -18,7 +18,7 @@
         "snc_odm_spears":0,
         "snc_item":1
       },
-      "minecraft:custom_model_data": 5, "damage":100,
+      "minecraft:item_model": "manuever/odm_gear/mode_2/empty", "damage":100,
       "max_damage":100,
       "rarity":"rare",
       "item_name":"[{\"text\":\"Reinforced \",\"color\":\"green\"},{\"translate\":\"aot.odm\"}, \" [Gas 0%]\"]",

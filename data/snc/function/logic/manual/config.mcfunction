@@ -53,6 +53,10 @@ execute as @s[scores={manual=-61}] run scoreboard players set $titan_tracking co
 execute as @s[scores={manual=-62}] run scoreboard players set $titan_tracking config 0
 execute as @s[scores={manual=-63}] run scoreboard players set $intro config 1
 execute as @s[scores={manual=-64}] run scoreboard players set $intro config 0
+execute as @s[scores={manual=-65}] run scoreboard players set $titan_drops config 1
+execute as @s[scores={manual=-66}] run scoreboard players set $titan_drops config 0
+execute as @s[scores={manual=-67}] run scoreboard players set $death_msg config 1
+execute as @s[scores={manual=-68}] run scoreboard players set $death_msg config 0
 
 
 

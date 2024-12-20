@@ -1,1 +1,1 @@
-give @s carved_pumpkin[custom_data={snc_item:1},custom_name='[{"translate":"aot.titan.cart","color":"white","italic":false}," ",{"translate":"aot.mask"}]',lore=['{"translate":"Decoration","color":"blue","italic":false}'],custom_model_data=102] 1
+give @s carved_pumpkin[custom_data={snc_item:1},custom_name='[{"translate":"aot.titan.cart","color":"white","italic":false}," ",{"translate":"aot.mask"}]',lore=['{"translate":"Decoration","color":"blue","italic":false}'],item_model='trophies/cart_head'] 1

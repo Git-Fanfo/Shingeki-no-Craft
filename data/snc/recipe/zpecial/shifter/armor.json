@@ -1,7 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "minecraft:orange_dye"},{"item": "minecraft:bedrock"}],
+  "ingredients": [
+    "minecraft:orange_dye","minecraft:bedrock"
+  ],
   "result": {
     "count": 1,
     "id": "minecraft:camel_spawn_egg",

@@ -1,19 +1,11 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:gunpowder"
-        },
-        {
-            "item": "minecraft:gunpowder"
-        },
-        {
-            "item": "minecraft:gunpowder"
-        }
+        "minecraft:gunpowder","minecraft:gunpowder","minecraft:gunpowder"
     ],
     "result": {
         "id": "minecraft:quartz",
         "count": 1,
-        "components": { "custom_data":{"snc_item":1}, "minecraft:custom_model_data": 1, "minecraft:custom_name":"{\"translate\":\"aot.gun.jar\",\"color\":\"white\",\"italic\":false}"}
+        "components": { "custom_data":{"snc_item":1}, "minecraft:item_model": "people/item/jar", "minecraft:custom_name":"{\"translate\":\"aot.gun.jar\",\"color\":\"white\",\"italic\":false}"}
     }
   }

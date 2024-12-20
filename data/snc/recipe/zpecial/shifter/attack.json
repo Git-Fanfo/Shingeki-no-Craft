@@ -1,7 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "minecraft:red_dye"},{"item": "minecraft:bedrock"}],
+  "ingredients": [
+    "minecraft:red_dye","minecraft:bedrock"
+  ],
   "result": {
     "count": 1,
     "id": "minecraft:strider_spawn_egg",

@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "barrier"}],
+  "ingredients": ["minecraft:barrier"],
   "result": {
     "count": 1,
     "id": "minecraft:carrot_on_a_stick",
     "components": {
         "custom_data":{"snc_config":true,"snc_item":1},
-        "minecraft:custom_model_data": 60,
+        "minecraft:item_model": "item/config",
         "item_name":"{\"translate\":\"aot.snc_config\"}",
         "lore":["{\"text\":\"  \"}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.snc_config.desc\",\"color\":\"blue\",\"bold\":false,\"italic\":false}"],
         "rarity":"epic"

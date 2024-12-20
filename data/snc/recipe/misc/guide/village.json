@@ -1,13 +1,11 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {"item": "barrier"}
-    ],
+    "ingredients": ["minecraft:barrier"],
     "result": {
         "id": "minecraft:written_book",
         "count": 1,
         "components": {
-            "custom_model_data":7,
+            "item_model":"guide/village",
             "custom_data": {"snc_item":1},
             "written_book_content": {
                 "title": "Villages",

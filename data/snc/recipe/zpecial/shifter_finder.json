@@ -2,19 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-      {
-          "item": "minecraft:compass"
-      },
-      {
-          "item": "minecraft:bedrock"
-      }
+      "minecraft:compass",
+      "minecraft:bedrock"
   ],
   "result": {
     "count": 1,
     "id": "minecraft:carrot_on_a_stick",
     "components": {
         "custom_data":{"shifters_finder":true,"snc_item":1},
-        "custom_model_data": 16,
+        "item_model": "shifters/item/shifters_finder",
         "item_name":"{\"translate\":\"aot.finder\"}",
         "lore":["{\"text\":\"  \"}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.finder.desc\",\"color\":\"blue\",\"bold\":false,\"italic\":false}"],
         "rarity":"epic"

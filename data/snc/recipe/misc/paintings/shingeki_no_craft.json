@@ -1,12 +1,8 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "misc",
     "ingredients": [
-        {
-            "item": "minecraft:painting"
-        },
-        {
-            "item": "minecraft:poppy"
-        }
+        "minecraft:painting","minecraft:poppy"
     ],
     "result": {
         "id": "minecraft:painting",

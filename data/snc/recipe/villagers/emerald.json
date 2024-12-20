@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      {"item": "barrier"}
+    "minecraft:barrier"
   ],
   "result": {
       "id": "emerald",

@@ -1,7 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "minecraft:green_dye"},{"item": "minecraft:bedrock"}],
+  "ingredients": [
+    "minecraft:green_dye","minecraft:bedrock"
+  ],
   "result": {
     "count": 1,
     "id": "minecraft:slime_spawn_egg",

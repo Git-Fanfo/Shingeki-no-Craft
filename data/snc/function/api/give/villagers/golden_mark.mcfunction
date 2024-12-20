@@ -1,1 +1,1 @@
-give @s flint[custom_data={coin:True, snc_item:1},custom_model_data=216,enchantment_glint_override=True,max_stack_size=99,custom_name='{"translate":"aot.villager.currency","color":"gold","italic":false}'] 3
+give @s flint[custom_data={coin:True, snc_item:1},item_model='people/item/coin',enchantment_glint_override=True,max_stack_size=99,custom_name='{"translate":"aot.villager.currency","color":"gold","italic":false}'] 3

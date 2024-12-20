@@ -152,6 +152,8 @@ execute unless score col_exp config matches 0.. run scoreboard players set col_e
 execute unless score curse config matches 0.. run scoreboard players set curse config 1
 execute unless score $titan_tracking config matches 0.. run scoreboard players set $titan_tracking config 1
 execute unless score $intro config matches 0.. run scoreboard players set $intro config 1
+execute unless score $titan_drops config matches 0.. run scoreboard players set $titan_drops config 1
+execute unless score $death_msg config matches 0.. run scoreboard players set $death_msg config 1
 
 #gamerule fallDamage false
 

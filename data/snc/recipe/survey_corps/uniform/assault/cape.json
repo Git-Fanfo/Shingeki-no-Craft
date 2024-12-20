@@ -1,17 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "minecraft:leather_chestplate"
-  },
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:leather_chestplate",
   "result": {
     "count": 1,
     "id": "minecraft:leather_chestplate",
     "components": {
       "custom_data":{"scouts_dark":true, "snc_item":1},
-      "custom_model_data": 2,
+      "item_model": "military/scouts/assault/cape",
       "trim":{"material":"blank","pattern":"scouts_dark","show_in_tooltip":false},
       "minecraft:enchantments":{"levels":{"snc:scouts/exclusive": 1,"snc:scouts/cape": 1, "minecraft:projectile_protection": 2},"show_in_tooltip":false},
       "enchantment_glint_override":false,
@@ -22,7 +18,5 @@
       "minecraft:attribute_modifiers":[{"type":"armor","amount":8,"operation":"add_value","id":"snc.cape.armor","slot":"chest"},{"type":"gravity","amount":0.005,"operation":"add_value","id":"snc.cape.gravity","slot":"chest"}]
     }
   },
-  "template": {
-    "item": "minecraft:black_dye"
-  }
+  "template": "minecraft:black_dye"
 }

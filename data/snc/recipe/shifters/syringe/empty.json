@@ -7,25 +7,17 @@
       "@X@"
     ],
     "key": {
-      "#": {
-        "item": "minecraft:iron_nugget"
-      },
-      "X": {
-        "item": "minecraft:stone_button"
-      },
-      "O": {
-        "item": "minecraft:glass_pane"
-      },
-      "@": {
-        "item": "minecraft:iron_ingot"
-      }
+      "#": "minecraft:iron_nugget",
+      "X": "minecraft:stone_button",
+      "O": "minecraft:glass_pane",
+      "@": "minecraft:iron_ingot"
     },
     "result": {
       "count": 1,
       "id": "minecraft:carrot_on_a_stick",
       "components": {
           "custom_data":{"inj":true,"snc_item":1},
-          "minecraft:custom_model_data": 13,
+          "minecraft:item_model": "shifters/item/injection",
           "minecraft:custom_name":"{\"translate\":\"aot.syringe\",\"color\":\"white\",\"italic\":false}",
           "minecraft:lore":["{\"translate\":\"aot.syringe.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.syringe.desc2\",\"color\":\"gray\",\"italic\":false}","{\"text\":\" \",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.syringe.desc3\",\"color\":\"blue\",\"italic\":false}"]
       }

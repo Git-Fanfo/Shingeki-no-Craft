@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    {"item": "barrier"}
+    "minecraft:barrier"
   ],
   "result": {
     "count": 1,
@@ -33,7 +33,7 @@
           "operation": "add_value"
         }
       ],
-      "minecraft:custom_model_data": 14
+      "minecraft:item_model": "shifters/item/add_2"
     }
   }
 }

@@ -54,6 +54,9 @@ execute if score $titn_spwn_rate config matches 0 if score $titan config matches
 # Global Tracking
 execute if score $titan_tracking config matches 1 if score $titan config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.22","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -62"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 execute if score $titan_tracking config matches 0 if score $titan config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.22","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -61"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+# Drops
+execute if score $titan_drops config matches 1 if score $titan config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.24","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -66"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+execute if score $titan_drops config matches 0 if score $titan config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.24","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -65"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 
 ## Shifters
 execute if score $shifter config matches 0 run tellraw @s [{"text":" ◆ ","color":"white","bold": true},{"translate":"aot.adv.shifters","color":"aqua"},{"text": " [","color": "green"},{"text":"■","color": "yellow","clickEvent":{"action":"run_command","value":"/trigger manual set -1006"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.expand","color":"yellow"}]}},{"text": "]","color": "green"}]
@@ -92,7 +95,9 @@ execute if score comm_feed config matches 0 if score $special config matches 1 r
 # Show commands
 execute if score $intro config matches 1 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.23","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -64"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 execute if score $intro config matches 0 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.23","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -63"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
-# 
+# Death Message
+execute if score $death_msg config matches 1 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.25","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -68"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+execute if score $death_msg config matches 0 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.25","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -67"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 
 
 

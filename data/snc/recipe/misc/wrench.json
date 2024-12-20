@@ -7,19 +7,15 @@
       "X  "
     ],
     "key": {
-      "X": {
-        "item": "minecraft:iron_ingot"
-      },
-      "C": {
-        "item": "minecraft:clay_ball"
-      }
+      "X": "minecraft:iron_ingot",
+      "C": "minecraft:clay_ball"
     },
     "result": {
       "count": 1,
       "id": "minecraft:carrot_on_a_stick",
       "components": {
           "custom_data":{"build":true,"snc_item":1},
-          "minecraft:custom_model_data": 41,
+          "minecraft:item_model": "people/item/wrench",
           "minecraft:custom_name":"{\"translate\":\"aot.build.wrench\",\"italic\":false}",
           "minecraft:lore":["{\"translate\":\"aot.build.wrench.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.build.wrench.desc2\",\"color\":\"gray\",\"italic\":false}","[{\"translate\":\"aot.build.wrench.desc3\",\"color\":\"gold\",\"italic\":false},{\"text\":\".\",\"color\":\"gray\",\"italic\":false}]","{\"text\":\" \"}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.build\",\"color\":\"blue\",\"italic\":false}"]
       }

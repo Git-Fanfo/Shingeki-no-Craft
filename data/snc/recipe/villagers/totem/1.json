@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      {"item": "barrier"}
+    "minecraft:barrier"
   ],
   "result": {
       "id": "minecraft:totem_of_undying",
       "count": 1,
       "components": {
           "custom_data": {"snc_item":1},
-          "custom_model_data":1,
+          "item_model": "people/item/zabat_t",
           "item_name":"{\"translate\":\"aot.undying\"}",
           "lore":[
             "{\"translate\":\"aot.undying.desc1\",\"color\":\"gray\",\"italic\":false}",

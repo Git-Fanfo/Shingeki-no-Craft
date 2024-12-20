@@ -1,15 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [
-    {"item": "minecraft:potion"},
-    {"item": "minecraft:sweet_berries"}
-    ],
+  "ingredients": ["minecraft:potion","minecraft:sweet_berries","minecraft:sweet_berries","minecraft:sweet_berries"],
     "result": {
       "count": 1,"id": "minecraft:potion",
       "components": {
         "custom_data":{"liquid":1,"snc_item":1},
-        "custom_model_data": 1,
+        "item_model":"item/wine",
         "custom_name" : "{\"translate\":\"Berry Wine\",\"italic\":false}",
         "potion_contents": {
           "custom_color": 16777215,

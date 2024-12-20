@@ -7,10 +7,10 @@
     "@ @"
   ],
   "key": {
-    "#": {"item": "minecraft:leather"},
-    "X": {"item": "minecraft:iron_ingot"},
-    "O": {"item": "minecraft:string"},
-    "@": {"item": "minecraft:iron_block"}
+    "#": "minecraft:leather",
+    "X": "minecraft:iron_ingot",
+    "O": "minecraft:string",
+    "@": "minecraft:iron_block"
   },
   "result": {
     "count": 1,
@@ -26,7 +26,7 @@
         "snc_gas_dmg":0,
         "snc_item":1
       },
-      "minecraft:custom_model_data": 3, "damage":100,
+      "minecraft:item_model": "manuever/odm_gear/mode_1/empty", "damage":100,
       "max_damage":100,
       "rarity":"uncommon",
       "item_name":"[{\"translate\":\"aot.odm\"}, \" [Gas 100%]\"]",

@@ -1,7 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "minecraft:pink_dye"},{"item": "minecraft:bedrock"}],
+  "ingredients": [
+    "minecraft:pink_dye","minecraft:bedrock"
+  ],
   "result": {
     "count": 1,
     "id": "minecraft:axolotl_spawn_egg",

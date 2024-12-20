@@ -1,5 +1,13 @@
 {
-    "asset_id": "minecraft:shingeki_no_craft",
-    "height": 3,
-    "width": 3
-  }
+  "asset_id": "minecraft:shingeki_no_craft",
+  "author": {
+    "color": "gray",
+    "text": "Mikka"
+  },
+  "height": 3,
+  "title": {
+    "color": "yellow",
+    "text": "Sea of Poppies"
+  },
+  "width": 3
+}

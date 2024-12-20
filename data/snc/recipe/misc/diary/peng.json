@@ -1,14 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {"item": "barrier"}
-    ],
+    "ingredients": ["minecraft:barrier"],
     "result": {
         "id": "minecraft:written_book",
         "count": 1,
         "components": {
             "minecraft:custom_data": {"snc_item":1},
-            "custom_model_data":6,
+            "item_model":"diary/peng",
             "enchantment_glint_override":false,
             "max_stack_size":1,
             "minecraft:written_book_content": {

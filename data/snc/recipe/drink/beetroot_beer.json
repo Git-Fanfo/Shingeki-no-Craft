@@ -1,15 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [
-    {"item": "minecraft:potion"},
-    {"item": "minecraft:beetroot"}
-    ],
+  "ingredients": ["minecraft:potion", "minecraft:beetroot"],
     "result": {
       "count": 1,"id": "minecraft:potion",
       "components": {
         "custom_data":{"liquid":1,"snc_item":1},
-        "custom_model_data": 4,
+        "item_model":"item/beetroot_beer",
         "custom_name" : "{\"translate\":\"Beetroot Beer\",\"italic\":false}",
         "potion_contents": {
           "custom_color": 16777215,

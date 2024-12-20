@@ -1,14 +1,14 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {"item": "barrier"}
+        "minecraft:barrier"
     ],
     "result": {
         "id": "minecraft:carrot_on_a_stick",
         "count": 1,
         "components": {
             "custom_data": {"shipload":true,"barrels":true,"snc_item":1},
-            "custom_model_data": 56,
+            "item_model": "shifters/cart/item/barrels",
             "custom_name": "[{\"translate\":\"aot.ability.shipload\",\"italic\":false},\": \",{\"translate\":\"aot.ability.shipload.barrels\"}]",
             "lore": [
                 "{\"translate\":\"aot.ability.shipload.desc\",\"italic\":false,\"color\":\"gray\"}",
@@ -20,4 +20,4 @@
             ]
           }
     }
-  }
+}

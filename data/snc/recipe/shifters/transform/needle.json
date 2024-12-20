@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    {
-      "item": "minecraft:iron_nugget"
-    },
-    {
-      "item": "minecraft:iron_nugget"
-    }
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget"
   ],
   "result": {
     "count": 1,
@@ -16,7 +12,7 @@
       "custom_data":{"add":true, "needle":true, "snc_item":1},
       "minecraft:custom_name":"{\"translate\":\"aot.needle\",\"color\":\"white\",\"italic\":false}",
       "minecraft:lore":["{\"translate\":\"aot.needle.desc\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.needle.desc2\",\"color\":\"gray\",\"italic\":false}","{\"text\":\" \",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"aot.used\",\"color\":\"gray\",\"italic\":false}","[{\"text\":\"\"},{\"translate\":\"effect.minecraft.instant_damage\",\"color\":\"blue\",\"italic\":false}]"],
-      "minecraft:custom_model_data":28,
+      "minecraft:item_model":"shifters/item/needle",
       "minecraft:attribute_modifiers":[{"type":"attack_damage","amount":0.5,"operation":"add_value","id":"snc.needle.attack_damage","slot":"mainhand"}]
     }
   }

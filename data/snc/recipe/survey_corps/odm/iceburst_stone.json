@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "barrier"}],
+  "ingredients": ["minecraft:barrier"],
   "result": {
     "count": 1,
     "id": "minecraft:quartz",
     "components": {
         "custom_data":{"snc.iceburst":true,"snc_item":1},
-        "minecraft:custom_model_data": 15,
+        "minecraft:item_model": "manuever/iceburst_stone",
         "max_stack_size":4,"food":{"nutrition":0,"saturation":0,"can_always_eat":true,"eat_seconds":1000000000},
         "enchantment_glint_override":true,
         "rarity":"rare",

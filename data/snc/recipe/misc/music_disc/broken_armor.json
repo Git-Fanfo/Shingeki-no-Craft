@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": [{"item": "barrier"}],
+  "ingredients": ["minecraft:barrier"],
   "result": {
     "count": 1,
     "id": "minecraft:quartz",
     "components": {
         "custom_data":{"snc_item":1},
-        "custom_model_data": 18,
+        "item_model":"music_disc/broken_armor",
         "max_stack_size":1,
         "minecraft:jukebox_playable":{"song":"snc:broken_armor", "show_in_tooltip":true},
         "item_name":"{\"translate\":\"item.minecraft.music\"}",
         "rarity":"rare",
-        "fire_resistant":{}
+        "damage_resistant":{"types":"#minecraft:is_fire"}
     }
   }
 }
