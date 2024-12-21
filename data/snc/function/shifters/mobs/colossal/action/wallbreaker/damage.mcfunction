@@ -11,7 +11,7 @@ execute if score action colossal_vars matches 12 if score $shifter_destroy confi
 execute if score action colossal_vars matches 22 run particle minecraft:campfire_cosy_smoke ^ ^ ^ 2 2 2 .4 2000 force
 
 execute if score action colossal_vars matches 22 as @e[type=player,tag=!transform,distance=..100] run scoreboard players add @s earthquake 14
-execute if score action colossal_vars matches 22 run function snc:shifters/mobs/colossal/action/wallbreaker/dmg_entities with storage minecraft:colossal 
+execute if score action colossal_vars matches 22 run function snc:shifters/mobs/colossal/action/wallbreaker/dmg_entities with storage minecraft:colossal
 
 execute if score action colossal_vars matches 24 run playsound minecraft:aot.huge_explosion player @a[distance=..200] ~ ~ ~ 7
 
