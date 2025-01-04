@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:carved_pumpkin",
             "components": {
-                "minecraft:custom_model_data": 42
+                "minecraft:item_model": "people/profession/crown"
             }
         },
         "frame": "task",

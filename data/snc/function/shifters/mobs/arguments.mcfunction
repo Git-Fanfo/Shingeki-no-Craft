@@ -170,10 +170,10 @@ data merge storage minecraft:jaw {\
     bossbar_style: notched_6, \
     hp:32, \
     walk_speed:0.13d, \
-    run_speed:0.5d, \
+    run_speed:0.6d, \
     type:skeleton_horse, \
-    jump:1d, \
-    step_height:3.6d, \
+    jump:0d, \
+    step_height:5d, \
     explosion:15, \
     resistance:2, \
     regen_ticks:100, \

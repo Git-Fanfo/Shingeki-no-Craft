@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:arrow",
             "components": {
-                "minecraft:custom_model_data": 2
+                "minecraft:item_model": "zpecial/snc"
             }
         },
         "frame": "task",

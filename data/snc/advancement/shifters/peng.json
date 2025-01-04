@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:written_book",
             "components": {
-                "minecraft:custom_model_data": 6
+                "minecraft:item_model": "diary/peng"
             }
         },
         "frame": "task",

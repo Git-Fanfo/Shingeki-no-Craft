@@ -6,3 +6,6 @@ tag @s remove aj.jaw.animation.born.playing
 tag @s remove aj.jaw.animation.death.playing
 tag @s remove aj.jaw.animation.walk.playing
 tag @s remove aj.jaw.animation.sneak.playing
+tag @s remove aj.jaw.animation.walk_left.playing
+tag @s remove aj.jaw.animation.walk_right.playing
+tag @s remove aj.jaw.animation.walk_front.playing

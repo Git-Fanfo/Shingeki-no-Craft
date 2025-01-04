@@ -68,7 +68,6 @@ $execute if score @s atk matches 256 run \
         "hp":$(hp), \
         "walk_speed":$(walk_speed), \
         "type":$(type), \
-        "jump":$(jump), \
         "step_height":$(step_height), \
         "scale_vehicle":$(scale_vehicle), \
         "scale_player":$(scale_player), \

@@ -29,7 +29,7 @@ execute as @s[predicate=snc:player/has_build] run function snc:player/build/sele
 execute if predicate snc:villager/has_rename run function snc:player/build/bell/rename/main
 
 # Shoot
-execute as @s[predicate=snc:player/has_gun] anchored eyes positioned ^ ^ ^ run function snc:player/gun/select_gun
+execute as @s[predicate=snc:player/has_gun] anchored eyes positioned ^ ^ ^ run function snc:player/gun/flare/main
 
 # Shoot
 execute as @s[predicate=snc:player/has_config] run function snc:api/config
