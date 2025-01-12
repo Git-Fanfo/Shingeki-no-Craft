@@ -107,14 +107,6 @@ scoreboard objectives add dna.x dummy
 
 
 # Pos0 and Pos1 for give motion to entities
-scoreboard objectives add motion_x0 dummy
-scoreboard objectives add motion_y0 dummy
-scoreboard objectives add motion_z0 dummy
-
-scoreboard objectives add motion_x1 dummy
-scoreboard objectives add motion_y1 dummy
-scoreboard objectives add motion_z1 dummy
-
 scoreboard objectives add snc.mot_x0 dummy
 scoreboard objectives add snc.mot_y0 dummy
 scoreboard objectives add snc.mot_z0 dummy
