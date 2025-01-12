@@ -9,7 +9,6 @@ $execute if score #sprint $(shifter)_vars matches 1 run scoreboard players set s
 # Jump
 $execute if predicate snc:player/on_ground on controller if predicate snc:player/keybinds/jump run scoreboard players set state $(shifter)_vars 6
 
-
 ## Change speed
 #$tellraw @p ["",{"text":"state: "},{"score":{"name":"state","objective":"$(shifter)_vars"}}]
 $execute if score state $(shifter)_vars matches 4 run \

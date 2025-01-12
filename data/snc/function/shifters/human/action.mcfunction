@@ -27,16 +27,13 @@ execute if predicate snc:shifters/cart/shipload run function snc:shifters/mobs/c
 
 ## Attack
 # Block
-execute as @s[predicate=snc:shifters/attack/atk_1] run function snc:shifters/mobs/attack/action/block/init
-
+#execute as @s[predicate=snc:shifters/attack/atk_1] run function snc:shifters/mobs/attack/action/block/init
 # Punch
-execute as @s[predicate=snc:shifters/attack/atk_2] run scoreboard players set state attack_vars 12
-
+#execute as @s[predicate=snc:shifters/attack/atk_2] run scoreboard players set state attack_vars 12
 # Knee
-execute as @s[predicate=snc:shifters/attack/atk_3] run scoreboard players set state attack_vars 16
-
-# Jaw
-execute as @s[predicate=snc:shifters/attack/atk_4] unless score consume attack_vars matches 0.. run function snc:shifters/mobs/attack/action/jaw/add_tags
+#execute as @s[predicate=snc:shifters/attack/atk_3] run scoreboard players set state attack_vars 16
+# Bite
+#execute as @s[predicate=snc:shifters/attack/atk_4] unless score consume attack_vars matches 0.. run function snc:shifters/mobs/attack/action/jaw/add_tags
 
 ## Beast
 # Grab

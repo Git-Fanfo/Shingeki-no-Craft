@@ -1,6 +1,6 @@
 ride @s dismount
 ride @s mount @n[type=skeleton_horse,tag=armor]
-execute if score state armor_vars matches 3..5 on vehicle on passengers \
+execute if score state armor_vars matches 3..5 unless predicate snc:player/keybinds/move on vehicle on passengers \
         if entity @s[tag=aj.armor.root] if entity @s[tag=!aj.armor.animation.sneak.playing] run \
             scoreboard players set #sneak armor_vars 1
 

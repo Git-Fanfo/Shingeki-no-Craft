@@ -86,6 +86,7 @@ data merge storage minecraft:attack {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
+    energy_block:20, cooldown_block:3, \
     damage_punch_1:26, knockback_punch_1:2, energy_punch_1:25, angle_punch_1: -5, \
     damage_punch_2:30, knockback_punch_2:3, energy_punch_2:20, angle_punch_2: -5, \
     damage_punch_3:36, knockback_punch_3:3, energy_punch_3:15, angle_punch_3: -90, \

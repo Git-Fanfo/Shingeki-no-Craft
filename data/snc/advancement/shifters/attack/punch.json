@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds":1000000000
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": "{atk_atk_2:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "snc:shifters/mobs/attack/action/punch_1/trigger"
+  }
+}
