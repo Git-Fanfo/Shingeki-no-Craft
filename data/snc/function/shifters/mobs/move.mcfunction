@@ -7,7 +7,7 @@ $execute on controller if predicate snc:player/keybinds/sprint run scoreboard pl
 $execute on controller unless predicate snc:player/keybinds/forward run scoreboard players reset #sprint $(shifter)_vars
 $execute if score #sprint $(shifter)_vars matches 1 run scoreboard players set state $(shifter)_vars 5
 # Jump
-$execute if block ~ ~-.01 ~ #snc:tangible on controller if predicate snc:player/keybinds/jump run scoreboard players set state $(shifter)_vars 6
+$execute if predicate snc:player/on_ground on controller if predicate snc:player/keybinds/jump run scoreboard players set state $(shifter)_vars 6
 
 
 ## Change speed

@@ -13,15 +13,15 @@ execute if score @s cart_vars matches 200.. run particle campfire_signal_smoke ^
 execute if score @s cart_vars matches 200.. run fill ^-3 ^-1 ^-3 ^3 ^-1 ^3 minecraft:air replace barrier
 
 ## Change variant
-execute if score @s cart_vars matches 1200 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 48
-execute if score @s cart_vars matches 1190 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 49
-execute if score @s cart_vars matches 1180 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 50
+execute if score @s cart_vars matches 1200 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/1"
+execute if score @s cart_vars matches 1190 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/2"
+execute if score @s cart_vars matches 1180 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/3"
 #4
-execute if score @s cart_vars matches 1176 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 51
-execute if score @s cart_vars matches 1172 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 52
-execute if score @s cart_vars matches 1168 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 53
-execute if score @s cart_vars matches 1165 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 54
-execute if score @s cart_vars matches 1162 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 55
+execute if score @s cart_vars matches 1176 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/4"
+execute if score @s cart_vars matches 1172 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/5"
+execute if score @s cart_vars matches 1168 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/6"
+execute if score @s cart_vars matches 1165 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/7"
+execute if score @s cart_vars matches 1162 on passengers run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/die/8"
 #8
 
 execute if score @s cart_vars matches 1100 run function snc:shifters/mobs/cart/action/death/decay

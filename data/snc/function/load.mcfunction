@@ -115,6 +115,14 @@ scoreboard objectives add motion_x1 dummy
 scoreboard objectives add motion_y1 dummy
 scoreboard objectives add motion_z1 dummy
 
+scoreboard objectives add snc.mot_x0 dummy
+scoreboard objectives add snc.mot_y0 dummy
+scoreboard objectives add snc.mot_z0 dummy
+
+scoreboard objectives add snc.mot_x1 dummy
+scoreboard objectives add snc.mot_y1 dummy
+scoreboard objectives add snc.mot_z1 dummy
+
 ## Spawn Scoreboard
 scoreboard objectives add spawn dummy
 # Initial models
@@ -154,6 +162,7 @@ execute unless score $titan_tracking config matches 0.. run scoreboard players s
 execute unless score $intro config matches 0.. run scoreboard players set $intro config 1
 execute unless score $titan_drops config matches 0.. run scoreboard players set $titan_drops config 1
 execute unless score $death_msg config matches 0.. run scoreboard players set $death_msg config 1
+execute unless score $survival config matches 0.. run scoreboard players set $survival config 1
 
 #gamerule fallDamage false
 

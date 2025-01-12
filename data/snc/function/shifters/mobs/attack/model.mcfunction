@@ -39,6 +39,7 @@ execute if score state attack_vars matches 4 if entity @s[tag=!aj.attack.animati
 execute if score state attack_vars matches 4 on vehicle run attribute @s minecraft:scale base set 6.3
 execute if score state attack_vars matches 5 if entity @s[tag=!aj.attack.animation.run.playing] run function snc:shifters/mobs/attack/animate/run
 execute if score state attack_vars matches 5 on vehicle run attribute @s minecraft:scale base set 6.6
+execute if score state attack_vars matches 6 run function snc:shifters/mobs/attack/action/movement/jump
 
 execute if score state attack_vars matches 9 if entity @s[tag=!aj.attack.animation.death.playing] run function snc:shifters/mobs/attack/animate/death
 

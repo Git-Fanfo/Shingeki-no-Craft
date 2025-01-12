@@ -57,6 +57,8 @@ execute as @s[scores={manual=-65}] run scoreboard players set $titan_drops confi
 execute as @s[scores={manual=-66}] run scoreboard players set $titan_drops config 0
 execute as @s[scores={manual=-67}] run scoreboard players set $death_msg config 1
 execute as @s[scores={manual=-68}] run scoreboard players set $death_msg config 0
+execute as @s[scores={manual=-69}] run scoreboard players set $survival config 1
+execute as @s[scores={manual=-70}] run scoreboard players set $survival config 0
 
 
 

@@ -1,6 +1,17 @@
 {
-    "pack": {
-        "pack_format": 57,
-        "description": "Created by Fanfo!"
-    }
+	"pack": {
+		"pack_format": 57,
+		"description": "Created by Fanfo!"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": {
+					"min_inclusive": 57,
+					"max_inclusive": 60
+				}
+			}
+		]
+	}
 }

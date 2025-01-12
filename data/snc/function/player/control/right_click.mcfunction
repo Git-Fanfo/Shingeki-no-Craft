@@ -1,6 +1,5 @@
 scoreboard players set @s using_carrot 0
 scoreboard players set @s snc.hold.rc 5
-
 # Impulse
 execute if score @s[tag=!snc.grabbed] odm_state matches 1.. if predicate snc:odm/has_gas_trigger if predicate snc:odm/has_odm if function snc:player/odm/impulse/main run return -1
 #Throw

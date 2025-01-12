@@ -11,6 +11,8 @@ execute if score state cart_vars matches 3..5 on vehicle run attribute @s minecr
 execute if score state cart_vars matches 2 run function snc:shifters/mobs/cart/action/movement/sneak
 # Walk and Run
 execute if score state cart_vars matches 4..5 run function snc:shifters/mobs/cart/animate/walk
+# Jump
+execute if score state cart_vars matches 6 run function snc:shifters/mobs/cart/action/movement/jump
 
 # Slam of the Lefties
 #execute if score state cart_vars matches 11 run function snc:shifters/mobs/cart/animate/slam
