@@ -7,4 +7,7 @@ execute on vehicle run effect give @s speed 4 4 true
 execute on vehicle on passengers if entity @s[type=player] run effect give @s speed 4 12 true
 
 scoreboard players set $charge.time armor_vars 80
-function snc:shifters/mobs/armor/action/charge/spawn
+
+# Spawn charge
+summon item_display ~ ~ ~ {teleport_duration: 1,item_display:"head",Tags:["collision","shifter","armor","armor.charge"]}
+scoreboard players set #grab armor_vars 1

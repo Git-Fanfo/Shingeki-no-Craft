@@ -152,9 +152,9 @@ data merge storage minecraft:armor {\
     damage_punch_1:22, knockback_punch_1:3, energy_punch_1:20, angle_punch_1: -5,\
     damage_punch_2:26, knockback_punch_2:4, energy_punch_2:15, angle_punch_2: -5,\
     damage_punch_3:40, knockback_punch_3:6, energy_punch_3:25, angle_punch_3: -10,\
-    damage_fortified: 25, knockback_fortified: 2, energy_fortified: 50, angle_fortified: 45,\
-    damage_onslaught: 25, knockback_onslaught: 0, energy_onslaught: 35, angle_onslaught: 0,\
-    damage_impale: 50, knockback_impale: 0, energy_impale: 35, angle_impale: 0,\
+    damage_fortified: 25, knockback_fortified: 2, energy_fortified: 50, angle_fortified: 45, cooldown_fortified:8,\
+    damage_onslaught: 25, knockback_onslaught: 0, energy_onslaught: 35, angle_onslaught: 0, \
+    damage_impale: 50, knockback_impale: 0, energy_impale: 35, angle_impale: 0, cooldown_impale:15,\
     damage_jaw: 14, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
     damage_step: 3.7 \
 }

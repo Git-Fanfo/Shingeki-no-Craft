@@ -51,13 +51,13 @@ execute as @s[predicate=snc:shifters/beast/atk_7] run scoreboard players set sta
 
 ## Armor
 # Charge
-execute as @s[predicate=snc:shifters/armor/atk_1] run scoreboard players set state armor_vars 11
+#execute as @s[predicate=snc:shifters/armor/atk_1] run scoreboard players set state armor_vars 11
 # Punch
-execute as @s[predicate=snc:shifters/armor/atk_2] run scoreboard players set state armor_vars 13
+#execute as @s[predicate=snc:shifters/armor/atk_2] run scoreboard players set state armor_vars 13
 # Jaw
 execute as @s[predicate=snc:shifters/armor/atk_3] unless score consume armor_vars matches 0.. run function snc:shifters/mobs/armor/action/jaw/add_tags
 # Hardening
-execute as @s[predicate=snc:shifters/armor/atk_4] run scoreboard players set state armor_vars 17
+#execute as @s[predicate=snc:shifters/armor/atk_4] run scoreboard players set state armor_vars 17
 
 ## Update Abilities
 #$execute unless predicate snc:shifters/has_remove run function snc:shifters/mobs/$(shifter)/abilities/give

@@ -10,7 +10,7 @@ execute if entity @s[tag=armor.hardening] if score #grab armor_vars matches 0 ru
 
 ## Charge
 execute if entity @s[tag=armor.charge] unless score state armor_vars matches 9 run tp @s ^ ^-3 ^3 ~ ~
-execute if entity @s[tag=armor.charge] if score #grab armor_vars matches 1 if data entity @s Passengers run scoreboard players set #grab armor_vars 2
-execute if entity @s[tag=armor.charge] at @s if score #grab armor_vars matches 1 run ride @e[type=#snc:titan,sort=nearest,limit=1,distance=..6,tag=!armor] mount @s
+execute if entity @s[tag=armor.charge] at @s if score #grab armor_vars matches 1 run ride @n[type=#snc:titan,distance=..6,tag=!armor] mount @s
+execute if entity @s[tag=armor.charge] if score #grab armor_vars matches 1 on passengers run scoreboard players set #grab armor_vars 2
 execute if entity @s[tag=armor.charge] if score #grab armor_vars matches 2 run scoreboard players remove $energy armor_vars 2
 execute if entity @s[tag=armor.charge] if score #grab armor_vars matches 0 run kill
