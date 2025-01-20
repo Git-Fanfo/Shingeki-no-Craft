@@ -15,7 +15,7 @@ scoreboard players operation rotation jaw_vars -= player_rotation jaw_vars
 
 ## Rotate pivot
 execute unless score rotation armor_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
-execute rotated ~20 0 if block ^ ^ ^1 air rotated ~-40 0 if block ^ ^ ^1 air on vehicle run effect clear @s levitation
+execute rotated ~20 0 if block ^ ^ ^1.7 air rotated ~-40 0 if block ^ ^ ^1 air on vehicle run effect clear @s levitation
 #execute on vehicle at @s if block ^1 ^1 ^ #snc:tangible on controller if predicate snc:player/keybinds/forward on #vehicle run function snc:shifters/mobs/jaw/action/movement/wall {"angle":-10}
 #execute on vehicle at @s if block ^-1 ^1 ^ #snc:tangible on controller if predicate snc:player/keybinds/forward on vehicle run function snc:shifters/mobs/jaw/action/movement/wall {"angle":10}
 ## Animations
@@ -33,6 +33,6 @@ execute if score state jaw_vars matches 3 on vehicle run attribute @s scale base
 execute if score state jaw_vars matches 4 if entity @s[tag=!aj.jaw.animation.walk.playing] run function snc:shifters/mobs/jaw/animate/walk
 execute if score state jaw_vars matches 4 on vehicle run attribute @s scale base set .9
 
-execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/animate/run
+execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/action/movement/run
 execute if score state jaw_vars matches 6 run function snc:shifters/mobs/jaw/action/movement/jump
 execute if score state jaw_vars matches 9 if entity @s[tag=!aj.jaw.animation.death.playing] run function snc:shifters/mobs/jaw/animate/death
