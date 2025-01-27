@@ -1,0 +1,2 @@
+$execute positioned ^ ^ ^3 run function snc:shifters/combat/damage {"distance":4,"half_minus_zero_point_five":1.5,"shifter":"jaw","sound":"minecraft:aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}
+$execute positioned ^ ^ ^6 run function snc:shifters/combat/damage {"distance":2,"half_minus_zero_point_five":.5,"shifter":"jaw","sound":"minecraft:aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}

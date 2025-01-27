@@ -9,4 +9,5 @@ scoreboard objectives add aj.walk_left.frame dummy
 scoreboard objectives add aj.walk_right.frame dummy
 scoreboard objectives add aj.walk_front.frame dummy
 scoreboard objectives add aj.climb_front.frame dummy
+scoreboard objectives add aj.jump.frame dummy
 scoreboard objectives add aj.bite.frame dummy

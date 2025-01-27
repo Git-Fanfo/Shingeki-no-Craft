@@ -55,7 +55,7 @@ execute as @s[predicate=snc:shifters/beast/atk_7] run scoreboard players set sta
 # Punch
 #execute as @s[predicate=snc:shifters/armor/atk_2] run scoreboard players set state armor_vars 13
 # Jaw
-execute as @s[predicate=snc:shifters/armor/atk_3] unless score consume armor_vars matches 0.. run function snc:shifters/mobs/armor/action/jaw/add_tags
+#execute as @s[predicate=snc:shifters/armor/atk_3] unless score consume armor_vars matches 0.. run function snc:shifters/mobs/armor/action/jaw/add_tags
 # Hardening
 #execute as @s[predicate=snc:shifters/armor/atk_4] run scoreboard players set state armor_vars 17
 

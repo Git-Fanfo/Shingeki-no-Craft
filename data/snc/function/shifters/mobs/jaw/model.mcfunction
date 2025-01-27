@@ -6,6 +6,7 @@
 # 4 : Walk
 # 5 : Run
 # 6 : Jump
+# 7 : Air
 # 9 : Die
 ###############
 
@@ -28,11 +29,13 @@ execute if score state jaw_vars matches 1 if entity @s[tag=!aj.jaw.animation.bor
 #execute if score state jaw_vars matches 2 if score $gamemode jaw_vars matches 1 on vehicle rotated ~ 0 positioned ^ ^-.9 ^4 on passengers if entity @s[type=player] run function snc:shifters/mobs/highlight
 
 execute if score state jaw_vars matches 3 if entity @s[tag=!aj.jaw.animation.idle.playing] run function snc:shifters/mobs/jaw/animate/idle
-execute if score state jaw_vars matches 3 on vehicle run attribute @s scale base set 1.3
+execute if score state jaw_vars matches 3 on vehicle run attribute @s scale base set 1.25
 
 execute if score state jaw_vars matches 4 if entity @s[tag=!aj.jaw.animation.walk.playing] run function snc:shifters/mobs/jaw/animate/walk
-execute if score state jaw_vars matches 4 on vehicle run attribute @s scale base set .9
+execute if score state jaw_vars matches 4 on vehicle run attribute @s scale base set .6
 
 execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/action/movement/run
-execute if score state jaw_vars matches 6 run function snc:shifters/mobs/jaw/action/movement/jump
+execute if score state jaw_vars matches 6 if entity @s[tag=!aj.jaw.animation.jump.playing] run function snc:shifters/mobs/jaw/animate/jump
 execute if score state jaw_vars matches 9 if entity @s[tag=!aj.jaw.animation.death.playing] run function snc:shifters/mobs/jaw/animate/death
+
+execute if score state jaw_vars matches 11 if entity @s[tag=!aj.jaw.animation.bite.playing] run function snc:shifters/mobs/jaw/animate/bite
