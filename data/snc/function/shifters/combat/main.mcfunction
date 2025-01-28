@@ -1,17 +1,20 @@
 attribute @s minecraft:block_interaction_range base set 0
 ## Detect Roar
 $execute \
+    if predicate snc:shifters/has_roar run \
+        function snc:shifters/mobs/roar {"shifter":"$(shifter)"}
+#$execute \
     if score consume $(shifter)_vars matches ..20 \
     if predicate snc:shifters/has_roar run \
         function snc:shifters/mobs/roar {"shifter":"$(shifter)"}
 ## Bite and Roar
-$execute \
+#$execute \
     if score consume $(shifter)_vars matches 0..20 run \
         function snc:shifters/mobs/$(shifter)/animate/bite
-$execute \
+#$execute \
     if score consume $(shifter)_vars matches 61..220 run \
         function snc:shifters/mobs/$(shifter)/animate/roar
-$execute \
+#$execute \
     if score consume $(shifter)_vars matches 0.. run \
         scoreboard players remove consume $(shifter)_vars 1
 

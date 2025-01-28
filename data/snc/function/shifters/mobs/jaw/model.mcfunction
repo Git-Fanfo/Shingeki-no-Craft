@@ -6,7 +6,8 @@
 # 4 : Walk
 # 5 : Run
 # 6 : Jump
-# 7 : Air
+# 7 : Bite
+# 8 : Roar
 # 9 : Die
 ###############
 
@@ -38,4 +39,5 @@ execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/act
 execute if score state jaw_vars matches 6 if entity @s[tag=!aj.jaw.animation.jump.playing] run function snc:shifters/mobs/jaw/animate/jump
 execute if score state jaw_vars matches 9 if entity @s[tag=!aj.jaw.animation.death.playing] run function snc:shifters/mobs/jaw/animate/death
 
-execute if score state jaw_vars matches 11 if entity @s[tag=!aj.jaw.animation.bite.playing] run function snc:shifters/mobs/jaw/animate/bite
+execute if score state jaw_vars matches 7 if entity @s[tag=!aj.jaw.animation.bite.playing] run function snc:shifters/mobs/jaw/animate/bite
+execute if score state jaw_vars matches 8 if entity @s[tag=!aj.jaw.animation.roar.playing] run function snc:shifters/mobs/jaw/animate/roar

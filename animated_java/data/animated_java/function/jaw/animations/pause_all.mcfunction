@@ -12,3 +12,4 @@ tag @s remove aj.jaw.animation.walk_front.playing
 tag @s remove aj.jaw.animation.climb_front.playing
 tag @s remove aj.jaw.animation.jump.playing
 tag @s remove aj.jaw.animation.bite.playing
+tag @s remove aj.jaw.animation.roar.playing

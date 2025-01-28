@@ -1,6 +1,7 @@
 ## Effects
 effect give @s fire_resistance infinite 0 true
 effect give @s resistance infinite 127 true
+effect give @s invisibility infinite 0 true
 execute if block ~ ~ ~ water run attribute @s minecraft:gravity base set -0.1
 execute unless block ~ ~ ~ water run attribute @s minecraft:gravity base set 0.08
 

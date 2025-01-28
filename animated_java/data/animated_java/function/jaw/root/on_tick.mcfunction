@@ -14,5 +14,6 @@ execute if entity @s[tag=aj.jaw.animation.walk_front.playing] run function anima
 execute if entity @s[tag=aj.jaw.animation.climb_front.playing] run function animated_java:jaw/animations/climb_front/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.jump.playing] run function animated_java:jaw/animations/jump/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.bite.playing] run function animated_java:jaw/animations/bite/zzz/on_tick
+execute if entity @s[tag=aj.jaw.animation.roar.playing] run function animated_java:jaw/animations/roar/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:jaw/as_root/post_tick
