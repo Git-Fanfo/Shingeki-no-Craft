@@ -1,2 +1,2 @@
-execute if score $mask cart_vars matches 1 run function snc:shifters/mobs/cart/action/jaw/roar {"f1":4,"f2":5,"f3":6}
-execute if score $mask cart_vars matches 0 run function snc:shifters/mobs/cart/action/jaw/roar {"f1":7,"f2":8,"f3":9}
+execute if score $mask cart_vars matches 1 run function snc:shifters/mobs/cart/action/roar/frames {"f1":"shifters/cart/bite/mask/1","f2":"shifters/cart/bite/mask/2","f3":"shifters/cart/bite/mask/3"}
+execute if score $mask cart_vars matches 0 run function snc:shifters/mobs/cart/action/roar/frames {"f1":"shifters/cart/bite/unmask/1","f2":"shifters/cart/bite/unmask/2","f3":"shifters/cart/bite/unmask/3"}

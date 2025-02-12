@@ -3,7 +3,7 @@ $execute if predicate snc:shifters/has_gamemode run scoreboard players operation
 $execute if predicate snc:shifters/has_gamemode run function snc:shifters/mobs/$(shifter)/abilities/give
 ## Roar
 #$execute unless score consume $(shifter)_vars matches 1.. if predicate snc:chance/10 run scoreboard players set consume $(shifter)_vars 220
-$execute if predicate snc:chance/20 run playsound minecraft:aot.shifters.attack.grunt player @a ~ ~ ~ 5 0.$(id)
+#$execute if predicate snc:chance/20 run playsound minecraft:aot.shifters.attack.grunt player @a ~ ~ ~ 5 0.$(id)
 ## Colossal
 # Wallbreaker
 execute as @s[predicate=snc:shifters/colossal/atk_2] run function snc:shifters/mobs/colossal/action/wallbreaker/init
@@ -14,14 +14,12 @@ execute as @s[predicate=snc:shifters/colossal/atk_4] run function snc:shifters/m
 
 ## Cart
 # Jaw
-execute as @s[predicate=snc:shifters/cart/atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/add_tags
-
+#execute as @s[predicate=snc:shifters/cart/atk_5] unless score consume cart_vars matches 0.. run function snc:shifters/mobs/cart/action/jaw/add_tags
 # Jumping Queen
-execute as @s[predicate=snc:shifters/cart/atk_2] on vehicle unless predicate snc:is_riding run function snc:shifters/mobs/cart/action/jumping/init with storage minecraft:cart
-
+#execute as @s[predicate=snc:shifters/cart/atk_2] on vehicle unless predicate snc:is_riding run function snc:shifters/mobs/cart/action/jumping/init with storage minecraft:cart
 # Light Load
-execute as @s[predicate=snc:shifters/cart/atk_1] if function snc:shifters/mobs/cart/action/hold/init run return -1
-execute as @s[predicate=snc:shifters/cart/atk_3] run function snc:shifters/mobs/cart/action/hold/drop
+#execute as @s[predicate=snc:shifters/cart/atk_1] if function snc:shifters/mobs/cart/action/hold/init run return -1
+#execute as @s[predicate=snc:shifters/cart/atk_3] run function snc:shifters/mobs/cart/action/hold/drop
 # Shipload
 execute if predicate snc:shifters/cart/shipload run function snc:shifters/mobs/cart/action/shipload/module
 

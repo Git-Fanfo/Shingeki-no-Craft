@@ -21,7 +21,7 @@ data merge storage minecraft:cart {\
     entity_range:7, \
     energy_decrease: 1,\
     damage_jaw: 30, knockback_jaw: 1, energy_jaw: 8, angle_jaw: 10, \
-    energy_jump: 5, \
+    energy_jump: 5, cooldown_jump:2, \
     energy_hold: 24, \
     damage_step: 1 \
 }
@@ -166,7 +166,7 @@ data merge storage minecraft:jaw {\
     shifter:jaw, \
     name:"Jaw Titan", \
     color:yellow, \
-    bossbar_display:uFFF3, \
+    bossbar_display:uFFF5, \
     bossbar_color:yellow, \
     bossbar_style: notched_6, \
     hp:32, \
@@ -184,6 +184,7 @@ data merge storage minecraft:jaw {\
     entity_range:7, \
     energy_decrease: 2,\
     damage_bite: 30, knockback_bite: 1, energy_bite: 8, angle_bite: 10, \
+    damage_charge: 30, knockback_charge: 5, energy_charge: 8, angle_charge: -60, cooldown_charge:2, \
     energy_jump: 5, \
     energy_hold: 24, \
     damage_step: 1 \

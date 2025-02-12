@@ -1,2 +1,2 @@
-execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[custom_model_data=85]
+execute on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/jaw/3"]
 scoreboard players set shift.regen armor_vars 100000

@@ -6,7 +6,6 @@ $execute if score @s atk matches 266 if items entity @s armor.feet * run data mo
 $execute if score @s atk matches 266 unless items entity @s armor.feet * run data modify storage minecraft:$(shifter) Boots merge value {Slot:0b,id:"minecraft:air"}
 # Give muscle
 execute if score @s atk matches 266 run item replace entity @s armor.feet with minecraft:mushroom_stew[!minecraft:consumable,minecraft:equippable={slot:feet,model:"muscle_gold"},enchantments={levels:{"minecraft:binding_curse":1}},minecraft:enchantment_glint_override=false,custom_data={snc_blank:true}]
-item replace entity @s armor.chest with minecraft:mushroom_stew[!minecraft:consumable,minecraft:equippable={slot:chest},enchantments={levels:{"minecraft:binding_curse":1}},minecraft:enchantment_glint_override=false]
 
 ## Save Leggings
 $execute if score @s atk matches 265 if items entity @s armor.legs * run data modify storage minecraft:$(shifter) Leggings set from entity @s Inventory[{Slot:101b}]

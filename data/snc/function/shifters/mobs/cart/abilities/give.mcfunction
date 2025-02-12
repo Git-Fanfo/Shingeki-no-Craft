@@ -17,8 +17,8 @@ execute unless score #harvest cart_vars matches -10.. run scoreboard players set
 execute if score $gamemode cart_vars matches -1 run function snc:shifters/abilities/farm with storage minecraft:cart
 execute if score $gamemode cart_vars matches -1 run function snc:shifters/abilities/harvest with storage minecraft:cart
 
-execute if score $mask cart_vars matches 1 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[custom_model_data=4]
-execute if score $mask cart_vars matches 0 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[custom_model_data=7]
+execute if score $mask cart_vars matches 1 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[item_model="shifters/cart/bite/mask/1"]
+execute if score $mask cart_vars matches 0 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[item_model="shifters/cart/bite/unmask/1"]
 execute if score $gamemode cart_vars matches -1 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[custom_model_data=63]
 
 ## Gamemode

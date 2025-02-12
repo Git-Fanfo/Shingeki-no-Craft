@@ -1,4 +1,9 @@
-execute rotated ~ 0 if block ^ ^2 ^1.7 #snc:tangible run function snc:shifters/mobs/jaw/action/movement/wall {"speed":8,"side":"front"}
+scoreboard players set $wall jaw_vars 0
+execute rotated ~ 0 if block ^ ^1 ^1.7 #snc:tangible run scoreboard players add $wall jaw_vars 1
+execute rotated ~ 0 if block ^ ^2 ^1.7 #snc:tangible run scoreboard players add $wall jaw_vars 1
+execute rotated ~ 0 if block ^ ^1 ^2.6 #snc:tangible run scoreboard players add $wall jaw_vars 1
+execute if score $wall jaw_vars matches 1 run function snc:shifters/mobs/jaw/action/movement/wall {"speed":12,"side":"front"}
+execute if score $wall jaw_vars matches 2..3 run function snc:shifters/mobs/jaw/action/movement/wall {"speed":8,"side":"front"}
 execute if entity @s[tag=!snc.jaw.wall] rotated ~ 0 if block ^4 ^2 ^-4 #snc:tangible run function snc:shifters/mobs/jaw/action/movement/wall {"speed":3,"side":"left"}
 execute if entity @s[tag=!snc.jaw.wall] rotated ~ 0 if block ^-4 ^2 ^-4 #snc:tangible run function snc:shifters/mobs/jaw/action/movement/wall {"speed":3,"side":"right"}
 

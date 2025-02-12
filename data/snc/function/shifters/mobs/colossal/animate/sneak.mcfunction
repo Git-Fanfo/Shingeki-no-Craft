@@ -1,5 +1,5 @@
 ride @s dismount
-ride @s mount @e[type=skeleton_horse,tag=colossal,limit=1,sort=nearest]
+ride @s mount @n[type=skeleton_horse,tag=colossal]
 effect give @s minecraft:slowness infinite 2 true
 execute on vehicle run effect give @s minecraft:slowness infinite 6 true
 execute if score $form colossal_vars matches 1 on vehicle run attribute @s minecraft:scale base set 1

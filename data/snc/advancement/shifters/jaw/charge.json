@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{jaw_atk_2:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "snc:shifters/mobs/jaw/action/charge/trigger"
+  }
+}

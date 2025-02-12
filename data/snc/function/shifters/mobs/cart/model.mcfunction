@@ -17,12 +17,17 @@
 # 18 : kick_3
 # 19 : block
 
+
+## Rotate model
+execute store result score rotation cart_vars run data get entity @s Rotation[0]
+scoreboard players operation rotation cart_vars -= player_rotation cart_vars
+
 ## Rotate pivot
-execute on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
-execute on vehicle on passengers if entity @s[type=#snc:eldian] at @s anchored eyes run tp @e[tag=aj.cart.locator.consume,sort=nearest,limit=1] ^.1 ^ ^1 ~ ~
+execute unless score rotation cart_vars matches -20..20 on vehicle at @s on passengers if entity @s[tag=aj.cart.root] run rotate @s ~ 0
+
 ## Animations
 ## 2 types: Strong(S) and Weak(W)
 # S: Can't be combined with a S animation.
 # W: Can be combined with a S Animation.
 
-function snc:shifters/mobs/cart/animate/stop_motion
+function snc:shifters/mobs/cart/animate/main
