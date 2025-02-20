@@ -6,8 +6,7 @@ tag @s remove aj.jaw.animation.born.playing
 tag @s remove aj.jaw.animation.death.playing
 tag @s remove aj.jaw.animation.walk.playing
 tag @s remove aj.jaw.animation.sneak.playing
-tag @s remove aj.jaw.animation.walk_left.playing
-tag @s remove aj.jaw.animation.walk_right.playing
+tag @s remove aj.jaw.animation.sneak_loop.playing
 tag @s remove aj.jaw.animation.walk_front.playing
 tag @s remove aj.jaw.animation.jump.playing
 tag @s remove aj.jaw.animation.bite.playing
@@ -15,3 +14,5 @@ tag @s remove aj.jaw.animation.roar.playing
 tag @s remove aj.jaw.animation.charge_init.playing
 tag @s remove aj.jaw.animation.charge_end.playing
 tag @s remove aj.jaw.animation.climb_front.playing
+tag @s remove aj.jaw.animation.walk_left.playing
+tag @s remove aj.jaw.animation.walk_right.playing

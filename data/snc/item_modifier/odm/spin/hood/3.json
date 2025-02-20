@@ -2,7 +2,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_model_data": 23,
+            "item_model":"manuever/spin/3",
             "minecraft:enchantments":{"levels":{"minecraft:binding_curse":1}}
         }
     }

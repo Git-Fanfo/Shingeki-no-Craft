@@ -1,0 +1,8 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "item_model":"manuever/gas_trigger/not_vis"
+        }
+    }
+]

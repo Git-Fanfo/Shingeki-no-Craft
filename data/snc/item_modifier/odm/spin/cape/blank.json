@@ -1,0 +1,9 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "equippable":{"slot": "chest","model":"snc:blank"},
+            "minecraft:enchantments":{"levels":{"minecraft:binding_curse":1}}
+        }
+    }
+]

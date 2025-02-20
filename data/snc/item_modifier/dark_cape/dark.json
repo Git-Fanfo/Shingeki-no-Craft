@@ -1,6 +1,0 @@
-{
-    "function": "minecraft:set_components",
-    "components": {
-        "trim": {"material":"minecraft:blank","pattern":"minecraft:scouts_dark_cape","show_in_tooltip":false}
-    }
-}

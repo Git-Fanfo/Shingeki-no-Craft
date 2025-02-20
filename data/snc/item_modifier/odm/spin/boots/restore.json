@@ -1,0 +1,9 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "equippable":{"slot": "feet","model":"snc:scout"},
+            "minecraft:enchantments":{"levels":{"snc:swing":1},"show_in_tooltip":false}
+        }
+    }
+]

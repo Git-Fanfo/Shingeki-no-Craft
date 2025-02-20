@@ -36,7 +36,6 @@ execute if score state jaw_vars matches 4 if entity @s[tag=!aj.jaw.animation.wal
 execute if score state jaw_vars matches 4 on vehicle run attribute @s scale base set .6
 
 execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/action/movement/run
-execute if score state jaw_vars matches 5 if score $wall jaw_vars matches 0 on vehicle run effect clear @s levitation
 
 execute if score state jaw_vars matches 6 if entity @s[tag=!aj.jaw.animation.jump.playing] run function snc:shifters/mobs/jaw/animate/jump
 execute if score state jaw_vars matches 9 if entity @s[tag=!aj.jaw.animation.death.playing] run function snc:shifters/mobs/jaw/animate/death

@@ -183,8 +183,8 @@ data merge storage minecraft:jaw {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 2,\
-    damage_bite: 30, knockback_bite: 1, energy_bite: 8, angle_bite: 10, \
-    damage_charge: 30, knockback_charge: 5, energy_charge: 8, angle_charge: -60, cooldown_charge:2, \
+    damage_bite: 40, knockback_bite: 1, energy_bite: 10, angle_bite: 10, \
+    damage_charge: 40, knockback_charge: 5, energy_charge: 10, angle_charge: -60, cooldown_charge:2, \
     energy_jump: 5, \
     energy_hold: 24, \
     damage_step: 1 \

@@ -60,6 +60,7 @@ $execute if score @s atk matches 256 run function snc:shifters/human/transform {
 ## Spawn
 $execute if score @s atk matches 256 run \
     function snc:shifters/mobs/init {\
+        "id":"$(id)", \
         "shifter":"$(shifter)", \
         "bossbar_display":"$(bossbar_display)", \
         "bossbar_color":$(bossbar_color), \

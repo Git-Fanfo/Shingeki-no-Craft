@@ -1,5 +1,7 @@
+# Dismount player from everything
 ride @s dismount
-ride @s mount @n[type=skeleton_horse,tag=colossal]
+# Mount vehicle, direct reference
+ride @s mount 0000007f-0000-007f-0000-007f00000002
 effect give @s minecraft:slowness infinite 2 true
 execute on vehicle run effect give @s minecraft:slowness infinite 6 true
 execute if score $form colossal_vars matches 1 on vehicle run attribute @s minecraft:scale base set 1

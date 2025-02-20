@@ -1,0 +1,6 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "equippable":{"slot": "chest","model":"snc:scouts_dark"}
+    }
+}
