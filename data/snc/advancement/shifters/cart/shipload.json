@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"transform\"]}"
+        },
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds":1000000000
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": "{shipload:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "snc:shifters/mobs/cart/action/shipload/trigger"
+  }
+}

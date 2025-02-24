@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:pufferfish_spawn_egg[custom_data={snc_item:1},item_name='{"translate":"aot.titan.jaw","color":"yellow"}',entity_data={'id': 'minecraft:villager', 'Tags': ['jaw']},enchantment_glint_override=True] 1

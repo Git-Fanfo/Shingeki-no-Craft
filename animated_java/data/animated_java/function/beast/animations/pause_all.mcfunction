@@ -10,3 +10,5 @@ tag @s remove aj.beast.animation.grab.playing
 tag @s remove aj.beast.animation.sneak.playing
 tag @s remove aj.beast.animation.consume.playing
 tag @s remove aj.beast.animation.slap.playing
+tag @s remove aj.beast.animation.bite.playing
+tag @s remove aj.beast.animation.roar.playing

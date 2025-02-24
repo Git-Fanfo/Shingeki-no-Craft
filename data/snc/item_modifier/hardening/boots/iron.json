@@ -1,8 +1,8 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "trim": {"material":"minecraft:armor","pattern":"minecraft:armored"},
-        "item_name":"[{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.iron_boots\"}]",
+        "trim": {"material":"minecraft:hardening","pattern":"minecraft:armored"},
+        "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.iron_boots\"}]",
         "rarity":"uncommon",
         "max_damage":295,
         "custom_model_data": 1,

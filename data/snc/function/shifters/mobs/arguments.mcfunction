@@ -48,7 +48,8 @@ data merge storage minecraft:colossal {\
     block_range:0, \
     entity_range:0, \
     energy_decrease: 5,\
-    damage_kick_1:220, knockback_kick_1:10, energy_kick_1:110, angle_kick_1: -45,\
+    damage_wall:220, knockback_wall:10, energy_wall:110, angle_wall: -45, cooldown_wall:10, \
+    cooldown_steam:15, \
     damage_jaw: 34, knockback_jaw: 0, energy_jaw: 40, angle_jaw: -5, \
     damage_step: 15 \
 }
@@ -121,8 +122,9 @@ data merge storage minecraft:beast {\
     energy_decrease: 2,\
     damage_focus: 50, knockback_focus: 5, energy_focus: 80, \
     damage_area: 20, knockback_area: 1, energy_area: 27, \
-    damage_slap: 10, knockback_slap: 5, energy_slap: 15, angle_slap: -35, \
+    damage_slap: 10, knockback_slap: 5, energy_slap: 15, angle_slap: -35, cooldown_slap: 5, \
     damage_jaw: 12, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \
+    cooldown_drop: 5, \
     damage_step: 1 \
 }
 
@@ -184,7 +186,7 @@ data merge storage minecraft:jaw {\
     entity_range:7, \
     energy_decrease: 2,\
     damage_bite: 40, knockback_bite: 1, energy_bite: 10, angle_bite: 10, \
-    damage_charge: 40, knockback_charge: 5, energy_charge: 10, angle_charge: -60, cooldown_charge:2, \
+    damage_charge: 40, knockback_charge: 5, energy_charge: 10, angle_charge: -60, cooldown_charge:4, \
     energy_jump: 5, \
     energy_hold: 24, \
     damage_step: 1 \

@@ -9,6 +9,8 @@
 		"snowball",
 		"minecart",
 		"text_display",
-		"spectral_arrow"
+		"spectral_arrow",
+		"marker",
+		"tnt"
 	]
 }

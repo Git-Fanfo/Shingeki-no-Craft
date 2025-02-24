@@ -31,6 +31,8 @@ execute if score state beast_vars matches 4 if entity @s[tag=!aj.beast.animation
 ##execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.run] run function snc:shifters/mobs/beast/animate/run
 execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.walk.playing] run function snc:shifters/mobs/beast/animate/walk
 execute if score state beast_vars matches 3..5 on vehicle run attribute @s minecraft:scale base set 9.2
+execute if score state beast_vars matches 7 if entity @s[tag=!aj.beast.animation.bite.playing] run function snc:shifters/mobs/beast/animate/bite
+execute if score state beast_vars matches 8 if entity @s[tag=!aj.beast.animation.roar.playing] run function snc:shifters/mobs/beast/animate/roar
 execute if score state beast_vars matches 9 if entity @s[tag=!aj.beast.animation.death.playing] run function snc:shifters/mobs/beast/animate/death
 
 execute if score state beast_vars matches 12 if entity @s[tag=!aj.beast.animation.grab.playing] run function snc:shifters/mobs/beast/animate/grab

@@ -33,7 +33,13 @@
               "components": {"minecraft:custom_data": {"atk_shifter":1,"restart_armor":1}}}],
           "conditions": [
             {"condition": "minecraft:entity_scores", "entity": "this",
-              "scores": {"armor_vars": 1}}]}
+              "scores": {"armor_vars": 1}}]},
+        {"type": "minecraft:item", "name": "minecraft:barrier",
+          "functions": [{"function": "minecraft:set_components",
+              "components": {"minecraft:custom_data": {"atk_shifter":1,"restart_jaw":1}}}],
+          "conditions": [
+            {"condition": "minecraft:entity_scores", "entity": "this",
+              "scores": {"jaw_vars": 1}}]}
       ]
     }
   ],

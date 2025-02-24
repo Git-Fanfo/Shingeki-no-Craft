@@ -3,7 +3,7 @@
       "function": "minecraft:set_components",
       "components": {
           "damage":100,
-          "minecraft:custom_model_data":3,
+          "item_model":"manuever/odm_gear/mode_1/empty",
           "minecraft:lore":
             [
               "{\"translate\":\"aot.odm.desc2\",\"color\":\"gray\",\"italic\":false}",

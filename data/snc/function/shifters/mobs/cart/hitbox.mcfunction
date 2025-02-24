@@ -1,6 +1,5 @@
 # Hitbox
-execute if entity @s[tag=cart.hitbox] run tp ^ ^ ^-3.2
-
+#execute if entity @s[tag=cart.hitbox] run tp ^ ^ ^-3.2
 execute if entity @s[tag=aj.cart.locator.consume] on passengers run function snc:shifters/mobs/cart/action/hold/effects
 
 # Rotate pivot

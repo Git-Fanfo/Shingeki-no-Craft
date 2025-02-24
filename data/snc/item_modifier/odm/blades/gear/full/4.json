@@ -3,7 +3,7 @@
     "function": "minecraft:set_components",
     "components": {
         "damage":0,
-        "minecraft:custom_model_data":12,
+        "minecraft:item_model":"manuever/odm_gear/mode_1/blade/full/4",
         "minecraft:lore":
         [
           "{\"translate\":\"aot.odm.desc2\",\"color\":\"gray\",\"italic\":false}",

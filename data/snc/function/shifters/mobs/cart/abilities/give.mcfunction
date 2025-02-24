@@ -3,7 +3,6 @@ function snc:shifters/human/inventory/save/shifter with storage minecraft:cart
 function snc:shifters/abilities/clear
 function snc:shifters/human/inventory/spawn/shifter with storage minecraft:cart
 function snc:shifters/transfer/spaces
-
 ## Gamemode
 # Combat
 execute if score $gamemode cart_vars matches 1 run function snc:shifters/mobs/cart/abilities/atk_5 with storage minecraft:cart

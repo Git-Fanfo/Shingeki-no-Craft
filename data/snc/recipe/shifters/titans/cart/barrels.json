@@ -4,12 +4,13 @@
         "minecraft:barrier"
     ],
     "result": {
-        "id": "minecraft:carrot_on_a_stick",
+        "id": "minecraft:quartz",
         "count": 1,
         "components": {
             "custom_data": {"shipload":true,"barrels":true,"snc_item":1},
             "item_model": "shifters/cart/item/barrels",
-            "custom_name": "[{\"translate\":\"aot.ability.shipload\",\"italic\":false},\": \",{\"translate\":\"aot.ability.shipload.barrels\"}]",
+            "consumable":{"consume_seconds":1000000000},
+            "item_name": "[{\"translate\":\"aot.ability.shipload\",\"italic\":false},\": \",{\"translate\":\"aot.ability.shipload.barrels\"}]",
             "lore": [
                 "{\"translate\":\"aot.ability.shipload.desc\",\"italic\":false,\"color\":\"gray\"}",
                 "[{\"translate\":\"aot.ability.shipload.desc2\",\"italic\":false,\"color\":\"gray\"},\" \",{\"translate\":\"aot.titan.cart\",\"italic\":false,\"color\":\"light_purple\"}]",

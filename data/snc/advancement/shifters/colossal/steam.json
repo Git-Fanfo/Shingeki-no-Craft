@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{colossal_atk_3:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "snc:shifters/mobs/colossal/action/steam/trigger"
+  }
+}

@@ -15,6 +15,7 @@ execute if entity @s[tag=aj.jaw.animation.bite.playing] run function animated_ja
 execute if entity @s[tag=aj.jaw.animation.roar.playing] run function animated_java:jaw/animations/roar/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.charge_init.playing] run function animated_java:jaw/animations/charge_init/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.charge_end.playing] run function animated_java:jaw/animations/charge_end/zzz/on_tick
+execute if entity @s[tag=aj.jaw.animation.charge_slash.playing] run function animated_java:jaw/animations/charge_slash/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.climb_front.playing] run function animated_java:jaw/animations/climb_front/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.walk_left.playing] run function animated_java:jaw/animations/walk_left/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.walk_right.playing] run function animated_java:jaw/animations/walk_right/zzz/on_tick

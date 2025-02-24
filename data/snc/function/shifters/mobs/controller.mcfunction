@@ -1,6 +1,4 @@
 $execute if score ticks clock matches 17 run effect give @s resistance 3 $(resistance) true
-## Detect If is attacking
-$execute unless score state $(shifter)_vars matches 10..30 if score @s using_carrot matches 1 run function snc:shifters/function/unique {"pre":"function snc:shifters/human/action with storage minecraft:","post":""}
 
 $execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/combat/main {"shifter":$(shifter)}
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
@@ -18,8 +16,8 @@ $execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_
 # Insta remove
 $execute if predicate snc:shifters/has_insta_remove if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/vanish
 # Ride when is not dead
-$execute unless score state $(shifter)_vars matches 9 if predicate snc:player/keybinds/sneak run function snc:shifters/mobs/$(shifter)/animate/sneak
-
+#$execute unless score state $(shifter)_vars matches 9 if predicate snc:player/keybinds/sneak run function snc:shifters/mobs/$(shifter)/animate/sneak
+$execute unless score state $(shifter)_vars matches 9 unless predicate snc:shifters/is_riding run function snc:shifters/mobs/$(shifter)/animate/sneak
 ## Health system
 # When doesn't have absortion then add tag 'injured'
 $execute store result score $health $(shifter)_vars run data get entity @s AbsorptionAmount

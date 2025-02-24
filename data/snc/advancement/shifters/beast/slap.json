@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+            "predicates": {
+                "minecraft:custom_data": "{beast_atk_7:1b}"
+            }
+            }
+        }
+        }
+    },
+    "rewards": {
+        "function": "snc:shifters/mobs/beast/action/slap/trigger"
+    }
+}

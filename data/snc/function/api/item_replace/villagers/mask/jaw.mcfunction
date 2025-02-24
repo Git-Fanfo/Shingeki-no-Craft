@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with carved_pumpkin[custom_data={snc_item:1},custom_name='[{"translate":"aot.titan.jaw","color":"white","italic":false}," ",{"translate":"aot.mask"}]',lore=['{"translate":"Decoration","color":"blue","italic":false}'],item_model='trophies/jaw_head'] 1

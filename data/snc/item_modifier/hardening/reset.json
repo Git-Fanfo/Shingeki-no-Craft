@@ -2,7 +2,7 @@
     "function": "minecraft:set_components",
     "components": {
         "!trim":{},
-        "!item_name":{},
+        "!custom_name":{},
         "!rarity":{},
         "!max_damage":{},
         "!custom_model_data": {},

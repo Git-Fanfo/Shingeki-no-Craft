@@ -1,4 +1,4 @@
-clear @s carrot_on_a_stick[custom_data~{barrels:1b}] 1
+clear @s quartz[custom_data~{barrels:1b}] 1
 
 ## Remove shipload
 execute as @e[tag=cart.shipload] run function snc:shifters/mobs/remove_hitboxes

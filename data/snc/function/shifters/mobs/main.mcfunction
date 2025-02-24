@@ -6,10 +6,8 @@ $execute if entity @s[tag=aj.$(shifter).locator.consume] if score $hold $(shifte
 $execute if entity @s[tag=aj.$(shifter).locator.consume] unless score $hold $(shifter)_vars matches 1 on passengers run ride @s dismount
 
 # Deals with the physics mechanics
-$execute as @s[tag=body] run \
-    function snc:shifters/mobs/vehicle with storage minecraft:$(shifter)
-$execute as @s[tag=collision] run \
-    function snc:shifters/mobs/collision {"shifter":"$(shifter)"}
+$execute as @s[tag=body] run function snc:shifters/mobs/vehicle with storage minecraft:$(shifter)
+$execute as @s[tag=collision] run function snc:shifters/mobs/collision {"shifter":"$(shifter)"}
 
 # If it transforms
 $execute if entity @s[tag=aj.$(shifter).locator.consume] on passengers run ride @s[tag=transform] dismount

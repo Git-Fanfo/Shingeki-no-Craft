@@ -1,8 +1,8 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "trim": {"material":"minecraft:armor","pattern":"minecraft:armored"},
-        "item_name":"[{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.chainmail_leggings\"}]",
+        "trim": {"material":"minecraft:hardening","pattern":"minecraft:armored"},
+        "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.chainmail_leggings\"}]",
         "rarity":"uncommon",
         "max_damage":325,
         "custom_model_data": 1,

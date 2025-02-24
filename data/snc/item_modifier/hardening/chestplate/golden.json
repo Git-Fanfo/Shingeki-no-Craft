@@ -1,8 +1,8 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "trim": {"material":"minecraft:armor","pattern":"minecraft:armored"},
-        "item_name":"[{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.golden_chestplate\"}]",
+        "trim": {"material":"minecraft:hardening","pattern":"minecraft:armored"},
+        "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.golden_chestplate\"}]",
         "rarity":"common",
         "max_damage":212,
         "custom_model_data": 1,

@@ -1,10 +1,10 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "item_name":"[{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.netherite_chestplate\"}]",
+        "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.netherite_chestplate\"}]",
         "rarity":"epic",
         "trim": {
-            "material":"minecraft:armor",
+            "material":"minecraft:hardening",
             "pattern":"minecraft:armored"
         },
         "custom_model_data": 1,
