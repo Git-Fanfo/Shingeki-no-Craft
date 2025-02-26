@@ -1,5 +1,5 @@
 ## States
-# 0 : Dead
+# 0 : Off
 # 1 : Born
 # 2 : Sneak
 # 3 : Idle
@@ -14,36 +14,21 @@
 ## Rotate model
 execute store result score rotation jaw_vars run data get entity @s Rotation[0]
 scoreboard players operation rotation jaw_vars -= player_rotation jaw_vars
-
-## Rotate pivot
 execute unless score state jaw_vars matches 11 unless score rotation armor_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
-execute if score state jaw_vars matches 11 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ ~
 execute if block ~ ~-1 ~ #snc:tangible run scoreboard players set $charge jaw_vars 1
-#execute on vehicle at @s if block ^1 ^1 ^ #snc:tangible on controller if predicate snc:player/keybinds/forward on #vehicle run function snc:shifters/mobs/jaw/action/movement/wall {"angle":-10}
-#execute on vehicle at @s if block ^-1 ^1 ^ #snc:tangible on controller if predicate snc:player/keybinds/forward on vehicle run function snc:shifters/mobs/jaw/action/movement/wall {"angle":10}
-## Animations
-## 2 types: Strong(S) and Weak(W)
-# S: Can't be combined with a S animation.
-# W: Can be combined with a S Animation.
 
-execute if score state jaw_vars matches 1 if entity @s[tag=!aj.jaw.animation.born.playing] run function snc:shifters/mobs/jaw/animate/born
-## function snc:shifters/mobs/jaw/animate/sneak is handled by ../player
-#execute if score state jaw_vars matches 2 if score $gamemode jaw_vars matches 1 on vehicle rotated ~ 0 positioned ^ ^-.9 ^4 on passengers if entity @s[type=player] run function snc:shifters/mobs/highlight
-
+### Animations
+## General
+## 1. function snc:shifters/mobs/attack/animate/born is handled externally
+## 2. function snc:shifters/mobs/attack/animate/sneak is handled externally
 execute if score state jaw_vars matches 3 if entity @s[tag=!aj.jaw.animation.idle.playing] run function snc:shifters/mobs/jaw/animate/idle
-execute if score state jaw_vars matches 3 on vehicle run attribute @s scale base set 1.25
-
 execute if score state jaw_vars matches 4 if entity @s[tag=!aj.jaw.animation.walk.playing] run function snc:shifters/mobs/jaw/animate/walk
-execute if score state jaw_vars matches 4 on vehicle run attribute @s scale base set .6
-
 execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/action/movement/run
+## 6. function snc:shifters/mobs/jaw/animate/jump is handled externally
+## 7. function snc:shifters/mobs/jaw/animate/bite is handled externally
+## 8. function snc:shifters/mobs/jaw/animate/roar is handled externally
+## 9. function snc:shifters/mobs/jaw/animate/death is handled externally
 
-execute if score state jaw_vars matches 6 if entity @s[tag=!aj.jaw.animation.jump.playing] run function snc:shifters/mobs/jaw/animate/jump
-execute if score state jaw_vars matches 9 if entity @s[tag=!aj.jaw.animation.death.playing] run function snc:shifters/mobs/jaw/animate/death
-
-execute if score state jaw_vars matches 7 if entity @s[tag=!aj.jaw.animation.bite.playing] run function snc:shifters/mobs/jaw/animate/bite
-execute if score state jaw_vars matches 8 if entity @s[tag=!aj.jaw.animation.roar.playing] run function snc:shifters/mobs/jaw/animate/roar
-
-execute if score state jaw_vars matches 13 if entity @s[tag=!aj.jaw.animation.charge_end.playing] run function snc:shifters/mobs/jaw/animate/charge_end
+## Moves
 execute if score state jaw_vars matches 12 run function snc:shifters/mobs/jaw/action/charge/slash
 execute if score state jaw_vars matches 11 run function snc:shifters/mobs/jaw/action/charge/crash

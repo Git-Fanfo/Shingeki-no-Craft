@@ -20,6 +20,6 @@ execute if score @s shifter_vars matches 2 run effect give @s slow_falling 9 0 t
 execute unless score @s shifter_vars matches 2 run effect give @s slow_falling 3 0 true
 effect give @s levitation 1 0 true
 
-$function snc:shifters/human/untransform {"shifter":"$(shifter)"}
+$function snc:shifters/human/untransform {"shifter":"$(shifter)", "id":"$(id)"}
 
 #execute as @e[tag=cart,tag=shifter,type=!villager,tag=!dead] at @s run function snc:shifters/mobs/main with storage minecraft:cart

@@ -1,0 +1,11 @@
+execute if score idle colossal_vars matches 89 run data modify entity @s item.components.minecraft:custom_model_data set value 475
+execute if score idle colossal_vars matches 79 run data modify entity @s item.components.minecraft:custom_model_data set value 476
+execute if score idle colossal_vars matches 69 run data modify entity @s item.components.minecraft:custom_model_data set value 477
+execute if score idle colossal_vars matches 59 run data modify entity @s item.components.minecraft:custom_model_data set value 478
+execute if score idle colossal_vars matches 49 run data modify entity @s item.components.minecraft:custom_model_data set value 479
+execute if score idle colossal_vars matches 39 run data modify entity @s item.components.minecraft:custom_model_data set value 478
+execute if score idle colossal_vars matches 29 run data modify entity @s item.components.minecraft:custom_model_data set value 477
+execute if score idle colossal_vars matches 19 run data modify entity @s item.components.minecraft:custom_model_data set value 476
+execute if score idle colossal_vars matches 9 run data modify entity @s item.components.minecraft:custom_model_data set value 475
+
+return 1

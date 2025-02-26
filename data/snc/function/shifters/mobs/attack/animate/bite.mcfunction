@@ -1,9 +1,6 @@
-execute if score consume attack_vars matches 20 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=29]
-execute if score consume attack_vars matches 20 at @s run playsound minecraft:aot.shifters.bite player @a ~ ~ ~ 5 .9
-execute if score consume attack_vars matches 18 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=30]
-execute if score consume attack_vars matches 16 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=27]
-execute if score consume attack_vars matches 14 run item replace entity @s armor.head with carved_pumpkin[custom_model_data=28]
-execute if score consume attack_vars matches 12 anchored eyes positioned ^ ^-1 ^2 run function snc:shifters/mobs/attack/action/jaw/damage with storage minecraft:attack
+function animated_java:attack/animations/pause_all
+function animated_java:attack/animations/bite/play
+scoreboard players set state attack_vars 7
+execute on vehicle run attribute @s minecraft:scale base set 6.3
 
-execute if score consume attack_vars matches 1 run tag @s remove consume
-execute if score consume attack_vars matches 1 run scoreboard players set $hold attack_vars 0
+return 1

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "snc:shifters/mobs/attack/action/jaw/trigger"
+    "function": "snc:shifters/mobs/attack/action/bite/trigger"
   }
 }

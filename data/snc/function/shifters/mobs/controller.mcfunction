@@ -1,6 +1,6 @@
 $execute if score ticks clock matches 17 run effect give @s resistance 3 $(resistance) true
 
-$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/combat/main {"shifter":$(shifter)}
+$execute if score $gamemode $(shifter)_vars matches 1 run function snc:shifters/combat/main {"shifter":$(shifter),"id":"$(id)"}
 $execute if score $gamemode $(shifter)_vars matches -1 run function snc:shifters/utility/main {"shifter":$(shifter), "block_range":$(block_range)}
 
 ## Is moving? Unless is sneaking!
@@ -12,7 +12,7 @@ $execute store result score player_rotation $(shifter)_vars run data get entity 
 $execute if items entity @s player.cursor *[minecraft:custom_data~{atk_shifter:1b}] run function snc:shifters/mobs/$(shifter)/abilities/give
 
 # Kill when energy runs out
-$execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)"}
+$execute if score $energy $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd {"shifter":"$(shifter)", "id":"$(id)"}
 # Insta remove
 $execute if predicate snc:shifters/has_insta_remove if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/vanish
 # Ride when is not dead
@@ -31,7 +31,7 @@ $execute if score $health $(shifter)_vars = $prev_health $(shifter)_vars run ret
     # Update skin
     $execute on vehicle on passengers if entity @s[tag=aj.$(shifter).root] run function snc:shifters/mobs/$(shifter)/skin
     # Kill when hp is 0
-    $execute if score $health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter)}
+    $execute if score $health $(shifter)_vars matches ..0 if score state $(shifter)_vars matches 2.. run function snc:shifters/human/timer/cd_hurt {"shifter":$(shifter), "id":"$(id)"}
     # Store last hp value
     $scoreboard players operation $prev_health $(shifter)_vars = $health $(shifter)_vars
     

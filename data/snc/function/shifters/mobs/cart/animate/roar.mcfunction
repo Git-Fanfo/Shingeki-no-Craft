@@ -1,2 +1,2 @@
-execute if score $mask cart_vars matches 1 run function snc:shifters/mobs/cart/action/roar/frames {"f1":"shifters/cart/bite/mask/1","f2":"shifters/cart/bite/mask/2","f3":"shifters/cart/bite/mask/3"}
-execute if score $mask cart_vars matches 0 run function snc:shifters/mobs/cart/action/roar/frames {"f1":"shifters/cart/bite/unmask/1","f2":"shifters/cart/bite/unmask/2","f3":"shifters/cart/bite/unmask/3"}
+scoreboard players set action cart_vars 101
+scoreboard players set state cart_vars 8

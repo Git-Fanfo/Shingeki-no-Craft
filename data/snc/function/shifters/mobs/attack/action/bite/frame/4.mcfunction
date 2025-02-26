@@ -1,0 +1,2 @@
+execute on vehicle on controller run function snc:shifters/mobs/attack/action/bite/damage with storage minecraft:attack
+execute on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/attack/bite/meat/1"]

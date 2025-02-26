@@ -76,7 +76,7 @@ data merge storage minecraft:attack {\
     type:skeleton_horse, \
     hp:40, \
     walk_speed:0.13d, \
-    run_speed:0.36d, \
+    run_speed:0.40d, \
     jump:1.65d, \
     step_height:3.6d, \
     explosion:15, \
@@ -94,7 +94,7 @@ data merge storage minecraft:attack {\
     damage_kick_1:30, knockback_kick_1:1, energy_kick_1:20, angle_kick_1: -5, \
     damage_kick_2:32, knockback_kick_2:2, energy_kick_2:15, angle_kick_2: -5, \
     damage_kick_3:34, knockback_kick_3:2, energy_kick_3:10, angle_kick_3: -80, \
-    damage_jaw: 18, knockback_jaw: 1, energy_jaw: 5, angle_jaw: -5, \
+    damage_bite: 18, knockback_bite: 1, energy_bite: 5, angle_bite: -5, \
     damage_step: 3 \
 }
 
@@ -108,7 +108,7 @@ data merge storage minecraft:beast {\
     bossbar_style: notched_10, \
     hp:56, \
     walk_speed:0.14d, \
-    run_speed:0.20d, \
+    run_speed:0.32d, \
     type:skeleton_horse, \
     jump:1.3d, \
     step_height:3.6d, \

@@ -1,2 +1,2 @@
 advancement revoke @s only snc:shifters/beast/boulder
-scoreboard players set state beast_vars 13
+execute on vehicle on passengers if entity @s[tag=aj.beast.root,tag=!aj.beast.animation.throw_big.playing] run function snc:shifters/mobs/beast/animate/throw_big

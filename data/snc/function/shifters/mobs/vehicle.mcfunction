@@ -18,5 +18,5 @@ $execute if score state $(shifter)_vars matches 2..5 run \
 ## Prevent shifter leaved the world
 $execute on passengers if entity @s[tag=transform] on vehicle run scoreboard players set @s $(shifter)_vars 20
 $scoreboard players remove @s $(shifter)_vars 1
-$execute if score @s $(shifter)_vars matches ..0 run scoreboard players set state $(shifter)_vars 9
-#$execute if score @s $(shifter)_vars matches ..0 on passengers if entity @s[tag=aj.$(shifter).root] run function snc:shifters/mobs/$(shifter)/animate/death
+
+$execute if score @s $(shifter)_vars matches ..0 on passengers if entity @s[tag=aj.$(shifter).root] run function snc:shifters/mobs/$(shifter)/animate/death

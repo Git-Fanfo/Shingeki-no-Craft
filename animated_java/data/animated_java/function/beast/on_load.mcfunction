@@ -11,3 +11,4 @@ scoreboard objectives add aj.consume.frame dummy
 scoreboard objectives add aj.slap.frame dummy
 scoreboard objectives add aj.bite.frame dummy
 scoreboard objectives add aj.roar.frame dummy
+scoreboard objectives add aj.run.frame dummy

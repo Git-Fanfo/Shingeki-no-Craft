@@ -1,9 +1,0 @@
-execute if score idle colossal_vars matches 89 run data modify entity @s item.components.minecraft:custom_model_data set value 74
-execute if score idle colossal_vars matches 79 run data modify entity @s item.components.minecraft:custom_model_data set value 75
-execute if score idle colossal_vars matches 69 run data modify entity @s item.components.minecraft:custom_model_data set value 76
-execute if score idle colossal_vars matches 59 run data modify entity @s item.components.minecraft:custom_model_data set value 77
-execute if score idle colossal_vars matches 49 run data modify entity @s item.components.minecraft:custom_model_data set value 78
-execute if score idle colossal_vars matches 39 run data modify entity @s item.components.minecraft:custom_model_data set value 79
-execute if score idle colossal_vars matches 29 run data modify entity @s item.components.minecraft:custom_model_data set value 80
-execute if score idle colossal_vars matches 19 run data modify entity @s item.components.minecraft:custom_model_data set value 81
-execute if score idle colossal_vars matches 9 run data modify entity @s item.components.minecraft:custom_model_data set value 82

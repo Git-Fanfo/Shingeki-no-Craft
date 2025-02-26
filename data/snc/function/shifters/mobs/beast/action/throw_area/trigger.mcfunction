@@ -1,2 +1,2 @@
 advancement revoke @s only snc:shifters/beast/area
-scoreboard players set state beast_vars 14
+execute on vehicle on passengers if entity @s[tag=aj.beast.root,tag=!aj.beast.animation.throw_area.playing] run function snc:shifters/mobs/beast/animate/throw_area

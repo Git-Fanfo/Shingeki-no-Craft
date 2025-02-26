@@ -14,6 +14,7 @@ execute if entity @s[tag=aj.beast.animation.consume.playing] run function animat
 execute if entity @s[tag=aj.beast.animation.slap.playing] run function animated_java:beast/animations/slap/zzz/on_tick
 execute if entity @s[tag=aj.beast.animation.bite.playing] run function animated_java:beast/animations/bite/zzz/on_tick
 execute if entity @s[tag=aj.beast.animation.roar.playing] run function animated_java:beast/animations/roar/zzz/on_tick
+execute if entity @s[tag=aj.beast.animation.run.playing] run function animated_java:beast/animations/run/zzz/on_tick
 execute on passengers if entity @s[tag=aj.beast.data] run function animated_java:beast/root/zzz/1
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:beast/as_root/post_tick

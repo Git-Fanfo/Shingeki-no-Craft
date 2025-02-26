@@ -15,7 +15,7 @@ execute if score $gamemode attack_vars matches 1 run function snc:shifters/mobs/
 execute if score $gamemode attack_vars matches -1 run function snc:shifters/abilities/destroy with storage minecraft:attack
 execute if score $gamemode attack_vars matches -1 run function snc:shifters/abilities/harvest with storage minecraft:cart
 
-item replace entity @s[tag=transform] armor.head with carved_pumpkin[custom_model_data=28]
+item replace entity @s[tag=transform] armor.head with carved_pumpkin[item_model="shifters/attack/bite/meat/1"]
 
 ## Gamemode
 # execute if score $gamemode attack_vars matches 1 run function snc:shifters/abilities/utility with storage minecraft:attack

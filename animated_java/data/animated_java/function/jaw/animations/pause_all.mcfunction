@@ -7,7 +7,6 @@ tag @s remove aj.jaw.animation.death.playing
 tag @s remove aj.jaw.animation.walk.playing
 tag @s remove aj.jaw.animation.sneak.playing
 tag @s remove aj.jaw.animation.sneak_loop.playing
-tag @s remove aj.jaw.animation.walk_front.playing
 tag @s remove aj.jaw.animation.jump.playing
 tag @s remove aj.jaw.animation.bite.playing
 tag @s remove aj.jaw.animation.roar.playing

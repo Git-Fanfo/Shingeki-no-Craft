@@ -1,6 +1,6 @@
 # Save the current position to #posy0
 $execute store result score #posy0 $(shifter)_vars run data get entity @s Pos[1] 1
-
+# Set horse id to track more efficiently
 $kill 0000007f-0000-007f-0000-007f0000000$(id)
 $summon $(type) ~ ~ ~ {UUID:[I;127,127,127,$(id)]}
 $execute as 0000007f-0000-007f-0000-007f0000000$(id) run function snc:shifters/mobs/spawn {\

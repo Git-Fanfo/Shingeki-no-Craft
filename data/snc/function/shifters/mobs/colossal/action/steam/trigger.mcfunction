@@ -3,4 +3,4 @@ execute if predicate snc:chance/20 run playsound minecraft:aot.shifters.attack.g
 # Restart moves
 give @s quartz[minecraft:custom_data={atk_shifter:1b,2_titan:1b},item_model="item/blank"]
 scoreboard players set state colossal_vars 12
-scoreboard players set action colossal_vars 220
+scoreboard players set action colossal_vars 221

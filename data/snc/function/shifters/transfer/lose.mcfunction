@@ -6,7 +6,7 @@
 #
 # @output
 #   Entity is killed and the shifter is given to an entity or the world
-$execute as @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":$(shifter)}
+$execute as @s[tag=transform] run function snc:shifters/human/timer/cd {"shifter":$(shifter), "id":"$(id)"}
 
 ## Display who killed
 # Fanfo

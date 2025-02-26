@@ -9,7 +9,6 @@ execute if entity @s[tag=aj.jaw.animation.death.playing] run function animated_j
 execute if entity @s[tag=aj.jaw.animation.walk.playing] run function animated_java:jaw/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.sneak.playing] run function animated_java:jaw/animations/sneak/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.sneak_loop.playing] run function animated_java:jaw/animations/sneak_loop/zzz/on_tick
-execute if entity @s[tag=aj.jaw.animation.walk_front.playing] run function animated_java:jaw/animations/walk_front/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.jump.playing] run function animated_java:jaw/animations/jump/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.bite.playing] run function animated_java:jaw/animations/bite/zzz/on_tick
 execute if entity @s[tag=aj.jaw.animation.roar.playing] run function animated_java:jaw/animations/roar/zzz/on_tick

@@ -18,24 +18,21 @@ scoreboard players operation rotation beast_vars -= player_rotation beast_vars
 ## Rotate pivot
 execute unless score rotation beast_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
 
-## Animations
-## 2 types: Strong(S) and Weak(W)
-# S: Can't be combined with a S animation.
-# W: Can be combined with a S Animation.
-execute if score state beast_vars matches 1 if entity @s[tag=!aj.beast.animation.born.playing] run function snc:shifters/mobs/beast/animate/born
-## function snc:shifters/mobs/beast/animate/sneak is handled by ../player
+### Animations
+## General
+## 1. function snc:shifters/mobs/beast/animate/born is handled externally
+## 2. function snc:shifters/mobs/beast/animate/sneak is handled externally
 execute if score state beast_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^-.9 ^4 on passengers if entity @s[type=player] run function snc:shifters/mobs/highlight
-# execute if score state beast_vars matches 3 unless score $hold beast_vars matches 1 if entity @s[tag=!aj.beast.animation.idle] run function snc:shifters/mobs/beast/animate/idle
 execute if score state beast_vars matches 3 if entity @s[tag=!aj.beast.animation.idle.playing] run function snc:shifters/mobs/beast/animate/idle
 execute if score state beast_vars matches 4 if entity @s[tag=!aj.beast.animation.walk.playing] run function snc:shifters/mobs/beast/animate/walk
-##execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.run] run function snc:shifters/mobs/beast/animate/run
-execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.walk.playing] run function snc:shifters/mobs/beast/animate/walk
-execute if score state beast_vars matches 3..5 on vehicle run attribute @s minecraft:scale base set 9.2
-execute if score state beast_vars matches 7 if entity @s[tag=!aj.beast.animation.bite.playing] run function snc:shifters/mobs/beast/animate/bite
-execute if score state beast_vars matches 8 if entity @s[tag=!aj.beast.animation.roar.playing] run function snc:shifters/mobs/beast/animate/roar
-execute if score state beast_vars matches 9 if entity @s[tag=!aj.beast.animation.death.playing] run function snc:shifters/mobs/beast/animate/death
+execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.run.playing] run function snc:shifters/mobs/beast/animate/run
+## 6. function snc:shifters/mobs/beast/animate/jump is disabled for beast titan
+## 7. function snc:shifters/mobs/beast/animate/bite is handled externally
+## 8. function snc:shifters/mobs/beast/animate/roar is handled externally
+## 9. function snc:shifters/mobs/beast/animate/death is handled externally
 
-execute if score state beast_vars matches 12 if entity @s[tag=!aj.beast.animation.grab.playing] run function snc:shifters/mobs/beast/animate/grab
-execute if score state beast_vars matches 13 if entity @s[tag=!aj.beast.animation.throw_big.playing] run function snc:shifters/mobs/beast/animate/throw_big
-execute if score state beast_vars matches 14 if entity @s[tag=!aj.beast.animation.throw_area.playing] run function snc:shifters/mobs/beast/animate/throw_area
-execute if score state beast_vars matches 15 if entity @s[tag=!aj.beast.animation.slap.playing] run function snc:shifters/mobs/beast/animate/slap
+## Moves
+## 12. function snc:shifters/mobs/beast/animate/grab is handled externally
+## 13. function snc:shifters/mobs/beast/animate/throw_big is handled externally
+## 14. function snc:shifters/mobs/beast/animate/throw_area is handled externally
+## 15. function snc:shifters/mobs/beast/animate/slap is handled externally
