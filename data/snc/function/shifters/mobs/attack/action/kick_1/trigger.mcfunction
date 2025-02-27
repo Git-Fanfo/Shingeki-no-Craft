@@ -7,5 +7,4 @@ execute if score combo_kick attack_vars matches -2 run scoreboard players set co
 # If not attacking finish combo
 execute unless score state attack_vars matches 10..30 run scoreboard players set combo_kick attack_vars 0
 # If it doesn't have combo then attack normally
-execute if score combo_kick attack_vars matches ..0 run scoreboard players set state attack_vars 16
 execute if score combo_kick attack_vars matches ..0 as 0000007f-0000-007f-0000-007f00000003 on passengers if entity @s[tag=aj.attack.root,tag=!aj.attack.animation.kick_1.playing] run function snc:shifters/mobs/attack/animate/kick_1

@@ -4,10 +4,10 @@ scoreboard players add @s colossal_vars 1
 execute as @s[tag=!snc.heat_wave,type=item_display] if score @s colossal_vars matches 10 run data merge entity @s {view_range:50f,start_interpolation:0,interpolation_duration:1000,teleport_duration:2,transformation:{translation:[0f,0f,0f],scale:[55f,50f,55f]}}
 execute as @s[tag=snc.top] if score @s colossal_vars matches ..1000 run tp @s ~ ~.07 ~
 # Gamma
-execute as @s[tag=snc.top] if score @s colossal_vars matches 1000 run data merge entity @s {item:{components:{"custom_model_data":465}}}
-execute as @s[tag=snc.base] if score @s colossal_vars matches 1000 run data merge entity @s {item:{components:{"custom_model_data":464}}}
-execute as @s[tag=snc.top] if score @s colossal_vars matches 1100 run data merge entity @s {item:{components:{"custom_model_data":467}}}
-execute as @s[tag=snc.base] if score @s colossal_vars matches 1100 run data merge entity @s {item:{components:{"custom_model_data":466}}}
+execute as @s[tag=snc.top] if score @s colossal_vars matches 1000 run data merge entity @s {item:{components:{"item_model":"shifters/colossal/explosion/2/top"}}}
+execute as @s[tag=snc.base] if score @s colossal_vars matches 1000 run data merge entity @s {item:{components:{"item_model":"shifters/colossal/explosion/2/base"}}}
+execute as @s[tag=snc.top] if score @s colossal_vars matches 1100 run data merge entity @s {item:{components:{"item_model":"shifters/colossal/explosion/3/top"}}}
+execute as @s[tag=snc.base] if score @s colossal_vars matches 1100 run data merge entity @s {item:{components:{"item_model":"shifters/colossal/explosion/3/base"}}}
 
 # Wave
 execute as @s[tag=snc.1] if score @s colossal_vars matches 10 run data merge entity @s {view_range:50f,start_interpolation:0,interpolation_duration:1000,teleport_duration:40,transformation:{translation:[0f,0f,0f],scale:[55f,1f,55f]}}

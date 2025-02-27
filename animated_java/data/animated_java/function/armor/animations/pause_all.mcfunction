@@ -14,3 +14,5 @@ tag @s remove aj.armor.animation.init_charge.playing
 tag @s remove aj.armor.animation.hardening.playing
 tag @s remove aj.armor.animation.sneak.playing
 tag @s remove aj.armor.animation.consume.playing
+tag @s remove aj.armor.animation.jump.playing
+tag @s remove aj.armor.animation.bite.playing

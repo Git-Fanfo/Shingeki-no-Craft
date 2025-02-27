@@ -1,4 +1,4 @@
-scoreboard players set state armor_vars 16
+execute on vehicle on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/animate/slide
 execute on vehicle on passengers if entity @s[type=player] run effect clear @s speed
 execute on vehicle on passengers if entity @s[type=player] run effect give @s slowness 2 9 true
 

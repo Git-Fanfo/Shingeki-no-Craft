@@ -1,4 +1,4 @@
-execute on vehicle on vehicle run kill
+execute on vehicle run kill
 $execute store result score #snc.mot_x0 $(score) run data get entity @s Pos[0] 1000
 $execute store result score #snc.mot_y0 $(score) run data get entity @s Pos[1] 1000
 $execute store result score #snc.mot_z0 $(score) run data get entity @s Pos[2] 1000

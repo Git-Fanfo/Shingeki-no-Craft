@@ -7,4 +7,4 @@ execute if score combo_punch armor_vars matches -2 run scoreboard players set co
 # If not attacking finish combo
 execute unless score state armor_vars matches 10..30 run scoreboard players set combo_punch armor_vars 0
 # If it doesn't have combo then attack normally
-execute if score combo_punch armor_vars matches ..0 run scoreboard players set state armor_vars 13
+execute if score combo_punch armor_vars matches ..0 on vehicle on passengers if entity @s[tag=aj.armor.root,tag=!aj.armor.animation.punch_1.playing] run function snc:shifters/mobs/armor/animate/punch_1

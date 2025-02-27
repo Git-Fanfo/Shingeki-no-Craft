@@ -1,6 +1,6 @@
 {
     "function": "minecraft:set_components",
     "components": {
-        "custom_model_data": 78
+        "item_model": "shifters/armor/bite/4/3"
     }
 }

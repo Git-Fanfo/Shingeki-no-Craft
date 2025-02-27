@@ -13,3 +13,5 @@ scoreboard objectives add aj.init_charge.frame dummy
 scoreboard objectives add aj.hardening.frame dummy
 scoreboard objectives add aj.sneak.frame dummy
 scoreboard objectives add aj.consume.frame dummy
+scoreboard objectives add aj.jump.frame dummy
+scoreboard objectives add aj.bite.frame dummy

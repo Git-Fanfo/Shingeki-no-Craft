@@ -1,0 +1,1 @@
+$execute on vehicle on controller run item modify entity @s armor.head snc:shifters/armor/model/$(hardening)/$(frame)
