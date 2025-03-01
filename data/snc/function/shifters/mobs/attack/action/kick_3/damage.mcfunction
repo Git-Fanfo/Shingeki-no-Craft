@@ -1,1 +1,3 @@
 $execute positioned ^2 ^-6 ^3 run function snc:shifters/combat/damage {"distance":7,"half_minus_zero_point_five":3,"shifter":"attack","sound":"aot.punch","damage":$(damage_kick_3),"knockback":$(knockback_kick_3),"energy":$(energy_kick_3),"angle":$(angle_kick_3)}
+execute on vehicle on controller run playsound minecraft:entity.illusioner.cast_spell player @s ~ ~ ~ 5 1
+execute on vehicle on controller run playsound minecraft:entity.ravager.stunned player @s ~ ~ ~ 5 1

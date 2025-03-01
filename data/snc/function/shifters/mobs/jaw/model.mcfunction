@@ -14,7 +14,7 @@
 ## Rotate model
 execute store result score rotation jaw_vars run data get entity @s Rotation[0]
 scoreboard players operation rotation jaw_vars -= player_rotation jaw_vars
-execute unless score state jaw_vars matches 11 unless score rotation armor_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
+execute unless score state jaw_vars matches 11 unless score rotation jaw_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
 execute if block ~ ~-1 ~ #snc:tangible run scoreboard players set $charge jaw_vars 1
 
 ### Animations

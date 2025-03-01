@@ -1,3 +1,4 @@
+function snc:shifters/mobs/armor/action/bite/damage with storage minecraft:armor
 # 5
 execute if score $op.hardening armor_vars matches 0 run function snc:shifters/mobs/armor/action/bite/frame/modify {"hardening":"5","frame":1}
 # 4

@@ -1,13 +1,12 @@
+## ALWAYS Remove when dead
+execute if score state cart_vars matches 9 if function snc:shifters/mobs/cart/action/shipload/remove run return -1
+
 # Hitbox
 #execute if entity @s[tag=cart.hitbox] run tp ^ ^ ^-3.2
 execute if entity @s[tag=aj.cart.locator.consume] on passengers run function snc:shifters/mobs/cart/action/hold/effects
 
 # Rotate pivot
-execute if entity @s[tag=cart.case] on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
-
-execute if entity @s[tag=cart.case] run data modify entity @s Rotation[1] set value 0f
-execute if entity @s[tag=cart.case] unless predicate snc:is_riding run ride @s mount @e[tag=body,tag=cart,sort=nearest,limit=1]
-execute if entity @s[tag=cart.case] on vehicle run effect give @s slowness 2 2 true
+execute if entity @s[tag=cart.case] run function snc:shifters/mobs/cart/action/shipload/case
 
 ## Barrels
 execute if entity @s[tag=cart.barrel.1] unless score state cart_vars matches 2 run tp ^.82 ^3.4 ^-2.3
@@ -26,5 +25,3 @@ execute if entity @s[tag=cart.turret.3] run function snc:shifters/mobs/cart/acti
 execute if entity @s[tag=cart.turret.1] if data entity @s interaction run function snc:interact/turret {"turret":1}
 execute if entity @s[tag=cart.turret.2] if data entity @s interaction run function snc:interact/turret {"turret":2}
 execute if entity @s[tag=cart.turret.3] if data entity @s interaction run function snc:interact/turret {"turret":3}
-
-execute unless entity @e[scores={shifter_vars=1},sort=nearest,limit=1] run function snc:shifters/mobs/remove_hitboxes

@@ -6,5 +6,5 @@ execute on vehicle run kill
 ride @s dismount
 
 summon armor_stand ^ ^ ^ {DisabledSlots:4144959,Invisible:1b,Tags:["cart","dead","shifter"]}
-ride @s mount @e[type=armor_stand,tag=dead,sort=nearest,limit=1]
+ride @s mount @n[type=armor_stand,tag=dead]
 execute on vehicle run tp @s ~ ~ ~ ~ 0
