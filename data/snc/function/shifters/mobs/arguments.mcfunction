@@ -120,10 +120,10 @@ data merge storage minecraft:beast {\
     block_range:11, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_focus: 50, knockback_focus: 0.05, energy_focus: 80, \
-    damage_area: 20, knockback_area: 0.01, energy_area: 27, \
-    damage_slap: 10, knockback_slap: 0.05, energy_slap: 15, angle_slap: 35, cooldown_slap: 5, \
-    damage_jaw: 12, knockback_jaw: 0.01, energy_jaw: 10, angle_jaw: 5, \
+    damage_focus: 80, knockback_focus: 0.02, energy_focus: 40, cooldown_focus:2, angle_focus:35, \
+    damage_area: 20, knockback_area: 0.01, energy_area: 27, cooldown_area:15, \
+    damage_slap: 10, knockback_slap: 0.035, energy_slap: 15, angle_slap: 35, cooldown_slap: 10, \
+    damage_jaw: 12, knockback_jaw: 0.01, energy_jaw: 10, angle_jaw: 10, \
     cooldown_drop: 5, \
     damage_step: 1 \
 }
@@ -161,7 +161,6 @@ data merge storage minecraft:armor {\
     damage_step: 3.7 \
 }
 
-## Note: Fanfo from the future says: Argument skeleton_horse "jump:1d" works pretty good for Jaw!
 # Also, scale is already good
 data merge storage minecraft:jaw {\
     id:6, \
