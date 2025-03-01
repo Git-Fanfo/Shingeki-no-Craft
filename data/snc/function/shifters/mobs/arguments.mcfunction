@@ -88,9 +88,9 @@ data merge storage minecraft:attack {\
     entity_range:0, \
     energy_decrease: 2,\
     energy_block:20, cooldown_block:3, \
-    damage_punch_1:26, knockback_punch_1:2, energy_punch_1:25, angle_punch_1: -5, \
-    damage_punch_2:30, knockback_punch_2:3, energy_punch_2:20, angle_punch_2: -5, \
-    damage_punch_3:36, knockback_punch_3:3, energy_punch_3:15, angle_punch_3: -90, \
+    damage_punch_1:26, knockback_punch_1:1, energy_punch_1:25, angle_punch_1: 5, \
+    damage_punch_2:30, knockback_punch_2:1, energy_punch_2:20, angle_punch_2: 5, \
+    damage_punch_3:36, knockback_punch_3:1, energy_punch_3:15, angle_punch_3: 90, \
     damage_kick_1:30, knockback_kick_1:1, energy_kick_1:20, angle_kick_1: -5, \
     damage_kick_2:32, knockback_kick_2:2, energy_kick_2:15, angle_kick_2: -5, \
     damage_kick_3:34, knockback_kick_3:2, energy_kick_3:10, angle_kick_3: -80, \
@@ -151,10 +151,10 @@ data merge storage minecraft:armor {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_punch_1:22, knockback_punch_1:3, energy_punch_1:20, angle_punch_1: -5,\
-    damage_punch_2:26, knockback_punch_2:4, energy_punch_2:15, angle_punch_2: -5,\
-    damage_punch_3:40, knockback_punch_3:6, energy_punch_3:25, angle_punch_3: -10,\
-    damage_fortified: 25, knockback_fortified: 2, energy_fortified: 50, angle_fortified: 45, cooldown_fortified:8,\
+    damage_punch_1:22, knockback_punch_1:1, energy_punch_1:20, angle_punch_1: 5,\
+    damage_punch_2:26, knockback_punch_2:1, energy_punch_2:15, angle_punch_2: 5,\
+    damage_punch_3:40, knockback_punch_3:3, energy_punch_3:25, angle_punch_3: 5,\
+    damage_fortified: 25, knockback_fortified: 3, energy_fortified: 50, angle_fortified: 10, cooldown_fortified:8,\
     damage_onslaught: 25, knockback_onslaught: 0, energy_onslaught: 35, angle_onslaught: 0, \
     damage_impale: 50, knockback_impale: 0, energy_impale: 35, angle_impale: 0, cooldown_impale:15,\
     damage_jaw: 14, knockback_jaw: 1, energy_jaw: 10, angle_jaw: -5, \

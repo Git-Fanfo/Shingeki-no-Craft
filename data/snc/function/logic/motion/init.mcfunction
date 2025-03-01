@@ -1,1 +1,0 @@
-execute rotated 0 -45 run function snc:logic/motion/generic {"score":"jaw_vars","strength":0.01}

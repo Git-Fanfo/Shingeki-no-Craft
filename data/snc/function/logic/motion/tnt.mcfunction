@@ -1,4 +1,3 @@
-$summon tnt ~ ~.02 ~ {Tags:["snc.tnt","snc.projectile"],fuse:20000000,explosion_power:0,Motion:[$(MotionX)d,$(MotionY)d,$(MotionZ)d],block_state:{Name:"minecraft:air"}}
-ride @s dismount
+$execute unless predicate snc:$(Unstoppable) run summon tnt ~ ~.02 ~ {Tags:["snc.tnt","snc.projectile"],fuse:20000000,explosion_power:0,Motion:[$(MotionX)d,$(MotionY)d,$(MotionZ)d],block_state:{Name:"minecraft:air"}}
+$execute if predicate snc:$(Unstoppable) run summon tnt ~ ~.02 ~ {Tags:["snc.tnt","snc.projectile","snc.tnt.unstoppable"],fuse:20000000,explosion_power:0,Motion:[$(MotionX)d,$(MotionY)d,$(MotionZ)d],block_state:{Name:"minecraft:air"}}
 ride @s mount @n[type=tnt]
-say a

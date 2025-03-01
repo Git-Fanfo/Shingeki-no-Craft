@@ -1,4 +1,4 @@
-execute on vehicle rotated ~ -65 run function snc:logic/motion/generic {"score":"cart_vars","strength":0.013}
+execute on vehicle rotated ~ -65 run function snc:logic/motion/generic {"score":"cart_vars","strength":0.013, "unstoppable":"false"}
 
 execute if score action cart_vars matches 10 run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/jump/1"
 execute if score action cart_vars matches 9 run data modify entity @s item.components.minecraft:item_model set value "shifters/cart/jump/2"
