@@ -19,7 +19,7 @@ $scoreboard players set $energy $(shifter)_vars 3600
 $function snc:shifters/mobs/curse {"shifter" : $(shifter)}
 
 # If its the first shifter
-$execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 0 run scoreboard players set curse $(shifter)_vars 48
+$execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 0 run scoreboard players set curse $(shifter)_vars 72
 $execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 1 run scoreboard players set curse $(shifter)_vars 312
 $execute unless score curse $(shifter)_vars matches 1.. if score curse config matches 2 run scoreboard players set curse $(shifter)_vars 1560
 

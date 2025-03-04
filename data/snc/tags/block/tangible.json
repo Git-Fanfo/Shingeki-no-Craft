@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "#minecraft:mineable/axe",
+        "#snc:mineable/axe",
         "#minecraft:mineable/hoe",
         "#minecraft:mineable/pickaxe",
         "#minecraft:mineable/shovel"

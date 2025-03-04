@@ -1,3 +1,3 @@
-$execute positioned ^ ^-4 ^5 run function snc:shifters/combat/damage {"distance":5.5,"half_minus_zero_point_five":2.25,"shifter":"attack","sound":"aot.punch","damage":$(damage_kick_2),"knockback":$(knockback_kick_2),"energy":$(energy_kick_2),"angle":$(angle_kick_2)}
+$execute positioned ^ ^-5 ^5 run function snc:shifters/combat/damage {"distance":5.5,"half_minus_zero_point_five":2.25,"shifter":"attack","sound":"aot.punch","damage":$(damage_kick_2),"knockback":$(knockback_kick_2),"energy":$(energy_kick_2),"angle":$(angle_kick_2)}
 execute on vehicle on controller run playsound minecraft:entity.illusioner.cast_spell player @s ~ ~ ~ 5 1
 execute on vehicle on controller run function snc:shifters/mobs/attack/abilities/atk_3 with storage minecraft:attack
