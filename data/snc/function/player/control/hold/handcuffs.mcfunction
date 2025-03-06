@@ -31,6 +31,6 @@ execute if score @s snc.hold matches 40 run playsound minecraft:block.chain.hit 
 execute if score @s snc.hold matches 60 run playsound minecraft:block.chain.place player @a ~ ~ ~ 2 1.1
 execute if score @s snc.hold matches 60 run playsound minecraft:block.vault.insert_item_fail master @a ~ ~ ~ 2 .9
 execute if score @s snc.hold matches 60 if entity @e[distance=.1..3,type=#snc:eldian,sort=nearest,limit=1,tag=!snc.handcuffs] run item replace entity @s weapon.mainhand with air
-execute if score @s snc.hold matches 60 as @e[distance=.1..3,type=#snc:eldian,sort=nearest,limit=1,tag=!snc.handcuffs] at @s run function snc:interact/handcuffs/select_human
+execute if score @s snc.hold matches 60 as @n[distance=.1..3,type=#snc:eldian,tag=!snc.handcuffs] at @s run function snc:interact/handcuffs/select_human
 
 execute if score @s snc.hold matches 60.. run scoreboard players set @s snc.hold 0

@@ -1,4 +1,4 @@
-execute on attacker if predicate snc:player/has_build as @e[tag=canon,sort=nearest,limit=1] at @s run function snc:interact/canon/hit
+execute on attacker if predicate snc:player/has_build as @n[tag=canon] at @s run function snc:interact/canon/hit
 execute unless data entity @s interaction on attacker unless predicate snc:player/has_build run tellraw @s ["",{"translate":"aot.cannon.remove.desc"}," ",{"translate":"aot.build.wrench","color":"yellow"}," ",{"translate":"aot.cannon.remove.desc2"}," ",{"translate":"aot.cannon","color":"dark_red"}]
 execute unless data entity @s interaction on attacker unless predicate snc:player/has_build run playsound minecraft:entity.villager.no
 

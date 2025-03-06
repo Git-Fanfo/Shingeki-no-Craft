@@ -1,3 +1,4 @@
-execute on passengers run function snc:interact/handcuffs/player/remove
+execute on passengers if entity @s[type=!interaction] run function snc:interact/handcuffs/player/remove
+execute on passengers if entity @s[type=interaction] run function snc:interact/handcuffs/remove
 
-data merge entity @s {width:0f,height:0f}
+return 1

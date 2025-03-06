@@ -9,9 +9,9 @@
             "color": "white"
         },
         "icon": {
-            "id": "minecraft:minecart",
+            "id": "minecraft:quartz",
             "components": {
-                "minecraft:custom_model_data": 6
+                "minecraft:item_model": "people/item/canon/item"
             }
         },
         "frame": "goal",
