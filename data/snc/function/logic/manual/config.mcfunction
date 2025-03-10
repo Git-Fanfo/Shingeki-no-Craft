@@ -77,6 +77,8 @@ execute if score @s manual matches -1006 run scoreboard players set $shifter con
 execute if score @s manual matches -1007 run scoreboard players set $shifter config 0
 execute if score @s manual matches -1008 run scoreboard players set $special config 1
 execute if score @s manual matches -1009 run scoreboard players set $special config 0
+execute if score @s manual matches -1010 run function snc:logic/manual/on/fire_tick
+execute if score @s manual matches -1011 run function snc:logic/manual/off/fire_tick
 
 execute unless score @s manual matches -100 run function snc:api/config
 execute as @s[scores={manual=-100}] run function snc:logic/broadcast/reload

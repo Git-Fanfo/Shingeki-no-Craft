@@ -1,5 +1,4 @@
 #Rules
-gamerule doFireTick false
 gamerule doImmediateRespawn true
 gamerule disablePlayerMovementCheck true
 
@@ -148,6 +147,7 @@ execute unless score $bossbar config matches 0.. run scoreboard players set $bos
 execute unless score show_kills config matches 0.. run function snc:logic/manual/on/show_kills
 execute unless score $odm_gas config matches 0.. run scoreboard players set $odm_gas config 1
 execute unless score comm_feed config matches 0.. run function snc:logic/manual/off/send_command_feedback
+execute unless score $do_fire_tick config matches 0.. run function snc:logic/manual/off/fire_tick
 execute unless score col_exp config matches 0.. run scoreboard players set col_exp config 1
 execute unless score curse config matches 0.. run scoreboard players set curse config 1
 execute unless score $titan_tracking config matches 0.. run scoreboard players set $titan_tracking config 1
