@@ -9,9 +9,9 @@
             "color": "white"
         },
         "icon": {
-            "id": "minecraft:carrot_on_a_stick",
+            "id": "minecraft:quartz",
             "components": {
-                "minecraft:custom_model_data": 17
+                "minecraft:item_model": "shifters/colossal/item/atk_1"
             }
         },
         "frame": "goal",

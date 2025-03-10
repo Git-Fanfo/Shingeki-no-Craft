@@ -34,7 +34,7 @@ data merge storage minecraft:colossal {\
     bossbar_display:uFFF0, \
     bossbar_color:blue, \
     bossbar_style: notched_12, \
-    hp:72, \
+    hp:80, \
     walk_speed:0.12d, \
     run_speed:0.12d, \
     type:skeleton_horse, \
@@ -42,7 +42,7 @@ data merge storage minecraft:colossal {\
     step_height:7d, \
     explosion:47, \
     resistance:2, \
-    regen_ticks:140, \
+    regen_ticks:150, \
     scale_vehicle:6, \
     scale_player:12, \
     block_range:0, \

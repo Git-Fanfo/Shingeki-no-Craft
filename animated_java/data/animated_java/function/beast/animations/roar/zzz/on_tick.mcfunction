@@ -4,5 +4,5 @@ execute if score @s aj.tween_duration matches 1.. run return 1
 execute if score @s aj.tween_duration matches 0 on passengers run data modify entity @s interpolation_duration set value 1
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.roar.frame
 function animated_java:beast/animations/roar/zzz/apply_frame with storage aj:temp
-execute if score @s aj.roar.frame matches 84.. run return run function animated_java:beast/animations/roar/pause
+execute if score @s aj.roar.frame matches 100.. run return run function animated_java:beast/animations/roar/pause
 scoreboard players add @s aj.roar.frame 1

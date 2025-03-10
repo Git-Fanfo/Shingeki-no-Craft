@@ -21,13 +21,24 @@ execute if score action colossal_vars matches 12 run data modify entity @s item.
 execute if score action colossal_vars matches 10 run data modify entity @s item.components.minecraft:item_model set value "shifters/colossal/eat/21"
 execute if score action colossal_vars matches 8 run data modify entity @s item.components.minecraft:item_model set value "shifters/colossal/eat/22"
 
-execute if score action colossal_vars matches 16 on vehicle rotated ~ 0 positioned ^5 ^1 ^13.5 as @e[type=!item,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/jaw/tp
-execute if score action colossal_vars matches 14 on vehicle rotated ~ 0 positioned ^5 ^9 ^13 as @e[type=!item,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/jaw/tp
-execute if score action colossal_vars matches 12 on vehicle rotated ~ 0 positioned ^5 ^12 ^10.5 as @e[type=!item,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/jaw/tp
-execute if score action colossal_vars matches 10 on vehicle rotated ~ 0 positioned ^3 ^14 ^5 as @e[type=!item,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/jaw/tp
-execute if score action colossal_vars matches 8 on vehicle rotated ~ 0 positioned ^1.5 ^19 ^4 as @e[type=!item,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/jaw/tp
+execute if score action colossal_vars matches 16 on vehicle rotated ~ 0 positioned ^5 ^1 ^13.5 as @e[type=!#snc:pivot,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/bite/tp
+execute if score action colossal_vars matches 14 on vehicle rotated ~ 0 positioned ^5 ^9 ^13 as @e[type=!#snc:pivot,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/bite/tp
+execute if score action colossal_vars matches 12 on vehicle rotated ~ 0 positioned ^5 ^12 ^10.5 as @e[type=!#snc:pivot,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/bite/tp
+execute if score action colossal_vars matches 10 on vehicle rotated ~ 0 positioned ^3 ^14 ^5 as @e[type=!#snc:pivot,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/bite/tp
+execute if score action colossal_vars matches 8 on vehicle rotated ~ 0 positioned ^1.5 ^19 ^4 as @e[type=!#snc:pivot,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/bite/tp
 
-execute if score action colossal_vars matches 21 run tag @s add consume
-execute if score action colossal_vars matches 21 run scoreboard players set consume colossal_vars 20
+execute if score action colossal_vars matches 21 on vehicle on controller run tag @s add consume
+execute if score action colossal_vars matches 20 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/1"]
+execute if score action colossal_vars matches 17 on vehicle on controller run playsound minecraft:aot.shifters.bite player @a ~ ~ ~ 6 .8
+execute if score action colossal_vars matches 17 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/2"]
+execute if score action colossal_vars matches 15 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/3"]
+execute if score action colossal_vars matches 13 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/4"]
+execute if score action colossal_vars matches 11 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/5"]
+execute if score action colossal_vars matches 9 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/3"]
+execute if score action colossal_vars matches 8 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/1"]
+
+execute if score action colossal_vars matches 8 on vehicle on controller at @s anchored eyes positioned ^ ^ ^3 run function snc:shifters/mobs/colossal/action/jaw/damage with storage minecraft:colossal
+
+execute if score action colossal_vars matches 1 on vehicle on controller run tag @s remove consume
 
 execute if score action colossal_vars matches ..1 run scoreboard players set state colossal_vars 3

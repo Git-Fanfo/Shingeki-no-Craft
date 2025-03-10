@@ -5,7 +5,7 @@ execute if entity @s[tag=eat] on vehicle run tag @s add eat
 execute if entity @s[tag=stop] on vehicle run tag @s add stop
 
 execute if entity @s[tag=model,tag=jump] run tag @s add walk
-execute if entity @s[tag=ai,tag=jump] if predicate snc:player/on_ground positioned ~ ~ ~ rotated ~ -35 run function snc:logic/motion/self/titan with entity @s
+execute if entity @s[tag=ai,tag=jump] if predicate snc:on_tangible positioned ~ ~ ~ rotated ~ -35 run function snc:logic/motion/self/titan with entity @s
 execute if entity @s[tag=ai,tag=jump] at @s run data modify entity @s Rotation[0] set from entity @p Rotation[0]
 
 execute if entity @s[tag=ai,tag=sprint] run effect give @s speed 5 1 true

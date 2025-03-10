@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:quartz",
             "components": {
-                "minecraft:custom_model_data": 15
+                "minecraft:item_model": "manuever/iceburst_stone"
             }
         },
         "frame": "task",

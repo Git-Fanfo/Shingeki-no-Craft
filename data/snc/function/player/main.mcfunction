@@ -1,5 +1,5 @@
 ## Died
-execute if score @s death matches 1 run function snc:logic/death
+execute if score @s death matches 1 run function snc:player/death
 
 ## Logic
 execute if score @s earthquake matches 0.. run function snc:logic/earthquake/score

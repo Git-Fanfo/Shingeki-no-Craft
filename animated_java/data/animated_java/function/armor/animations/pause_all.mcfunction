@@ -16,3 +16,4 @@ tag @s remove aj.armor.animation.sneak.playing
 tag @s remove aj.armor.animation.consume.playing
 tag @s remove aj.armor.animation.jump.playing
 tag @s remove aj.armor.animation.bite.playing
+tag @s remove aj.armor.animation.roar.playing

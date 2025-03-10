@@ -5,8 +5,8 @@
             "color": "dark_red"
         },
         "description": {
-			"translate": "aot.credit",
-            "color": "gray"
+			"text": "Created by Fanfo",
+            "color": "white"
         },
         "icon": {
             "id": "minecraft:arrow",

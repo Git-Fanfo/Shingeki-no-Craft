@@ -15,6 +15,11 @@ $execute if score state $(shifter)_vars matches 2..5 run \
         "shifter":"$(shifter)", "walk_speed":$(walk_speed), "run_speed":$(run_speed) \
     }
 
+## Stepping on
+$scoreboard players set $air $(shifter)_vars 0
+$execute if predicate snc:on_air run scoreboard players set $air $(shifter)_vars 1
+
+
 ## Prevent shifter leaved the world
 $execute on passengers if entity @s[tag=transform] on vehicle run scoreboard players set @s $(shifter)_vars 20
 $scoreboard players remove @s $(shifter)_vars 1

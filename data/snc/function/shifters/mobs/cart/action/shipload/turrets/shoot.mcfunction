@@ -1,8 +1,13 @@
 # Shot
-summon spectral_arrow ^ ^ ^ {damage:.5d,Tags:["snc.projectile","snc.bullet","snc.bullet.init","snc.bullet.turret"],item:{count:1, id:"minecraft:arrow"}}
+summon spectral_arrow ^ ^ ^ {damage:.5d,Tags:["snc.projectile","snc.bullet","snc.bullet.init","snc.bullet.nomo"],item:{count:1, id:"minecraft:arrow"}}
 data modify entity @n[tag=snc.bullet] Owner set from entity @s UUID
 
-effect give @s slowness 1 4 true
+effect give @s slowness 1 10 true
+execute store result score @s random run random value 1..3
+execute if score @s random matches 1 anchored feet run rotate @s ~ ~-1
+execute if score @s random matches 2 anchored feet run rotate @s ~-.7 ~-.4
+execute if score @s random matches 3 anchored feet run rotate @s ~.7 ~-.4
+scoreboard players reset @s random
 
 execute positioned ^ ^ ^1 as @a[distance=..96] run function snc:shifters/mobs/cart/action/shipload/turrets/sfx
 

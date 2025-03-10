@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:quartz",
             "components": {
-                "minecraft:custom_model_data": 16
+                "minecraft:item_model": "manuever/blade"
             }
         },
         "frame": "task",
