@@ -6,19 +6,21 @@ execute if entity @s[tag=aj.armor.animation.idle.playing] run function animated_
 execute if entity @s[tag=aj.armor.animation.walk.playing] run function animated_java:armor/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.born.playing] run function animated_java:armor/animations/born/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.death.playing] run function animated_java:armor/animations/death/zzz/on_tick
-execute if entity @s[tag=aj.armor.animation.charge.playing] run function animated_java:armor/animations/charge/zzz/on_tick
+execute if entity @s[tag=aj.armor.animation.charge_old.playing] run function animated_java:armor/animations/charge_old/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.run.playing] run function animated_java:armor/animations/run/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.slide.playing] run function animated_java:armor/animations/slide/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.punch_1.playing] run function animated_java:armor/animations/punch_1/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.punch_2.playing] run function animated_java:armor/animations/punch_2/zzz/on_tick
-execute if entity @s[tag=aj.armor.animation.punch_3.playing] run function animated_java:armor/animations/punch_3/zzz/on_tick
+execute if entity @s[tag=aj.armor.animation.punch_3old.playing] run function animated_java:armor/animations/punch_3old/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.init_charge.playing] run function animated_java:armor/animations/init_charge/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.hardening.playing] run function animated_java:armor/animations/hardening/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.sneak.playing] run function animated_java:armor/animations/sneak/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.consume.playing] run function animated_java:armor/animations/consume/zzz/on_tick
-execute if entity @s[tag=aj.armor.animation.jump.playing] run function animated_java:armor/animations/jump/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.bite.playing] run function animated_java:armor/animations/bite/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.roar.playing] run function animated_java:armor/animations/roar/zzz/on_tick
+execute if entity @s[tag=aj.armor.animation.charge.playing] run function animated_java:armor/animations/charge/zzz/on_tick
+execute if entity @s[tag=aj.armor.animation.jump.playing] run function animated_java:armor/animations/jump/zzz/on_tick
+execute if entity @s[tag=aj.armor.animation.punch_3.playing] run function animated_java:armor/animations/punch_3/zzz/on_tick
 execute on passengers if entity @s[tag=aj.armor.data] run function animated_java:armor/root/zzz/1
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:armor/as_root/post_tick

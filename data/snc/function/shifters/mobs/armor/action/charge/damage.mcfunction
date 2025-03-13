@@ -3,7 +3,7 @@ execute if entity @s[tag=!aj.armor.animation.charge.playing] run function snc:sh
 scoreboard players remove $energy armor_vars 1
 execute on vehicle run scoreboard players reset @s snc.knockback
 
-execute on vehicle run attribute @s scale base set 5.2
+#execute on vehicle run attribute @s scale base set 5.2
 
 ## Destroy
 execute if score $shifter_destroy config matches 1 run function snc:shifters/mobs/armor/action/charge/energy

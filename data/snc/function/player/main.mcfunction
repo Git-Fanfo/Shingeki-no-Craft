@@ -12,7 +12,7 @@ execute if score @s odm_action matches -25..-21 run function snc:player/odm/gyro
 execute if score @s snc.leave matches 1..3 run function snc:logic/broadcast/leave
 
 ## Team
-function snc:logic/team/main
+execute if score $anonymity config matches 0 run function snc:logic/team/main
 
 # Delte barrier blocks (DANGER)
 # execute as @s[tag=!barrier] unless entity @a[distance=1..7.5,tag=transform] rotated ~ 0 run fill ^-5 ^-8 ^-5 ^5 ^3 ^5 minecraft:air replace barrier

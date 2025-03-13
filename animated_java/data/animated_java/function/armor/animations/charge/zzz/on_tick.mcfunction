@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 execute if score @s aj.charge.frame matches -1 run function animated_java:armor/animations/charge/zzz/zzz/0
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.charge.frame
 function animated_java:armor/animations/charge/zzz/apply_frame with storage aj:temp
-execute if score @s aj.charge.frame matches 19.. run return run function animated_java:armor/animations/charge/zzz/zzz/1
+execute if score @s aj.charge.frame matches 24.. run return run function animated_java:armor/animations/charge/zzz/zzz/1
 scoreboard players add @s aj.charge.frame 1
