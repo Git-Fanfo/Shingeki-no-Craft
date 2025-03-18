@@ -1,14 +1,12 @@
 execute if score action colossal_vars matches 74 run summon firework_rocket ~ ~5 ~ {Silent:1b,LifeTime:1,ShotAtAngle:0b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;16753152],FadeColors:[I;16777215]}]}}}}
 execute if score action colossal_vars matches 74 run function snc:titans/volt/spawn
-execute if score action colossal_vars matches 74 run playsound minecraft:item.trident.thunder master @a
+execute if score action colossal_vars matches 74 run playsound minecraft:snc.shifters.lightning master @a ~ ~ ~ 24
 
 execute if score action colossal_vars matches 70 run summon firework_rocket ~ ~5 ~ {Silent:1b,LifeTime:1,ShotAtAngle:0b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;16753152],FadeColors:[I;16777215]}]}}}}
 execute if score action colossal_vars matches 70 run function snc:titans/volt/spawn
-execute if score action colossal_vars matches 70 run playsound minecraft:item.trident.thunder master @a
 
 execute if score action colossal_vars matches 64 run summon firework_rocket ~ ~5 ~ {Silent:1b,LifeTime:1,ShotAtAngle:0b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;16753152],FadeColors:[I;16777215]}]}}}}
 execute if score action colossal_vars matches 64 run function snc:titans/volt/spawn
-execute if score action colossal_vars matches 64 run playsound minecraft:item.trident.thunder master @a
 
 # Full
 execute if score action colossal_vars matches 74 run data merge entity @s {view_range:50f,item:{id:'minecraft:turtle_scute',Count:1b,components:{"item_model":"shifters/colossal/die/1"}}, start_interpolation:0,interpolation_duration:54,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[22.15f,22.15f,22.15f]}}

@@ -20,6 +20,10 @@ execute if score @s atk matches 240 run tag @s add snc.infct
 execute if score @s atk matches 240 run scoreboard players reset @s atk
 
 ## Inject
+execute if score @s[tag=snc.infct] atk matches 120 run tellraw @s [{"translate": "aot.fluid.desc13","color": "yellow"}," ",{"translate": "aot.fluid.desc14","color": "light_purple"}]
+execute if score @s[tag=snc.infct] atk matches 120 run effect give @s darkness 6 0 true
+execute if score @s[tag=snc.infct] atk matches 120 run effect give @s slowness 6 6 true
+execute if score @s[tag=snc.infct] atk matches 120 run effect give @s slow_falling 6 0 true
 execute if score @s atk matches 120 run tag @s remove snc.infct
 execute if score @s atk matches 120 run particle minecraft:flash ~ ~1 ~ 0 0 0 1 1 force
 execute if score @s atk matches 120 run playsound aot.heart player @a ~ ~ ~ 1 .8

@@ -7,9 +7,6 @@ tag @s remove aj.armor.animation.death.playing
 tag @s remove aj.armor.animation.charge_old.playing
 tag @s remove aj.armor.animation.run.playing
 tag @s remove aj.armor.animation.slide.playing
-tag @s remove aj.armor.animation.punch_1.playing
-tag @s remove aj.armor.animation.punch_2.playing
-tag @s remove aj.armor.animation.punch_3old.playing
 tag @s remove aj.armor.animation.init_charge.playing
 tag @s remove aj.armor.animation.hardening.playing
 tag @s remove aj.armor.animation.sneak.playing
@@ -18,4 +15,5 @@ tag @s remove aj.armor.animation.bite.playing
 tag @s remove aj.armor.animation.roar.playing
 tag @s remove aj.armor.animation.charge.playing
 tag @s remove aj.armor.animation.jump.playing
-tag @s remove aj.armor.animation.punch_3.playing
+tag @s remove aj.armor.animation.jabs.playing
+tag @s remove aj.armor.animation.rocket.playing

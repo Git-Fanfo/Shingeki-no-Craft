@@ -1,4 +1,4 @@
-execute if score $roar colossal_vars matches 120 run playsound minecraft:aot.colossal_roar player @a ~ ~ ~ 4 .9
+execute if score $roar colossal_vars matches 120 run playsound minecraft:snc.shifters.colossal.roar player @a ~ ~ ~ 24 .9
 
 $execute if score $roar colossal_vars matches 120 run item replace entity @s armor.head with carved_pumpkin[item_model="$(f1)"]
 $execute if score $roar colossal_vars matches 114 run item replace entity @s armor.head with carved_pumpkin[item_model="$(f2)"]

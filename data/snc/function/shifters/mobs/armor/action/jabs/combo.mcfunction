@@ -1,0 +1,1 @@
+scoreboard players set combo_punch armor_vars -1

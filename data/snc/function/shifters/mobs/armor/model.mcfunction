@@ -32,8 +32,7 @@ execute if score state armor_vars matches 5 if entity @s[tag=!aj.armor.animation
 ## Moves
 #execute if score state armor_vars matches 11 if entity @s[tag=!aj.armor.animation.init_charge.playing] run function snc:shifters/mobs/armor/animate/init_charge
 execute if score state armor_vars matches 12 run function snc:shifters/mobs/armor/action/charge/damage
-#execute if score state armor_vars matches 13 if entity @s[tag=!aj.armor.animation.punch_1.playing] run function snc:shifters/mobs/armor/animate/punch_1
-#execute if score state armor_vars matches 14 if entity @s[tag=!aj.armor.animation.punch_2.playing] run function snc:shifters/mobs/armor/animate/punch_2
-#execute if score state armor_vars matches 15 if entity @s[tag=!aj.armor.animation.punch_3.playing] run function snc:shifters/mobs/armor/animate/punch_3
+#execute if score state armor_vars matches 13 if entity @s[tag=!aj.armor.animation.jabs.playing] run function snc:shifters/mobs/armor/animate/jabs
+#execute if score state armor_vars matches 14 if entity @s[tag=!aj.armor.animation.rocket.playing] run function snc:shifters/mobs/armor/animate/rocket
 #execute if score state armor_vars matches 16 if entity @s[tag=!aj.armor.animation.slide.playing] run function snc:shifters/mobs/armor/animate/slide
 #execute if score state armor_vars matches 17 if entity @s[tag=!aj.armor.animation.hardening.playing] run function snc:shifters/mobs/armor/animate/hard

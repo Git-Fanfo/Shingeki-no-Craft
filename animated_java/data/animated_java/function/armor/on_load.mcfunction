@@ -6,9 +6,6 @@ scoreboard objectives add aj.death.frame dummy
 scoreboard objectives add aj.charge_old.frame dummy
 scoreboard objectives add aj.run.frame dummy
 scoreboard objectives add aj.slide.frame dummy
-scoreboard objectives add aj.punch_1.frame dummy
-scoreboard objectives add aj.punch_2.frame dummy
-scoreboard objectives add aj.punch_3old.frame dummy
 scoreboard objectives add aj.init_charge.frame dummy
 scoreboard objectives add aj.hardening.frame dummy
 scoreboard objectives add aj.sneak.frame dummy
@@ -17,4 +14,5 @@ scoreboard objectives add aj.bite.frame dummy
 scoreboard objectives add aj.roar.frame dummy
 scoreboard objectives add aj.charge.frame dummy
 scoreboard objectives add aj.jump.frame dummy
-scoreboard objectives add aj.punch_3.frame dummy
+scoreboard objectives add aj.jabs.frame dummy
+scoreboard objectives add aj.rocket.frame dummy

@@ -1,1 +1,0 @@
-$execute positioned ^ ^ ^3.5 run function snc:shifters/combat/damage {"distance":8,"half_minus_zero_point_five":3,"shifter":"armor","sound":"aot.shifters.armor.punch.land_strong","damage":$(damage_punch_3),"knockback":$(knockback_punch_3),"energy":$(energy_punch_3),"angle":$(angle_punch_3)}

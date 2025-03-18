@@ -1,0 +1,2 @@
+$execute positioned ^ ^1.5 ^5 run function snc:shifters/combat/damage {"distance":6.5,"half_minus_zero_point_five":2.75,"shifter":"armor","sound":"aot.shifters.armor.punch.land","damage":$(damage_jabs),"knockback":$(knockback_jabs),"energy":$(energy_jabs),"angle":$(angle_jabs)}
+execute on vehicle run attribute @s scale base set 6.4

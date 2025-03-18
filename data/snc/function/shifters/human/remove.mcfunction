@@ -4,6 +4,7 @@ execute if entity @s[tag=transform] run gamemode survival
 tag @s remove shifter
 tag @s remove transform
 tag @s remove snc.injured
+tag @s remove snc.infct
 #attribute @s max_health base set 20
 
 scoreboard players reset @s shifter_vars
