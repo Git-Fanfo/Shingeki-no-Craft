@@ -151,7 +151,7 @@ data merge storage minecraft:armor {\
     entity_range:0, \
     energy_decrease: 2,\
     damage_jabs:15, knockback_jabs:0.01, energy_jabs:20, angle_jabs: 5,\
-    damage_rocket:50, knockback_rocket:0.02, energy_rocket:25, angle_rocket: 10,\
+    damage_rocket:50, knockback_rocket:0.02, energy_rocket:25, angle_rocket: 10, cooldown_rocket:5, \
     damage_fortified: 25, knockback_fortified: 0.03, energy_fortified: 50, angle_fortified: 10, cooldown_fortified:20,\
     damage_onslaught: 25, knockback_onslaught: 0.0, energy_onslaught: 35, angle_onslaught: 0, \
     damage_impale: 50, knockback_impale: 0.0, energy_impale: 35, angle_impale: 0, cooldown_impale:20,\

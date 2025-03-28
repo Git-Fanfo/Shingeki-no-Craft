@@ -4,7 +4,7 @@ execute store result score @s snc.bullets run \
 execute if score @s snc.bullets matches 1.. unless score @s snc.recoil matches 6.. \
     run scoreboard players add @s snc.recoil 1
 execute if score @s snc.bullets matches 1.. if score @s snc.recoil matches 6.. \
-    if block ~ ~-.5 ~ air if predicate snc:player/is_sneaking run \
+    if block ~ ~-.5 ~ air if predicate snc:player/keybinds/sneak run \
         function snc:player/odm/replace_weapon/thunder/trigger
 
 execute if score @s snc.bullets matches 6 run item modify entity @s weapon.mainhand snc:odm/thunder/gas_trigger_3

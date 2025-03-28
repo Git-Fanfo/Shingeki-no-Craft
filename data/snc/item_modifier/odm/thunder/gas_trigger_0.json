@@ -1,7 +1,7 @@
 [
     {"function": "minecraft:set_components",
     "components": {
-        "damage":100,"minecraft:custom_model_data":70,
+        "damage":100,"minecraft:item_model":"manuever/gas_trigger/mode_2/empty",
         "minecraft:enchantments":{"levels":{"snc:swing":1},"show_in_tooltip":false}
         }
     },{

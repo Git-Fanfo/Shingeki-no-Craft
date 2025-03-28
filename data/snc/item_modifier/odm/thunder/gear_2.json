@@ -2,7 +2,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "damage":66,"minecraft:custom_model_data":6
+            "damage":66,"minecraft:item_model":"manuever/odm_gear/mode_2/1"
         }
     },{
     "function": "minecraft:set_custom_data",

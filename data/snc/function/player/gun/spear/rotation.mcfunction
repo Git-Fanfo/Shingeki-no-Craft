@@ -1,4 +1,4 @@
-execute on passengers run tp @s ~ ~ ~ ~ ~
+execute on passengers run rotate @s ~ ~
 execute on passengers store result entity @s Rotation[0] float 1 run scoreboard players get @s snc.rotation_x
 
 execute unless score @s projectile matches 0.. run scoreboard players set @s projectile 0

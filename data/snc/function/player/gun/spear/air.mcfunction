@@ -3,7 +3,6 @@ execute unless score @s projectile matches 5.. run function snc:player/gun/spear
 
 execute if score @s projectile matches 1.. run scoreboard players add @s projectile 1
 execute unless score @s projectile matches 1.. unless predicate snc:is_riding run scoreboard players set @s projectile 1
-
 execute if score @s projectile matches 1 run playsound minecraft:block.respawn_anchor.charge master @a ~ ~ ~ 5 .9
 execute if score @s projectile matches 1.. if block ^ ^ ^-.3 air run tp ^ ^ ^-.3
 execute if score @s projectile matches 20 run function snc:player/gun/spear/land

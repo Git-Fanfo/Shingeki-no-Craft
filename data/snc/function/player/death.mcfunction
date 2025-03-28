@@ -12,7 +12,9 @@ execute if entity @s[tag=snc.handcuffs] run function snc:interact/handcuffs/play
 scoreboard players reset @s children
 
 ## Respawn
-execute unless score @s dna.x matches -2147483648..2147483647 unless score @s dna.y matches -2147483648..2147483647 run function snc:eldia/respawn/natural
+execute unless entity @s[tag=snc.reborn] unless score @s dna.x matches -2147483648..2147483647 unless score @s dna.y matches -2147483648..2147483647 run function snc:eldia/respawn/natural
+tag @s add snc.reborn
+
 execute if score @s dna.x matches -2147483648..2147483647 as @e[type=villager] if score @s dna.x = @p dna.x run function snc:eldia/respawn/main {"crom":"x"}
 execute if score @s dna.y matches -2147483648..2147483647 as @e[type=villager] if score @s dna.y = @p dna.y run function snc:eldia/respawn/main {"crom":"y"}
 scoreboard players reset @s dna.x
