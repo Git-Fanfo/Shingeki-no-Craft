@@ -44,21 +44,21 @@ execute on vehicle on passengers if entity @s[tag=aj.attack.node.left_arm] run f
 data modify entity @s data.bones.bone_left_arm set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.attack.node.chest] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_chest set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.attack.node.weist] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_weist set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_foot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_right_foot set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_knee] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_right_knee set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_thigh] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_right_thigh set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_leg] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_right_leg set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.attack.node.left_cheek] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_left_cheek set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.attack.node.left_foot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_left_foot set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.attack.node.left_knee] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_left_knee set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.attack.node.left_thigh] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_left_thigh set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.attack.node.left_leg] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_left_leg set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_cheek] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_right_cheek set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_foot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_right_foot set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_knee] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_right_knee set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.attack.node.right_leg] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_right_leg set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.attack.node.weist] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_weist set from storage aj:uuid main.out

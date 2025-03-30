@@ -3,9 +3,12 @@ execute if score action cart_vars matches 100 run data modify entity @s item.com
 execute if score action cart_vars matches 100 run function snc:shifters/mobs/drop
 
 execute if score action cart_vars matches 100 at @s run playsound minecraft:snc.shifters.cart.roar player @a ~ ~ ~ 24 1
-$execute if score action cart_vars matches 97 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="$(f1)"]
-$execute if score action cart_vars matches 95 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="$(f2)"]
-$execute if score action cart_vars matches 93 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="$(f3)"]
-$execute if score action cart_vars matches 5 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="$(f2)"]
-$execute if score action cart_vars matches 2 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="$(f1)"]
+execute if score action cart_vars matches 97 on vehicle on controller run function snc:shifters/mobs/cart/head {"frame":1}
+execute if score action cart_vars matches 95 on vehicle on controller run function snc:shifters/mobs/cart/head {"frame":2}
+execute if score action cart_vars matches 93 on vehicle on controller run function snc:shifters/mobs/cart/head {"frame":3}
+execute if score action cart_vars matches 5 on vehicle on controller run function snc:shifters/mobs/cart/head {"frame":2}
+execute if score action cart_vars matches 2 on vehicle on controller run function snc:shifters/mobs/cart/head {"frame":1}
+
 execute if score action cart_vars matches 2 run scoreboard players set state cart_vars 3
+
+return 1

@@ -1,2 +1,2 @@
-execute on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/attack/bite/meat/1"]
+execute on vehicle on controller run function snc:shifters/mobs/attack/head/type {"frame":1}
 scoreboard players set state attack_vars 3

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ trial_spawner[ominous=false]{normal_config:{total_mobs:6,simultaneous_mobs:2,total_mobs_added_per_player:2,simultaneous_mobs_added_per_player:2,spawn_potentials:[{data:{entity:{id:"minecraft:pillager"}},weight:1},{data:{entity:{id:"minecraft:vindicator"}},weight:1}]}} replace

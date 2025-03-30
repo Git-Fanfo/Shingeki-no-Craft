@@ -83,7 +83,7 @@ data merge storage minecraft:attack {\
     resistance:2, \
     regen_ticks:100, \
     scale_vehicle:6.3, \
-    scale_player:4.5, \
+    scale_player:4.6, \
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\

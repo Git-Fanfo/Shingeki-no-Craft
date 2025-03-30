@@ -1,0 +1,1 @@
+setblock ~ ~ ~ trial_spawner[ominous=false]{normal_config:{total_mobs:4,simultaneous_mobs:2,total_mobs_added_per_player:1,simultaneous_mobs_added_per_player:1,spawn_potentials:[{data:{entity:{id:"minecraft:ravager"}},weight:1}]}} replace

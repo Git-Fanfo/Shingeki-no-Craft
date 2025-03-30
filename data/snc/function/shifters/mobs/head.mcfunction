@@ -1,0 +1,1 @@
+$item replace entity @s armor.head with carved_pumpkin[item_model="shifters/$(shifter)/bite/$(type)/$(frame)"]

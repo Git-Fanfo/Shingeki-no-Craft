@@ -22,8 +22,8 @@ execute if score state cart_vars matches 3 if function snc:shifters/mobs/cart/an
 execute if score state cart_vars matches 4..5 if function snc:shifters/mobs/cart/animate/stop/walk run return -1
 execute if score state cart_vars matches 2 if function snc:shifters/mobs/cart/animate/stop/sneak run return -1
 execute if score state cart_vars matches 6 if function snc:shifters/mobs/cart/animate/stop/jump run return -1
-execute if score state cart_vars matches 7 if function snc:shifters/mobs/cart/animate/bite run return -1
-execute if score state cart_vars matches 8 if function snc:shifters/mobs/cart/action/roar/mask run return -1
+execute if score state cart_vars matches 7 if function snc:shifters/mobs/cart/animate/stop/bite run return -1
+execute if score state cart_vars matches 8 if function snc:shifters/mobs/cart/animate/stop/roar run return -1
 execute if score state cart_vars matches 1 if function snc:shifters/mobs/cart/animate/stop/born run return -1
 ## 9. function snc:shifters/mobs/jaw/animate/death is handled externally
 

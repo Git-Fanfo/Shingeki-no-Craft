@@ -4,4 +4,4 @@ execute store result score @s random run random value 1..4
 execute if score @s random matches 1 run function snc:api/item_replace/misc/gun/carcano {"slot":"weapon.mainhand"}
 execute if score @s random matches 2..4 run function snc:api/item_replace/misc/gun/mauser {"slot":"weapon.mainhand"}
 #function snc:api/item_replace/misc/gun/carcano_ammo {"slot":"armor.body"}
-item replace entity @s weapon.offhand with spectral_arrow[max_stack_size=99,custom_model_data=1] 99
+item replace entity @s weapon.offhand with spectral_arrow[max_stack_size=99,item_model="item/blank"] 99
