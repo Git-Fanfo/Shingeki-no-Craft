@@ -1,5 +1,5 @@
-execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/beast/bite/meat/1"]
-execute on vehicle on passengers if entity @s[type=player] run effect give @s absorption 20 12
+execute on vehicle on controller run function snc:shifters/mobs/beast/head {"frame":1}
+execute on vehicle on controller run effect give @s absorption 20 12
 scoreboard players set state beast_vars 3
 
-execute on vehicle on passengers if entity @s[type=player] run function snc:shifters/mobs/beast/abilities/give
+execute on vehicle on controller run function snc:shifters/mobs/beast/abilities/give

@@ -1,2 +1,0 @@
-$execute unless score @s jaw_vars matches 1 run function snc:shifters/mobs/attack/head/replace {"type":"meat", "frame":$(frame)}
-$execute if score @s jaw_vars matches 1 run function snc:shifters/mobs/attack/head/replace {"type":"jaw", "frame":$(frame)}

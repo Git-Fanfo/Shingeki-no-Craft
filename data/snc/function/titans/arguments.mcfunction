@@ -8,7 +8,7 @@ data merge storage minecraft:titan_1 {\
     scale: 2.65, \
     model_scale : 1, \
     step_height: 1.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan"]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan"]}], \
     speed: 0.5, \
     dmg_footstep: 4, \
     dmg_1: 0, \
@@ -26,7 +26,7 @@ data merge storage minecraft:titan_2 {\
     scale: 0.8, \
     model_scale : 1, \
     step_height: 0.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan"]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan"]}], \
     speed: 0.4, \
     dmg_footstep: 2, \
     dmg_1: 4, \
@@ -44,7 +44,7 @@ data merge storage minecraft:titan_3 {\
     scale: 4, \
     model_scale : 1, \
     step_height: 2.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"]}], \
     speed: 0.5, \
     dmg_footstep: 6, \
     dmg_1: 14, \
@@ -62,7 +62,7 @@ data merge storage minecraft:titan_4 {\
     scale: 3.2, \
     model_scale : 1, \
     step_height: 1.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan"]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:1,Tags:["hurtbox","titan"]}], \
     speed: 0.4, \
     dmg_footstep: 4, \
     dmg_1: 10, \
@@ -80,7 +80,7 @@ data merge storage minecraft:titan_5 {\
     scale: 5.3, \
     model_scale : 1.3, \
     step_height: 3.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.8}]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.8}]}], \
     speed: 0.5, \
     dmg_footstep: 6, \
     dmg_1: 8, \
@@ -98,7 +98,7 @@ data merge storage minecraft:titan_6 {\
     scale: 4.1, \
     model_scale : 1, \
     step_height: 2.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.8}]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.8}]}], \
     speed: 0.5, \
     dmg_footstep: 8, \
     dmg_1: 0, \
@@ -116,7 +116,7 @@ data merge storage minecraft:titan_7 {\
     scale: 3.2, \
     model_scale : 1, \
     step_height: 1.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
     speed: 0.55, \
     dmg_footstep: 6, \
     dmg_1: 0, \
@@ -134,10 +134,28 @@ data merge storage minecraft:titan_8 {\
     scale: 2.35, \
     model_scale : 1, \
     step_height: 1.6, \
-    body: [{id:"minecraft:slime",Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
     speed: 0.6, \
     dmg_footstep: 5, \
     dmg_1: 10, \
+    dmg_2: 0 ,\
+    item: "flint" \
+}
+
+# None
+# None
+data merge storage minecraft:titan_9 {\
+    id:"guido", \
+    height: "10m ", \
+    type: "Abnormal Titan", \
+    name: "Guido", \
+    scale: 3.5, \
+    model_scale : 1, \
+    step_height: 1.6, \
+    body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
+    speed: 0.55, \
+    dmg_footstep: 6, \
+    dmg_1: 0, \
     dmg_2: 0 ,\
     item: "flint" \
 }

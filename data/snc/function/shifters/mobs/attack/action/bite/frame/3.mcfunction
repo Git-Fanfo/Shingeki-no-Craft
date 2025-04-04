@@ -1,2 +1,2 @@
-execute on vehicle on controller run function snc:shifters/mobs/attack/head/type {"frame":2}
+execute on vehicle on controller run function snc:shifters/mobs/attack/head {"frame":2}
 execute unless score state attack_vars matches 2 on vehicle at @s rotated ~ -2 run function snc:logic/motion/generic {"score":"attack_vars","strength":0.02, "unstoppable":"false"}

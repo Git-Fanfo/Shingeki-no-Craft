@@ -1,1 +1,1 @@
-execute on vehicle on controller run function snc:shifters/mobs/attack/head/type {"frame":4}
+execute on vehicle on controller run function snc:shifters/mobs/attack/head {"frame":4}

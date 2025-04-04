@@ -19,7 +19,7 @@ execute if score $gamemode beast_vars matches 1 if score $hold beast_vars matche
 # Utility
 execute if score $gamemode beast_vars matches -1 run function snc:shifters/abilities/destroy with storage minecraft:beast
 
-item replace entity @s[tag=transform] armor.head with carved_pumpkin[item_model="shifters/beast/bite/meat/1"]
+execute if entity @s[tag=transform] run function snc:shifters/mobs/beast/head {"frame":1}
 
 ## Gamemode
 # execute if score $gamemode beast_vars matches 1 run function snc:shifters/abilities/utility with storage minecraft:beast

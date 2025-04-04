@@ -1,2 +1,2 @@
-execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/beast/bite/meat/3"]
-execute on vehicle on passengers if entity @s[type=player] run effect give @s absorption 20 11
+execute on vehicle on controller run function snc:shifters/mobs/beast/head {"frame":3}
+execute on vehicle on controller run effect give @s absorption 20 11
