@@ -1,1 +1,1 @@
-$function snc:shifters/combat/damage {"distance":6,"half_minus_zero_point_five":2.5,"shifter":"armor","sound":"minecraft:aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}
+$execute positioned ~ ~4.5 ~ on vehicle rotated as @s positioned ^ ^ ^3 run function snc:shifters/combat/damage {"distance":4,"half_distance":2,"shifter":"armor","sound":"aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}

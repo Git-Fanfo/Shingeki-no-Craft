@@ -1,1 +1,1 @@
-$execute positioned ^ ^1.5 ^5 run function snc:shifters/combat/damage {"distance":6.5,"half_minus_zero_point_five":2.75,"shifter":"armor","sound":"aot.shifters.armor.punch.land","damage":$(damage_jabs),"knockback":$(knockback_jabs),"energy":$(energy_jabs),"angle":$(angle_jabs)}
+$execute positioned ~ ~3 ~ on vehicle rotated as @s positioned ^-2 ^ ^5 run function snc:shifters/combat/damage {"distance":4,"half_distance":2,"shifter":"armor","sound":"aot.shifters.armor.punch.land","damage":$(damage_jabs),"knockback":$(knockback_jabs),"energy":$(energy_jabs),"angle":$(angle_jabs)}

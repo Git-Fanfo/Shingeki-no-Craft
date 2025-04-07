@@ -12,7 +12,7 @@ execute if score $shifter_destroy config matches 1 run function snc:shifters/mob
 # Go to the point first, then rotate above y axis
 execute rotated ~ 0 positioned ^ ^8 ^5 run function snc:shifters/mobs/armor/action/charge/wind
 # Damage players on ground 
-#execute positioned ^ ^ ^2 run function snc:shifters/combat/damage {"distance":8,"half_minus_zero_point_five":3.5,"shifter":"armor","sound":"","damage":5,"knockback":"1","energy":0,"angle":7}
+#execute positioned ^ ^ ^2 run function snc:shifters/combat/damage {"distance":8,"half_distance":3.5,"shifter":"armor","sound":"","damage":5,"knockback":"1","energy":0,"angle":7}
 
 execute on vehicle on controller unless predicate snc:player/keybinds/forward run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 execute if score $charge.time armor_vars matches ..0 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor

@@ -1,1 +1,1 @@
-$execute positioned ^ ^ ^ run function snc:shifters/combat/damage {"distance":7,"half_minus_zero_point_five":3.5,"shifter":"jaw","sound":"minecraft:aot.shifters.armor.punch.land","damage":$(damage_charge),"knockback":$(knockback_charge),"energy":$(energy_charge),"angle":$(angle_charge)}
+$execute positioned ^ ^ ^ run function snc:shifters/combat/damage {"distance":7,"half_distance":3.5,"shifter":"jaw","sound":"minecraft:aot.shifters.armor.punch.land","damage":$(damage_charge),"knockback":$(knockback_charge),"energy":$(energy_charge),"angle":$(angle_charge)}

@@ -1,2 +1,2 @@
-execute on vehicle on controller run function snc:shifters/mobs/attack/action/bite/damage with storage minecraft:attack
+function snc:shifters/mobs/attack/action/bite/damage with storage minecraft:attack
 execute on vehicle on controller run function snc:shifters/mobs/attack/head {"frame":1}
