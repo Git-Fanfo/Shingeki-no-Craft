@@ -11,4 +11,6 @@ data modify entity @e[type=firework_rocket,sort=nearest,limit=1] Owner set from 
 playsound minecraft:entity.wither.break_block master @a ~ ~ ~ 4 1
 playsound minecraft:item.wolf_armor.repair master @a ~ ~ ~ 4 .1
 playsound minecraft:entity.lightning_bolt.impact master @a ~ ~ ~ 4 1
-particle campfire_cosy_smoke ~ ~ ~ 1.3 1.3 1.3 .03 80 force
+particle campfire_cosy_smoke ~ ~ ~ 1.3 1.3 1.3 .03 10 force
+
+execute if block ~ ~-2 ~ #snc:tangible run function snc:interact/canon/ground

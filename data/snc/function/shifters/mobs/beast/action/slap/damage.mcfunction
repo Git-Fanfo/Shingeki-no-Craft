@@ -1,4 +1,3 @@
-$execute positioned ^ ^ ^7 run function snc:shifters/combat/damage {"distance":7,"half_distance":3,"shifter":$(shifter),"sound":"entity.breeze.jump","damage":$(damage_slap),"knockback":$(knockback_slap),"energy":$(energy_slap),"angle":$(angle_slap)}
-$execute positioned ^ ^-7 ^7 run function snc:shifters/combat/damage {"distance":7,"half_distance":3,"shifter":$(shifter),"sound":"entity.breeze.jump","damage":$(damage_slap),"knockback":$(knockback_slap),"energy":$(energy_slap),"angle":$(angle_slap)}
+$execute positioned ~ ~-6 ~ on vehicle rotated as @s positioned ^ ^ ^5 run function snc:shifters/combat/damage {"distance":8,"half_distance":4,"shifter":"beast","sound":"entity.breeze.jump","damage":$(damage_slap),"knockback":$(knockback_slap),"energy":$(energy_slap),"angle":$(angle_slap)}
 
-execute positioned ^ ^-6 ^7 run effect give @e[tag=!beast,distance=..8] slowness 7 2 true
+execute positioned ~ ~-6 ~ on vehicle rotated as @s positioned ^ ^ ^5 positioned ~-4.5 ~-4.5 ~-4.5 run effect give @e[dx=8,dy=8,dz=8,type=!#snc:pivot,tag=!beast] slowness 7 2 true

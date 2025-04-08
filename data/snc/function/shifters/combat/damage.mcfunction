@@ -1,11 +1,12 @@
 ## Debug
-$function snc:logic/distance {"distance":$(distance),"half_distance":$(half_distance)}
+#$function snc:logic/hitbox/focus {"distance":$(distance),"half_distance":$(half_distance)}
+
 ## Destroy?
 $execute if score $shifter_destroy config matches 1 if block ^ ^ ^$(half_distance) #snc:tangible run playsound entity.wither.break_block player @a ~ ~ ~ 3 1
 $execute if score $shifter_destroy config matches 1 run fill ^$(half_distance) ^$(half_distance) ^$(half_distance) ^-$(half_distance) ^ ^-$(half_distance) air destroy
 # /execute rotated ~ 0 run clone ^1 ^-1 ^1 ^-1 ^-1 ^-1 ^ ^ ^1
 
-## Play sound
+## Play say
 $execute positioned ~-$(half_distance).5 ~-$(half_distance).5 ~-$(half_distance).5 if entity @e[dx=$(distance),dy=$(distance),dz=$(distance),tag=!$(shifter),type=!#snc:pivot,predicate=!snc:shifters/$(shifter)/score] run playsound $(sound) player @a ~ ~ ~ 3
 
 ## Damage
