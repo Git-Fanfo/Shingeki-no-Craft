@@ -16,8 +16,8 @@ tag @s remove not_mov
 tag @s remove snc.knockback
 
 ## Move
-execute on passengers run ride @e[type=!#snc:pivot,scores={snc.knockback=..-1},sort=nearest,limit=1] mount @s
-scoreboard players reset @e[type=!#snc:pivot,scores={snc.knockback=..-1},sort=nearest,limit=1] snc.knockback
+execute on passengers run ride @n[type=!#snc:pivot,scores={snc.knockback=..-1}] mount @s
+scoreboard players reset @n[type=!#snc:pivot,scores={snc.knockback=..-1}] snc.knockback
 ## Add Motion if required (WIP)
 #execute if entity @s[tag=snc.riding] run data modify entity @e[type=snowball,tag=snc.knockback,tag=!snc.riding,sort=nearest,limit=1] Motion set from entity @s Motion
 #execute if entity @s[tag=snc.riding] run kill

@@ -20,9 +20,9 @@ data merge storage minecraft:cart {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    damage_bite: 25, knockback_bite: 0.01, energy_bite: 8, angle_bite: 10, \
+    damage_bite: 16, knockback_bite: 0.01, energy_bite: 8, angle_bite: 10, cooldown_bite:6, \
     energy_jump: 5, cooldown_jump:2, \
-    energy_hold: 24, \
+    energy_hold: 16, \
     damage_step: 1 \
 }
 
@@ -50,7 +50,7 @@ data merge storage minecraft:colossal {\
     energy_decrease: 5,\
     damage_wall:220, knockback_wall:0.1, energy_wall:110, angle_wall: 45, cooldown_wall:10, \
     cooldown_steam:15, \
-    damage_bite: 34, knockback_bite: 0.0, energy_bite: 40, angle_bite: 5, \
+    damage_bite: 40, knockback_bite: 0.0, energy_bite: 40, angle_bite: 5, cooldown_bite:6, \
     damage_step: 15 \
 }
 ## id : identifier of the shifter, never change.
@@ -94,7 +94,7 @@ data merge storage minecraft:attack {\
     damage_kick_1:30, knockback_kick_1:0.01, energy_kick_1:20, angle_kick_1: 5, \
     damage_kick_2:36, knockback_kick_2:0.01, energy_kick_2:15, angle_kick_2: 5, \
     damage_kick_3:40, knockback_kick_3:0.007, energy_kick_3:10, angle_kick_3: 45, cooldown_kick:6, \
-    damage_bite: 25, knockback_bite: 0.01, energy_bite: 5, angle_bite: 5, \
+    damage_bite: 14, knockback_bite: 0.01, energy_bite: 5, angle_bite: 5, cooldown_bite:6, \
     damage_step: 3 \
 }
 
@@ -123,7 +123,7 @@ data merge storage minecraft:beast {\
     damage_focus: 80, knockback_focus: 0.02, energy_focus: 40, cooldown_focus:25, angle_focus:35, \
     damage_area: 20, knockback_area: 0.01, energy_area: 27, cooldown_area:15, \
     damage_slap: 10, knockback_slap: 0.035, energy_slap: 15, angle_slap: 35, cooldown_slap: 10, \
-    damage_bite: 12, knockback_bite: 0.01, energy_bite: 10, angle_bite: 10, \
+    damage_bite: 10, knockback_bite: 0.01, energy_bite: 10, angle_bite: 10, cooldown_bite:6, \
     cooldown_drop: 5, \
     damage_step: 1 \
 }
@@ -155,7 +155,7 @@ data merge storage minecraft:armor {\
     damage_fortified: 25, knockback_fortified: 0.03, energy_fortified: 50, angle_fortified: 10, cooldown_fortified:20,\
     damage_onslaught: 25, knockback_onslaught: 0.0, energy_onslaught: 35, angle_onslaught: 0, \
     damage_impale: 50, knockback_impale: 0.0, energy_impale: 35, angle_impale: 0, cooldown_impale:20,\
-    damage_bite: 14, knockback_bite: 0.01, energy_bite: 10, angle_bite: 5, \
+    damage_bite: 12, knockback_bite: 0.01, energy_bite: 10, angle_bite: 5, cooldown_bite:6, \
     damage_step: 3.7 \
 }
 
@@ -182,7 +182,7 @@ data merge storage minecraft:jaw {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 2,\
-    damage_bite: 80, knockback_bite: 0.005, energy_bite: 10, angle_bite: 10, \
+    damage_bite: 16, knockback_bite: 0.005, energy_bite: 10, angle_bite: 10, cooldown_bite:6, \
     damage_charge: 60, knockback_charge: 0.01, energy_charge: 10, angle_charge: 40, cooldown_charge:10, \
     energy_jump: 5, \
     energy_hold: 24, \

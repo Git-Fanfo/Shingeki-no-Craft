@@ -15,8 +15,8 @@ execute if score $gamemode armor_vars matches 1 run function snc:shifters/mobs/a
 execute if score $gamemode armor_vars matches -1 run function snc:shifters/abilities/harden with storage minecraft:armor
 # execute if score $gamemode armor_vars matches -1 run function snc:shifters/abilities/destroy with storage minecraft:armor
 
-# Head
-item replace entity @s armor.head with carved_pumpkin
+execute if entity @s[tag=transform] run function snc:shifters/mobs/armor/head {"frame":1}
+execute if entity @s[tag=transform] if score state armor_vars matches 11.. run function snc:shifters/mobs/armor/head {"frame":3}
 
 ## Gamemode
 execute if score $gamemode armor_vars matches 1 run function snc:shifters/abilities/utility with storage minecraft:armor

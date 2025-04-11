@@ -1,14 +1,9 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:using_item",
+      "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "components": {
-            "minecraft:consumable": {
-              "consume_seconds":1000000000
-            }
-          },
           "predicates": {
             "minecraft:custom_data": "{atk_atk_4:1b}"
           }

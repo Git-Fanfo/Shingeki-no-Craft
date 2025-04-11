@@ -104,6 +104,9 @@ execute if score $intro config matches 0 if score $special config matches 1 run 
 # Death Message
 execute if score $death_msg config matches 1 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.25","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -68"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 execute if score $death_msg config matches 0 if score $special config matches 1 run tellraw @s ["    ● ",{"translate":"aot.config.25","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -67"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+# Debug
+execute if score $debug config matches 1 if score $special config matches 1 run tellraw @s ["    ● ",{"text":"Debug","color":"white"}," ",{"text":"[✔]","color":"green","clickEvent":{"action":"run_command","value":"/trigger manual set -71"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
+execute if score $debug config matches 0 if score $special config matches 1 run tellraw @s ["    ● ",{"text":"Debug","color":"white"}," ",{"text":"[✘]","color":"red","clickEvent":{"action":"run_command","value":"/trigger manual set -72"},"hoverEvent":{"action":"show_text","contents":[{"translate":"aot.config.switch","color":"yellow"}]}}]
 
 
 

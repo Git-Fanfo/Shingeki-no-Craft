@@ -1,7 +1,7 @@
 # Vomit
 # Bite
 data merge storage minecraft:titan_1 {\
-    id:"1", \
+    id:"zick", \
     height: "8m ", \
     type: "Titan", \
     name: "Zick", \
@@ -19,7 +19,7 @@ data merge storage minecraft:titan_1 {\
 # Run
 # Bite
 data merge storage minecraft:titan_2 {\
-    id:"2", \
+    id:"zwei", \
     height: "4m ", \
     type: "Titan", \
     name: "Zwei", \
@@ -37,7 +37,7 @@ data merge storage minecraft:titan_2 {\
 # Bite
 # Bite
 data merge storage minecraft:titan_3 {\
-    id:"3", \
+    id:"michelle", \
     height: "12m ", \
     type: "Titan", \
     name: "Michelle", \
@@ -55,7 +55,7 @@ data merge storage minecraft:titan_3 {\
 # Bite
 # Knee
 data merge storage minecraft:titan_4 {\
-    id:"4", \
+    id:"valentina", \
     height: "6m ", \
     type: "Titan", \
     name: "Valentina", \
@@ -73,7 +73,7 @@ data merge storage minecraft:titan_4 {\
 # Jump
 # Kick
 data merge storage minecraft:titan_5 {\
-    id:"5", \
+    id:"vladlen", \
     height: "15m ", \
     type: "Titan", \
     name: "Vladlen", \
@@ -91,7 +91,7 @@ data merge storage minecraft:titan_5 {\
 # Run
 # Bite
 data merge storage minecraft:titan_6 {\
-    id:"6", \
+    id:"ameer", \
     height: "11m ", \
     type: "Titan", \
     name: "Ameer", \
@@ -109,7 +109,7 @@ data merge storage minecraft:titan_6 {\
 # None
 # None
 data merge storage minecraft:titan_7 {\
-    id:"7", \
+    id:"allan", \
     height: "9m ", \
     type: "Titan", \
     name: "Allan", \
@@ -127,7 +127,7 @@ data merge storage minecraft:titan_7 {\
 # Bite
 # Jump
 data merge storage minecraft:titan_8 {\
-    id:"8", \
+    id:"creepy", \
     height: "", \
     type: "Abnormal Titan", \
     name: "Creepy", \

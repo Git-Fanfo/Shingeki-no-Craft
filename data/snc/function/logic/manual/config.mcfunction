@@ -59,6 +59,8 @@ execute as @s[scores={manual=-67}] run scoreboard players set $death_msg config 
 execute as @s[scores={manual=-68}] run scoreboard players set $death_msg config 0
 execute as @s[scores={manual=-69}] run scoreboard players set $survival config 1
 execute as @s[scores={manual=-70}] run scoreboard players set $survival config 0
+execute if score @s manual matches -71 run scoreboard players set $debug config 0
+execute if score @s manual matches -72 run scoreboard players set $debug config 1
 
 
 

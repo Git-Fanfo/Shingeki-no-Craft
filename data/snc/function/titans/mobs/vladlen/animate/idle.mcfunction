@@ -1,0 +1,6 @@
+execute if score @s idle matches 39 run data modify entity @s item.components.minecraft:item_model set value "titan/vladlen/idle/1"
+execute if score @s idle matches 33 run data modify entity @s item.components.minecraft:item_model set value "titan/vladlen/idle/2"
+execute if score @s idle matches 27 run data modify entity @s item.components.minecraft:item_model set value "titan/vladlen/idle/3"
+execute if score @s idle matches 21 run data modify entity @s item.components.minecraft:item_model set value "titan/vladlen/idle/4"
+execute if score @s idle matches 14 run data modify entity @s item.components.minecraft:item_model set value "titan/vladlen/idle/1"
+execute if score @s idle matches 7 run data modify entity @s item.components.minecraft:item_model set value "titan/vladlen/idle/2"

@@ -19,6 +19,8 @@ execute if score ticks clock matches 19 if score @s random matches 1 run playsou
 $execute if entity @s[tag=attack] if score @s atk matches 0..70 run function snc:titans/mobs/$(id)/animate/attack
 $execute if entity @s[tag=attack] if score @s atk matches 71..140 run function snc:titans/mobs/$(id)/animate/attack_2
 $execute if entity @s[tag=!attack,tag=walk] run function snc:titans/mobs/$(id)/animate/walk
+#$say function snc:titans/mobs/$(id)/animate/walk
+
 $execute if entity @s[tag=!attack,tag=!walk] run function snc:titans/mobs/$(id)/animate/idle
 #$execute if entity @s run function snc:titans/mobs/$(id)/animate/idle
 

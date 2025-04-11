@@ -131,6 +131,7 @@ scoreboard players set $titan config 0
 scoreboard players set $shifter config 0
 scoreboard players set $special config 0
 
+execute unless score $debug config matches 0.. run scoreboard players set $debug config 0
 execute unless score $van_vill config matches 0.. run scoreboard players set $van_vill config 0
 execute unless score $talk_vill config matches 0.. run scoreboard players set $talk_vill config 1
 execute unless score $name_vill config matches 0.. run scoreboard players set $name_vill config 1

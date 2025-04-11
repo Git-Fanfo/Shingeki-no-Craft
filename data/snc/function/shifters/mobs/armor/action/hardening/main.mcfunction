@@ -1,3 +1,6 @@
+#execute if score @s shifter_vars matches 5 run function snc:shifters/mobs/armor/head {"frame":1}
+#execute if score @s shifter_vars matches 5 if score state armor_vars matches 11.. run function snc:shifters/mobs/armor/head {"frame":3}
+
 $execute if score $op.hardening $(shifter)_vars matches ..-1 run scoreboard players set $op.hardening $(shifter)_vars 0
 $execute if score $op.hardening $(shifter)_vars matches 13.. run scoreboard players set $op.hardening $(shifter)_vars 13
 
@@ -18,8 +21,5 @@ $execute if score $op.hardening $(shifter)_vars matches 2 run item modify entity
 $execute if score $op.hardening $(shifter)_vars matches 1 run item modify entity @s armor.head snc:shifters/armor/harden/6
 
 $execute if score $op.hardening $(shifter)_vars matches 0 run item modify entity @s armor.head snc:shifters/armor/harden/0
-
-execute if score @s shifter_vars matches 5 run function snc:shifters/mobs/armor/action/head/main
-execute if score @s shifter_vars matches 5 if score state armor_vars matches 11.. run function snc:shifters/mobs/armor/action/head/fight
 
 $scoreboard players operation $hardening $(shifter)_vars = $op.hardening $(shifter)_vars
