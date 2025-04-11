@@ -145,11 +145,11 @@ data merge storage minecraft:titan_8 {\
 # None
 # None
 data merge storage minecraft:titan_9 {\
-    id:"guido", \
+    id:"grover", \
     height: "10m ", \
     type: "Abnormal Titan", \
-    name: "Guido", \
-    scale: 3.5, \
+    name: "Grover", \
+    scale: 3.7, \
     model_scale : 1, \
     step_height: 1.6, \
     body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
