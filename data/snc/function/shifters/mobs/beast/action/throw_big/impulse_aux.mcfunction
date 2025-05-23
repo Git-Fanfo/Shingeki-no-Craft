@@ -3,7 +3,7 @@ ride @s dismount
 scoreboard players set $hold beast_vars 0
 
 execute if score $rock beast_vars matches 0
-ride @e[tag=beast_wrap,type=!item_display,sort=nearest,limit=1] dismount
+ride @n[tag=beast_wrap,type=!item_display] dismount
 execute if score $rock beast_vars matches 0 on passengers run ride @e[tag=beast_wrap,type=!item_display,sort=nearest,limit=1] mount @s
 #execute on passengers run tag @s add snc.sticky
 

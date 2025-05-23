@@ -1,1 +1,1 @@
-function snc:eldia/wandering_trader/summon {"tags":"\"surv\",\"bomb\"","name":"Bomb","title":"Face Shifter","head":25,"body":26}
+function snc:eldia/wandering_trader/summon {"tags":"\"surv\",\"bomb\"","name":"Bomb","title":"Face Shifter","model":"bomb"}

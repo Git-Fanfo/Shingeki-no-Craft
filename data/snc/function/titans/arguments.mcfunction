@@ -148,13 +148,13 @@ data merge storage minecraft:titan_9 {\
     id:"grover", \
     height: "10m ", \
     type: "Abnormal Titan", \
-    name: "Grover", \
+    name: "Groover", \
     scale: 3.7, \
     model_scale : 1, \
     step_height: 1.6, \
     body: [{id:"minecraft:slime",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:127,duration:-1,show_particles:0b}],Fire:20,Silent:1b,NoAI:1b,Size:2,Tags:["hurtbox","titan"],attributes:[{id:"scale",base:0.6}]}], \
     speed: 0.55, \
-    dmg_footstep: 6, \
+    dmg_footstep: 8, \
     dmg_1: 0, \
     dmg_2: 0 ,\
     item: "flint" \

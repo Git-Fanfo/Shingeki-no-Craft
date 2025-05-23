@@ -24,7 +24,14 @@
           "{\"text\":\" \",\"color\":\"gray\",\"italic\":false}",
           "[{\"translate\":\"aot.warning\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false},{\"translate\":\"aot.fluid.desc11\",\"color\":\"yellow\",\"bold\":false,\"italic\":false}]",
           "{\"translate\":\"aot.fluid.desc12\",\"color\":\"yellow\",\"italic\":false}"
-        ]
+        ],
+        "minecraft:attribute_modifiers":{
+          "modifiers": [
+            {"type":"entity_interaction_range","id":"snc.inj_full.entity_interaction_range","operation":"add_value",
+            "amount":-100,"slot":"hand"}
+          ],
+          "show_in_tooltip": false
+        }
     }
   }
 }

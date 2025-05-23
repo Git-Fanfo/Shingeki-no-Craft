@@ -1,0 +1,8 @@
+{
+    "comparator_output": 1,
+    "description": {"translate":"snc.music.cry_of_hope"},
+    "length_in_seconds": 173.0,
+    "sound_event": {
+        "sound_id": "minecraft:snc.music.hope"
+    }
+}

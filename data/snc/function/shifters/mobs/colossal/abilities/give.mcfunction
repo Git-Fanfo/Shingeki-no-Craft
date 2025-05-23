@@ -8,7 +8,6 @@ function snc:shifters/mobs/colossal/abilities/atk_3 with storage minecraft:colos
 execute if score $form colossal_vars matches 1 run function snc:shifters/mobs/colossal/abilities/atk_2 with storage minecraft:colossal
 execute if score $form colossal_vars matches 0 run function snc:shifters/mobs/colossal/abilities/atk_4 with storage minecraft:colossal
 
-execute if score state colossal_vars matches 12 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[item_model="shifters/colossal/bite/steam/1"]
-execute unless score state colossal_vars matches 12 run item replace entity @s[tag=transform] armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/1"]
+function snc:shifters/mobs/colossal/head {"frame":1}
 
 function snc:shifters/transfer/actions with storage minecraft:colossal

@@ -17,7 +17,7 @@ execute as @s[tag=snc.heat_wave] run tp @s ~ ~.115 ~ ~1 ~
 execute unless entity @s[type=armor_stand] run setblock ~ ~ ~ minecraft:light
 
 # Explosion
-execute as @s[type=armor_stand] if data entity @s {OnGround:1b} run function snc:shifters/human/explosion/destroy
+execute as @s[type=armor_stand] if predicate snc:on_tangible run function snc:shifters/human/explosion/destroy
 execute as @s[type=armor_stand] if score @s colossal_vars matches 40.. run function snc:shifters/human/explosion/kill
 
 execute if score @s colossal_vars matches 1200.. run kill

@@ -1,6 +1,6 @@
 $scoreboard players set $$(shifter).doesnt.exists shifter_vars 0
 #$tellraw @a [{"selector":"@s"},{"text":" got "},{"translate":"aot.titan.$(shifter)","color": "$(color)"}]
-clear @s[tag=!transform]
+#clear @s[tag=!transform]
 execute if entity @s[tag=!transform, tag=!first] run function snc:shifters/transfer/effects
 
 ## Get ID from "inherit"
@@ -28,4 +28,4 @@ $advancement grant @s[tag=!first] only snc:shifters/$(shifter)/get
 advancement grant @s[tag=!first] only snc:shifters/aura
 ## Kill previous owner
 $execute store result score count $(shifter)_vars run execute if entity @e[type=#snc:eldian,scores={$(shifter)_vars=1}]
-$execute if score count $(shifter)_vars matches 2.. run execute as @e[type=#snc:eldian,scores={$(shifter)_vars=1},tag=!transform,limit=1,sort=furthest] run function snc:shifters/transfer/cheat with storage minecraft:$(shifter)
+$execute if score count $(shifter)_vars matches 2.. run execute as @n[type=#snc:eldian,scores={$(shifter)_vars=1},tag=!transform] run function snc:shifters/transfer/cheat with storage minecraft:$(shifter)

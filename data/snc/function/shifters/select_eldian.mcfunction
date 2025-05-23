@@ -1,4 +1,4 @@
-execute if entity @s[type=player] run function snc:player/drop_inv
+#execute if entity @s[type=player] run function snc:player/drop_inv
 tag @s add first
 
 ##### HOW TO CREATE A SHIFTER ##### 

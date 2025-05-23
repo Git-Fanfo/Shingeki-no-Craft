@@ -1,0 +1,1 @@
+$item replace entity @s $(slot) with minecraft:quartz[custom_data={snc_item:1},item_model='music_disc/cry_of_hope',max_stack_size=1,minecraft:jukebox_playable={'song': 'snc:cry_of_hope', 'show_in_tooltip': True},item_name='{"translate":"item.minecraft.music"}',rarity='rare',damage_resistant={'types': '#minecraft:is_fire'}] 1

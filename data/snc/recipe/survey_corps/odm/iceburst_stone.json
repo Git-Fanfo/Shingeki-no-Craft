@@ -21,7 +21,14 @@
             "{\"translate\":\"aot.iceburst.desc4\",\"color\":\"gray\",\"italic\":false}",
             "[{\"translate\":\"aot.odm\",\"color\":\"red\",\"italic\":false},\" \",{\"translate\":\"aot.iceburst.desc5\",\"color\":\"gray\",\"italic\":false}]",
             "[{\"translate\":\"aot.iceburst.desc6\",\"color\":\"gray\",\"italic\":false},\" \",{\"translate\":\"aot.mainhand\",\"color\":\"yellow\",\"italic\":false}]"
-          ]
+          ],
+          "minecraft:attribute_modifiers":{
+            "modifiers": [
+              {"type":"block_interaction_range","id":"snc.iceburst.block_interaction_range","operation":"add_value",
+              "amount":-100,"slot":"hand"}
+            ],
+            "show_in_tooltip": false
+          }
     }
   }
 }

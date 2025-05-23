@@ -4,9 +4,9 @@ effect give @s[tag=hurtbox] water_breathing 1 0 true
 damage @s[tag=!transform] 16 fireworks
 execute if entity @s[type=player,tag=!transform] run scoreboard players add @s earthquake 6
 ## Damage shifters
-damage @s[tag=transform] 6 out_of_world
+damage @s[tag=transform] 5 out_of_world
 ## Break Hardening
-execute if score @s[tag=transform] armor_vars matches 1 run function snc:shifters/function/unique {"pre":"scoreboard players remove $op.hardening ","post":"_vars 5"}
+execute if score @s[tag=transform] armor_vars matches 1 run function snc:shifters/function/unique {"pre":"scoreboard players remove $op.hardening ","post":"_vars 3"}
 
 execute if items entity @s armor.* *[trim={"material":"minecraft:hardening","pattern":"minecraft:armored"}] run playsound aot.shifters.armor.harden.break player @a ~ ~ ~ 5 1.1
 execute if items entity @s armor.* *[trim={"material":"minecraft:hardening","pattern":"minecraft:armored"}] anchored eyes run particle minecraft:block{block_state:"light_blue_glazed_terracotta"} ^ ^-.5 ^ .1 .4 .1 1 30 force

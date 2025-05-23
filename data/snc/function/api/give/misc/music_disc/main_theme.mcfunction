@@ -1,0 +1,1 @@
+give @s minecraft:quartz[custom_data={snc_item:1},item_model='music_disc/main_theme',max_stack_size=1,minecraft:jukebox_playable={'song': 'snc:main_theme', 'show_in_tooltip': True},item_name='{"translate":"item.minecraft.music"}',rarity='rare',damage_resistant={'types': '#minecraft:is_fire'}] 1

@@ -16,13 +16,15 @@
 execute store result score rotation beast_vars run data get entity @s Rotation[0]
 scoreboard players operation rotation beast_vars -= player_rotation beast_vars
 ## Rotate pivot
-execute unless score rotation beast_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
+execute unless score rotation beast_vars matches -20..20 run rotate @s ~ 0
 
 ### Animations
 ## General
 ## 1. function snc:shifters/mobs/beast/animate/born is handled externally
 ## 2. function snc:shifters/mobs/beast/animate/sneak is handled externally
 execute if score state beast_vars matches 2 on vehicle rotated ~ 0 positioned ^ ^-.9 ^4 on passengers if entity @s[type=player] run function snc:shifters/mobs/highlight
+
+#tellraw @p ["",{"text":"state: "},{"score":{"name":"state","objective":"beast_vars"}}]
 execute if score state beast_vars matches 3 if entity @s[tag=!aj.beast.animation.idle.playing] run function snc:shifters/mobs/beast/animate/idle
 execute if score state beast_vars matches 4 if entity @s[tag=!aj.beast.animation.walk.playing] run function snc:shifters/mobs/beast/animate/walk
 execute if score state beast_vars matches 5 if entity @s[tag=!aj.beast.animation.run.playing] run function snc:shifters/mobs/beast/animate/run

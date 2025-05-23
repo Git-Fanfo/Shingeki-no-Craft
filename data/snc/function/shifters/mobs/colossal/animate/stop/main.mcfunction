@@ -20,7 +20,7 @@ scoreboard players remove $roar colossal_vars 1
 
 execute on vehicle on controller run effect give @s minecraft:slowness infinite 0 true 
 execute rotated ~ 0 run function snc:shifters/mobs/colossal/action/movement/particles
-execute if score $roar colossal_vars matches 0..120 on vehicle on controller run function snc:shifters/mobs/colossal/action/roar/heat
+execute if score $roar colossal_vars matches 0..120 on vehicle on controller run function snc:shifters/mobs/colossal/animate/stop/roar
 
 ### General: Sort from more likely to less likely to quickly trimm the checks
 execute if score $form colossal_vars matches 0 if function snc:shifters/mobs/colossal/animate/stop/wall/main run return -1

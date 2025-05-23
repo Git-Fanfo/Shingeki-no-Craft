@@ -1,0 +1,1 @@
+function snc:eldia/wandering_trader/summon {"tags":"\"surv\",\"snc.ellie\"","name":"Ellie","title":"Bard","model":"ellie"}

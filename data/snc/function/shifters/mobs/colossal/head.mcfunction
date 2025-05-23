@@ -1,0 +1,4 @@
+$execute if score state colossal_vars matches 12 unless score @s jaw_vars matches 1 run function snc:shifters/mobs/head {"shifter":"colossal", "type":"steam", "frame":$(frame)}
+$execute if score state colossal_vars matches 12 if score @s jaw_vars matches 1 run function snc:shifters/mobs/head {"shifter":"colossal", "type":"steam_jaw", "frame":$(frame)}
+$execute unless score state colossal_vars matches 12 unless score @s jaw_vars matches 1 run function snc:shifters/mobs/head {"shifter":"colossal", "type":"main", "frame":$(frame)}
+$execute unless score state colossal_vars matches 12 if score @s jaw_vars matches 1 run function snc:shifters/mobs/head {"shifter":"colossal", "type":"main_jaw", "frame":$(frame)}

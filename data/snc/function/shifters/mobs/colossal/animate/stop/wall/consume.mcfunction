@@ -28,14 +28,15 @@ execute if score action colossal_vars matches 10 on vehicle rotated ~ 0 position
 execute if score action colossal_vars matches 8 on vehicle rotated ~ 0 positioned ^1.5 ^19 ^4 as @e[type=!#snc:pivot,distance=..10] unless entity @s[tag=colossal] unless score @s colossal_vars matches 1 run function snc:shifters/mobs/colossal/action/bite/tp
 
 execute if score action colossal_vars matches 21 on vehicle on controller run tag @s add consume
-execute if score action colossal_vars matches 20 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/1"]
+execute if score action colossal_vars matches 20 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":1}
+
 execute if score action colossal_vars matches 17 on vehicle on controller run playsound minecraft:aot.shifters.bite player @a ~ ~ ~ 6 .8
-execute if score action colossal_vars matches 17 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/2"]
-execute if score action colossal_vars matches 15 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/3"]
-execute if score action colossal_vars matches 13 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/4"]
-execute if score action colossal_vars matches 11 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/5"]
-execute if score action colossal_vars matches 9 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/3"]
-execute if score action colossal_vars matches 8 on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/colossal/bite/head/1"]
+execute if score action colossal_vars matches 17 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":2}
+execute if score action colossal_vars matches 15 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":3}
+execute if score action colossal_vars matches 13 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":4}
+execute if score action colossal_vars matches 11 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":5}
+execute if score action colossal_vars matches 9 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":3}
+execute if score action colossal_vars matches 8 on vehicle on controller run function snc:shifters/mobs/colossal/head {"frame":1}
 
 execute if score action colossal_vars matches 8 on vehicle on controller at @s anchored eyes positioned ^ ^ ^3 run function snc:shifters/mobs/colossal/action/jaw/damage with storage minecraft:colossal
 

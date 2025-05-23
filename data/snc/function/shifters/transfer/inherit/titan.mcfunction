@@ -4,4 +4,4 @@ execute unless entity @p[distance=.1..20,tag=consume] run function snc:shifters/
 # Maybe a player
 execute if entity @p[distance=.1..20,tag=consume] run function snc:shifters/transfer/inherit/player
 # Kill the pure titan!
-execute as @e[tag=ai,distance=.1..20,limit=1,sort=nearest] at @s run function snc:titans/kill
+execute as @n[tag=ai,distance=.1..20] at @s run function snc:titans/kill

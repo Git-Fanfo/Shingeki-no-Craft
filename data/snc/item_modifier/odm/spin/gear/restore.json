@@ -2,7 +2,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model":"manuever/gas_trigger/blade"
+            "minecraft:item_model":"manuever/odm_gear/mode_1/blade/full/0"
         }
     }
 ]
