@@ -13,7 +13,7 @@ execute if score $gamemode jaw_vars matches 1 run function snc:shifters/mobs/jaw
 #execute if score $gamemode armor_vars matches -1 run function snc:shifters/abilities/harden with storage minecraft:armor
 
 # Head
-execute if entity @s[tag=transform] run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/jaw/1"]
+execute if entity @s[tag=transform] run function snc:shifters/mobs/head {"shifter":"jaw", "type":"meat", "frame":1}
 
 ## Gamemode
 #execute if score $gamemode armor_vars matches 1 run function snc:shifters/abilities/utility with storage minecraft:armor

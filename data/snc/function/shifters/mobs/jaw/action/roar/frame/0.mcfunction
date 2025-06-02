@@ -1,5 +1,5 @@
 # Each function represents aprox 0.25 seg
 playsound minecraft:snc.shifters.jaw.roar player @a ~ ~ ~ 24
-execute on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/jaw/2"]
+execute on vehicle on controller run function snc:shifters/mobs/head {"shifter":"jaw", "type":"meat", "frame":2}
 execute on vehicle run attribute @s scale base set 1.6
 execute on vehicle run effect give @s slowness 2 127 true

@@ -13,17 +13,18 @@ execute if block ~ ~2 ~ air run tp ^ ^-.25 ^
 execute if score @s jaw_vars matches 200.. run particle campfire_signal_smoke ^1.5 ^-2 ^ 2 3 2 .01 1 force
 
 ## Change variant
-#execute if score @s jaw_vars matches 1200 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 1100 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 1000 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 900 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 800 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 700 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 600 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 500 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 400 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 300 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
-#execute if score @s jaw_vars matches 200 on passengers if entity @s[tag=aj.armor.root] run function snc:shifters/mobs/armor/action/death/decay
+execute if score @s jaw_vars matches 1200 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 1100 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 1000 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 900 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 800 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 700 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 600 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 500 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 400 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 300 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 200 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
+execute if score @s jaw_vars matches 200 on passengers if entity @s[tag=aj.jaw.root] run function snc:shifters/mobs/jaw/action/death/decay
 
 execute if score @s jaw_vars matches 0 run particle minecraft:cloud ~ ~4 ~ 2 2 2 .2 500 force
 execute if score @s jaw_vars matches 0 run playsound minecraft:aot.steam player @a ~ ~ ~ 2 1

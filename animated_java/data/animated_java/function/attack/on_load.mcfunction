@@ -12,7 +12,8 @@ scoreboard objectives add aj.kick_1.frame dummy
 scoreboard objectives add aj.kick_2.frame dummy
 scoreboard objectives add aj.kick_3.frame dummy
 scoreboard objectives add aj.block.frame dummy
-scoreboard objectives add aj.jump.frame dummy
+scoreboard objectives add aj.jumpold.frame dummy
 scoreboard objectives add aj.bite.frame dummy
 scoreboard objectives add aj.roar.frame dummy
 scoreboard objectives add aj.run.frame dummy
+scoreboard objectives add aj.jump.frame dummy

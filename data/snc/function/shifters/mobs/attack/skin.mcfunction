@@ -1,5 +1,5 @@
 ## Variants
-execute if score $health attack_vars matches 33..40 run scoreboard players set @s attack_vars 0
+execute if score $health attack_vars matches 33.. run scoreboard players set @s attack_vars 0
 execute if score $health attack_vars matches 25..32 run scoreboard players set @s attack_vars 1
 execute if score $health attack_vars matches 17..24 run scoreboard players set @s attack_vars 2
 execute if score $health attack_vars matches 9..16 run scoreboard players set @s attack_vars 3

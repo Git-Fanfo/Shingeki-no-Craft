@@ -4,7 +4,6 @@ tag @s remove aj.armor.animation.idle.playing
 tag @s remove aj.armor.animation.walk.playing
 tag @s remove aj.armor.animation.born.playing
 tag @s remove aj.armor.animation.death.playing
-tag @s remove aj.armor.animation.charge_old.playing
 tag @s remove aj.armor.animation.run.playing
 tag @s remove aj.armor.animation.slide.playing
 tag @s remove aj.armor.animation.init_charge.playing

@@ -6,7 +6,6 @@ execute if entity @s[tag=aj.armor.animation.idle.playing] run function animated_
 execute if entity @s[tag=aj.armor.animation.walk.playing] run function animated_java:armor/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.born.playing] run function animated_java:armor/animations/born/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.death.playing] run function animated_java:armor/animations/death/zzz/on_tick
-execute if entity @s[tag=aj.armor.animation.charge_old.playing] run function animated_java:armor/animations/charge_old/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.run.playing] run function animated_java:armor/animations/run/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.slide.playing] run function animated_java:armor/animations/slide/zzz/on_tick
 execute if entity @s[tag=aj.armor.animation.init_charge.playing] run function animated_java:armor/animations/init_charge/zzz/on_tick

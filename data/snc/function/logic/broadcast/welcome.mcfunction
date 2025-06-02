@@ -1,7 +1,7 @@
 execute if score @s snc.time matches 1 run function snc:logic/manual/init
 execute if score @s snc.time matches 3 run function snc:logic/broadcast/creative
 
-execute if score @s snc.time matches 6 run playsound minecraft:music_disc.creator_music_box master @s ~ ~ ~ 8 1 1
+execute if score @s snc.time matches 6 run playsound minecraft:music_disc.creator_music_box voice @s ~ ~ ~ 8 1 1
 execute if score @s snc.time matches 6 run title @s times 0s 30s 2s
 execute if score @s snc.time matches 6 run title @s actionbar [{"translate":"aot.record.nowPlaying", "color":"green"},"Main Theme"]
 execute if score @s snc.time matches 8 run stopsound @s

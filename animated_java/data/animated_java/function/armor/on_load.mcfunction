@@ -3,7 +3,6 @@ scoreboard objectives add aj.idle.frame dummy
 scoreboard objectives add aj.walk.frame dummy
 scoreboard objectives add aj.born.frame dummy
 scoreboard objectives add aj.death.frame dummy
-scoreboard objectives add aj.charge_old.frame dummy
 scoreboard objectives add aj.run.frame dummy
 scoreboard objectives add aj.slide.frame dummy
 scoreboard objectives add aj.init_charge.frame dummy
