@@ -14,7 +14,7 @@
 ## Rotate model
 execute store result score rotation jaw_vars run data get entity @s Rotation[0]
 scoreboard players operation rotation jaw_vars -= player_rotation jaw_vars
-execute unless score state jaw_vars matches 11 unless score rotation jaw_vars matches -20..20 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
+execute unless score state jaw_vars matches 11 unless score rotation jaw_vars matches -10..10 on vehicle at @s on passengers unless entity @s[type=player] run rotate @s ~ 0
 execute if block ~ ~-1 ~ #snc:tangible run scoreboard players set $charge jaw_vars 1
 
 ### Animations
@@ -24,6 +24,8 @@ execute if block ~ ~-1 ~ #snc:tangible run scoreboard players set $charge jaw_va
 execute if score state jaw_vars matches 3 if entity @s[tag=!aj.jaw.animation.idle.playing] run function snc:shifters/mobs/jaw/animate/idle
 execute if score state jaw_vars matches 4 if entity @s[tag=!aj.jaw.animation.walk.playing] run function snc:shifters/mobs/jaw/animate/walk
 execute if score state jaw_vars matches 5 run function snc:shifters/mobs/jaw/action/movement/run
+execute if score state jaw_vars matches 6 if entity @s[tag=aj.jaw.animation.jump_loop.playing] run function snc:shifters/mobs/jaw/action/movement/jump_loop
+
 ## 6. function snc:shifters/mobs/jaw/animate/jump is handled externally
 ## 7. function snc:shifters/mobs/jaw/animate/bite is handled externally
 ## 8. function snc:shifters/mobs/jaw/animate/roar is handled externally

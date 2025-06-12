@@ -4,9 +4,10 @@ data modify entity @n[tag=snc.bullet] Owner set from entity @s UUID
 
 effect give @s slowness 1 10 true
 execute store result score @s random run random value 1..3
-execute if score @s random matches 1 anchored feet run rotate @s ~ ~-1
-execute if score @s random matches 2 anchored feet run rotate @s ~-.7 ~-.4
-execute if score @s random matches 3 anchored feet run rotate @s ~.7 ~-.4
+execute if score @s random matches 1 run rotate @s ~ ~-1
+execute if score @s random matches 2 run rotate @s ~-.7 ~-.4
+execute if score @s random matches 3 run rotate @s ~.7 ~-.4
+
 scoreboard players reset @s random
 
 execute positioned ^ ^ ^1 as @a[distance=..96] run function snc:shifters/mobs/cart/action/shipload/turrets/sfx

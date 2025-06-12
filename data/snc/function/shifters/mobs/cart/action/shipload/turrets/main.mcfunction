@@ -1,5 +1,6 @@
 $tp ^$(x) ^$(y) ^$(z)
-execute on passengers at @s[type=player] on vehicle run rotate @s ~ ~
+
+execute on passengers rotated as @s[type=player] on vehicle run rotate @s ~ ~
 
 $scoreboard players set $turret.$(turret) cart_vars 0
 $execute on passengers if entity @s[type=player] run scoreboard players set $turret.$(turret) cart_vars 1

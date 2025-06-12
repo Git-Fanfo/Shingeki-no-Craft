@@ -5,4 +5,4 @@ execute on vehicle run effect clear @s slowness
 execute if score combo_punch attack_vars matches 2 on vehicle on passengers if entity @s[tag=aj.attack.root] run function snc:shifters/mobs/attack/animate/punch_3
 execute unless score combo_punch attack_vars matches 2 run scoreboard players set combo_punch attack_vars 0
 
-execute on vehicle on controller run function snc:shifters/mobs/attack/abilities/atk_2 with storage minecraft:attack
+execute on vehicle on passengers if entity @s[tag=transform] run function snc:shifters/mobs/attack/abilities/atk_2 with storage minecraft:attack

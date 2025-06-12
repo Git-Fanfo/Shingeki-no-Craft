@@ -1,1 +1,1 @@
-execute on vehicle on controller run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/jaw/bite/decay/5"]
+execute on vehicle on passengers if entity @s[tag=transform] run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/jaw/bite/decay/5"]

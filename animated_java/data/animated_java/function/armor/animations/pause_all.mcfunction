@@ -13,6 +13,8 @@ tag @s remove aj.armor.animation.consume.playing
 tag @s remove aj.armor.animation.bite.playing
 tag @s remove aj.armor.animation.roar.playing
 tag @s remove aj.armor.animation.charge.playing
-tag @s remove aj.armor.animation.jump.playing
+tag @s remove aj.armor.animation.jump_init.playing
+tag @s remove aj.armor.animation.jump_loop.playing
+tag @s remove aj.armor.animation.jump_end.playing
 tag @s remove aj.armor.animation.jabs.playing
 tag @s remove aj.armor.animation.rocket.playing

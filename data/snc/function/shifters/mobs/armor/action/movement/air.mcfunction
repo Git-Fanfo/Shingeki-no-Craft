@@ -1,0 +1,2 @@
+execute if score $air armor_vars matches 0 on vehicle at @s run function snc:shifters/mobs/armor/action/movement/step
+execute if score $air armor_vars matches 1 run function snc:shifters/mobs/armor/animate/jump_loop

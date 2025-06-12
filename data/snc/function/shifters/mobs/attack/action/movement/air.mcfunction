@@ -1,0 +1,2 @@
+execute if score $air attack_vars matches 0 on vehicle at @s run function snc:shifters/mobs/attack/action/movement/step
+execute if score $air attack_vars matches 1 run function snc:shifters/mobs/attack/animate/jump_loop

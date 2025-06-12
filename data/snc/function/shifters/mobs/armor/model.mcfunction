@@ -24,6 +24,7 @@ execute if score state armor_vars matches 2 if score $gamemode armor_vars matche
 execute if score state armor_vars matches 3 if entity @s[tag=!aj.armor.animation.idle.playing] run function snc:shifters/mobs/armor/animate/idle
 execute if score state armor_vars matches 4 if entity @s[tag=!aj.armor.animation.walk.playing] run function snc:shifters/mobs/armor/animate/walk
 execute if score state armor_vars matches 5 if entity @s[tag=!aj.armor.animation.run.playing] run function snc:shifters/mobs/armor/animate/run
+execute if score state armor_vars matches 6 if entity @s[tag=aj.armor.animation.jump_loop.playing] if score $air armor_vars matches 0 run function snc:shifters/mobs/armor/animate/jump_end
 ## 6. function snc:shifters/mobs/armor/animate/jump is handled externally
 ## 7. function snc:shifters/mobs/armor/animate/bite is handled externally
 ## 8. function snc:shifters/mobs/armor/animate/roar is handled externally

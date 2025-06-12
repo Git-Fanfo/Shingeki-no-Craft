@@ -13,8 +13,9 @@ tag @s remove aj.attack.animation.kick_1.playing
 tag @s remove aj.attack.animation.kick_2.playing
 tag @s remove aj.attack.animation.kick_3.playing
 tag @s remove aj.attack.animation.block.playing
-tag @s remove aj.attack.animation.jumpold.playing
 tag @s remove aj.attack.animation.bite.playing
 tag @s remove aj.attack.animation.roar.playing
 tag @s remove aj.attack.animation.run.playing
-tag @s remove aj.attack.animation.jump.playing
+tag @s remove aj.attack.animation.jump_init.playing
+tag @s remove aj.attack.animation.jump_loop.playing
+tag @s remove aj.attack.animation.jump_end.playing

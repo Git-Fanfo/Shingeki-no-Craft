@@ -14,7 +14,7 @@ execute rotated ~ 0 positioned ^ ^8 ^5 run function snc:shifters/mobs/armor/acti
 # Damage players on ground 
 #execute positioned ^ ^ ^2 run function snc:shifters/combat/damage {"distance":8,"half_distance":3.5,"shifter":"armor","sound":"","damage":5,"knockback":"1","energy":0,"angle":7}
 
-execute on vehicle on controller unless predicate snc:player/keybinds/forward run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
+execute on vehicle on passengers if entity @s[tag=transform] unless predicate snc:player/keybinds/forward run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 execute if score $charge.time armor_vars matches ..0 run function snc:shifters/mobs/armor/action/charge/slide with storage minecraft:armor
 
 # grab: 1 = empty > 2 = carrying a titan > 3 = impaled

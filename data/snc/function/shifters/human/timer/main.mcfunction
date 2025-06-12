@@ -16,7 +16,8 @@ $execute as @s[tag=!transform] if score ticks clock matches 19 unless score $ene
 # Decrease energy when transformed
 $execute as @s[tag=transform] if score ticks clock matches 19 run function snc:shifters/human/timer/time_down {"shifter":$(shifter),"energy_decrease":$(energy_decrease)}
 # Show
-$execute if entity @s[tag=!first] run function snc:shifters/human/timer/display {"shifter":"$(shifter)"}
+$execute if entity @s[tag=!first, tag=transform] run function snc:shifters/human/timer/display {"shifter":"$(shifter)", "interface":"205"}
+$execute if entity @s[tag=!first, tag=!transform] run function snc:shifters/human/timer/display {"shifter":"$(shifter)", "interface":"204"}
 
 $execute if score ticks clock matches 15 store result score #x_$(shifter) shifter_vars run data get entity @s Pos[0]
 $execute if score ticks clock matches 15 store result score #z_$(shifter) shifter_vars run data get entity @s Pos[2]

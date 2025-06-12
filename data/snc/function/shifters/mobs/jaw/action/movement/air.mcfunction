@@ -1,0 +1,2 @@
+execute if score $air jaw_vars matches 0 on vehicle at @s run function snc:shifters/mobs/jaw/action/movement/step
+execute if score $air jaw_vars matches 1 run function snc:shifters/mobs/jaw/animate/jump_loop

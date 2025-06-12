@@ -1,2 +1,2 @@
-execute on vehicle at @s rotated ~ -2 run function snc:logic/motion/generic {"score":"armor_vars","strength":0.02, "unstoppable":"false"}
+execute on vehicle at @s rotated ~ -2 run function snc:logic/motion/generic {"score":"armor_vars","strength":0.025, "unstoppable":"false"}
 $execute positioned ~ ~4.5 ~ on vehicle rotated as @s positioned ^-2 ^ ^6 run function snc:shifters/combat/damage {"distance":6,"half_distance":3,"shifter":"armor","sound":"aot.shifters.armor.punch.land_strong","damage":$(damage_rocket),"knockback":$(knockback_rocket),"energy":$(energy_rocket),"angle":$(angle_rocket)}

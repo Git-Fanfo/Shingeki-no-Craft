@@ -21,7 +21,7 @@ data merge storage minecraft:cart {\
     entity_range:7, \
     energy_decrease: 1,\
     damage_bite: 20, knockback_bite: 0.01, energy_bite: 8, angle_bite: 10, cooldown_bite:4, \
-    energy_jump: 5, cooldown_jump:2, \
+    energy_jump: 5, cooldown_jump:4, \
     energy_hold: 16, \
     damage_step: 1 \
 }
