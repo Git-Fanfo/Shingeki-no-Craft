@@ -1,1 +1,1 @@
-$function snc:shifters/combat/damage {"distance":20,"half_distance":9.5,"shifter":$(shifter),"sound":"aot.punch","damage":$(damage_wall),"knockback":$(knockback_wall),"energy":$(energy_wall),"angle":$(angle_wall)}
+$function snc:shifters/combat/damage {"distance":20,"half_distance":10,"shifter":$(shifter),"sound":"aot.punch","damage":$(damage_wall),"knockback":$(knockback_wall),"energy":$(energy_wall),"angle":$(angle_wall)}

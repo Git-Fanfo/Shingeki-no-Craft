@@ -1,6 +1,8 @@
 $scoreboard players set $$(shifter).doesnt.exists shifter_vars 0
 #$tellraw @a [{"selector":"@s"},{"text":" got "},{"translate":"aot.titan.$(shifter)","color": "$(color)"}]
 #clear @s[tag=!transform]
+
+# Restart moves
 execute if entity @s[tag=!transform, tag=!first] run function snc:shifters/transfer/effects
 
 ## Get ID from "inherit"

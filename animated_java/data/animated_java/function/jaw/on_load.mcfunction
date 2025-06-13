@@ -17,3 +17,4 @@ scoreboard objectives add aj.charge_slash.frame dummy
 scoreboard objectives add aj.climb_front.frame dummy
 scoreboard objectives add aj.walk_left.frame dummy
 scoreboard objectives add aj.walk_right.frame dummy
+scoreboard objectives add aj.slash.frame dummy

@@ -1,3 +1,3 @@
-$execute positioned ~ ~1 ~ on vehicle rotated as @s positioned ^ ^ ^2.5 run function snc:shifters/combat/damage {"distance":6,"half_distance":3,"shifter":"jaw","sound":"aot.human.gore","damage":1$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}
+$execute positioned ~ ~1 ~ on vehicle rotated as @s positioned ^ ^ ^1 run function snc:shifters/combat/damage {"distance":6,"half_distance":3,"shifter":"jaw","sound":"aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}
 
-execute positioned ~ ~1 ~ on vehicle rotated as @s positioned ^ ^ ^2.5 positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=6,dy=6,dz=6,type=!#snc:pivot,predicate=!snc:shifters/jaw/score] run function snc:shifters/mobs/armor/action/hardening/break
+execute positioned ~ ~1 ~ on vehicle rotated as @s positioned ^ ^ ^1 positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=6,dy=6,dz=6,type=!#snc:pivot,predicate=!snc:shifters/jaw/score] run function snc:shifters/mobs/armor/action/hardening/break

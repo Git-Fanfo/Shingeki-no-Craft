@@ -20,7 +20,7 @@ data merge storage minecraft:cart {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 1,\
-    damage_bite: 20, knockback_bite: 0.01, energy_bite: 8, angle_bite: 10, cooldown_bite:4, \
+    damage_bite: 20, knockback_bite: 0.02, energy_bite: 8, angle_bite: 10, cooldown_bite:4, \
     energy_jump: 5, cooldown_jump:4, \
     energy_hold: 16, \
     damage_step: 1 \
@@ -48,7 +48,7 @@ data merge storage minecraft:colossal {\
     block_range:0, \
     entity_range:0, \
     energy_decrease: 5,\
-    damage_wall:220, knockback_wall:0.1, energy_wall:110, angle_wall: 45, cooldown_wall:10, \
+    damage_wall:220, knockback_wall:0.12, energy_wall:110, angle_wall: 25, cooldown_wall:10, \
     cooldown_steam:15, \
     damage_bite: 40, knockback_bite: 0.0, energy_bite: 40, angle_bite: 5, cooldown_bite:4, \
     damage_step: 15 \
@@ -88,13 +88,13 @@ data merge storage minecraft:attack {\
     entity_range:0, \
     energy_decrease: 2,\
     energy_block:20, cooldown_block:3, \
-    damage_punch_1:26, knockback_punch_1:0.01, energy_punch_1:25, angle_punch_1: 5, \
-    damage_punch_2:30, knockback_punch_2:0.01, energy_punch_2:20, angle_punch_2: 5, \
-    damage_punch_3:40, knockback_punch_3:0.01, energy_punch_3:15, angle_punch_3: 90, cooldown_punch:5, \
-    damage_kick_1:30, knockback_kick_1:0.01, energy_kick_1:20, angle_kick_1: 5, \
-    damage_kick_2:36, knockback_kick_2:0.01, energy_kick_2:15, angle_kick_2: 5, \
-    damage_kick_3:40, knockback_kick_3:0.007, energy_kick_3:10, angle_kick_3: 45, cooldown_kick:6, \
-    damage_bite: 18, knockback_bite: 0.01, energy_bite: 5, angle_bite: 5, cooldown_bite:4, \
+    damage_punch_1:14, knockback_punch_1:0.015, energy_punch_1:25, angle_punch_1: 5, \
+    damage_punch_2:15, knockback_punch_2:0.015, energy_punch_2:20, angle_punch_2: 5, \
+    damage_punch_3:20, knockback_punch_3:0.015, energy_punch_3:15, angle_punch_3: 90, cooldown_punch:5, \
+    damage_kick_1:16, knockback_kick_1:0.015, energy_kick_1:20, angle_kick_1: 5, \
+    damage_kick_2:18, knockback_kick_2:0.015, energy_kick_2:15, angle_kick_2: 5, \
+    damage_kick_3:20, knockback_kick_3:0.01, energy_kick_3:10, angle_kick_3: 45, cooldown_kick:6, \
+    damage_bite: 12, knockback_bite: 0.015, energy_bite: 5, angle_bite: 5, cooldown_bite:4, \
     damage_step: 3 \
 }
 
@@ -106,7 +106,7 @@ data merge storage minecraft:beast {\
     bossbar_display:uFFF2, \
     bossbar_color:green, \
     bossbar_style: notched_10, \
-    hp:56, \
+    hp:58, \
     walk_speed:0.14d, \
     run_speed:0.32d, \
     type:skeleton_horse, \
@@ -120,10 +120,10 @@ data merge storage minecraft:beast {\
     block_range:11, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_focus: 80, knockback_focus: 0.02, energy_focus: 40, cooldown_focus:25, angle_focus:35, \
-    damage_area: 20, knockback_area: 0.01, energy_area: 27, cooldown_area:15, \
-    damage_slap: 10, knockback_slap: 0.035, energy_slap: 15, angle_slap: 35, cooldown_slap: 10, \
-    damage_bite: 14, knockback_bite: 0.01, energy_bite: 10, angle_bite: 10, cooldown_bite:4, \
+    damage_focus: 80, knockback_focus: 0.025, energy_focus: 40, cooldown_focus:25, angle_focus:35, \
+    damage_area: 20, knockback_area: 0.015, energy_area: 27, cooldown_area:15, \
+    damage_slap: 14, knockback_slap: 0.06, energy_slap: 15, angle_slap: 25, cooldown_slap: 7, \
+    damage_bite: 10, knockback_bite: 0.015, energy_bite: 10, angle_bite: 10, cooldown_bite:4, \
     cooldown_drop: 5, \
     damage_step: 1 \
 }
@@ -136,9 +136,9 @@ data merge storage minecraft:armor {\
     bossbar_display:uFFF4, \
     bossbar_color:yellow, \
     bossbar_style: notched_10, \
-    hp:48, \
+    hp:52, \
     walk_speed:0.13d, \
-    run_speed:0.31d, \
+    run_speed:0.315d, \
     jump:1.6d, \
     type:skeleton_horse, \
     step_height:3.6d, \
@@ -150,12 +150,12 @@ data merge storage minecraft:armor {\
     block_range:10, \
     entity_range:0, \
     energy_decrease: 2,\
-    damage_jabs:15, knockback_jabs:0.01, energy_jabs:20, angle_jabs: 5,\
-    damage_rocket:50, knockback_rocket:0.02, energy_rocket:25, angle_rocket: 10, cooldown_rocket:5, \
-    damage_fortified: 25, knockback_fortified: 0.03, energy_fortified: 50, angle_fortified: 10, cooldown_fortified:20,\
-    damage_onslaught: 25, knockback_onslaught: 0.0, energy_onslaught: 35, angle_onslaught: 0, \
+    damage_jabs:20, knockback_jabs:0.02, energy_jabs:20, angle_jabs: 5,\
+    damage_rocket:50, knockback_rocket:0.04, energy_rocket:25, angle_rocket: 10, cooldown_rocket:10, \
+    damage_fortified: 30, knockback_fortified: 0.04, energy_fortified: 50, angle_fortified: 10, cooldown_fortified:20,\
+    damage_onslaught: 35, knockback_onslaught: 0.0, energy_onslaught: 35, angle_onslaught: 0, \
     damage_impale: 50, knockback_impale: 0.0, energy_impale: 35, angle_impale: 0, cooldown_impale:20,\
-    damage_bite: 16, knockback_bite: 0.01, energy_bite: 10, angle_bite: 5, cooldown_bite:4, \
+    damage_bite: 14, knockback_bite: 0.01, energy_bite: 10, angle_bite: 5, cooldown_bite:4, \
     damage_step: 3.7 \
 }
 
@@ -182,8 +182,9 @@ data merge storage minecraft:jaw {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 2,\
-    damage_bite: 20, knockback_bite: 0.005, energy_bite: 10, angle_bite: 10, cooldown_bite:4, \
-    damage_charge: 60, knockback_charge: 0.01, energy_charge: 10, angle_charge: 40, cooldown_charge:10, \
+    damage_bite: 30, knockback_bite: 0.005, energy_bite: 20, angle_bite: 10, cooldown_bite:7, \
+    damage_slash: 10, knockback_slash: 0.01, energy_slash: 10, angle_slash: 10, cooldown_slash:3, \
+    damage_charge: 50, knockback_charge: 0.01, energy_charge: 30, angle_charge: 40, cooldown_charge:10, \
     energy_jump: 5, \
     energy_hold: 24, \
     damage_step: 1 \

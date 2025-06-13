@@ -19,11 +19,12 @@ $execute if score state $(shifter)_vars matches 2..5 run \
 $scoreboard players set $air $(shifter)_vars 0
 $execute if predicate snc:on_air run scoreboard players set $air $(shifter)_vars 1
 
+$execute store result score #snc.mot_y $(shifter)_vars run data get entity @s Motion[1] 1000
 $execute if score $air $(shifter)_vars matches 0 if score $air_frame $(shifter)_vars matches 1.. run scoreboard players remove $air_frame $(shifter)_vars 2
-$execute if score $air $(shifter)_vars matches 1 if score $air_frame $(shifter)_vars matches ..59 run scoreboard players add $air_frame $(shifter)_vars 1
+$execute if score #snc.mot_y $(shifter)_vars matches ..-1 if score $air_frame $(shifter)_vars matches ..59 run scoreboard players add $air_frame $(shifter)_vars 1
 
 $execute if score $air_frame $(shifter)_vars matches ..0 run function snc:shifters/mobs/saddle
-#$tellraw @a {"score":{"name":"$air_frame","objective":"$(shifter)_vars"}}
+#$execute if score $air $(shifter)_vars matches 1 run tellraw @a {"score":{"name":"$air_frame","objective":"$(shifter)_vars"}}
 
 ## Prevent shifter leaved the world
 $execute on passengers if entity @s[tag=transform] on vehicle run scoreboard players set @s $(shifter)_vars 20

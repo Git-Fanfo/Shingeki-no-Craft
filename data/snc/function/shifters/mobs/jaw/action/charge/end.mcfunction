@@ -1,2 +1,3 @@
 execute on vehicle on passengers if entity @s[tag=transform] run function snc:shifters/mobs/head {"shifter":"jaw", "type":"meat", "frame":1}
 scoreboard players set state jaw_vars 3
+rotate @s ~ 0

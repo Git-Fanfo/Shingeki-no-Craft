@@ -1,1 +1,1 @@
-$item replace entity @s armor.head with carved_pumpkin[item_model="shifters/$(shifter)/bite/$(type)/$(frame)"]
+$execute unless score state $(shifter)_vars matches 9 run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/$(shifter)/bite/$(type)/$(frame)"]

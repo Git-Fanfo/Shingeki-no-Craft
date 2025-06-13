@@ -1,1 +1,1 @@
-$function snc:shifters/combat/damage {"distance":6,"half_distance":2.5,"shifter":"colossal","sound":"minecraft:aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}
+$function snc:shifters/combat/damage {"distance":6,"half_distance":3,"shifter":"colossal","sound":"minecraft:aot.human.gore","damage":$(damage_bite),"knockback":$(knockback_bite),"energy":$(energy_bite),"angle":$(angle_bite)}

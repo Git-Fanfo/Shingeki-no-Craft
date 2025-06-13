@@ -6,4 +6,4 @@ execute if score state attack_vars matches 2 on vehicle rotated ~ 0 positioned ^
 # Bite standing
 execute unless score state attack_vars matches 2 on vehicle on passengers if entity @s[tag=aj.attack.root,tag=!aj.attack.animation.bite.playing] if function snc:shifters/mobs/attack/animate/bite run return -1
 # Regular Bite
-execute if score state attack_vars matches 2 run function snc:shifters/mobs/sight
+execute if score state attack_vars matches 2 on passengers if entity @s[tag=aj.attack.root,tag=!aj.attack.animation.consume.playing] run function snc:shifters/mobs/sight

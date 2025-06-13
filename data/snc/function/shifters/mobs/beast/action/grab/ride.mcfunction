@@ -7,6 +7,6 @@ execute if entity @n[tag=beast_wrap,type=!item_display] run scoreboard players s
 
 # If not found then find
 # armor_stand > snowball > item_display
-execute on passengers on passengers if score $rock beast_vars matches 1 run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:carved_pumpkin",Count:1b,components:{"custom_model_data":61}}}
+execute on passengers on passengers if score $rock beast_vars matches 1 run data merge entity @s {Tags:["snc.projectile","snc.sticky","snc.boulder","snc.boulder.rock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:carved_pumpkin",Count:1b,components:{"custom_model_data":61}}}
 
 scoreboard players set #grab beast_vars 0

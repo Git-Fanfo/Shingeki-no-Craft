@@ -18,3 +18,4 @@ tag @s remove aj.jaw.animation.charge_slash.playing
 tag @s remove aj.jaw.animation.climb_front.playing
 tag @s remove aj.jaw.animation.walk_left.playing
 tag @s remove aj.jaw.animation.walk_right.playing
+tag @s remove aj.jaw.animation.slash.playing

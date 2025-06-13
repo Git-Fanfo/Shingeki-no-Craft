@@ -7,6 +7,7 @@ function snc:shifters/transfer/spaces
 ## Gamemode
 # Combat
 execute if score $gamemode jaw_vars matches 1 run function snc:shifters/mobs/jaw/abilities/atk_1 with storage minecraft:jaw
+execute if score $gamemode jaw_vars matches 1 run function snc:shifters/mobs/jaw/abilities/atk_3 with storage minecraft:jaw
 execute if score $gamemode jaw_vars matches 1 run function snc:shifters/mobs/jaw/abilities/atk_2 with storage minecraft:jaw
 
 # Utility

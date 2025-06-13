@@ -1,0 +1,3 @@
+$execute positioned ~ ~ ~ on vehicle rotated as @s positioned ^ ^ ^2.5 run function snc:shifters/combat/damage {"distance":6,"half_distance":3,"shifter":"jaw","sound":"minecraft:snc.shifters.jaw.climb","damage":$(damage_slash),"knockback":$(knockback_slash),"energy":$(energy_slash),"angle":$(angle_slash)}
+
+execute on vehicle on passengers if entity @s[tag=transform] run playsound minecraft:entity.illusioner.cast_spell player @s ~ ~ ~ 5 1
