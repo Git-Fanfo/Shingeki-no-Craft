@@ -1,5 +1,5 @@
 # Shot
-$summon snowball ^ ^ ^1 {Tags:["not_mov","motion_flare","$(color)","snc.projectile"],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
+$summon snowball ^ ^ ^1 {Tags:["not_mov","motion_flare","$(color)","snc.projectile"],Item:{id:"minecraft:arrow",count:1b,components:{"item_model":"item/blank"}}}
 
 playsound minecraft:aot.human.gun.flare player @a[distance=..15] ~ ~ ~ 1 1
 advancement grant @s only snc:survey/flare

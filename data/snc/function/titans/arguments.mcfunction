@@ -169,7 +169,7 @@ data merge storage minecraft:p_col {\
     scale: 16, \
     model_scale : 22.15, \
     step_height: 1.6, \
-    body: [{id:"minecraft:zombie_villager",Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan"],ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b,components:{"custom_model_data":1000}}],attributes:[{id:"scale",base:15}]}], \
+    body: [{id:"minecraft:zombie_villager",Fire:20,Silent:1b,NoAI:1b,Size:3,Tags:["hurtbox","titan"],ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b,components:{"item_model":"titan/colossal/h1"}}],attributes:[{id:"scale",base:15}]}], \
     speed: 0.6, \
     dmg_footstep: 7, \
     dmg_1: 10, \

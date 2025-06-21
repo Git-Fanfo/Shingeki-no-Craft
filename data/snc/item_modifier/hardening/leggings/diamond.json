@@ -5,7 +5,6 @@
         "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.diamond_leggings\"}]",
         "rarity":"rare",
         "max_damage":595,
-        "custom_model_data": 1,
         "minecraft:attribute_modifiers": {
             "modifiers": [
                 {

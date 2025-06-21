@@ -5,7 +5,6 @@
         "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.netherite_boots\"}]",
         "rarity":"epic",
         "max_damage":692,
-        "custom_model_data": 1,
         "minecraft:attribute_modifiers": {
             "modifiers": [
                 {

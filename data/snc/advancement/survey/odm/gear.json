@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:warped_fungus_on_a_stick",
             "components": {
-                "minecraft:custom_model_data": 3
+                "minecraft:item_model": "manuever/odm_gear/mode_1/empty"
             }
         },
         "frame": "task",

@@ -1,1 +1,1 @@
-function snc:eldia/villager/summon {"tags":"\"snc.vill.9\",\"happy\",\"woman\"","name":"Hannah","head":9}
+function snc:eldia/villager/summon {"tags":"\"happy\",\"woman\"","name":"Hannah","model":"hannah"}

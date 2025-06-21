@@ -5,7 +5,6 @@
         "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.golden_leggings\"}]",
         "rarity":"common",
         "max_damage":205,
-        "custom_model_data": 1,
         "minecraft:attribute_modifiers": {
             "modifiers": [
                 {

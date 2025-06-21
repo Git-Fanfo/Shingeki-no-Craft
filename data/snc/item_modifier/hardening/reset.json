@@ -5,7 +5,6 @@
         "!custom_name":{},
         "!rarity":{},
         "!max_damage":{},
-        "!custom_model_data": {},
         "!attribute_modifiers": {}
     }
 }

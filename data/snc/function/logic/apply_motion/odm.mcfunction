@@ -1,4 +1,4 @@
-$data merge entity @s {Duration:0,Tags:["snc.projectile","snc.hook"],Owner:$(UUID),damage:0,item:{id:"minecraft:arrow",count:1,components:{"custom_model_data":1}}}
+$data merge entity @s {Duration:0,Tags:["snc.projectile","snc.hook"],Owner:$(UUID),damage:0,item:{id:"minecraft:arrow",count:1,components:{"item_model":"item/blank"}}}
 
 execute store result score @s snc.mot_x0 run data get entity @s Pos[0] 1000
 execute store result score @s snc.mot_y0 run data get entity @s Pos[1] 1000

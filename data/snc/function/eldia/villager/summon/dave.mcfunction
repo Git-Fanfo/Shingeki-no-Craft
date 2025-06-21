@@ -1,1 +1,1 @@
-function snc:eldia/villager/summon {"tags":"\"snc.vill.13\",\"wise\"","name":"Dave","head":13}
+function snc:eldia/villager/summon {"tags":"\"wise\"","name":"Dave","model":"dave"}

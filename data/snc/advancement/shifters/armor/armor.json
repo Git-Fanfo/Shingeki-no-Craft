@@ -11,7 +11,10 @@
         "icon": {
             "id": "golden_chestplate",
             "components": {
-                "minecraft:custom_model_data": 1
+                "trim":{
+                    "material": "hardening",
+                    "pattern": "armored"
+                }
             }
         },
         "frame": "goal",

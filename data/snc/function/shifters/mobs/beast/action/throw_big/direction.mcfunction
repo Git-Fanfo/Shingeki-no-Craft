@@ -1,1 +1,1 @@
-execute as @p[scores={beast_vars=1}] anchored eyes run summon snowball ^ ^ ^1 {Tags:["not_mov","motion_throw_big","beast"],Item:{id:"minecraft:arrow",Count:1b,components:{"custom_model_data":1}}}
+execute as @p[scores={beast_vars=1}] anchored eyes run summon snowball ^ ^ ^1 {Tags:["not_mov","motion_throw_big","beast"],Item:{id:"minecraft:arrow",count:1b,components:{"item_model":"item/blank"}}}

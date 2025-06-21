@@ -1,1 +1,1 @@
-item replace entity @s container.2 with carrot_on_a_stick[enchantment_glint_override=true,custom_model_data=45,custom_data={stop:1b,atk_shifter:1b,pure_titan:1b},custom_name='{"translate":"aot.pure.stop","color":"aqua","italic":false}']
+item replace entity @s container.2 with carrot_on_a_stick[enchantment_glint_override=true,item_model="shifters/item/stop",custom_data={stop:1b,atk_shifter:1b,pure_titan:1b},custom_name='{"translate":"aot.pure.stop","color":"aqua","italic":false}']

@@ -1,1 +1,1 @@
-function snc:eldia/villager/summon_npc {"tags":"\"julian\",\"busy\"","name":"Julian","head":29}
+function snc:eldia/villager/summon {"tags":"\"busy\"","name":"Julian","model":"julian"}

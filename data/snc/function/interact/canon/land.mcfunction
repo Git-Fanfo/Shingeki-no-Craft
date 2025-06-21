@@ -1,6 +1,6 @@
 kill
 
-summon firework_rocket ~ ~ ~ {Owner:[I;1,1,1,1],Tags:["snc.projectile","snc.break.hardening","snc.canon"],LifeTime:1,FireworksItem:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_model_data":1,"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;6498833]},{shape:"star",colors:[I;4665906]}]}}}}
+summon firework_rocket ~ ~ ~ {Owner:[I;1,1,1,1],Tags:["snc.projectile","snc.break.hardening","snc.canon"],LifeTime:1,FireworksItem:{id:"minecraft:arrow",count:1,components:{"item_model":"item/blank","minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;6498833]},{shape:"star",colors:[I;4665906]}]}}}}
 # Get the UUID from the player that shoot the projectile
 data modify entity @e[type=firework_rocket,sort=nearest,limit=1] Owner set from entity @s item.components."minecraft:profile".id
 

@@ -7,6 +7,6 @@ data merge entity @s {VillagerData:{profession:"minecraft:nitwit"}}
 execute if score @s projectile matches 70 run scoreboard players set @s projectile 0
 scoreboard players add @s projectile 1
 
-execute on passengers run data merge entity @s[type=armor_stand] {ArmorItems:[{},{},{},{id:'minecraft:arrow',Count:1b,components:{"custom_model_data":3}}]}
+execute on passengers run data merge entity @s[type=armor_stand] {ArmorItems:[{},{},{},{id:'minecraft:arrow',Count:1b,components:{"item_model":"manuever/villager_body"}}]}
 
 execute if entity @s[tag=near] run function snc:eldia/villager/soldier/odm

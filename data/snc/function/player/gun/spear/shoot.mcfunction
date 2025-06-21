@@ -1,5 +1,5 @@
 execute store result score @n[tag=snc.spear] snc.rotation_x run data get entity @s Rotation[0]
-## Spawn armor stand with a player's head initialized with id and custom_model_data=1
+## Spawn armor stand with a player's head initialized with id
 ## Copy ID from @s
 ## Transfer the ID from @s
 

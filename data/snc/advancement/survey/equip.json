@@ -1,12 +1,9 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:leather_chestplate",
+            "id": "minecraft:flint",
             "components": {
-                "minecraft:dyed_color":{
-                    "rgb":16777215,
-                    "show_in_tooltip":false
-                },"custom_model_data":1
+                "item_model":"military/scouts/explore/cape"
             }
         },
         "title": {

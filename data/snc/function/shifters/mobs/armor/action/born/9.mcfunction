@@ -1,2 +1,2 @@
-execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[custom_model_data=75]
+execute on vehicle on passengers if entity @s[type=player] run item replace entity @s armor.head with carved_pumpkin[item_model="shifters/armor/bite/5/5"]
 execute positioned ~ ~3 ~ run function snc:titans/volt/spawn

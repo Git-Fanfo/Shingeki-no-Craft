@@ -5,7 +5,6 @@
         "custom_name":"[{\"text\":\"\",\"italic\":false},{\"translate\":\"aot.ability.hardening.hardened\"},\" \",{\"translate\":\"item.minecraft.chainmail_helmet\"}]",
         "rarity":"uncommon",
         "max_damage":265,
-        "custom_model_data": 1,
         "minecraft:attribute_modifiers": {
             "modifiers": [
                 {

@@ -19,6 +19,5 @@ $execute if entity @s[tag=attack] if score @s atk matches 71..140 run function s
 $execute if entity @s[tag=!attack,tag=walk] run function snc:titans/mobs/$(id)/animate/walk
 $execute if entity @s[tag=!attack,tag=!walk] run function snc:titans/mobs/$(id)/animate/idle
 
-data modify entity @s item.components.minecraft:custom_model_data set value 100
 execute on vehicle unless function snc:titans/ai/attack run return -1
 $execute on vehicle at @s on passengers rotated ~ 0 positioned ^ ^ ^2 run function snc:titans/mobs/$(id)/attack/main
