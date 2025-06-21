@@ -8,7 +8,7 @@
     "components": {
       "custom_data":{"scouts_dark":true, "snc_item":1},
       "item_model": "military/scouts/assault/cape",
-      "equippable":{"slot": "chest","model":"snc:scouts_dark"},
+      "equippable":{"slot": "chest","asset_id":"snc:scouts_dark"},
       "minecraft:enchantments":{"levels":{"snc:scouts/exclusive": 1,"snc:scouts/cape": 1, "minecraft:projectile_protection": 2},"show_in_tooltip":false},
       "enchantment_glint_override":false,
       "minecraft:item_name":"[{\"translate\":\"aot.surveycape\",\"color\":\"white\",\"italic\":false},\" \",{\"translate\":\"aot.scouts.assault\",\"color\":\"dark_red\"}]",
