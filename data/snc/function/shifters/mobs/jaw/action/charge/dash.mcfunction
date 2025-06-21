@@ -1,1 +1,1 @@
-execute on vehicle at @s rotated as @n[tag=transform] run function snc:logic/motion/generic {"score":"jaw_vars","strength":0.03, "unstoppable":"true"}
+execute on vehicle at @s rotated as @n[tag=transform] run function snc:logic/motion/generic {"score":"jaw_vars","strength":0.035, "unstoppable":"true"}

@@ -88,12 +88,12 @@ data merge storage minecraft:attack {\
     entity_range:0, \
     energy_decrease: 2,\
     energy_block:20, cooldown_block:3, \
-    damage_punch_1:14, knockback_punch_1:0.015, energy_punch_1:25, angle_punch_1: 5, \
-    damage_punch_2:15, knockback_punch_2:0.015, energy_punch_2:20, angle_punch_2: 5, \
-    damage_punch_3:20, knockback_punch_3:0.015, energy_punch_3:15, angle_punch_3: 90, cooldown_punch:5, \
-    damage_kick_1:16, knockback_kick_1:0.015, energy_kick_1:20, angle_kick_1: 5, \
-    damage_kick_2:18, knockback_kick_2:0.015, energy_kick_2:15, angle_kick_2: 5, \
-    damage_kick_3:20, knockback_kick_3:0.01, energy_kick_3:10, angle_kick_3: 45, cooldown_kick:6, \
+    damage_punch_1:12, knockback_punch_1:0.015, energy_punch_1:25, angle_punch_1: 5, \
+    damage_punch_2:14, knockback_punch_2:0.015, energy_punch_2:20, angle_punch_2: 5, \
+    damage_punch_3:16, knockback_punch_3:0.015, energy_punch_3:15, angle_punch_3: 90, cooldown_punch:5, \
+    damage_kick_1:14, knockback_kick_1:0.015, energy_kick_1:20, angle_kick_1: 5, \
+    damage_kick_2:16, knockback_kick_2:0.015, energy_kick_2:15, angle_kick_2: 5, \
+    damage_kick_3:18, knockback_kick_3:0.01, energy_kick_3:10, angle_kick_3: 45, cooldown_kick:6, \
     damage_bite: 12, knockback_bite: 0.015, energy_bite: 5, angle_bite: 5, cooldown_bite:4, \
     damage_step: 3 \
 }
@@ -156,7 +156,7 @@ data merge storage minecraft:armor {\
     damage_onslaught: 35, knockback_onslaught: 0.0, energy_onslaught: 35, angle_onslaught: 0, \
     damage_impale: 50, knockback_impale: 0.0, energy_impale: 35, angle_impale: 0, cooldown_impale:20,\
     damage_bite: 14, knockback_bite: 0.01, energy_bite: 10, angle_bite: 5, cooldown_bite:4, \
-    damage_step: 3.7 \
+    damage_step: 4 \
 }
 
 # Also, scale is already good
@@ -168,7 +168,7 @@ data merge storage minecraft:jaw {\
     bossbar_display:uFFF5, \
     bossbar_color:yellow, \
     bossbar_style: notched_6, \
-    hp:32, \
+    hp:28, \
     walk_speed:0.13d, \
     run_speed:0.6d, \
     type:skeleton_horse, \
@@ -182,9 +182,9 @@ data merge storage minecraft:jaw {\
     block_range:7, \
     entity_range:7, \
     energy_decrease: 2,\
-    damage_bite: 30, knockback_bite: 0.005, energy_bite: 20, angle_bite: 10, cooldown_bite:7, \
+    damage_bite: 36, knockback_bite: 0.005, energy_bite: 20, angle_bite: 10, cooldown_bite:7, \
     damage_slash: 10, knockback_slash: 0.01, energy_slash: 10, angle_slash: 10, cooldown_slash:3, \
-    damage_charge: 50, knockback_charge: 0.01, energy_charge: 30, angle_charge: 40, cooldown_charge:10, \
+    damage_charge: 50, knockback_charge: 0.01, energy_charge: 30, angle_charge: 40, cooldown_charge:8, \
     energy_jump: 5, \
     energy_hold: 24, \
     damage_step: 1 \

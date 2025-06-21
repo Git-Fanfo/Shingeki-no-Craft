@@ -1,1 +1,1 @@
-execute on vehicle at @s rotated ~ -45 run function snc:logic/motion/generic {"score":"armor_vars","strength":0.015, "unstoppable":"false"}
+execute on vehicle at @s rotated ~ -40 run function snc:logic/motion/generic {"score":"armor_vars","strength":0.017, "unstoppable":"false"}
